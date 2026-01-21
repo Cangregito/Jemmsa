@@ -1,0 +1,20 @@
+{
+  "name": "jemma",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sitio de la empresa de sillas Jemma (estructura MVC)",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
