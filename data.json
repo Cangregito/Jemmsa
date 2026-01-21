@@ -304,14 +304,177 @@
         ]
       }
     },
-    "ejecutivos": [
-      {
-        "id": 2,
-        "name": "Silla ErgoPro",
-        "material": "Malla y acero",
-        "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+    "ejecutivos": {
+      "quo": {
+        "id": "quo",
+        "name": "QUO",
+        "description": "Línea QUO de sillas ejecutivas",
+        "products": [
+          {
+            "id": "quo-01",
+            "name": "QUO",
+            "material": "Malla y acero",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "dillon": {
+        "id": "dillon",
+        "name": "DILLON",
+        "description": "Línea DILLON de sillas ejecutivas",
+        "products": [
+          {
+            "id": "ohe-35",
+            "name": "DILLON modelo OHE-35",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "draco": {
+        "id": "draco",
+        "name": "DRACO",
+        "description": "Línea DRACO de sillas ejecutivas",
+        "products": [
+          {
+            "id": "ohe-605",
+            "name": "DRACO modelo OHE-605 negro",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "bio": {
+        "id": "bio",
+        "name": "BIO",
+        "description": "Línea BIO de sillas ejecutivas",
+        "products": [
+          {
+            "id": "bio-01",
+            "name": "BIO",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "croma": {
+        "id": "croma",
+        "name": "CROMA",
+        "description": "Línea CROMA de sillas ejecutivas",
+        "products": [
+          {
+            "id": "croma-01",
+            "name": "CROMA",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "equa": {
+        "id": "equa",
+        "name": "EQUA",
+        "description": "Línea EQUA de sillas ejecutivas",
+        "products": [
+          {
+            "id": "equa-01",
+            "name": "EQUA",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "crew": {
+        "id": "crew",
+        "name": "CREW",
+        "description": "Línea CREW de sillas ejecutivas",
+        "products": [
+          {
+            "id": "crew-01",
+            "name": "CREW",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "aiko": {
+        "id": "aiko",
+        "name": "AIKO",
+        "description": "Línea AIKO de sillas ejecutivas",
+        "products": [
+          {
+            "id": "aiko-01",
+            "name": "AIKO",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "athelier": {
+        "id": "athelier",
+        "name": "ATHELIER",
+        "description": "Línea ATHELIER de sillas ejecutivas",
+        "products": [
+          {
+            "id": "athelier-01",
+            "name": "ATHELIER",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "soho": {
+        "id": "soho",
+        "name": "SOHO",
+        "description": "Línea SOHO de sillas ejecutivas",
+        "products": [
+          {
+            "id": "soho-01",
+            "name": "SOHO",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "nebula": {
+        "id": "nebula",
+        "name": "NÉBULA",
+        "description": "Línea NÉBULA de sillas ejecutivas",
+        "products": [
+          {
+            "id": "ohe-133plus",
+            "name": "NÉBULA modelo OHE-133plus",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "wicker": {
+        "id": "wicker",
+        "name": "WICKER",
+        "description": "Línea WICKER de sillas ejecutivas",
+        "products": [
+          {
+            "id": "wicker-01",
+            "name": "WICKER",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "tripoli": {
+        "id": "tripoli",
+        "name": "TRIPOLI",
+        "description": "Línea TRIPOLI de sillas ejecutivas",
+        "products": [
+          {
+            "id": "tripoli-01",
+            "name": "TRIPOLI",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       }
-    ],
+    },
     "operativos": [
       {
         "id": 3,
