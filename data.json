@@ -311,9 +311,27 @@
         "description": "Línea QUO de sillas ejecutivas",
         "products": [
           {
-            "id": "quo-01",
-            "name": "QUO",
-            "material": "Malla y acero",
+            "id": "ohe-805negro",
+            "name": "QUO modelo OHE-805negro",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohe-805blanco",
+            "name": "QUO modelo OHE-805blanco",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohe-803",
+            "name": "QUO modelo OHE-803",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohe-803blanco",
+            "name": "QUO modelo OHE-803blanco",
+            "material": "Malla",
             "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
           }
         ]
