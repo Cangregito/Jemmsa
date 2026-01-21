@@ -660,20 +660,44 @@
           {
             "id": "ohe-703gris",
             "name": "AIKO modelo OHE-703gris",
-            "material": "Malla",
-            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+            "material": "Malla gris y tela gris",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop",
+            "base": "Estrella de 5 puntas en acero cromado, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión del reclinado",
+            "brazos": "Tipo 2D de polipropileno semi-rígido con pad de poliuretano negro, con 10 posiciones de ajuste",
+            "respaldo": "En malla de diseño ergonómico color gris, con soporte lumbar",
+            "asiento": "Hule espuma laminado flexible de densidad 40 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo de malla gris y asiento en tela color gris",
+            "capacidad": "170 kg"
           },
           {
             "id": "ohe-705",
             "name": "AIKO modelo OHE-705",
-            "material": "Malla",
-            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+            "material": "Malla negra y tela negra",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop",
+            "base": "Estrella de 5 puntas en acero cromado, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión del reclinado",
+            "brazos": "Tipo 2D de polipropileno semi-rígido con pad de poliuretano, con 10 posiciones de ajuste",
+            "respaldo": "En malla de diseño ergonómico con cabecera",
+            "asiento": "Hule espuma laminado flexible con densidad de 40 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo en malla color negro y asiento en tela color negro",
+            "capacidad": "170 kg"
           },
           {
             "id": "ohe-703",
             "name": "AIKO modelo OHE-703",
-            "material": "Malla",
-            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+            "material": "Malla negra y tela negra",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop",
+            "base": "Estrella de 5 puntas en acero cromado, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión del reclinado",
+            "brazos": "Tipo 2D de polipropileno semi-rígido con pad de poliuretano, con 10 posiciones",
+            "respaldo": "En malla de diseño ergonómico con soporte lumbar",
+            "asiento": "Hule espuma laminado flexible de densidad 40 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo de malla color negro y asiento en tela color negro",
+            "capacidad": "170 kg"
           }
         ]
       },
