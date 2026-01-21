@@ -198,7 +198,16 @@
           {
             "id": "ohv-208",
             "name": "GOETZ modelo OHV-208 negro",
-            "material": "Cuero premium",
+            "material": "Soft revolving leather color negro",
+            "description": "Silla directiva de respaldo bajo con base tipo trineo, tapizada en soft revolving leather color negro, con peso sugerido de uso hasta 120 kg.",
+            "specifications": {
+              "base": "Trineo de acero tubular redondo de 1\" de diámetro, calibre 14, con terminado en cromo",
+              "asiento": "Pieza baja de un solo corte tensada con la estructura para dar una suspensión que se adapta al cuerpo, tapizada en soft revolving leather y acojinada con hule espuma laminada flexible de 17 kg/m³ y alta resiliencia; estructura de acero tubular cromada",
+              "brazos": "Aluminio fundido y pulidos, con terminado en cromo",
+              "color": "Negro",
+              "capacidad": "Peso sugerido 120 kg",
+              "nota": "El color puede variar según el monitor"
+            },
             "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
           }
         ]
