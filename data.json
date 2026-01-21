@@ -787,8 +787,16 @@
           {
             "id": "ohe-133plus",
             "name": "NÉBULA modelo OHE-133plus",
-            "material": "Malla",
-            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+            "material": "Malla negra y tela negra",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop",
+            "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajuste de altura del asiento",
+            "mecanismo": "De acero tipo articulado synchro con anti-shock y bloqueo del pistón neumático",
+            "brazos": "De polipropileno semirrígido ajustables en 7 posiciones",
+            "respaldo": "Malla de diseño ergonómico con soporte lumbar ajustable",
+            "asiento": "Tapa protectora en polipropileno y hule espuma laminada flexible, densidad 55 kg/m³, retardante a la flama",
+            "tapiz": "Respaldo en malla negra y asiento en tela 100% poliéster color negro, con funda tapizada y pespuntada; no se puede retapizar",
+            "capacidad": "150 kg"
           }
         ]
       },
