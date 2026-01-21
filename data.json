@@ -752,14 +752,30 @@
           {
             "id": "ohe-95blanco",
             "name": "SOHO modelo OHE-95blanco",
-            "material": "Malla",
-            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+            "material": "Malla gris y tapiz personalizado",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop",
+            "base": "Estrella de 5 puntas en fundición de aluminio, terminada en aluminio pulido, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "De acero reforzado tipo articulado synchro con anti-shock, palanca para accionar el pistón, palanca de bloqueo del ángulo del respaldo y asiento tipo slider con botón de accionamiento",
+            "brazos": "Tipo 4D, giratorios y ajustables en altura, en polipropileno semi-rígido con pad de poliuretano",
+            "respaldo": "En malla de diseño ergonómico con cabecera",
+            "asiento": "Hule espuma de poliuretano inyectado flexible, densidad 60 kg/m³, con retardante a la flama y alta resiliencia",
+            "tapiz": "Respaldo de malla color gris y asiento tapizado al color de elección",
+            "capacidad": "180 kg"
           },
           {
             "id": "ohe-95negro",
             "name": "SOHO modelo OHE-95negro",
-            "material": "Malla",
-            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+            "material": "Malla negra y tela negra",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop",
+            "base": "Estrella de 5 puntas en fundición de aluminio, terminada en aluminio pulido, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajuste de altura del asiento",
+            "mecanismo": "Acero reforzado tipo articulado synchro con anti-shock, palanca para accionar el pistón y palanca para bloqueo del ángulo del respaldo, asiento tipo slider con botón de accionamiento",
+            "brazos": "Tipo 4D, giratorios y ajustables en altura, en polipropileno semi-rígido con pad de poliuretano",
+            "respaldo": "Malla de diseño ergonómico con cabecera",
+            "asiento": "Hule espuma de poliuretano inyectado flexible, densidad 60 kg/m³, retardante a la flama y de alta resiliencia",
+            "tapiz": "Respaldo en malla color negro y asiento en tela color negro",
+            "capacidad": "180 kg"
           }
         ]
       },
