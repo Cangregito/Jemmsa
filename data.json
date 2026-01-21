@@ -263,7 +263,18 @@
           {
             "id": "vanto-ohv-78",
             "name": "VANTO modelo OHV-78",
-            "material": "Cuero",
+            "material": "Soft revolving leather color negro mate",
+            "description": "Silla directiva de respaldo medio con base tipo trineo, tapizada en soft revolving leather color negro mate, con peso sugerido de uso hasta 140 kg.",
+            "specifications": {
+              "base": "Trineo en acero tubular redondo, de una sola pieza soldado a la estructura, con acabado cromado en la estructura y aluminio pulido en los brazos",
+              "diseño": "Ergonómico, respaldo medio",
+              "brazos": "Parte de la misma estructura, conificados y trapezoidales en poliamida de alta resistencia, sujetos mediante herrajes de aluminio inyectado y fundido",
+              "respaldo": "Bastidor de poliamida de alta densidad de una sola pieza con diseño ergonómico, soporte lumbar y estructura preparada para sujeción de brazos y tornillería oculta",
+              "asiento": "Bastidor de poliamida de alta densidad con base y tapa protectora en polipropileno de alta densidad, acojinado con hule espuma de poliuretano inyectado con retardante a la flama, densidad 60 kg/m³ y alta resiliencia",
+              "tapiz": "Soft revolving leather color negro mate",
+              "capacidad": "Peso sugerido 140 kg",
+              "nota": "El color puede variar según el monitor"
+            },
             "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
           }
         ]
