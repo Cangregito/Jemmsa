@@ -239,6 +239,18 @@
             "id": "ohe-163",
             "name": "FENIX modelo OHE-163 negro",
             "material": "Soft revolving leather color negro",
+            "description": "Silla directiva de respaldo medio, tapizada en soft revolving leather color negro, con peso sugerido de uso hasta 150 kg.",
+            "specifications": {
+              "base": "Estrella de 5 puntas en acero fundido y cromado, con rodajas tipo dual de 60 mm",
+              "elevacion": "Pistón neumático para ajustar la altura del asiento",
+              "mecanismo": "Basculante en solera de acero, con sistema de reclinación, palanca de bloqueo, perilla para regular la tensión y palanca de bloqueo para la inclinación del respaldo",
+              "brazos": "Aluminio fundido y pulidos, terminado natural, con pad de polipropileno rígido de alta resistencia",
+              "respaldo": "Medio, con estructura de acero y base de madera, acojinado con hule espuma laminada flexible de densidad 50 kg/m³ y alta resiliencia",
+              "asiento": "Base de madera con hule espuma laminada flexible de densidad 50 kg/m³ y alta resiliencia",
+              "tapiz": "Soft revolving leather color negro",
+              "capacidad": "Peso sugerido 150 kg",
+              "nota": "El color puede variar según el monitor"
+            },
             "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
           }
         ]
