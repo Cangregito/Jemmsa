@@ -589,8 +589,26 @@
         "description": "Línea CREW de sillas ejecutivas",
         "products": [
           {
-            "id": "crew-01",
-            "name": "CREW",
+            "id": "ohe-112gris",
+            "name": "CREW modelo OHE-112gris",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohe-112griscabecera",
+            "name": "CREW modelo OHE-112griscabecera",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohe-112negro",
+            "name": "CREW modelo OHE-112negro",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohe-112negrocabecera",
+            "name": "CREW modelo OHE-112negrocabecera",
             "material": "Malla",
             "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
           }
