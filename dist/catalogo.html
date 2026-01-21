@@ -19,69 +19,27 @@
 
   <main class="max-w-5xl mx-auto px-4 py-10 space-y-6">
     <section class="space-y-4">
-      <h2 class="text-2xl font-semibold text-blue-600">Catálogo de sillas</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        <article class="border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm">
-          <div class="aspect-[4/3] bg-slate-50">
-            <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop" alt="Silla ErgoPro">
-          </div>
-          <div class="p-4 space-y-1">
-            <h3 class="text-lg font-medium">Silla ErgoPro</h3>
-            <p class="text-slate-500">Malla y acero</p>
-            <p class="font-semibold">$129.99</p>
-          </div>
-        </article>
-        <article class="border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm">
-          <div class="aspect-[4/3] bg-slate-50">
-            <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" alt="Silla Nordic">
-          </div>
-          <div class="p-4 space-y-1">
-            <h3 class="text-lg font-medium">Silla Nordic</h3>
-            <p class="text-slate-500">Madera y polipropileno</p>
-            <p class="font-semibold">$89.50</p>
-          </div>
-        </article>
-        <article class="border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm">
-          <div class="aspect-[4/3] bg-slate-50">
-            <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop" alt="Silla Executive">
-          </div>
-          <div class="p-4 space-y-1">
-            <h3 class="text-lg font-medium">Silla Executive</h3>
-            <p class="text-slate-500">Cuero sintético</p>
-            <p class="font-semibold">$159.00</p>
-          </div>
-        </article>
-        <article class="border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm">
-          <div class="aspect-[4/3] bg-slate-50">
-            <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop" alt="Silla Minimal">
-          </div>
-          <div class="p-4 space-y-1">
-            <h3 class="text-lg font-medium">Silla Minimal</h3>
-            <p class="text-slate-500">Metal y madera</p>
-            <p class="font-semibold">$74.90</p>
-          </div>
-        </article>
-        <article class="border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm">
-          <div class="aspect-[4/3] bg-slate-50">
-            <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop" alt="Silla Lounge">
-          </div>
-          <div class="p-4 space-y-1">
-            <h3 class="text-lg font-medium">Silla Lounge</h3>
-            <p class="text-slate-500">Tela y madera curvada</p>
-            <p class="font-semibold">$199.00</p>
-          </div>
-        </article>
-        <article class="border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm">
-          <div class="aspect-[4/3] bg-slate-50">
-            <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop" alt="Silla Studio">
-          </div>
-          <div class="p-4 space-y-1">
-            <h3 class="text-lg font-medium">Silla Studio</h3>
-            <p class="text-slate-500">Plástico reciclado</p>
-            <p class="font-semibold">$59.99</p>
-          </div>
-        </article>
+      <h2 class="text-2xl font-semibold text-blue-600">Catálogo de productos</h2>
+      
+      <!-- Selector de categorías -->
+      <div class="flex flex-wrap gap-2">
+        <button class="category-btn px-3 py-1 rounded-md bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 active" data-category="all">Todas</button>
+        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="directivos">Directivos</button>
+        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="ejecutivos">Ejecutivos</button>
+        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="operativos">Operativos</button>
+        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="industrial">Industrial</button>
+        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="accesorios">Accesorios</button>
+        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="visitantes-interior">Visitantes Interior</button>
+        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="visitantes-exterior">Visitantes Exterior</button>
+        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="mesas">Mesas</button>
+        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="bancos">Bancos</button>
+        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="confortables">Confortables</button>
+        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="bancas">Bancas</button>
+        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="escolar">Escolar</button>
       </div>
+
+      <!-- Grid de productos -->
+      <div id="products-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"></div>
     </section>
   </main>
 
@@ -90,5 +48,68 @@
       <p class="text-slate-500">© 2026 Jemmsa — Sillas y confort</p>
     </div>
   </footer>
+
+  <script>
+    const catalogData = {
+      "products": {
+        "directivos": [{ "id": 1, "name": "Silla Presidencial Lujo", "material": "Cuero genuino y aluminio", "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop" }],
+        "ejecutivos": [{ "id": 2, "name": "Silla ErgoPro", "material": "Malla y acero", "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop" }],
+        "operativos": [{ "id": 3, "name": "Silla Operativa", "material": "Mesh y base nylon", "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }],
+        "industrial": [{ "id": 4, "name": "Silla Industrial PRO", "material": "Acero reforzado", "image": "https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop" }],
+        "accesorios": [{ "id": 5, "name": "Almohada Ergonómica", "material": "Espuma viscoelástica", "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?q=80&w=800&auto=format&fit=crop" }],
+        "visitantes-interior": [{ "id": 6, "name": "Silla Visitante Modular", "material": "Polipropileno", "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop" }],
+        "visitantes-exterior": [{ "id": 7, "name": "Silla Exterior Resistente", "material": "Plástico reciclado", "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop" }],
+        "mesas": [{ "id": 8, "name": "Mesa de Trabajo Ajustable", "material": "Madera y acero", "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }],
+        "bancos": [{ "id": 9, "name": "Banco Alto de Bar", "material": "Metal y madera", "image": "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=800&auto=format&fit=crop" }],
+        "confortables": [{ "id": 10, "name": "Silla Lounge Premium", "material": "Tela y madera curvada", "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }],
+        "bancas": [{ "id": 11, "name": "Banca Modular 3 Plazas", "material": "Tapizado y estructura", "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop" }],
+        "escolar": [{ "id": 12, "name": "Pupitre Escolar Infantil", "material": "Madera y acero", "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop" }]
+      }
+    };
+
+    let currentCategory = 'all';
+
+    function renderProducts(category) {
+      const grid = document.getElementById('products-grid');
+      grid.innerHTML = '';
+      let productsToShow = [];
+      if (category === 'all') {
+        Object.keys(catalogData.products).forEach(cat => {
+          productsToShow = productsToShow.concat(catalogData.products[cat]);
+        });
+      } else {
+        productsToShow = catalogData.products[category] || [];
+      }
+      productsToShow.forEach(product => {
+        const article = document.createElement('article');
+        article.className = 'border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm';
+        article.innerHTML = `
+          <div class="aspect-[4/3] bg-slate-50">
+            <img class="w-full h-full object-cover" src="${product.image}" alt="${product.name}">
+          </div>
+          <div class="p-4 space-y-1">
+            <h3 class="text-lg font-medium">${product.name}</h3>
+            <p class="text-slate-500">${product.material}</p>
+          </div>
+        `;
+        grid.appendChild(article);
+      });
+    }
+
+    document.querySelectorAll('.category-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.category-btn').forEach(b => {
+          b.classList.remove('bg-blue-600', 'text-white');
+          b.classList.add('bg-slate-200', 'text-slate-700');
+        });
+        btn.classList.remove('bg-slate-200', 'text-slate-700');
+        btn.classList.add('bg-blue-600', 'text-white');
+        currentCategory = btn.dataset.category;
+        renderProducts(currentCategory);
+      });
+    });
+
+    renderProducts('all');
+  </script>
 </body>
 </html>
