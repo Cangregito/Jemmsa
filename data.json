@@ -417,7 +417,19 @@
           {
             "id": "ohe-605",
             "name": "DRACO modelo OHE-605 negro",
-            "material": "Malla",
+            "material": "Malla de alta resistencia color negro",
+            "description": "Silla ejecutiva en malla, con cabecera y soporte lumbar ajustables, y peso sugerido de uso hasta 130 kg.",
+            "specifications": {
+              "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
+              "elevacion": "Pistón neumático para ajustar la altura del asiento",
+              "mecanismo": "Multimodal de dos palancas en acero; una palanca acciona y bloquea el pistón neumático y la otra acciona y bloquea la inclinación del reclinaje, con perilla para regular la tensión",
+              "brazos": "Polipropileno semi-rígido con pad de poliuretano, ajustables en 10 posiciones",
+              "respaldo": "Malla de diseño ergonómico con soporte lumbar y cabecera ajustable con sistema flotante",
+              "asiento": "Malla de diseño ergonómico, con parte frontal en hule espuma de poliuretano inyectado flexible de densidad 50 kg/m³",
+              "tapiz": "Malla de alta resistencia compuesta de elastano y polipropileno color negro",
+              "capacidad": "Peso sugerido 130 kg",
+              "nota": "El color puede variar según el monitor"
+            },
             "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
           }
         ]
