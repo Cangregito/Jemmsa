@@ -10,18 +10,88 @@
   <div id="header-container"></div>
   <div id="navbar-container"></div>
 
-  <main class="ml-64 px-4 py-10 space-y-6">
-    <section class="space-y-3">
-      <p class="text-sm uppercase tracking-wide text-blue-600 font-semibold">Sillas de diseño</p>
-      <h2 class="text-3xl font-bold text-slate-900">Bienvenido a Jemmsa</h2>
-      <p class="text-lg text-slate-700 max-w-2xl">
-        Sitio estático sin base de datos. Explora nuestro catálogo de sillas cómodas y modernas listo para publicar en Hostinger.
-      </p>
-      <div class="flex items-center gap-3">
-        <a href="./catalogo.html" class="inline-flex items-center px-4 py-2 rounded-md bg-blue-600 text-white font-medium hover:bg-blue-700">Ver catálogo</a>
-      </div>
-    </section>
-    </main>
+  <main class="ml-64 px-8 py-16">
+    <div class="max-w-7xl mx-auto">
+      <!-- Hero Section -->
+      <section class="mb-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div class="space-y-6">
+            <p class="text-sm uppercase tracking-widest text-blue-600 font-semibold">Sillas de diseño</p>
+            <h1 class="text-4xl md:text-5xl font-bold text-slate-900 leading-tight">Bienvenido a Jemmsa</h1>
+            <p class="text-lg text-slate-600 leading-relaxed">
+              Sitio estático sin base de datos. Explora nuestro catálogo de sillas cómodas y modernas listo para publicar en Hostinger.
+            </p>
+            <div class="flex items-center gap-4 pt-4">
+              <a href="./catalogo.html" class="inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors shadow-md">
+                Ver catálogo
+              </a>
+              <a href="mailto:contacto@jemmsa.com" class="inline-flex items-center px-6 py-3 rounded-lg border-2 border-blue-600 text-blue-600 font-semibold hover:bg-blue-50 transition-colors">
+                Contáctanos
+              </a>
+            </div>
+          </div>
+          <div class="bg-gradient-to-br from-blue-50 to-slate-100 rounded-xl p-8 shadow-lg">
+            <div class="aspect-square bg-slate-200 rounded-lg flex items-center justify-center">
+              <span class="text-slate-400 text-lg">Imagen destacada</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="py-16 border-t border-slate-200">
+        <h2 class="text-3xl font-bold text-slate-900 mb-12 text-center">Por qué elegirnos</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-shadow border border-slate-100">
+            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+              <span class="text-2xl">🏆</span>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 mb-3">Calidad Premium</h3>
+            <p class="text-slate-600">Productos de alta calidad diseñados para comodidad y durabilidad.</p>
+          </div>
+          <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-shadow border border-slate-100">
+            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+              <span class="text-2xl">🎨</span>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 mb-3">Diseño Moderno</h3>
+            <p class="text-slate-600">Estilos contemporáneos que se adaptan a cualquier espacio.</p>
+          </div>
+          <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-shadow border border-slate-100">
+            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+              <span class="text-2xl">✨</span>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 mb-3">Soporte 24/7</h3>
+            <p class="text-slate-600">Atención al cliente disponible siempre para ayudarte.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Categories Preview Section -->
+      <section class="py-16">
+        <h2 class="text-3xl font-bold text-slate-900 mb-12 text-center">Nuestras categorías</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <a href="./catalogo.html" class="bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg p-6 text-white font-semibold text-center hover:shadow-lg transition-all transform hover:scale-105">
+            Directivos
+          </a>
+          <a href="./catalogo.html" class="bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg p-6 text-white font-semibold text-center hover:shadow-lg transition-all transform hover:scale-105">
+            Ejecutivos
+          </a>
+          <a href="./catalogo.html" class="bg-gradient-to-br from-green-500 to-green-600 rounded-lg p-6 text-white font-semibold text-center hover:shadow-lg transition-all transform hover:scale-105">
+            Operativos
+          </a>
+          <a href="./catalogo.html" class="bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg p-6 text-white font-semibold text-center hover:shadow-lg transition-all transform hover:scale-105">
+            Industrial
+          </a>
+          <a href="./catalogo.html" class="bg-gradient-to-br from-red-500 to-red-600 rounded-lg p-6 text-white font-semibold text-center hover:shadow-lg transition-all transform hover:scale-105">
+            Accesorios
+          </a>
+          <a href="./catalogo.html" class="bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-lg p-6 text-white font-semibold text-center hover:shadow-lg transition-all transform hover:scale-105">
+            Visitantes
+          </a>
+        </div>
+      </section>
+    </div>
+  </main>
 
   <div id="footer-container"></div>
 
