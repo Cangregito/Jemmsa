@@ -1057,12 +1057,12 @@
           { "id": "ohv-94plusnegro", "name": "SLINGPLUS modelo OHV-94plusnegro", "material": "Malla negra y tela negra", "description": "Silla operativa fija (visita) SLINGPLUS en malla negra. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }
         ]
       },
-      "vento": { "id": "vento", "name": "VENTO", "description": "Familia VENTO de sillas operativas.", "products": [{ "id": "ohs-30", "name": "VENTO modelo OHS-30", "material": "Malla de elastano negra", "description": "Silla operativa VENTO modelo OHS-30 con respaldo y asiento en malla de elastano negra, brazos fijos, pistón neumático para ajuste de altura. El color puede variar dependiendo del monitor.", "specifications": { "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual", "elevacion": "Pistón neumático para ajuste de altura del asiento", "brazos": "Fijos de polipropileno de alta densidad color negro", "respaldo": "Malla de elastano color negro de diseño ergonómico", "asiento": "Malla de elastano color negro de diseño ergonómico", "capacidad": "Peso sugerido 120 kg", "nota": "El color puede variar dependiendo del monitor. Disponible ficha técnica, modelados 3D (DWG, OBJ, SKP) y videos" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }] }
+      "vento": { "id": "vento", "name": "VENTO", "description": "Familia VENTO de sillas operativas.", "products": [{ "id": "ohs-30", "name": "VENTO modelo OHS-30", "material": "Malla de elastano negra", "description": "Silla operativa VENTO modelo OHS-30 con respaldo y asiento en malla de elastano negra, brazos fijos, pistón neumático para ajuste de altura. El color puede variar dependiendo del monitor.", "specifications": { "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual", "elevacion": "Pistón neumático para ajuste de altura del asiento", "brazos": "Fijos de polipropileno de alta densidad color negro", "respaldo": "Malla de elastano color negro de diseño ergonómico", "asiento": "Malla de elastano color negro de diseño ergonómico", "capacidad": "Peso sugerido 120 kg", "nota": "El color puede variar dependiendo del monitor. Disponible ficha técnica, modelados 3D (DWG, OBJ, SKP) y videos" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }] },
       "roly": { "id": "roly", "name": "ROLY", "description": "Familia ROLY de sillas operativas.", "products": [{ "id": "roly-base", "name": "ROLY modelo base", "material": "Malla y tela", "description": "Silla operativa de la familia ROLY. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }] },
       "whale": { "id": "whale", "name": "WHALE", "description": "Familia WHALE de sillas operativas.", "products": [{ "id": "whale-base", "name": "WHALE modelo base", "material": "Malla y tela", "description": "Silla operativa de la familia WHALE. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }] },
-      "wide": { "id": "wide", "name": "WIDE", "description": "Familia WIDE de sillas operativas.", "products": [{ "id": "ohs-41negro", "name": "WIDE modelo OHS-41negro", "material": "Malla negra y tela poliéster", "description": "Silla operativa WIDE modelo OHS-41negro de respaldo alto para uso rudo (large size), peso sugerido 180 kg. Respaldo ergonómico con soporte lumbar ajustable, brazos 4D ajustables 7 posiciones, mecanismo reclinable. El color puede variar dependiendo del monitor.", "specifications": { "base": "Estrella pentagonal acero troquelado color negro con tapa decorativa cromada", "elevacion": "Pistón neumático para ajuste de altura del asiento", "mecanismo": "Reclinable con regulador de tensión de inclinación, palanca de accionamiento y bloqueo del pistón", "brazos": "Ajustables en 7 posiciones tipo 4D, polipropileno semirrígido con pad de poliuretano", "respaldo": "Alto ergonómico con soporte lumbar ajustable y acojinado", "asiento": "Poliuretano laminado 130 mm, densidad 40 kg/m³, alta resiliencia, uso rudo", "tapiz": "Respaldo malla color negro, asiento tela 100% poliéster con funda tapizada y pespuntada", "capacidad": "Peso sugerido 180 kg", "nota": "El color puede variar dependiendo del monitor. Disponible instructivo, ficha técnica, modelados 3D (DWG, OBJ, SKP) y videos" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }] }
-      "morico": { "id": "morico", "name": "MORICO", "description": "Familia MORICO de sillas operativas.", "products": [{ "id": "ohe-2003negro", "name": "MORICO modelo OHE-2003negro", "material": "Polímero ventilado y tela negra", "description": "Silla operativa MORICO modelo OHE-2003negro con respaldo de polímero ventilado, asiento tapizado en tela negra, mecanismo Donati de última generación, peso sugerido 140 kg. El color puede variar dependiendo del monitor.", "specifications": { "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual", "elevacion": "Pistón neumático para ajustar altura del asiento", "mecanismo": "Italiano Donati, dos palancas: regula tensión/bloqueo altura y reclinamiento en 3 posiciones knee-tilt synchro", "brazos": "Polipropileno semirrígido con pad de poliuretano, ajustables en 5 posiciones", "respaldo": "Polipropileno reticulado con ventilación y soporte lumbar", "asiento": "Hule espuma poliuretano inyectado, densidad 55 kg/m³, retardante flama, alta resiliencia", "tapiz": "Asiento tela 100% poliéster color negro con funda tapizada y pespuntada, no retapizable", "capacidad": "Peso sugerido 140 kg", "nota": "El color puede variar dependiendo del monitor. Disponible instructivo, ficha técnica y video de funcionalidad" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }] }
-      "luke": { "id": "luke", "name": "LUKE", "description": "Familia LUKE de sillas operativas.", "products": [{ "id": "ohe-2006gris", "name": "LUKE modelo OHE-2006gris", "material": "Malla gris", "description": "Silla operativa LUKE en malla gris. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }, { "id": "ohe-2006negro", "name": "LUKE modelo OHE-2006negro", "material": "Malla negra", "description": "Silla operativa LUKE en malla negra. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }] }
+      "wide": { "id": "wide", "name": "WIDE", "description": "Familia WIDE de sillas operativas.", "products": [{ "id": "ohs-41negro", "name": "WIDE modelo OHS-41negro", "material": "Malla negra y tela poliéster", "description": "Silla operativa WIDE modelo OHS-41negro de respaldo alto para uso rudo (large size), peso sugerido 180 kg. Respaldo ergonómico con soporte lumbar ajustable, brazos 4D ajustables 7 posiciones, mecanismo reclinable. El color puede variar dependiendo del monitor.", "specifications": { "base": "Estrella pentagonal acero troquelado color negro con tapa decorativa cromada", "elevacion": "Pistón neumático para ajuste de altura del asiento", "mecanismo": "Reclinable con regulador de tensión de inclinación, palanca de accionamiento y bloqueo del pistón", "brazos": "Ajustables en 7 posiciones tipo 4D, polipropileno semirrígido con pad de poliuretano", "respaldo": "Alto ergonómico con soporte lumbar ajustable y acojinado", "asiento": "Poliuretano laminado 130 mm, densidad 40 kg/m³, alta resiliencia, uso rudo", "tapiz": "Respaldo malla color negro, asiento tela 100% poliéster con funda tapizada y pespuntada", "capacidad": "Peso sugerido 180 kg", "nota": "El color puede variar dependiendo del monitor. Disponible instructivo, ficha técnica, modelados 3D (DWG, OBJ, SKP) y videos" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }] },
+      "morico": { "id": "morico", "name": "MORICO", "description": "Familia MORICO de sillas operativas.", "products": [{ "id": "ohe-2003negro", "name": "MORICO modelo OHE-2003negro", "material": "Polímero ventilado y tela negra", "description": "Silla operativa MORICO modelo OHE-2003negro con respaldo de polímero ventilado, asiento tapizado en tela negra, mecanismo Donati de última generación, peso sugerido 140 kg. El color puede variar dependiendo del monitor.", "specifications": { "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual", "elevacion": "Pistón neumático para ajustar altura del asiento", "mecanismo": "Italiano Donati, dos palancas: regula tensión/bloqueo altura y reclinamiento en 3 posiciones knee-tilt synchro", "brazos": "Polipropileno semirrígido con pad de poliuretano, ajustables en 5 posiciones", "respaldo": "Polipropileno reticulado con ventilación y soporte lumbar", "asiento": "Hule espuma poliuretano inyectado, densidad 55 kg/m³, retardante flama, alta resiliencia", "tapiz": "Asiento tela 100% poliéster color negro con funda tapizada y pespuntada, no retapizable", "capacidad": "Peso sugerido 140 kg", "nota": "El color puede variar dependiendo del monitor. Disponible instructivo, ficha técnica y video de funcionalidad" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }] },
+      "luke": { "id": "luke", "name": "LUKE", "description": "Familia LUKE de sillas operativas.", "products": [{ "id": "ohe-2006gris", "name": "LUKE modelo OHE-2006gris", "material": "Malla gris", "description": "Silla operativa LUKE en malla gris. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }, { "id": "ohe-2006negro", "name": "LUKE modelo OHE-2006negro", "material": "Malla negra", "description": "Silla operativa LUKE en malla negra. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }] },
       "prochair": {
         "id": "prochair",
         "name": "PROCHAIR",
@@ -1072,88 +1072,164 @@
           { "id": "ohs-42", "name": "PROCHAIR modelo OHS-42", "material": "Tela color a elegir", "description": "Silla operativa PROCHAIR modelo OHS-42 con asiento y respaldo tapizados al color a elegir, mecanismo sencillo de una palanca, peso sugerido 120 kg. El color puede variar dependiendo del monitor.", "specifications": { "base": "5 puntas en poliamida con rodajas tipo dual y/o regatones", "elevacion": "Pistón neumático que ajusta la altura del asiento", "mecanismo": "Plato acero reforzado con palanca de accionamiento y bloqueo del pistón neumático", "respaldo": "Hule espuma poliuretano inyectado flexible, densidad 60 kg/m³, retardante flama, alta resiliencia", "asiento": "Hule espuma poliuretano inyectado flexible, densidad 60 kg/m³, retardante flama, alta resiliencia", "tapiz": "Al color de elección dentro de la colección de tapices", "capacidad": "Peso sugerido 120 kg, alturas aumentan con pistón cajero de 240 mm", "nota": "El color puede variar dependiendo del monitor. Disponible instructivo, ficha técnica, accesorios opcionales, modelados 3D (DWG, OBJ) y video de funcionamiento" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }
         ]
       },
-      "ciao": { "id": "ciao", "name": "CIAO", "description": "Familia CIAO de sillas operativas.", "products": [{ "id": "ohs-11", "name": "CIAO modelo OHS-11", "material": "Tapizado", "description": "Silla operativa CIAO modelo OHS-11. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }, { "id": "ohs-11cb", "name": "CIAO modelo OHS-11C/B", "material": "Tapizado", "description": "Silla operativa CIAO modelo OHS-11C/B. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }, { "id": "ohs-12", "name": "CIAO modelo OHS-12", "material": "Tapizado", "description": "Silla operativa CIAO modelo OHS-12. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }, { "id": "ohs-12cb", "name": "CIAO modelo OHS-12C/B", "material": "Tapizado", "description": "Silla operativa CIAO modelo OHS-12C/B. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }] }
-      "shell": { "id": "shell", "name": "SHELL", "description": "Familia SHELL de sillas operativas.", "products": [{ "id": "ohs-37", "name": "SHELL modelo OHS-37", "material": "Polipropileno monopieza", "description": "Silla operativa SHELL modelo OHS-37 de una sola pieza en polipropileno de alta resistencia, disponible en varios colores (negro, azul, verde, naranja, beige, blanco, rojo), peso sugerido 120 kg. El color puede variar dependiendo del monitor.", "specifications": { "base": "Estrella 5 puntas aluminio fundido y pulido con rodajas tipo dual y/o regatones", "elevacion": "Pistón neumático con terminado en cromo para ajustar altura del asiento", "mecanismo": "Plato acero reforzado con palanca de accionamiento y bloqueo del pistón neumático", "respaldo": "Una sola pieza en polipropileno de alta resistencia y duración", "asiento": "Una sola pieza en polipropileno de alta resistencia y duración", "color": "Negro, azul, verde, naranja, beige, blanco y rojo", "capacidad": "Peso sugerido 120 kg, alturas aumentan con pistón cajero de 240 mm", "nota": "El color puede variar dependiendo del monitor. Disponible instructivo, ficha técnica, accesorios opcionales, modelados 3D (DWG, OBJ) y video de funcionamiento" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }] }
-      "rainbow": { "id": "rainbow", "name": "RAINBOW", "description": "Familia RAINBOW de sillas operativas.", "products": [{ "id": "ohe-101", "name": "RAINBOW modelo OHE-101", "material": "Malla", "description": "Silla operativa RAINBOW modelo OHE-101. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }, { "id": "ohe-101negro", "name": "RAINBOW modelo OHE-101negro", "material": "Malla negra", "description": "Silla operativa RAINBOW modelo OHE-101negro. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }] }
-      "quick": { "id": "quick", "name": "QUICK", "description": "Familia QUICK de sillas operativas.", "products": [{ "id": "ohs-47", "name": "QUICK modelo OHS-47", "material": "Tapizado", "description": "Silla operativa QUICK modelo OHS-47. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }, { "id": "ohs-47panello", "name": "QUICK modelo OHS-47panello", "material": "Tapizado", "description": "Silla operativa QUICK modelo OHS-47panello. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }] }
+      "ciao": { "id": "ciao", "name": "CIAO", "description": "Familia CIAO de sillas operativas.", "products": [{ "id": "ohs-11", "name": "CIAO modelo OHS-11", "material": "Tapizado", "description": "Silla operativa CIAO modelo OHS-11. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }, { "id": "ohs-11cb", "name": "CIAO modelo OHS-11C/B", "material": "Tapizado", "description": "Silla operativa CIAO modelo OHS-11C/B. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }, { "id": "ohs-12", "name": "CIAO modelo OHS-12", "material": "Tapizado", "description": "Silla operativa CIAO modelo OHS-12. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }, { "id": "ohs-12cb", "name": "CIAO modelo OHS-12C/B", "material": "Tapizado", "description": "Silla operativa CIAO modelo OHS-12C/B. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }] },
+      "shell": { "id": "shell", "name": "SHELL", "description": "Familia SHELL de sillas operativas.", "products": [{ "id": "ohs-37", "name": "SHELL modelo OHS-37", "material": "Polipropileno monopieza", "description": "Silla operativa SHELL modelo OHS-37 de una sola pieza en polipropileno de alta resistencia, disponible en varios colores (negro, azul, verde, naranja, beige, blanco, rojo), peso sugerido 120 kg. El color puede variar dependiendo del monitor.", "specifications": { "base": "Estrella 5 puntas aluminio fundido y pulido con rodajas tipo dual y/o regatones", "elevacion": "Pistón neumático con terminado en cromo para ajustar altura del asiento", "mecanismo": "Plato acero reforzado con palanca de accionamiento y bloqueo del pistón neumático", "respaldo": "Una sola pieza en polipropileno de alta resistencia y duración", "asiento": "Una sola pieza en polipropileno de alta resistencia y duración", "color": "Negro, azul, verde, naranja, beige, blanco y rojo", "capacidad": "Peso sugerido 120 kg, alturas aumentan con pistón cajero de 240 mm", "nota": "El color puede variar dependiendo del monitor. Disponible instructivo, ficha técnica, accesorios opcionales, modelados 3D (DWG, OBJ) y video de funcionamiento" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }] },
+      "rainbow": { "id": "rainbow", "name": "RAINBOW", "description": "Familia RAINBOW de sillas operativas.", "products": [{ "id": "ohe-101", "name": "RAINBOW modelo OHE-101", "material": "Malla", "description": "Silla operativa RAINBOW modelo OHE-101. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }, { "id": "ohe-101negro", "name": "RAINBOW modelo OHE-101negro", "material": "Malla negra", "description": "Silla operativa RAINBOW modelo OHE-101negro. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }] },
+      "quick": { "id": "quick", "name": "QUICK", "description": "Familia QUICK de sillas operativas.", "products": [{ "id": "ohs-47", "name": "QUICK modelo OHS-47", "material": "Tapizado", "description": "Silla operativa QUICK modelo OHS-47. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }, { "id": "ohs-47panello", "name": "QUICK modelo OHS-47panello", "material": "Tapizado", "description": "Silla operativa QUICK modelo OHS-47panello. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }] },
       "revolution": { "id": "revolution", "name": "REVOLUTION", "description": "Familia REVOLUTION de sillas operativas.", "products": [{ "id": "ohs-85al", "name": "REVOLUTION modelo OHS-85Al", "material": "Tapizado", "description": "Silla operativa REVOLUTION modelo OHS-85Al. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }, { "id": "ohs-86al", "name": "REVOLUTION modelo OHS-86Al", "material": "Tapizado", "description": "Silla operativa REVOLUTION modelo OHS-86Al. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }, { "id": "ohs-87al", "name": "REVOLUTION modelo OHS-87Al", "material": "Tapizado", "description": "Silla operativa REVOLUTION modelo OHS-87Al. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }, { "id": "ohs-88al", "name": "REVOLUTION modelo OHS-88Al", "material": "Tapizado", "description": "Silla operativa REVOLUTION modelo OHS-88Al. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.", "specifications": { "nota": "El color puede variar dependiendo del monitor", "tapiz": "Consulta el catálogo de tapices", "capacidad": "Peso sugerido 120 kg" }, "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }] }
     },
-    "industrial": [
-      {
-        "id": 4,
-        "name": "Silla Industrial PRO",
-        "material": "Acero reforzado",
-        "image": "https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop"
+    "industrial": {
+      "industrial-1": {
+        "id": "industrial-1",
+        "name": "Industrial",
+        "description": "Familia Industrial de sillas.",
+        "products": [
+          {
+            "id": "silla-industrial-pro",
+            "name": "Silla Industrial PRO",
+            "material": "Acero reforzado",
+            "description": "Silla industrial de alta resistencia.",
+            "specifications": { "capacidad": "Peso sugerido 120 kg" },
+            "image": "https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       }
-    ],
-    "accesorios": [
-      {
-        "id": 5,
-        "name": "Almohada Ergonómica",
-        "material": "Espuma viscoelástica",
-        "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?q=80&w=800&auto=format&fit=crop"
+    },
+    "accesorios": {
+      "accesorios-1": {
+        "id": "accesorios-1",
+        "name": "Accesorios",
+        "description": "Familia de Accesorios.",
+        "products": [
+          {
+            "id": "almohada-ergonomica",
+            "name": "Almohada Ergonómica",
+            "material": "Espuma viscoelástica",
+            "description": "Almohada ergonómica de espuma viscoelástica.",
+            "specifications": { "capacidad": "Accesorios" },
+            "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       }
-    ],
-    "visitantes-interior": [
-      {
-        "id": 6,
-        "name": "Silla Visitante Modular",
-        "material": "Polipropileno",
-        "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+    },
+    "visitantes-interior": {
+      "visitantes-interior-1": {
+        "id": "visitantes-interior-1",
+        "name": "Visitantes Interior",
+        "description": "Familia de Sillas Visitantes Interior.",
+        "products": [
+          {
+            "id": "silla-visitante-modular",
+            "name": "Silla Visitante Modular",
+            "material": "Polipropileno",
+            "description": "Silla visitante modular en polipropileno.",
+            "specifications": { "capacidad": "Peso sugerido 120 kg" },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       }
-    ],
-    "visitantes-exterior": [
-      {
-        "id": 7,
-        "name": "Silla Exterior Resistente",
-        "material": "Plástico reciclado",
-        "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+    },
+    "visitantes-exterior": {
+      "visitantes-exterior-1": {
+        "id": "visitantes-exterior-1",
+        "name": "Visitantes Exterior",
+        "description": "Familia de Sillas Visitantes Exterior.",
+        "products": [
+          {
+            "id": "silla-exterior-resistente",
+            "name": "Silla Exterior Resistente",
+            "material": "Plástico reciclado",
+            "description": "Silla exterior resistente en plástico reciclado.",
+            "specifications": { "capacidad": "Peso sugerido 120 kg" },
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       }
-    ],
-    "mesas": [
-      {
-        "id": 8,
-        "name": "Mesa de Trabajo Ajustable",
-        "material": "Madera y acero",
-        "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+    },
+    "mesas": {
+      "mesas-1": {
+        "id": "mesas-1",
+        "name": "Mesas",
+        "description": "Familia de Mesas.",
+        "products": [
+          {
+            "id": "mesa-trabajo-ajustable",
+            "name": "Mesa de Trabajo Ajustable",
+            "material": "Madera y acero",
+            "description": "Mesa de trabajo ajustable en madera y acero.",
+            "specifications": { "capacidad": "Carga variable" },
+            "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       }
-    ],
-    "bancos": [
-      {
-        "id": 9,
-        "name": "Banco Alto de Bar",
-        "material": "Metal y madera",
-        "image": "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=800&auto=format&fit=crop"
+    },
+    "bancos": {
+      "bancos-1": {
+        "id": "bancos-1",
+        "name": "Bancos",
+        "description": "Familia de Bancos.",
+        "products": [
+          {
+            "id": "banco-alto-bar",
+            "name": "Banco Alto de Bar",
+            "material": "Metal y madera",
+            "description": "Banco alto de bar en metal y madera.",
+            "specifications": { "capacidad": "Peso sugerido 120 kg" },
+            "image": "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       }
-    ],
-    "confortables": [
-      {
-        "id": 10,
-        "name": "Silla Lounge Premium",
-        "material": "Tela y madera curvada",
-        "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+    },
+    "confortables": {
+      "confortables-1": {
+        "id": "confortables-1",
+        "name": "Confortables",
+        "description": "Familia de Sillas Confortables.",
+        "products": [
+          {
+            "id": "silla-lounge-premium",
+            "name": "Silla Lounge Premium",
+            "material": "Tela y madera curvada",
+            "description": "Silla Lounge Premium en tela y madera curvada.",
+            "specifications": { "capacidad": "Peso sugerido 120 kg" },
+            "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       }
-    ],
-    "bancas": [
-      {
-        "id": 11,
-        "name": "Banca Modular 3 Plazas",
-        "material": "Tapizado y estructura",
-        "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+    },
+    "bancas": {
+      "bancas-1": {
+        "id": "bancas-1",
+        "name": "Bancas",
+        "description": "Familia de Bancas.",
+        "products": [
+          {
+            "id": "banca-modular-3p",
+            "name": "Banca Modular 3 Plazas",
+            "material": "Tapizado y estructura",
+            "description": "Banca modular de 3 plazas en tapizado y estructura.",
+            "specifications": { "capacidad": "3 personas" },
+            "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       }
-    ],
-    "escolar": [
-      {
-        "id": 12,
-        "name": "Pupitre Escolar Infantil",
-        "material": "Madera y acero",
-        "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
-      {
-        "id": 12,
-        "name": "Pupitre Escolar Infantil",
-        "material": "Madera y acero",
-        "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+    },
+    "escolar": {
+      "escolar-1": {
+        "id": "escolar-1",
+        "name": "Escolar",
+        "description": "Familia de Pupitres Escolares.",
+        "products": [
+          {
+            "id": "pupitre-escolar-infantil",
+            "name": "Pupitre Escolar Infantil",
+            "material": "Madera y acero",
+            "description": "Pupitre escolar infantil en madera y acero.",
+            "specifications": { "capacidad": "Peso sugerido 80 kg" },
+            "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       }
-    ]
+    }
   }
 }
