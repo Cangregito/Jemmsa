@@ -181,7 +181,18 @@
           {
             "id": "ohe-203",
             "name": "GOETZ modelo OHE-203 negro",
-            "material": "Cuero premium",
+            "material": "Soft revolving leather color negro",
+            "description": "Silla directiva de respaldo bajo, tapizada en soft revolving leather color negro, con peso sugerido de uso hasta 120 kg.",
+            "specifications": {
+              "base": "Estrella de 5 puntas en aluminio fundido y pulido, con rodajas tipo dual",
+              "elevacion": "Pistón neumático para ajustar la altura del asiento",
+              "mecanismo": "Articulado de rodilla tipo knee tilt en solera de acero, con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión",
+              "brazos": "Aluminio fundido y pulidos con terminado en cromo",
+              "asiento": "Respaldo bajo de una sola pieza tensada con la estructura para dar suspensión y adaptarse al cuerpo, tapizado en soft revolving leather y acojinado con hule espuma laminada flexible de densidad 17 kg/m³ y alta resiliencia; estructura en acero tubular con terminado en cromo",
+              "color": "Negro",
+              "capacidad": "Peso sugerido 120 kg",
+              "nota": "El color puede variar según el monitor"
+            },
             "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
           },
           {
