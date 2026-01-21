@@ -540,8 +540,20 @@
         "description": "Línea EQUA de sillas ejecutivas",
         "products": [
           {
-            "id": "equa-01",
-            "name": "EQUA",
+            "id": "ohe-185gris",
+            "name": "EQUA modelo OHE-185gris",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohe-183gris",
+            "name": "EQUA modelo OHE-183gris",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-188gris",
+            "name": "EQUA modelo OHV-188gris",
             "material": "Malla",
             "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
           }
