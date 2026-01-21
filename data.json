@@ -62,66 +62,107 @@
     }
   ],
   "products": {
-    "directivos": [
-      {
-        "id": 1,
-        "name": "ALUFSEN modelo OHE-405",
-        "material": "Piel sintética suave color negro",
-        "description": "Silla directiva de respaldo alto con cabecera, tapizada en piel sintética suave color negro y diseñada para uso exigente hasta 160 kg.",
-        "specifications": {
-          "base": "Estrella de 5 puntas en fundición de aluminio, terminado pulido, con rodajas tipo dual",
-          "elevacion": "Pistón neumático para ajustar la altura del asiento",
-          "mecanismo": "Tipo articulado synchro con anti-shock, palanca de bloqueo y perilla para regular la tensión del reclinado",
-          "brazos": "Aluminio fundido y pulidos, con terminado natural, acojinados y tapizados en soft revolving leather negro",
-          "respaldo": "Respaldo alto con cabecera, hule espuma laminado flexible de densidad 50 kg/m³ y alta resiliencia",
-          "tapiz": "Soft revolving leather color negro",
-          "capacidad": "Hasta 160 kg"
-        },
-        "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
+    "directivos": {
+      "alufsen": {
+        "id": "alufsen",
+        "name": "ALUFSEN",
+        "description": "Línea ALUFSEN de sillas directivas",
+        "products": [
+          {
+            "id": "ohe-405",
+            "name": "ALUFSEN modelo OHE-405",
+            "material": "Piel sintética suave color negro",
+            "description": "Silla directiva de respaldo alto con cabecera, tapizada en piel sintética suave color negro y diseñada para uso exigente hasta 160 kg.",
+            "specifications": {
+              "base": "Estrella de 5 puntas en fundición de aluminio, terminado pulido, con rodajas tipo dual",
+              "elevacion": "Pistón neumático para ajustar la altura del asiento",
+              "mecanismo": "Tipo articulado synchro con anti-shock, palanca de bloqueo y perilla para regular la tensión del reclinado",
+              "brazos": "Aluminio fundido y pulidos, con terminado natural, acojinados y tapizados en soft revolving leather negro",
+              "respaldo": "Respaldo alto con cabecera, hule espuma laminado flexible de densidad 50 kg/m³ y alta resiliencia",
+              "tapiz": "Soft revolving leather color negro",
+              "capacidad": "Hasta 160 kg"
+            },
+            "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-408",
+            "name": "ALUFSEN modelo OHV-408",
+            "material": "Aluminio y cuero",
+            "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
-      {
-        "id": 2,
-        "name": "ALUFSEN modelo OHV-408",
-        "material": "Aluminio y cuero",
-        "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
-      },
-      {
-        "id": 2,
+      "ciani": {
+        "id": "ciani",
         "name": "CIANI",
-        "material": "Cuero y acero inoxidable",
-        "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
+        "description": "Línea CIANI de sillas directivas",
+        "products": [
+          {
+            "id": "ciani-01",
+            "name": "CIANI",
+            "material": "Cuero y acero inoxidable",
+            "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
-      {
-        "id": 3,
+      "goetz": {
+        "id": "goetz",
         "name": "GOETZ",
-        "material": "Cuero premium",
-        "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
+        "description": "Línea GOETZ de sillas directivas",
+        "products": [
+          {
+            "id": "goetz-01",
+            "name": "GOETZ",
+            "material": "Cuero premium",
+            "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
-      {
-        "id": 4,
+      "fenix": {
+        "id": "fenix",
         "name": "FENIX",
-        "material": "Cuero y aluminio",
-        "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
+        "description": "Línea FENIX de sillas directivas",
+        "products": [
+          {
+            "id": "fenix-01",
+            "name": "FENIX",
+            "material": "Cuero y aluminio",
+            "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
-      {
-        "id": 5,
+      "vanto": {
+        "id": "vanto",
         "name": "VANTO",
-        "material": "Cuero - Modelo OHV-78",
-        "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
+        "description": "Línea VANTO de sillas directivas",
+        "products": [
+          {
+            "id": "vanto-ohv-78",
+            "name": "VANTO modelo OHV-78",
+            "material": "Cuero",
+            "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
-      {
-        "id": 6,
+      "travis": {
+        "id": "travis",
         "name": "TRAVIS",
-        "material": "Cuero negro - Modelo OHE-295",
-        "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
+        "description": "Línea TRAVIS de sillas directivas",
+        "products": [
+          {
+            "id": "travis-ohe-295",
+            "name": "TRAVIS modelo OHE-295 negro",
+            "material": "Cuero negro",
+            "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       }
-    ],
+    },
     "ejecutivos": [
       {
         "id": 2,
         "name": "Silla ErgoPro",
         "material": "Malla y acero",
-        "price": 129.99,
         "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
       }
     ],
@@ -130,7 +171,6 @@
         "id": 3,
         "name": "Silla Operativa",
         "material": "Mesh y base nylon",
-        "price": 89.99,
         "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
       }
     ],
@@ -139,7 +179,6 @@
         "id": 4,
         "name": "Silla Industrial PRO",
         "material": "Acero reforzado",
-        "price": 149.99,
         "image": "https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop"
       }
     ],
@@ -148,7 +187,6 @@
         "id": 5,
         "name": "Almohada Ergonómica",
         "material": "Espuma viscoelástica",
-        "price": 29.99,
         "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?q=80&w=800&auto=format&fit=crop"
       }
     ],
@@ -157,7 +195,6 @@
         "id": 6,
         "name": "Silla Visitante Modular",
         "material": "Polipropileno",
-        "price": 59.99,
         "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
       }
     ],
@@ -166,7 +203,6 @@
         "id": 7,
         "name": "Silla Exterior Resistente",
         "material": "Plástico reciclado",
-        "price": 49.99,
         "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
       }
     ],
@@ -175,7 +211,6 @@
         "id": 8,
         "name": "Mesa de Trabajo Ajustable",
         "material": "Madera y acero",
-        "price": 299.99,
         "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
       }
     ],
@@ -184,7 +219,6 @@
         "id": 9,
         "name": "Banco Alto de Bar",
         "material": "Metal y madera",
-        "price": 79.99,
         "image": "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=800&auto=format&fit=crop"
       }
     ],
@@ -193,7 +227,6 @@
         "id": 10,
         "name": "Silla Lounge Premium",
         "material": "Tela y madera curvada",
-        "price": 199.99,
         "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
       }
     ],
@@ -202,12 +235,19 @@
         "id": 11,
         "name": "Banca Modular 3 Plazas",
         "material": "Tapizado y estructura",
-        "price": 349.99,
         "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
       }
     ],
     "escolar": [
       {
+        "id": 12,
+        "name": "Pupitre Escolar Infantil",
+        "material": "Madera y acero",
+        "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+      }
+    ]
+  }
+}
         "id": 12,
         "name": "Pupitre Escolar Infantil",
         "material": "Madera y acero",

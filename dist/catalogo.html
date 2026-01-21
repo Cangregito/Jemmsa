@@ -18,11 +18,16 @@
   </header>
 
   <main class="max-w-5xl mx-auto px-4 py-10 space-y-6">
+    <!-- Breadcrumb navigation -->
+    <nav class="text-sm text-slate-600 mb-4" id="breadcrumb">
+      <a href="./catalogo.html" class="text-blue-600 hover:text-blue-700">Home</a>
+    </nav>
+
     <section class="space-y-4">
-      <h2 class="text-2xl font-semibold text-blue-600">Catálogo de productos</h2>
+      <h2 class="text-2xl font-semibold text-blue-600" id="page-title">Catálogo de productos</h2>
       
       <!-- Selector de categorías -->
-      <div class="flex flex-wrap gap-2">
+      <div class="flex flex-wrap gap-2" id="category-buttons">
         <button class="category-btn px-3 py-1 rounded-md bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 active" data-category="all">Todas</button>
         <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="directivos">Directivos</button>
         <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="ejecutivos">Ejecutivos</button>
@@ -51,59 +56,112 @@
 
   <script>
     const catalogData = {
+      "categories": [
+        { "id": "directivos", "name": "Directivos" },
+        { "id": "ejecutivos", "name": "Ejecutivos" },
+        { "id": "operativos", "name": "Operativos" },
+        { "id": "industrial", "name": "Industrial" },
+        { "id": "accesorios", "name": "Accesorios" },
+        { "id": "visitantes-interior", "name": "Visitantes Interior" },
+        { "id": "visitantes-exterior", "name": "Visitantes Exterior" },
+        { "id": "mesas", "name": "Mesas" },
+        { "id": "bancos", "name": "Bancos" },
+        { "id": "confortables", "name": "Confortables" },
+        { "id": "bancas", "name": "Bancas" },
+        { "id": "escolar", "name": "Escolar" }
+      ],
       "products": {
-        "directivos": [
-          { 
-            "id": 1, 
-            "name": "ALUFSEN modelo OHE-405", 
-            "material": "Piel sintética suave color negro",
-            "description": "Silla directiva de respaldo alto con cabecera, tapizada en piel sintética suave color negro y diseñada para uso exigente hasta 160 kg.",
-            "specifications": {
-              "base": "Estrella de 5 puntas en fundición de aluminio, terminado pulido, con rodajas tipo dual",
-              "elevacion": "Pistón neumático para ajustar la altura del asiento",
-              "mecanismo": "Tipo articulado synchro con anti-shock, palanca de bloqueo y perilla para regular la tensión del reclinado",
-              "brazos": "Aluminio fundido y pulidos, con terminado natural, acojinados y tapizados en soft revolving leather negro",
-              "respaldo": "Respaldo alto con cabecera, hule espuma laminado flexible de densidad 50 kg/m³ y alta resiliencia",
-              "tapiz": "Soft revolving leather color negro",
-              "capacidad": "Hasta 160 kg"
-            },
-            "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop" 
+        "directivos": {
+          "alufsen": {
+            "id": "alufsen",
+            "name": "ALUFSEN",
+            "products": [
+              {
+                "id": "ohe-405",
+                "name": "ALUFSEN modelo OHE-405",
+                "material": "Piel sintética suave color negro",
+                "description": "Silla directiva de respaldo alto con cabecera, tapizada en piel sintética suave color negro y diseñada para uso exigente hasta 160 kg.",
+                "specifications": {
+                  "base": "Estrella de 5 puntas en fundición de aluminio, terminado pulido, con rodajas tipo dual",
+                  "elevacion": "Pistón neumático para ajustar la altura del asiento",
+                  "mecanismo": "Tipo articulado synchro con anti-shock, palanca de bloqueo y perilla para regular la tensión del reclinado",
+                  "brazos": "Aluminio fundido y pulidos, con terminado natural, acojinados y tapizados en soft revolving leather negro",
+                  "respaldo": "Respaldo alto con cabecera, hule espuma laminado flexible de densidad 50 kg/m³ y alta resiliencia",
+                  "tapiz": "Soft revolving leather color negro",
+                  "capacidad": "Hasta 160 kg"
+                },
+                "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
+              },
+              { "id": "ohv-408", "name": "ALUFSEN modelo OHV-408", "material": "Aluminio y cuero", "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop" }
+            ]
           },
-          { "id": 2, "name": "ALUFSEN modelo OHV-408", "material": "Aluminio y cuero", "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop" },
-          { "id": 2, "name": "CIANI", "material": "Cuero y acero inoxidable", "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop" },
-          { "id": 3, "name": "GOETZ", "material": "Cuero premium", "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop" },
-          { "id": 4, "name": "FENIX", "material": "Cuero y aluminio", "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop" },
-          { "id": 5, "name": "VANTO", "material": "Cuero - Modelo OHV-78", "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop" },
-          { "id": 6, "name": "TRAVIS", "material": "Cuero negro - Modelo OHE-295", "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop" }
-        ],
-        "ejecutivos": [{ "id": 2, "name": "Silla ErgoPro", "material": "Malla y acero", "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop" }],
-        "operativos": [{ "id": 3, "name": "Silla Operativa", "material": "Mesh y base nylon", "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }],
-        "industrial": [{ "id": 4, "name": "Silla Industrial PRO", "material": "Acero reforzado", "image": "https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop" }],
-        "accesorios": [{ "id": 5, "name": "Almohada Ergonómica", "material": "Espuma viscoelástica", "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?q=80&w=800&auto=format&fit=crop" }],
-        "visitantes-interior": [{ "id": 6, "name": "Silla Visitante Modular", "material": "Polipropileno", "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop" }],
-        "visitantes-exterior": [{ "id": 7, "name": "Silla Exterior Resistente", "material": "Plástico reciclado", "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop" }],
-        "mesas": [{ "id": 8, "name": "Mesa de Trabajo Ajustable", "material": "Madera y acero", "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }],
-        "bancos": [{ "id": 9, "name": "Banco Alto de Bar", "material": "Metal y madera", "image": "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=800&auto=format&fit=crop" }],
-        "confortables": [{ "id": 10, "name": "Silla Lounge Premium", "material": "Tela y madera curvada", "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }],
-        "bancas": [{ "id": 11, "name": "Banca Modular 3 Plazas", "material": "Tapizado y estructura", "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop" }],
-        "escolar": [{ "id": 12, "name": "Pupitre Escolar Infantil", "material": "Madera y acero", "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop" }]
+          "ciani": { "id": "ciani", "name": "CIANI", "products": [{ "id": "ciani-01", "name": "CIANI", "material": "Cuero y acero inoxidable", "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop" }] },
+          "goetz": { "id": "goetz", "name": "GOETZ", "products": [{ "id": "goetz-01", "name": "GOETZ", "material": "Cuero premium", "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop" }] },
+          "fenix": { "id": "fenix", "name": "FENIX", "products": [{ "id": "fenix-01", "name": "FENIX", "material": "Cuero y aluminio", "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop" }] },
+          "vanto": { "id": "vanto", "name": "VANTO", "products": [{ "id": "vanto-ohv-78", "name": "VANTO modelo OHV-78", "material": "Cuero", "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop" }] },
+          "travis": { "id": "travis", "name": "TRAVIS", "products": [{ "id": "travis-ohe-295", "name": "TRAVIS modelo OHE-295 negro", "material": "Cuero negro", "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop" }] }
+        },
+        "ejecutivos": [{ "id": "2", "name": "Silla ErgoPro", "material": "Malla y acero", "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop" }],
+        "operativos": [{ "id": "3", "name": "Silla Operativa", "material": "Mesh y base nylon", "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }],
+        "industrial": [{ "id": "4", "name": "Silla Industrial PRO", "material": "Acero reforzado", "image": "https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop" }],
+        "accesorios": [{ "id": "5", "name": "Almohada Ergonómica", "material": "Espuma viscoelástica", "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?q=80&w=800&auto=format&fit=crop" }],
+        "visitantes-interior": [{ "id": "6", "name": "Silla Visitante Modular", "material": "Polipropileno", "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop" }],
+        "visitantes-exterior": [{ "id": "7", "name": "Silla Exterior Resistente", "material": "Plástico reciclado", "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop" }],
+        "mesas": [{ "id": "8", "name": "Mesa de Trabajo Ajustable", "material": "Madera y acero", "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }],
+        "bancos": [{ "id": "9", "name": "Banco Alto de Bar", "material": "Metal y madera", "image": "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=800&auto=format&fit=crop" }],
+        "confortables": [{ "id": "10", "name": "Silla Lounge Premium", "material": "Tela y madera curvada", "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }],
+        "bancas": [{ "id": "11", "name": "Banca Modular 3 Plazas", "material": "Tapizado y estructura", "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop" }],
+        "escolar": [{ "id": "12", "name": "Pupitre Escolar Infantil", "material": "Madera y acero", "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop" }]
       }
     };
 
-    let currentCategory = 'all';
+    let breadcrumb = { category: null, subcategory: null };
 
-    function renderProducts(category) {
+    function updateBreadcrumb() {
+      const breadcrumbEl = document.getElementById('breadcrumb');
+      let html = '<a href="./catalogo.html" class="text-blue-600 hover:text-blue-700">Home</a>';
+      
+      if (breadcrumb.category) {
+        const catName = catalogData.categories.find(c => c.id === breadcrumb.category)?.name;
+        html += ` › <a href="#" class="text-blue-600 hover:text-blue-700" data-navigate-category="${breadcrumb.category}">${catName}</a>`;
+      }
+      
+      if (breadcrumb.subcategory) {
+        const subName = catalogData.products[breadcrumb.category][breadcrumb.subcategory]?.name;
+        html += ` › <a href="#" class="text-blue-600 hover:text-blue-700" data-navigate-subcategory="${breadcrumb.subcategory}">${subName}</a>`;
+      }
+      
+      breadcrumbEl.innerHTML = html;
+      attachBreadcrumbListeners();
+    }
+
+    function attachBreadcrumbListeners() {
+      document.querySelectorAll('[data-navigate-category]').forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          breadcrumb.category = e.target.dataset.navigateCategory;
+          breadcrumb.subcategory = null;
+          renderCategoryProducts(breadcrumb.category);
+        });
+      });
+
+      document.querySelectorAll('[data-navigate-subcategory]').forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          renderSubcategoryProducts(breadcrumb.category, e.target.dataset.navigateSubcategory);
+        });
+      });
+    }
+
+    function renderSubcategoryProducts(category, subcategory) {
       const grid = document.getElementById('products-grid');
       grid.innerHTML = '';
-      let productsToShow = [];
-      if (category === 'all') {
-        Object.keys(catalogData.products).forEach(cat => {
-          productsToShow = productsToShow.concat(catalogData.products[cat]);
-        });
-      } else {
-        productsToShow = catalogData.products[category] || [];
-      }
-      productsToShow.forEach(product => {
+      const products = catalogData.products[category][subcategory]?.products || [];
+      breadcrumb.category = category;
+      breadcrumb.subcategory = subcategory;
+      updateBreadcrumb();
+
+      products.forEach(product => {
         const article = document.createElement('article');
         article.className = 'border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm cursor-pointer hover:shadow-md transition-shadow';
         article.innerHTML = `
@@ -127,6 +185,48 @@
       });
     }
 
+    function renderCategoryProducts(category) {
+      const grid = document.getElementById('products-grid');
+      grid.innerHTML = '';
+      breadcrumb.category = category;
+      breadcrumb.subcategory = null;
+
+      const categoryProducts = catalogData.products[category];
+      
+      if (categoryProducts && typeof categoryProducts === 'object' && categoryProducts[Object.keys(categoryProducts)[0]]?.products) {
+        // Tiene subcategorías
+        Object.values(categoryProducts).forEach(family => {
+          const familyCard = document.createElement('article');
+          familyCard.className = 'border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm cursor-pointer hover:shadow-md transition-shadow p-4';
+          familyCard.innerHTML = `
+            <h3 class="text-xl font-semibold text-blue-600">${family.name}</h3>
+            <p class="text-slate-600 text-sm">${family.products.length} modelos</p>
+          `;
+          familyCard.addEventListener('click', () => {
+            renderSubcategoryProducts(category, family.id);
+          });
+          grid.appendChild(familyCard);
+        });
+      } else {
+        // Es un array directo de productos
+        categoryProducts.forEach(product => {
+          const article = document.createElement('article');
+          article.className = 'border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm cursor-pointer hover:shadow-md transition-shadow';
+          article.innerHTML = `
+            <div class="aspect-[4/3] bg-slate-50">
+              <img class="w-full h-full object-cover" src="${product.image}" alt="${product.name}">
+            </div>
+            <div class="p-4 space-y-1">
+              <h3 class="text-lg font-medium">${product.name}</h3>
+              <p class="text-slate-500 text-sm">${product.material}</p>
+            </div>
+          `;
+          grid.appendChild(article);
+        });
+      }
+      updateBreadcrumb();
+    }
+
     document.querySelectorAll('.category-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('.category-btn').forEach(b => {
@@ -135,12 +235,59 @@
         });
         btn.classList.remove('bg-slate-200', 'text-slate-700');
         btn.classList.add('bg-blue-600', 'text-white');
-        currentCategory = btn.dataset.category;
-        renderProducts(currentCategory);
+        const category = btn.dataset.category;
+        if (category === 'all') {
+          breadcrumb.category = null;
+          breadcrumb.subcategory = null;
+          renderAllProducts();
+        } else {
+          renderCategoryProducts(category);
+        }
       });
     });
 
-    renderProducts('all');
+    function renderAllProducts() {
+      const grid = document.getElementById('products-grid');
+      grid.innerHTML = '';
+      breadcrumb.category = null;
+      breadcrumb.subcategory = null;
+      updateBreadcrumb();
+
+      Object.entries(catalogData.products).forEach(([catId, catProducts]) => {
+        if (typeof catProducts === 'object' && catProducts[Object.keys(catProducts)[0]]?.products) {
+          // Categoría con subcategorías (ej: directivos)
+          const categoryCard = document.createElement('article');
+          categoryCard.className = 'border border-slate-200 rounded-lg bg-white shadow-sm p-4 cursor-pointer hover:shadow-md';
+          const catName = catalogData.categories.find(c => c.id === catId)?.name;
+          categoryCard.innerHTML = `
+            <h3 class="text-xl font-semibold text-blue-600">${catName}</h3>
+            <p class="text-slate-600 text-sm">${Object.keys(catProducts).length} familias</p>
+          `;
+          categoryCard.addEventListener('click', () => {
+            renderCategoryProducts(catId);
+          });
+          grid.appendChild(categoryCard);
+        } else {
+          // Categoría simple (array de productos)
+          catProducts.forEach(product => {
+            const article = document.createElement('article');
+            article.className = 'border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm';
+            article.innerHTML = `
+              <div class="aspect-[4/3] bg-slate-50">
+                <img class="w-full h-full object-cover" src="${product.image}" alt="${product.name}">
+              </div>
+              <div class="p-4 space-y-1">
+                <h3 class="text-lg font-medium">${product.name}</h3>
+                <p class="text-slate-500 text-sm">${product.material}</p>
+              </div>
+            `;
+            grid.appendChild(article);
+          });
+        }
+      });
+    }
+
+    renderAllProducts();
 
     function showProductModal(product) {
       const modal = document.createElement('div');
