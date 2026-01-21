@@ -808,14 +808,31 @@
           {
             "id": "ohe-140negro",
             "name": "WICKER modelo OHE-140negro",
-            "material": "Malla",
-            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+            "material": "Malla negra y tela negra",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop",
+            "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual de goma para pisos duros o delicados",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Synchro inteligente con 4 posiciones de reclinamiento, sistema antishock y palanca para accionar y bloquear el pistón",
+            "brazos": "Polipropileno semirrígido, ajustables en 6 posiciones",
+            "respaldo": "Malla de diseño ergonómico con soporte lumbar ajustable",
+            "cabecera": "Fija, de poliamida de alta resistencia, tapizada en soft revolving leather color negro",
+            "asiento": "Tapa protectora en polipropileno, acojinado con poliuretano inyectado laminado de 60 mm de espesor, densidad 60 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo en malla color negro y asiento en tela 100% poliéster, con funda tapizada y pespuntada",
+            "capacidad": "120 kg"
           },
           {
             "id": "ohe-139negro",
             "name": "WICKER modelo OHE-139negro",
-            "material": "Malla",
-            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+            "material": "Malla negra y tela negra",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop",
+            "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual de goma para pisos duros o delicados",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Synchro inteligente con 4 posiciones de reclinamiento, sistema antishock y palanca para accionar y bloquear el pistón neumático",
+            "brazos": "Polipropileno semirrígido, ajustables en 6 posiciones",
+            "respaldo": "En malla de diseño ergonómico con soporte lumbar ajustable",
+            "asiento": "Tapa protectora en polipropileno, acojinado con poliuretano inyectado laminado de 60 mm de espesor, densidad 60 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo en malla color negro y asiento en tela 100% poliéster, con funda tapizada y pespuntada",
+            "capacidad": "120 kg"
           }
         ]
       },
