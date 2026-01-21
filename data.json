@@ -392,7 +392,19 @@
           {
             "id": "ohe-35",
             "name": "DILLON modelo OHE-35",
-            "material": "Malla",
+            "material": "Malla color negro y tela negra",
+            "description": "Silla ejecutiva con respaldo en malla ergonómica, asiento tapizado en tela negra y peso sugerido de uso hasta 130 kg.",
+            "specifications": {
+              "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
+              "elevacion": "Pistón neumático para ajustar la altura del asiento",
+              "mecanismo": "Articulado synchro inteligente Smart Tilt en acero, con anti-shock, bloqueo del ángulo de respaldo en 3 posiciones, palanca de accionamiento y bloqueo del pistón y botón para accionar el slider del asiento en varias posiciones",
+              "brazos": "Polipropileno suave con pad de poliuretano, tipo 3D ajustables en 10 posiciones",
+              "respaldo": "Malla de diseño ergonómico con soporte lumbar flotante",
+              "asiento": "Con tapa protectora en polipropileno y hule espuma laminada flexible de densidad 40 kg/m³, retardante a la flama",
+              "tapiz": "Respaldo en malla color negro y asiento en tela color negro; no se puede retapizar",
+              "capacidad": "Peso sugerido 130 kg",
+              "nota": "El color puede variar según el monitor; tiene cabecera opcional"
+            },
             "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
           }
         ]
