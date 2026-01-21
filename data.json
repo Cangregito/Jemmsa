@@ -717,14 +717,30 @@
           {
             "id": "ohe-905negro",
             "name": "ATHELIER modelo OHE-905negro",
-            "material": "Malla",
-            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+            "material": "Malla negra y tela negra",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop",
+            "base": "Estrella de 5 puntas en acero cromado con rodajas intercambiables negras de nylon 100%, nervadas con concha protectora y giro de 360°",
+            "elevacion": "Pistón neumático con cubierta cilíndrica de acero cromado y bloqueo en diferentes alturas",
+            "mecanismo": "De acero reforzado, tipo articulado basculante, con palanca de accionamiento y bloqueo del pistón neumático",
+            "brazos": "Ajustables en altura en 10 posiciones, con soporte de polipropileno y pads de poliuretano suave",
+            "respaldo": "En malla color negro con bastidor de poliuretano de alta densidad, soporte en forma de L fijado al mecanismo y soporte lumbar ajustable con acojinamiento",
+            "asiento": "Espuma inyectada con retardante de flama, 100 mm de espesor, densidad 60 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo en malla y asiento en tela color negro",
+            "capacidad": "130 kg"
           },
           {
             "id": "ohe-903negro",
             "name": "ATHELIER modelo OHE-903negro",
-            "material": "Malla",
-            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+            "material": "Malla negra y tela negra",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop",
+            "base": "Estrella de 5 puntas en acero cromado con rodajas intercambiables negras de nylon 100%, nervadas con concha protectora y giro de 360°",
+            "elevacion": "Pistón neumático con cubierta cilíndrica de acero cromado y bloqueo en diferentes alturas",
+            "mecanismo": "De acero reforzado, tipo articulado basculante, con palanca para accionar y bloquear el pistón",
+            "brazos": "Ajustables en altura en 10 posiciones, con soporte de polipropileno y pads de poliuretano suave",
+            "respaldo": "En malla color negro, bastidor de poliuretano de alta densidad, soporte en L unido al mecanismo y soporte lumbar ajustable con acojinamiento",
+            "asiento": "Espuma inyectada con retardante de flama, 100 mm de espesor, densidad 60 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo en malla y asiento en tela color negro",
+            "capacidad": "130 kg"
           }
         ]
       },
