@@ -440,8 +440,14 @@
         "description": "Línea BIO de sillas ejecutivas",
         "products": [
           {
-            "id": "bio-01",
-            "name": "BIO",
+            "id": "ohe-113gris",
+            "name": "BIO modelo OHE-113gris",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohe-114negro",
+            "name": "BIO modelo OHE-114negro",
             "material": "Malla",
             "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
           }
