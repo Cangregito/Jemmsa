@@ -750,8 +750,14 @@
         "description": "Línea SOHO de sillas ejecutivas",
         "products": [
           {
-            "id": "soho-01",
-            "name": "SOHO",
+            "id": "ohe-95blanco",
+            "name": "SOHO modelo OHE-95blanco",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohe-95negro",
+            "name": "SOHO modelo OHE-95negro",
             "material": "Malla",
             "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
           }
