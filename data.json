@@ -715,8 +715,14 @@
         "description": "Línea ATHELIER de sillas ejecutivas",
         "products": [
           {
-            "id": "athelier-01",
-            "name": "ATHELIER",
+            "id": "ohe-905negro",
+            "name": "ATHELIER modelo OHE-905negro",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohe-903negro",
+            "name": "ATHELIER modelo OHE-903negro",
             "material": "Malla",
             "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
           }
