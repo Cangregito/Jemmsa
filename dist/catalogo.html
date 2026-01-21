@@ -53,7 +53,22 @@
     const catalogData = {
       "products": {
         "directivos": [
-          { "id": 1, "name": "ALUFSEN modelo OHE-405", "material": "Aluminio y cuero", "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop" },
+          { 
+            "id": 1, 
+            "name": "ALUFSEN modelo OHE-405", 
+            "material": "Piel sintética suave color negro",
+            "description": "Silla directiva de respaldo alto con cabecera, tapizada en piel sintética suave color negro y diseñada para uso exigente hasta 160 kg.",
+            "specifications": {
+              "base": "Estrella de 5 puntas en fundición de aluminio, terminado pulido, con rodajas tipo dual",
+              "elevacion": "Pistón neumático para ajustar la altura del asiento",
+              "mecanismo": "Tipo articulado synchro con anti-shock, palanca de bloqueo y perilla para regular la tensión del reclinado",
+              "brazos": "Aluminio fundido y pulidos, con terminado natural, acojinados y tapizados en soft revolving leather negro",
+              "respaldo": "Respaldo alto con cabecera, hule espuma laminado flexible de densidad 50 kg/m³ y alta resiliencia",
+              "tapiz": "Soft revolving leather color negro",
+              "capacidad": "Hasta 160 kg"
+            },
+            "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop" 
+          },
           { "id": 2, "name": "ALUFSEN modelo OHV-408", "material": "Aluminio y cuero", "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop" },
           { "id": 2, "name": "CIANI", "material": "Cuero y acero inoxidable", "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop" },
           { "id": 3, "name": "GOETZ", "material": "Cuero premium", "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop" },
@@ -90,16 +105,24 @@
       }
       productsToShow.forEach(product => {
         const article = document.createElement('article');
-        article.className = 'border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm';
+        article.className = 'border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm cursor-pointer hover:shadow-md transition-shadow';
         article.innerHTML = `
           <div class="aspect-[4/3] bg-slate-50">
             <img class="w-full h-full object-cover" src="${product.image}" alt="${product.name}">
           </div>
           <div class="p-4 space-y-1">
             <h3 class="text-lg font-medium">${product.name}</h3>
-            <p class="text-slate-500">${product.material}</p>
+            <p class="text-slate-500 text-sm">${product.material}</p>
+            ${product.description ? `<button class="mt-2 text-blue-600 text-sm font-medium hover:text-blue-800">Ver detalles →</button>` : ''}
           </div>
         `;
+        
+        if (product.description) {
+          article.addEventListener('click', () => {
+            showProductModal(product);
+          });
+        }
+        
         grid.appendChild(article);
       });
     }
@@ -118,6 +141,42 @@
     });
 
     renderProducts('all');
+
+    function showProductModal(product) {
+      const modal = document.createElement('div');
+      modal.className = 'fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4';
+      modal.innerHTML = `
+        <div class="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+          <div class="sticky top-0 bg-white border-b border-slate-200 p-4 flex justify-between items-center">
+            <h2 class="text-2xl font-bold">${product.name}</h2>
+            <button class="text-slate-500 hover:text-slate-700 text-2xl">&times;</button>
+          </div>
+          <div class="p-6 space-y-4">
+            <img src="${product.image}" alt="${product.name}" class="w-full h-80 object-cover rounded-lg">
+            ${product.description ? `<p class="text-slate-700 text-lg">${product.description}</p>` : ''}
+            <p class="text-slate-600"><strong>Material:</strong> ${product.material}</p>
+            ${product.specifications ? `
+              <div class="space-y-2">
+                <h3 class="text-lg font-semibold">Especificaciones técnicas</h3>
+                <ul class="space-y-2 text-sm text-slate-700">
+                  ${Object.entries(product.specifications).map(([key, value]) => 
+                    `<li><strong>${key.charAt(0).toUpperCase() + key.slice(1)}:</strong> ${value}</li>`
+                  ).join('')}
+                </ul>
+              </div>
+            ` : ''}
+          </div>
+        </div>
+      `;
+      
+      document.body.appendChild(modal);
+      
+      const closeBtn = modal.querySelector('button');
+      closeBtn.addEventListener('click', () => modal.remove());
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) modal.remove();
+      });
+    }
   </script>
 </body>
 </html>
