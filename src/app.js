@@ -11,6 +11,10 @@ app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '..', 'public')));
+app.use((req, res, next) => {
+  res.locals.company = 'Jemmsa';
+  next();
+});
 
 // Routes
 const indexRouter = require('./routes');
@@ -18,13 +22,13 @@ app.use('/', indexRouter);
 
 // 404 handler
 app.use((req, res) => {
-  res.status(404).render('404', { title: 'Página no encontrada | Jemma' });
+  res.status(404).render('404', { title: 'Página no encontrada | Jemmsa' });
 });
 
 // Server
 if (require.main === module) {
   app.listen(app.get('port'), () => {
-    console.log(`Jemma app listening on http://localhost:${app.get('port')}`);
+    console.log(`Jemmsa app listening on http://localhost:${app.get('port')}`);
   });
 }
 

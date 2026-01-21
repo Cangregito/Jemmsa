@@ -1,8 +1,8 @@
 {
-  "name": "jemma",
+  "name": "jemmsa",
   "version": "0.1.0",
   "private": true,
-  "description": "Sitio de la empresa de sillas Jemma (estructura MVC)",
+  "description": "Sitio estático de la empresa de sillas Jemmsa (estructura MVC)",
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
