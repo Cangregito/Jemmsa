@@ -1,3 +1,30 @@
-<nav class="w-64 bg-slate-100 border-r border-slate-200 p-6">
-  <img src="../public/img/Logo.png" alt="Jemmsa Logo" class="w-full object-contain">
+<nav class="fixed left-0 top-0 h-screen w-64 bg-slate-100 border-r border-slate-200 p-6 transform transition-transform duration-300 z-40" id="navbar">
+  <button class="absolute top-4 right-4 text-slate-900 text-2xl" id="closeBtn">×</button>
+  <img src="../public/img/Logo.png" alt="Jemmsa Logo" class="w-full object-contain mb-8">
 </nav>
+
+<button id="menuBtn" class="fixed left-4 top-4 z-50 text-2xl text-slate-900 lg:hidden">☰</button>
+
+<script>
+  const navbar = document.getElementById('navbar');
+  const menuBtn = document.getElementById('menuBtn');
+  const closeBtn = document.getElementById('closeBtn');
+  
+  menuBtn.addEventListener('click', function() {
+    navbar.classList.toggle('-translate-x-full');
+  });
+  
+  closeBtn.addEventListener('click', function() {
+    navbar.classList.add('-translate-x-full');
+  });
+  
+  // Close navbar when clicking outside
+  document.addEventListener('click', function(event) {
+    if (!navbar.contains(event.target) && !menuBtn.contains(event.target)) {
+      navbar.classList.add('-translate-x-full');
+    }
+  });
+  
+  // Initialize navbar as hidden
+  navbar.classList.add('-translate-x-full');
+</script>
