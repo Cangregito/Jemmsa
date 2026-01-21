@@ -162,8 +162,20 @@
         "description": "Línea GOETZ de sillas directivas",
         "products": [
           {
-            "id": "goetz-01",
-            "name": "GOETZ",
+            "id": "ohe-205",
+            "name": "GOETZ modelo OHE-205 negro",
+            "material": "Cuero premium",
+            "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohe-203",
+            "name": "GOETZ modelo OHE-203 negro",
+            "material": "Cuero premium",
+            "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-208",
+            "name": "GOETZ modelo OHV-208 negro",
             "material": "Cuero premium",
             "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
           }
