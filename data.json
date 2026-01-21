@@ -652,8 +652,26 @@
         "description": "Línea AIKO de sillas ejecutivas",
         "products": [
           {
-            "id": "aiko-01",
-            "name": "AIKO",
+            "id": "ohe-705gris",
+            "name": "AIKO modelo OHE-705gris",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohe-703gris",
+            "name": "AIKO modelo OHE-703gris",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohe-705",
+            "name": "AIKO modelo OHE-705",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohe-703",
+            "name": "AIKO modelo OHE-703",
             "material": "Malla",
             "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
           }
