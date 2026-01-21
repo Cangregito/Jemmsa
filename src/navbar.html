@@ -1,5 +1,5 @@
-<nav class="fixed left-0 top-0 h-screen w-64 bg-slate-100 border-r border-slate-200 p-6 transform transition-transform duration-300 z-40" id="navbar" onmouseenter="openNavbar()" onmouseleave="closeNavbar()">
-  <button class="absolute top-4 right-4 text-slate-900 text-2xl" id="closeBtn" onclick="closeNavbar()">×</button>
+<nav class="fixed left-0 top-0 h-screen w-64 bg-slate-100 border-r border-slate-200 p-6 transform transition-transform duration-300 z-40" id="navbar">
+  <button class="absolute top-4 right-4 text-slate-900 text-2xl" id="closeBtn">×</button>
   <img src="../public/img/Logo.png" alt="Jemmsa Logo" class="w-full object-contain mb-8">
   
   <nav class="space-y-3">
@@ -12,11 +12,12 @@
   </nav>
 </nav>
 
-<button id="menuBtn" class="fixed left-4 top-4 z-50 text-2xl text-slate-900 lg:hidden" onclick="toggleNavbar()">☰</button>
+<button id="menuBtn" class="fixed left-4 top-4 z-50 text-2xl text-slate-900 lg:hidden">☰</button>
 
 <script>
   const navbar = document.getElementById('navbar');
   const menuBtn = document.getElementById('menuBtn');
+  const closeBtn = document.getElementById('closeBtn');
   const navInicio = document.getElementById('navInicio');
   const navCatalogo = document.getElementById('navCatalogo');
   
@@ -46,6 +47,12 @@
       navCatalogo.classList.add('bg-blue-600', 'text-white');
     }
   }
+  
+  // Event listeners
+  navbar.addEventListener('mouseenter', openNavbar);
+  navbar.addEventListener('mouseleave', closeNavbar);
+  menuBtn.addEventListener('click', toggleNavbar);
+  closeBtn.addEventListener('click', closeNavbar);
   
   // Initialize
   navbar.classList.add('-translate-x-full');
