@@ -65,7 +65,13 @@
     "directivos": [
       {
         "id": 1,
-        "name": "ALUFSEN",
+        "name": "ALUFSEN modelo OHE-405",
+        "material": "Aluminio y cuero",
+        "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
+      },
+      {
+        "id": 2,
+        "name": "ALUFSEN modelo OHV-408",
         "material": "Aluminio y cuero",
         "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
       },
