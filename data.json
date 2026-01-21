@@ -367,7 +367,19 @@
           {
             "id": "ohe-803blanco",
             "name": "QUO modelo OHE-803blanco",
-            "material": "Malla",
+            "material": "Malla color gris y tapiz",
+            "description": "Silla ejecutiva con respaldo en malla color gris, asiento tapizado al color que se elija y peso sugerido de uso hasta 160 kg.",
+            "specifications": {
+              "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
+              "elevacion": "Pistón neumático para ajustar la altura del asiento",
+              "mecanismo": "Acero reforzado tipo articulado synchro inteligente con anti-shock y slider, con palanca de bloqueo del pistón, palanca de bloqueo del ángulo del respaldo y botón para accionar el slider",
+              "brazos": "Tipo 3D, giratorios y ajustables en altura, en polipropileno semi-rígido con pad de poliuretano",
+              "respaldo": "Malla de diseño ergonómico con soporte lumbar ajustable",
+              "asiento": "Hule espuma de poliuretano inyectado flexible, densidad 60 kg/m³, retardante a la flama y de alta resiliencia",
+              "tapiz": "Respaldo en malla gris y asiento tapizado al color que se elija de la colección de tapices",
+              "capacidad": "Peso sugerido 160 kg",
+              "nota": "El color puede variar según el monitor"
+            },
             "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
           }
         ]
