@@ -6,22 +6,23 @@
   <title>Jemmsa | Sillas y confort</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="text-slate-800 bg-white">
+<body class="text-slate-800 bg-white flex flex-col min-h-screen">
   <div id="header-container"></div>
 
-  <main class="max-w-5xl mx-auto px-4 py-10 space-y-6">
+  <div class="flex flex-1">
+    <div id="navbar-container"></div>
+    
+    <main class="flex-1 px-4 py-10 space-y-6">
     <section class="space-y-3">
       <p class="text-sm uppercase tracking-wide text-blue-600 font-semibold">Sillas de diseño</p>
       <h2 class="text-3xl font-bold text-slate-900">Bienvenido a Jemmsa</h2>
       <p class="text-lg text-slate-700 max-w-2xl">
-        Sitio estático sin base de datos. Explora nuestro catálogo de sillas cómodas y modernas listo para publicar en Hostinger.
-      </p>
       <div class="flex items-center gap-3">
         <a href="./catalogo.html" class="inline-flex items-center px-4 py-2 rounded-md bg-blue-600 text-white font-medium hover:bg-blue-700">Ver catálogo</a>
-        <a href="mailto:contacto@jemmsa.com" class="text-blue-600 hover:text-blue-700">Contáctanos</a>
       </div>
     </section>
-  </main>
+    </main>
+  </div>
 
   <div id="footer-container"></div>
 
@@ -37,9 +38,10 @@
       }
     }
 
-    // Load header and footer on page load
+    // Load header, navbar, and footer on page load
     document.addEventListener('DOMContentLoaded', function() {
       loadComponent('header-container', '../src/header.html');
+      loadComponent('navbar-container', '../src/navbar.html');
       loadComponent('footer-container', '../src/footer.html');
     });
   </script>
