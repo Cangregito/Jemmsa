@@ -1,6 +1,15 @@
 <nav class="fixed left-0 top-0 h-screen w-64 bg-slate-100 border-r border-slate-200 p-6 transform transition-transform duration-300 z-40" id="navbar" onmouseenter="openNavbar()" onmouseleave="closeNavbar()">
   <button class="absolute top-4 right-4 text-slate-900 text-2xl" id="closeBtn" onclick="closeNavbar()">×</button>
   <img src="../public/img/Logo.png" alt="Jemmsa Logo" class="w-full object-contain mb-8">
+  
+  <nav class="space-y-3">
+    <a href="./index.html" class="block px-4 py-2 rounded-md text-slate-900 font-medium hover:bg-slate-200 transition-colors" id="navInicio">
+      Inicio
+    </a>
+    <a href="./catalogo.html" class="block px-4 py-2 rounded-md text-slate-900 font-medium hover:bg-slate-200 transition-colors" id="navCatalogo">
+      Catálogo
+    </a>
+  </nav>
 </nav>
 
 <button id="menuBtn" class="fixed left-4 top-4 z-50 text-2xl text-slate-900 lg:hidden" onclick="toggleNavbar()">☰</button>
@@ -8,6 +17,8 @@
 <script>
   const navbar = document.getElementById('navbar');
   const menuBtn = document.getElementById('menuBtn');
+  const navInicio = document.getElementById('navInicio');
+  const navCatalogo = document.getElementById('navCatalogo');
   
   function openNavbar() {
     navbar.classList.remove('-translate-x-full');
@@ -21,6 +32,22 @@
     navbar.classList.toggle('-translate-x-full');
   }
   
-  // Initialize navbar as hidden
+  function setActiveLink() {
+    const currentPage = window.location.pathname;
+    
+    // Reset active states
+    navInicio.classList.remove('bg-blue-600', 'text-white');
+    navCatalogo.classList.remove('bg-blue-600', 'text-white');
+    
+    // Set active based on current page
+    if (currentPage.includes('index.html') || currentPage.endsWith('/')) {
+      navInicio.classList.add('bg-blue-600', 'text-white');
+    } else if (currentPage.includes('catalogo.html')) {
+      navCatalogo.classList.add('bg-blue-600', 'text-white');
+    }
+  }
+  
+  // Initialize
   navbar.classList.add('-translate-x-full');
+  setActiveLink();
 </script>
