@@ -591,26 +591,58 @@
           {
             "id": "ohe-112gris",
             "name": "CREW modelo OHE-112gris",
-            "material": "Malla",
-            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+            "material": "Malla gris y tela gris",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop",
+            "base": "Estrella de 5 puntas en fundición de aluminio, terminado pulido, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado tipo synchro, con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión",
+            "brazos": "Tipo 3D, giratorios y ajustables en altura, en polipropileno semi-rígido con pad de poliuretano",
+            "respaldo": "En malla de diseño ergonómico color gris",
+            "asiento": "Hule espuma de poliuretano inyectado, densidad 60 kg/m³, con retardante a la flama y alta resiliencia",
+            "tapiz": "Respaldo de malla gris y asiento tapizado en tela gris",
+            "capacidad": "160 kg"
           },
           {
             "id": "ohe-112griscabecera",
             "name": "CREW modelo OHE-112griscabecera",
-            "material": "Malla",
-            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+            "material": "Malla gris y tela gris",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop",
+            "base": "Estrella de 5 puntas en fundición de aluminio, terminado pulido, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado tipo synchro, con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión",
+            "brazos": "Tipo 3D, giratorios y ajustables en altura, en polipropileno semi-rígido con pad de poliuretano",
+            "respaldo": "En malla de diseño ergonómico color gris, con cabecera",
+            "asiento": "Hule espuma de poliuretano inyectado, densidad 60 kg/m³, con retardante a la flama y alta resiliencia",
+            "tapiz": "Respaldo de malla gris y asiento tapizado en tela gris",
+            "capacidad": "160 kg"
           },
           {
             "id": "ohe-112negro",
             "name": "CREW modelo OHE-112negro",
-            "material": "Malla",
-            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+            "material": "Malla negra y tela negra",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop",
+            "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado tipo synchro, con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión",
+            "brazos": "Tipo 3D, giratorios y ajustables en altura, en polipropileno semi-rígido con pad de poliuretano",
+            "respaldo": "En malla de diseño ergonómico color negro",
+            "asiento": "Hule espuma de poliuretano inyectado, densidad 60 kg/m³, con retardante a la flama y alta resiliencia",
+            "tapiz": "Respaldo de malla negra y asiento en tela 100% poliéster color negro, funda tapizada y pespuntada, con retardante de flama",
+            "capacidad": "160 kg"
           },
           {
             "id": "ohe-112negrocabecera",
             "name": "CREW modelo OHE-112negrocabecera",
-            "material": "Malla",
-            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+            "material": "Malla negra y tela negra",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop",
+            "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado tipo synchro, con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión",
+            "brazos": "Tipo 3D, giratorios y ajustables en altura, en polipropileno semi-rígido con pad de poliuretano",
+            "respaldo": "En malla de diseño ergonómico color negro, con cabecera",
+            "asiento": "Hule espuma de poliuretano inyectado, densidad 60 kg/m³, con retardante a la flama y alta resiliencia",
+            "tapiz": "Respaldo de malla negra y asiento en tela 100% poliéster color negro, funda tapizada y pespuntada con retardante de flama",
+            "capacidad": "160 kg"
           }
         ]
       },
