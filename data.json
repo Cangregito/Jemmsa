@@ -142,7 +142,16 @@
           {
             "id": "ohv-308",
             "name": "CIANI modelo OHV-308 negro",
-            "material": "Cuero y acero inoxidable",
+            "material": "Piel sintética suave (soft revolving leather) color negro",
+            "description": "Silla directiva de respaldo alto con base tipo trineo, tapizada en piel sintética suave (soft revolving leather) color negro, con resistencia sugerida hasta 120 kg.",
+            "specifications": {
+              "base": "Tipo trineo de acero tubular rectangular de 1 1/2\" x 3/4\", calibre 14, con terminado en cromo",
+              "brazos": "Aluminio fundido y pulidos, terminado natural, acojinados y tapizados en soft revolving leather color negro",
+              "asiento": "Respaldo alto con hule espuma laminado flexible de densidad 50 kg/m³ y alta resiliencia",
+              "tapiz": "Soft revolving leather color negro",
+              "capacidad": "Peso sugerido 120 kg",
+              "nota": "El color puede variar según el monitor"
+            },
             "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
           }
         ]
