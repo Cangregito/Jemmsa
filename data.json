@@ -481,8 +481,20 @@
         "description": "Línea CROMA de sillas ejecutivas",
         "products": [
           {
-            "id": "croma-01",
-            "name": "CROMA",
+            "id": "ohe-195negro",
+            "name": "CROMA modelo OHE-195negro",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohe-193negro",
+            "name": "CROMA modelo OHE-193negro",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-198negro",
+            "name": "CROMA modelo OHV-198negro",
             "material": "Malla",
             "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
           }
