@@ -549,13 +549,29 @@
             "id": "ohe-183gris",
             "name": "EQUA modelo OHE-183gris",
             "material": "Malla",
-            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop",
+            "base": "Estrella de 5 puntas en aluminio fundido y pulido, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión del reclinado",
+            "brazos": "Polipropileno semi-rígido",
+            "respaldo": "Bajo, en malla de diseño ergonómico color gris",
+            "asiento": "Hule espuma laminado flexible de densidad 60 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo en malla gris y asiento tapizado al color elegido",
+            "capacidad": "120 kg"
           },
           {
             "id": "ohv-188gris",
             "name": "EQUA modelo OHV-188gris",
             "material": "Malla",
-            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop",
+            "base": "Trineo de acero tubular redondo de 1\" de diámetro, calibre 14, con terminado en cromo",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión",
+            "brazos": "Polipropileno semi-rígido",
+            "respaldo": "Bajo, en malla de diseño ergonómico color gris",
+            "asiento": "Hule espuma laminado flexible de densidad 60 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo en malla gris y asiento tapizado al color elegido",
+            "capacidad": "120 kg"
           }
         ]
       },
