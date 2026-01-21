@@ -442,13 +442,35 @@
           {
             "id": "ohe-113gris",
             "name": "BIO modelo OHE-113gris",
-            "material": "Malla",
+            "material": "Malla color gris",
+            "description": "Silla ejecutiva con respaldo y asiento en malla color gris, de diseño ergonómico, con peso sugerido de uso hasta 100 kg.",
+            "specifications": {
+              "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
+              "elevacion": "Pistón neumático para ajustar la altura del asiento",
+              "mecanismo": "Acero reforzado con sistema de reclinación y palanca de bloqueo",
+              "brazos": "Polipropileno semi-rígido",
+              "asiento": "Malla de diseño ergonómico",
+              "tapiz": "Malla color gris",
+              "capacidad": "Peso sugerido 100 kg",
+              "nota": "El color puede variar según el monitor"
+            },
             "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
           },
           {
             "id": "ohe-114negro",
             "name": "BIO modelo OHE-114negro",
-            "material": "Malla",
+            "material": "Malla color negro",
+            "description": "Silla ejecutiva con respaldo y asiento en malla color negro, de diseño ergonómico, con peso sugerido de uso hasta 100 kg.",
+            "specifications": {
+              "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
+              "elevacion": "Pistón neumático para ajustar la altura del asiento",
+              "mecanismo": "Acero reforzado con sistema de reclinación y palanca de bloqueo",
+              "brazos": "Polipropileno semi-rígido",
+              "asiento": "Malla de diseño ergonómico",
+              "tapiz": "Malla de color negro",
+              "capacidad": "Peso sugerido 100 kg",
+              "nota": "El color puede variar según el monitor"
+            },
             "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
           }
         ]
