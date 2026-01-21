@@ -806,8 +806,14 @@
         "description": "Línea WICKER de sillas ejecutivas",
         "products": [
           {
-            "id": "wicker-01",
-            "name": "WICKER",
+            "id": "ohe-140negro",
+            "name": "WICKER modelo OHE-140negro",
+            "material": "Malla",
+            "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohe-139negro",
+            "name": "WICKER modelo OHE-139negro",
             "material": "Malla",
             "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
           }
