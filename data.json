@@ -87,7 +87,15 @@
           {
             "id": "ohv-408",
             "name": "ALUFSEN modelo OHV-408",
-            "material": "Aluminio y cuero",
+            "material": "Piel sintética suave color negro",
+            "description": "Silla directiva de respaldo bajo tipo trineo, tapizada en piel sintética suave color negro y diseñada para soportar hasta 120 kg.",
+            "specifications": {
+              "base": "Tipo trineo de acero tubular rectangular de 1 1/2\" x 3/4\", calibre 14, con terminado en cromo",
+              "brazos": "Extensión de las patas, acojinados y tapizados en soft revolving leather color negro",
+              "asiento": "Respaldo bajo, con hule espuma laminado flexible de densidad 50 kg/m³ y alta resiliencia",
+              "tapiz": "Soft revolving leather color negro",
+              "capacidad": "Hasta 120 kg"
+            },
             "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
           }
         ]
