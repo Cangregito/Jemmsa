@@ -30,9 +30,53 @@
         const response = await fetch(componentPath);
         const content = await response.text();
         document.getElementById(containerId).innerHTML = content;
+        
+        // Initialize navbar after it's loaded
+        if (containerId === 'navbar-container') {
+          setTimeout(initNavbar, 100);
+        }
       } catch (error) {
         console.error(`Error loading component from ${componentPath}:`, error);
       }
+    }
+    
+    // Initialize navbar
+    function initNavbar() {
+      const navbar = document.getElementById('navbar');
+      const menuBtn = document.getElementById('menuBtn');
+      const closeBtn = document.getElementById('closeBtn');
+      
+      if (!navbar || !menuBtn) {
+        console.error('Navbar elements not found');
+        return;
+      }
+      
+      // Initialize navbar as hidden
+      navbar.classList.add('-translate-x-full');
+      
+      // Event listeners for hover
+      navbar.addEventListener('mouseenter', function() {
+        navbar.classList.remove('-translate-x-full');
+      });
+      
+      navbar.addEventListener('mouseleave', function() {
+        navbar.classList.add('-translate-x-full');
+      });
+      
+      // Event listener for hamburger menu
+      menuBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        navbar.classList.toggle('-translate-x-full');
+      });
+      
+      // Event listener for close button
+      if (closeBtn) {
+        closeBtn.addEventListener('click', function() {
+          navbar.classList.add('-translate-x-full');
+        });
+      }
+      
+      console.log('Navbar initialized successfully');
     }
 
     // Load header, navbar, and footer on page load
