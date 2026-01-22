@@ -41,11 +41,6 @@
       "description": "Mesas y superficies de trabajo"
     },
     {
-      "id": "bancos",
-      "name": "Bancos",
-      "description": "Bancos y asientos sin respaldo"
-    },
-    {
       "id": "confortables",
       "name": "Confortables",
       "description": "Sillas de máximo confort y descanso"
@@ -3087,23 +3082,6 @@
             "description": "Mesa de trabajo ajustable en madera y acero.",
             "specifications": { "capacidad": "Carga variable" },
             "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
-          }
-        ]
-      }
-    },
-    "bancos": {
-      "bancos-1": {
-        "id": "bancos-1",
-        "name": "Bancos",
-        "description": "Familia de Bancos.",
-        "products": [
-          {
-            "id": "banco-alto-bar",
-            "name": "Banco Alto de Bar",
-            "material": "Metal y madera",
-            "description": "Banco alto de bar en metal y madera.",
-            "specifications": { "capacidad": "Peso sugerido 120 kg" },
-            "image": "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=800&auto=format&fit=crop"
           }
         ]
       }
