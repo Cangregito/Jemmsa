@@ -2708,25 +2708,189 @@
         "id": "naples",
         "name": "NAPLES",
         "description": "Familia NAPLES de sillas visitantes exterior.",
-        "products": []
+        "products": [
+          {
+            "id": "ohv-7220b",
+            "name": "OHV-7220B",
+            "comercial_name": "Visitantes Exterior OHV-7220B",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante exterior NAPLES modelo OHV-7220B. Información detallada pendiente.",
+            "specifications": { "nota": "El color puede variar dependiendo de su monitor" },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-7220B", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-7220a",
+            "name": "OHV-7220A",
+            "comercial_name": "Visitantes Exterior OHV-7220A",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante exterior NAPLES modelo OHV-7220A. Información detallada pendiente.",
+            "specifications": { "nota": "El color puede variar dependiendo de su monitor" },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-7220A", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
       "iris": {
         "id": "iris",
         "name": "IRIS",
         "description": "Familia IRIS de sillas visitantes exterior.",
-        "products": []
+        "products": [
+          {
+            "id": "ohv-7029-dc",
+            "name": "OHV-7029-DC",
+            "comercial_name": "Visitantes Exterior OHV-7029-DC",
+            "material": "Polipropileno con imitación mimbre",
+            "description": "Silla visitante exterior IRIS modelo OHV-7029-DC. Respaldo, asiento y patas terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+            "specifications": {
+              "piezas": "Respaldo, asiento y patas terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+              "colores": "Blanco (W8), Gris (G6), Café (N3)",
+              "capacidad": "Peso sugerido 130 kg",
+              "referencia": "BIFMA",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "recursos": {
+              "fotos": {
+                "nombre": "Fotos OHV-7029",
+                "archivo": "ImagenesOHV-7029.pdf"
+              },
+              "ficha_tecnica": {
+                "nombre": "Ficha Técnica OHV-7029-DC",
+                "archivo": "OHV-7029-DCFT.jpg"
+              },
+              "modelados_3d": [
+                {
+                  "tipo": "3DS",
+                  "archivo": "7029DC.3ds"
+                }
+              ]
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-7029-DC", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
       "grace": {
         "id": "grace",
         "name": "GRACE",
         "description": "Familia GRACE de sillas visitantes exterior.",
-        "products": []
+        "products": [
+          {
+            "id": "ohv-7028",
+            "name": "OHV-7028",
+            "comercial_name": "Visitantes Exterior OHV-7028",
+            "material": "Polipropileno con imitación bejuco",
+            "description": "Silla visitante exterior GRACE modelo OHV-7028. Respaldo, asiento y patas terminado en imitación bejuco de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+            "specifications": {
+              "piezas": "Respaldo, asiento y patas terminado en imitación bejuco de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+              "colores": "Blanco (W9), Gris (G6), Negroazulado (K3), Camel (N4)",
+              "capacidad": "Peso sugerido 130 kg",
+              "referencia": "BIFMA",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "recursos": {
+              "fotos": {
+                "nombre": "Fotos OHV-7028",
+                "archivo": "ImagenesOHV-7028.pdf"
+              },
+              "ficha_tecnica": {
+                "nombre": "Ficha Técnica OHV-7028",
+                "archivo": "OHV-7028FT.jpg"
+              },
+              "modelados_3d": [
+                {
+                  "tipo": "DWG",
+                  "archivo": "OHV-7028.dwg"
+                },
+                {
+                  "tipo": "OBJ",
+                  "archivo": "OHV-7028.obj"
+                }
+              ]
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-7028", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
       "milos": {
         "id": "milos",
         "name": "MILOS",
         "description": "Familia MILOS de sillas visitantes exterior.",
-        "products": []
+        "products": [
+          {
+            "id": "ohv-7203a",
+            "name": "OHV-7203A",
+            "comercial_name": "Visitantes Exterior OHV-7203A",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante exterior MILOS modelo OHV-7203A. Información detallada pendiente.",
+            "specifications": { "nota": "El color puede variar dependiendo de su monitor" },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-7203A", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-7203b",
+            "name": "OHV-7203B",
+            "comercial_name": "Visitantes Exterior OHV-7203B",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante exterior MILOS modelo OHV-7203B. Información detallada pendiente.",
+            "specifications": { "nota": "El color puede variar dependiendo de su monitor" },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-7203B", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-7203bb",
+            "name": "OHV-7203BB",
+            "comercial_name": "Visitantes Exterior OHV-7203BB",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante exterior MILOS modelo OHV-7203BB. Información detallada pendiente.",
+            "specifications": { "nota": "El color puede variar dependiendo de su monitor" },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-7203BB", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-7203bc",
+            "name": "OHV-7203BC",
+            "comercial_name": "Visitantes Exterior OHV-7203BC",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante exterior MILOS modelo OHV-7203BC. Información detallada pendiente.",
+            "specifications": { "nota": "El color puede variar dependiendo de su monitor" },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-7203BC", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
       "milan": {
         "id": "milan",
