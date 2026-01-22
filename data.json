@@ -3264,22 +3264,60 @@
       },
       "ivy": {
         "id": "ivy",
-        "name": "IVY",
-        "description": "Familia IVY de bancas.",
+        "name": "IVY-2800",
+        "description": "Familia IVY-2800 de bancas.",
         "products": [
           {
-            "id": "ivy",
-            "name": "Ivy",
-            "comercial_name": "Banca IVY",
+            "id": "ohr-2800-2pcr",
+            "name": "OHR-2800-2PCR",
+            "comercial_name": "Banca IVY-2800 OHR-2800-2PCR",
             "material": "Pendiente especificaciones",
-            "description": "Banca IVY. Información detallada pendiente.",
+            "description": "Banca IVY-2800 modelo OHR-2800-2PCR. Información detallada pendiente.",
             "specifications": {
+              "plazas": "2 plazas con cromado",
               "nota_general": "El color puede variar dependiendo de su monitor"
             },
             "breadcrumb": [
               { "label": "Home", "link": "/" },
               { "label": "BANCAS", "link": "/catalogo?categoria=bancas" },
-              { "label": "Ivy", "link": "#" }
+              { "label": "IVY-2800", "link": "/catalogo?categoria=bancas&familia=ivy" },
+              { "label": "OHR-2800-2PCR", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohr-2800-3pcr",
+            "name": "OHR-2800-3PCR",
+            "comercial_name": "Banca IVY-2800 OHR-2800-3PCR",
+            "material": "Pendiente especificaciones",
+            "description": "Banca IVY-2800 modelo OHR-2800-3PCR. Información detallada pendiente.",
+            "specifications": {
+              "plazas": "3 plazas con cromado",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "BANCAS", "link": "/catalogo?categoria=bancas" },
+              { "label": "IVY-2800", "link": "/catalogo?categoria=bancas&familia=ivy" },
+              { "label": "OHR-2800-3PCR", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohr-2800-4pcr",
+            "name": "OHR-2800-4PCR",
+            "comercial_name": "Banca IVY-2800 OHR-2800-4PCR",
+            "material": "Pendiente especificaciones",
+            "description": "Banca IVY-2800 modelo OHR-2800-4PCR. Información detallada pendiente.",
+            "specifications": {
+              "plazas": "4 plazas con cromado",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "BANCAS", "link": "/catalogo?categoria=bancas" },
+              { "label": "IVY-2800", "link": "/catalogo?categoria=bancas&familia=ivy" },
+              { "label": "OHR-2800-4PCR", "link": "#" }
             ],
             "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
           }
