@@ -3070,19 +3070,108 @@
       }
     },
     "mesas": {
-      "mesas-1": {
-        "id": "mesas-1",
-        "name": "Mesas",
-        "description": "Familia de Mesas.",
+      "magnolia": {
+        "id": "magnolia",
+        "name": "MAGNOLIA",
+        "description": "Familia MAGNOLIA de mesas.",
         "products": [
-          {
-            "id": "mesa-trabajo-ajustable",
-            "name": "Mesa de Trabajo Ajustable",
-            "material": "Madera y acero",
-            "description": "Mesa de trabajo ajustable en madera y acero.",
-            "specifications": { "capacidad": "Carga variable" },
-            "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
-          }
+          { "id": "ohm-7023-st", "name": "OHM-7023-ST", "comercial_name": "Mesas MAGNOLIA OHM-7023-ST", "material": "Pendiente especificaciones", "description": "Mesa MAGNOLIA modelo OHM-7023-ST. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "MAGNOLIA", "link": "/catalogo?categoria=mesas&familia=magnolia" }, { "label": "OHM-7023-ST", "link": "#" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
+        ]
+      },
+      "uno": {
+        "id": "uno",
+        "name": "UNO",
+        "description": "Familia UNO de mesas.",
+        "products": [
+          { "id": "ohm-7095", "name": "OHM-7095", "comercial_name": "Mesas UNO OHM-7095", "material": "Pendiente especificaciones", "description": "Mesa UNO modelo OHM-7095. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "UNO", "link": "/catalogo?categoria=mesas&familia=uno" }, { "label": "OHM-7095", "link": "#" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
+        ]
+      },
+      "cancun": {
+        "id": "cancun",
+        "name": "CANCÚ N",
+        "description": "Familia CANCÚUN de mesas.",
+        "products": [
+          { "id": "ohm-7035", "name": "OHM-7035", "comercial_name": "Mesas CANCÚUN OHM-7035", "material": "Pendiente especificaciones", "description": "Mesa CANCÚUN modelo OHM-7035. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "CANCÚUN", "link": "/catalogo?categoria=mesas&familia=cancun" }, { "label": "OHM-7035", "link": "#" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
+        ]
+      },
+      "seattle": {
+        "id": "seattle",
+        "name": "SEATTLE",
+        "description": "Familia SEATTLE de mesas.",
+        "products": [
+          { "id": "ohm-7101", "name": "OHM-7101", "comercial_name": "Mesas SEATTLE OHM-7101", "material": "Pendiente especificaciones", "description": "Mesa SEATTLE modelo OHM-7101. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "SEATTLE", "link": "/catalogo?categoria=mesas&familia=seattle" }, { "label": "OHM-7101", "link": "#" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
+        ]
+      },
+      "tonnati": {
+        "id": "tonnati",
+        "name": "TONNATI",
+        "description": "Familia TONNATI de mesas.",
+        "products": [
+          { "id": "ohm-16", "name": "OHM-16", "comercial_name": "Mesas TONNATI OHM-16", "material": "Pendiente especificaciones", "description": "Mesa TONNATI modelo OHM-16. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "TONNATI", "link": "/catalogo?categoria=mesas&familia=tonnati" }, { "label": "OHM-16", "link": "#" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
+        ]
+      },
+      "marbel": {
+        "id": "marbel",
+        "name": "MARBEL",
+        "description": "Familia MARBEL de mesas.",
+        "products": [
+          { "id": "marbel-base", "name": "MARBEL", "comercial_name": "Mesas MARBEL", "material": "Pendiente especificaciones", "description": "Mesa MARBEL. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "MARBEL", "link": "/catalogo?categoria=mesas&familia=marbel" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
+        ]
+      },
+      "chloe": {
+        "id": "chloe",
+        "name": "CHLOE",
+        "description": "Familia CHLOE de mesas.",
+        "products": [
+          { "id": "ohm-7097", "name": "OHM-7097", "comercial_name": "Mesas CHLOE OHM-7097", "material": "Pendiente especificaciones", "description": "Mesa CHLOE modelo OHM-7097. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "CHLOE", "link": "/catalogo?categoria=mesas&familia=chloe" }, { "label": "OHM-7097", "link": "#" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
+        ]
+      },
+      "venice": {
+        "id": "venice",
+        "name": "VENICE",
+        "description": "Familia VENICE de mesas.",
+        "products": [
+          { "id": "ohm-7155", "name": "OHM-7155", "comercial_name": "Mesas VENICE OHM-7155", "material": "Pendiente especificaciones", "description": "Mesa VENICE modelo OHM-7155. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "VENICE", "link": "/catalogo?categoria=mesas&familia=venice" }, { "label": "OHM-7155", "link": "#" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
+        ]
+      },
+      "quick": {
+        "id": "quick",
+        "name": "QUICK",
+        "description": "Familia QUICK de mesas.",
+        "products": [
+          { "id": "ohm-47", "name": "OHM-47", "comercial_name": "Mesas QUICK OHM-47", "material": "Pendiente especificaciones", "description": "Mesa QUICK modelo OHM-47. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "QUICK", "link": "/catalogo?categoria=mesas&familia=quick" }, { "label": "OHM-47", "link": "#" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
+        ]
+      },
+      "pedestal300": {
+        "id": "pedestal300",
+        "name": "PEDESTAL300-BL",
+        "description": "Familia PEDESTAL300-BL de mesas.",
+        "products": [
+          { "id": "pedestal300-bl", "name": "PEDESTAL300-BL", "comercial_name": "Mesas PEDESTAL300-BL", "material": "Pendiente especificaciones", "description": "Mesa PEDESTAL300-BL. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "PEDESTAL300-BL", "link": "/catalogo?categoria=mesas&familia=pedestal300" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
+        ]
+      },
+      "oslo-russ": {
+        "id": "oslo-russ",
+        "name": "OSLO/RUSS",
+        "description": "Familia OSLO/RUSS de mesas.",
+        "products": [
+          { "id": "oslo-russ-base", "name": "OSLO/RUSS", "comercial_name": "Mesas OSLO/RUSS", "material": "Pendiente especificaciones", "description": "Mesa OSLO/RUSS. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "OSLO/RUSS", "link": "/catalogo?categoria=mesas&familia=oslo-russ" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
+        ]
+      },
+      "oulu": {
+        "id": "oulu",
+        "name": "OULU",
+        "description": "Familia OULU de mesas.",
+        "products": [
+          { "id": "oulu-base", "name": "OULU", "comercial_name": "Mesas OULU", "material": "Pendiente especificaciones", "description": "Mesa OULU. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "OULU", "link": "/catalogo?categoria=mesas&familia=oulu" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
+        ]
+      },
+      "heron": {
+        "id": "heron",
+        "name": "HERON",
+        "description": "Familia HERON de mesas.",
+        "products": [
+          { "id": "heron-base", "name": "HERON", "comercial_name": "Mesas HERON", "material": "Pendiente especificaciones", "description": "Mesa HERON. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "HERON", "link": "/catalogo?categoria=mesas&familia=heron" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
         ]
       }
     },
