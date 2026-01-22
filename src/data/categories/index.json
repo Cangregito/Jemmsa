@@ -1,0 +1,72 @@
+{
+  "categories": [
+    {
+      "id": "directivos",
+      "name": "Directivos",
+      "description": "Sillas ejecutivas de alto confort para directivos"
+    },
+    {
+      "id": "ejecutivos",
+      "name": "Ejecutivos",
+      "description": "Sillas de oficina profesionales para ejecutivos"
+    },
+    {
+      "id": "operativos",
+      "name": "Operativos",
+      "description": "Sillas de trabajo para áreas operativas"
+    },
+    {
+      "id": "industrial",
+      "name": "Industrial",
+      "description": "Sillas resistentes para entornos industriales"
+    },
+    {
+      "id": "accesorios",
+      "name": "Accesorios",
+      "description": "Accesorios y complementos para sillas"
+    },
+    {
+      "id": "visitantes-interior",
+      "name": "Visitantes Interior",
+      "description": "Sillas para visitantes en espacios interiores"
+    },
+    {
+      "id": "visitantes-exterior",
+      "name": "Visitantes Exterior",
+      "description": "Sillas para visitantes en espacios exteriores"
+    },
+    {
+      "id": "mesas",
+      "name": "Mesas",
+      "description": "Mesas y superficies de trabajo"
+    },
+    {
+      "id": "confortables",
+      "name": "Confortables",
+      "description": "Sillas de máximo confort y descanso"
+    },
+    {
+      "id": "bancas",
+      "name": "Bancas",
+      "description": "Bancas modulares y colectivas"
+    },
+    {
+      "id": "escolar",
+      "name": "Escolar",
+      "description": "Sillas y pupitres para entornos escolares"
+    }
+  ],
+  "categoryFiles": [
+    "directivos.json",
+    "ejecutivos.json",
+    "operativos.json",
+    "industrial.json",
+    "accesorios.json",
+    "visitantes-interior.json",
+    "visitantes-exterior.json",
+    "mesas.json",
+    "confortables.json",
+    "bancas.json",
+    "escolar.json"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "category": {
+    "id": "industrial",
+    "name": "Industrial",
+    "description": "Sillas resistentes para entornos industriales"
+  },
+  "families": [
+    {
+      "id": "ohi-46",
+      "name": "OHI-46",
+      "material": "Estructura de acero reforzado con base de hierro fundido, asiento y respaldo tapizados en tela industrial resistente",
+      "description": "Silla industrial OHI-46. Modelo resistente diseñado para entornos industriales con alto uso. Base reforzada y construcción robusta para soportar jornadas laborales intensas.",
+      "link": "/fichas/ohi-46",
+      "specifications": {
+        "base": "Base de hierro fundido tipo estrella de 5 puntas, terminado en pintura epoxi negra mate, con rodajas de nylon reforzadas",
+        "elevacion": "Pistón neumático industrial de calibre pesado con sistema anti-caída de seguridad",
+        "mecanismo": "Mecanismo sincrónico tipo articulado con resorte de recuperación automática",
+        "brazos": "Brazos ajustables en altura y profundidad, estructura de acero con material anti-deslizante",
+        "respaldo": "Respaldo reclinable de altura media con soporte lumbar integrado",
+        "asiento": "Asiento ergonómico con espuma de densidad media resistente al desgarre",
+        "tapiz": "Tela industrial de alta resistencia, fácil de limpiar y desinfectar",
+        "capacidad": "Peso máximo soportado: 180 kg",
+        "nota": "Diseñada para uso continuo en ambientes industriales, fabril y logístico"
+      },
+      "image": "https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": "ohi-48",
+      "name": "OHI-48",
+      "material": "Estructura de acero tubular reforzado, base de aluminio fundido, tapizado en cuero sintético industrial",
+      "description": "Silla industrial OHI-48. Versión mejorada con mayor estabilidad y durabilidad. Diseñada para ambientes de temperatura variable y alta humedad.",
+      "link": "/fichas/ohi-48",
+      "specifications": {
+        "base": "Base de aluminio fundido tipo estrella de 5 puntas, tratamiento anti-corrosión, rodajas tipo dual de alta resistencia",
+        "elevacion": "Pistón neumático de doble cámara para estabilidad y control de velocidad de descenso",
+        "mecanismo": "Mecanismo de bloqueo múltiple con ángulo de inclinación regulable de 0° a 15°",
+        "brazos": "Brazos de altura y profundidad totalmente ajustables, fabricados en aluminio extruido",
+        "respaldo": "Respaldo alto ergonómico con soporte cervical y lumbar integrado",
+        "asiento": "Asiento con contorno anatómico, espuma de inyección de alta densidad",
+        "tapiz": "Cuero sintético industrial de grado profesional, resistente a manchas y fluidos",
+        "capacidad": "Peso máximo soportado: 200 kg",
+        "nota": "Especialmente recomendada para plantas de producción y ambientes húmedos"
+      },
+      "image": "https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": "ohi-49",
+      "name": "OHI-49",
+      "material": "Estructura de acero tubular de perfil cerrado, base de acero con tratamiento especial, tapizado en tela Cordura®",
+      "description": "Silla industrial OHI-49. Modelo premium de máxima resistencia y confort. Ideal para turnos prolongados en ambiente industrial.",
+      "link": "/fichas/ohi-49",
+      "specifications": {
+        "base": "Base de acero con recubrimiento de poliuretano anti-deslizante, rodajas de nylon con freno de seguridad",
+        "elevacion": "Pistón neumático de accionamiento suave con sistema de válvula anti-caída integrada",
+        "mecanismo": "Mecanismo de bloqueo de altura multi-posición con reclinación suave",
+        "brazos": "Brazos 3D completamente ajustables: altura, profundidad y rotación, refuerzo de acero en puntos de pivote",
+        "respaldo": "Respaldo alto con sistema de soporte dinámico, recubierto en espuma viscoelástica",
+        "asiento": "Asiento con sistema de ventilación por células, espuma viscoelástica de máxima confortabilidad",
+        "tapiz": "Tela Cordura® de grado industrial, con tratamiento antimicrobiano y resistencia extrema al desgarre",
+        "capacidad": "Peso máximo soportado: 220 kg",
+        "nota": "Certificada para uso continuo 24/7 en entornos industriales exigentes. Mantenimiento mínimo."
+      },
+      "image": "https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop"
+    }
+  ]
+}

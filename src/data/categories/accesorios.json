@@ -1,0 +1,183 @@
+{
+  "category": {
+    "id": "accesorios",
+    "name": "Accesorios",
+    "description": "Accesorios y complementos para sillas"
+  },
+  "families": {
+    "piston-base": {
+      "id": "piston-base",
+      "name": "PISTÓN Y BASE",
+      "description": "Subcategoría de pistones y bases para sillas",
+      "products": [
+        {
+          "id": "piston-rebasador-cromado",
+          "name": "Pistón Rebasador Cromado",
+          "material": "Acero con terminado cromado",
+          "description": "Pistón rebasador cromado para sillas tipo cajero / mayor altura. Eleva la silla a una altura superior a la estándar.",
+          "specifications": {
+            "tipo": "Pistón rebasador cromado para sillas tipo cajero / mayor altura",
+            "uso": "Eleva la silla a una altura superior a la estándar",
+            "terminacion": "Cromado",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "base-aluminio-lucido",
+          "name": "Base Aluminio Lúcido",
+          "material": "Aluminio fundido pulido/brillante",
+          "description": "Base para silla de 5 puntas en aluminio con acabado lúcido (pulido/brillante). Reemplazo o actualización de base de silla operativa o ejecutiva.",
+          "specifications": {
+            "tipo": "Base para silla de 5 puntas",
+            "material": "Aluminio fundido con acabado lúcido (pulido/brillante)",
+            "uso": "Reemplazo o actualización de base de silla operativa o ejecutiva",
+            "terminacion": "Lúcido (pulido/brillante)",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "kits-piston": {
+      "id": "kits-piston",
+      "name": "KITS / PISTÓN",
+      "description": "Subcategoría de kits y pistones para elevación",
+      "products": [
+        {
+          "id": "kit-cajero-cromado",
+          "name": "Kit cajero cromado",
+          "material": "Acero con terminado cromado",
+          "description": "Kit de elevación tipo cajero con terminación cromada.",
+          "specifications": {
+            "tipo": "Kit de elevación tipo cajero",
+            "componentes": "Pistón rebasador y elementos necesarios para convertir silla a versión cajero (incluye aro o elementos afines según configuración)",
+            "terminacion": "Cromado",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "piston-neumatico-estandar",
+          "name": "Pistón",
+          "material": "Acero",
+          "description": "Pistón neumático estándar para elevación de asiento en sillas operativas o ejecutivas.",
+          "specifications": {
+            "tipo": "Pistón neumático estándar",
+            "uso": "Repuesto de pistón para sillas operativas / ejecutivas",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "brazos-ajustables-operativas-40": {
+      "id": "brazos-ajustables-operativas-40",
+      "name": "BRAZOS AJUSTABLES OPERATIVAS 40",
+      "description": "Subcategoría de brazos ajustables para sillas operativas",
+      "products": [
+        {
+          "id": "brazo-40",
+          "name": "Brazo-40",
+          "material": "Polipropileno semirígido",
+          "description": "Brazo ajustable para sillas operativas.",
+          "specifications": {
+            "caracteristicas": "Funda de polipropileno con botón para ajuste de altura en 10 posiciones; correderas para ajuste a lo ancho",
+            "color": "Negro",
+            "compatibilidad": "Algunos brazos son compatibles con otras sillas; validar con el área comercial",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "brazos-fijos-operativas": {
+      "id": "brazos-fijos-operativas",
+      "name": "BRAZOS FIJOS OPERATIVAS",
+      "description": "Subcategoría de brazos fijos para sillas operativas",
+      "products": [
+        {
+          "id": "brazo-06",
+          "name": "Brazo-06",
+          "material": "Polipropileno semirígido",
+          "description": "Brazos fijos para sillas operativas.",
+          "specifications": {
+            "tipo": "Brazos fijos",
+            "uso": "Soporte de brazos en modelos operativos específicos",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "brazo-53",
+          "name": "Brazo-53",
+          "material": "Polipropileno semirígido",
+          "description": "Brazos fijos para sillas operativas.",
+          "specifications": {
+            "tipo": "Brazos fijos",
+            "uso": "Configuración de apoyo fijo para modelos compatibles",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "brazo-55",
+          "name": "Brazo-55",
+          "material": "Polipropileno semirígido",
+          "description": "Brazos fijos para sillas operativas.",
+          "specifications": {
+            "tipo": "Brazos fijos",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "brazo-90",
+          "name": "Brazo-90",
+          "material": "Polipropileno semirígido",
+          "description": "Brazos fijos para sillas operativas.",
+          "specifications": {
+            "tipo": "Brazos fijos",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "brazo-86",
+          "name": "Brazo-86",
+          "material": "Polipropileno semirígido",
+          "description": "Brazos fijos para sillas operativas.",
+          "specifications": {
+            "tipo": "Brazos fijos",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "brazo-86al-pad-negro",
+          "name": "Brazo-86Al pad Negro",
+          "material": "Estructura tipo aluminio con pad negro",
+          "description": "Brazos fijos con estructura tipo aluminio y pad en color negro.",
+          "specifications": {
+            "tipo": "Brazos fijos",
+            "color": "Pad negro",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "brazo-86al-pad-blanco",
+          "name": "Brazo-86Al pad Blanco",
+          "material": "Estructura tipo aluminio con pad blanco",
+          "description": "Brazos fijos con estructura tipo aluminio y pad en color blanco.",
+          "specifications": {
+            "tipo": "Brazos fijos",
+            "color": "Pad blanco",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    }
+  }
+}

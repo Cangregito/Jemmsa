@@ -1,0 +1,691 @@
+{
+  "category": {
+    "id": "ejecutivos",
+    "name": "Ejecutivos",
+    "description": "Sillas de oficina profesionales para ejecutivos"
+  },
+  "families": {
+    "quo": {
+      "id": "quo",
+      "name": "QUO",
+      "description": "Línea QUO de sillas ejecutivas",
+      "products": [
+        {
+          "id": "ohe-805negro",
+          "name": "QUO modelo OHE-805negro",
+          "material": "Malla color negro y tela negra",
+          "description": "Silla ejecutiva de respaldo en malla con cabecera y soporte lumbar ajustables, asiento tapizado en tela negra y resistencia sugerida hasta 160 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Acero reforzado, tipo articulado synchro inteligente con anti-shock y slider, con palanca de bloqueo del pistón, palanca de bloqueo del ángulo del respaldo y botón para accionar el slider en varias posiciones",
+            "brazos": "Tipo 3D, giratorios y ajustables en altura, en polipropileno semi rígido con pad de poliuretano",
+            "respaldo": "Malla de diseño ergonómico, con cabecera ajustable y soporte lumbar ajustable",
+            "asiento": "Hule espuma de poliuretano inyectado flexible, densidad 60 kg/m³, con retardante a la flama y alta resiliencia",
+            "tapiz": "Respaldo en malla color negro y asiento tapizado en tela color negro",
+            "capacidad": "Peso sugerido 160 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohe-805blanco",
+          "name": "QUO modelo OHE-805blanco",
+          "material": "Malla color gris y tapiz",
+          "description": "Silla ejecutiva con respaldo en malla, cabecera y soporte lumbar ajustables, asiento tapizado y peso sugerido de uso hasta 160 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Acero reforzado, tipo articulado synchro inteligente con anti-shock y slider, con palanca de bloqueo del pistón, palanca de bloqueo del ángulo del respaldo y botón para accionar el slider",
+            "brazos": "Tipo 3D, giratorios y ajustables en altura, en polipropileno semi rígido con pad de poliuretano",
+            "respaldo": "Malla de diseño ergonómico, con cabecera ajustable y soporte lumbar ajustable",
+            "asiento": "Hule espuma de poliuretano inyectado flexible, densidad 60 kg/m³, retardante a la flama y de alta resiliencia",
+            "tapiz": "Respaldo en malla color gris y asiento tapizado al color que se elija de la colección de tapices",
+            "capacidad": "Peso sugerido 160 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohe-803",
+          "name": "QUO modelo OHE-803",
+          "material": "Malla negra y tela negra",
+          "description": "Silla ejecutiva con respaldo en malla y soporte lumbar ajustable, asiento tapizado en tela negra y peso sugerido de uso hasta 160 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Acero reforzado, tipo articulado synchro inteligente con anti-shock y slider, con palanca de bloqueo del pistón, palanca de bloqueo del ángulo del respaldo y botón para accionar el slider en varias posiciones",
+            "brazos": "Tipo 3D, giratorios y ajustables en altura, en polipropileno semi rígido con pad de poliuretano",
+            "respaldo": "Malla de diseño ergonómico con soporte lumbar ajustable",
+            "asiento": "Hule espuma de poliuretano inyectado flexible, densidad 60 kg/m³, retardante a la flama y de alta resiliencia",
+            "tapiz": "Respaldo en malla negra y asiento tapizado en tela color negro",
+            "capacidad": "Peso sugerido 160 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohe-803blanco",
+          "name": "QUO modelo OHE-803blanco",
+          "material": "Malla color gris y tapiz",
+          "description": "Silla ejecutiva con respaldo en malla color gris, asiento tapizado al color que se elija y peso sugerido de uso hasta 160 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Acero reforzado tipo articulado synchro inteligente con anti-shock y slider, con palanca de bloqueo del pistón, palanca de bloqueo del ángulo del respaldo y botón para accionar el slider",
+            "brazos": "Tipo 3D, giratorios y ajustables en altura, en polipropileno semi-rígido con pad de poliuretano",
+            "respaldo": "Malla de diseño ergonómico con soporte lumbar ajustable",
+            "asiento": "Hule espuma de poliuretano inyectado flexible, densidad 60 kg/m³, retardante a la flama y de alta resiliencia",
+            "tapiz": "Respaldo en malla gris y asiento tapizado al color que se elija de la colección de tapices",
+            "capacidad": "Peso sugerido 160 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "dillon": {
+      "id": "dillon",
+      "name": "DILLON",
+      "description": "Línea DILLON de sillas ejecutivas",
+      "products": [
+        {
+          "id": "ohe-35",
+          "name": "DILLON modelo OHE-35",
+          "material": "Malla color negro y tela negra",
+          "description": "Silla ejecutiva con respaldo en malla ergonómica, asiento tapizado en tela negra y peso sugerido de uso hasta 130 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Articulado synchro inteligente Smart Tilt en acero, con anti-shock, bloqueo del ángulo de respaldo en 3 posiciones, palanca de accionamiento y bloqueo del pistón y botón para accionar el slider del asiento en varias posiciones",
+            "brazos": "Polipropileno suave con pad de poliuretano, tipo 3D ajustables en 10 posiciones",
+            "respaldo": "Malla de diseño ergonómico con soporte lumbar flotante",
+            "asiento": "Con tapa protectora en polipropileno y hule espuma laminada flexible de densidad 40 kg/m³, retardante a la flama",
+            "tapiz": "Respaldo en malla color negro y asiento en tela color negro; no se puede retapizar",
+            "capacidad": "Peso sugerido 130 kg",
+            "nota": "El color puede variar según el monitor; tiene cabecera opcional"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "draco": {
+      "id": "draco",
+      "name": "DRACO",
+      "description": "Línea DRACO de sillas ejecutivas",
+      "products": [
+        {
+          "id": "ohe-605",
+          "name": "DRACO modelo OHE-605 negro",
+          "material": "Malla de alta resistencia color negro",
+          "description": "Silla ejecutiva en malla, con cabecera y soporte lumbar ajustables, y peso sugerido de uso hasta 130 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Multimodal de dos palancas en acero; una palanca acciona y bloquea el pistón neumático y la otra acciona y bloquea la inclinación del reclinaje, con perilla para regular la tensión",
+            "brazos": "Polipropileno semi-rígido con pad de poliuretano, ajustables en 10 posiciones",
+            "respaldo": "Malla de diseño ergonómico con soporte lumbar y cabecera ajustable con sistema flotante",
+            "asiento": "Malla de diseño ergonómico, con parte frontal en hule espuma de poliuretano inyectado flexible de densidad 50 kg/m³",
+            "tapiz": "Malla de alta resistencia compuesta de elastano y polipropileno color negro",
+            "capacidad": "Peso sugerido 130 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "bio": {
+      "id": "bio",
+      "name": "BIO",
+      "description": "Línea BIO de sillas ejecutivas",
+      "products": [
+        {
+          "id": "ohe-113gris",
+          "name": "BIO modelo OHE-113gris",
+          "material": "Malla color gris",
+          "description": "Silla ejecutiva con respaldo y asiento en malla color gris, de diseño ergonómico, con peso sugerido de uso hasta 100 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Acero reforzado con sistema de reclinación y palanca de bloqueo",
+            "brazos": "Polipropileno semi-rígido",
+            "asiento": "Malla de diseño ergonómico",
+            "tapiz": "Malla color gris",
+            "capacidad": "Peso sugerido 100 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohe-114negro",
+          "name": "BIO modelo OHE-114negro",
+          "material": "Malla color negro",
+          "description": "Silla ejecutiva con respaldo y asiento en malla color negro, de diseño ergonómico, con peso sugerido de uso hasta 100 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Acero reforzado con sistema de reclinación y palanca de bloqueo",
+            "brazos": "Polipropileno semi-rígido",
+            "asiento": "Malla de diseño ergonómico",
+            "tapiz": "Malla de color negro",
+            "capacidad": "Peso sugerido 100 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "croma": {
+      "id": "croma",
+      "name": "CROMA",
+      "description": "Línea CROMA de sillas ejecutivas",
+      "products": [
+        {
+          "id": "ohe-195negro",
+          "name": "CROMA modelo OHE-195negro",
+          "material": "Malla color negro y soft revolving leather",
+          "description": "Silla ejecutiva en malla con cabecera, respaldo ergonómico y asiento tapizado en soft revolving leather, con peso sugerido de uso hasta 150 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en metal, terminada en cromo, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Rodilla articulado (knee-tilt) en acero reforzado, con sistema de reclinación, palanca de bloqueo, perilla para regular la tensión y palanca de bloqueo para la inclinación del respaldo (contacto permanente)",
+            "brazos": "Polipropileno semi-rígido con pad de poliuretano, con soporte de acero, ajustables en 7 posiciones (brazos 2D)",
+            "respaldo": "Malla de diseño ergonómico con cabecera acojinada y tapizada",
+            "asiento": "Hule espuma laminado flexible de densidad 30 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo en malla color negro y asiento en soft revolving leather",
+            "capacidad": "Peso sugerido 150 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohe-193negro",
+          "name": "CROMA modelo OHE-193negro",
+          "material": "Malla color negro y soft revolving leather",
+          "description": "Silla ejecutiva en malla con respaldo ergonómico y asiento en soft revolving leather, con peso sugerido de uso hasta 150 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en metal, terminada en cromo, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Rodilla articulado (knee-tilt) en acero reforzado, con sistema de reclinación, palanca de bloqueo, perilla para regular la tensión y palanca para bloquear la inclinación del respaldo (contacto permanente)",
+            "brazos": "Polipropileno semi-rígido con pad de poliuretano, soporte de acero y 7 posiciones; brazos ajustables 2D",
+            "respaldo": "Malla de diseño ergonómico",
+            "asiento": "Hule espuma laminado flexible de densidad 30 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo en malla color negro y asiento en soft revolving leather",
+            "capacidad": "Peso sugerido 150 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-198negro",
+          "name": "CROMA modelo OHV-198negro",
+          "material": "Malla color negro y soft revolving leather",
+          "description": "Silla ejecutiva en malla con cabecera, base tipo trineo y asiento tapizado en soft revolving leather, con peso sugerido de uso hasta 120 kg.",
+          "specifications": {
+            "base": "Trineo de acero tubular de 1 1/8\" de diámetro, calibre 14, con terminado en cromo",
+            "brazos": "Polipropileno semi-rígido con pad de poliuretano, soporte de acero y 7 posiciones; brazos ajustables 2D",
+            "respaldo": "Malla de diseño ergonómico con cabecera acojinada y tapizada",
+            "asiento": "Hule espuma laminado flexible de densidad 30 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo en malla color negro y asiento en soft revolving leather",
+            "capacidad": "Peso sugerido 120 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "equa": {
+      "id": "equa",
+      "name": "EQUA",
+      "description": "Línea EQUA de sillas ejecutivas",
+      "products": [
+        {
+          "id": "ohe-185gris",
+          "name": "EQUA modelo OHE-185gris",
+          "material": "Malla",
+          "description": "Silla ejecutiva en malla gris con cabecera y soporte lumbar, base de aluminio y peso sugerido 120 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en aluminio fundido y pulido, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión del reclinado",
+            "brazos": "Polipropileno semi-rígido",
+            "respaldo": "Alto en malla de diseño ergonómico color gris, con cabecera",
+            "asiento": "Hule espuma laminado flexible de densidad 60 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo en malla gris y asiento tapizado al color de elección",
+            "capacidad": "120 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohe-183gris",
+          "name": "EQUA modelo OHE-183gris",
+          "material": "Malla",
+          "description": "Silla ejecutiva de respaldo bajo en malla gris con base de aluminio; peso sugerido 120 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en aluminio fundido y pulido, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión del reclinado",
+            "brazos": "Polipropileno semi-rígido",
+            "respaldo": "Bajo, en malla de diseño ergonómico color gris",
+            "asiento": "Hule espuma laminado flexible de densidad 60 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo en malla gris y asiento tapizado al color elegido",
+            "capacidad": "120 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-188gris",
+          "name": "EQUA modelo OHV-188gris",
+          "material": "Malla",
+          "description": "Silla ejecutiva fija tipo trineo en malla gris con base cromada; peso sugerido 120 kg.",
+          "specifications": {
+            "base": "Trineo de acero tubular redondo de 1\" de diámetro, calibre 14, con terminado en cromo",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión",
+            "brazos": "Polipropileno semi-rígido",
+            "respaldo": "Bajo, en malla de diseño ergonómico color gris",
+            "asiento": "Hule espuma laminado flexible de densidad 60 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo en malla gris y asiento tapizado al color elegido",
+            "capacidad": "120 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "crew": {
+      "id": "crew",
+      "name": "CREW",
+      "description": "Línea CREW de sillas ejecutivas",
+      "products": [
+        {
+          "id": "ohe-112gris",
+          "name": "CREW modelo OHE-112gris",
+          "material": "Malla gris y tela gris",
+          "description": "Silla ejecutiva en malla gris con brazos 3D y base de aluminio; peso sugerido 160 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en fundición de aluminio, terminado pulido, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado tipo synchro, con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión",
+            "brazos": "Tipo 3D, giratorios y ajustables en altura, en polipropileno semi-rígido con pad de poliuretano",
+            "respaldo": "En malla de diseño ergonómico color gris",
+            "asiento": "Hule espuma de poliuretano inyectado, densidad 60 kg/m³, con retardante a la flama y alta resiliencia",
+            "tapiz": "Respaldo de malla gris y asiento tapizado en tela gris",
+            "capacidad": "160 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohe-112griscabecera",
+          "name": "CREW modelo OHE-112griscabecera",
+          "material": "Malla gris y tela gris",
+          "description": "Silla ejecutiva en malla gris con cabecera, brazos 3D y base de aluminio; peso sugerido 160 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en fundición de aluminio, terminado pulido, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado tipo synchro, con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión",
+            "brazos": "Tipo 3D, giratorios y ajustables en altura, en polipropileno semi-rígido con pad de poliuretano",
+            "respaldo": "En malla de diseño ergonómico color gris, con cabecera",
+            "asiento": "Hule espuma de poliuretano inyectado, densidad 60 kg/m³, con retardante a la flama y alta resiliencia",
+            "tapiz": "Respaldo de malla gris y asiento tapizado en tela gris",
+            "capacidad": "160 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohe-112negro",
+          "name": "CREW modelo OHE-112negro",
+          "material": "Malla negra y tela negra",
+          "description": "Silla ejecutiva en malla negra con brazos 3D y base en poliamida; peso sugerido 160 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado tipo synchro, con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión",
+            "brazos": "Tipo 3D, giratorios y ajustables en altura, en polipropileno semi-rígido con pad de poliuretano",
+            "respaldo": "En malla de diseño ergonómico color negro",
+            "asiento": "Hule espuma de poliuretano inyectado, densidad 60 kg/m³, con retardante a la flama y alta resiliencia",
+            "tapiz": "Respaldo de malla negra y asiento en tela 100% poliéster color negro, funda tapizada y pespuntada, con retardante de flama",
+            "capacidad": "160 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohe-112negrocabecera",
+          "name": "CREW modelo OHE-112negrocabecera",
+          "material": "Malla negra y tela negra",
+          "description": "Silla ejecutiva en malla negra con cabecera, brazos 3D y base en poliamida; peso sugerido 160 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado tipo synchro, con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión",
+            "brazos": "Tipo 3D, giratorios y ajustables en altura, en polipropileno semi-rígido con pad de poliuretano",
+            "respaldo": "En malla de diseño ergonómico color negro, con cabecera",
+            "asiento": "Hule espuma de poliuretano inyectado, densidad 60 kg/m³, con retardante a la flama y alta resiliencia",
+            "tapiz": "Respaldo de malla negra y asiento en tela 100% poliéster color negro, funda tapizada y pespuntada con retardante de flama",
+            "capacidad": "160 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "aiko": {
+      "id": "aiko",
+      "name": "AIKO",
+      "description": "Línea AIKO de sillas ejecutivas",
+      "products": [
+        {
+          "id": "ohe-705gris",
+          "name": "AIKO modelo OHE-705gris",
+          "material": "Malla gris y tela gris",
+          "description": "Silla ejecutiva en malla gris con cabecera y soporte lumbar, brazos 2D y base cromada; peso sugerido 170 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en acero cromado, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión del reclinado",
+            "brazos": "Tipo 2D de polipropileno semi-rígido con pad de poliuretano negro, con 10 posiciones de ajuste",
+            "respaldo": "En malla de diseño ergonómico color gris, con soporte lumbar y cabecera",
+            "asiento": "Hule espuma laminado flexible de densidad 40 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo de malla gris y asiento en tela color gris",
+            "capacidad": "170 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohe-703gris",
+          "name": "AIKO modelo OHE-703gris",
+          "material": "Malla gris y tela gris",
+          "description": "Silla ejecutiva en malla gris con soporte lumbar, brazos 2D y base cromada; peso sugerido 170 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en acero cromado, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión del reclinado",
+            "brazos": "Tipo 2D de polipropileno semi-rígido con pad de poliuretano negro, con 10 posiciones de ajuste",
+            "respaldo": "En malla de diseño ergonómico color gris, con soporte lumbar",
+            "asiento": "Hule espuma laminado flexible de densidad 40 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo de malla gris y asiento en tela color gris",
+            "capacidad": "170 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohe-705",
+          "name": "AIKO modelo OHE-705",
+          "material": "Malla negra y tela negra",
+          "description": "Silla ejecutiva en malla negra con cabecera, brazos 2D y base cromada; peso sugerido 170 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en acero cromado, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión del reclinado",
+            "brazos": "Tipo 2D de polipropileno semi-rígido con pad de poliuretano, con 10 posiciones de ajuste",
+            "respaldo": "En malla de diseño ergonómico con cabecera",
+            "asiento": "Hule espuma laminado flexible con densidad de 40 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo en malla color negro y asiento en tela color negro",
+            "capacidad": "170 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohe-703",
+          "name": "AIKO modelo OHE-703",
+          "material": "Malla negra y tela negra",
+          "description": "Silla ejecutiva en malla negra con soporte lumbar, brazos 2D y base cromada; peso sugerido 170 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en acero cromado, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado con sistema de reclinación, palanca de bloqueo y perilla para regular la tensión del reclinado",
+            "brazos": "Tipo 2D de polipropileno semi-rígido con pad de poliuretano, con 10 posiciones",
+            "respaldo": "En malla de diseño ergonómico con soporte lumbar",
+            "asiento": "Hule espuma laminado flexible de densidad 40 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo de malla color negro y asiento en tela color negro",
+            "capacidad": "170 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "athelier": {
+      "id": "athelier",
+      "name": "ATHELIER",
+      "description": "Línea ATHELIER de sillas ejecutivas",
+      "products": [
+        {
+          "id": "ohe-905negro",
+          "name": "ATHELIER modelo OHE-905negro",
+          "material": "Malla negra y tela negra",
+          "description": "Silla ejecutiva en malla negra con cabecera y soporte lumbar, brazos ajustables y base cromada; peso sugerido 130 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en acero cromado con rodajas intercambiables negras de nylon 100%, nervadas con concha protectora y giro de 360°",
+            "elevacion": "Pistón neumático con cubierta cilíndrica de acero cromado y bloqueo en diferentes alturas",
+            "mecanismo": "De acero reforzado, tipo articulado basculante, con palanca de accionamiento y bloqueo del pistón neumático",
+            "brazos": "Ajustables en altura en 10 posiciones, con soporte de polipropileno y pads de poliuretano suave",
+            "respaldo": "En malla color negro con bastidor de poliuretano de alta densidad, soporte en forma de L fijado al mecanismo y soporte lumbar ajustable con acojinamiento",
+            "asiento": "Espuma inyectada con retardante de flama, 100 mm de espesor, densidad 60 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo en malla y asiento en tela color negro",
+            "capacidad": "130 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohe-903negro",
+          "name": "ATHELIER modelo OHE-903negro",
+          "material": "Malla negra y tela negra",
+          "description": "Silla ejecutiva en malla negra con soporte lumbar, brazos ajustables y base cromada; peso sugerido 130 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en acero cromado con rodajas intercambiables negras de nylon 100%, nervadas con concha protectora y giro de 360°",
+            "elevacion": "Pistón neumático con cubierta cilíndrica de acero cromado y bloqueo en diferentes alturas",
+            "mecanismo": "De acero reforzado, tipo articulado basculante, con palanca para accionar y bloquear el pistón",
+            "brazos": "Ajustables en altura en 10 posiciones, con soporte de polipropileno y pads de poliuretano suave",
+            "respaldo": "En malla color negro, bastidor de poliuretano de alta densidad, soporte en L unido al mecanismo y soporte lumbar ajustable con acojinamiento",
+            "asiento": "Espuma inyectada con retardante de flama, 100 mm de espesor, densidad 60 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo en malla y asiento en tela color negro",
+            "capacidad": "130 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "soho": {
+      "id": "soho",
+      "name": "SOHO",
+      "description": "Línea SOHO de sillas ejecutivas",
+      "products": [
+        {
+          "id": "ohe-95blanco",
+          "name": "SOHO modelo OHE-95blanco",
+          "material": "Malla gris y tapiz personalizado",
+          "description": "Silla ejecutiva en malla gris con cabecera, slider, brazos 4D y base de aluminio pulido; peso sugerido 180 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en fundición de aluminio, terminada en aluminio pulido, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "De acero reforzado tipo articulado synchro con anti-shock, palanca para accionar el pistón, palanca de bloqueo del ángulo del respaldo y asiento tipo slider con botón de accionamiento",
+            "brazos": "Tipo 4D, giratorios y ajustables en altura, en polipropileno semi-rígido con pad de poliuretano",
+            "respaldo": "En malla de diseño ergonómico con cabecera",
+            "asiento": "Hule espuma de poliuretano inyectado flexible, densidad 60 kg/m³, con retardante a la flama y alta resiliencia",
+            "tapiz": "Respaldo de malla color gris y asiento tapizado al color de elección",
+            "capacidad": "180 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohe-95negro",
+          "name": "SOHO modelo OHE-95negro",
+          "material": "Malla negra y tela negra",
+          "description": "Silla ejecutiva en malla negra con cabecera, slider, brazos 4D y base de aluminio pulido; peso sugerido 180 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en fundición de aluminio, terminada en aluminio pulido, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajuste de altura del asiento",
+            "mecanismo": "Acero reforzado tipo articulado synchro con anti-shock, palanca para accionar el pistón y palanca para bloqueo del ángulo del respaldo, asiento tipo slider con botón de accionamiento",
+            "brazos": "Tipo 4D, giratorios y ajustables en altura, en polipropileno semi-rígido con pad de poliuretano",
+            "respaldo": "Malla de diseño ergonómico con cabecera",
+            "asiento": "Hule espuma de poliuretano inyectado flexible, densidad 60 kg/m³, retardante a la flama y de alta resiliencia",
+            "tapiz": "Respaldo en malla color negro y asiento en tela color negro",
+            "capacidad": "180 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "nebula": {
+      "id": "nebula",
+      "name": "NÉBULA",
+      "description": "Línea NÉBULA de sillas ejecutivas",
+      "products": [
+        {
+          "id": "ohe-133plus",
+          "name": "NÉBULA modelo OHE-133plus",
+          "material": "Malla negra y tela negra",
+          "description": "Silla ejecutiva en malla negra con soporte lumbar ajustable y tapiz en tela negra; peso sugerido 150 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajuste de altura del asiento",
+            "mecanismo": "De acero tipo articulado synchro con anti-shock y bloqueo del pistón neumático",
+            "brazos": "De polipropileno semirrígido ajustables en 7 posiciones",
+            "respaldo": "Malla de diseño ergonómico con soporte lumbar ajustable",
+            "asiento": "Tapa protectora en polipropileno y hule espuma laminada flexible, densidad 55 kg/m³, retardante a la flama",
+            "tapiz": "Respaldo en malla negra y asiento en tela 100% poliéster color negro, con funda tapizada y pespuntada; no se puede retapizar",
+            "capacidad": "150 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "wicker": {
+      "id": "wicker",
+      "name": "WICKER",
+      "description": "Línea WICKER de sillas ejecutivas",
+      "products": [
+        {
+          "id": "ohe-140negro",
+          "name": "WICKER modelo OHE-140negro",
+          "material": "Malla negra y tela negra",
+          "description": "Silla ejecutiva en malla negra con cabecera fija, soporte lumbar ajustable y base de poliamida; peso sugerido 120 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual de goma para pisos duros o delicados",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Synchro inteligente con 4 posiciones de reclinamiento, sistema antishock y palanca para accionar y bloquear el pistón",
+            "brazos": "Polipropileno semirrígido, ajustables en 6 posiciones",
+            "respaldo": "Malla de diseño ergonómico con soporte lumbar ajustable",
+            "cabecera": "Fija, de poliamida de alta resistencia, tapizada en soft revolving leather color negro",
+            "asiento": "Tapa protectora en polipropileno, acojinado con poliuretano inyectado laminado de 60 mm de espesor, densidad 60 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo en malla color negro y asiento en tela 100% poliéster, con funda tapizada y pespuntada",
+            "capacidad": "120 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohe-139negro",
+          "name": "WICKER modelo OHE-139negro",
+          "material": "Malla negra y tela negra",
+          "description": "Silla ejecutiva en malla negra con soporte lumbar ajustable y base de poliamida; peso sugerido 120 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual de goma para pisos duros o delicados",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Synchro inteligente con 4 posiciones de reclinamiento, sistema antishock y palanca para accionar y bloquear el pistón neumático",
+            "brazos": "Polipropileno semirrígido, ajustables en 6 posiciones",
+            "respaldo": "En malla de diseño ergonómico con soporte lumbar ajustable",
+            "asiento": "Tapa protectora en polipropileno, acojinado con poliuretano inyectado laminado de 60 mm de espesor, densidad 60 kg/m³ y alta resiliencia",
+            "tapiz": "Respaldo en malla color negro y asiento en tela 100% poliéster, con funda tapizada y pespuntada",
+            "capacidad": "120 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "tripoli": {
+      "id": "tripoli",
+      "name": "TRIPOLI",
+      "description": "Línea TRIPOLI de sillas ejecutivas",
+      "products": [
+        {
+          "id": "ohe-2005gris",
+          "name": "TRIPOLI modelo OHE-2005gris",
+          "material": "Poliéster jaspeado gris",
+          "description": "Silla ejecutiva tapizada en poliéster jaspeado gris, con base metálica negra y resistencia sugerida hasta 120 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en acero troquelado color negro mate, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Acero fundido color negro mate, con palanca de accionamiento y bloqueo del pistón neumático",
+            "brazos": "Madera de triplay con espuma de poliuretano inyectado laminado flexible, densidad 35 kg/m³, retardante a la flama y de alta resiliencia",
+            "respaldo": "Madera de triplay con espuma de poliuretano inyectado laminado flexible, densidad 35 kg/m³, retardante a la flama y de alta resiliencia",
+            "asiento": "Madera de triplay con espuma de poliuretano inyectado laminado flexible, densidad 35 kg/m³, retardante a la flama y de alta resiliencia",
+            "tapiz": "Poliéster jaspeado color gris con costura decorativa",
+            "capacidad": "Peso sugerido 120 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-2005gris",
+          "name": "TRIPOLI modelo OHV-2005gris",
+          "material": "Poliéster jaspeado gris",
+          "description": "Silla ejecutiva fija (visita) tapizada en poliéster jaspeado gris, con base cuadrilátera de 4 puntas y resistencia sugerida hasta 120 kg.",
+          "specifications": {
+            "base": "Estrella cuadrilátero de 4 puntas, diámetro 510 mm (20\") nervada",
+            "elevacion": "Ajuste de altura por medio de pistón neumático",
+            "mecanismo": "Fundición de acero con palanca de accionamiento para ajuste de altura, terminado en color negro mate",
+            "brazos": "Madera de triplay con espuma de poliuretano inyectado laminado flexible, densidad 35 kg/m³, retardante a la flama y de alta resiliencia",
+            "respaldo": "Madera de triplay con espuma de poliuretano inyectado laminado flexible, densidad 35 kg/m³, retardante a la flama y de alta resiliencia",
+            "asiento": "Madera de triplay con espuma de poliuretano inyectado laminado flexible, densidad 35 kg/m³, retardante a la flama y de alta resiliencia",
+            "tapiz": "Poliéster jaspeado color gris con costura decorativa",
+            "capacidad": "Peso sugerido 120 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohe-2005negro",
+          "name": "TRIPOLI modelo OHE-2005negro",
+          "material": "Soft revolving leather y poliéster jaspeado negro",
+          "description": "Silla ejecutiva en acabado bicolor (soft revolving leather y poliéster jaspeado negro), con base metálica negra y resistencia sugerida hasta 120 kg.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en acero troquelado color negro mate, con rodajas tipo dual",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Acero fundido color negro mate, con palanca de accionamiento y bloqueo del pistón neumático",
+            "brazos": "Madera de triplay con espuma de poliuretano inyectado laminado flexible, densidad 35 kg/m³, retardante a la flama y de alta resiliencia",
+            "respaldo": "Madera de triplay con espuma de poliuretano inyectado laminado flexible, densidad 35 kg/m³, retardante a la flama y de alta resiliencia",
+            "asiento": "Madera de triplay con espuma de poliuretano inyectado laminado flexible, densidad 35 kg/m³, retardante a la flama y de alta resiliencia",
+            "tapiz": "Acabado bicolor en soft revolving leather y poliéster jaspeado color negro, con costura de diseño",
+            "capacidad": "Peso sugerido 120 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-2005negro",
+          "name": "TRIPOLI modelo OHV-2005negro",
+          "material": "Soft revolving leather y poliéster jaspeado negro",
+          "description": "Silla ejecutiva fija (visita) con acabado bicolor en soft revolving leather y poliéster jaspeado negro, resistencia sugerida hasta 120 kg.",
+          "specifications": {
+            "base": "Estrella cuadrilátero de 4 puntas, diámetro 510 mm (20\") nervada",
+            "elevacion": "Pistón neumático para ajustar la altura del asiento",
+            "mecanismo": "Acero fundido con palanca de accionamiento, terminado en color negro mate",
+            "brazos": "Madera de triplay con espuma de poliuretano inyectado laminado flexible, densidad 35 kg/m³, retardante a la flama y de alta resiliencia",
+            "respaldo": "Madera de triplay con espuma de poliuretano inyectado laminado flexible, densidad 35 kg/m³, retardante a la flama y de alta resiliencia",
+            "asiento": "Madera de triplay con espuma de poliuretano inyectado laminado flexible, densidad 35 kg/m³, retardante a la flama y de alta resiliencia",
+            "tapiz": "Acabado bicolor en soft revolving leather y poliéster jaspeado color negro, con costura de diseño",
+            "capacidad": "Peso sugerido 120 kg",
+            "nota": "El color puede variar según el monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1582582429416-6b82c4a35a1a?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    }
+  }
+}

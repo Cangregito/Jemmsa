@@ -1,0 +1,179 @@
+{
+  "projectName": "Catálogo Jemmsa",
+  "version": "1.0.0",
+  "description": "Catálogo e-commerce de muebles con organización por categorías",
+  "structure": {
+    "dataFormat": "JSON",
+    "dataLocation": "src/data/categories/",
+    "categories": 11,
+    "totalFamilies": 114,
+    "totalProducts": 300
+  },
+  "categories": [
+    {
+      "id": "directivos",
+      "name": "Directivos",
+      "file": "directivos.json",
+      "status": "referencia"
+    },
+    {
+      "id": "ejecutivos",
+      "name": "Ejecutivos",
+      "file": "ejecutivos.json",
+      "status": "referencia"
+    },
+    {
+      "id": "operativos",
+      "name": "Operativos",
+      "file": "operativos.json",
+      "status": "referencia"
+    },
+    {
+      "id": "industrial",
+      "name": "Industrial",
+      "file": "industrial.json",
+      "status": "referencia"
+    },
+    {
+      "id": "accesorios",
+      "name": "Accesorios",
+      "file": "accesorios.json",
+      "status": "referencia"
+    },
+    {
+      "id": "visitantes-interior",
+      "name": "Visitantes Interior",
+      "file": "visitantes-interior.json",
+      "status": "referencia"
+    },
+    {
+      "id": "visitantes-exterior",
+      "name": "Visitantes Exterior",
+      "file": "visitantes-exterior.json",
+      "status": "completo",
+      "completedDate": "2026-01-22"
+    },
+    {
+      "id": "mesas",
+      "name": "Mesas",
+      "file": "mesas.json",
+      "status": "completo",
+      "completedDate": "2026-01-22",
+      "families": 14,
+      "products": 90
+    },
+    {
+      "id": "confortables",
+      "name": "Confortables",
+      "file": "confortables.json",
+      "status": "completo",
+      "completedDate": "2026-01-22",
+      "families": 7,
+      "products": 19
+    },
+    {
+      "id": "bancas",
+      "name": "Bancas",
+      "file": "bancas.json",
+      "status": "completo",
+      "completedDate": "2026-01-22",
+      "families": 3,
+      "products": 11
+    },
+    {
+      "id": "escolar",
+      "name": "Escolar",
+      "file": "escolar.json",
+      "status": "completo",
+      "completedDate": "2026-01-22",
+      "families": 7,
+      "products": 38
+    }
+  ],
+  "resourceTypes": [
+    {
+      "type": "instructivo",
+      "description": "Manual de instrucciones",
+      "formats": ["jpg", "pdf"]
+    },
+    {
+      "type": "fotos",
+      "description": "Galería de imágenes",
+      "formats": ["pdf"]
+    },
+    {
+      "type": "ficha_tecnica",
+      "description": "Especificaciones técnicas",
+      "formats": ["jpg", "pdf"]
+    },
+    {
+      "type": "modelados_3d",
+      "description": "Modelos 3D",
+      "formats": ["dwg", "obj", "skp", "3ds"]
+    },
+    {
+      "type": "videos",
+      "description": "Videos de producto",
+      "formats": ["mp4"]
+    }
+  ],
+  "dataStructure": {
+    "category": {
+      "id": "string",
+      "name": "string",
+      "description": "string"
+    },
+    "family": {
+      "id": "string",
+      "name": "string",
+      "description": "string",
+      "products": "array"
+    },
+    "product": {
+      "id": "string",
+      "name": "string",
+      "comercial_name": "string",
+      "material": "string",
+      "description": "string",
+      "specifications": {
+        "resistencia": "string",
+        "referencia": "string",
+        "leyenda": "string",
+        "nota_general": "string"
+      },
+      "recursos": {
+        "instructivo": "array",
+        "fotos": "array",
+        "ficha_tecnica": "array",
+        "modelados_3d": "array",
+        "videos": "array"
+      },
+      "breadcrumb": "array",
+      "image": "string"
+    }
+  },
+  "tools": {
+    "organizeJson": {
+      "script": "organize_json.py",
+      "description": "Divide data.json en archivos separados por categoría",
+      "usage": "python organize_json.py"
+    },
+    "dataLoader": {
+      "script": "public/js/data-loader.js",
+      "description": "Cargador dinámico de datos JSON en frontend",
+      "functions": [
+        "loadCategoryData(categoryId)",
+        "loadCategoriesIndex()",
+        "loadAllCategories()",
+        "findProductById(productId)",
+        "getProductsByFamily(categoryId, familyId)",
+        "getProduct(categoryId, familyId, productId)"
+      ]
+    }
+  },
+  "git": {
+    "commits": 32,
+    "status": "clean",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,1249 @@
+{
+  "category": {
+    "id": "visitantes-interior",
+    "name": "Visitantes Interior",
+    "description": "Sillas para visitantes en espacios interiores"
+  },
+  "families": {
+    "strike": {
+      "id": "strike",
+      "name": "STRIKE",
+      "description": "Familia STRIKE de sillas visitantes interior.",
+      "products": [
+        {
+          "id": "ohv-13",
+          "name": "OHV-13",
+          "material": "Acero tubular y polipropileno",
+          "description": "Silla visitante con estructura de acero tubular cromado y asiento/respaldo en polipropileno de alta resistencia.",
+          "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "De acero tubular de 18 mm de diámetro, calibre 16, con terminado en cromo",
+            "asiento": "De una sola pieza en polipropileno de alta resistencia y duración",
+            "respaldo": "Perforado para mayor frescura",
+            "color": "Blanco, gris, negro, azul marino, rojo, naranja y verde",
+            "capacidad": "Peso sugerido 120 kgs",
+            "diseño": "Diseño de Paolo Scagnellato, para OFFIHO",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-13alta",
+          "name": "OHV-13alta",
+          "material": "Acero tubular y polipropileno",
+          "description": "Silla visitante alta con estructura de acero tubular cromado y asiento/respaldo en polipropileno de alta resistencia.",
+          "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "De acero tubular de 3/4\" de diámetro, calibre 16, con terminado en cromo",
+            "asiento": "De una sola pieza en polipropileno de alta resistencia y duración",
+            "respaldo": "Perforado para mayor frescura",
+            "color": "Blanco, gris, negro, azul marino, rojo, naranja y verde",
+            "capacidad": "Peso sugerido 120 kgs",
+            "diseño": "Diseño de Paolo Scagnellato, para OFFIHO",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "shell": {
+      "id": "shell",
+      "name": "SHELL",
+      "description": "Familia SHELL de sillas visitantes interior.",
+      "products": [
+        {
+          "id": "ohv-37",
+          "name": "OHV-37",
+          "material": "Acero tubular y polipropileno",
+          "description": "Silla visitante con estructura de acero tubular cromado y asiento/respaldo en polipropileno de alta resistencia.",
+          "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "De acero tubular de 3/4\" de diámetro, calibre 16, con terminado en cromo",
+            "asiento": "De una sola pieza en polipropileno de alta resistencia y duración",
+            "color": "Negro, azul, verde, naranja, beige, blanco, rojo, lila",
+            "capacidad": "Peso sugerido 120 kgs",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-37alta",
+          "name": "OHV-37alta",
+          "material": "Acero tubular y polipropileno",
+          "description": "Silla visitante alta con estructura de acero tubular cromado y asiento/respaldo en polipropileno de alta resistencia.",
+          "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "De acero tubular de 3/4\" de diámetro, calibre 16, con terminado en cromo",
+            "asiento": "De una sola pieza en polipropileno de alta resistencia y duración",
+            "color": "Negro, azul, verde, naranja, beige, blanco, rojo",
+            "capacidad": "Peso sugerido 120 kgs",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "quick": {
+      "id": "quick",
+      "name": "QUICK",
+      "description": "Familia QUICK de sillas visitantes interior.",
+      "products": [
+        {
+          "id": "ohv-47",
+          "name": "OHV-47",
+          "material": "Acero tubular y polipropileno",
+          "description": "Silla visitante con estructura de acero tubular cromado y asiento/respaldo en polipropileno de alta resistencia.",
+          "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "De acero tubular de 18 mm de diámetro, calibre 16, con terminado en cromo",
+            "asiento": "De una sola pieza en polipropileno de alta resistencia y duración",
+            "color": "Negro, azul, abocado, blanco, rojo o gris",
+            "capacidad": "Peso sugerido 120 kgs",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-47alta",
+          "name": "OHV-47alta",
+          "material": "Acero tubular y polipropileno",
+          "description": "Silla visitante alta con estructura de acero tubular cromado y asiento/respaldo en polipropileno de alta resistencia.",
+          "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "De acero tubular de 3/4\" de diámetro, calibre 16, con terminado en cromo",
+            "asiento": "De una sola pieza en polipropileno de alta resistencia y duración",
+            "color": "Negro, azul, abocado, blanco, rojo o gris",
+            "capacidad": "Peso sugerido 120 kgs",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "donatela": {
+      "id": "donatela",
+      "name": "DONATELA",
+      "description": "Familia DONATELA de sillas visitantes interior.",
+      "products": [
+        {
+          "id": "ohv-96negro",
+          "name": "OHV-96negro",
+          "material": "Acero tubular, polipropileno y poliuretano",
+          "description": "Silla visitante interior con estructura tubular de acero en pintura epóxica negra, asiento y respaldo tapizados.",
+          "specifications": {
+            "coleccion": "Visitantes Interior – línea DONATELA (modelo OHV-96)",
+            "estructura": "En tubular de acero de 1 1/8\" calibre 16, con base de asiento en 7/8\" y travesaños 15x30; uniones soldadas y acabado en pintura epóxica color negro",
+            "asiento": "Armazón interno en polipropileno. Espuma de poliuretano inyectado de 60 mm, densidad 60 kg/m³, retardante a la flama y de alta resiliencia. Bastidor de polipropileno de alta densidad con dos ángulos de sujeción",
+            "respaldo": "Armazón interno en polipropileno. Espuma de poliuretano inyectado de 60 mm, densidad 60 kg/m³, retardante a la flama y de alta resiliencia. Bastidor de polipropileno de alta densidad con dos ángulos de sujeción",
+            "brazos": "Diseño ergonómico en poliamida de última generación, fijados con tornillería oculta",
+            "tapiz": "Asiento y respaldo en tela 100% poliéster color negro",
+            "regatones": "De poliamida de alta densidad en dos secciones con inserto integrado",
+            "capacidad": "Peso sugerido 140 kg",
+            "certificacion": "BIFMA",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "core": {
+      "id": "core",
+      "name": "CORE",
+      "description": "Familia CORE de sillas visitantes interior.",
+      "products": [
+        {
+          "id": "ohv-20",
+          "name": "OHV-20",
+          "material": "Acero tubular y polipropileno",
+          "description": "Silla visitante interior con estructura de acero tubular en pintura epóxica y respaldo/asiento en polipropileno de alta resistencia.",
+          "specifications": {
+            "coleccion": "VISITANTES INTERIOR – línea CORE (modelo OHV-20). COLECCIÓN DE TERMINADOS",
+            "estructura": "De acero tubular de 1\" de diámetro, calibre 16, con acabado en pintura epóxica (electrostática) color negro, blanco, rojo ladrillo o gris oscuro",
+            "respaldo": "En dos piezas en polipropileno de alta resistencia y duración",
+            "asiento": "En dos piezas en polipropileno de alta resistencia y duración",
+            "color": "Negro, blanco, rojo ladrillo o gris oscuro; silla monocromática (mismo color en asiento y estructura)",
+            "capacidad": "Peso sugerido 160 kgs",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "revolution": {
+      "id": "revolution",
+      "name": "REVOLUTION",
+      "description": "Familia REVOLUTION de sillas visitantes interior.",
+      "products": [
+        {
+          "id": "ohv-85",
+          "name": "OHV-85",
+          "material": "Acero tubular, polipropileno y poliuretano",
+          "description": "Silla visitante con estructura de acero en pintura epóxica, respaldo en polipropileno y asiento tapizado.",
+          "specifications": {
+            "coleccion": "COLECCIÓN OFFICE CREP",
+            "estructura": "Acero tubular de 1\" de diámetro, calibre 16, con acabado en pintura epóxica (electrostática) color negro, gris o blanco",
+            "respaldo": "Bastidor en polipropileno de alta resistencia y duración",
+            "asiento": "Hule espuma de poliuretano inyectado con densidad 60 kgs/m³, retardante a la flama y de alta resiliencia",
+            "colorRespaldo": "Negro",
+            "tapiz": "Respaldo en malla color negro y asiento tapizado al color de elección de la colección de tapices",
+            "capacidad": "Peso sugerido 160 kgs",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-85cr",
+          "name": "OHV-85cr",
+          "material": "Acero tubular cromado, polipropileno y poliuretano",
+          "description": "Silla visitante con estructura de acero cromado, respaldo en polipropileno y asiento tapizado.",
+          "specifications": {
+            "coleccion": "COLECCIÓN OFFICE CREP",
+            "estructura": "De acero tubular de 1\" de diámetro, calibre 16, con terminado en cromo",
+            "respaldo": "Bastidor en polipropileno de alta resistencia y duración",
+            "asiento": "Hule espuma de poliuretano inyectado con densidad 60 kgs/m³, retardante a la flama y de alta resiliencia",
+            "colorRespaldo": "Negro",
+            "tapiz": "Respaldo en malla color negro y asiento tapizado al color de elección de la colección de tapices",
+            "capacidad": "Peso sugerido 160 kgs",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-86",
+          "name": "OHV-86",
+          "material": "Acero tubular y polipropileno",
+          "description": "Silla visitante con estructura de acero en pintura epóxica y respaldo/asiento en polipropileno.",
+          "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "Acero tubular de 1\" de diámetro, calibre 16, con acabado en pintura epóxica (electrostática) color negro, gris o blanco",
+            "respaldo": "En dos piezas en polipropileno de alta resistencia y duración",
+            "asiento": "En dos piezas en polipropileno de alta resistencia y duración",
+            "color": "Negro, azul marino, verde, naranja, arena, blanco, rojo o gris",
+            "capacidad": "Peso sugerido 160 kgs",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-86cr",
+          "name": "OHV-86cr",
+          "material": "Acero tubular cromado y polipropileno",
+          "description": "Silla visitante con estructura de acero cromado y respaldo/asiento en polipropileno.",
+          "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "De acero tubular de 1\" de diámetro, calibre 16, con terminado en cromo",
+            "respaldo": "En dos piezas en polipropileno de alta resistencia y duración",
+            "asiento": "En dos piezas en polipropileno de alta resistencia y duración",
+            "brazos": "En polipropileno de alta resistencia y duración",
+            "color": "Negro, azul marino, verde, naranja, arena, blanco, rojo o gris",
+            "capacidad": "Peso sugerido 160 kgs",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-87",
+          "name": "OHV-87",
+          "material": "Acero tubular, polipropileno y poliuretano",
+          "description": "Silla visitante con estructura de acero en pintura epóxica, respaldo en polipropileno y asiento tapizado.",
+          "specifications": {
+            "coleccion": "COLECCIÓN OFFICE CREP",
+            "estructura": "Acero tubular de 1\" de diámetro, calibre 16, con acabado en pintura epóxica (electrostática) color negro, gris o blanco",
+            "respaldo": "En una pieza en polipropileno de alta resistencia y duración",
+            "asiento": "Hule espuma de poliuretano inyectado con densidad 60 kgs/m³, retardante a la flama y de alta resiliencia",
+            "colorRespaldo": "Negro, azul marino, verde, naranja, arena, blanco, rojo o gris",
+            "tapiz": "Tapizada al color de elección de la colección de tapices",
+            "capacidad": "Peso sugerido 160 kgs",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-87cr",
+          "name": "OHV-87cr",
+          "material": "Acero tubular cromado, polipropileno y poliuretano",
+          "description": "Silla visitante con estructura de acero cromado, respaldo en polipropileno y asiento tapizado.",
+          "specifications": {
+            "coleccion": "COLECCIÓN OFFICE CREP",
+            "estructura": "De acero tubular de 1\" de diámetro, calibre 16, con terminado en cromo",
+            "respaldo": "En una pieza en polipropileno de alta resistencia y duración",
+            "asiento": "Hule espuma de poliuretano inyectado con densidad 60 kgs/m³, retardante a la flama y de alta resiliencia",
+            "colorRespaldo": "Negro, azul marino, verde, naranja, arena, blanco, rojo o gris",
+            "tapiz": "Tapizada al color de elección de la colección de tapices",
+            "capacidad": "Peso sugerido 160 kgs",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-88",
+          "name": "OHV-88",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante interior REVOLUTION OHV-88. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-88cr",
+          "name": "OHV-88cr",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante interior REVOLUTION OHV-88cr. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "koln": {
+      "id": "koln",
+      "name": "KOLN",
+      "description": "Familia KOLN de sillas visitantes interior.",
+      "products": [
+        {
+          "id": "ohv-7216",
+          "name": "OHV-7216",
+          "material": "Acero y polipropileno",
+          "description": "Silla visitante alta con base redonda, pistón neumático extralargo y asiento/respaldo en polipropileno de alta densidad.",
+          "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "base": "Plato redondo en lámina de acero calibre 18; pedestal tubular de acero redondo de 3\" calibre 18",
+            "elevacion": "Por medio de pistón neumático extralargo clase 3 que permite ajustar la altura del asiento",
+            "mecanismo": "Placa de acero reforzado con palanca de bloqueo e integrado con descansapies",
+            "respaldo": "De una sola pieza, termoplástico polimerizado en polipropileno de alta densidad",
+            "asiento": "De una sola pieza, termoplástico polimerizado en polipropileno de alta densidad",
+            "color": "Blanco (W9), azul niebla (B9) con blanco (W9) o negro (K5)",
+            "capacidad": "Peso sugerido 100 kgs",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-7216p",
+          "name": "OHV-7216P",
+          "material": "Acero, polipropileno y tapizado",
+          "description": "Silla visitante alta con base redonda, pistón neumático extralargo, asiento/respaldo en polipropileno tapizado.",
+          "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "base": "Plato redondo en lámina de acero calibre 18; pedestal tubular de acero redondo de 3\" calibre 18",
+            "elevacion": "Por medio de pistón neumático extralargo clase 3 que permite ajustar la altura del asiento",
+            "mecanismo": "Placa de acero reforzado con palanca de bloqueo e integrado con descansapies",
+            "respaldo": "De una sola pieza, termoplástico polimerizado en polipropileno de alta densidad",
+            "asiento": "De una sola pieza, termoplástico polimerizado en polipropileno de alta densidad",
+            "color": "Blanco (W9), azul niebla (B9) con blanco (W9) o negro (K5)",
+            "tapiz": "Soft revolving leather gris para el blanco o celeste con blanco, y soft revolving leather negro para el negro",
+            "capacidad": "Peso sugerido 100 kgs",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "flex": {
+      "id": "flex",
+      "name": "FLEX",
+      "description": "Familia FLEX de sillas visitantes interior.",
+      "products": [
+        {
+          "id": "ohv-138",
+          "name": "FLEX modelo OHV-138",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante interior FLEX OHV-138. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "frida": {
+      "id": "frida",
+      "name": "FRIDA",
+      "description": "Familia FRIDA de sillas visitantes interior.",
+      "products": [
+        {
+          "id": "ohv-115negro",
+          "name": "OHV-115negro",
+          "material": "Acero tubular, polipropileno y tapizado",
+          "description": "Silla visitante con estructura de acero tubular, respaldo en malla y asiento tapizado en color negro.",
+          "specifications": {
+            "estructura": "De perfil redondo tubular de acero con soportes internos en forma de parrilla",
+            "caracteristicas": "Diseño ergonómico, brazos fijos con pad de polipropileno rígido de alta densidad",
+            "brazos": "Color negro; forman una extensión de las patas traseras; uniones de tubos troquelados en tubulares; uniones entre piezas mediante soldadura de microalambre a gas",
+            "respaldo": "Bastidor de polipropileno de alta densidad con 2 ángulos de sujeción para ensamblarlo a la estructura en color negro",
+            "asiento": "Interior en madera de triplay, acojinado con espuma de poliuretano inyectado de 50 mm de espesor y densidad 55 kg/m³, de alta resiliencia",
+            "tapiz": "Respaldo de malla y asiento en tela 100% poliéster color negro, funda tapizada y pespuntada",
+            "capacidad": "Peso sugerido 140 kgs",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-115gris",
+          "name": "OHV-115gris",
+          "material": "Acero tubular cromado, polipropileno y tapizado",
+          "description": "Silla visitante con estructura de acero tubular cromado, respaldo en malla y asiento tapizado en color gris.",
+          "specifications": {
+            "estructura": "De perfil redondo tubular de acero con soportes internos en forma de parrilla",
+            "caracteristicas": "Diseño ergonómico, brazos fijos con pad de polipropileno rígido de alta densidad",
+            "brazos": "Terminado cromo; forman una extensión de las patas traseras; uniones de tubos troquelados en tubulares; uniones entre piezas mediante soldadura de microalambre a gas",
+            "respaldo": "Bastidor de polipropileno de alta densidad con 2 ángulos de sujeción para ensamblarlo a la estructura en color gris",
+            "asiento": "Interior en madera de triplay, acojinado con espuma de poliuretano inyectado de 50 mm de espesor y densidad 55 kg/m³, de alta resiliencia",
+            "tapiz": "Respaldo de malla y asiento en tela 100% poliéster color gris, funda tapizada y pespuntada",
+            "capacidad": "Peso sugerido 140 kgs",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "ciao": {
+      "id": "ciao",
+      "name": "CIAO",
+      "description": "Familia CIAO de sillas visitantes interior.",
+      "products": [
+        {
+          "id": "ohv-11",
+          "name": "OHV-11",
+          "material": "Acero tubular y polipropileno",
+          "description": "Silla visitante con estructura de acero tubular y asiento/respaldo en copolímero de polipropileno de alta densidad.",
+          "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "Tubular de acero de 5/8\" de diámetro, calibre 14, con postes de cold rolled de 1/2\" para sujeción del respaldo",
+            "asiento": "En copolímero de polipropileno virgen de alta densidad, diseño ergonómico",
+            "respaldo": "En copolímero de polipropileno virgen de alta densidad, diseño ergonómico",
+            "color": "Blanco/gris claro, gris cálido/tabaco, torrente/torrente oscuro, azul/océano y negro/negro",
+            "capacidad": "Peso sugerido 160 kgs",
+            "diseño": "Jeremiah Ferrarese & Paolo Scagnellato, para OFFIHO",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-11cb",
+          "name": "OHV-11CB",
+          "material": "Acero tubular y polipropileno",
+          "description": "Silla visitante con brazos, estructura de acero tubular y asiento/respaldo en copolímero de polipropileno de alta densidad.",
+          "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "Tubular de acero de 5/8\" de diámetro, calibre 14, con postes de cold rolled de 1/2\" para sujeción del respaldo",
+            "asiento": "En copolímero de polipropileno virgen de alta densidad, diseño ergonómico",
+            "respaldo": "En copolímero de polipropileno virgen de alta densidad, diseño ergonómico",
+            "brazos": "Polipropileno virgen de alta densidad, diseñados para ensamblarse con el respaldo en un solo paso, formando una sujeción sólida",
+            "color": "Blanco/gris claro, gris cálido/tabaco, torrente/torrente oscuro, azul/océano y negro/negro",
+            "capacidad": "Peso sugerido 160 kgs",
+            "diseño": "Jeremiah Ferrarese & Paolo Scagnellato, para OFFIHO",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-12",
+          "name": "OHV-12",
+          "material": "Acero tubular, polipropileno y tapizado",
+          "description": "Silla visitante giratoria con estructura de acero tubular, asiento/respaldo tapizados con acojinado de alta densidad.",
+          "specifications": {
+            "estructura": "Tubular de acero de 5/8\" de diámetro, calibre 14, con postes de cold rolled de 1/2\" para sujeción del respaldo",
+            "asiento": "En copolímero de polipropileno virgen de alta densidad, diseño ergonómico, asiento giratorio 360°",
+            "respaldo": "En copolímero de polipropileno virgen de alta densidad, diseño ergonómico",
+            "acojinado": "Asiento y respaldo con hule espuma laminada de 30 mm de espesor, alta densidad 60 kgs/m³ y alta resiliencia",
+            "tapiz": "Asiento y respaldo tapizados en color a elegir de la colección de tapices",
+            "color": "Base del casco negro/negro",
+            "capacidad": "Peso sugerido 160 kgs",
+            "diseño": "Jeremiah Ferrarese & Paolo Scagnellato, para OFFIHO",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-12cb",
+          "name": "OHV-12CB",
+          "material": "Acero tubular, polipropileno y tapizado",
+          "description": "Silla visitante giratoria con brazos, estructura de acero tubular, asiento/respaldo tapizados con acojinado de alta densidad.",
+          "specifications": {
+            "estructura": "Tubular de acero de 5/8\" de diámetro, calibre 14, con postes de cold rolled de 1/2\" para sujeción del respaldo",
+            "asiento": "En copolímero de polipropileno virgen de alta densidad, diseño ergonómico, asiento giratorio 360°",
+            "respaldo": "En copolímero de polipropileno virgen de alta densidad, diseño ergonómico",
+            "acojinado": "Asiento y respaldo con hule espuma laminada de 30 mm de espesor, alta densidad 60 kgs/m³ y alta resiliencia",
+            "tapiz": "Asiento y respaldo tapizados en color a elegir de la colección de tapices",
+            "brazos": "Polipropileno virgen de alta densidad, diseñados para ensamblarse con el respaldo en un solo paso, formando una sujeción sólida",
+            "color": "Base del casco negro/negro",
+            "capacidad": "Peso sugerido 160 kgs",
+            "diseño": "Jeremiah Ferrarese & Paolo Scagnellato, para OFFIHO",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "kyos": {
+      "id": "kyos",
+      "name": "KYOS",
+      "description": "Familia KYOS con 4 subfamilias de sillas visitantes interior.",
+      "plasticos-expuestos": {
+        "id": "plasticos-expuestos",
+        "name": "PLÁSTICOS EXPUESTOS",
+        "description": "Subfamilia KYOS - Plásticos Expuestos.",
+        "products": [
+          {
+            "id": "ohv-310",
+            "name": "OHV-310",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS plásticos expuestos. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-311",
+            "name": "OHV-311",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS plásticos expuestos. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-312",
+            "name": "OHV-312",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS plásticos expuestos. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-313",
+            "name": "OHV-313",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS plásticos expuestos. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-315cr",
+            "name": "OHV-315cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS plásticos expuestos. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-316cr",
+            "name": "OHV-316cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS plásticos expuestos. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-317cr",
+            "name": "OHV-317cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS plásticos expuestos. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-318cr",
+            "name": "OHV-318cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS plásticos expuestos. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "oht-319",
+            "name": "OHT-319",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS plásticos expuestos. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "oht-320",
+            "name": "OHT-320",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS plásticos expuestos. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "oht-321cr",
+            "name": "OHT-321cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS plásticos expuestos. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "oht-322cr",
+            "name": "OHT-322cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS plásticos expuestos. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "tapizadas": {
+        "id": "tapizadas",
+        "name": "TAPIZADAS",
+        "description": "Subfamilia KYOS - Tapizadas.",
+        "products": [
+          {
+            "id": "ohv-329",
+            "name": "OHV-329",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS tapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-330",
+            "name": "OHV-330",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS tapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-331",
+            "name": "OHV-331",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS tapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-332",
+            "name": "OHV-332",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS tapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-333cr",
+            "name": "OHV-333cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS tapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-334cr",
+            "name": "OHV-334cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS tapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-335cr",
+            "name": "OHV-335cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS tapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-336cr",
+            "name": "OHV-336cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS tapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "oht-337",
+            "name": "OHT-337",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS tapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "oht-338",
+            "name": "OHT-338",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS tapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "oht-339cr",
+            "name": "OHT-339cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS tapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "oht-340cr",
+            "name": "OHT-340cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS tapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "semitapizadas": {
+        "id": "semitapizadas",
+        "name": "SEMITAPIZADAS",
+        "description": "Subfamilia KYOS - Semitapizadas.",
+        "products": [
+          {
+            "id": "ohv-347",
+            "name": "OHV-347",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS semitapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-348",
+            "name": "OHV-348",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS semitapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-349",
+            "name": "OHV-349",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS semitapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-350",
+            "name": "OHV-350",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS semitapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-351cr",
+            "name": "OHV-351cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS semitapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-352cr",
+            "name": "OHV-352cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS semitapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-353cr",
+            "name": "OHV-353cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS semitapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-354cr",
+            "name": "OHV-354cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS semitapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "oht-355",
+            "name": "OHT-355",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS semitapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "oht-356",
+            "name": "OHT-356",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS semitapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "oht-357cr",
+            "name": "OHT-357cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS semitapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "oht-358cr",
+            "name": "OHT-358cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS semitapizada. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "malla": {
+        "id": "malla",
+        "name": "MALLA",
+        "description": "Subfamilia KYOS - Malla.",
+        "products": [
+          {
+            "id": "ohv-359",
+            "name": "OHV-359",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS con malla. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-359cr",
+            "name": "OHV-359cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS con malla. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-360",
+            "name": "OHV-360",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS con malla. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-360cr",
+            "name": "OHV-360cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS con malla. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "oht-361",
+            "name": "OHT-361",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS con malla. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "oht-361cr",
+            "name": "OHT-361cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS con malla. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "oht-362",
+            "name": "OHT-362",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS con malla. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "oht-362cr",
+            "name": "OHT-362cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS con malla. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "oht-369",
+            "name": "OHT-369",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS con malla. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "oht-369cr",
+            "name": "OHT-369cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS con malla. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "oht-370",
+            "name": "OHT-370",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS con malla. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "oht-370cr",
+            "name": "OHT-370cr",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante KYOS con malla. Información detallada pendiente.",
+            "specifications": {
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      }
+    },
+    "alpha": {
+      "id": "alpha",
+      "name": "ALPHA",
+      "description": "Familia ALPHA de sillas visitantes interior.",
+      "products": [
+        {
+          "id": "ohv-102",
+          "name": "OHV-102",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante ALPHA modelo OHV-102. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-102alta",
+          "name": "OHV-102alta",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante ALPHA modelo OHV-102alta. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-103",
+          "name": "OHV-103",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante ALPHA modelo OHV-103. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-104",
+          "name": "OHV-104",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante ALPHA modelo OHV-104. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-105",
+          "name": "OHV-105",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante ALPHA modelo OHV-105. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-107",
+          "name": "OHV-107",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante ALPHA modelo OHV-107. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-108",
+          "name": "OHV-108",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante ALPHA modelo OHV-108. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "conector-alpha",
+          "name": "Conector Alpha",
+          "material": "Pendiente especificaciones",
+          "description": "Conector para sillas visitantes ALPHA. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "milk": {
+      "id": "milk",
+      "name": "MILK",
+      "description": "Familia MILK de sillas visitantes interior.",
+      "products": [
+        {
+          "id": "ohv-66",
+          "name": "OHV-66",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante MILK modelo OHV-66. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "link": "visitantes-interior-milk-modelo-OHV-66",
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-66cr",
+          "name": "OHV-66cr",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante MILK modelo OHV-66cr. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "link": "visitantes-interior-milk-modelo-OHV-66cr",
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "innova-collection": {
+      "id": "innova-collection",
+      "name": "INNOVA COLLECTION",
+      "description": "Familia INNOVA COLLECTION de sillas visitantes interior.",
+      "products": [
+        {
+          "id": "ohv-2700",
+          "name": "OHV-2700",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante INNOVA-COLLECTION modelo OHV-2700. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "link": "visitantes-interior-innovacollection-modelo-OHV-2700",
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-2700cr",
+          "name": "OHV-2700cr",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante INNOVA-COLLECTION modelo OHV-2700cr. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "link": "visitantes-interior-innovacroma-modelo-OHV-2700cr",
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "innova": {
+      "id": "innova",
+      "name": "INNOVA",
+      "description": "Familia INNOVA de sillas visitantes interior.",
+      "products": [
+        {
+          "id": "ohv-3000",
+          "name": "OHV-3000",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante INNOVA modelo OHV-3000. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "link": "visitantes-interior-innova-modelo-OHV-3000",
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-3000cr",
+          "name": "OHV-3000cr",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante INNOVA modelo OHV-3000cr. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "link": "visitantes-interior-innovacroma-modelo-OHV-3000cr",
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "ellitico-collection": {
+      "id": "ellitico-collection",
+      "name": "ELLITICO COLLECTION",
+      "description": "Familia ELLITICO COLLECTION de sillas visitantes interior.",
+      "products": [
+        {
+          "id": "ohv-2200",
+          "name": "OHV-2200",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante ELLITICO-COLLECTION modelo OHV-2200. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "link": "visitantes-interior-elliticocollection-modelo-OHV-2200",
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-2200cr",
+          "name": "OHV-2200cr",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante ELLITICO-COLLECTION modelo OHV-2200cr. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "link": "visitantes-interior-elliticocollection-modelo-OHV-2200cr",
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "air": {
+      "id": "air",
+      "name": "AIR",
+      "description": "Familia AIR de sillas visitantes interior.",
+      "products": [
+        {
+          "id": "ohv-133",
+          "name": "OHV-133",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante AIR modelo OHV-133. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "link": "visitantes-interior-air-modelo-OHV-133",
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-134",
+          "name": "OHV-134",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante AIR modelo OHV-134. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "link": "visitantes-interior-air-modelo-OHV-134",
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "ohv-136": {
+      "id": "ohv-136",
+      "name": "OHV-136",
+      "description": "Modelo OHV-136 de sillas visitantes interior.",
+      "products": [
+        {
+          "id": "ohv-136",
+          "name": "OHV-136",
+          "material": "Polipropileno de alta resistencia",
+          "description": "patas, asiento y respaldo: de una sola pieza en polipropileno de alta resistencia y duración.",
+          "specifications": {
+            "piezas": "Patas, asiento y respaldo de una sola pieza",
+            "color": "Azul o aqua",
+            "capacidad": "Peso sugerido 130 kg",
+            "estibadas": "Caja 360",
+            "accesos": "FOTOS, FICHA TÉCNICA, archivos 3D",
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    }
+  }
+}

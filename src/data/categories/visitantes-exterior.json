@@ -1,0 +1,1153 @@
+{
+  "category": {
+    "id": "visitantes-exterior",
+    "name": "Visitantes Exterior",
+    "description": "Sillas para visitantes en espacios exteriores"
+  },
+  "families": {
+    "plus": {
+      "id": "plus",
+      "name": "PLUS",
+      "description": "Familia PLUS de sillas visitantes exterior.",
+      "products": [
+        {
+          "id": "ohv-73",
+          "name": "OHV-73",
+          "comercial_name": "Visitantes Exterior OHV-73",
+          "material": "Acero tubular y polipropileno",
+          "description": "Silla visitante exterior PLUS modelo OHV-73. Estructura de acero tubular con acabado en pintura epóxica, respaldo en polipropileno resistente a UV.",
+          "specifications": {
+            "estructura": "Acero tubular de 1\" de diámetro, calibre 16, con acabado en pintura epóxica (electrostática) color negro, blanco, rojo ladrillo, azul profundo o gris oscuro",
+            "respaldo": "En 1 pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+            "color": "Negro, blanco, rojo ladrillo, azul profundo o gris oscuro. NOTA: Silla monocromática (mismo color asiento y estructura)",
+            "capacidad": "Peso sugerido 160 kg",
+            "nota_fabricacion": "CATAS Rojo Made In Italy",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "recursos": {
+            "instructivo": {
+              "nombre": "Instructivo OHV-73",
+              "archivo": "InstructivoOHV-73A.jpg"
+            },
+            "fotos": {
+              "nombre": "Fotos OHV-73",
+              "archivo": "ImagenesOHV-73.pdf"
+            },
+            "ficha_tecnica": {
+              "nombre": "Ficha Técnica OHV-73",
+              "archivo": "OHV-73FT.jpg"
+            },
+            "modelados_3d": [
+              {
+                "tipo": "DWG",
+                "archivo": "OHV-73_DWG.dwg"
+              },
+              {
+                "tipo": "OBJ",
+                "archivo": "OHV-73_OBJ.obj"
+              }
+            ],
+            "videos": [
+              {
+                "nombre": "Video PLUS",
+                "archivo": "PLUS.mp4"
+              }
+            ]
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-73",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "tototo": {
+      "id": "tototo",
+      "name": "TOTOTO",
+      "description": "Familia TOTOTO de sillas visitantes exterior.",
+      "products": [
+        {
+          "id": "ohv-71",
+          "name": "OHV-71",
+          "comercial_name": "Visitantes Exterior OHV-71",
+          "material": "Polipropileno de alta resistencia",
+          "description": "Silla visitante exterior TOTOTO modelo OHV-71. Asiento, respaldo y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+          "specifications": {
+            "piezas": "Asiento, respaldo y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+            "capacidad": "Peso sugerido 110 kg",
+            "nota_fabricacion": "CATAS Rojo Made In Italy",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "recursos": {
+            "fotos": {
+              "nombre": "Fotos OHV-71",
+              "archivo": "ImagenesOHV-71.pdf"
+            },
+            "ficha_tecnica": {
+              "nombre": "Ficha Técnica OHV-71",
+              "archivo": "OHV-71FT.jpg"
+            }
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-71",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "rue": {
+      "id": "rue",
+      "name": "RUE",
+      "description": "Familia RUE de sillas visitantes exterior.",
+      "products": [
+        {
+          "id": "ohv-92",
+          "name": "OHV-92",
+          "comercial_name": "Visitantes Exterior OHV-92",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante exterior RUE modelo OHV-92. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-92",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-7036b",
+          "name": "OHV-7036B",
+          "comercial_name": "Visitantes Exterior OHV-7036B",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante exterior RUE modelo OHV-7036B. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-7036B",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-7036c",
+          "name": "OHV-7036C",
+          "comercial_name": "Visitantes Exterior OHV-7036C",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante exterior RUE modelo OHV-7036C. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-7036C",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "sensilla": {
+      "id": "sensilla",
+      "name": "SENSILLA",
+      "description": "Familia SENSILLA de sillas visitantes exterior.",
+      "products": [
+        {
+          "id": "ohv-97",
+          "name": "OHV-97",
+          "comercial_name": "Visitantes Exterior OHV-97",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante exterior SENSILLA modelo OHV-97. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-97",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-7211b",
+          "name": "OHV-7211B",
+          "comercial_name": "Visitantes Exterior OHV-7211B",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante exterior SENSILLA modelo OHV-7211B. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-7211B",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-7211c",
+          "name": "OHV-7211C",
+          "comercial_name": "Visitantes Exterior OHV-7211C",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante exterior SENSILLA modelo OHV-7211C. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-7211C",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "alissa": {
+      "id": "alissa",
+      "name": "ALISSA",
+      "description": "Familia ALISSA de sillas visitantes exterior.",
+      "products": [
+        {
+          "id": "ohv-91",
+          "name": "OHV-91",
+          "comercial_name": "Visitantes Exterior OHV-91",
+          "material": "Polipropileno de alta resistencia",
+          "description": "Silla visitante exterior ALISSA modelo OHV-91. Respaldo, brazos, asiento y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+          "specifications": {
+            "piezas": "Respaldo, brazos, asiento y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+            "colores": "Blanco (W9), Gris (G6), Negro (K5), Verde (V5), Azul (B7), Azul Niebla (B9), Azul Turquesa (BF), Rojo (R4), Fucsia (R7), Amarillo (Y7), Ámbar (YF), Naranja (YB)",
+            "capacidad": "Peso sugerido 130 kg",
+            "referencia": "EN581",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "recursos": {
+            "fotos": {
+              "nombre": "Fotos OHV-91",
+              "archivo": "ImagenesOHV-91.pdf"
+            },
+            "ficha_tecnica": {
+              "nombre": "Ficha Técnica OHV-91",
+              "archivo": "OHV-91FT.jpg"
+            },
+            "modelados_3d": [
+              {
+                "tipo": "DWG",
+                "archivo": "OHV-91.dwg"
+              },
+              {
+                "tipo": "OBJ",
+                "archivo": "OHV-91.obj"
+              },
+              {
+                "tipo": "3DS",
+                "archivo": "MAUI-OHV-91.3ds"
+              }
+            ]
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-91",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "lavie": {
+      "id": "lavie",
+      "name": "LaVie",
+      "description": "Familia LaVie de sillas visitantes exterior.",
+      "products": []
+    },
+    "koppla": {
+      "id": "koppla",
+      "name": "KOPPLA",
+      "description": "Familia KOPPLA de sillas visitantes exterior.",
+      "products": [
+        {
+          "id": "ohv-93",
+          "name": "OHV-93",
+          "comercial_name": "Visitantes Exterior OHV-93",
+          "material": "Polipropileno con imitación mimbre",
+          "description": "Silla visitante exterior KOPPLA modelo OHV-93. Respaldo, asiento y patas terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+          "specifications": {
+            "piezas": "Respaldo, asiento y patas terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+            "colores": "Blanco (W8), Gris (G6), Negro Grafito (K3), Café (N3)",
+            "capacidad": "Peso sugerido 130 kg",
+            "referencia": "EN581",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "recursos": {
+            "fotos": {
+              "nombre": "Fotos OHV-93",
+              "archivo": "ImagenesOHV-93.pdf"
+            },
+            "ficha_tecnica": {
+              "nombre": "Ficha Técnica OHV-93",
+              "archivo": "OHV-93FT.pdf"
+            },
+            "modelados_3d": [
+              {
+                "tipo": "3DS",
+                "archivo": "HONOLULU-OHV-93.3ds"
+              }
+            ]
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-93",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "solei": {
+      "id": "solei",
+      "name": "SOLEI",
+      "description": "Familia SOLEI de sillas visitantes exterior.",
+      "products": [
+        {
+          "id": "ohv-59",
+          "name": "OHV-59",
+          "comercial_name": "Visitantes Exterior OHV-59",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante exterior SOLEI modelo OHV-59. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-59",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-60",
+          "name": "OHV-60",
+          "comercial_name": "Visitantes Exterior OHV-60",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante exterior SOLEI modelo OHV-60. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-60",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "folding": {
+      "id": "folding",
+      "name": "FOLDING",
+      "description": "Familia FOLDING de sillas visitantes exterior.",
+      "products": [
+        {
+          "id": "ohv-137",
+          "name": "OHV-137",
+          "comercial_name": "Visitantes Exterior OHV-137",
+          "material": "Polipropileno inyectado de alto impacto",
+          "description": "Silla visitante exterior FOLDING modelo OHV-137. Diseño PLEGABLE de polipropileno inyectado de alto impacto y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+          "specifications": {
+            "piezas": "Respaldo, asiento y patas de diseño PLEGABLE en polipropileno inyectado de alto impacto y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+            "colores": "Blanco, Negro, Gris",
+            "capacidad": "Peso sugerido 130 kg",
+            "referencia": "BIFMA",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "recursos": {
+            "fotos": {
+              "nombre": "Fotos OHV-137",
+              "archivo": "ImagenesOHV-137.pdf"
+            },
+            "ficha_tecnica": {
+              "nombre": "Ficha Técnica OHV-137",
+              "archivo": "OHV-137FT.pdf"
+            },
+            "modelados_3d": [
+              {
+                "tipo": "DWG",
+                "archivo": "FOLDING_DWG.dwg"
+              },
+              {
+                "tipo": "OBJ",
+                "archivo": "FOLDING_OBJ.obj"
+              },
+              {
+                "tipo": "SKP",
+                "archivo": "FOLDING_SKP.skp"
+              }
+            ]
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-137",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "teksi": {
+      "id": "teksi",
+      "name": "TEKSI",
+      "description": "Familia TEKSI de sillas visitantes exterior.",
+      "products": [
+        {
+          "id": "ohv-19",
+          "name": "OHV-19",
+          "comercial_name": "Visitantes Exterior OHV-19",
+          "material": "Polipropileno de alta resistencia",
+          "description": "Silla visitante exterior TEKSI modelo OHV-19. Respaldo, asiento y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+          "specifications": {
+            "piezas": "Respaldo, asiento y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+            "colores": "Negro, Blanco, Tabaco, Agave",
+            "capacidad": "Peso sugerido 130 kg",
+            "referencia": "BIFMA",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "recursos": {
+            "fotos": {
+              "nombre": "Fotos OHV-19",
+              "archivo": "ImagenesOHV-19.pdf"
+            },
+            "ficha_tecnica": {
+              "nombre": "Ficha Técnica OHV-19",
+              "archivo": "OHV-19FT.pdf"
+            },
+            "modelados_3d": [
+              {
+                "tipo": "DWG",
+                "archivo": "TEKSI_DWG.dwg"
+              },
+              {
+                "tipo": "OBJ",
+                "archivo": "TEKSI_OBJ.obj"
+              },
+              {
+                "tipo": "SKP",
+                "archivo": "TEKSI_SKP.skp"
+              }
+            ]
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-19",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "kipali": {
+      "id": "kipali",
+      "name": "KIPALI",
+      "description": "Familia KIPALI de sillas visitantes exterior.",
+      "products": [
+        {
+          "id": "ohv-18",
+          "name": "OHV-18",
+          "comercial_name": "Visitantes Exterior OHV-18",
+          "material": "Polipropileno de alta resistencia",
+          "description": "Silla visitante exterior KIPALI modelo OHV-18. Respaldo, asiento y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+          "specifications": {
+            "piezas": "Respaldo, asiento y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+            "colores": "Negro, Blanco, Capuccino, Azul, Rojo",
+            "capacidad": "Peso sugerido 130 kg",
+            "referencia": "BIFMA",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "recursos": {
+            "fotos": {
+              "nombre": "Fotos OHV-18",
+              "archivo": "ImagenesOHV-18.pdf"
+            },
+            "ficha_tecnica": {
+              "nombre": "Ficha Técnica OHV-18",
+              "archivo": "OHV-18FT.pdf"
+            },
+            "modelados_3d": [
+              {
+                "tipo": "DWG",
+                "archivo": "KIPALI_DWG.dwg"
+              },
+              {
+                "tipo": "OBJ",
+                "archivo": "KIPALI_OBJ.obj"
+              },
+              {
+                "tipo": "SKP",
+                "archivo": "KIPALI_SKP.skp"
+              }
+            ]
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-18",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "naples": {
+      "id": "naples",
+      "name": "NAPLES",
+      "description": "Familia NAPLES de sillas visitantes exterior.",
+      "products": [
+        {
+          "id": "ohv-7220b",
+          "name": "OHV-7220B",
+          "comercial_name": "Visitantes Exterior OHV-7220B",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante exterior NAPLES modelo OHV-7220B. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-7220B",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-7220a",
+          "name": "OHV-7220A",
+          "comercial_name": "Visitantes Exterior OHV-7220A",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante exterior NAPLES modelo OHV-7220A. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-7220A",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "iris": {
+      "id": "iris",
+      "name": "IRIS",
+      "description": "Familia IRIS de sillas visitantes exterior.",
+      "products": [
+        {
+          "id": "ohv-7029-dc",
+          "name": "OHV-7029-DC",
+          "comercial_name": "Visitantes Exterior OHV-7029-DC",
+          "material": "Polipropileno con imitación mimbre",
+          "description": "Silla visitante exterior IRIS modelo OHV-7029-DC. Respaldo, asiento y patas terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+          "specifications": {
+            "piezas": "Respaldo, asiento y patas terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+            "colores": "Blanco (W8), Gris (G6), Café (N3)",
+            "capacidad": "Peso sugerido 130 kg",
+            "referencia": "BIFMA",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "recursos": {
+            "fotos": {
+              "nombre": "Fotos OHV-7029",
+              "archivo": "ImagenesOHV-7029.pdf"
+            },
+            "ficha_tecnica": {
+              "nombre": "Ficha Técnica OHV-7029-DC",
+              "archivo": "OHV-7029-DCFT.jpg"
+            },
+            "modelados_3d": [
+              {
+                "tipo": "3DS",
+                "archivo": "7029DC.3ds"
+              }
+            ]
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-7029-DC",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "grace": {
+      "id": "grace",
+      "name": "GRACE",
+      "description": "Familia GRACE de sillas visitantes exterior.",
+      "products": [
+        {
+          "id": "ohv-7028",
+          "name": "OHV-7028",
+          "comercial_name": "Visitantes Exterior OHV-7028",
+          "material": "Polipropileno con imitación bejuco",
+          "description": "Silla visitante exterior GRACE modelo OHV-7028. Respaldo, asiento y patas terminado en imitación bejuco de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+          "specifications": {
+            "piezas": "Respaldo, asiento y patas terminado en imitación bejuco de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+            "colores": "Blanco (W9), Gris (G6), Negroazulado (K3), Camel (N4)",
+            "capacidad": "Peso sugerido 130 kg",
+            "referencia": "BIFMA",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "recursos": {
+            "fotos": {
+              "nombre": "Fotos OHV-7028",
+              "archivo": "ImagenesOHV-7028.pdf"
+            },
+            "ficha_tecnica": {
+              "nombre": "Ficha Técnica OHV-7028",
+              "archivo": "OHV-7028FT.jpg"
+            },
+            "modelados_3d": [
+              {
+                "tipo": "DWG",
+                "archivo": "OHV-7028.dwg"
+              },
+              {
+                "tipo": "OBJ",
+                "archivo": "OHV-7028.obj"
+              }
+            ]
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-7028",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "milos": {
+      "id": "milos",
+      "name": "MILOS",
+      "description": "Familia MILOS de sillas visitantes exterior.",
+      "products": [
+        {
+          "id": "ohv-7203a",
+          "name": "OHV-7203A",
+          "comercial_name": "Visitantes Exterior OHV-7203A",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante exterior MILOS modelo OHV-7203A. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-7203A",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-7203b",
+          "name": "OHV-7203B",
+          "comercial_name": "Visitantes Exterior OHV-7203B",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante exterior MILOS modelo OHV-7203B. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-7203B",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-7203bb",
+          "name": "OHV-7203BB",
+          "comercial_name": "Visitantes Exterior OHV-7203BB",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante exterior MILOS modelo OHV-7203BB. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-7203BB",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-7203bc",
+          "name": "OHV-7203BC",
+          "comercial_name": "Visitantes Exterior OHV-7203BC",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante exterior MILOS modelo OHV-7203BC. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-7203BC",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "milan": {
+      "id": "milan",
+      "name": "MILAN",
+      "description": "Familia MILAN de sillas visitantes exterior.",
+      "products": [
+        {
+          "id": "ohv-74",
+          "name": "OHV-74",
+          "comercial_name": "Visitantes Exterior OHV-74",
+          "material": "Polipropileno de alta resistencia",
+          "description": "Silla visitante exterior MILAN modelo OHV-74. Patas, asiento y respaldo de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+          "specifications": {
+            "piezas": "Patas, asiento y respaldo de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+            "colores": "Blanco (W9), Gris (G6), Azul Niebla (B9), Rojo (R1), Naranja (YB)",
+            "capacidad": "Peso sugerido 130 kg",
+            "referencia": "BIFMA",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "recursos": {
+            "fotos": {
+              "nombre": "Fotos OHV-74",
+              "archivo": "ImagenesOHV-74.pdf"
+            },
+            "ficha_tecnica": {
+              "nombre": "Ficha Técnica OHV-74",
+              "archivo": "OHV-74FT.jpg"
+            },
+            "modelados_3d": [
+              {
+                "tipo": "DWG",
+                "archivo": "OHV-74_DWG.dwg"
+              },
+              {
+                "tipo": "OBJ",
+                "archivo": "OHV-74_OBJ.obj"
+              }
+            ]
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-74",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "joyous": {
+      "id": "joyous",
+      "name": "JOYOUS",
+      "description": "Familia JOYOUS de sillas visitantes exterior.",
+      "products": [
+        {
+          "id": "ohv-81",
+          "name": "OHV-81",
+          "comercial_name": "Visitantes Exterior OHV-81",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante exterior JOYOUS modelo OHV-81. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-81",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-82",
+          "name": "OHV-82",
+          "comercial_name": "Visitantes Exterior OHV-82",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante exterior JOYOUS modelo OHV-82. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-82",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohv-83",
+          "name": "OHV-83",
+          "comercial_name": "Visitantes Exterior OHV-83",
+          "material": "Pendiente especificaciones",
+          "description": "Silla visitante exterior JOYOUS modelo OHV-83. Información detallada pendiente.",
+          "specifications": {
+            "nota": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-83",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "hawaii": {
+      "id": "hawaii",
+      "name": "HAWAII",
+      "description": "Familia HAWAII de sillas visitantes exterior.",
+      "products": [
+        {
+          "id": "ohv-7031",
+          "name": "OHV-7031",
+          "comercial_name": "Visitantes Exterior OHV-7031",
+          "material": "Polipropileno con imitación mimbre",
+          "description": "Silla visitante exterior HAWAII modelo OHV-7031. Patas, asiento y respaldo terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+          "specifications": {
+            "piezas": "Patas, asiento y respaldo terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+            "colores": "Blanco (W8), Gris (G6), Café (N3), Negro (K3)",
+            "capacidad": "Peso sugerido 130 kg",
+            "referencia": "EN581",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "recursos": {
+            "fotos": {
+              "nombre": "Fotos OHV-7031",
+              "archivo": "ImagenesOHV-7031.pdf"
+            },
+            "ficha_tecnica": {
+              "nombre": "Ficha Técnica OHV-7031",
+              "archivo": "OHV-7031FT.jpg"
+            }
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-7031",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "tahiti": {
+      "id": "tahiti",
+      "name": "TAHITI",
+      "description": "Familia TAHITI de sillas visitantes exterior.",
+      "products": [
+        {
+          "id": "ohv-7030",
+          "name": "OHV-7030",
+          "comercial_name": "Visitantes Exterior OHV-7030",
+          "material": "Polipropileno con imitación mimbre",
+          "description": "Silla visitante exterior TAHITI modelo OHV-7030. Respaldo, asiento y patas terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+          "specifications": {
+            "piezas": "Respaldo, asiento y patas terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+            "colores": "Blanco (W8), Gris (G6), Café (N3), Negro (K3), Pistache (V4), Ámbar (YF)",
+            "capacidad": "Peso sugerido 130 kg",
+            "estibadas": "OHV-7030 caja 360",
+            "referencia": "EN581",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "recursos": {
+            "instructivo": {
+              "nombre": "Instructivo OHV-7030",
+              "archivo": "InstructivoOHV-7030.jpg"
+            },
+            "fotos": {
+              "nombre": "Fotos OHM-7030",
+              "archivo": "ImagenesOHM-7030.pdf"
+            },
+            "ficha_tecnica": {
+              "nombre": "Ficha Técnica OHV-7030",
+              "archivo": "OHV-7030FT.jpg"
+            },
+            "modelados_3d": [
+              {
+                "tipo": "OBJ",
+                "archivo": "THAHITI-OHV-7030.obj"
+              }
+            ]
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "VISITANTES EXTERIOR",
+              "link": "/catalogo?categoria=visitantes-exterior"
+            },
+            {
+              "label": "OHV-7030",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "category": {
+    "id": "bancas",
+    "name": "Bancas",
+    "description": "Bancas modulares y colectivas"
+  },
+  "families": {
+    "innova": {
+      "id": "innova",
+      "name": "INNOVA",
+      "description": "Familia INNOVA de bancas.",
+      "products": [
+        {
+          "id": "ohr-2700-2p",
+          "name": "OHR-2700-2P",
+          "comercial_name": "Banca INNOVA OHR-2700-2P",
+          "material": "Pendiente especificaciones",
+          "description": "Banca INNOVA modelo OHR-2700-2P. Información detallada pendiente.",
+          "specifications": {
+            "plazas": "2 plazas",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "BANCAS",
+              "link": "/catalogo?categoria=bancas"
+            },
+            {
+              "label": "INNOVA",
+              "link": "/catalogo?categoria=bancas&familia=innova"
+            },
+            {
+              "label": "OHR-2700-2P",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohr-2700-3p",
+          "name": "OHR-2700-3P",
+          "comercial_name": "Banca INNOVA OHR-2700-3P",
+          "material": "Pendiente especificaciones",
+          "description": "Banca INNOVA modelo OHR-2700-3P. Información detallada pendiente.",
+          "specifications": {
+            "plazas": "3 plazas",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "BANCAS",
+              "link": "/catalogo?categoria=bancas"
+            },
+            {
+              "label": "INNOVA",
+              "link": "/catalogo?categoria=bancas&familia=innova"
+            },
+            {
+              "label": "OHR-2700-3P",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohr-2700-4p",
+          "name": "OHR-2700-4P",
+          "comercial_name": "Banca INNOVA OHR-2700-4P",
+          "material": "Pendiente especificaciones",
+          "description": "Banca INNOVA modelo OHR-2700-4P. Información detallada pendiente.",
+          "specifications": {
+            "plazas": "4 plazas",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "BANCAS",
+              "link": "/catalogo?categoria=bancas"
+            },
+            {
+              "label": "INNOVA",
+              "link": "/catalogo?categoria=bancas&familia=innova"
+            },
+            {
+              "label": "OHR-2700-4P",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohr-2700-5p",
+          "name": "OHR-2700-5P",
+          "comercial_name": "Banca INNOVA OHR-2700-5P",
+          "material": "Pendiente especificaciones",
+          "description": "Banca INNOVA modelo OHR-2700-5P. Información detallada pendiente.",
+          "specifications": {
+            "plazas": "5 plazas",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "BANCAS",
+              "link": "/catalogo?categoria=bancas"
+            },
+            {
+              "label": "INNOVA",
+              "link": "/catalogo?categoria=bancas&familia=innova"
+            },
+            {
+              "label": "OHR-2700-5P",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "ellitico": {
+      "id": "ellitico",
+      "name": "ELLITICO",
+      "description": "Familia ELLITICO de bancas.",
+      "products": [
+        {
+          "id": "ohr-2200-2p",
+          "name": "OHR-2200-2P",
+          "comercial_name": "Banca ELLITICO OHR-2200-2P",
+          "material": "Pendiente especificaciones",
+          "description": "Banca ELLITICO modelo OHR-2200-2P. Información detallada pendiente.",
+          "specifications": {
+            "plazas": "2 plazas",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "BANCAS",
+              "link": "/catalogo?categoria=bancas"
+            },
+            {
+              "label": "ELLITICO",
+              "link": "/catalogo?categoria=bancas&familia=ellitico"
+            },
+            {
+              "label": "OHR-2200-2P",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohr-2200-3p",
+          "name": "OHR-2200-3P",
+          "comercial_name": "Banca ELLITICO OHR-2200-3P",
+          "material": "Pendiente especificaciones",
+          "description": "Banca ELLITICO modelo OHR-2200-3P. Información detallada pendiente.",
+          "specifications": {
+            "plazas": "3 plazas",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "BANCAS",
+              "link": "/catalogo?categoria=bancas"
+            },
+            {
+              "label": "ELLITICO",
+              "link": "/catalogo?categoria=bancas&familia=ellitico"
+            },
+            {
+              "label": "OHR-2200-3P",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohr-2200-4p",
+          "name": "OHR-2200-4P",
+          "comercial_name": "Banca ELLITICO OHR-2200-4P",
+          "material": "Pendiente especificaciones",
+          "description": "Banca ELLITICO modelo OHR-2200-4P. Información detallada pendiente.",
+          "specifications": {
+            "plazas": "4 plazas",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "BANCAS",
+              "link": "/catalogo?categoria=bancas"
+            },
+            {
+              "label": "ELLITICO",
+              "link": "/catalogo?categoria=bancas&familia=ellitico"
+            },
+            {
+              "label": "OHR-2200-4P",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohr-2200-5p",
+          "name": "OHR-2200-5P",
+          "comercial_name": "Banca ELLITICO OHR-2200-5P",
+          "material": "Pendiente especificaciones",
+          "description": "Banca ELLITICO modelo OHR-2200-5P. Información detallada pendiente.",
+          "specifications": {
+            "plazas": "5 plazas",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "BANCAS",
+              "link": "/catalogo?categoria=bancas"
+            },
+            {
+              "label": "ELLITICO",
+              "link": "/catalogo?categoria=bancas&familia=ellitico"
+            },
+            {
+              "label": "OHR-2200-5P",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    },
+    "ivy": {
+      "id": "ivy",
+      "name": "IVY-2800",
+      "description": "Familia IVY-2800 de bancas.",
+      "products": [
+        {
+          "id": "ohr-2800-2pcr",
+          "name": "OHR-2800-2PCR",
+          "comercial_name": "Banca IVY-2800 OHR-2800-2PCR",
+          "material": "Pendiente especificaciones",
+          "description": "Banca IVY-2800 modelo OHR-2800-2PCR. Información detallada pendiente.",
+          "specifications": {
+            "plazas": "2 plazas con cromado",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "BANCAS",
+              "link": "/catalogo?categoria=bancas"
+            },
+            {
+              "label": "IVY-2800",
+              "link": "/catalogo?categoria=bancas&familia=ivy"
+            },
+            {
+              "label": "OHR-2800-2PCR",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohr-2800-3pcr",
+          "name": "OHR-2800-3PCR",
+          "comercial_name": "Banca IVY-2800 OHR-2800-3PCR",
+          "material": "Pendiente especificaciones",
+          "description": "Banca IVY-2800 modelo OHR-2800-3PCR. Información detallada pendiente.",
+          "specifications": {
+            "plazas": "3 plazas con cromado",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "BANCAS",
+              "link": "/catalogo?categoria=bancas"
+            },
+            {
+              "label": "IVY-2800",
+              "link": "/catalogo?categoria=bancas&familia=ivy"
+            },
+            {
+              "label": "OHR-2800-3PCR",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "id": "ohr-2800-4pcr",
+          "name": "OHR-2800-4PCR",
+          "comercial_name": "Banca IVY-2800 OHR-2800-4PCR",
+          "material": "Pendiente especificaciones",
+          "description": "Banca IVY-2800 modelo OHR-2800-4PCR. Información detallada pendiente.",
+          "specifications": {
+            "plazas": "4 plazas con cromado",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "BANCAS",
+              "link": "/catalogo?categoria=bancas"
+            },
+            {
+              "label": "IVY-2800",
+              "link": "/catalogo?categoria=bancas&familia=ivy"
+            },
+            {
+              "label": "OHR-2800-4PCR",
+              "link": "#"
+            }
+          ],
+          "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+        }
+      ]
+    }
+  }
+}
