@@ -1,6 +1,13 @@
-<nav class="w-64 bg-slate-100 border-r border-slate-200 p-6 h-screen fixed left-0 top-0 z-40">
-  <img src="../public/img/Logo.png" alt="Jemmsa Logo" class="w-full object-contain mb-8">
-  
+<nav id="sidebar-nav" class="w-64 bg-slate-100 border-r border-slate-200 p-6 h-screen overflow-y-auto fixed left-0 top-0 z-40 transform transition-transform -translate-x-full lg:translate-x-0">
+  <div class="flex items-center justify-between mb-6">
+    <img src="../public/img/Logo.png" alt="Jemmsa Logo" class="w-36 object-contain">
+    <button aria-label="Cerrar menú" class="inline-flex items-center justify-center w-9 h-9 rounded-md border border-slate-300 text-slate-700 hover:bg-slate-200 lg:hidden" onclick="(function(){const s=document.getElementById('sidebar-nav'); if(s){s.classList.add('-translate-x-full'); s.classList.remove('translate-x-0'); const b=document.getElementById('nav-backdrop'); if(b){b.classList.add('hidden');}}})()">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="w-5 h-5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+  </div>
+
   <div class="space-y-3">
     <a href="./index.html" class="block px-4 py-2 rounded-md text-slate-900 font-medium hover:bg-slate-200 transition-colors">
       Inicio

@@ -10,14 +10,14 @@
   <div id="navbar-container"></div>
   <div id="header-container"></div>
 
-  <main class="ml-64 px-8 py-16">
+  <main class="lg:ml-64 px-4 sm:px-6 lg:px-8 py-10 sm:py-12 lg:py-16">
     <div class="max-w-7xl mx-auto">
       <!-- Hero Section -->
       <section class="mb-16">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div class="space-y-6">
             <p class="text-sm uppercase tracking-widest text-blue-600 font-semibold">Sillas de diseño</p>
-            <h1 class="text-4xl md:text-5xl font-bold text-slate-900 leading-tight">Bienvenido a Jemmsa</h1>
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-900 leading-tight">Bienvenido a Jemmsa</h1>
             <p class="text-lg text-slate-600 leading-relaxed">
               Sitio estático sin base de datos. Explora nuestro catálogo de sillas cómodas y modernas listo para publicar en Hostinger.
             </p>
@@ -95,24 +95,6 @@
 
   <div id="footer-container"></div>
 
-  <script>
-    // Load reusable components
-    async function loadComponent(containerId, componentPath) {
-      try {
-        const response = await fetch(componentPath);
-        const content = await response.text();
-        document.getElementById(containerId).innerHTML = content;
-      } catch (error) {
-        console.error(`Error loading component from ${componentPath}:`, error);
-      }
-    }
-
-    // Load header, navbar, and footer on page load
-    document.addEventListener('DOMContentLoaded', function() {
-      loadComponent('header-container', '../src/header.html');
-      loadComponent('navbar-container', '../src/navbar.html');
-      loadComponent('footer-container', '../src/footer.html');
-    });
-  </script>
+  <script src="../public/js/site.js"></script>
 </body>
 </html>
