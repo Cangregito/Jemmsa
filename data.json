@@ -3151,12 +3151,20 @@
           { "id": "pedestal300-bl", "name": "PEDESTAL300-BL", "comercial_name": "Mesas PEDESTAL300-BL", "material": "Pendiente especificaciones", "description": "Mesa PEDESTAL300-BL. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "PEDESTAL300-BL", "link": "/catalogo?categoria=mesas&familia=pedestal300" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
         ]
       },
-      "oslo-russ": {
-        "id": "oslo-russ",
-        "name": "OSLO/RUSS",
-        "description": "Familia OSLO/RUSS de mesas.",
+      "oslo": {
+        "id": "oslo",
+        "name": "OSLO",
+        "description": "Familia OSLO de mesas.",
         "products": [
-          { "id": "oslo-russ-base", "name": "OSLO/RUSS", "comercial_name": "Mesas OSLO/RUSS", "material": "Pendiente especificaciones", "description": "Mesa OSLO/RUSS. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "OSLO/RUSS", "link": "/catalogo?categoria=mesas&familia=oslo-russ" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
+          { "id": "oslo-base", "name": "OSLO", "comercial_name": "Mesas OSLO", "material": "Pendiente especificaciones", "description": "Mesa OSLO. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "OSLO", "link": "/catalogo?categoria=mesas&familia=oslo" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
+        ]
+      },
+      "russ": {
+        "id": "russ",
+        "name": "RUSS",
+        "description": "Familia RUSS de mesas.",
+        "products": [
+          { "id": "russ-base", "name": "RUSS", "comercial_name": "Mesas RUSS", "material": "Pendiente especificaciones", "description": "Mesa RUSS. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "RUSS", "link": "/catalogo?categoria=mesas&familia=russ" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
         ]
       },
       "oulu": {
@@ -3164,15 +3172,19 @@
         "name": "OULU",
         "description": "Familia OULU de mesas.",
         "products": [
-          { "id": "oulu-base", "name": "OULU", "comercial_name": "Mesas OULU", "material": "Pendiente especificaciones", "description": "Mesa OULU. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "OULU", "link": "/catalogo?categoria=mesas&familia=oulu" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
+          { "id": "ohm-7167-dt", "name": "OHM-7167-DT", "comercial_name": "Mesas OULU OHM-7167-DT", "material": "Pendiente especificaciones", "description": "Mesa OULU modelo OHM-7167-DT. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "OULU", "link": "/catalogo?categoria=mesas&familia=oulu" }, { "label": "OHM-7167-DT", "link": "#" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" },
+          { "id": "ohm-7167-lt", "name": "OHM-7167-LT", "comercial_name": "Mesas OULU OHM-7167-LT", "material": "Pendiente especificaciones", "description": "Mesa OULU modelo OHM-7167-LT. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "OULU", "link": "/catalogo?categoria=mesas&familia=oulu" }, { "label": "OHM-7167-LT", "link": "#" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" },
+          { "id": "ohm-7167-bt", "name": "OHM-7167-BT", "comercial_name": "Mesas OULU OHM-7167-BT", "material": "Pendiente especificaciones", "description": "Mesa OULU modelo OHM-7167-BT. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "OULU", "link": "/catalogo?categoria=mesas&familia=oulu" }, { "label": "OHM-7167-BT", "link": "#" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
         ]
       },
       "heron": {
         "id": "heron",
-        "name": "HERON",
-        "description": "Familia HERON de mesas.",
+        "name": "HERON-MESAS",
+        "description": "Familia HERON-MESAS de mesas.",
         "products": [
-          { "id": "heron-base", "name": "HERON", "comercial_name": "Mesas HERON", "material": "Pendiente especificaciones", "description": "Mesa HERON. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "HERON", "link": "/catalogo?categoria=mesas&familia=heron" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
+          { "id": "ohm-7168b-dt", "name": "OHM-7168B-DT", "comercial_name": "Mesas HERON-MESAS OHM-7168B-DT", "material": "Pendiente especificaciones", "description": "Mesa HERON-MESAS modelo OHM-7168B-DT. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "HERON-MESAS", "link": "/catalogo?categoria=mesas&familia=heron" }, { "label": "OHM-7168B-DT", "link": "#" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" },
+          { "id": "ohm-7168b-lt", "name": "OHM-7168B-LT", "comercial_name": "Mesas HERON-MESAS OHM-7168B-LT", "material": "Pendiente especificaciones", "description": "Mesa HERON-MESAS modelo OHM-7168B-LT. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "HERON-MESAS", "link": "/catalogo?categoria=mesas&familia=heron" }, { "label": "OHM-7168B-LT", "link": "#" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" },
+          { "id": "ohm-7168b-bt", "name": "OHM-7168B-BT", "comercial_name": "Mesas HERON-MESAS OHM-7168B-BT", "material": "Pendiente especificaciones", "description": "Mesa HERON-MESAS modelo OHM-7168B-BT. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "MESAS", "link": "/catalogo?categoria=mesas" }, { "label": "HERON-MESAS", "link": "/catalogo?categoria=mesas&familia=heron" }, { "label": "OHM-7168B-BT", "link": "#" }], "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" }
         ]
       }
     },
