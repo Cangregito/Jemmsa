@@ -588,34 +588,7 @@
     });
   </script>
 
-  <!-- Theme Toggle Script -->
-  <script>
-    const html = document.documentElement;
-    const toggle = document.getElementById('themeToggle');
-    const sun = document.getElementById('sun');
-    const moon = document.getElementById('moon');
-
-    // Check saved theme or system preference
-    const savedTheme = localStorage.getItem('theme');
-    const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const isDark = savedTheme ? savedTheme === 'dark' : systemDark;
-
-    if (isDark) {
-      html.classList.add('dark');
-    }
-
-    // Toggle theme
-    toggle?.addEventListener('click', () => {
-      const isDarkMode = html.classList.toggle('dark');
-      localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
-    });
-
-    // Listen for system changes
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-      if (!localStorage.getItem('theme')) {
-        if (e.matches) {
-          html.classList.add('dark');
-        } else {
-          html.classList.remove('dark')
+  <!-- Load navbar and footer from components -->
+  <script src="../public/js/site.js"></script>
 </body>
 </html>
