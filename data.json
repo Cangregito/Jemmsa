@@ -3333,16 +3333,51 @@
           {
             "id": "ohp-2100",
             "name": "OHP-2100",
-            "comercial_name": "Escolar BLOW OHP-2100",
-            "material": "Pendiente especificaciones",
-            "description": "Silla escolar BLOW modelo OHP-2100. Información detallada pendiente.",
+            "comercial_name": "Escolar OHP-2100",
+            "material": "Polipropileno de alta densidad",
+            "description": "Silla escolar BLOW modelo OHP-2100. Base giratoria de 360° con rodajas tipo dual, monocasco con ventilación y soporte lumbar, paleta giratoria con porta iPad y portavasos.",
             "specifications": {
+              "base": "Giratoria de 360° en polipropileno reciclable de alta densidad PP5 inerte, inocuo, resistente a sustancias corrosivas y calor de grado alimenticio, rodajas tipo dual",
+              "respaldo_asiento_brazos": "Monocasco en polipropileno de alta densidad reticulado con ventilación y soporte lumbar",
+              "colores": "Azul, naranja, verde, gris o negro",
+              "paleta": "Giratoria de 360° en poliamida termoplástica, porta iPad o lapicera en elastómero termoplástico flexible, portavasos giratorio en polipropileno de alta densidad, brazo en acero tubular redondo calibre 14; color gris",
+              "resistencia": "Peso sugerido 130 kgs",
+              "referencia": "BIFMA",
               "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "recursos": {
+              "instructivo": {
+                "nombre": "Instructivo BLOW",
+                "archivo": "INSTRUCTIVO-BLOW.pdf"
+              },
+              "fotos": {
+                "nombre": "Fotos OHP-2100",
+                "archivo": "ImagenesOHP-2100.pdf"
+              },
+              "ficha_tecnica": {
+                "nombre": "Ficha Técnica OHP-2100",
+                "archivo": "OHP-2100FT.jpg"
+              },
+              "modelados_3d": [
+                {
+                  "tipo": "DWG",
+                  "archivo": "OHP-2100DWG.dwg"
+                },
+                {
+                  "tipo": "OBJ",
+                  "archivo": "OHP-2100OBJ.obj"
+                }
+              ],
+              "videos": [
+                {
+                  "nombre": "BLOW funcionalidad",
+                  "archivo": "BLOW-funcionalidad.mp4"
+                }
+              ]
             },
             "breadcrumb": [
               { "label": "Home", "link": "/" },
               { "label": "ESCOLAR", "link": "/catalogo?categoria=escolar" },
-              { "label": "BLOW", "link": "/catalogo?categoria=escolar&familia=blow" },
               { "label": "OHP-2100", "link": "#" }
             ],
             "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
