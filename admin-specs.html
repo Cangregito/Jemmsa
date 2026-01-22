@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Completar Especificaciones | Jemmsa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'brand-primary': '#1FA3D6',
+            'brand-accent': '#C62828',
+            'brand-warning': '#F4E300',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+  
+  <div class="max-w-7xl mx-auto p-6">
+    <!-- Header -->
+    <header class="bg-white rounded-lg shadow-sm p-6 mb-6">
+      <h1 class="text-3xl font-bold text-gray-900">📝 Admin - Completar Especificaciones</h1>
+      <p class="text-gray-600 mt-2">Herramienta provisional para completar especificaciones de productos</p>
+      <div class="mt-4 flex gap-4">
+        <button onclick="loadJSON()" class="px-4 py-2 bg-brand-primary text-white rounded-lg hover:bg-blue-600 transition">
+          📂 Cargar data.json
+        </button>
+        <button onclick="exportJSON()" class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition">
+          💾 Exportar JSON actualizado
+        </button>
+        <button onclick="copyToClipboard()" class="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition">
+          📋 Copiar al portapapeles
+        </button>
+      </div>
+    </header>
+
+    <!-- Stats -->
+    <div class="grid md:grid-cols-4 gap-4 mb-6">
+      <div class="bg-white rounded-lg shadow-sm p-6">
+        <div class="text-sm text-gray-600">Total Productos</div>
+        <div id="stat-total" class="text-3xl font-bold text-gray-900">0</div>
+      </div>
+      <div class="bg-white rounded-lg shadow-sm p-6">
+        <div class="text-sm text-gray-600">Sin Especificaciones</div>
+        <div id="stat-missing" class="text-3xl font-bold text-red-600">0</div>
+      </div>
+      <div class="bg-white rounded-lg shadow-sm p-6">
+        <div class="text-sm text-gray-600">Completados</div>
+        <div id="stat-completed" class="text-3xl font-bold text-green-600">0</div>
+      </div>
+      <div class="bg-white rounded-lg shadow-sm p-6">
+        <div class="text-sm text-gray-600">Progreso</div>
+        <div id="stat-progress" class="text-3xl font-bold text-brand-primary">0%</div>
+      </div>
+    </div>
+
+    <!-- Upload Zone -->
+    <div id="upload-zone" class="bg-white rounded-lg shadow-sm p-12 mb-6 text-center border-2 border-dashed border-gray-300">
+      <svg class="mx-auto h-12 w-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
+      </svg>
+      <p class="mt-2 text-lg text-gray-600">Arrastra tu archivo <strong>data.json</strong> aquí</p>
+      <p class="text-sm text-gray-500 mt-1">o haz clic en "Cargar data.json"</p>
+      <input type="file" id="file-input" accept=".json" class="hidden" />
+    </div>
+
+    <!-- Products List -->
+    <div id="products-container" class="space-y-4 hidden">
+      <div class="bg-white rounded-lg shadow-sm p-4">
+        <div class="flex items-center justify-between mb-4">
+          <h2 class="text-xl font-bold text-gray-900">Productos sin especificaciones</h2>
+          <div class="flex gap-2">
+            <select id="filter-category" class="px-3 py-2 border border-gray-300 rounded-lg text-sm">
+              <option value="">Todas las categorías</option>
+            </select>
+          </div>
+        </div>
+        <div id="products-list" class="space-y-3">
+          <!-- Products will be loaded here -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Edit Modal -->
+    <div id="edit-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+      <div class="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto p-6">
+        <div class="flex items-center justify-between mb-4">
+          <h3 id="modal-title" class="text-2xl font-bold text-gray-900">Editar Producto</h3>
+          <button onclick="closeModal()" class="text-gray-400 hover:text-gray-600 text-2xl">&times;</button>
+        </div>
+        
+        <div id="modal-content" class="space-y-4">
+          <!-- Form will be loaded here -->
+        </div>
+        
+        <div class="flex gap-3 mt-6">
+          <button onclick="saveProduct()" class="flex-1 px-6 py-3 bg-brand-primary text-white rounded-lg hover:bg-blue-600 font-semibold transition">
+            💾 Guardar
+          </button>
+          <button onclick="closeModal()" class="px-6 py-3 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition">
+            Cancelar
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    let data = null;
+    let currentProduct = null;
+    let productsWithoutSpecs = [];
+
+    // Load JSON
+    function loadJSON() {
+      document.getElementById('file-input').click();
+    }
+
+    document.getElementById('file-input').addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = (event) => {
+          try {
+            data = JSON.parse(event.target.result);
+            analyzeData();
+            document.getElementById('upload-zone').classList.add('hidden');
+            document.getElementById('products-container').classList.remove('hidden');
+          } catch (error) {
+            alert('Error al cargar el JSON: ' + error.message);
+          }
+        };
+        reader.readAsText(file);
+      }
+    });
+
+    // Drag & Drop
+    const uploadZone = document.getElementById('upload-zone');
+    uploadZone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      uploadZone.classList.add('border-brand-primary', 'bg-blue-50');
+    });
+    uploadZone.addEventListener('dragleave', () => {
+      uploadZone.classList.remove('border-brand-primary', 'bg-blue-50');
+    });
+    uploadZone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      uploadZone.classList.remove('border-brand-primary', 'bg-blue-50');
+      const file = e.dataTransfer.files[0];
+      if (file && file.type === 'application/json') {
+        const reader = new FileReader();
+        reader.onload = (event) => {
+          try {
+            data = JSON.parse(event.target.result);
+            analyzeData();
+            uploadZone.classList.add('hidden');
+            document.getElementById('products-container').classList.remove('hidden');
+          } catch (error) {
+            alert('Error al cargar el JSON: ' + error.message);
+          }
+        };
+        reader.readAsText(file);
+      }
+    });
+
+    // Analyze data
+    function analyzeData() {
+      productsWithoutSpecs = [];
+      let totalProducts = 0;
+
+      Object.keys(data.products).forEach(categoryId => {
+        const category = data.products[categoryId];
+        Object.keys(category).forEach(familyId => {
+          const family = category[familyId];
+          
+          // Handle different structures
+          if (family.products) {
+            family.products.forEach(product => {
+              totalProducts++;
+              const specCount = product.specifications ? Object.keys(product.specifications).length : 0;
+              if (specCount < 3) {
+                productsWithoutSpecs.push({
+                  categoryId,
+                  familyId,
+                  product,
+                  categoryName: data.categories.find(c => c.id === categoryId)?.name || categoryId,
+                  familyName: family.name || familyId
+                });
+              }
+            });
+          } else if (family.subfamilies) {
+            Object.keys(family.subfamilies).forEach(subfamilyId => {
+              const subfamily = family.subfamilies[subfamilyId];
+              if (subfamily.products) {
+                subfamily.products.forEach(product => {
+                  totalProducts++;
+                  const specCount = product.specifications ? Object.keys(product.specifications).length : 0;
+                  if (specCount < 3) {
+                    productsWithoutSpecs.push({
+                      categoryId,
+                      familyId,
+                      subfamilyId,
+                      product,
+                      categoryName: data.categories.find(c => c.id === categoryId)?.name || categoryId,
+                      familyName: family.name || familyId,
+                      subfamilyName: subfamily.name || subfamilyId
+                    });
+                  }
+                });
+              }
+            });
+          }
+        });
+      });
+
+      updateStats(totalProducts);
+      renderProducts();
+      populateCategoryFilter();
+    }
+
+    // Update stats
+    function updateStats(total) {
+      const completed = total - productsWithoutSpecs.length;
+      const progress = Math.round((completed / total) * 100);
+      
+      document.getElementById('stat-total').textContent = total;
+      document.getElementById('stat-missing').textContent = productsWithoutSpecs.length;
+      document.getElementById('stat-completed').textContent = completed;
+      document.getElementById('stat-progress').textContent = progress + '%';
+    }
+
+    // Populate category filter
+    function populateCategoryFilter() {
+      const filter = document.getElementById('filter-category');
+      const categories = [...new Set(productsWithoutSpecs.map(p => p.categoryName))];
+      categories.forEach(cat => {
+        const option = document.createElement('option');
+        option.value = cat;
+        option.textContent = cat;
+        filter.appendChild(option);
+      });
+      filter.addEventListener('change', renderProducts);
+    }
+
+    // Render products list
+    function renderProducts() {
+      const container = document.getElementById('products-list');
+      const filter = document.getElementById('filter-category').value;
+      
+      const filtered = filter 
+        ? productsWithoutSpecs.filter(p => p.categoryName === filter)
+        : productsWithoutSpecs;
+
+      container.innerHTML = filtered.map((item, index) => `
+        <div class="border border-gray-200 rounded-lg p-4 hover:border-brand-primary transition cursor-pointer" onclick="editProduct(${productsWithoutSpecs.indexOf(item)})">
+          <div class="flex items-center justify-between">
+            <div class="flex-1">
+              <div class="text-xs text-gray-500 uppercase tracking-wide">${item.categoryName} > ${item.familyName}${item.subfamilyName ? ' > ' + item.subfamilyName : ''}</div>
+              <div class="font-semibold text-gray-900 mt-1">${item.product.name}</div>
+              <div class="text-sm text-gray-600 mt-1">${item.product.description || 'Sin descripción'}</div>
+            </div>
+            <div class="ml-4">
+              <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-red-100 text-red-800">
+                ${item.product.specifications ? Object.keys(item.product.specifications).length : 0} campos
+              </span>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Edit product
+    function editProduct(index) {
+      currentProduct = productsWithoutSpecs[index];
+      const product = currentProduct.product;
+      
+      document.getElementById('modal-title').textContent = `Editar: ${product.name}`;
+      
+      const specs = product.specifications || {};
+      
+      document.getElementById('modal-content').innerHTML = `
+        <div class="bg-gray-50 rounded-lg p-4 mb-4">
+          <div class="text-sm text-gray-600">
+            <strong>Categoría:</strong> ${currentProduct.categoryName} > ${currentProduct.familyName}${currentProduct.subfamilyName ? ' > ' + currentProduct.subfamilyName : ''}
+          </div>
+        </div>
+        
+        <div class="space-y-4">
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-2">Base</label>
+            <textarea id="spec-base" class="w-full px-3 py-2 border border-gray-300 rounded-lg" rows="2">${specs.base || ''}</textarea>
+          </div>
+          
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-2">Elevación / Pistón</label>
+            <textarea id="spec-elevacion" class="w-full px-3 py-2 border border-gray-300 rounded-lg" rows="2">${specs.elevacion || ''}</textarea>
+          </div>
+          
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-2">Mecanismo</label>
+            <textarea id="spec-mecanismo" class="w-full px-3 py-2 border border-gray-300 rounded-lg" rows="2">${specs.mecanismo || ''}</textarea>
+          </div>
+          
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-2">Brazos</label>
+            <textarea id="spec-brazos" class="w-full px-3 py-2 border border-gray-300 rounded-lg" rows="2">${specs.brazos || ''}</textarea>
+          </div>
+          
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-2">Respaldo / Asiento</label>
+            <textarea id="spec-respaldo" class="w-full px-3 py-2 border border-gray-300 rounded-lg" rows="2">${specs.respaldo || specs.asiento || ''}</textarea>
+          </div>
+          
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-2">Tapiz / Material</label>
+            <textarea id="spec-tapiz" class="w-full px-3 py-2 border border-gray-300 rounded-lg" rows="2">${specs.tapiz || specs.material || ''}</textarea>
+          </div>
+          
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-2">Capacidad de carga</label>
+            <input type="text" id="spec-capacidad" class="w-full px-3 py-2 border border-gray-300 rounded-lg" value="${specs.capacidad || ''}" placeholder="Ej: Hasta 120 kg" />
+          </div>
+          
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-2">Dimensiones</label>
+            <textarea id="spec-dimensiones" class="w-full px-3 py-2 border border-gray-300 rounded-lg" rows="2">${specs.dimensiones || ''}</textarea>
+          </div>
+          
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-2">Nota adicional</label>
+            <textarea id="spec-nota" class="w-full px-3 py-2 border border-gray-300 rounded-lg" rows="2">${specs.nota || ''}</textarea>
+          </div>
+        </div>
+      `;
+      
+      document.getElementById('edit-modal').classList.remove('hidden');
+    }
+
+    // Save product
+    function saveProduct() {
+      const specs = {
+        base: document.getElementById('spec-base').value.trim(),
+        elevacion: document.getElementById('spec-elevacion').value.trim(),
+        mecanismo: document.getElementById('spec-mecanismo').value.trim(),
+        brazos: document.getElementById('spec-brazos').value.trim(),
+        respaldo: document.getElementById('spec-respaldo').value.trim(),
+        tapiz: document.getElementById('spec-tapiz').value.trim(),
+        capacidad: document.getElementById('spec-capacidad').value.trim(),
+        dimensiones: document.getElementById('spec-dimensiones').value.trim(),
+        nota: document.getElementById('spec-nota').value.trim()
+      };
+      
+      // Remove empty fields
+      Object.keys(specs).forEach(key => {
+        if (!specs[key]) delete specs[key];
+      });
+      
+      // Update product in data
+      currentProduct.product.specifications = specs;
+      
+      // Re-analyze
+      analyzeData();
+      
+      closeModal();
+      
+      alert('✅ Producto actualizado. Recuerda exportar el JSON cuando termines.');
+    }
+
+    // Close modal
+    function closeModal() {
+      document.getElementById('edit-modal').classList.add('hidden');
+      currentProduct = null;
+    }
+
+    // Export JSON
+    function exportJSON() {
+      if (!data) return alert('No hay datos cargados');
+      
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'data-updated.json';
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    // Copy to clipboard
+    function copyToClipboard() {
+      if (!data) return alert('No hay datos cargados');
+      
+      navigator.clipboard.writeText(JSON.stringify(data, null, 2))
+        .then(() => alert('✅ JSON copiado al portapapeles'))
+        .catch(err => alert('Error al copiar: ' + err));
+    }
+  </script>
+
+</body>
+</html>
