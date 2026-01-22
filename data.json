@@ -2520,25 +2520,189 @@
         "id": "solei",
         "name": "SOLEI",
         "description": "Familia SOLEI de sillas visitantes exterior.",
-        "products": []
+        "products": [
+          {
+            "id": "ohv-59",
+            "name": "OHV-59",
+            "comercial_name": "Visitantes Exterior OHV-59",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante exterior SOLEI modelo OHV-59. Información detallada pendiente.",
+            "specifications": { "nota": "El color puede variar dependiendo de su monitor" },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-59", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-60",
+            "name": "OHV-60",
+            "comercial_name": "Visitantes Exterior OHV-60",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante exterior SOLEI modelo OHV-60. Información detallada pendiente.",
+            "specifications": { "nota": "El color puede variar dependiendo de su monitor" },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-60", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
       "folding": {
         "id": "folding",
         "name": "FOLDING",
         "description": "Familia FOLDING de sillas visitantes exterior.",
-        "products": []
+        "products": [
+          {
+            "id": "ohv-137",
+            "name": "OHV-137",
+            "comercial_name": "Visitantes Exterior OHV-137",
+            "material": "Polipropileno inyectado de alto impacto",
+            "description": "Silla visitante exterior FOLDING modelo OHV-137. Diseño PLEGABLE de polipropileno inyectado de alto impacto y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+            "specifications": {
+              "piezas": "Respaldo, asiento y patas de diseño PLEGABLE en polipropileno inyectado de alto impacto y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+              "colores": "Blanco, Negro, Gris",
+              "capacidad": "Peso sugerido 130 kg",
+              "referencia": "BIFMA",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "recursos": {
+              "fotos": {
+                "nombre": "Fotos OHV-137",
+                "archivo": "ImagenesOHV-137.pdf"
+              },
+              "ficha_tecnica": {
+                "nombre": "Ficha Técnica OHV-137",
+                "archivo": "OHV-137FT.pdf"
+              },
+              "modelados_3d": [
+                {
+                  "tipo": "DWG",
+                  "archivo": "FOLDING_DWG.dwg"
+                },
+                {
+                  "tipo": "OBJ",
+                  "archivo": "FOLDING_OBJ.obj"
+                },
+                {
+                  "tipo": "SKP",
+                  "archivo": "FOLDING_SKP.skp"
+                }
+              ]
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-137", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
       "teksi": {
         "id": "teksi",
         "name": "TEKSI",
         "description": "Familia TEKSI de sillas visitantes exterior.",
-        "products": []
+        "products": [
+          {
+            "id": "ohv-19",
+            "name": "OHV-19",
+            "comercial_name": "Visitantes Exterior OHV-19",
+            "material": "Polipropileno de alta resistencia",
+            "description": "Silla visitante exterior TEKSI modelo OHV-19. Respaldo, asiento y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+            "specifications": {
+              "piezas": "Respaldo, asiento y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+              "colores": "Negro, Blanco, Tabaco, Agave",
+              "capacidad": "Peso sugerido 130 kg",
+              "referencia": "BIFMA",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "recursos": {
+              "fotos": {
+                "nombre": "Fotos OHV-19",
+                "archivo": "ImagenesOHV-19.pdf"
+              },
+              "ficha_tecnica": {
+                "nombre": "Ficha Técnica OHV-19",
+                "archivo": "OHV-19FT.pdf"
+              },
+              "modelados_3d": [
+                {
+                  "tipo": "DWG",
+                  "archivo": "TEKSI_DWG.dwg"
+                },
+                {
+                  "tipo": "OBJ",
+                  "archivo": "TEKSI_OBJ.obj"
+                },
+                {
+                  "tipo": "SKP",
+                  "archivo": "TEKSI_SKP.skp"
+                }
+              ]
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-19", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
       "kipali": {
         "id": "kipali",
         "name": "KIPALI",
         "description": "Familia KIPALI de sillas visitantes exterior.",
-        "products": []
+        "products": [
+          {
+            "id": "ohv-18",
+            "name": "OHV-18",
+            "comercial_name": "Visitantes Exterior OHV-18",
+            "material": "Polipropileno de alta resistencia",
+            "description": "Silla visitante exterior KIPALI modelo OHV-18. Respaldo, asiento y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+            "specifications": {
+              "piezas": "Respaldo, asiento y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+              "colores": "Negro, Blanco, Capuccino, Azul, Rojo",
+              "capacidad": "Peso sugerido 130 kg",
+              "referencia": "BIFMA",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "recursos": {
+              "fotos": {
+                "nombre": "Fotos OHV-18",
+                "archivo": "ImagenesOHV-18.pdf"
+              },
+              "ficha_tecnica": {
+                "nombre": "Ficha Técnica OHV-18",
+                "archivo": "OHV-18FT.pdf"
+              },
+              "modelados_3d": [
+                {
+                  "tipo": "DWG",
+                  "archivo": "KIPALI_DWG.dwg"
+                },
+                {
+                  "tipo": "OBJ",
+                  "archivo": "KIPALI_OBJ.obj"
+                },
+                {
+                  "tipo": "SKP",
+                  "archivo": "KIPALI_SKP.skp"
+                }
+              ]
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-18", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
       "naples": {
         "id": "naples",
