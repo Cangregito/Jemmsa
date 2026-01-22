@@ -1700,10 +1700,12 @@
     function getProductDefaults(product) {
       return {
         name: product.name || 'Producto sin nombre',
+        comercial_name: product.comercial_name || product.name || 'Producto sin nombre',
         material: product.material || 'Material no especificado',
         description: product.description || 'Descripción no disponible',
         image: product.image || 'https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop',
-        specifications: product.specifications || { nota: 'Especificaciones pendientes' }
+        specifications: product.specifications || { nota: 'Especificaciones pendientes' },
+        recursos: product.recursos || null
       };
     }
 
@@ -1711,10 +1713,82 @@
       const prod = getProductDefaults(product);
       const modal = document.createElement('div');
       modal.className = 'fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4';
+      
+      let recursosHTML = '';
+      if (prod.recursos) {
+        recursosHTML = `
+          <div class="space-y-3 border-t border-slate-200 pt-4">
+            <h3 class="text-lg font-semibold">Recursos disponibles</h3>
+            <div class="space-y-2">
+        `;
+        
+        if (prod.recursos.instructivo) {
+          recursosHTML += `
+            <button class="block w-full text-left px-3 py-2 rounded bg-blue-50 hover:bg-blue-100 text-blue-700 text-sm">
+              📄 Instructivo: ${prod.recursos.instructivo.archivo}
+            </button>
+          `;
+        }
+        
+        if (prod.recursos.fotos) {
+          recursosHTML += `
+            <button class="block w-full text-left px-3 py-2 rounded bg-green-50 hover:bg-green-100 text-green-700 text-sm">
+              📸 Fotos: ${prod.recursos.fotos.archivo}
+            </button>
+          `;
+        }
+        
+        if (prod.recursos.ficha_tecnica) {
+          recursosHTML += `
+            <button class="block w-full text-left px-3 py-2 rounded bg-purple-50 hover:bg-purple-100 text-purple-700 text-sm">
+              📋 Ficha Técnica: ${prod.recursos.ficha_tecnica.archivo}
+            </button>
+          `;
+        }
+        
+        if (prod.recursos.modelados_3d && prod.recursos.modelados_3d.length > 0) {
+          recursosHTML += `
+            <div class="px-3 py-2 rounded bg-orange-50 text-orange-700 text-sm">
+              <strong>📦 Modelados 3D:</strong>
+              <ul class="mt-1 space-y-1">
+          `;
+          prod.recursos.modelados_3d.forEach(modelo => {
+            recursosHTML += `<li class="hover:text-orange-900 cursor-pointer">• ${modelo.tipo}: ${modelo.archivo}</li>`;
+          });
+          recursosHTML += `
+              </ul>
+            </div>
+          `;
+        }
+        
+        if (prod.recursos.videos && prod.recursos.videos.length > 0) {
+          recursosHTML += `
+            <div class="px-3 py-2 rounded bg-red-50 text-red-700 text-sm">
+              <strong>🎥 Videos:</strong>
+              <ul class="mt-1 space-y-1">
+          `;
+          prod.recursos.videos.forEach(video => {
+            recursosHTML += `<li class="hover:text-red-900 cursor-pointer">• ${video.nombre}: ${video.archivo}</li>`;
+          });
+          recursosHTML += `
+              </ul>
+            </div>
+          `;
+        }
+        
+        recursosHTML += `
+            </div>
+          </div>
+        `;
+      }
+      
       modal.innerHTML = `
         <div class="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto">
           <div class="sticky top-0 bg-white border-b border-slate-200 p-4 flex justify-between items-center">
-            <h2 class="text-2xl font-bold">${prod.name}</h2>
+            <div>
+              <h2 class="text-2xl font-bold">${prod.comercial_name}</h2>
+              ${prod.comercial_name !== prod.name ? `<p class="text-sm text-slate-500">${prod.name}</p>` : ''}
+            </div>
             <button class="text-slate-500 hover:text-slate-700 text-2xl">&times;</button>
           </div>
           <div class="p-6 space-y-4">
@@ -1731,6 +1805,7 @@
                 </ul>
               </div>
             ` : ''}
+            ${recursosHTML}
           </div>
         </div>
       `;
