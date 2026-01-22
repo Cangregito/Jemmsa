@@ -3427,22 +3427,8 @@
         "name": "ALPHA",
         "description": "Familia ALPHA de sillas escolares.",
         "products": [
-          {
-            "id": "alpha-base",
-            "name": "ALPHA",
-            "comercial_name": "Escolar ALPHA",
-            "material": "Pendiente especificaciones",
-            "description": "Silla escolar ALPHA. Información detallada pendiente.",
-            "specifications": {
-              "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "breadcrumb": [
-              { "label": "Home", "link": "/" },
-              { "label": "ESCOLAR", "link": "/catalogo?categoria=escolar" },
-              { "label": "ALPHA", "link": "#" }
-            ],
-            "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
-          }
+          { "id": "ohp-102", "name": "OHP-102", "comercial_name": "Escolar ALPHA OHP-102", "material": "Pendiente especificaciones", "description": "Silla escolar ALPHA modelo OHP-102. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "ESCOLAR", "link": "/catalogo?categoria=escolar" }, { "label": "ALPHA", "link": "/catalogo?categoria=escolar&familia=alpha" }, { "label": "OHP-102", "link": "#" }], "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop" },
+          { "id": "ohp-107", "name": "OHP-107", "comercial_name": "Escolar ALPHA OHP-107", "material": "Pendiente especificaciones", "description": "Silla escolar ALPHA modelo OHP-107. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "ESCOLAR", "link": "/catalogo?categoria=escolar" }, { "label": "ALPHA", "link": "/catalogo?categoria=escolar&familia=alpha" }, { "label": "OHP-107", "link": "#" }], "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop" }
         ]
       },
       "ellitico-collection": {
