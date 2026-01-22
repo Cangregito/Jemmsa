@@ -158,34 +158,41 @@ function renderBreadcrumb(breadcrumb) {
   }).join('');
 }
 
-// Renderizar insignias
+// Renderizar insignias circulares
 function renderBadges(product) {
   const container = document.getElementById('badges-container');
   const badges = [];
   
+  // Badge de garantía (siempre visible, ejemplo: 5 años)
+  badges.push(`
+    <div class="badge-circular" style="background-color: white; border-color: #E91E63; color: #E91E63;">
+      <div style="font-size: 0.65rem; line-height: 1;">GARANTÍA</div>
+      <div style="font-size: 1.5rem; font-weight: 700; line-height: 1;">5</div>
+      <div style="font-size: 0.65rem; line-height: 1;">AÑOS</div>
+    </div>
+  `);
+  
   // Protección UV (si está en el material)
   if (product.material && /UV|ultravioleta/i.test(product.material)) {
     badges.push(`
-      <span class="badge" style="background-color: rgba(244, 227, 0, 0.15); color: #B8A000;">
-        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+      <div class="badge-circular" style="background-color: #F4E300; border-color: #F4E300; color: white;">
+        <svg style="width: 32px; height: 32px; margin-bottom: 4px;" fill="currentColor" viewBox="0 0 20 20">
           <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"/>
         </svg>
-        Protección UV
-      </span>
+        <div style="font-size: 0.65rem;">PROTECCIÓN<br>UV</div>
+      </div>
     `);
   }
   
-  // Certificación
-  if (product.specifications?.referencia) {
-    badges.push(`
-      <span class="badge" style="background-color: rgba(31, 163, 214, 0.15); color: #1FA3D6;">
-        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-          <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-        </svg>
-        ${product.specifications.referencia}
-      </span>
-    `);
-  }
+  // Badge de envío rápido (48hrs)
+  badges.push(`
+    <div class="badge-circular" style="background-color: white; border-color: #E91E63; color: #E91E63;">
+      <svg style="width: 32px; height: 32px; margin-bottom: 4px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+      </svg>
+      <div style="font-size: 1.25rem; font-weight: 700; line-height: 1;">48hrs</div>
+    </div>
+  `);
   
   container.innerHTML = badges.join('');
 }
