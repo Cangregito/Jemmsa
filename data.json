@@ -2286,7 +2286,37 @@
         "id": "tototo",
         "name": "TOTOTO",
         "description": "Familia TOTOTO de sillas visitantes exterior.",
-        "products": []
+        "products": [
+          {
+            "id": "ohv-71",
+            "name": "OHV-71",
+            "comercial_name": "Visitantes Exterior OHV-71",
+            "material": "Polipropileno de alta resistencia",
+            "description": "Silla visitante exterior TOTOTO modelo OHV-71. Asiento, respaldo y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+            "specifications": {
+              "piezas": "Asiento, respaldo y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+              "capacidad": "Peso sugerido 110 kg",
+              "nota_fabricacion": "CATAS Rojo Made In Italy",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "recursos": {
+              "fotos": {
+                "nombre": "Fotos OHV-71",
+                "archivo": "ImagenesOHV-71.pdf"
+              },
+              "ficha_tecnica": {
+                "nombre": "Ficha Técnica OHV-71",
+                "archivo": "OHV-71FT.jpg"
+              }
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-71", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
       "rue": {
         "id": "rue",
