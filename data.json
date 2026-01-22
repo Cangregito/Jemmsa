@@ -3110,6 +3110,24 @@
         "description": "Familia INNOVA de bancas.",
         "products": [
           {
+            "id": "ohr-2700-2p",
+            "name": "OHR-2700-2P",
+            "comercial_name": "Banca INNOVA OHR-2700-2P",
+            "material": "Pendiente especificaciones",
+            "description": "Banca INNOVA modelo OHR-2700-2P. Información detallada pendiente.",
+            "specifications": {
+              "plazas": "2 plazas",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "BANCAS", "link": "/catalogo?categoria=bancas" },
+              { "label": "INNOVA", "link": "/catalogo?categoria=bancas&familia=innova" },
+              { "label": "OHR-2700-2P", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+          },
+          {
             "id": "ohr-2700-3p",
             "name": "OHR-2700-3P",
             "comercial_name": "Banca INNOVA OHR-2700-3P",
@@ -3122,7 +3140,44 @@
             "breadcrumb": [
               { "label": "Home", "link": "/" },
               { "label": "BANCAS", "link": "/catalogo?categoria=bancas" },
+              { "label": "INNOVA", "link": "/catalogo?categoria=bancas&familia=innova" },
               { "label": "OHR-2700-3P", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohr-2700-4p",
+            "name": "OHR-2700-4P",
+            "comercial_name": "Banca INNOVA OHR-2700-4P",
+            "material": "Pendiente especificaciones",
+            "description": "Banca INNOVA modelo OHR-2700-4P. Información detallada pendiente.",
+            "specifications": {
+              "plazas": "4 plazas",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "BANCAS", "link": "/catalogo?categoria=bancas" },
+              { "label": "INNOVA", "link": "/catalogo?categoria=bancas&familia=innova" },
+              { "label": "OHR-2700-4P", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohr-2700-5p",
+            "name": "OHR-2700-5P",
+            "comercial_name": "Banca INNOVA OHR-2700-5P",
+            "material": "Pendiente especificaciones",
+            "description": "Banca INNOVA modelo OHR-2700-5P. Información detallada pendiente.",
+            "specifications": {
+              "plazas": "5 plazas",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "BANCAS", "link": "/catalogo?categoria=bancas" },
+              { "label": "INNOVA", "link": "/catalogo?categoria=bancas&familia=innova" },
+              { "label": "OHR-2700-5P", "link": "#" }
             ],
             "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
           }
