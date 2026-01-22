@@ -2238,28 +2238,7 @@
             "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
           }
         ]
-      },
-      "families": [
-        { "id": "plus", "name": "PLUS", "url": "/visitantes-exterior/visitantes-exterior-plus-modelo-OHV-73", "type": "modelo" },
-        { "id": "tototo", "name": "TOTOTO", "url": "/visitantes-exterior/visitantes-exterior-tototo-modelo-OHV-71", "type": "modelo" },
-        { "id": "rue", "name": "RUE", "url": "/visitantes-exterior/rue/", "type": "familia" },
-        { "id": "sensilla", "name": "SENSILLA", "url": "/visitantes-exterior/sensilla/", "type": "familia" },
-        { "id": "alissa", "name": "ALISSA", "url": "/visitantes-exterior/visitantes-exterior-alissa-modelo-OHV-91", "type": "modelo" },
-        { "id": "lavie", "name": "LaVie", "url": "/visitantes-exterior/visitantes-exterior-lavie-modelo-OHV-7201", "type": "modelo" },
-        { "id": "koppla", "name": "KOPPLA", "url": "/visitantes-exterior/visitantes-exterior-koppla-modelo-OHV-93", "type": "modelo" },
-        { "id": "solei", "name": "SOLEI", "url": "/visitantes-exterior/solei/", "type": "familia" },
-        { "id": "folding", "name": "FOLDING", "url": "/visitantes-exterior/visitantes-exterior-folding-modelo-OHV-137", "type": "modelo" },
-        { "id": "teksi", "name": "TEKSI", "url": "/visitantes-exterior/visitantes-exterior-teksi-modelo-OHV-19", "type": "modelo" },
-        { "id": "kipali", "name": "KIPALI", "url": "/visitantes-exterior/visitantes-exterior-kipali-modelo-OHV-18", "type": "modelo" },
-        { "id": "naples", "name": "NAPLES", "url": "/visitantes-exterior/naples/", "type": "familia" },
-        { "id": "iris", "name": "IRIS", "url": "/visitantes-exterior/visitantes-exterior-iris-modelo-OHV-7029-DC", "type": "modelo" },
-        { "id": "grace", "name": "GRACE", "url": "/visitantes-exterior/visitantes-exterior-grace-modelo-OHV-7028", "type": "modelo" },
-        { "id": "milos", "name": "MILOS", "url": "/visitantes-exterior/milos/", "type": "familia" },
-        { "id": "milan", "name": "MILAN", "url": "/visitantes-exterior/visitantes-exterior-milan-modelo-OHV-74", "type": "modelo" },
-        { "id": "joyous", "name": "JOYOUS", "url": "/visitantes-exterior/joyous/", "type": "familia" },
-        { "id": "hawaii", "name": "HAWAII", "url": "/visitantes-exterior/visitantes-exterior-hawaii-modelo-OHV-7031", "type": "modelo" },
-        { "id": "tahiti", "name": "TAHITI", "url": "/visitantes-exterior/visitantes-exterior-tahiti-modelo-OHV-7030", "type": "modelo" }
-      ]
+      }
     },
     "mesas": {
       "mesas-1": {
