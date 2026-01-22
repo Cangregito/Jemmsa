@@ -3,48 +3,255 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Catálogo completo de mobiliario corporativo JEMMSA. Sillas ergonómicas, estaciones de trabajo y salas colaborativas de alta calidad." />
+  <meta property="og:title" content="Catálogo | JEMMSA Mobiliario Corporativo" />
+  <meta property="og:description" content="Explora nuestro catálogo de soluciones de mobiliario moderno, ergonómico y durable." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jemmsa.com/catalogo.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Catálogo | JEMMSA" />
+  <meta name="twitter:description" content="Mobiliario corporativo de alta calidad." />
   <title>Catálogo | Jemmsa</title>
+  <link rel="icon" type="image/png" href="../public/img/Logo.png" />
+  
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Catálogo JEMMSA",
+      "description": "Catálogo completo de mobiliario corporativo ergonómico y moderno",
+      "url": "https://jemmsa.com/catalogo.html",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "JEMMSA",
+        "url": "https://jemmsa.com"
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              primary: '#1FA3D6',
+              accent: '#C62828',
+              warning: '#F4E300',
+              base: '#0B0B0B',
+              soft: '#F5F5F5',
+              muted: '#8A8A8A',
+              deep: '#3A3A3A'
+            }
+          },
+          fontFamily: {
+            display: ['"Space Grotesk"', 'system-ui', 'sans-serif'],
+            body: ['Inter', 'system-ui', 'sans-serif']
+          },
+          boxShadow: {
+            card: '0 10px 40px -20px rgba(31, 163, 214, 0.25)',
+            'card-strong': '0 18px 50px -20px rgba(31, 163, 214, 0.35)'
+          },
+          keyframes: {
+            'fade-in': { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
+            'slide-up': { '0%': { opacity: '0', transform: 'translateY(10px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } }
+          },
+          animation: {
+            'fade-in': 'fade-in 0.4s ease-out',
+            'slide-up': 'slide-up 0.6s ease-out'
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    :root {
+      --bg-page: #ffffff;
+      --text-main: #0B0B0B;
+    }
+    .dark {
+      --bg-page: #0B0B0B;
+      --text-main: #F5F5F5;
+    }
+    body {
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      transition: background-color 0.3s, color 0.3s;
+    }
+  </style>
 </head>
-<body class="text-slate-800 bg-white">
-  <div id="navbar-container"></div>
-  <div id="header-container"></div>
+<body class="font-body bg-[var(--bg-page)] text-[var(--text-main)]">
+  <!-- Sticky Header -->
+  <header class="sticky top-0 z-40 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 shadow-sm transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+      <a href="./index.html" class="flex items-center gap-3">
+        <img src="../public/img/Logo.png" alt="JEMMSA" class="h-10 w-auto">
+        <span class="font-display font-bold text-2xl text-brand-primary hover:text-brand-primary/90 transition-colors">JEMMSA</span>
+      </a>
+      
+      <nav class="hidden md:flex items-center gap-6">
+        <a href="./index.html" class="text-slate-700 dark:text-slate-300 hover:text-brand-primary transition-colors font-medium text-sm">Inicio</a>
+        <a href="https://ley-silla.com/index.html" target="_blank" rel="noopener" class="text-slate-700 dark:text-slate-300 hover:text-brand-primary transition-colors font-medium text-sm">Ley de la Silla</a>
+        <a href="./catalogo.html" class="text-brand-primary font-medium text-sm">Catálogo</a>
+      </nav>
+      
+      <button id="theme-toggle" class="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" title="Cambiar tema">
+        <svg class="w-5 h-5 text-brand-primary" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/></svg>
+      </button>
+    </div>
+  </header>
 
-  <main class="lg:ml-64 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 space-y-6">
-    <!-- Breadcrumb navigation -->
-    <nav class="text-sm text-slate-600 mb-4" id="breadcrumb">
-      <a href="./catalogo.html" class="text-blue-600 hover:text-blue-700">Home</a>
+  <!-- Hero Section del Catálogo -->
+  <section class="relative py-16 sm:py-24 overflow-hidden bg-gradient-to-r from-brand-primary/5 to-brand-primary/10 dark:from-slate-900 dark:to-slate-800">
+    <div class="absolute inset-0 pointer-events-none">
+      <div class="absolute top-20 right-10 w-72 h-72 bg-brand-primary/10 rounded-full blur-3xl"></div>
+      <div class="absolute -bottom-20 left-20 w-96 h-96 bg-brand-primary/5 rounded-full blur-3xl"></div>
+    </div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="text-center space-y-4 animate-fade-in">
+        <h1 class="font-display font-bold text-4xl sm:text-5xl text-brand-base dark:text-white">
+          Nuestro <span class="text-brand-primary">Catálogo</span>
+        </h1>
+        <p class="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
+          Descubre nuestra amplia selección de mobiliario de oficina diseñado para comodidad y productividad
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+    <!-- Breadcrumb -->
+    <nav id="breadcrumb" class="text-sm text-slate-600 dark:text-slate-400 mb-8 flex items-center gap-2">
+      <a href="./index.html" class="text-brand-primary hover:text-brand-primary/80 transition-colors">Inicio</a>
+      <span>/</span>
+      <span class="text-slate-700 dark:text-slate-300">Catálogo</span>
     </nav>
 
-    <section class="space-y-4">
-      <h2 class="text-2xl font-semibold text-blue-600" id="page-title">Catálogo de productos</h2>
-      
-      <!-- Selector de categorías -->
-      <div class="flex flex-wrap gap-2" id="category-buttons">
-        <button class="category-btn px-3 py-1 rounded-md bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 active" data-category="all">Todas</button>
-        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="directivos">Directivos</button>
-        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="ejecutivos">Ejecutivos</button>
-        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="operativos">Operativos</button>
-        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="industrial">Industrial</button>
-        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="accesorios">Accesorios</button>
-        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="visitantes-interior">Visitantes Interior</button>
-        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="visitantes-exterior">Visitantes Exterior</button>
-        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="mesas">Mesas</button>
-        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="confortables">Confortables</button>
-        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="bancas">Bancas</button>
-        <button class="category-btn px-3 py-1 rounded-md bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300" data-category="escolar">Escolar</button>
+    <!-- Filter Section -->
+    <section class="mb-12 space-y-6">
+      <div class="flex flex-col gap-4">
+        <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+          <div class="flex-1">
+            <label for="search-input" class="block text-sm font-medium text-slate-600 dark:text-slate-300 mb-1">Buscar productos</label>
+            <input id="search-input" type="search" placeholder="Ej. silla ejecutiva, cuero, aluminio" class="w-full rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-brand-primary transition-colors" />
+          </div>
+          <button id="clear-search" class="self-start sm:self-center px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-sm font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">Limpiar</button>
+        </div>
+        <h2 class="font-display font-bold text-2xl text-brand-base dark:text-white">Categorías</h2>
+        <div class="flex flex-wrap gap-2">
+          <button class="category-btn px-4 py-2 rounded-lg bg-brand-primary text-white font-medium hover:bg-brand-primary/90 transition-all hover:shadow-card active" data-category="all">
+            Todas
+          </button>
+          <button class="category-btn px-4 py-2 rounded-lg bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 font-medium hover:bg-slate-300 dark:hover:bg-slate-600 transition-all" data-category="directivos">
+            Directivos
+          </button>
+          <button class="category-btn px-4 py-2 rounded-lg bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 font-medium hover:bg-slate-300 dark:hover:bg-slate-600 transition-all" data-category="ejecutivos">
+            Ejecutivos
+          </button>
+          <button class="category-btn px-4 py-2 rounded-lg bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 font-medium hover:bg-slate-300 dark:hover:bg-slate-600 transition-all" data-category="operativos">
+            Operativos
+          </button>
+          <button class="category-btn px-4 py-2 rounded-lg bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 font-medium hover:bg-slate-300 dark:hover:bg-slate-600 transition-all" data-category="industrial">
+            Industrial
+          </button>
+          <button class="category-btn px-4 py-2 rounded-lg bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 font-medium hover:bg-slate-300 dark:hover:bg-slate-600 transition-all" data-category="accesorios">
+            Accesorios
+          </button>
+          <button class="category-btn px-4 py-2 rounded-lg bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 font-medium hover:bg-slate-300 dark:hover:bg-slate-600 transition-all" data-category="visitantes-interior">
+            Visitantes Interior
+          </button>
+          <button class="category-btn px-4 py-2 rounded-lg bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 font-medium hover:bg-slate-300 dark:hover:bg-slate-600 transition-all" data-category="visitantes-exterior">
+            Visitantes Exterior
+          </button>
+          <button class="category-btn px-4 py-2 rounded-lg bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 font-medium hover:bg-slate-300 dark:hover:bg-slate-600 transition-all" data-category="mesas">
+            Mesas
+          </button>
+          <button class="category-btn px-4 py-2 rounded-lg bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 font-medium hover:bg-slate-300 dark:hover:bg-slate-600 transition-all" data-category="confortables">
+            Confortables
+          </button>
+          <button class="category-btn px-4 py-2 rounded-lg bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 font-medium hover:bg-slate-300 dark:hover:bg-slate-600 transition-all" data-category="bancas">
+            Bancas
+          </button>
+          <button class="category-btn px-4 py-2 rounded-lg bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 font-medium hover:bg-slate-300 dark:hover:bg-slate-600 transition-all" data-category="escolar">
+            Escolar
+          </button>
+        </div>
       </div>
 
-      <div id="category-extras" class="space-y-3"></div>
+      <div id="category-extras" class="space-y-4"></div>
+    </section>
 
-      <!-- Grid de productos -->
-      <div id="products-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"></div>
+    <!-- Products Grid -->
+    <section class="space-y-8">
+      <div id="products-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 animate-fade-in">
+        <!-- Products rendered by JavaScript -->
+      </div>
+      
+      <div id="no-results" class="hidden text-center py-12 space-y-4">
+        <p class="text-lg text-slate-600 dark:text-slate-400">No se encontraron productos en esta categoría</p>
+        <button onclick="document.querySelector('[data-category=all]').click()" class="inline-block px-6 py-2 bg-brand-primary text-white rounded-lg hover:bg-brand-primary/90 transition-colors font-medium">
+          Ver todas las categorías
+        </button>
+      </div>
     </section>
   </main>
 
-  <div id="footer-container" class="mt-12"></div>
+  <!-- Footer -->
+  <footer class="bg-brand-base dark:bg-slate-900 text-white mt-16 py-12 border-t border-slate-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div class="space-y-3">
+          <h3 class="font-display font-bold text-lg">JEMMSA</h3>
+          <p class="text-slate-400 text-sm">Mobiliario de oficina de calidad premium para tu espacio de trabajo.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="font-semibold text-sm uppercase tracking-wide">Enlaces</h4>
+          <ul class="space-y-1 text-slate-400 text-sm">
+            <li><a href="./index.html" class="hover:text-brand-primary transition-colors">Inicio</a></li>
+            <li><a href="./catalogo.html" class="hover:text-brand-primary transition-colors">Catálogo</a></li>
+          </ul>
+        </div>
+        <div class="space-y-2">
+          <h4 class="font-semibold text-sm uppercase tracking-wide">Información</h4>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Email: jemmsa@jemmsa.com.mx<br>
+            Tel: 656-687-78-54<br>
+            Ubicación: Juárez, Chihuahua
+          </p>
+        </div>
+      </div>
+      <div class="border-t border-slate-700 pt-8 text-center text-slate-400 text-sm">
+        <p>&copy; 2024 JEMMSA. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
 
   <script>
+    // Theme toggle
+    const themeToggle = document.getElementById('theme-toggle');
+    const html = document.documentElement;
+    
+    // Load saved theme or use system preference
+    const savedTheme = localStorage.getItem('theme');
+    const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const isDark = savedTheme ? savedTheme === 'dark' : systemDark;
+    
+    if (isDark) {
+      html.classList.add('dark');
+    }
+    
+    themeToggle.addEventListener('click', () => {
+      html.classList.toggle('dark');
+      const newTheme = html.classList.contains('dark') ? 'dark' : 'light';
+      localStorage.setItem('theme', newTheme);
+    });
+
     const catalogData = {
       "categories": [
         { "id": "directivos", "name": "Directivos" },
@@ -1305,11 +1512,11 @@
       categoryExtras.innerHTML = '';
       if (category === 'operativos') {
         const extrasWrapper = document.createElement('div');
-        extrasWrapper.className = 'flex flex-col gap-3 md:flex-row md:items-center md:justify-between bg-slate-50 border border-slate-200 rounded-lg p-4';
+        extrasWrapper.className = 'flex flex-col gap-3 md:flex-row md:items-center md:justify-between bg-brand-soft dark:bg-brand-deep border border-brand-soft dark:border-brand-deep rounded-lg p-4';
 
         const tapizLink = document.createElement('a');
         tapizLink.href = './public/catalogo-tapices.pdf';
-        tapizLink.className = 'inline-flex items-center gap-2 px-3 py-2 rounded-md bg-blue-600 text-white text-sm font-medium hover:bg-blue-700';
+        tapizLink.className = 'inline-flex items-center gap-2 px-3 py-2 rounded-md bg-brand-primary text-white text-sm font-medium hover:bg-brand-primary/90 transition-colors';
         tapizLink.textContent = 'Catálogo de tapices';
         tapizLink.target = '_blank';
         tapizLink.rel = 'noopener noreferrer';
@@ -1343,12 +1550,12 @@
         extrasWrapper.className = 'flex flex-col gap-3 md:flex-row md:items-center md:justify-between bg-slate-50 border border-slate-200 rounded-lg p-4';
 
         const title = document.createElement('h2');
-        title.className = 'text-lg font-semibold text-slate-800';
+        title.className = 'text-lg font-semibold text-[var(--text-main)]';
         title.textContent = 'Industrial';
 
         const tapizLink = document.createElement('a');
         tapizLink.href = './public/catalogo-tapices.pdf';
-        tapizLink.className = 'inline-flex items-center gap-2 px-3 py-2 rounded-md bg-blue-600 text-white text-sm font-medium hover:bg-blue-700';
+        tapizLink.className = 'inline-flex items-center gap-2 px-3 py-2 rounded-md bg-brand-primary text-white text-sm font-medium hover:bg-brand-primary/90 transition-colors';
         tapizLink.textContent = 'Catálogo de tapices (Flippingbook)';
         tapizLink.target = '_blank';
         tapizLink.rel = 'noopener noreferrer';
@@ -1361,7 +1568,7 @@
 
     function updateBreadcrumb() {
       const breadcrumbEl = document.getElementById('breadcrumb');
-      let html = '<a href="./catalogo.html" class="text-blue-600 hover:text-blue-700">Home</a>';
+      let html = '<a href="./catalogo.html" class="text-brand-primary hover:text-brand-primary/80 transition-colors">Home</a>';
       
       if (breadcrumb.category) {
         const catName = catalogData.categories.find(c => c.id === breadcrumb.category)?.name;
@@ -1640,6 +1847,149 @@
       });
     });
 
+    const searchInput = document.getElementById('search-input');
+    const clearSearch = document.getElementById('clear-search');
+
+    function normalizeText(text = '') {
+      return text
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/\p{Diacritic}+/gu, '')
+        .replace(/[^a-z0-9\s]/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+
+    function getSynonyms(term) {
+      const map = {
+        escolar: ['escuela', 'school', 'colegio', 'clase'],
+        industrial: ['industria', 'planta', 'fabrica'],
+        ejecutivo: ['ejecutiva', 'executive'],
+        directivo: ['directiva', 'director', 'gerencia'],
+        operativo: ['operativa', 'oficina', 'trabajo'],
+        visitante: ['visita', 'sala de espera'],
+        mesa: ['mesas', 'surface', 'table'],
+        banca: ['banco', 'bench'],
+        confortables: ['lounge', 'sofa', 'butaca'],
+        silla: ['sillas', 'chair', 'asiento']
+      };
+      const nterm = normalizeText(term);
+      const extra = Object.entries(map)
+        .filter(([, arr]) => arr.some(s => normalizeText(s) === nterm || nterm.includes(normalizeText(s)) || normalizeText(s).includes(nterm)))
+        .map(([key]) => key);
+      return [term, ...extra];
+    }
+
+    function bigramSimilarity(a, b) {
+      const toBigrams = (s) => {
+        const n = normalizeText(s);
+        const grams = [];
+        for (let i = 0; i < n.length - 1; i++) grams.push(n.slice(i, i + 2));
+        return grams;
+      };
+      const ga = toBigrams(a);
+      const gb = toBigrams(b);
+      if (!ga.length || !gb.length) return 0;
+      const setA = new Set(ga);
+      const setB = new Set(gb);
+      let intersect = 0;
+      setA.forEach(g => { if (setB.has(g)) intersect++; });
+      return intersect / Math.max(setA.size, setB.size);
+    }
+
+    function getAllProductsFlat() {
+      const list = [];
+      Object.entries(catalogData.products).forEach(([catId, catValue]) => {
+        if (catValue && typeof catValue === 'object' && !Array.isArray(catValue)) {
+          Object.entries(catValue).forEach(([familyId, familyValue]) => {
+            if (familyId === 'id' || familyId === 'name' || familyId === 'description') return;
+            const productsArr = Array.isArray(familyValue) ? familyValue : (familyValue?.products || []);
+            productsArr.forEach(p => list.push({ catId, familyId, product: p }));
+          });
+        } else if (Array.isArray(catValue)) {
+          catValue.forEach(p => list.push({ catId, familyId: catId, product: p }));
+        }
+      });
+      return list;
+    }
+
+    function navigateToProductDirect(categoria, familia, productoId) {
+      if (!categoria || !familia || !productoId) return;
+      const url = `producto.html?categoria=${encodeURIComponent(categoria)}&familia=${encodeURIComponent(familia)}&producto=${encodeURIComponent(productoId)}`;
+      window.location.href = url;
+    }
+
+    function renderSearchResults(query) {
+      const normalizedQuery = normalizeText(query);
+      const synonymQueries = getSynonyms(normalizedQuery);
+      const grid = document.getElementById('products-grid');
+      const noResults = document.getElementById('no-results');
+      grid.innerHTML = '';
+      setCategoryExtras(null);
+      breadcrumb.category = null;
+      breadcrumb.subcategory = null;
+      breadcrumb.subsubcategory = null;
+      updateBreadcrumb();
+
+      const results = getAllProductsFlat().filter(({ product, catId, familyId }) => {
+        const prod = getProductDefaults(product);
+        const haystack = normalizeText(`${prod.name} ${prod.material} ${prod.description} ${catId} ${familyId}`);
+        return synonymQueries.some(term => {
+          const nq = normalizeText(term);
+          if (!nq) return false;
+          if (haystack.includes(nq)) return true;
+          return bigramSimilarity(haystack, nq) >= 0.35;
+        });
+      });
+
+      if (!results.length) {
+        noResults.classList.remove('hidden');
+        return;
+      }
+      noResults.classList.add('hidden');
+
+      results.forEach(({ catId, familyId, product }) => {
+        const prod = getProductDefaults(product);
+        const article = document.createElement('article');
+        article.className = 'border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm cursor-pointer hover:shadow-md transition-shadow';
+        article.innerHTML = `
+          <div class="aspect-[4/3] bg-slate-50">
+            <img class="w-full h-full object-cover" src="${prod.image}" alt="${prod.name}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
+          </div>
+          <div class="p-4 space-y-1">
+            <p class="text-xs uppercase tracking-wide text-brand-primary font-semibold">${catId} · ${familyId}</p>
+            <h3 class="text-lg font-medium">${prod.name}</h3>
+            <p class="text-slate-500 text-sm line-clamp-2">${prod.material}</p>
+            <button class="mt-2 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors">Ver detalles →</button>
+          </div>
+        `;
+        article.addEventListener('click', () => {
+          navigateToProductDirect(catId, familyId, product.id);
+        });
+        grid.appendChild(article);
+      });
+    }
+
+    if (searchInput) {
+      searchInput.addEventListener('input', () => {
+        const q = searchInput.value.trim().toLowerCase();
+        if (!q) {
+          document.getElementById('no-results').classList.add('hidden');
+          renderAllProducts();
+          return;
+        }
+        renderSearchResults(q);
+      });
+    }
+
+    if (clearSearch && searchInput) {
+      clearSearch.addEventListener('click', () => {
+        searchInput.value = '';
+        document.getElementById('no-results').classList.add('hidden');
+        renderAllProducts();
+      });
+    }
+
     function renderAllProducts() {
       const grid = document.getElementById('products-grid');
       grid.innerHTML = '';
@@ -1723,116 +2073,8 @@
       window.location.href = url;
     }
 
-    function showProductModal(product) {
-      const prod = getProductDefaults(product);
-      const modal = document.createElement('div');
-      modal.className = 'fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4';
-      
-      let recursosHTML = '';
-      if (prod.recursos) {
-        recursosHTML = `
-          <div class="space-y-3 border-t border-slate-200 pt-4">
-            <h3 class="text-lg font-semibold">Recursos disponibles</h3>
-            <div class="space-y-2">
-        `;
-        
-        if (prod.recursos.instructivo) {
-          recursosHTML += `
-            <button class="block w-full text-left px-3 py-2 rounded bg-blue-50 hover:bg-blue-100 text-blue-700 text-sm">
-              📄 Instructivo: ${prod.recursos.instructivo.archivo}
-            </button>
-          `;
-        }
-        
-        if (prod.recursos.fotos) {
-          recursosHTML += `
-            <button class="block w-full text-left px-3 py-2 rounded bg-green-50 hover:bg-green-100 text-green-700 text-sm">
-              📸 Fotos: ${prod.recursos.fotos.archivo}
-            </button>
-          `;
-        }
-        
-        if (prod.recursos.ficha_tecnica) {
-          recursosHTML += `
-            <button class="block w-full text-left px-3 py-2 rounded bg-purple-50 hover:bg-purple-100 text-purple-700 text-sm">
-              📋 Ficha Técnica: ${prod.recursos.ficha_tecnica.archivo}
-            </button>
-          `;
-        }
-        
-        if (prod.recursos.modelados_3d && prod.recursos.modelados_3d.length > 0) {
-          recursosHTML += `
-            <div class="px-3 py-2 rounded bg-orange-50 text-orange-700 text-sm">
-              <strong>📦 Modelados 3D:</strong>
-              <ul class="mt-1 space-y-1">
-          `;
-          prod.recursos.modelados_3d.forEach(modelo => {
-            recursosHTML += `<li class="hover:text-orange-900 cursor-pointer">• ${modelo.tipo}: ${modelo.archivo}</li>`;
-          });
-          recursosHTML += `
-              </ul>
-            </div>
-          `;
-        }
-        
-        if (prod.recursos.videos && prod.recursos.videos.length > 0) {
-          recursosHTML += `
-            <div class="px-3 py-2 rounded bg-red-50 text-red-700 text-sm">
-              <strong>🎥 Videos:</strong>
-              <ul class="mt-1 space-y-1">
-          `;
-          prod.recursos.videos.forEach(video => {
-            recursosHTML += `<li class="hover:text-red-900 cursor-pointer">• ${video.nombre}: ${video.archivo}</li>`;
-          });
-          recursosHTML += `
-              </ul>
-            </div>
-          `;
-        }
-        
-        recursosHTML += `
-            </div>
-          </div>
-        `;
-      }
-      
-      modal.innerHTML = `
-        <div class="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto">
-          <div class="sticky top-0 bg-white border-b border-slate-200 p-4 flex justify-between items-center">
-            <div>
-              <h2 class="text-2xl font-bold">${prod.comercial_name}</h2>
-              ${prod.comercial_name !== prod.name ? `<p class="text-sm text-slate-500">${prod.name}</p>` : ''}
-            </div>
-            <button class="text-slate-500 hover:text-slate-700 text-2xl">&times;</button>
-          </div>
-          <div class="p-6 space-y-4">
-            <img src="${prod.image}" alt="${prod.name}" class="w-full h-80 object-cover rounded-lg" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
-            ${prod.description ? `<p class="text-slate-700 text-lg">${prod.description}</p>` : ''}
-            <p class="text-slate-600"><strong>Material:</strong> ${prod.material}</p>
-            ${prod.specifications ? `
-              <div class="space-y-2">
-                <h3 class="text-lg font-semibold">Especificaciones técnicas</h3>
-                <ul class="space-y-2 text-sm text-slate-700">
-                  ${Object.entries(prod.specifications).map(([key, value]) => 
-                    `<li><strong>${key.charAt(0).toUpperCase() + key.slice(1).replace(/_/g, ' ')}:</strong> ${value}</li>`
-                  ).join('')}
-                </ul>
-              </div>
-            ` : ''}
-            ${recursosHTML}
-          </div>
-        </div>
-      `;
-      
-      document.body.appendChild(modal);
-      
-      const closeBtn = modal.querySelector('button');
-      closeBtn.addEventListener('click', () => modal.remove());
-      modal.addEventListener('click', (e) => {
-        if (e.target === modal) modal.remove();
-      });
-    }
+    // Initialize catalog display
+    renderAllProducts();
   </script>
-  <script src="../public/js/site.js"></script>
 </body>
 </html>

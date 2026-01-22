@@ -1,28 +1,231 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Página no encontrada. Vuelve al inicio o explora nuestro catálogo de mobiliario corporativo." />
   <title>Página no encontrada | Jemmsa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              primary: '#1FA3D6',
+              accent: '#C62828',
+              warning: '#F4E300',
+              base: '#0B0B0B',
+              soft: '#F5F5F5',
+              muted: '#8A8A8A',
+              deep: '#3A3A3A'
+            }
+          },
+          fontFamily: {
+            display: ['"Space Grotesk"', 'system-ui', 'sans-serif'],
+            body: ['Inter', 'system-ui', 'sans-serif']
+          },
+          boxShadow: {
+            card: '0 10px 40px -20px rgba(31, 163, 214, 0.25)',
+            'card-strong': '0 18px 50px -20px rgba(31, 163, 214, 0.35)'
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    :root {
+      --bg-page: #ffffff;
+      --text-main: #0B0B0B;
+    }
+    .dark {
+      --bg-page: #0B0B0B;
+      --text-main: #F5F5F5;
+    }
+    body {
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      transition: background-color 0.3s, color 0.3s;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="./public/img/Logo.png" />
 </head>
-<body class="text-slate-800 bg-white min-h-screen">
-  <div id="navbar-container"></div>
-  <div id="header-container"></div>
+<body class="font-body bg-[var(--bg-page)] text-[var(--text-main)]">
+  <!-- Header Sticky -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-[var(--bg-page)]/80 border-b border-brand-soft dark:border-brand-deep">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="./index.html" class="flex items-center gap-3">
+        <img src="./public/img/Logo.png" alt="Jemmsa" class="h-10 w-auto">
+        <span class="font-display text-lg font-semibold">Jemmsa</span>
+      </a>
 
-  <main class="lg:ml-64 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-    <div class="space-y-4 text-center">
-      <p class="text-sm uppercase tracking-wide text-blue-600 font-semibold">Error 404</p>
-      <h2 class="text-3xl font-bold text-slate-900">Página no encontrada</h2>
-      <p class="text-slate-600">La página que buscas no existe. Vuelve al inicio o visita el catálogo.</p>
-      <div class="flex items-center justify-center gap-3">
-        <a href="./index.html" class="inline-flex items-center px-4 py-2 rounded-md bg-blue-600 text-white font-medium hover:bg-blue-700">Inicio</a>
-        <a href="./catalogo.html" class="inline-flex items-center px-4 py-2 rounded-md border border-blue-600 text-blue-600 font-medium hover:bg-blue-50">Ver catálogo</a>
+      <nav class="hidden md:flex items-center gap-8">
+        <a href="./index.html" class="text-sm font-medium hover:text-brand-primary transition-colors">Inicio</a>
+        <a href="./catalogo.html" class="text-sm font-medium hover:text-brand-primary transition-colors">Catálogo</a>
+        <a href="./marcas.html" class="text-sm font-medium hover:text-brand-primary transition-colors">Marcas</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <button id="themeToggle" class="h-9 w-9 rounded-full border border-brand-muted hover:border-brand-primary flex items-center justify-center transition-colors" aria-label="Cambiar tema">
+          <svg id="sun" class="w-5 h-5 block dark:hidden" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"/>
+          </svg>
+          <svg id="moon" class="w-5 h-5 hidden dark:block" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/>
+          </svg>
+        </button>
       </div>
     </div>
+  </header>
+
+  <main class="overflow-hidden">
+    <!-- 404 Section -->
+    <section class="relative pt-32 pb-20 sm:pt-48 sm:pb-32">
+      <div class="absolute inset-0 bg-gradient-to-br from-brand-primary/5 to-brand-accent/5 dark:from-brand-primary/10 dark:to-brand-accent/10"></div>
+      <div class="absolute top-0 right-0 w-96 h-96 bg-brand-primary/10 rounded-full blur-3xl -mr-48 -mt-48 dark:bg-brand-primary/5"></div>
+
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-8">
+        <!-- Large 404 -->
+        <div class="space-y-4">
+          <div class="font-display text-9xl sm:text-[140px] font-bold bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent leading-tight">
+            404
+          </div>
+          <h1 class="font-display text-4xl sm:text-5xl font-bold">
+            Página no encontrada
+          </h1>
+          <p class="text-lg text-brand-muted dark:text-slate-400 max-w-xl mx-auto leading-relaxed">
+            La página que buscas parece no existir. Pero no te preocupes, nuestro catálogo de mobiliario corporativo sigue aquí para ti.
+          </p>
+        </div>
+
+        <!-- CTA Buttons -->
+        <div class="flex flex-col sm:flex-row gap-4 justify-center pt-8">
+          <a href="./index.html" class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-brand-primary text-white font-semibold hover:shadow-card-strong hover:-translate-y-0.5 transition-all">
+            Ir al inicio
+          </a>
+          <a href="./catalogo.html" class="inline-flex items-center justify-center px-6 py-3 rounded-full border-2 border-brand-primary text-brand-primary hover:bg-brand-primary/5 transition-all font-semibold">
+            Explorar catálogo
+          </a>
+        </div>
+
+        <!-- Decorative elements -->
+        <div class="pt-12">
+          <div class="inline-block text-7xl">🪑</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Links -->
+    <section class="py-20 sm:py-28 bg-brand-soft dark:bg-brand-deep">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <p class="text-sm uppercase tracking-widest text-brand-primary font-semibold mb-3">Navegación Rápida</p>
+          <h2 class="font-display text-3xl sm:text-4xl font-bold">¿Por dónde empezamos?</h2>
+        </div>
+
+        <div class="grid sm:grid-cols-3 gap-6">
+          <!-- Link 1 -->
+          <a href="./catalogo.html" class="group rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/50 p-8 shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all text-center space-y-3">
+            <div class="text-4xl">📋</div>
+            <h3 class="font-display text-xl font-bold group-hover:text-brand-primary transition-colors">Catálogo Completo</h3>
+            <p class="text-sm text-brand-muted dark:text-slate-400">Explora todas nuestras colecciones de mobiliario corporativo.</p>
+          </a>
+
+          <!-- Link 2 -->
+          <a href="./marcas.html" class="group rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/50 p-8 shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all text-center space-y-3">
+            <div class="text-4xl">🏢</div>
+            <h3 class="font-display text-xl font-bold group-hover:text-brand-primary transition-colors">Nuestras Marcas</h3>
+            <p class="text-sm text-brand-muted dark:text-slate-400">Conoce las marcas premium que representamos.</p>
+          </a>
+
+          <!-- Link 3 -->
+          <a href="./index.html#contacto" class="group rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/50 p-8 shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all text-center space-y-3">
+            <div class="text-4xl">📞</div>
+            <h3 class="font-display text-xl font-bold group-hover:text-brand-primary transition-colors">Contáctanos</h3>
+            <p class="text-sm text-brand-muted dark:text-slate-400">Hablemos de tu proyecto de mobiliario.</p>
+          </a>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <div id="footer-container"></div>
-  <script src="../public/js/site.js"></script>
+  <!-- Footer -->
+  <footer class="border-t border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base py-12 sm:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="space-y-3">
+          <h3 class="font-display font-semibold">JEMMSA</h3>
+          <p class="text-sm text-brand-muted dark:text-slate-400">Mobiliario corporativo moderno y ergonómico para espacios que producen.</p>
+        </div>
+        <div class="space-y-3">
+          <h4 class="font-semibold text-sm">Sitio</h4>
+          <ul class="space-y-2 text-sm text-brand-muted dark:text-slate-400">
+            <li><a href="./index.html" class="hover:text-brand-primary transition-colors">Inicio</a></li>
+            <li><a href="./catalogo.html" class="hover:text-brand-primary transition-colors">Catálogo</a></li>
+            <li><a href="./marcas.html" class="hover:text-brand-primary transition-colors">Marcas</a></li>
+          </ul>
+        </div>
+        <div class="space-y-3">
+          <h4 class="font-semibold text-sm">Contacto</h4>
+          <ul class="space-y-2 text-sm text-brand-muted dark:text-slate-400">
+            <li><a href="tel:6566877854" class="hover:text-brand-primary transition-colors">656-687-78-54</a></li>
+            <li><a href="https://wa.me/526564372481" target="_blank" rel="noopener" class="hover:text-brand-primary transition-colors">WhatsApp</a></li>
+            <li><a href="mailto:jemmsa@jemmsa.com.mx" class="hover:text-brand-primary transition-colors">Email</a></li>
+          </ul>
+        </div>
+        <div class="space-y-3">
+          <h4 class="font-semibold text-sm">Ubicación</h4>
+          <p class="text-sm text-brand-muted dark:text-slate-400">C. Júpiter 1550<br>Satélite, Juárez, Chih.</p>
+        </div>
+      </div>
+
+      <div class="border-t border-brand-soft dark:border-brand-deep pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-brand-muted dark:text-slate-400">
+        <p>© 2025 JEMMSA. Todos los derechos reservados.</p>
+        <span class="flex items-center gap-2">
+          <span class="h-2 w-2 rounded-full bg-brand-primary"></span>
+          Diseño Moderno & Accesible
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Theme Toggle Script -->
+  <script>
+    const html = document.documentElement;
+    const toggle = document.getElementById('themeToggle');
+    const sun = document.getElementById('sun');
+    const moon = document.getElementById('moon');
+
+    // Check saved theme or system preference
+    const savedTheme = localStorage.getItem('theme');
+    const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const isDark = savedTheme ? savedTheme === 'dark' : systemDark;
+
+    if (isDark) {
+      html.classList.add('dark');
+    }
+
+    // Toggle theme
+    toggle?.addEventListener('click', () => {
+      const isDarkMode = html.classList.toggle('dark');
+      localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+    });
+
+    // Listen for system changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+      if (!localStorage.getItem('theme')) {
+        if (e.matches) {
+          html.classList.add('dark');
+        } else {
+          html.classList.remove('dark');
+        }
+      }
+    });
+  </script>
 </body>
 </html>
+

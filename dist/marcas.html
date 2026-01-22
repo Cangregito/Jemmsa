@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Marcas de mobiliario corporativo que JEMMSA representa: soluciones premium de ergonomía y diseño." />
+  <meta property="og:title" content="Marcas | JEMMSA Mobiliario" />
+  <meta property="og:description" content="Descubre las marcas líderes que distribuimos en México." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jemmsa.com/marcas.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Marcas | JEMMSA" />
+  <meta name="twitter:description" content="Marcas premium de mobiliario corporativo" />
+  <title>Nuestras Marcas | Jemmsa</title>
+  <link rel="icon" type="image/png" href="../public/img/Logo.png" />
+  
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Marcas JEMMSA",
+      "description": "Marcas premium de mobiliario corporativo distribuidas por JEMMSA",
+      "url": "https://jemmsa.com/marcas.html",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "JEMMSA",
+        "url": "https://jemmsa.com"
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              primary: '#1FA3D6',
+              accent: '#C62828',
+              warning: '#F4E300',
+              base: '#0B0B0B',
+              soft: '#F5F5F5',
+              muted: '#8A8A8A',
+              deep: '#3A3A3A'
+            }
+          },
+          fontFamily: {
+            display: ['"Space Grotesk"', 'system-ui', 'sans-serif'],
+            body: ['Inter', 'system-ui', 'sans-serif']
+          },
+          boxShadow: {
+            card: '0 10px 40px -20px rgba(31, 163, 214, 0.25)',
+            'card-strong': '0 18px 50px -20px rgba(31, 163, 214, 0.35)'
+          },
+          keyframes: {
+            'fade-in': { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
+            'slide-up': { '0%': { opacity: '0', transform: 'translateY(12px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } }
+          },
+          animation: {
+            'fade-in': 'fade-in 0.4s ease-out',
+            'slide-up': 'slide-up 0.6s ease-out'
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    :root {
+      --bg-page: #ffffff;
+      --text-main: #0B0B0B;
+    }
+    .dark {
+      --bg-page: #0B0B0B;
+      --text-main: #F5F5F5;
+    }
+    body {
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      transition: background-color 0.3s, color 0.3s;
+    }
+  </style>
+</head>
+<body class="font-body bg-[var(--bg-page)] text-[var(--text-main)]">
+  <!-- Sticky Header -->
+  <header class="sticky top-0 z-40 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 shadow-sm transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+      <a href="./index.html" class="flex items-center gap-3">
+        <img src="../public/img/Logo.png" alt="JEMMSA" class="h-10 w-auto">
+        <span class="font-display font-bold text-2xl text-brand-primary hover:text-brand-primary/90 transition-colors">JEMMSA</span>
+      </a>
+      
+      <nav class="hidden md:flex items-center gap-6">
+        <a href="./index.html" class="text-slate-700 dark:text-slate-300 hover:text-brand-primary transition-colors font-medium text-sm">Inicio</a>
+        <a href="https://ley-silla.com/index.html" target="_blank" rel="noopener" class="text-slate-700 dark:text-slate-300 hover:text-brand-primary transition-colors font-medium text-sm">Ley de la Silla</a>
+        <a href="./catalogo.html" class="text-slate-700 dark:text-slate-300 hover:text-brand-primary transition-colors font-medium text-sm">Catálogo</a>
+        <a href="./marcas.html" class="text-brand-primary font-medium text-sm">Marcas</a>
+      </nav>
+      
+      <button id="theme-toggle" class="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" title="Cambiar tema">
+        <svg class="w-5 h-5 text-brand-primary" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative py-16 sm:py-24 overflow-hidden bg-gradient-to-r from-brand-primary/5 to-brand-primary/10 dark:from-slate-900 dark:to-slate-800">
+    <div class="absolute inset-0 pointer-events-none">
+      <div class="absolute top-20 right-10 w-72 h-72 bg-brand-primary/10 rounded-full blur-3xl"></div>
+      <div class="absolute -bottom-20 left-20 w-96 h-96 bg-brand-primary/5 rounded-full blur-3xl"></div>
+    </div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="text-center space-y-4 animate-fade-in">
+        <h1 class="font-display font-bold text-4xl sm:text-5xl text-brand-base dark:text-white">
+          Nuestras <span class="text-brand-primary">Marcas</span>
+        </h1>
+        <p class="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
+          Descubre las marcas que conforman nuestra oferta de mobiliario de oficina
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marcas Section -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+    <div class="grid md:grid-cols-3 gap-8 lg:gap-12">
+      
+      <!-- Offihoblack -->
+      <div class="group bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-8 shadow-sm hover:shadow-card transition-all duration-300 animate-slide-up">
+        <div class="mb-6">
+          <div class="h-16 w-16 rounded-lg bg-gradient-to-br from-brand-primary to-brand-primary/70 flex items-center justify-center mb-4">
+            <span class="text-white font-display font-bold text-2xl">O</span>
+          </div>
+          <h3 class="font-display font-bold text-2xl text-brand-base dark:text-white mb-2">Offihoblack</h3>
+          <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+            Mobiliario de oficina premium con diseños modernos y funcionales. Especializados en soluciones ergonómicas para espacios corporativos.
+          </p>
+        </div>
+        <a href="https://www.offihoblack.com" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-brand-primary font-semibold text-sm hover:gap-3 transition-all">
+          Visitar sitio 
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Colos -->
+      <div class="group bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-8 shadow-sm hover:shadow-card transition-all duration-300 animate-slide-up" style="animation-delay: 0.1s">
+        <div class="mb-6">
+          <div class="h-16 w-16 rounded-lg bg-gradient-to-br from-brand-accent to-brand-accent/70 flex items-center justify-center mb-4">
+            <span class="text-white font-display font-bold text-2xl">C</span>
+          </div>
+          <h3 class="font-display font-bold text-2xl text-brand-base dark:text-white mb-2">Colos</h3>
+          <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+            Diseño italiano de vanguardia. Muebles de alta calidad que combinan estética contemporánea con máxima funcionalidad para entornos profesionales.
+          </p>
+        </div>
+        <a href="https://colos.it/it" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-brand-primary font-semibold text-sm hover:gap-3 transition-all">
+          Visitar sitio 
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Econo Sillas -->
+      <div class="group bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-8 shadow-sm hover:shadow-card transition-all duration-300 animate-slide-up" style="animation-delay: 0.2s">
+        <div class="mb-6">
+          <div class="h-16 w-16 rounded-lg bg-gradient-to-br from-brand-warning to-brand-warning/70 flex items-center justify-center mb-4">
+            <span class="text-brand-base font-display font-bold text-2xl">E</span>
+          </div>
+          <h3 class="font-display font-bold text-2xl text-brand-base dark:text-white mb-2">Econo Sillas</h3>
+          <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+            Soluciones de mobiliario accesibles sin comprometer la calidad. Perfectas para equipar oficinas con presupuestos optimizados y alto rendimiento.
+          </p>
+        </div>
+        <a href="./catalogo.html" class="inline-flex items-center gap-2 text-brand-primary font-semibold text-sm hover:gap-3 transition-all">
+          Ver catálogo 
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-brand-base dark:bg-slate-900 text-white mt-16 py-12 border-t border-slate-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div class="space-y-3">
+          <h3 class="font-display font-bold text-lg">JEMMSA</h3>
+          <p class="text-slate-400 text-sm">Mobiliario de oficina de calidad premium para tu espacio de trabajo.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="font-semibold text-sm uppercase tracking-wide">Enlaces</h4>
+          <ul class="space-y-1 text-slate-400 text-sm">
+            <li><a href="./index.html" class="hover:text-brand-primary transition-colors">Inicio</a></li>
+            <li><a href="./catalogo.html" class="hover:text-brand-primary transition-colors">Catálogo</a></li>
+            <li><a href="./marcas.html" class="hover:text-brand-primary transition-colors">Marcas</a></li>
+          </ul>
+        </div>
+        <div class="space-y-2">
+          <h4 class="font-semibold text-sm uppercase tracking-wide">Información</h4>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Email: jemmsa@jemmsa.com.mx<br>
+            Tel: 656-687-78-54<br>
+            Ubicación: Juárez, Chihuahua
+          </p>
+        </div>
+      </div>
+      <div class="border-t border-slate-700 pt-8 text-center text-slate-400 text-sm">
+        <p>&copy; 2024 JEMMSA. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Theme Toggle Script -->
+  <script>
+    // Theme toggle
+    const themeToggle = document.getElementById('theme-toggle');
+    const html = document.documentElement;
+    
+    // Load saved theme or use system preference
+    const savedTheme = localStorage.getItem('theme');
+    const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const isDark = savedTheme ? savedTheme === 'dark' : systemDark;
+    
+    if (isDark) {
+      html.classList.add('dark');
+    }
+    
+    themeToggle.addEventListener('click', () => {
+      html.classList.toggle('dark');
+      const newTheme = html.classList.contains('dark') ? 'dark' : 'light';
+      localStorage.setItem('theme', newTheme);
+    });
+  </script>
+</body>
+</html>

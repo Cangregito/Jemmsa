@@ -1,207 +1,260 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Detalles técnicos, especificaciones y opciones de personalización de productos JEMMSA de mobiliario corporativo." />
+  <meta property="og:title" content="Producto | JEMMSA Mobiliario" />
+  <meta property="og:description" content="Descubre las especificaciones completas y opciones de nuestros productos." />
+  <meta property="og:type" content="product" />
+  <meta property="og:url" content="https://jemmsa.com/producto.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Producto | JEMMSA" />
+  <meta name="twitter:description" content="Especificaciones de producto JEMMSA" />
   <title id="product-title">Producto | Jemmsa</title>
+  <link rel="icon" type="image/png" href="../public/img/Logo.png" />
+  
+  <!-- JSON-LD Schema for Product -->
+  <script type="application/ld+json" id="product-schema">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Producto JEMMSA",
+      "description": "Producto de mobiliario corporativo de alta calidad",
+      "url": "https://jemmsa.com/producto.html",
+      "brand": {
+        "@type": "Brand",
+        "name": "JEMMSA"
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              primary: '#1FA3D6',
+              accent: '#C62828',
+              warning: '#F4E300',
+              base: '#0B0B0B',
+              soft: '#F5F5F5',
+              muted: '#8A8A8A',
+              deep: '#3A3A3A'
+            }
+          },
+          fontFamily: {
+            display: ['"Space Grotesk"', 'system-ui', 'sans-serif'],
+            body: ['Inter', 'system-ui', 'sans-serif']
+          },
+          boxShadow: {
+            card: '0 10px 40px -20px rgba(31, 163, 214, 0.25)',
+            'card-strong': '0 18px 50px -20px rgba(31, 163, 214, 0.35)'
+          },
+          keyframes: {
+            'fade-in': { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
+            'slide-up': { '0%': { opacity: '0', transform: 'translateY(10px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } }
+          },
+          animation: {
+            'fade-in': 'fade-in 0.4s ease-out',
+            'slide-up': 'slide-up 0.6s ease-out'
+          }
+        }
+      }
+    };
+  </script>
   <style>
-    .thumbnail-active { border: 3px solid #2563EB; opacity: 1; }
-    .thumbnail { opacity: 0.6; transition: opacity 0.2s; cursor: pointer; border: 3px solid transparent; }
-    .thumbnail:hover { opacity: 1; }
-    .badge-circular { 
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      border: 3px solid;
-      font-size: 0.75rem;
-      font-weight: 600;
-      text-align: center;
-      line-height: 1.2;
+    :root {
+      --bg-page: #ffffff;
+      --text-main: #0B0B0B;
     }
-    .download-btn-circular {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(135deg, #3B82F6 0%, #2563EB 100%);
-      color: white;
-      text-decoration: none;
-      transition: transform 0.2s, box-shadow 0.2s;
-      font-size: 0.75rem;
-      font-weight: 600;
-      text-align: center;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    .dark {
+      --bg-page: #0B0B0B;
+      --text-main: #F5F5F5;
     }
-    .download-btn-circular:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+    body {
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      transition: background-color 0.3s, color 0.3s;
     }
-    .download-btn-circular svg {
-      width: 28px;
-      height: 28px;
-      margin-bottom: 4px;
+    .thumbnail-active { 
+      border: 3px solid #1FA3D6; 
+      opacity: 1;
+      transform: scale(1.05);
+    }
+    .thumbnail { 
+      opacity: 0.6; 
+      transition: all 0.2s; 
+      cursor: pointer; 
+      border: 3px solid transparent;
+      border-radius: 0.5rem;
+      overflow: hidden;
+    }
+    .thumbnail:hover { 
+      opacity: 1;
+      transform: scale(1.05);
     }
   </style>
 </head>
-<body class="bg-gray-50">
-  <!-- Navbar Container -->
-  <div id="navbar-container"></div>
-
-  <!-- Header Container -->
-  <div id="header-container"></div>
+<body class="font-body bg-[var(--bg-page)] text-[var(--text-main)]">
+  <!-- Sticky Header -->
+  <header class="sticky top-0 z-40 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 shadow-sm transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+      <a href="./index.html" class="flex items-center gap-3">
+        <img src="../public/img/Logo.png" alt="JEMMSA" class="h-10 w-auto">
+        <span class="font-display font-bold text-2xl text-brand-primary hover:text-brand-primary/90 transition-colors">JEMMSA</span>
+      </a>
+      
+      <nav class="hidden md:flex items-center gap-6">
+        <a href="./index.html" class="text-slate-700 dark:text-slate-300 hover:text-brand-primary transition-colors font-medium text-sm">Inicio</a>
+        <a href="https://ley-silla.com/index.html" target="_blank" rel="noopener" class="text-slate-700 dark:text-slate-300 hover:text-brand-primary transition-colors font-medium text-sm">Ley de la Silla</a>
+        <a href="./catalogo.html" class="text-slate-700 dark:text-slate-300 hover:text-brand-primary transition-colors font-medium text-sm">Catálogo</a>
+      </nav>
+      
+      <button id="theme-toggle" class="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" title="Cambiar tema">
+        <svg class="w-5 h-5 text-brand-primary" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/></svg>
+      </button>
+    </div>
+  </header>
 
   <!-- Main Content -->
-  <main class="lg:ml-64 p-4 sm:p-6 lg:p-8">
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
     <!-- Breadcrumb -->
-    <nav class="mb-6">
-      <ol id="breadcrumb" class="flex items-center gap-2 text-sm text-gray-600">
-        <!-- Cargado dinámicamente -->
+    <nav class="mb-8" aria-label="Breadcrumb">
+      <ol id="breadcrumb" class="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-400">
+        <li><a href="./index.html" class="text-brand-primary hover:text-brand-primary/80 transition-colors">Inicio</a></li>
+        <li class="text-slate-400">/</li>
+        <li><a href="./catalogo.html" class="text-brand-primary hover:text-brand-primary/80 transition-colors">Catálogo</a></li>
+        <li class="text-slate-400" id="breadcrumb-category" style="display:none;"> / <span id="breadcrumb-cat-name"></span></li>
+        <li class="text-slate-400" id="breadcrumb-product" style="display:none;"> / <span id="breadcrumb-prod-name"></span></li>
       </ol>
     </nav>
 
-    <!-- Aviso de fallback (se muestra si se aplican valores por defecto) -->
-    <div id="fallback-note" class="hidden mb-6 px-4 py-3 rounded-md border border-yellow-200 bg-yellow-50 text-yellow-700 text-sm"></div>
+    <!-- Aviso de fallback -->
+    <div id="fallback-note" class="hidden mb-6 px-4 py-3 rounded-lg border border-brand-warning/30 bg-brand-warning/10 dark:bg-brand-warning/5 text-slate-700 dark:text-slate-300 text-sm"></div>
 
-    <!-- Encabezado del Producto -->
-    <div class="mb-8 flex items-start justify-between">
-      <div>
-        <p id="collection-name" class="text-2xl font-bold text-gray-600 uppercase tracking-wider mb-2">
-          <!-- Colección -->
-        </p>
-        <h1 id="product-code" class="text-4xl font-bold text-gray-900">
-          <!-- Código del producto -->
-        </h1>
-      </div>
-      
-      <!-- Insignias circulares -->
-      <div id="badges-container" class="flex gap-3">
-        <!-- Insignias dinámicas -->
-      </div>
+    <!-- Botón volver al catálogo -->
+    <div class="mb-6">
+      <a href="./catalogo.html" class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-brand-primary text-brand-primary hover:bg-brand-primary/5 hover:shadow-card transition-all text-sm font-semibold">
+        ← Regresar al catálogo
+      </a>
     </div>
 
-    <!-- Sección Principal: Layout con miniaturas verticales -->
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 mb-12">
-      
-      <!-- Miniaturas Verticales (Izquierda) -->
-      <div class="lg:col-span-1 order-2 lg:order-1">
-        <div id="thumbnails-container" class="flex lg:flex-col gap-2">
-          <!-- Miniaturas dinámicas -->
-        </div>
-      </div>
+    <!-- Hero Section del Producto -->
+    <div class="mb-8 animate-fade-in">
+      <p id="collection-name" class="text-sm font-medium text-brand-primary uppercase tracking-wider mb-2"></p>
+      <h1 id="product-code" class="font-display font-bold text-4xl sm:text-5xl text-brand-base dark:text-white mb-3"></h1>
+      <p id="product-name" class="text-xl text-slate-600 dark:text-slate-400"></p>
+    </div>
 
-      <!-- Imagen Principal (Centro) -->
-      <div class="lg:col-span-6 order-1 lg:order-2">
-        <div class="bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden">
+    <!-- Layout Principal -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mb-12">
+      
+      <!-- Columna Izquierda: Galería de Imágenes -->
+      <div class="space-y-4 animate-slide-up">
+        <!-- Imagen Principal -->
+        <div class="bg-white dark:bg-slate-800 rounded-xl shadow-card overflow-hidden border border-slate-200 dark:border-slate-700 aspect-[4/3]">
           <img id="main-image" 
                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" 
                alt="Producto" 
                class="w-full h-full object-cover">
         </div>
         
-        <!-- Botones de descarga circulares (debajo de la imagen) -->
-        <div id="downloads-section" class="flex justify-center gap-6 mt-6">
-          <a id="download-instructivo" href="#" class="hidden download-btn-circular">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <!-- Miniaturas -->
+        <div id="thumbnails-container" class="flex gap-2 justify-center"></div>
+
+        <!-- Botones de Descarga -->
+        <div id="downloads-section" class="flex flex-wrap justify-center gap-4 pt-4">
+          <a id="download-instructivo" href="#" class="hidden group relative px-6 py-3 bg-gradient-to-r from-brand-primary to-brand-primary/90 text-white rounded-lg font-medium transition-all hover:shadow-card-strong hover:-translate-y-0.5">
+            <svg class="w-5 h-5 inline-block mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10"/>
             </svg>
-            <span>INSTRUCTIVO</span>
+            Instructivo
           </a>
 
-          <a id="download-fotos" href="#" class="hidden download-btn-circular">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10"/>
+          <a id="download-fotos" href="#" class="hidden group relative px-6 py-3 bg-gradient-to-r from-green-600 to-green-500 text-white rounded-lg font-medium transition-all hover:shadow-lg hover:-translate-y-0.5">
+            <svg class="w-5 h-5 inline-block mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
             </svg>
-            <span>FOTOS</span>
+            Fotos
           </a>
 
-          <a id="download-ficha" href="#" class="hidden download-btn-circular">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10"/>
+          <a id="download-ficha" href="#" class="hidden group relative px-6 py-3 bg-gradient-to-r from-purple-600 to-purple-500 text-white rounded-lg font-medium transition-all hover:shadow-lg hover:-translate-y-0.5">
+            <svg class="w-5 h-5 inline-block mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
             </svg>
-            <span>FICHA<br>TÉCNICA</span>
+            Ficha Técnica
           </a>
         </div>
       </div>
 
-      <!-- Columna Derecha: Información -->
-      <div class="lg:col-span-5 order-3 space-y-6">
-        <!-- Resumen del Producto: Nombre y Descripción -->
-        <div id="summary-section" class="bg-white rounded-lg p-4 border border-gray-200">
-          <h3 id="product-name" class="text-lg font-semibold text-gray-900"></h3>
-          <p id="product-description" class="text-sm text-gray-600 mt-2"></p>
-        </div>
+      <!-- Columna Derecha: Información del Producto -->
+      <div class="space-y-6 animate-slide-up">
         
+        <!-- Descripción Principal -->
+        <div class="bg-white dark:bg-slate-800 rounded-xl p-6 border border-slate-200 dark:border-slate-700 shadow-sm">
+          <h3 class="font-display font-semibold text-lg text-brand-base dark:text-white mb-3">Descripción</h3>
+          <p id="product-description" class="text-slate-600 dark:text-slate-400 leading-relaxed"></p>
+          <div class="mt-4 pt-4 border-t border-slate-200 dark:border-slate-700">
+            <p id="material-description" class="text-sm text-slate-500 dark:text-slate-500"></p>
+          </div>
+        </div>
+
+        <!-- Insignias de Información -->
+        <div id="badges-container" class="flex flex-wrap gap-3"></div>
+
+        <!-- Especificaciones Técnicas -->
+        <div id="specs-section" class="bg-white dark:bg-slate-800 rounded-xl p-6 border border-slate-200 dark:border-slate-700 shadow-sm">
+          <h3 class="font-display font-semibold text-lg text-brand-base dark:text-white mb-4">Especificaciones</h3>
+          <div class="space-y-3">
+            <div id="resistance-spec" class="hidden flex justify-between items-center py-2 border-b border-slate-200 dark:border-slate-700">
+              <span class="text-sm font-medium text-slate-700 dark:text-slate-300">Resistencia</span>
+              <span id="resistance-value" class="text-sm text-slate-600 dark:text-slate-400"></span>
+            </div>
+            <div id="reference-spec" class="hidden flex justify-between items-center py-2 border-b border-slate-200 dark:border-slate-700">
+              <span class="text-sm font-medium text-slate-700 dark:text-slate-300">Referencia</span>
+              <span id="reference-value" class="text-sm text-slate-600 dark:text-slate-400"></span>
+            </div>
+          </div>
+        </div>
+
         <!-- Colección de Terminados -->
-        <div id="colors-section" class="hidden bg-white rounded-lg p-4 border border-gray-200">
-          <h3 class="text-sm font-bold text-neutral-700 uppercase tracking-wide mb-3">
-            Colección de Terminados
-          </h3>
-          <div id="colors-container" class="flex flex-wrap gap-3">
-            <!-- Colores dinámicos -->
-          </div>
+        <div id="colors-section" class="hidden bg-white dark:bg-slate-800 rounded-xl p-6 border border-slate-200 dark:border-slate-700 shadow-sm">
+          <h3 class="font-display font-semibold text-lg text-brand-base dark:text-white mb-4">Colección de Terminados</h3>
+          <div id="colors-container" class="flex flex-wrap gap-3"></div>
         </div>
 
-        <!-- Especificaciones -->
-        <div id="specs-section" class="space-y-2">
-          <div id="resistance-spec" class="hidden p-3 bg-gray-50 rounded-lg">
-            <span class="text-sm font-medium text-neutral-700">Resistencia:</span>
-            <span id="resistance-value" class="text-sm text-gray-600 ml-2"></span>
-          </div>
-          <div id="reference-spec" class="hidden p-3 bg-gray-50 rounded-lg">
-            <span class="text-sm font-medium text-slate-700">Referencia:</span>
-            <span id="reference-value" class="text-sm text-slate-600 ml-2"></span>
-          </div>
-        </div>
-
-        <!-- Acordeones de Información -->
+        <!-- Acordeones de Información Adicional -->
         <div class="space-y-3">
           
-          <!-- Descripción Completa -->
-          <details id="description-accordion" class="group bg-white rounded-lg shadow-sm border border-gray-200">
-            <summary class="cursor-pointer px-4 py-3 font-medium text-gray-900 hover:bg-gray-50 flex items-center justify-between">
-              <span class="uppercase text-sm font-bold">Descripción</span>
-              <svg class="w-5 h-5 text-gray-600 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-              </svg>
-            </summary>
-            <div class="px-4 py-3 text-sm text-gray-600 border-t border-gray-200">
-              <p id="material-description"><!-- Material --></p>
-            </div>
-          </details>
-
           <!-- Modelados 3D -->
-          <details id="models-3d-accordion" class="hidden group bg-white rounded-lg shadow-sm border border-gray-200">
-            <summary class="cursor-pointer px-4 py-3 font-medium text-gray-900 hover:bg-gray-50 flex items-center justify-between">
-              <span class="uppercase text-sm font-bold">Modelados 3D</span>
-              <svg class="w-5 h-5 text-gray-600 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <details id="models-3d-accordion" class="hidden group bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700 overflow-hidden">
+            <summary class="cursor-pointer px-6 py-4 font-medium text-brand-base dark:text-white hover:bg-slate-50 dark:hover:bg-slate-700/50 flex items-center justify-between transition-colors">
+              <span class="font-display text-sm font-semibold uppercase tracking-wide">Modelados 3D</span>
+              <svg class="w-5 h-5 text-slate-600 dark:text-slate-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
               </svg>
             </summary>
-            <div class="px-4 py-3 border-t border-gray-200">
-              <ul id="models-3d-list" class="space-y-2">
-                <!-- Lista de archivos 3D -->
-              </ul>
+            <div class="px-6 py-4 border-t border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50">
+              <ul id="models-3d-list" class="space-y-2"></ul>
             </div>
           </details>
 
           <!-- Certificaciones -->
-          <details id="certifications-accordion" class="hidden group bg-white rounded-lg shadow-sm border border-gray-200">
-            <summary class="cursor-pointer px-4 py-3 font-medium text-gray-900 hover:bg-gray-50 flex items-center justify-between">
-              <span class="uppercase text-sm font-bold">Certificaciones</span>
-              <svg class="w-5 h-5 text-gray-600 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <details id="certifications-accordion" class="hidden group bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700 overflow-hidden">
+            <summary class="cursor-pointer px-6 py-4 font-medium text-brand-base dark:text-white hover:bg-slate-50 dark:hover:bg-slate-700/50 flex items-center justify-between transition-colors">
+              <span class="font-display text-sm font-semibold uppercase tracking-wide">Certificaciones</span>
+              <svg class="w-5 h-5 text-slate-600 dark:text-slate-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
               </svg>
             </summary>
-            <div class="px-4 py-3 text-sm text-gray-600 border-t border-gray-200">
-              <p id="certifications-content"><!-- Certificaciones --></p>
+            <div class="px-6 py-4 text-sm text-slate-600 dark:text-slate-400 border-t border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50">
+              <p id="certifications-content"></p>
             </div>
           </details>
 
@@ -211,24 +264,70 @@
 
     <!-- Productos Relacionados -->
     <section id="related-products-section" class="hidden mb-12">
-      <h2 class="text-2xl font-bold text-gray-900 mb-6 uppercase">Productos Relacionados</h2>
-      <div id="related-products-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-        <!-- Productos relacionados dinámicos -->
-      </div>
+      <h2 class="font-display font-bold text-2xl sm:text-3xl text-brand-base dark:text-white mb-8">
+        Productos <span class="text-brand-primary">Relacionados</span>
+      </h2>
+      <div id="related-products-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6"></div>
     </section>
 
     <!-- Nota General -->
-    <div id="general-note" class="hidden text-center text-sm text-gray-600 py-4 border-t border-gray-200">
-      <!-- Nota general -->
-    </div>
+    <div id="general-note" class="hidden text-center text-sm text-slate-500 dark:text-slate-500 py-6 border-t border-slate-200 dark:border-slate-700"></div>
 
   </main>
 
-  <!-- Footer Container -->
-  <div id="footer-container"></div>
+  <!-- Footer -->
+  <footer class="bg-brand-base dark:bg-slate-900 text-white mt-16 py-12 border-t border-slate-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div class="space-y-3">
+          <h3 class="font-display font-bold text-lg">JEMMSA</h3>
+          <p class="text-slate-400 text-sm">Mobiliario de oficina de calidad premium para tu espacio de trabajo.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="font-semibold text-sm uppercase tracking-wide">Enlaces</h4>
+          <ul class="space-y-1 text-slate-400 text-sm">
+            <li><a href="./index.html" class="hover:text-brand-primary transition-colors">Inicio</a></li>
+            <li><a href="./catalogo.html" class="hover:text-brand-primary transition-colors">Catálogo</a></li>
+          </ul>
+        </div>
+        <div class="space-y-2">
+          <h4 class="font-semibold text-sm uppercase tracking-wide">Información</h4>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Email: jemmsa@jemmsa.com.mx<br>
+            Tel: 656-687-78-54<br>
+            Ubicación: Juárez, Chihuahua
+          </p>
+        </div>
+      </div>
+      <div class="border-t border-slate-700 pt-8 text-center text-slate-400 text-sm">
+        <p>&copy; 2024 JEMMSA. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
 
   <!-- Scripts -->
-  <script src="../public/js/site.js"></script>
   <script src="../public/js/product-view.js"></script>
+
+  <!-- Theme Toggle Script -->
+  <script>
+    // Theme toggle
+    const themeToggle = document.getElementById('theme-toggle');
+    const html = document.documentElement;
+    
+    // Load saved theme or use system preference
+    const savedTheme = localStorage.getItem('theme');
+    const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const isDark = savedTheme ? savedTheme === 'dark' : systemDark;
+    
+    if (isDark) {
+      html.classList.add('dark');
+    }
+    
+    themeToggle.addEventListener('click', () => {
+      html.classList.toggle('dark');
+      const newTheme = html.classList.contains('dark') ? 'dark' : 'light';
+      localStorage.setItem('theme', newTheme);
+    });
+  </script>
 </body>
 </html>

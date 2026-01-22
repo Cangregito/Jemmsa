@@ -1,100 +1,621 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jemmsa | Sillas y confort</title>
+  <meta name="description" content="JEMMSA: mobiliario corporativo moderno, ergonómico y de alta calidad. Catálogo, instalación y soporte especializado en México." />
+  <meta property="og:title" content="JEMMSA Mobiliario Corporativo" />
+  <meta property="og:description" content="Soluciones de mobiliario ergonómico para espacios corporativos modernos." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jemmsa.com" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="JEMMSA Mobiliario" />
+  <meta name="twitter:description" content="Soluciones de mobiliario corporativo premium" />
+  <title>Jemmsa | Mobiliario Corporativo Moderno</title>
+  <link rel="icon" type="image/png" href="./public/img/Logo.png" />
+  
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "JEMMSA",
+      "url": "https://jemmsa.com",
+      "logo": "https://jemmsa.com/public/img/Logo.png",
+      "description": "Mobiliario corporativo moderno, ergonómico y de alta calidad",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "656-687-78-54",
+        "contactType": "Customer Service",
+        "areaServed": "MX"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C. Júpiter 1550",
+        "addressLocality": "Juárez",
+        "addressRegion": "Chih",
+        "postalCode": "32540",
+        "addressCountry": "MX"
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              primary: '#1FA3D6',
+              accent: '#C62828',
+              warning: '#F4E300',
+              base: '#0B0B0B',
+              soft: '#F5F5F5',
+              muted: '#8A8A8A',
+              deep: '#3A3A3A'
+            }
+          },
+          fontFamily: {
+            display: ['"Space Grotesk"', 'system-ui', 'sans-serif'],
+            body: ['Inter', 'system-ui', 'sans-serif']
+          },
+          boxShadow: {
+            card: '0 10px 40px -20px rgba(31, 163, 214, 0.25)',
+            'card-strong': '0 18px 50px -20px rgba(31, 163, 214, 0.35)'
+          },
+          keyframes: {
+            'fade-in': { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
+            'slide-up': { '0%': { opacity: '0', transform: 'translateY(12px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } }
+          },
+          animation: {
+            'fade-in': 'fade-in 0.4s ease-out',
+            'slide-up': 'slide-up 0.6s ease-out'
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    :root {
+      --bg-page: #ffffff;
+      --text-main: #0B0B0B;
+    }
+    .dark {
+      --bg-page: #0B0B0B;
+      --text-main: #F5F5F5;
+    }
+    body {
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      transition: background-color 0.3s, color 0.3s;
+    }
+  </style>
 </head>
-<body class="text-slate-800 bg-white">
-  <div id="navbar-container"></div>
-  <div id="header-container"></div>
+<body class="font-body bg-[var(--bg-page)] text-[var(--text-main)]">
+  <!-- Header Sticky -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-[var(--bg-page)]/80 border-b border-brand-soft dark:border-brand-deep">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <!-- Logo -->
+      <a href="./index.html" class="flex items-center gap-3">
+        <img src="../public/img/Logo.png" alt="Jemmsa" class="h-10 w-auto">
+        <span class="font-display text-lg font-semibold">Jemmsa</span>
+      </a>
 
-  <main class="lg:ml-64 px-4 sm:px-6 lg:px-8 py-10 sm:py-12 lg:py-16">
-    <div class="max-w-7xl mx-auto">
-      <!-- Hero Section -->
-      <section class="mb-16">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div class="space-y-6">
-            <p class="text-sm uppercase tracking-widest text-blue-600 font-semibold">Sillas de diseño</p>
-            <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-900 leading-tight">Bienvenido a Jemmsa</h1>
-            <p class="text-lg text-slate-600 leading-relaxed">
-              Sitio estático sin base de datos. Explora nuestro catálogo de sillas cómodas y modernas listo para publicar en Hostinger.
-            </p>
-            <div class="flex items-center gap-4 pt-4">
-              <a href="./catalogo.html" class="inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors shadow-md">
-                Ver catálogo
+      <!-- Navigation -->
+      <nav class="hidden md:flex items-center gap-8">
+        <a href="https://ley-silla.com/index.html" target="_blank" rel="noopener" class="text-sm font-medium hover:text-brand-primary transition-colors">Ley de la Silla</a>
+        <a href="#productos" class="text-sm font-medium hover:text-brand-primary transition-colors">Productos</a>
+        <a href="./marcas.html" class="text-sm font-medium hover:text-brand-primary transition-colors">Marcas</a>
+      </nav>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobileMenuBtn" class="md:hidden h-9 w-9 rounded-lg border border-brand-muted hover:border-brand-primary flex items-center justify-center transition-colors" aria-label="Abrir menú">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+
+      <!-- Theme Toggle & CTA -->
+      <div class="flex items-center gap-3">
+        <button id="themeToggle" class="h-9 w-9 rounded-full border border-brand-muted hover:border-brand-primary flex items-center justify-center transition-colors" aria-label="Cambiar tema">
+          <svg id="sun" class="w-5 h-5 block dark:hidden" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"/>
+          </svg>
+          <svg id="moon" class="w-5 h-5 hidden dark:block" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/>
+          </svg>
+        </button>
+        <a href="#contacto" class="hidden sm:inline-flex px-4 py-2 rounded-full bg-brand-primary text-white text-sm font-semibold hover:shadow-card transition-shadow">
+          Contáctanos
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="overflow-hidden">
+    <!-- Hero Section -->
+    <section class="relative pt-20 pb-16 sm:pt-32 sm:pb-24 overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-br from-brand-primary/5 to-brand-accent/5 dark:from-brand-primary/10 dark:to-brand-accent/10"></div>
+      <div class="absolute top-0 right-0 w-96 h-96 bg-brand-primary/10 rounded-full blur-3xl -mr-48 -mt-48 dark:bg-brand-primary/5"></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <!-- Left Content -->
+          <div class="space-y-8 animate-slide-up">
+            <div class="space-y-4">
+              <p class="text-sm uppercase tracking-widest text-brand-primary font-semibold">Soluciones de Mobiliario</p>
+              <h1 class="font-display text-5xl sm:text-6xl font-bold leading-tight">
+                Espacios que <span class="bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent">impulsan productividad</span>
+              </h1>
+              <p class="text-lg text-brand-muted dark:text-slate-400 max-w-xl leading-relaxed">
+                Diseñamos, fabricamos e instalamos soluciones de mobiliario corporativo que combinan ergonomía, durabilidad y estética contemporánea.
+              </p>
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a href="./catalogo.html" class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-brand-primary text-white font-semibold hover:shadow-card-strong hover:-translate-y-0.5 transition-all">
+                Explorar Catálogo
               </a>
-              <a href="mailto:contacto@jemmsa.com" class="inline-flex items-center px-6 py-3 rounded-lg border-2 border-blue-600 text-blue-600 font-semibold hover:bg-blue-50 transition-colors">
+              <a href="#contacto" class="inline-flex items-center justify-center px-6 py-3 rounded-full border-2 border-brand-primary text-brand-primary hover:bg-brand-primary/5 transition-all font-semibold">
                 Contáctanos
               </a>
             </div>
-          </div>
-          <div class="bg-gradient-to-br from-blue-50 to-slate-100 rounded-xl p-8 shadow-lg">
-            <div class="aspect-square bg-slate-200 rounded-lg flex items-center justify-center">
-              <span class="text-slate-400 text-lg">Imagen destacada</span>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <!-- Features Section -->
-      <section class="py-16 border-t border-slate-200">
-        <h2 class="text-3xl font-bold text-slate-900 mb-12 text-center">Por qué elegirnos</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-shadow border border-slate-100">
-            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-              <span class="text-2xl">🏆</span>
+            <!-- Stats -->
+            <div class="flex gap-8 pt-8">
+              <div>
+                <p class="font-display text-3xl font-bold">500+</p>
+                <p class="text-sm text-brand-muted dark:text-slate-400">Clientes activos</p>
+              </div>
+              <div>
+                <p class="font-display text-3xl font-bold">98%</p>
+                <p class="text-sm text-brand-muted dark:text-slate-400">Satisfacción</p>
+              </div>
+              <div>
+                <p class="font-display text-3xl font-bold">15+</p>
+                <p class="text-sm text-brand-muted dark:text-slate-400">Años de exp.</p>
+              </div>
             </div>
-            <h3 class="text-xl font-bold text-slate-900 mb-3">Calidad Premium</h3>
-            <p class="text-slate-600">Productos de alta calidad diseñados para comodidad y durabilidad.</p>
           </div>
-          <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-shadow border border-slate-100">
-            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-              <span class="text-2xl">🎨</span>
-            </div>
-            <h3 class="text-xl font-bold text-slate-900 mb-3">Diseño Moderno</h3>
-            <p class="text-slate-600">Estilos contemporáneos que se adaptan a cualquier espacio.</p>
-          </div>
-          <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-shadow border border-slate-100">
-            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-              <span class="text-2xl">✨</span>
-            </div>
-            <h3 class="text-xl font-bold text-slate-900 mb-3">Soporte 24/7</h3>
-            <p class="text-slate-600">Atención al cliente disponible siempre para ayudarte.</p>
-          </div>
-        </div>
-      </section>
 
-      <!-- Categories Preview Section -->
-      <section class="py-16">
-        <h2 class="text-3xl font-bold text-slate-900 mb-12 text-center">Nuestras categorías</h2>
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          <a href="./catalogo.html" class="bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg p-6 text-white font-semibold text-center hover:shadow-lg transition-all transform hover:scale-105">
-            Directivos
-          </a>
-          <a href="./catalogo.html" class="bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg p-6 text-white font-semibold text-center hover:shadow-lg transition-all transform hover:scale-105">
-            Ejecutivos
-          </a>
-          <a href="./catalogo.html" class="bg-gradient-to-br from-green-500 to-green-600 rounded-lg p-6 text-white font-semibold text-center hover:shadow-lg transition-all transform hover:scale-105">
-            Operativos
-          </a>
-          <a href="./catalogo.html" class="bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg p-6 text-white font-semibold text-center hover:shadow-lg transition-all transform hover:scale-105">
-            Industrial
-          </a>
-          <a href="./catalogo.html" class="bg-gradient-to-br from-red-500 to-red-600 rounded-lg p-6 text-white font-semibold text-center hover:shadow-lg transition-all transform hover:scale-105">
-            Accesorios
-          </a>
-          <a href="./catalogo.html" class="bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-lg p-6 text-white font-semibold text-center hover:shadow-lg transition-all transform hover:scale-105">
-            Visitantes
+          <!-- Right Image -->
+          <div class="relative animate-fade-in">
+            <div class="aspect-square rounded-2xl bg-gradient-to-br from-brand-primary/20 to-brand-accent/20 dark:from-brand-primary/10 dark:to-brand-accent/10 overflow-hidden">
+              <div class="w-full h-full flex items-center justify-center">
+                <div class="text-center">
+                  <div class="text-6xl mb-4">🪑</div>
+                  <p class="text-brand-muted dark:text-slate-400">Mobiliario Premium</p>
+                </div>
+              </div>
+            </div>
+            <!-- Decorative elements -->
+            <div class="absolute -top-4 -right-4 w-24 h-24 bg-brand-warning/20 rounded-full blur-2xl"></div>
+            <div class="absolute -bottom-8 -left-8 w-32 h-32 bg-brand-primary/10 rounded-full blur-3xl"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="py-20 sm:py-28 bg-white dark:bg-brand-base">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+        <div class="text-center max-w-3xl mx-auto space-y-4">
+          <p class="text-sm uppercase tracking-widest text-brand-primary font-semibold">Contáctanos</p>
+          <h2 class="font-display text-4xl sm:text-5xl font-bold text-brand-base dark:text-white">Hablemos de tu proyecto</h2>
+          <p class="text-lg text-brand-muted dark:text-slate-400">Elige el canal que prefieras. Nuestro equipo responde en horario laboral.</p>
+        </div>
+
+        <div class="grid lg:grid-cols-3 gap-6">
+          <!-- Llamada Directa -->
+          <div class="rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/60 p-6 shadow-card space-y-3">
+            <div class="flex items-center gap-3">
+              <span class="h-10 w-10 rounded-full bg-brand-primary/10 text-brand-primary flex items-center justify-center font-semibold">Tel</span>
+              <div>
+                <p class="text-sm uppercase tracking-wide text-brand-primary font-semibold">Llamada Directa</p>
+                <p class="text-sm text-brand-muted dark:text-slate-400">Habla directamente con nuestro equipo de especialistas</p>
+              </div>
+            </div>
+            <div class="text-lg font-semibold text-brand-base dark:text-white">656-687-78-54</div>
+            <p class="text-sm text-brand-muted dark:text-slate-400">Lun-Vie: 8:00 AM - 5:00 PM</p>
+            <a href="tel:6566877854" class="inline-flex items-center justify-center px-4 py-2 rounded-full bg-brand-primary text-white text-sm font-semibold hover:shadow-card transition-all">
+              Llamar Ahora
+            </a>
+          </div>
+
+          <!-- WhatsApp -->
+          <div class="rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/60 p-6 shadow-card space-y-3">
+            <div class="flex items-center gap-3">
+              <span class="h-10 w-10 rounded-full bg-brand-warning/10 text-brand-base flex items-center justify-center font-semibold">WA</span>
+              <div>
+                <p class="text-sm uppercase tracking-wide text-brand-primary font-semibold">WhatsApp</p>
+                <p class="text-sm text-brand-muted dark:text-slate-400">Respuesta por mensajería instantánea</p>
+              </div>
+            </div>
+            <div class="text-lg font-semibold text-brand-base dark:text-white">656-437-24-81</div>
+            <p class="text-sm text-brand-muted dark:text-slate-400">Lun-Vie: 8:00 AM - 5:00 PM</p>
+            <a href="https://wa.me/526564372481?text=Hola%20JEMMSA" target="_blank" rel="noopener" class="inline-flex items-center justify-center px-4 py-2 rounded-full bg-brand-warning text-brand-base text-sm font-semibold hover:shadow-card transition-all">
+              Escribir por WhatsApp
+            </a>
+          </div>
+
+          <!-- Correo Electrónico -->
+          <div class="rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/60 p-6 shadow-card space-y-3">
+            <div class="flex items-center gap-3">
+              <span class="h-10 w-10 rounded-full bg-brand-accent/10 text-brand-accent flex items-center justify-center font-semibold">@</span>
+              <div>
+                <p class="text-sm uppercase tracking-wide text-brand-primary font-semibold">Correo Electrónico</p>
+                <p class="text-sm text-brand-muted dark:text-slate-400">Envíanos un correo para consultas detalladas</p>
+              </div>
+            </div>
+            <div class="text-lg font-semibold text-brand-base dark:text-white">jemmsa@jemmsa.com.mx</div>
+            <p class="text-sm text-brand-muted dark:text-slate-400">Lun-Vie: 8:00 AM - 5:00 PM</p>
+            <a href="mailto:jemmsa@jemmsa.com.mx" class="inline-flex items-center justify-center px-4 py-2 rounded-full bg-brand-accent text-white text-sm font-semibold hover:shadow-card transition-all">
+              Enviar Email
+            </a>
+          </div>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-6 items-center">
+          <div class="rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/60 p-6 shadow-card space-y-3">
+            <p class="text-sm uppercase tracking-wide text-brand-primary font-semibold">Nuestra Ubicación</p>
+            <h3 class="font-display text-2xl font-bold text-brand-base dark:text-white">Dirección</h3>
+            <p class="text-brand-muted dark:text-slate-400">C. Júpiter 1550<br>C. Júpiter 1550, Satélite, 32540<br>Juárez Chih.</p>
+          </div>
+          <div class="rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/60 p-6 shadow-card space-y-3">
+            <p class="text-sm uppercase tracking-wide text-brand-primary font-semibold">Horarios de atención</p>
+            <h3 class="font-display text-2xl font-bold text-brand-base dark:text-white">Atención y teléfono</h3>
+            <p class="text-brand-muted dark:text-slate-400">Teléfono de atención: 656-687-78-54</p>
+            <p class="text-brand-muted dark:text-slate-400">Lunes a Viernes: 08:00 am - 05:00 pm</p>
+            <p class="text-brand-muted dark:text-slate-400">Sábados y Domingo: Cerrado</p>
+          </div>
+        </div>
+
+        <div class="rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/60 shadow-card overflow-hidden">
+          <div class="h-96 w-full">
+            <iframe
+              title="Mapa JEMMSA"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.5759226775733!2d-106.44436!3d31.693012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e76406f4a2c3bb%3A0x0000000000000000!2sC.%20J%C3%BApiter%201550%2C%20Sat%C3%A9lite%2C%2032540%20Cd%20Ju%C3%A1rez%2C%20Chih.!5e0!3m2!1ses-419!2smx!4v1700000000000">
+            </iframe>
+          </div>
+          <div class="px-6 py-4 border-t border-brand-soft dark:border-brand-deep flex items-center justify-between text-sm text-brand-muted dark:text-slate-400">
+            <span>Ver en Google Maps</span>
+            <a href="https://maps.app.goo.gl/uL9vQpP5Y7rQGqz26" target="_blank" rel="noopener" class="text-brand-primary font-semibold hover:translate-x-0.5 transition-transform">Abrir mapa →</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="py-20 sm:py-28 bg-brand-soft dark:bg-brand-deep">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto text-center mb-16">
+          <p class="text-sm uppercase tracking-widest text-brand-primary font-semibold mb-3">Servicios Integrales</p>
+          <h2 class="font-display text-4xl sm:text-5xl font-bold mb-4">Desde conceptualización hasta instalación</h2>
+          <p class="text-lg text-brand-muted dark:text-slate-400">Trabajamos de extremo a extremo para que tus espacios funcionen desde el día uno.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Service Card 1 -->
+          <div class="group bg-white dark:bg-brand-base/50 rounded-2xl p-8 border border-brand-soft dark:border-brand-deep shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all">
+            <div class="h-12 w-12 rounded-xl bg-brand-primary/10 text-brand-primary flex items-center justify-center font-bold mb-4">01</div>
+            <h3 class="font-display text-xl font-bold mb-3">Consultoría</h3>
+            <p class="text-brand-muted dark:text-slate-400 leading-relaxed">Layout, ergonomía y especificaciones técnicas alineadas a tu operación.</p>
+            <div class="mt-4 text-sm text-brand-muted dark:text-slate-500">Planos, renders y rutas críticas</div>
+          </div>
+
+          <!-- Service Card 2 -->
+          <div class="group bg-white dark:bg-brand-base/50 rounded-2xl p-8 border border-brand-soft dark:border-brand-deep shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all">
+            <div class="h-12 w-12 rounded-xl bg-brand-warning/20 text-brand-base flex items-center justify-center font-bold mb-4">02</div>
+            <h3 class="font-display text-xl font-bold mb-3">Fabricación</h3>
+            <p class="text-brand-muted dark:text-slate-400 leading-relaxed">Materiales de alto desempeño y control de calidad continuo.</p>
+            <div class="mt-4 text-sm text-brand-muted dark:text-slate-500">Lead times optimizados y trazabilidad</div>
+          </div>
+
+          <!-- Service Card 3 -->
+          <div class="group bg-white dark:bg-brand-base/50 rounded-2xl p-8 border border-brand-soft dark:border-brand-deep shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all">
+            <div class="h-12 w-12 rounded-xl bg-brand-accent/15 text-brand-accent flex items-center justify-center font-bold mb-4">03</div>
+            <h3 class="font-display text-xl font-bold mb-3">Instalación</h3>
+            <p class="text-brand-muted dark:text-slate-400 leading-relaxed">Equipos propios, seguridad en sitio y garantías extendidas.</p>
+            <div class="mt-4 text-sm text-brand-muted dark:text-slate-500">Mantenimiento preventivo y correctivo</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Productos Section -->
+    <section id="productos" class="py-20 sm:py-28">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-8 mb-16">
+          <div class="max-w-2xl">
+            <p class="text-sm uppercase tracking-widest text-brand-primary font-semibold mb-3">Colecciones</p>
+            <h2 class="font-display text-4xl sm:text-5xl font-bold mb-4">Productos listos para entrega</h2>
+            <p class="text-lg text-brand-muted dark:text-slate-400">Selección curada de sillas, estaciones y salas colaborativas con disponibilidad inmediata.</p>
+          </div>
+          <a href="./catalogo.html" class="inline-flex items-center gap-2 text-brand-primary font-semibold hover:translate-x-1 transition-transform whitespace-nowrap">
+            Ver todo →
           </a>
         </div>
-      </section>
-    </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Product Card 1 -->
+          <div class="group rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/50 overflow-hidden shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all">
+            <div class="aspect-[4/3] overflow-hidden bg-brand-primary/5">
+              <img src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=900&auto=format&fit=crop" alt="Ergo Directiva" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            </div>
+            <div class="p-6 space-y-4">
+              <div class="flex items-start justify-between">
+                <h3 class="font-display text-lg font-bold">ALUFSEN OHE-405 · Ergo Directiva</h3>
+                <span class="text-xs px-3 py-1 rounded-full bg-brand-primary/10 text-brand-primary font-semibold">Disponible</span>
+              </div>
+              <p class="text-sm text-brand-muted dark:text-slate-400">Respaldo alto, soporte lumbar, tapiz premium. Ideal para liderazgo.</p>
+              <a href="./producto.html?categoria=directivos&familia=alufsen&producto=ohe-405" class="inline-flex text-sm font-semibold text-brand-primary hover:translate-x-0.5 transition-transform">
+                Ver detalles →
+              </a>
+            </div>
+          </div>
+
+          <!-- Product Card 2 -->
+          <div class="group rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/50 overflow-hidden shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all">
+            <div class="aspect-[4/3] overflow-hidden bg-brand-warning/5">
+              <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=900&auto=format&fit=crop" alt="Workstations" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            </div>
+            <div class="p-6 space-y-4">
+              <div class="flex items-start justify-between">
+                <h3 class="font-display text-lg font-bold">QUO OHE-805 · Ejecutiva</h3>
+                <span class="text-xs px-3 py-1 rounded-full bg-brand-warning text-brand-base font-semibold">Nuevo</span>
+              </div>
+              <p class="text-sm text-brand-muted dark:text-slate-400">Configuraciones flexibles con gestión de cableado y acústica.</p>
+              <a href="./producto.html?categoria=ejecutivos&familia=quo&producto=ohe-805negro" class="inline-flex text-sm font-semibold text-brand-primary hover:translate-x-0.5 transition-transform">
+                Ver detalles →
+              </a>
+            </div>
+          </div>
+
+          <!-- Product Card 3 -->
+          <div class="group rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/50 overflow-hidden shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all">
+            <div class="aspect-[4/3] overflow-hidden bg-brand-accent/5">
+              <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=900&auto=format&fit=crop" alt="Salas Colaborativas" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            </div>
+            <div class="p-6 space-y-4">
+              <div class="flex items-start justify-between">
+                <h3 class="font-display text-lg font-bold">EVOLUTION OHE-99 · Operativa</h3>
+                <span class="text-xs px-3 py-1 rounded-full bg-brand-accent/10 text-brand-accent font-semibold">Destacado</span>
+              </div>
+              <p class="text-sm text-brand-muted dark:text-slate-400">Soft seating, mesas altas y pizarras para equipos híbridos.</p>
+              <a href="./producto.html?categoria=operativos&familia=evolution&producto=ohe-99negro" class="inline-flex text-sm font-semibold text-brand-primary hover:translate-x-0.5 transition-transform">
+                Ver detalles →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonios Section -->
+    <section id="testimonios" class="py-20 sm:py-28 bg-brand-soft dark:bg-brand-deep">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto text-center mb-16">
+          <p class="text-sm uppercase tracking-widest text-brand-primary font-semibold mb-3">Confianza</p>
+          <h2 class="font-display text-4xl sm:text-5xl font-bold mb-4">Equipamos a organizaciones líderes</h2>
+          <p class="text-lg text-brand-muted dark:text-slate-400">Resultados medibles en confort, productividad y satisfacción del colaborador.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <!-- Testimonial 1 -->
+          <div class="bg-white dark:bg-brand-base/50 rounded-2xl p-6 border border-brand-soft dark:border-brand-deep shadow-card">
+            <p class="text-brand-muted dark:text-slate-300 mb-4 leading-relaxed">"El despliegue fue impecable: logística, montaje y puesta a punto en una semana."</p>
+            <div class="flex items-center gap-3">
+              <div class="h-10 w-10 rounded-full bg-brand-primary/20 flex items-center justify-center font-semibold text-brand-primary">A</div>
+              <div>
+                <p class="font-semibold text-sm">Ana R.</p>
+                <p class="text-xs text-brand-muted dark:text-slate-400">COO, TechFin</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="bg-white dark:bg-brand-base/50 rounded-2xl p-6 border border-brand-soft dark:border-brand-deep shadow-card">
+            <p class="text-brand-muted dark:text-slate-300 mb-4 leading-relaxed">"Mejoró la ergonomía y el look de nuestras oficinas. Soporte rápido y resolutivo."</p>
+            <div class="flex items-center gap-3">
+              <div class="h-10 w-10 rounded-full bg-brand-warning/30 flex items-center justify-center font-semibold text-brand-base">M</div>
+              <div>
+                <p class="font-semibold text-sm">Martín S.</p>
+                <p class="text-xs text-brand-muted dark:text-slate-400">Facilities, Retail</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="bg-white dark:bg-brand-base/50 rounded-2xl p-6 border border-brand-soft dark:border-brand-deep shadow-card">
+            <p class="text-brand-muted dark:text-slate-300 mb-4 leading-relaxed">"Flexibilidad para adaptar estaciones híbridas. Gran coordinación con TI y Seguridad."</p>
+            <div class="flex items-center gap-3">
+              <div class="h-10 w-10 rounded-full bg-brand-accent/20 flex items-center justify-center font-semibold text-brand-accent">C</div>
+              <div>
+                <p class="font-semibold text-sm">Carla M.</p>
+                <p class="text-xs text-brand-muted dark:text-slate-400">PMO, Energía</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <div id="footer-container"></div>
+  <!-- Footer -->
+  <footer class="border-t border-brand-soft dark:border-brand-deep bg-brand-soft dark:bg-brand-base/50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid md:grid-cols-4 gap-8 mb-8">
+        <!-- About -->
+        <div class="space-y-3">
+          <div class="flex items-center gap-2 mb-3">
+            <div class="h-8 w-8 rounded-full bg-brand-primary flex items-center justify-center text-white font-bold">J</div>
+            <span class="font-display font-semibold">Jemmsa</span>
+          </div>
+          <p class="text-sm text-brand-muted dark:text-slate-400">Mobiliario corporativo para organizaciones que priorizan bienestar y eficiencia.</p>
+        </div>
 
-  <script src="../public/js/site.js"></script>
+        <!-- Company -->
+        <div>
+          <h4 class="font-semibold mb-4 text-sm">Empresa</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#servicios" class="text-brand-muted dark:text-slate-400 hover:text-brand-primary transition-colors">Servicios</a></li>
+            <li><a href="#productos" class="text-brand-muted dark:text-slate-400 hover:text-brand-primary transition-colors">Productos</a></li>
+            <li><a href="./marcas.html" class="text-brand-muted dark:text-slate-400 hover:text-brand-primary transition-colors">Marcas</a></li>
+          </ul>
+        </div>
+
+        <!-- Recursos -->
+        <div>
+          <h4 class="font-semibold mb-4 text-sm">Recursos</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="./catalogo.html" class="text-brand-muted dark:text-slate-400 hover:text-brand-primary transition-colors">Catálogo</a></li>
+            <li><a href="#" class="text-brand-muted dark:text-slate-400 hover:text-brand-primary transition-colors">Documentación</a></li>
+          </ul>
+        </div>
+
+        <!-- Info -->
+        <div>
+          <h4 class="font-semibold mb-4 text-sm">Información</h4>
+          <p class="text-sm text-brand-muted dark:text-slate-400">
+            jemmsa@jemmsa.com.mx<br />
+            656-687-78-54<br />
+            Juárez, Chihuahua
+          </p>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="border-t border-brand-soft dark:border-brand-deep pt-8 flex items-center justify-between text-xs text-brand-muted dark:text-slate-400">
+        <span>© 2026 Jemmsa. Todos los derechos reservados.</span>
+        <span class="flex items-center gap-2">
+          <span class="h-2 w-2 rounded-full bg-brand-primary"></span>
+          Diseño Moderno & Accesible
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Theme Toggle Script -->
+  <script>
+    const html = document.documentElement;
+    const toggle = document.getElementById('themeToggle');
+    const sun = document.getElementById('sun');
+    const moon = document.getElementById('moon');
+
+    // Check saved theme or system preference
+    const savedTheme = localStorage.getItem('theme');
+    const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const isDark = savedTheme ? savedTheme === 'dark' : systemDark;
+
+    if (isDark) {
+      html.classList.add('dark');
+    }
+
+    // Toggle theme
+    toggle?.addEventListener('click', () => {
+      const isDarkMode = html.classList.toggle('dark');
+      localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+    });
+
+    // Listen for system changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+      if (!localStorage.getItem('theme')) {
+        if (e.matches) {
+          html.classList.add('dark');
+        } else {
+          html.classList.remove('dark');
+        }
+      }
+    });
+  </script>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="hidden fixed inset-0 top-16 z-40 md:hidden bg-white dark:bg-brand-base border-t border-brand-soft dark:border-brand-deep">
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 space-y-2">
+      <a href="https://ley-silla.com/index.html" target="_blank" rel="noopener" class="block px-4 py-2 rounded-lg hover:bg-brand-soft dark:hover:bg-brand-deep text-sm font-medium transition-colors">Ley de la Silla</a>
+      <a href="#productos" class="block px-4 py-2 rounded-lg hover:bg-brand-soft dark:hover:bg-brand-deep text-sm font-medium transition-colors" onclick="document.getElementById('mobileMenu').classList.add('hidden'); document.getElementById('mobileMenuBtn').classList.remove('active');">Productos</a>
+      <a href="./marcas.html" class="block px-4 py-2 rounded-lg hover:bg-brand-soft dark:hover:bg-brand-deep text-sm font-medium transition-colors">Marcas</a>
+      <a href="#contacto" class="block px-4 py-2 rounded-lg bg-brand-primary text-white text-sm font-medium transition-colors" onclick="document.getElementById('mobileMenu').classList.add('hidden'); document.getElementById('mobileMenuBtn').classList.remove('active');">Contáctanos</a>
+    </nav>
+  </div>
+
+  <!-- Scroll to Top Button -->
+  <button id="scrollTopBtn" class="hidden fixed bottom-8 right-8 z-50 h-10 w-10 rounded-full bg-brand-primary text-white shadow-card hover:shadow-card-strong transition-all flex items-center justify-center" aria-label="Ir al inicio" title="Volver al inicio">
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/>
+    </svg>
+  </button>
+
+  <!-- Theme Toggle & Mobile Menu Script -->
+  <script>
+    // Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    
+    mobileMenuBtn?.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Close menu on escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !mobileMenu.classList.contains('hidden')) {
+        mobileMenu.classList.add('hidden');
+      }
+    });
+
+    // Scroll to Top Button
+    const scrollTopBtn = document.getElementById('scrollTopBtn');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        scrollTopBtn.classList.remove('hidden');
+      } else {
+        scrollTopBtn.classList.add('hidden');
+      }
+    });
+    
+    scrollTopBtn?.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+
+  <!-- Theme Toggle Script -->
+  <script>
+    const html = document.documentElement;
+    const toggle = document.getElementById('themeToggle');
+    const sun = document.getElementById('sun');
+    const moon = document.getElementById('moon');
+
+    // Check saved theme or system preference
+    const savedTheme = localStorage.getItem('theme');
+    const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const isDark = savedTheme ? savedTheme === 'dark' : systemDark;
+
+    if (isDark) {
+      html.classList.add('dark');
+    }
+
+    // Toggle theme
+    toggle?.addEventListener('click', () => {
+      const isDarkMode = html.classList.toggle('dark');
+      localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+    });
+
+    // Listen for system changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+      if (!localStorage.getItem('theme')) {
+        if (e.matches) {
+          html.classList.add('dark');
+        } else {
+          html.classList.remove('dark')
 </body>
 </html>
