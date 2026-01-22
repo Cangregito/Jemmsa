@@ -3087,19 +3087,60 @@
       }
     },
     "confortables": {
-      "confortables-1": {
-        "id": "confortables-1",
-        "name": "Confortables",
-        "description": "Familia de Sillas Confortables.",
+      "blair": {
+        "id": "blair",
+        "name": "BLAIR",
+        "description": "Familia BLAIR de sillas confortables.",
         "products": [
-          {
-            "id": "silla-lounge-premium",
-            "name": "Silla Lounge Premium",
-            "material": "Tela y madera curvada",
-            "description": "Silla Lounge Premium en tela y madera curvada.",
-            "specifications": { "capacidad": "Peso sugerido 120 kg" },
-            "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
-          }
+          { "id": "ohv-106", "name": "OHV-106", "comercial_name": "Confortables BLAIR OHV-106", "material": "Pendiente especificaciones", "description": "Silla confortable BLAIR modelo OHV-106. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "CONFORTABLES", "link": "/catalogo?categoria=confortables" }, { "label": "BLAIR", "link": "/catalogo?categoria=confortables&familia=blair" }, { "label": "OHV-106", "link": "#" }], "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }
+        ]
+      },
+      "borsani": {
+        "id": "borsani",
+        "name": "BORSANI",
+        "description": "Familia BORSANI de sillas confortables.",
+        "products": [
+          { "id": "ohv-120", "name": "OHV-120", "comercial_name": "Confortables BORSANI OHV-120", "material": "Pendiente especificaciones", "description": "Silla confortable BORSANI modelo OHV-120. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "CONFORTABLES", "link": "/catalogo?categoria=confortables" }, { "label": "BORSANI", "link": "/catalogo?categoria=confortables&familia=borsani" }, { "label": "OHV-120", "link": "#" }], "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }
+        ]
+      },
+      "dirk": {
+        "id": "dirk",
+        "name": "DIRK",
+        "description": "Familia DIRK de sillas confortables.",
+        "products": [
+          { "id": "dirk-base", "name": "DIRK", "comercial_name": "Confortables DIRK", "material": "Pendiente especificaciones", "description": "Silla confortable DIRK. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "CONFORTABLES", "link": "/catalogo?categoria=confortables" }, { "label": "DIRK", "link": "/catalogo?categoria=confortables&familia=dirk" }], "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }
+        ]
+      },
+      "gubi": {
+        "id": "gubi",
+        "name": "GUBI",
+        "description": "Familia GUBI de sillas confortables.",
+        "products": [
+          { "id": "gubi-base", "name": "GUBI", "comercial_name": "Confortables GUBI", "material": "Pendiente especificaciones", "description": "Silla confortable GUBI. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "CONFORTABLES", "link": "/catalogo?categoria=confortables" }, { "label": "GUBI", "link": "/catalogo?categoria=confortables&familia=gubi" }], "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }
+        ]
+      },
+      "budi": {
+        "id": "budi",
+        "name": "BUDI",
+        "description": "Familia BUDI de sillas confortables.",
+        "products": [
+          { "id": "ohm-132", "name": "OHM-132", "comercial_name": "Confortables BUDI OHM-132", "material": "Pendiente especificaciones", "description": "Silla confortable BUDI modelo OHM-132. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "CONFORTABLES", "link": "/catalogo?categoria=confortables" }, { "label": "BUDI", "link": "/catalogo?categoria=confortables&familia=budi" }, { "label": "OHM-132", "link": "#" }], "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }
+        ]
+      },
+      "magnolia": {
+        "id": "magnolia",
+        "name": "MAGNOLIA",
+        "description": "Familia MAGNOLIA de sillas confortables.",
+        "products": [
+          { "id": "magnolia-base", "name": "MAGNOLIA", "comercial_name": "Confortables MAGNOLIA", "material": "Pendiente especificaciones", "description": "Silla confortable MAGNOLIA. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "CONFORTABLES", "link": "/catalogo?categoria=confortables" }, { "label": "MAGNOLIA", "link": "/catalogo?categoria=confortables&familia=magnolia" }], "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }
+        ]
+      },
+      "laurel": {
+        "id": "laurel",
+        "name": "LAUREL",
+        "description": "Familia LAUREL de sillas confortables.",
+        "products": [
+          { "id": "laurel-base", "name": "LAUREL", "comercial_name": "Confortables LAUREL", "material": "Pendiente especificaciones", "description": "Silla confortable LAUREL. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "CONFORTABLES", "link": "/catalogo?categoria=confortables" }, { "label": "LAUREL", "link": "/catalogo?categoria=confortables&familia=laurel" }], "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop" }
         ]
       }
     },
