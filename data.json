@@ -2477,7 +2477,44 @@
         "id": "koppla",
         "name": "KOPPLA",
         "description": "Familia KOPPLA de sillas visitantes exterior.",
-        "products": []
+        "products": [
+          {
+            "id": "ohv-93",
+            "name": "OHV-93",
+            "comercial_name": "Visitantes Exterior OHV-93",
+            "material": "Polipropileno con imitación mimbre",
+            "description": "Silla visitante exterior KOPPLA modelo OHV-93. Respaldo, asiento y patas terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+            "specifications": {
+              "piezas": "Respaldo, asiento y patas terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+              "colores": "Blanco (W8), Gris (G6), Negro Grafito (K3), Café (N3)",
+              "capacidad": "Peso sugerido 130 kg",
+              "referencia": "EN581",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "recursos": {
+              "fotos": {
+                "nombre": "Fotos OHV-93",
+                "archivo": "ImagenesOHV-93.pdf"
+              },
+              "ficha_tecnica": {
+                "nombre": "Ficha Técnica OHV-93",
+                "archivo": "OHV-93FT.pdf"
+              },
+              "modelados_3d": [
+                {
+                  "tipo": "3DS",
+                  "archivo": "HONOLULU-OHV-93.3ds"
+                }
+              ]
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-93", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
       "solei": {
         "id": "solei",
