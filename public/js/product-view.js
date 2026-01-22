@@ -1,0 +1,333 @@
+/**
+ * Product View - Carga y muestra información de producto individual
+ * Basado en la estructura de datos organizados por categoría
+ */
+
+// Obtener parámetros de URL
+function getURLParams() {
+  const params = new URLSearchParams(window.location.search);
+  return {
+    categoria: params.get('categoria'),
+    familia: params.get('familia'),
+    producto: params.get('producto')
+  };
+}
+
+// Extraer colores del texto de material
+function extractColors(materialText) {
+  if (!materialText) return [];
+  
+  const colorPatterns = [
+    /color[es]*:\s*([^.]+)/i,
+    /Color:\s*([^.]+)/i
+  ];
+  
+  for (const pattern of colorPatterns) {
+    const match = materialText.match(pattern);
+    if (match) {
+      const colorsText = match[1];
+      // Extraer colores con códigos (ej: "blanco (W8)")
+      const colorMatches = colorsText.matchAll(/([^\(\),]+)\s*\(([^\)]+)\)/g);
+      const colors = [];
+      for (const colorMatch of colorMatches) {
+        colors.push({
+          name: colorMatch[1].trim(),
+          code: colorMatch[2].trim()
+        });
+      }
+      return colors;
+    }
+  }
+  
+  return [];
+}
+
+// Cargar producto
+async function loadProduct() {
+  const { categoria, familia, producto } = getURLParams();
+  
+  if (!categoria || !familia || !producto) {
+    showError('Parámetros de producto incompletos');
+    return;
+  }
+
+  try {
+    // Cargar datos de la categoría
+    const response = await fetch(`../src/data/categories/${categoria}.json`);
+    if (!response.ok) {
+      throw new Error('No se pudo cargar la categoría');
+    }
+    
+    const categoryData = await response.json();
+    const familyData = categoryData.families[familia];
+    
+    if (!familyData) {
+      throw new Error('Familia no encontrada');
+    }
+    
+    const productData = familyData.products.find(p => p.id === producto);
+    
+    if (!productData) {
+      throw new Error('Producto no encontrado');
+    }
+    
+    // Renderizar producto
+    renderProduct(productData, familyData, categoryData);
+    
+    // Cargar productos relacionados de la misma familia
+    loadRelatedProducts(familyData.products, productData.id);
+    
+  } catch (error) {
+    console.error('Error cargando producto:', error);
+    showError('No se pudo cargar el producto');
+  }
+}
+
+// Renderizar producto
+function renderProduct(product, family, category) {
+  // Título de página
+  document.getElementById('product-title').textContent = `${product.name} | Jemmsa`;
+  
+  // Breadcrumb
+  renderBreadcrumb(product.breadcrumb || []);
+  
+  // Encabezado
+  document.getElementById('collection-name').textContent = family.name;
+  document.getElementById('product-code').textContent = product.name;
+  
+  // Insignias
+  renderBadges(product);
+  
+  // Imagen principal
+  if (product.image) {
+    document.getElementById('main-image').src = product.image;
+    document.getElementById('main-image').alt = product.name;
+  }
+  
+  // Información del producto
+  document.getElementById('product-name').textContent = product.comercial_name || product.name;
+  document.getElementById('product-description').textContent = product.description || '';
+  
+  // Colores
+  const colors = extractColors(product.material);
+  if (colors.length > 0) {
+    renderColors(colors);
+  }
+  
+  // Especificaciones
+  renderSpecifications(product.specifications);
+  
+  // Descripción completa (material)
+  if (product.material) {
+    document.getElementById('material-description').textContent = product.material;
+  }
+  
+  // Modelados 3D
+  if (product.recursos?.modelados_3d && product.recursos.modelados_3d.length > 0) {
+    renderModels3D(product.recursos.modelados_3d);
+  }
+  
+  // Certificaciones
+  if (product.specifications?.referencia) {
+    renderCertifications(product.specifications.referencia);
+  }
+  
+  // Recursos de descarga
+  renderDownloads(product.recursos);
+  
+  // Nota general
+  if (product.specifications?.nota_general) {
+    const noteElement = document.getElementById('general-note');
+    noteElement.textContent = product.specifications.nota_general;
+    noteElement.classList.remove('hidden');
+  }
+}
+
+// Renderizar breadcrumb
+function renderBreadcrumb(breadcrumb) {
+  const container = document.getElementById('breadcrumb');
+  container.innerHTML = breadcrumb.map((item, index) => {
+    const isLast = index === breadcrumb.length - 1;
+    return `
+      ${index > 0 ? '<span class="text-slate-400">/</span>' : ''}
+      ${isLast 
+        ? `<span class="text-slate-900 font-medium">${item.label}</span>`
+        : `<a href="${item.link}" class="hover:text-blue-600 transition-colors">${item.label}</a>`
+      }
+    `;
+  }).join('');
+}
+
+// Renderizar insignias
+function renderBadges(product) {
+  const container = document.getElementById('badges-container');
+  const badges = [];
+  
+  // Protección UV (si está en el material)
+  if (product.material && /UV|ultravioleta/i.test(product.material)) {
+    badges.push(`
+      <span class="badge bg-yellow-100 text-yellow-800">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"/>
+        </svg>
+        Protección UV
+      </span>
+    `);
+  }
+  
+  // Certificación
+  if (product.specifications?.referencia) {
+    badges.push(`
+      <span class="badge bg-blue-100 text-blue-800">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+        </svg>
+        ${product.specifications.referencia}
+      </span>
+    `);
+  }
+  
+  container.innerHTML = badges.join('');
+}
+
+// Renderizar colores
+function renderColors(colors) {
+  const section = document.getElementById('colors-section');
+  const container = document.getElementById('colors-container');
+  
+  container.innerHTML = colors.map(color => `
+    <div class="flex items-center gap-2 px-4 py-2 bg-white rounded-lg border border-slate-200 shadow-sm">
+      <div class="w-8 h-8 rounded-full bg-gradient-to-br from-slate-200 to-slate-300 border border-slate-300"></div>
+      <div>
+        <p class="text-sm font-medium text-slate-900">${color.name}</p>
+        <p class="text-xs text-slate-500">${color.code}</p>
+      </div>
+    </div>
+  `).join('');
+  
+  section.classList.remove('hidden');
+}
+
+// Renderizar especificaciones
+function renderSpecifications(specs) {
+  if (!specs) return;
+  
+  if (specs.resistencia) {
+    document.getElementById('resistance-spec').classList.remove('hidden');
+    document.getElementById('resistance-value').textContent = specs.resistencia;
+  }
+  
+  if (specs.referencia) {
+    document.getElementById('reference-spec').classList.remove('hidden');
+    document.getElementById('reference-value').textContent = specs.referencia;
+  }
+}
+
+// Renderizar modelados 3D
+function renderModels3D(models) {
+  const accordion = document.getElementById('models-3d-accordion');
+  const list = document.getElementById('models-3d-list');
+  
+  list.innerHTML = models.map(file => {
+    const extension = file.split('.').pop().toUpperCase();
+    return `
+      <li class="flex items-center gap-3 p-2 hover:bg-slate-50 rounded">
+        <svg class="w-5 h-5 text-orange-600" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z" clip-rule="evenodd"/>
+          <path d="M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z"/>
+        </svg>
+        <span class="text-sm text-slate-700 flex-1">${file}</span>
+        <span class="text-xs font-medium text-orange-600 px-2 py-1 bg-orange-50 rounded">${extension}</span>
+      </li>
+    `;
+  }).join('');
+  
+  accordion.classList.remove('hidden');
+}
+
+// Renderizar certificaciones
+function renderCertifications(certification) {
+  const accordion = document.getElementById('certifications-accordion');
+  const content = document.getElementById('certifications-content');
+  
+  content.textContent = `Este producto cumple con los estándares de ${certification}.`;
+  accordion.classList.remove('hidden');
+}
+
+// Renderizar descargas
+function renderDownloads(recursos) {
+  if (!recursos) return;
+  
+  const downloads = [
+    { id: 'download-instructivo', key: 'instructivo', files: recursos.instructivo },
+    { id: 'download-fotos', key: 'fotos', files: recursos.fotos },
+    { id: 'download-ficha', key: 'ficha_tecnica', files: recursos.ficha_tecnica }
+  ];
+  
+  downloads.forEach(({ id, key, files }) => {
+    if (files && files.length > 0) {
+      const element = document.getElementById(id);
+      element.classList.remove('hidden');
+      // TODO: Configurar enlace real cuando estén disponibles los archivos
+      element.href = '#'; // Placeholder
+      element.onclick = (e) => {
+        e.preventDefault();
+        alert(`Descarga de ${key}: ${files.join(', ')}`);
+      };
+    }
+  });
+}
+
+// Cargar productos relacionados
+function loadRelatedProducts(allProducts, currentProductId) {
+  const relatedProducts = allProducts
+    .filter(p => p.id !== currentProductId)
+    .slice(0, 4); // Máximo 4 productos relacionados
+  
+  if (relatedProducts.length === 0) return;
+  
+  const section = document.getElementById('related-products-section');
+  const grid = document.getElementById('related-products-grid');
+  
+  grid.innerHTML = relatedProducts.map(product => `
+    <a href="producto.html?categoria=${getURLParams().categoria}&familia=${getURLParams().familia}&producto=${product.id}" 
+       class="group bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden hover:shadow-md hover:border-blue-400 transition-all">
+      <div class="aspect-square bg-slate-100">
+        <img src="${product.image || 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=400&auto=format&fit=crop'}" 
+             alt="${product.name}" 
+             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+      </div>
+      <div class="p-4">
+        <h3 class="font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">${product.name}</h3>
+        <p class="text-sm text-slate-500 mt-1 line-clamp-2">${product.description || ''}</p>
+      </div>
+    </a>
+  `).join('');
+  
+  section.classList.remove('hidden');
+}
+
+// Mostrar error
+function showError(message) {
+  const main = document.querySelector('main');
+  main.innerHTML = `
+    <div class="flex items-center justify-center min-h-[50vh]">
+      <div class="text-center">
+        <svg class="w-16 h-16 text-slate-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+        </svg>
+        <h2 class="text-2xl font-bold text-slate-900 mb-2">Producto no encontrado</h2>
+        <p class="text-slate-600 mb-6">${message}</p>
+        <a href="catalogo.html" class="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+          </svg>
+          Volver al Catálogo
+        </a>
+      </div>
+    </div>
+  `;
+}
+
+// Inicializar vista de producto
+document.addEventListener('DOMContentLoaded', loadProduct);

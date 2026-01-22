@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="product-title">Producto | Jemmsa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .thumbnail-active { border: 2px solid #3b82f6; opacity: 1; }
+    .thumbnail { opacity: 0.6; transition: opacity 0.2s; cursor: pointer; }
+    .thumbnail:hover { opacity: 1; }
+    .badge { @apply inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-medium; }
+  </style>
+</head>
+<body class="bg-slate-50">
+  <!-- Navbar Container -->
+  <div id="navbar-container"></div>
+
+  <!-- Header Container -->
+  <div id="header-container"></div>
+
+  <!-- Main Content -->
+  <main class="lg:ml-64 p-4 sm:p-6 lg:p-8">
+    <!-- Breadcrumb -->
+    <nav class="mb-6">
+      <ol id="breadcrumb" class="flex items-center gap-2 text-sm text-slate-600">
+        <!-- Cargado dinámicamente -->
+      </ol>
+    </nav>
+
+    <!-- Encabezado del Producto -->
+    <header class="mb-8">
+      <p id="collection-name" class="text-sm font-medium text-slate-500 uppercase tracking-wide mb-2">
+        <!-- Colección -->
+      </p>
+      <h1 id="product-code" class="text-3xl font-bold text-slate-900 mb-4">
+        <!-- Código del producto -->
+      </h1>
+      
+      <!-- Insignias -->
+      <div id="badges-container" class="flex flex-wrap gap-3">
+        <!-- Insignias dinámicas -->
+      </div>
+    </header>
+
+    <!-- Sección Principal: Dos Columnas -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+      
+      <!-- Columna Izquierda: Galería -->
+      <div class="space-y-4">
+        <!-- Imagen Principal -->
+        <div class="bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden aspect-square">
+          <img id="main-image" 
+               src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" 
+               alt="Producto" 
+               class="w-full h-full object-cover">
+        </div>
+        
+        <!-- Miniaturas -->
+        <div id="thumbnails-container" class="flex gap-2 overflow-x-auto pb-2">
+          <!-- Miniaturas dinámicas -->
+        </div>
+      </div>
+
+      <!-- Columna Derecha: Información -->
+      <div class="space-y-6">
+        
+        <!-- Título -->
+        <div>
+          <h2 id="product-name" class="text-2xl font-semibold text-slate-900 mb-2">
+            <!-- Nombre comercial -->
+          </h2>
+          <p id="product-description" class="text-slate-600">
+            <!-- Descripción corta -->
+          </p>
+        </div>
+
+        <!-- Colección de Terminados -->
+        <div id="colors-section" class="hidden">
+          <h3 class="text-sm font-semibold text-slate-700 uppercase tracking-wide mb-3">
+            Colores Disponibles
+          </h3>
+          <div id="colors-container" class="flex flex-wrap gap-3">
+            <!-- Colores dinámicos -->
+          </div>
+        </div>
+
+        <!-- Especificaciones -->
+        <div id="specs-section" class="space-y-2">
+          <div id="resistance-spec" class="hidden p-3 bg-slate-100 rounded-lg">
+            <span class="text-sm font-medium text-slate-700">Resistencia:</span>
+            <span id="resistance-value" class="text-sm text-slate-600 ml-2"></span>
+          </div>
+          <div id="reference-spec" class="hidden p-3 bg-slate-100 rounded-lg">
+            <span class="text-sm font-medium text-slate-700">Referencia:</span>
+            <span id="reference-value" class="text-sm text-slate-600 ml-2"></span>
+          </div>
+        </div>
+
+        <!-- Acordeones de Información -->
+        <div class="space-y-3">
+          
+          <!-- Descripción Completa -->
+          <details id="description-accordion" class="group bg-white rounded-lg shadow-sm border border-slate-200">
+            <summary class="cursor-pointer px-4 py-3 font-medium text-slate-900 hover:bg-slate-50 flex items-center justify-between">
+              <span>Descripción</span>
+              <svg class="w-5 h-5 text-slate-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="px-4 py-3 text-sm text-slate-600 border-t border-slate-200">
+              <p id="material-description"><!-- Material --></p>
+            </div>
+          </details>
+
+          <!-- Modelados 3D -->
+          <details id="models-3d-accordion" class="hidden group bg-white rounded-lg shadow-sm border border-slate-200">
+            <summary class="cursor-pointer px-4 py-3 font-medium text-slate-900 hover:bg-slate-50 flex items-center justify-between">
+              <span>Modelados 3D</span>
+              <svg class="w-5 h-5 text-slate-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="px-4 py-3 border-t border-slate-200">
+              <ul id="models-3d-list" class="space-y-2">
+                <!-- Lista de archivos 3D -->
+              </ul>
+            </div>
+          </details>
+
+          <!-- Certificaciones -->
+          <details id="certifications-accordion" class="hidden group bg-white rounded-lg shadow-sm border border-slate-200">
+            <summary class="cursor-pointer px-4 py-3 font-medium text-slate-900 hover:bg-slate-50 flex items-center justify-between">
+              <span>Certificaciones</span>
+              <svg class="w-5 h-5 text-slate-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="px-4 py-3 text-sm text-slate-600 border-t border-slate-200">
+              <p id="certifications-content"><!-- Certificaciones --></p>
+            </div>
+          </details>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Zona de Descargas -->
+    <section id="downloads-section" class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 mb-6">Descargas</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        
+        <!-- Instructivo -->
+        <a id="download-instructivo" href="#" class="hidden group relative bg-white rounded-lg shadow-sm border border-slate-200 p-6 hover:shadow-md hover:border-blue-400 transition-all">
+          <div class="flex items-center gap-4">
+            <div class="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+              <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-slate-900">Instructivo</h3>
+              <p class="text-sm text-slate-500">Manual de instalación</p>
+            </div>
+          </div>
+        </a>
+
+        <!-- Fotos -->
+        <a id="download-fotos" href="#" class="hidden group relative bg-white rounded-lg shadow-sm border border-slate-200 p-6 hover:shadow-md hover:border-green-400 transition-all">
+          <div class="flex items-center gap-4">
+            <div class="flex-shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+              <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-slate-900">Fotos</h3>
+              <p class="text-sm text-slate-500">Galería de imágenes</p>
+            </div>
+          </div>
+        </a>
+
+        <!-- Ficha Técnica -->
+        <a id="download-ficha" href="#" class="hidden group relative bg-white rounded-lg shadow-sm border border-slate-200 p-6 hover:shadow-md hover:border-purple-400 transition-all">
+          <div class="flex items-center gap-4">
+            <div class="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+              <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-slate-900">Ficha Técnica</h3>
+              <p class="text-sm text-slate-500">Especificaciones</p>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Productos Relacionados -->
+    <section id="related-products-section" class="hidden mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 mb-6">Productos Relacionados</h2>
+      <div id="related-products-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+        <!-- Productos relacionados dinámicos -->
+      </div>
+    </section>
+
+    <!-- Nota General -->
+    <div id="general-note" class="hidden text-center text-sm text-slate-500 py-4 border-t border-slate-200">
+      <!-- Nota general -->
+    </div>
+
+  </main>
+
+  <!-- Footer Container -->
+  <div id="footer-container"></div>
+
+  <!-- Scripts -->
+  <script src="../public/js/site.js"></script>
+  <script src="../public/js/product-view.js"></script>
+</body>
+</html>
