@@ -45,6 +45,7 @@ function extractColors(materialText) {
 // Cargar producto
 async function loadProduct() {
   let { categoria, familia, producto } = getURLParams();
+  const fallbacks = [];
 
   try {
     // Intentar cargar la categoría indicada; si falla, aplicar fallbacks
@@ -61,6 +62,7 @@ async function loadProduct() {
         if (resOp.ok) {
           categoryData = await resOp.json();
           categoria = 'operativos';
+          fallbacks.push('Categoría por defecto: operativos');
         }
       } catch {}
     }
@@ -77,6 +79,7 @@ async function loadProduct() {
             if (firstRes.ok) {
               categoryData = await firstRes.json();
               categoria = firstId;
+              fallbacks.push(`Categoría por defecto: ${firstId}`);
             }
           }
         }
@@ -96,6 +99,7 @@ async function loadProduct() {
       if (firstFamKey) {
         familyData = categoryData.families[firstFamKey];
         familia = firstFamKey;
+        fallbacks.push(`Familia por defecto: ${firstFamKey}`);
       }
     }
 
@@ -111,6 +115,7 @@ async function loadProduct() {
     if (!productData && Array.isArray(familyData.products) && familyData.products.length > 0) {
       productData = familyData.products[0];
       producto = productData.id;
+      fallbacks.push(`Producto por defecto: ${producto}`);
     }
 
     if (!productData) {
@@ -127,10 +132,24 @@ async function loadProduct() {
     // Cargar productos relacionados de la misma familia
     loadRelatedProducts(familyData.products, productData.id);
 
+    // Mostrar aviso si se aplicaron fallbacks
+    if (fallbacks.length > 0) {
+      showFallbackNotice(fallbacks);
+    }
+
   } catch (error) {
     console.error('Error cargando producto:', error);
     showError('No se pudo cargar el producto');
   }
+}
+
+// Mostrar aviso de fallbacks aplicados
+function showFallbackNotice(fallbacks) {
+  const note = document.getElementById('fallback-note');
+  if (!note) return;
+  const list = fallbacks.map(f => `• ${f}`).join(' ');
+  note.textContent = `Se aplicaron valores por defecto: ${list}`;
+  note.classList.remove('hidden');
 }
 
 // Renderizar producto
