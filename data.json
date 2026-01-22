@@ -2420,7 +2420,52 @@
         "id": "alissa",
         "name": "ALISSA",
         "description": "Familia ALISSA de sillas visitantes exterior.",
-        "products": []
+        "products": [
+          {
+            "id": "ohv-91",
+            "name": "OHV-91",
+            "comercial_name": "Visitantes Exterior OHV-91",
+            "material": "Polipropileno de alta resistencia",
+            "description": "Silla visitante exterior ALISSA modelo OHV-91. Respaldo, brazos, asiento y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+            "specifications": {
+              "piezas": "Respaldo, brazos, asiento y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+              "colores": "Blanco (W9), Gris (G6), Negro (K5), Verde (V5), Azul (B7), Azul Niebla (B9), Azul Turquesa (BF), Rojo (R4), Fucsia (R7), Amarillo (Y7), Ámbar (YF), Naranja (YB)",
+              "capacidad": "Peso sugerido 130 kg",
+              "referencia": "EN581",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "recursos": {
+              "fotos": {
+                "nombre": "Fotos OHV-91",
+                "archivo": "ImagenesOHV-91.pdf"
+              },
+              "ficha_tecnica": {
+                "nombre": "Ficha Técnica OHV-91",
+                "archivo": "OHV-91FT.jpg"
+              },
+              "modelados_3d": [
+                {
+                  "tipo": "DWG",
+                  "archivo": "OHV-91.dwg"
+                },
+                {
+                  "tipo": "OBJ",
+                  "archivo": "OHV-91.obj"
+                },
+                {
+                  "tipo": "3DS",
+                  "archivo": "MAUI-OHV-91.3ds"
+                }
+              ]
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-91", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
       "lavie": {
         "id": "lavie",
