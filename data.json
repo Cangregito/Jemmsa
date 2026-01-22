@@ -3459,22 +3459,9 @@
         "name": "ELLITICO",
         "description": "Familia ELLITICO de sillas escolares.",
         "products": [
-          {
-            "id": "ellitico-base",
-            "name": "ELLITICO",
-            "comercial_name": "Escolar ELLITICO",
-            "material": "Pendiente especificaciones",
-            "description": "Silla escolar ELLITICO. Información detallada pendiente.",
-            "specifications": {
-              "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "breadcrumb": [
-              { "label": "Home", "link": "/" },
-              { "label": "ESCOLAR", "link": "/catalogo?categoria=escolar" },
-              { "label": "ELLITICO", "link": "#" }
-            ],
-            "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
-          }
+          { "id": "ohp-2200", "name": "OHP-2200", "comercial_name": "Escolar ELLITICO OHP-2200", "material": "Pendiente especificaciones", "description": "Silla escolar ELLITICO modelo OHP-2200. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "ESCOLAR", "link": "/catalogo?categoria=escolar" }, { "label": "ELLITICO", "link": "/catalogo?categoria=escolar&familia=ellitico" }, { "label": "OHP-2200", "link": "#" }], "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop" },
+          { "id": "ohp-2302", "name": "OHP-2302", "comercial_name": "Escolar ELLITICO OHP-2302", "material": "Pendiente especificaciones", "description": "Silla escolar ELLITICO modelo OHP-2302. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "ESCOLAR", "link": "/catalogo?categoria=escolar" }, { "label": "ELLITICO", "link": "/catalogo?categoria=escolar&familia=ellitico" }, { "label": "OHP-2302", "link": "#" }], "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop" },
+          { "id": "ohp-2320", "name": "OHP-2320", "comercial_name": "Escolar ELLITICO OHP-2320", "material": "Pendiente especificaciones", "description": "Silla escolar ELLITICO modelo OHP-2320. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "ESCOLAR", "link": "/catalogo?categoria=escolar" }, { "label": "ELLITICO", "link": "/catalogo?categoria=escolar&familia=ellitico" }, { "label": "OHP-2320", "link": "#" }], "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop" }
         ]
       },
       "innova": {
