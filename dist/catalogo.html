@@ -1435,13 +1435,13 @@
           <div class="p-4 space-y-1">
             <h3 class="text-lg font-medium">${product.name}</h3>
             <p class="text-slate-500 text-sm">${product.material}</p>
-            ${product.description ? `<button class="mt-2 text-blue-600 text-sm font-medium hover:text-blue-800">Ver detalles →</button>` : ''}
+            ${product.description ? `<button class="mt-2 text-sm font-medium transition-colors" style="color: #1FA3D6;" onmouseover="this.style.color='#C62828'" onmouseout="this.style.color='#1FA3D6'">Ver detalles →</button>` : ''}
           </div>
         `;
 
         if (product.description) {
           article.addEventListener('click', () => {
-            showProductModal(product);
+            navigateToProduct(product);
           });
         }
 
@@ -1475,13 +1475,13 @@
             <div class="p-4 space-y-1">
               <h3 class="text-lg font-medium">${product.name}</h3>
               <p class="text-slate-500 text-sm">${product.material}</p>
-              ${product.description ? `<button class="mt-2 text-blue-600 text-sm font-medium hover:text-blue-800">Ver detalles →</button>` : ''}
+              ${product.description ? `<button class="mt-2 text-sm font-medium transition-colors" style="color: #1FA3D6;" onmouseover="this.style.color='#C62828'" onmouseout="this.style.color='#1FA3D6'">Ver detalles →</button>` : ''}
             </div>
           `;
           
           if (product.description) {
             article.addEventListener('click', () => {
-              showProductModal(product);
+              navigateToProduct(product);
             });
           }
           
@@ -1531,12 +1531,12 @@
             <div class="p-4 space-y-1">
               <h3 class="text-lg font-medium">${prod.name}</h3>
               <p class="text-slate-500 text-sm">${prod.material}</p>
-              <button class="mt-2 text-blue-600 text-sm font-medium hover:text-blue-800">Ver detalles →</button>
+              <button class="mt-2 text-sm font-medium transition-colors" style="color: #1FA3D6;" onmouseover="this.style.color='#C62828'" onmouseout="this.style.color='#1FA3D6'">Ver detalles →</button>
             </div>
           `;
           
           article.addEventListener('click', () => {
-            showProductModal(product);
+            navigateToProduct(product);
           });
           
           grid.appendChild(article);
@@ -1593,7 +1593,7 @@
               <div class="p-4 space-y-1">
                 <h3 class="text-lg font-medium">${prod.name}</h3>
                 <p class="text-slate-500 text-sm">${prod.material}</p>
-                <button class="mt-2 text-blue-600 text-sm font-medium hover:text-blue-800">Ver detalles →</button>
+                <button class="mt-2 text-sm font-medium transition-colors" style="color: #1FA3D6;" onmouseover="this.style.color='#C62828'" onmouseout="this.style.color='#1FA3D6'">Ver detalles →</button>
               </div>
             `;
             grid.appendChild(article);
@@ -1607,11 +1607,11 @@
               <div class="p-4 space-y-1">
                 <h3 class="text-lg font-medium">${prod.name}</h3>
                 <p class="text-slate-500 text-sm">${prod.material}</p>
-                <button class="mt-2 text-blue-600 text-sm font-medium hover:text-blue-800">Ver detalles →</button>
+                <button class="mt-2 text-sm font-medium transition-colors" style="color: #1FA3D6;" onmouseover="this.style.color='#C62828'" onmouseout="this.style.color='#1FA3D6'">Ver detalles →</button>
               </div>
             `;
             article.addEventListener('click', () => {
-              showProductModal(product);
+              navigateToProduct(product);
             });
             grid.appendChild(article);
           }
@@ -1680,11 +1680,11 @@
               <div class="p-4 space-y-1">
                 <h3 class="text-lg font-medium">${prod.name}</h3>
                 <p class="text-slate-500 text-sm">${prod.material}</p>
-                <button class="mt-2 text-blue-600 text-sm font-medium hover:text-blue-800">Ver detalles →</button>
+                <button class="mt-2 text-sm font-medium transition-colors" style="color: #1FA3D6;" onmouseover="this.style.color='#C62828'" onmouseout="this.style.color='#1FA3D6'">Ver detalles →</button>
               </div>
             `;
             article.addEventListener('click', () => {
-              showProductModal(product);
+              navigateToProduct(product);
             });
             grid.appendChild(article);
           });
@@ -1704,6 +1704,23 @@
         specifications: product.specifications || { nota: 'Especificaciones pendientes' },
         recursos: product.recursos || null
       };
+    }
+
+    // Función para navegar a la página de producto individual
+    function navigateToProduct(product) {
+      // Usar breadcrumb para obtener categoría y familia
+      const categoria = breadcrumb.category;
+      const familia = breadcrumb.subsubcategory || breadcrumb.subcategory;
+      const productoId = product.id;
+      
+      if (!categoria || !familia || !productoId) {
+        console.error('Faltan parámetros para navegar:', { categoria, familia, productoId });
+        return;
+      }
+      
+      // Construir URL y navegar
+      const url = `producto.html?categoria=${encodeURIComponent(categoria)}&familia=${encodeURIComponent(familia)}&producto=${encodeURIComponent(productoId)}`;
+      window.location.href = url;
     }
 
     function showProductModal(product) {
