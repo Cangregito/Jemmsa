@@ -44,39 +44,89 @@ function extractColors(materialText) {
 
 // Cargar producto
 async function loadProduct() {
-  const { categoria, familia, producto } = getURLParams();
-  
-  if (!categoria || !familia || !producto) {
-    showError('Parámetros de producto incompletos');
-    return;
-  }
+  let { categoria, familia, producto } = getURLParams();
 
   try {
-    // Cargar datos de la categoría
-    const response = await fetch(`../src/data/categories/${categoria}.json`);
-    if (!response.ok) {
+    // Intentar cargar la categoría indicada; si falla, aplicar fallbacks
+    let categoryData = null;
+    if (categoria) {
+      const res = await fetch(`../src/data/categories/${categoria}.json`);
+      if (res.ok) categoryData = await res.json();
+    }
+
+    if (!categoryData) {
+      // Fallback: usar 'operativos' si existe
+      try {
+        const resOp = await fetch(`../src/data/categories/operativos.json`);
+        if (resOp.ok) {
+          categoryData = await resOp.json();
+          categoria = 'operativos';
+        }
+      } catch {}
+    }
+
+    if (!categoryData) {
+      // Fallback: primera categoría del índice
+      try {
+        const idxRes = await fetch(`../src/data/categories/index.json`);
+        if (idxRes.ok) {
+          const idx = await idxRes.json();
+          const firstId = idx.categories?.[0]?.id;
+          if (firstId) {
+            const firstRes = await fetch(`../src/data/categories/${firstId}.json`);
+            if (firstRes.ok) {
+              categoryData = await firstRes.json();
+              categoria = firstId;
+            }
+          }
+        }
+      } catch {}
+    }
+
+    if (!categoryData) {
       throw new Error('No se pudo cargar la categoría');
     }
-    
-    const categoryData = await response.json();
-    const familyData = categoryData.families[familia];
-    
+
+    // Resolver familia
+    let familyData = null;
+    if (familia && categoryData.families && categoryData.families[familia]) {
+      familyData = categoryData.families[familia];
+    } else {
+      const firstFamKey = Object.keys(categoryData.families || {})[0];
+      if (firstFamKey) {
+        familyData = categoryData.families[firstFamKey];
+        familia = firstFamKey;
+      }
+    }
+
     if (!familyData) {
       throw new Error('Familia no encontrada');
     }
-    
-    const productData = familyData.products.find(p => p.id === producto);
-    
+
+    // Resolver producto
+    let productData = null;
+    if (producto) {
+      productData = (familyData.products || []).find(p => p.id === producto);
+    }
+    if (!productData && Array.isArray(familyData.products) && familyData.products.length > 0) {
+      productData = familyData.products[0];
+      producto = productData.id;
+    }
+
     if (!productData) {
       throw new Error('Producto no encontrado');
     }
-    
+
+    // Actualizar la URL con los parámetros efectivos (sin recargar)
+    const newSearch = `?categoria=${encodeURIComponent(categoria)}&familia=${encodeURIComponent(familia)}&producto=${encodeURIComponent(producto)}`;
+    window.history.replaceState(null, '', window.location.pathname + newSearch);
+
     // Renderizar producto
     renderProduct(productData, familyData, categoryData);
-    
+
     // Cargar productos relacionados de la misma familia
     loadRelatedProducts(familyData.products, productData.id);
-    
+
   } catch (error) {
     console.error('Error cargando producto:', error);
     showError('No se pudo cargar el producto');
@@ -92,21 +142,26 @@ function renderProduct(product, family, category) {
   renderBreadcrumb(product.breadcrumb || []);
   
   // Encabezado
-  document.getElementById('collection-name').textContent = family.name;
-  document.getElementById('product-code').textContent = product.name;
+  const collectionEl = document.getElementById('collection-name');
+  if (collectionEl) collectionEl.textContent = family.name || '';
+  const codeEl = document.getElementById('product-code');
+  if (codeEl) codeEl.textContent = product.name || '';
   
   // Insignias
   renderBadges(product);
   
   // Imagen principal
-  if (product.image) {
-    document.getElementById('main-image').src = product.image;
-    document.getElementById('main-image').alt = product.name;
+  const mainImg = document.getElementById('main-image');
+  if (mainImg && product.image) {
+    mainImg.src = product.image;
+    mainImg.alt = product.name || 'Producto';
   }
   
   // Información del producto
-  document.getElementById('product-name').textContent = product.comercial_name || product.name;
-  document.getElementById('product-description').textContent = product.description || '';
+  const nameEl = document.getElementById('product-name');
+  if (nameEl) nameEl.textContent = product.comercial_name || product.name || '';
+  const descEl = document.getElementById('product-description');
+  if (descEl) descEl.textContent = product.description || '';
   
   // Colores
   const colors = extractColors(product.material);
@@ -119,7 +174,8 @@ function renderProduct(product, family, category) {
   
   // Descripción completa (material)
   if (product.material) {
-    document.getElementById('material-description').textContent = product.material;
+    const matEl = document.getElementById('material-description');
+    if (matEl) matEl.textContent = product.material;
   }
   
   // Modelados 3D
