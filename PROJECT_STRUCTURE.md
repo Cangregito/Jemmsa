@@ -24,10 +24,10 @@ jemmsa/
 │   │       └── escolar.json
 │   ├── components/               # Componentes reutilizables
 │   ├── layouts/                  # Plantillas de diseño
-│   ├── pages/                    # Páginas estáticas
-│   ├── header.html
-│   ├── navbar.html
-│   └── footer.html
+│   └── pages/                    # Páginas estáticas
+│       ├── header.html
+│       ├── navbar.html
+│       └── footer.html
 ├── public/                       # Archivos estáticos públicos
 │   ├── img/                      # Imágenes
 │   └── js/                       # JavaScript del cliente

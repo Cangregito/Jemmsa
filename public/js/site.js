@@ -61,9 +61,9 @@ function initResponsiveNav() {
 
 async function initSite() {
   await Promise.all([
-    loadComponent('header-container', '../src/header.html'),
-    loadComponent('navbar-container', '../src/navbar.html'),
-    loadComponent('footer-container', '../src/footer.html')
+    loadComponent('header-container', '../src/pages/header.html'),
+    loadComponent('navbar-container', '../src/pages/navbar.html'),
+    loadComponent('footer-container', '../src/pages/footer.html')
   ]);
   initResponsiveNav();
 }
