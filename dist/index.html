@@ -14,6 +14,15 @@
   <title>Jemmsa | Mobiliario Corporativo Moderno</title>
   <link rel="icon" type="image/png" href="./public/img/Logo.png" />
   
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RNW2ZEEL4S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RNW2ZEEL4S');
+  </script>
+  
   <!-- JSON-LD Schema -->
   <script type="application/ld+json">
     {
@@ -42,6 +51,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" as="style">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" as="style">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -209,6 +220,43 @@
           <p class="text-lg text-brand-muted dark:text-slate-400">Elige el canal que prefieras. Nuestro equipo responde en horario laboral.</p>
         </div>
 
+        <!-- Contact Form -->
+        <div class="max-w-2xl mx-auto rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/60 p-8 shadow-card space-y-6">
+          <h3 class="font-display text-2xl font-bold text-brand-base dark:text-white">Envía tu consulta</h3>
+          <form id="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="space-y-4">
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div class="space-y-2">
+                <label for="name" class="block text-sm font-medium text-brand-base dark:text-white">Nombre completo</label>
+                <input type="text" id="name" name="name" required placeholder="Tu nombre" class="w-full px-4 py-2 rounded-lg border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base text-brand-base dark:text-white placeholder-brand-muted focus:ring-2 focus:ring-brand-primary outline-none transition-all" />
+              </div>
+              <div class="space-y-2">
+                <label for="email" class="block text-sm font-medium text-brand-base dark:text-white">Email</label>
+                <input type="email" id="email" name="email" required placeholder="tu@email.com" class="w-full px-4 py-2 rounded-lg border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base text-brand-base dark:text-white placeholder-brand-muted focus:ring-2 focus:ring-brand-primary outline-none transition-all" />
+              </div>
+            </div>
+            <div class="space-y-2">
+              <label for="phone" class="block text-sm font-medium text-brand-base dark:text-white">Teléfono (opcional)</label>
+              <input type="tel" id="phone" name="phone" placeholder="656-000-00-00" class="w-full px-4 py-2 rounded-lg border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base text-brand-base dark:text-white placeholder-brand-muted focus:ring-2 focus:ring-brand-primary outline-none transition-all" />
+            </div>
+            <div class="space-y-2">
+              <label for="subject" class="block text-sm font-medium text-brand-base dark:text-white">Asunto</label>
+              <input type="text" id="subject" name="subject" required placeholder="¿En qué podemos ayudarte?" class="w-full px-4 py-2 rounded-lg border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base text-brand-base dark:text-white placeholder-brand-muted focus:ring-2 focus:ring-brand-primary outline-none transition-all" />
+            </div>
+            <div class="space-y-2">
+              <label for="message" class="block text-sm font-medium text-brand-base dark:text-white">Mensaje</label>
+              <textarea id="message" name="message" required rows="4" placeholder="Cuéntanos sobre tu proyecto..." class="w-full px-4 py-2 rounded-lg border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base text-brand-base dark:text-white placeholder-brand-muted focus:ring-2 focus:ring-brand-primary outline-none transition-all resize-none"></textarea>
+            </div>
+            <button type="submit" class="w-full px-6 py-3 rounded-full bg-brand-primary text-white font-semibold hover:shadow-card-strong transition-all">
+              Enviar consulta
+            </button>
+            <p class="text-xs text-brand-muted dark:text-slate-400 text-center">Responderemos en máximo 24 horas hábiles</p>
+          </form>
+        </div>
+
+        <div class="text-center max-w-3xl mx-auto space-y-4">
+          <p class="text-sm uppercase tracking-widest text-brand-primary font-semibold">O contáctanos directamente</p>
+        </div>
+
         <div class="grid lg:grid-cols-3 gap-6">
           <!-- Llamada Directa -->
           <div class="rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/60 p-6 shadow-card space-y-3">
@@ -350,15 +398,15 @@
           <!-- Product Card 1 -->
           <div class="group rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/50 overflow-hidden shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all">
             <div class="aspect-[4/3] overflow-hidden bg-brand-primary/5">
-              <img src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=900&auto=format&fit=crop" alt="Ergo Directiva" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <img src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=900&auto=format&fit=crop" alt="Silla ALUFSEN OHE-405 - Silla Directiva Ergonómica" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
             </div>
             <div class="p-6 space-y-4">
               <div class="flex items-start justify-between">
                 <h3 class="font-display text-lg font-bold">ALUFSEN OHE-405 · Ergo Directiva</h3>
-                <span class="text-xs px-3 py-1 rounded-full bg-brand-primary/10 text-brand-primary font-semibold">Disponible</span>
+                <span class="text-xs px-3 py-1 rounded-full bg-brand-primary/10 text-brand-primary font-semibold" aria-label="Producto disponible">Disponible</span>
               </div>
               <p class="text-sm text-brand-muted dark:text-slate-400">Respaldo alto, soporte lumbar, tapiz premium. Ideal para liderazgo.</p>
-              <a href="./producto.html?categoria=directivos&familia=alufsen&producto=ohe-405" class="inline-flex text-sm font-semibold text-brand-primary hover:translate-x-0.5 transition-transform">
+              <a href="./producto.html?categoria=directivos&familia=alufsen&producto=ohe-405" class="inline-flex text-sm font-semibold text-brand-primary hover:translate-x-0.5 transition-transform" aria-label="Ver detalles del producto ALUFSEN OHE-405">
                 Ver detalles →
               </a>
             </div>
@@ -367,15 +415,15 @@
           <!-- Product Card 2 -->
           <div class="group rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/50 overflow-hidden shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all">
             <div class="aspect-[4/3] overflow-hidden bg-brand-warning/5">
-              <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=900&auto=format&fit=crop" alt="Workstations" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=900&auto=format&fit=crop" alt="Estación de trabajo QUO OHE-805 - Silla Ejecutiva" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
             </div>
             <div class="p-6 space-y-4">
               <div class="flex items-start justify-between">
                 <h3 class="font-display text-lg font-bold">QUO OHE-805 · Ejecutiva</h3>
-                <span class="text-xs px-3 py-1 rounded-full bg-brand-warning text-brand-base font-semibold">Nuevo</span>
+                <span class="text-xs px-3 py-1 rounded-full bg-brand-warning text-brand-base font-semibold" aria-label="Producto nuevo">Nuevo</span>
               </div>
               <p class="text-sm text-brand-muted dark:text-slate-400">Configuraciones flexibles con gestión de cableado y acústica.</p>
-              <a href="./producto.html?categoria=ejecutivos&familia=quo&producto=ohe-805negro" class="inline-flex text-sm font-semibold text-brand-primary hover:translate-x-0.5 transition-transform">
+              <a href="./producto.html?categoria=ejecutivos&familia=quo&producto=ohe-805negro" class="inline-flex text-sm font-semibold text-brand-primary hover:translate-x-0.5 transition-transform" aria-label="Ver detalles del producto QUO OHE-805">
                 Ver detalles →
               </a>
             </div>
@@ -384,15 +432,15 @@
           <!-- Product Card 3 -->
           <div class="group rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/50 overflow-hidden shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all">
             <div class="aspect-[4/3] overflow-hidden bg-brand-accent/5">
-              <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=900&auto=format&fit=crop" alt="Salas Colaborativas" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=900&auto=format&fit=crop" alt="Salas colaborativas EVOLUTION OHE-99 - Silla Operativa" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
             </div>
             <div class="p-6 space-y-4">
               <div class="flex items-start justify-between">
                 <h3 class="font-display text-lg font-bold">EVOLUTION OHE-99 · Operativa</h3>
-                <span class="text-xs px-3 py-1 rounded-full bg-brand-accent/10 text-brand-accent font-semibold">Destacado</span>
+                <span class="text-xs px-3 py-1 rounded-full bg-brand-accent/10 text-brand-accent font-semibold" aria-label="Producto destacado">Destacado</span>
               </div>
               <p class="text-sm text-brand-muted dark:text-slate-400">Soft seating, mesas altas y pizarras para equipos híbridos.</p>
-              <a href="./producto.html?categoria=operativos&familia=evolution&producto=ohe-99negro" class="inline-flex text-sm font-semibold text-brand-primary hover:translate-x-0.5 transition-transform">
+              <a href="./producto.html?categoria=operativos&familia=evolution&producto=ohe-99negro" class="inline-flex text-sm font-semibold text-brand-primary hover:translate-x-0.5 transition-transform" aria-label="Ver detalles del producto EVOLUTION OHE-99">
                 Ver detalles →
               </a>
             </div>
