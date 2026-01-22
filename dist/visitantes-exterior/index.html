@@ -57,7 +57,7 @@
     // Load families from data.json
     async function loadFamilies() {
       try {
-        const response = await fetch('/data.json');
+        const response = await fetch('../data.json');
         const data = await response.json();
         const families = data.categorias['visitantes-exterior'].families || [];
         const container = document.getElementById('families-container');
