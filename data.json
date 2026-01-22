@@ -2896,25 +2896,182 @@
         "id": "milan",
         "name": "MILAN",
         "description": "Familia MILAN de sillas visitantes exterior.",
-        "products": []
+        "products": [
+          {
+            "id": "ohv-74",
+            "name": "OHV-74",
+            "comercial_name": "Visitantes Exterior OHV-74",
+            "material": "Polipropileno de alta resistencia",
+            "description": "Silla visitante exterior MILAN modelo OHV-74. Patas, asiento y respaldo de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+            "specifications": {
+              "piezas": "Patas, asiento y respaldo de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+              "colores": "Blanco (W9), Gris (G6), Azul Niebla (B9), Rojo (R1), Naranja (YB)",
+              "capacidad": "Peso sugerido 130 kg",
+              "referencia": "BIFMA",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "recursos": {
+              "fotos": {
+                "nombre": "Fotos OHV-74",
+                "archivo": "ImagenesOHV-74.pdf"
+              },
+              "ficha_tecnica": {
+                "nombre": "Ficha Técnica OHV-74",
+                "archivo": "OHV-74FT.jpg"
+              },
+              "modelados_3d": [
+                {
+                  "tipo": "DWG",
+                  "archivo": "OHV-74_DWG.dwg"
+                },
+                {
+                  "tipo": "OBJ",
+                  "archivo": "OHV-74_OBJ.obj"
+                }
+              ]
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-74", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
       "joyous": {
         "id": "joyous",
         "name": "JOYOUS",
         "description": "Familia JOYOUS de sillas visitantes exterior.",
-        "products": []
+        "products": [
+          {
+            "id": "ohv-81",
+            "name": "OHV-81",
+            "comercial_name": "Visitantes Exterior OHV-81",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante exterior JOYOUS modelo OHV-81. Información detallada pendiente.",
+            "specifications": { "nota": "El color puede variar dependiendo de su monitor" },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-81", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-82",
+            "name": "OHV-82",
+            "comercial_name": "Visitantes Exterior OHV-82",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante exterior JOYOUS modelo OHV-82. Información detallada pendiente.",
+            "specifications": { "nota": "El color puede variar dependiendo de su monitor" },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-82", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-83",
+            "name": "OHV-83",
+            "comercial_name": "Visitantes Exterior OHV-83",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante exterior JOYOUS modelo OHV-83. Información detallada pendiente.",
+            "specifications": { "nota": "El color puede variar dependiendo de su monitor" },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-83", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
       "hawaii": {
         "id": "hawaii",
         "name": "HAWAII",
         "description": "Familia HAWAII de sillas visitantes exterior.",
-        "products": []
+        "products": [
+          {
+            "id": "ohv-7031",
+            "name": "OHV-7031",
+            "comercial_name": "Visitantes Exterior OHV-7031",
+            "material": "Polipropileno con imitación mimbre",
+            "description": "Silla visitante exterior HAWAII modelo OHV-7031. Patas, asiento y respaldo terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+            "specifications": {
+              "piezas": "Patas, asiento y respaldo terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+              "colores": "Blanco (W8), Gris (G6), Café (N3), Negro (K3)",
+              "capacidad": "Peso sugerido 130 kg",
+              "referencia": "EN581",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "recursos": {
+              "fotos": {
+                "nombre": "Fotos OHV-7031",
+                "archivo": "ImagenesOHV-7031.pdf"
+              },
+              "ficha_tecnica": {
+                "nombre": "Ficha Técnica OHV-7031",
+                "archivo": "OHV-7031FT.jpg"
+              }
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-7031", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
       "tahiti": {
         "id": "tahiti",
         "name": "TAHITI",
         "description": "Familia TAHITI de sillas visitantes exterior.",
-        "products": []
+        "products": [
+          {
+            "id": "ohv-7030",
+            "name": "OHV-7030",
+            "comercial_name": "Visitantes Exterior OHV-7030",
+            "material": "Polipropileno con imitación mimbre",
+            "description": "Silla visitante exterior TAHITI modelo OHV-7030. Respaldo, asiento y patas terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
+            "specifications": {
+              "piezas": "Respaldo, asiento y patas terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
+              "colores": "Blanco (W8), Gris (G6), Café (N3), Negro (K3), Pistache (V4), Ámbar (YF)",
+              "capacidad": "Peso sugerido 130 kg",
+              "estibadas": "OHV-7030 caja 360",
+              "referencia": "EN581",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "recursos": {
+              "instructivo": {
+                "nombre": "Instructivo OHV-7030",
+                "archivo": "InstructivoOHV-7030.jpg"
+              },
+              "fotos": {
+                "nombre": "Fotos OHM-7030",
+                "archivo": "ImagenesOHM-7030.pdf"
+              },
+              "ficha_tecnica": {
+                "nombre": "Ficha Técnica OHV-7030",
+                "archivo": "OHV-7030FT.jpg"
+              },
+              "modelados_3d": [
+                {
+                  "tipo": "OBJ",
+                  "archivo": "THAHITI-OHV-7030.obj"
+                }
+              ]
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-7030", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       }
     },
     "mesas": {
@@ -2969,17 +3126,73 @@
       }
     },
     "bancas": {
-      "bancas-1": {
-        "id": "bancas-1",
-        "name": "Bancas",
-        "description": "Familia de Bancas.",
+      "innova": {
+        "id": "innova",
+        "name": "INNOVA",
+        "description": "Familia INNOVA de bancas.",
         "products": [
           {
-            "id": "banca-modular-3p",
-            "name": "Banca Modular 3 Plazas",
-            "material": "Tapizado y estructura",
-            "description": "Banca modular de 3 plazas en tapizado y estructura.",
-            "specifications": { "capacidad": "3 personas" },
+            "id": "ohr-2700-3p",
+            "name": "OHR-2700-3P",
+            "comercial_name": "Banca INNOVA OHR-2700-3P",
+            "material": "Pendiente especificaciones",
+            "description": "Banca INNOVA modelo OHR-2700-3P. Información detallada pendiente.",
+            "specifications": {
+              "plazas": "3 plazas",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "BANCAS", "link": "/catalogo?categoria=bancas" },
+              { "label": "OHR-2700-3P", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "ellitico": {
+        "id": "ellitico",
+        "name": "ELLITICO",
+        "description": "Familia ELLITICO de bancas.",
+        "products": [
+          {
+            "id": "ohr-2200-3p",
+            "name": "OHR-2200-3P",
+            "comercial_name": "Banca ELLITICO OHR-2200-3P",
+            "material": "Pendiente especificaciones",
+            "description": "Banca ELLITICO modelo OHR-2200-3P. Información detallada pendiente.",
+            "specifications": {
+              "plazas": "3 plazas",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "BANCAS", "link": "/catalogo?categoria=bancas" },
+              { "label": "OHR-2200-3P", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "ivy": {
+        "id": "ivy",
+        "name": "IVY",
+        "description": "Familia IVY de bancas.",
+        "products": [
+          {
+            "id": "ivy",
+            "name": "Ivy",
+            "comercial_name": "Banca IVY",
+            "material": "Pendiente especificaciones",
+            "description": "Banca IVY. Información detallada pendiente.",
+            "specifications": {
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "BANCAS", "link": "/catalogo?categoria=bancas" },
+              { "label": "Ivy", "link": "#" }
+            ],
             "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
           }
         ]
