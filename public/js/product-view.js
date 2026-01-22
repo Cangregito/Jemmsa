@@ -152,7 +152,7 @@ function renderBreadcrumb(breadcrumb) {
       ${index > 0 ? '<span class="text-slate-400">/</span>' : ''}
       ${isLast 
         ? `<span class="text-slate-900 font-medium">${item.label}</span>`
-        : `<a href="${item.link}" class="hover:text-blue-600 transition-colors">${item.label}</a>`
+        : `<a href="${item.link}" class="hover:text-primary transition-colors">${item.label}</a>`
       }
     `;
   }).join('');
@@ -166,7 +166,7 @@ function renderBadges(product) {
   // Protección UV (si está en el material)
   if (product.material && /UV|ultravioleta/i.test(product.material)) {
     badges.push(`
-      <span class="badge bg-yellow-100 text-yellow-800">
+      <span class="badge" style="background-color: rgba(244, 227, 0, 0.15); color: #B8A000;">
         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
           <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"/>
         </svg>
@@ -178,7 +178,7 @@ function renderBadges(product) {
   // Certificación
   if (product.specifications?.referencia) {
     badges.push(`
-      <span class="badge bg-blue-100 text-blue-800">
+      <span class="badge" style="background-color: rgba(31, 163, 214, 0.15); color: #1FA3D6;">
         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
           <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
         </svg>
@@ -196,7 +196,7 @@ function renderColors(colors) {
   const container = document.getElementById('colors-container');
   
   container.innerHTML = colors.map(color => `
-    <div class="flex items-center gap-2 px-4 py-2 bg-white rounded-lg border border-slate-200 shadow-sm">
+    <div class="flex items-center gap-2 px-4 py-2 bg-white rounded-lg border border-light shadow-sm">
       <div class="w-8 h-8 rounded-full bg-gradient-to-br from-slate-200 to-slate-300 border border-slate-300"></div>
       <div>
         <p class="text-sm font-medium text-slate-900">${color.name}</p>
@@ -292,14 +292,14 @@ function loadRelatedProducts(allProducts, currentProductId) {
   grid.innerHTML = relatedProducts.map(product => `
     <a href="producto.html?categoria=${getURLParams().categoria}&familia=${getURLParams().familia}&producto=${product.id}" 
        class="group bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden hover:shadow-md hover:border-blue-400 transition-all">
-      <div class="aspect-square bg-slate-100">
+      <div class="aspect-square bg-neutral-50">
         <img src="${product.image || 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=400&auto=format&fit=crop'}" 
              alt="${product.name}" 
              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
       </div>
       <div class="p-4">
-        <h3 class="font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">${product.name}</h3>
-        <p class="text-sm text-slate-500 mt-1 line-clamp-2">${product.description || ''}</p>
+        <h3 class="font-semibold text-primary group-hover:text-accent transition-colors">${product.name}</h3>
+        <p class="text-sm text-secondary mt-1 line-clamp-2">${product.description || ''}</p>
       </div>
     </a>
   `).join('');
@@ -313,12 +313,12 @@ function showError(message) {
   main.innerHTML = `
     <div class="flex items-center justify-center min-h-[50vh]">
       <div class="text-center">
-        <svg class="w-16 h-16 text-slate-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg class="w-16 h-16 text-secondary mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
         </svg>
-        <h2 class="text-2xl font-bold text-slate-900 mb-2">Producto no encontrado</h2>
-        <p class="text-slate-600 mb-6">${message}</p>
-        <a href="catalogo.html" class="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+        <h2 class="text-2xl font-bold text-primary mb-2">Producto no encontrado</h2>
+        <p class="text-secondary mb-6">${message}</p>
+        <a href="catalogo.html" class="inline-flex items-center gap-2 px-6 py-3 rounded-lg transition-colors" style="background-color: #1FA3D6; color: white;" onmouseover="this.style.backgroundColor='#1B8EBE'" onmouseout="this.style.backgroundColor='#1FA3D6'">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
           </svg>
