@@ -2322,7 +2322,50 @@
         "id": "rue",
         "name": "RUE",
         "description": "Familia RUE de sillas visitantes exterior.",
-        "products": []
+        "products": [
+          {
+            "id": "ohv-92",
+            "name": "OHV-92",
+            "comercial_name": "Visitantes Exterior OHV-92",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante exterior RUE modelo OHV-92. Información detallada pendiente.",
+            "specifications": { "nota": "El color puede variar dependiendo de su monitor" },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-92", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-7036b",
+            "name": "OHV-7036B",
+            "comercial_name": "Visitantes Exterior OHV-7036B",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante exterior RUE modelo OHV-7036B. Información detallada pendiente.",
+            "specifications": { "nota": "El color puede variar dependiendo de su monitor" },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-7036B", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-7036c",
+            "name": "OHV-7036C",
+            "comercial_name": "Visitantes Exterior OHV-7036C",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante exterior RUE modelo OHV-7036C. Información detallada pendiente.",
+            "specifications": { "nota": "El color puede variar dependiendo de su monitor" },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-7036C", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
       "sensilla": {
         "id": "sensilla",
