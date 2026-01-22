@@ -2371,7 +2371,50 @@
         "id": "sensilla",
         "name": "SENSILLA",
         "description": "Familia SENSILLA de sillas visitantes exterior.",
-        "products": []
+        "products": [
+          {
+            "id": "ohv-97",
+            "name": "OHV-97",
+            "comercial_name": "Visitantes Exterior OHV-97",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante exterior SENSILLA modelo OHV-97. Información detallada pendiente.",
+            "specifications": { "nota": "El color puede variar dependiendo de su monitor" },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-97", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-7211b",
+            "name": "OHV-7211B",
+            "comercial_name": "Visitantes Exterior OHV-7211B",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante exterior SENSILLA modelo OHV-7211B. Información detallada pendiente.",
+            "specifications": { "nota": "El color puede variar dependiendo de su monitor" },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-7211B", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohv-7211c",
+            "name": "OHV-7211C",
+            "comercial_name": "Visitantes Exterior OHV-7211C",
+            "material": "Pendiente especificaciones",
+            "description": "Silla visitante exterior SENSILLA modelo OHV-7211C. Información detallada pendiente.",
+            "specifications": { "nota": "El color puede variar dependiendo de su monitor" },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "VISITANTES EXTERIOR", "link": "/catalogo?categoria=visitantes-exterior" },
+              { "label": "OHV-7211C", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
       },
       "alissa": {
         "id": "alissa",
