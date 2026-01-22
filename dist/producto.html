@@ -6,7 +6,7 @@
   <title id="product-title">Producto | Jemmsa</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    .thumbnail-active { border: 3px solid #1FA3D6; opacity: 1; }
+    .thumbnail-active { border: 3px solid #2563EB; opacity: 1; }
     .thumbnail { opacity: 0.6; transition: opacity 0.2s; cursor: pointer; border: 3px solid transparent; }
     .thumbnail:hover { opacity: 1; }
     .badge-circular { 
@@ -31,7 +31,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background: linear-gradient(135deg, #E91E63 0%, #C2185B 100%);
+      background: linear-gradient(135deg, #3B82F6 0%, #2563EB 100%);
       color: white;
       text-decoration: none;
       transition: transform 0.2s, box-shadow 0.2s;
@@ -51,7 +51,7 @@
     }
   </style>
 </head>
-<body class="bg-neutral-50">
+<body class="bg-gray-50">
   <!-- Navbar Container -->
   <div id="navbar-container"></div>
 
@@ -62,7 +62,7 @@
   <main class="lg:ml-64 p-4 sm:p-6 lg:p-8">
     <!-- Breadcrumb -->
     <nav class="mb-6">
-      <ol id="breadcrumb" class="flex items-center gap-2 text-sm text-secondary">
+      <ol id="breadcrumb" class="flex items-center gap-2 text-sm text-gray-600">
         <!-- Cargado dinámicamente -->
       </ol>
     </nav>
@@ -70,10 +70,10 @@
     <!-- Encabezado del Producto -->
     <div class="mb-8 flex items-start justify-between">
       <div>
-        <p id="collection-name" class="text-2xl font-bold text-secondary uppercase tracking-wider mb-2">
+        <p id="collection-name" class="text-2xl font-bold text-gray-600 uppercase tracking-wider mb-2">
           <!-- Colección -->
         </p>
-        <h1 id="product-code" class="text-4xl font-bold text-primary">
+        <h1 id="product-code" class="text-4xl font-bold text-gray-900">
           <!-- Código del producto -->
         </h1>
       </div>
@@ -96,7 +96,7 @@
 
       <!-- Imagen Principal (Centro) -->
       <div class="lg:col-span-6 order-1 lg:order-2">
-        <div class="bg-white rounded-lg shadow-lg border border-light overflow-hidden">
+        <div class="bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden">
           <img id="main-image" 
                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" 
                alt="Producto" 
@@ -132,7 +132,7 @@
       <div class="lg:col-span-5 order-3 space-y-6">
         
         <!-- Colección de Terminados -->
-        <div id="colors-section" class="hidden bg-white rounded-lg p-4 border border-light">
+        <div id="colors-section" class="hidden bg-white rounded-lg p-4 border border-gray-200">
           <h3 class="text-sm font-bold text-neutral-700 uppercase tracking-wide mb-3">
             Colección de Terminados
           </h3>
@@ -143,11 +143,11 @@
 
         <!-- Especificaciones -->
         <div id="specs-section" class="space-y-2">
-          <div id="resistance-spec" class="hidden p-3 bg-neutral-50 rounded-lg">
+          <div id="resistance-spec" class="hidden p-3 bg-gray-50 rounded-lg">
             <span class="text-sm font-medium text-neutral-700">Resistencia:</span>
-            <span id="resistance-value" class="text-sm text-secondary ml-2"></span>
+            <span id="resistance-value" class="text-sm text-gray-600 ml-2"></span>
           </div>
-          <div id="reference-spec" class="hidden p-3 bg-neutral-50 rounded-lg">
+          <div id="reference-spec" class="hidden p-3 bg-gray-50 rounded-lg">
             <span class="text-sm font-medium text-slate-700">Referencia:</span>
             <span id="reference-value" class="text-sm text-slate-600 ml-2"></span>
           </div>
@@ -157,27 +157,27 @@
         <div class="space-y-3">
           
           <!-- Descripción Completa -->
-          <details id="description-accordion" class="group bg-white rounded-lg shadow-sm border border-light">
-            <summary class="cursor-pointer px-4 py-3 font-medium text-primary hover:bg-neutral-50 flex items-center justify-between">
+          <details id="description-accordion" class="group bg-white rounded-lg shadow-sm border border-gray-200">
+            <summary class="cursor-pointer px-4 py-3 font-medium text-gray-900 hover:bg-gray-50 flex items-center justify-between">
               <span class="uppercase text-sm font-bold">Descripción</span>
-              <svg class="w-5 h-5 text-secondary group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg class="w-5 h-5 text-gray-600 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
               </svg>
             </summary>
-            <div class="px-4 py-3 text-sm text-secondary border-t border-light">
+            <div class="px-4 py-3 text-sm text-gray-600 border-t border-gray-200">
               <p id="material-description"><!-- Material --></p>
             </div>
           </details>
 
           <!-- Modelados 3D -->
-          <details id="models-3d-accordion" class="hidden group bg-white rounded-lg shadow-sm border border-light">
-            <summary class="cursor-pointer px-4 py-3 font-medium text-primary hover:bg-neutral-50 flex items-center justify-between">
+          <details id="models-3d-accordion" class="hidden group bg-white rounded-lg shadow-sm border border-gray-200">
+            <summary class="cursor-pointer px-4 py-3 font-medium text-gray-900 hover:bg-gray-50 flex items-center justify-between">
               <span class="uppercase text-sm font-bold">Modelados 3D</span>
-              <svg class="w-5 h-5 text-secondary group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg class="w-5 h-5 text-gray-600 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
               </svg>
             </summary>
-            <div class="px-4 py-3 border-t border-light">
+            <div class="px-4 py-3 border-t border-gray-200">
               <ul id="models-3d-list" class="space-y-2">
                 <!-- Lista de archivos 3D -->
               </ul>
@@ -185,14 +185,14 @@
           </details>
 
           <!-- Certificaciones -->
-          <details id="certifications-accordion" class="hidden group bg-white rounded-lg shadow-sm border border-light">
-            <summary class="cursor-pointer px-4 py-3 font-medium text-primary hover:bg-neutral-50 flex items-center justify-between">
+          <details id="certifications-accordion" class="hidden group bg-white rounded-lg shadow-sm border border-gray-200">
+            <summary class="cursor-pointer px-4 py-3 font-medium text-gray-900 hover:bg-gray-50 flex items-center justify-between">
               <span class="uppercase text-sm font-bold">Certificaciones</span>
-              <svg class="w-5 h-5 text-secondary group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg class="w-5 h-5 text-gray-600 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
               </svg>
             </summary>
-            <div class="px-4 py-3 text-sm text-secondary border-t border-light">
+            <div class="px-4 py-3 text-sm text-gray-600 border-t border-gray-200">
               <p id="certifications-content"><!-- Certificaciones --></p>
             </div>
           </details>
@@ -203,14 +203,14 @@
 
     <!-- Productos Relacionados -->
     <section id="related-products-section" class="hidden mb-12">
-      <h2 class="text-2xl font-bold text-primary mb-6 uppercase">Productos Relacionados</h2>
+      <h2 class="text-2xl font-bold text-gray-900 mb-6 uppercase">Productos Relacionados</h2>
       <div id="related-products-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
         <!-- Productos relacionados dinámicos -->
       </div>
     </section>
 
     <!-- Nota General -->
-    <div id="general-note" class="hidden text-center text-sm text-secondary py-4 border-t border-light">
+    <div id="general-note" class="hidden text-center text-sm text-gray-600 py-4 border-t border-gray-200">
       <!-- Nota general -->
     </div>
 
