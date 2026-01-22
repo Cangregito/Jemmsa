@@ -3469,22 +3469,9 @@
         "name": "INNOVA",
         "description": "Familia INNOVA de sillas escolares.",
         "products": [
-          {
-            "id": "innova-base",
-            "name": "INNOVA",
-            "comercial_name": "Escolar INNOVA",
-            "material": "Pendiente especificaciones",
-            "description": "Silla escolar INNOVA. Información detallada pendiente.",
-            "specifications": {
-              "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "breadcrumb": [
-              { "label": "Home", "link": "/" },
-              { "label": "ESCOLAR", "link": "/catalogo?categoria=escolar" },
-              { "label": "INNOVA", "link": "#" }
-            ],
-            "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
-          }
+          { "id": "ohp-2700", "name": "OHP-2700", "comercial_name": "Escolar INNOVA OHP-2700", "material": "Pendiente especificaciones", "description": "Silla escolar INNOVA modelo OHP-2700. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "ESCOLAR", "link": "/catalogo?categoria=escolar" }, { "label": "INNOVA", "link": "/catalogo?categoria=escolar&familia=innova" }, { "label": "OHP-2700", "link": "#" }], "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop" },
+          { "id": "ohp-2307", "name": "OHP-2307", "comercial_name": "Escolar INNOVA OHP-2307", "material": "Pendiente especificaciones", "description": "Silla escolar INNOVA modelo OHP-2307. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "ESCOLAR", "link": "/catalogo?categoria=escolar" }, { "label": "INNOVA", "link": "/catalogo?categoria=escolar&familia=innova" }, { "label": "OHP-2307", "link": "#" }], "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop" },
+          { "id": "ohp-2308", "name": "OHP-2308", "comercial_name": "Escolar INNOVA OHP-2308", "material": "Pendiente especificaciones", "description": "Silla escolar INNOVA modelo OHP-2308. Información detallada pendiente.", "specifications": { "nota_general": "El color puede variar dependiendo de su monitor" }, "breadcrumb": [{ "label": "Home", "link": "/" }, { "label": "ESCOLAR", "link": "/catalogo?categoria=escolar" }, { "label": "INNOVA", "link": "/catalogo?categoria=escolar&familia=innova" }, { "label": "OHP-2308", "link": "#" }], "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop" }
         ]
       }
     }
