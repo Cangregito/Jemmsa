@@ -3189,6 +3189,24 @@
         "description": "Familia ELLITICO de bancas.",
         "products": [
           {
+            "id": "ohr-2200-2p",
+            "name": "OHR-2200-2P",
+            "comercial_name": "Banca ELLITICO OHR-2200-2P",
+            "material": "Pendiente especificaciones",
+            "description": "Banca ELLITICO modelo OHR-2200-2P. Información detallada pendiente.",
+            "specifications": {
+              "plazas": "2 plazas",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "BANCAS", "link": "/catalogo?categoria=bancas" },
+              { "label": "ELLITICO", "link": "/catalogo?categoria=bancas&familia=ellitico" },
+              { "label": "OHR-2200-2P", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+          },
+          {
             "id": "ohr-2200-3p",
             "name": "OHR-2200-3P",
             "comercial_name": "Banca ELLITICO OHR-2200-3P",
@@ -3201,7 +3219,44 @@
             "breadcrumb": [
               { "label": "Home", "link": "/" },
               { "label": "BANCAS", "link": "/catalogo?categoria=bancas" },
+              { "label": "ELLITICO", "link": "/catalogo?categoria=bancas&familia=ellitico" },
               { "label": "OHR-2200-3P", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohr-2200-4p",
+            "name": "OHR-2200-4P",
+            "comercial_name": "Banca ELLITICO OHR-2200-4P",
+            "material": "Pendiente especificaciones",
+            "description": "Banca ELLITICO modelo OHR-2200-4P. Información detallada pendiente.",
+            "specifications": {
+              "plazas": "4 plazas",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "BANCAS", "link": "/catalogo?categoria=bancas" },
+              { "label": "ELLITICO", "link": "/catalogo?categoria=bancas&familia=ellitico" },
+              { "label": "OHR-2200-4P", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
+          },
+          {
+            "id": "ohr-2200-5p",
+            "name": "OHR-2200-5P",
+            "comercial_name": "Banca ELLITICO OHR-2200-5P",
+            "material": "Pendiente especificaciones",
+            "description": "Banca ELLITICO modelo OHR-2200-5P. Información detallada pendiente.",
+            "specifications": {
+              "plazas": "5 plazas",
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "BANCAS", "link": "/catalogo?categoria=bancas" },
+              { "label": "ELLITICO", "link": "/catalogo?categoria=bancas&familia=ellitico" },
+              { "label": "OHR-2200-5P", "link": "#" }
             ],
             "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=800&auto=format&fit=crop"
           }
