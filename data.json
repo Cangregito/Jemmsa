@@ -3325,17 +3325,173 @@
       }
     },
     "escolar": {
-      "escolar-1": {
-        "id": "escolar-1",
-        "name": "Escolar",
-        "description": "Familia de Pupitres Escolares.",
+      "blow": {
+        "id": "blow",
+        "name": "BLOW",
+        "description": "Familia BLOW de sillas escolares.",
         "products": [
           {
-            "id": "pupitre-escolar-infantil",
-            "name": "Pupitre Escolar Infantil",
-            "material": "Madera y acero",
-            "description": "Pupitre escolar infantil en madera y acero.",
-            "specifications": { "capacidad": "Peso sugerido 80 kg" },
+            "id": "ohp-2100",
+            "name": "OHP-2100",
+            "comercial_name": "Escolar BLOW OHP-2100",
+            "material": "Pendiente especificaciones",
+            "description": "Silla escolar BLOW modelo OHP-2100. Información detallada pendiente.",
+            "specifications": {
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "ESCOLAR", "link": "/catalogo?categoria=escolar" },
+              { "label": "BLOW", "link": "/catalogo?categoria=escolar&familia=blow" },
+              { "label": "OHP-2100", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "kyos": {
+        "id": "kyos",
+        "name": "KYOS",
+        "description": "Familia KYOS de sillas escolares.",
+        "products": [
+          {
+            "id": "kyos-base",
+            "name": "KYOS",
+            "comercial_name": "Escolar KYOS",
+            "material": "Pendiente especificaciones",
+            "description": "Silla escolar KYOS. Información detallada pendiente.",
+            "specifications": {
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "recursos": {
+              "videos": [
+                {
+                  "nombre": "SILLA-KYOS-by-SCAGNELLATO",
+                  "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
+                }
+              ]
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "ESCOLAR", "link": "/catalogo?categoria=escolar" },
+              { "label": "KYOS", "link": "/catalogo?categoria=escolar&familia=kyos" },
+              { "label": "KYOS", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "revolution": {
+        "id": "revolution",
+        "name": "REVOLUTION",
+        "description": "Familia REVOLUTION de sillas escolares.",
+        "products": [
+          {
+            "id": "revolution-base",
+            "name": "REVOLUTION",
+            "comercial_name": "Escolar REVOLUTION",
+            "material": "Pendiente especificaciones",
+            "description": "Silla escolar REVOLUTION. Información detallada pendiente.",
+            "specifications": {
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "ESCOLAR", "link": "/catalogo?categoria=escolar" },
+              { "label": "REVOLUTION", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "alpha": {
+        "id": "alpha",
+        "name": "ALPHA",
+        "description": "Familia ALPHA de sillas escolares.",
+        "products": [
+          {
+            "id": "alpha-base",
+            "name": "ALPHA",
+            "comercial_name": "Escolar ALPHA",
+            "material": "Pendiente especificaciones",
+            "description": "Silla escolar ALPHA. Información detallada pendiente.",
+            "specifications": {
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "ESCOLAR", "link": "/catalogo?categoria=escolar" },
+              { "label": "ALPHA", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "ellitico-collection": {
+        "id": "ellitico-collection",
+        "name": "ELLITICO COLLECTION",
+        "description": "Familia ELLITICO COLLECTION de sillas escolares.",
+        "products": [
+          {
+            "id": "ellitico-collection-base",
+            "name": "ELLITICO COLLECTION",
+            "comercial_name": "Escolar ELLITICO COLLECTION",
+            "material": "Pendiente especificaciones",
+            "description": "Silla escolar ELLITICO COLLECTION. Información detallada pendiente.",
+            "specifications": {
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "ESCOLAR", "link": "/catalogo?categoria=escolar" },
+              { "label": "ELLITICO COLLECTION", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "ellitico": {
+        "id": "ellitico",
+        "name": "ELLITICO",
+        "description": "Familia ELLITICO de sillas escolares.",
+        "products": [
+          {
+            "id": "ellitico-base",
+            "name": "ELLITICO",
+            "comercial_name": "Escolar ELLITICO",
+            "material": "Pendiente especificaciones",
+            "description": "Silla escolar ELLITICO. Información detallada pendiente.",
+            "specifications": {
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "ESCOLAR", "link": "/catalogo?categoria=escolar" },
+              { "label": "ELLITICO", "link": "#" }
+            ],
+            "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          }
+        ]
+      },
+      "innova": {
+        "id": "innova",
+        "name": "INNOVA",
+        "description": "Familia INNOVA de sillas escolares.",
+        "products": [
+          {
+            "id": "innova-base",
+            "name": "INNOVA",
+            "comercial_name": "Escolar INNOVA",
+            "material": "Pendiente especificaciones",
+            "description": "Silla escolar INNOVA. Información detallada pendiente.",
+            "specifications": {
+              "nota_general": "El color puede variar dependiendo de su monitor"
+            },
+            "breadcrumb": [
+              { "label": "Home", "link": "/" },
+              { "label": "ESCOLAR", "link": "/catalogo?categoria=escolar" },
+              { "label": "INNOVA", "link": "#" }
+            ],
             "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
           }
         ]
