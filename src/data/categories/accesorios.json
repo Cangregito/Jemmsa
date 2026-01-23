@@ -18,7 +18,7 @@
           "specifications": {
             "tipo": "Pistón rebasador cromado para sillas tipo cajero / mayor altura",
             "uso": "Eleva la silla a una altura superior a la estándar",
-            "terminacion": "Cromado",
+            "terminación": "Cromado",
             "nota": "El color puede variar dependiendo de su monitor"
           },
           "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
@@ -32,7 +32,7 @@
             "tipo": "Base para silla de 5 puntas",
             "material": "Aluminio fundido con acabado lúcido (pulido/brillante)",
             "uso": "Reemplazo o actualización de base de silla operativa o ejecutiva",
-            "terminacion": "Lúcido (pulido/brillante)",
+            "terminación": "Lúcido (pulido/brillante)",
             "nota": "El color puede variar dependiendo de su monitor"
           },
           "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
@@ -52,7 +52,7 @@
           "specifications": {
             "tipo": "Kit de elevación tipo cajero",
             "componentes": "Pistón rebasador y elementos necesarios para convertir silla a versión cajero (incluye aro o elementos afines según configuración)",
-            "terminacion": "Cromado",
+            "terminación": "Cromado",
             "nota": "El color puede variar dependiendo de su monitor"
           },
           "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
@@ -79,7 +79,7 @@
         {
           "id": "brazo-40",
           "name": "Brazo-40",
-          "material": "Polipropileno semirígido",
+          "material": "Polipropileno semirrígido",
           "description": "Brazo ajustable para sillas operativas.",
           "specifications": {
             "caracteristicas": "Funda de polipropileno con botón para ajuste de altura en 10 posiciones; correderas para ajuste a lo ancho",
@@ -99,7 +99,7 @@
         {
           "id": "brazo-06",
           "name": "Brazo-06",
-          "material": "Polipropileno semirígido",
+          "material": "Polipropileno semirrígido",
           "description": "Brazos fijos para sillas operativas.",
           "specifications": {
             "tipo": "Brazos fijos",
@@ -113,7 +113,7 @@
         {
           "id": "brazo-53",
           "name": "Brazo-53",
-          "material": "Polipropileno semirígido",
+          "material": "Polipropileno semirrígido",
           "description": "Brazos fijos para sillas operativas.",
           "specifications": {
             "tipo": "Brazos fijos",
@@ -125,7 +125,7 @@
         {
           "id": "brazo-55",
           "name": "Brazo-55",
-          "material": "Polipropileno semirígido",
+          "material": "Polipropileno semirrígido",
           "description": "Brazos fijos para sillas operativas.",
           "specifications": {
             "tipo": "Brazos fijos",
@@ -138,7 +138,7 @@
         {
           "id": "brazo-90",
           "name": "Brazo-90",
-          "material": "Polipropileno semirígido",
+          "material": "Polipropileno semirrígido",
           "description": "Brazos fijos para sillas operativas.",
           "specifications": {
             "tipo": "Brazos fijos",
@@ -151,7 +151,7 @@
         {
           "id": "brazo-86",
           "name": "Brazo-86",
-          "material": "Polipropileno semirígido",
+          "material": "Polipropileno semirrígido",
           "description": "Brazos fijos para sillas operativas.",
           "specifications": {
             "tipo": "Brazos fijos",
