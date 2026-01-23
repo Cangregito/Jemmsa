@@ -17,6 +17,16 @@
   <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RNW2ZEEL4S"></script>
   <script>
+        // Utilidad para normalizar texto mostrado (ortografía y acentos comunes)
+        function normalizeText(t) {
+          if (!t) return '';
+          return t
+            .replace(/semi-?r[ií]gido/gi, 'semirrígido')
+            .replace(/polipropileno\s+semirr[ií]gido/gi, 'polipropileno semirrígido')
+            .replace(/elevacion/gi, 'elevación')
+            .replace(/terminacion/gi, 'terminación')
+            .trim();
+        }
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
@@ -1706,7 +1716,7 @@
             </div>
             <div class="p-4 space-y-1">
               <h3 class="text-lg font-medium">${product.name}</h3>
-              <p class="text-slate-500 text-sm">${product.material}</p>
+              <p class="text-slate-500 text-sm">${normalizeText(product.material)}</p>
               ${product.description ? `<button class="mt-2 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors">Ver detalles →</button>` : ''}
             </div>
           `;
@@ -1735,7 +1745,7 @@
             familyCard.className = 'border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm cursor-pointer hover:shadow-md transition-shadow p-6';
             familyCard.innerHTML = `
               <h3 class="text-xl font-semibold text-blue-600">${subfamily.name}</h3>
-              <p class="text-slate-600 text-sm mt-1">${subfamily.description || ''}</p>
+              <p class="text-slate-600 text-sm mt-1">${normalizeText(subfamily.description || '')}</p>
               <p class="text-slate-500 text-sm mt-2">${subfamily.products.length} modelos</p>
             `;
             familyCard.addEventListener('click', () => {
@@ -1762,7 +1772,7 @@
             </div>
             <div class="p-4 space-y-1">
               <h3 class="text-lg font-medium">${prod.name}</h3>
-              <p class="text-slate-500 text-sm">${prod.material}</p>
+              <p class="text-slate-500 text-sm">${normalizeText(prod.material)}</p>
               <button class="mt-2 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors">Ver detalles →</button>
             </div>
           `;

@@ -153,6 +153,17 @@ function showFallbackNotice(fallbacks) {
 }
 
 // Renderizar producto
+// Utilidad: normalizar texto (ortografía/acentos comunes)
+function normalizeText(t) {
+  if (!t) return '';
+  return t
+    .replace(/semi\-?r[ií]gido/gi, 'semirrígido')
+    .replace(/polipropileno\s+semirr[ií]gido/gi, 'polipropileno semirrígido')
+    .replace(/elevacion/gi, 'elevación')
+    .replace(/terminacion/gi, 'terminación')
+    .trim();
+}
+
 function renderProduct(product, family, category) {
   // Título de página
   document.getElementById('product-title').textContent = `${product.name} | Jemmsa`;
@@ -180,7 +191,7 @@ function renderProduct(product, family, category) {
   const nameEl = document.getElementById('product-name');
   if (nameEl) nameEl.textContent = product.comercial_name || product.name || '';
   const descEl = document.getElementById('product-description');
-  if (descEl) descEl.textContent = product.description || '';
+  if (descEl) descEl.textContent = normalizeText(product.description || '');
   
   // Colores
   const colors = extractColors(product.material);
@@ -292,15 +303,8 @@ function renderColors(colors) {
 function renderSpecifications(product) {
   const specs = product?.specifications || {};
 
-  // Utilidades para normalizar texto (ortografía)
-  const fixText = (t) => {
-    if (!t) return '';
-    return t
-      .replace(/semi\-?r[ií]gido/gi, 'semirrígido')
-      .replace(/polipropileno\s+semirr[ií]gido/gi, 'polipropileno semirrígido')
-      .trim()
-      .replace(/\.$/, '');
-  };
+  // Utilidades para normalizar texto y limpiar puntuación final
+  const fixText = (t) => normalizeText(t).replace(/\.$/, '');
 
   // Mostrar campos especiales existentes
   if (specs.resistencia) {
