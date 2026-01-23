@@ -1432,7 +1432,9 @@
             "specifications": {
               "tipo": "Brazos fijos",
               "uso": "Soporte de brazos en modelos operativos específicos",
-              "nota": "El color puede variar dependiendo de su monitor"
+              "color": "Negro mate",
+              "caracteristicas": "Con correderas para ajuste a lo ancho",
+              "nota": "Algunos brazos son compatibles con otras sillas, consultar con el área comercial."
             },
             "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
           },
@@ -1455,7 +1457,9 @@
             "description": "Brazos fijos para sillas operativas.",
             "specifications": {
               "tipo": "Brazos fijos",
-              "nota": "El color puede variar dependiendo de su monitor"
+              "color": "Negro mate",
+              "caracteristicas": "Con correderas para ajuste a lo ancho",
+              "nota": "Algunos brazos son compatibles con otras sillas, consultar con el área comercial."
             },
             "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
           },
@@ -1466,7 +1470,9 @@
             "description": "Brazos fijos para sillas operativas.",
             "specifications": {
               "tipo": "Brazos fijos",
-              "nota": "El color puede variar dependiendo de su monitor"
+              "color": "Negro mate",
+              "caracteristicas": "Con correderas para ajuste a lo ancho",
+              "nota": "Algunos brazos son compatibles con otras sillas, consultar con el área comercial."
             },
             "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
           },
@@ -1477,31 +1483,35 @@
             "description": "Brazos fijos para sillas operativas.",
             "specifications": {
               "tipo": "Brazos fijos",
-              "nota": "El color puede variar dependiendo de su monitor"
+              "color": "Negro mate",
+              "caracteristicas": "Con correderas para ajuste a lo ancho",
+              "nota": "Únicamente para el modelo OHS-86Al."
             },
             "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
           },
           {
             "id": "brazo-86al-pad-negro",
             "name": "Brazo-86Al pad Negro",
-            "material": "Estructura tipo aluminio con pad negro",
+            "material": "Aluminio fundido, terminado en color natural pulido",
             "description": "Brazos fijos con estructura tipo aluminio y pad en color negro.",
             "specifications": {
               "tipo": "Brazos fijos",
               "color": "Pad negro",
-              "nota": "El color puede variar dependiendo de su monitor"
+              "descansabrazos": "Móvil de poliuretano semi-rígido color negro",
+              "nota": "Se suministra por pieza individual (lado derecho o izquierdo). Algunos brazos son compatibles con otras sillas, consultar con el área comercial."
             },
             "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
           },
           {
             "id": "brazo-86al-pad-blanco",
             "name": "Brazo-86Al pad Blanco",
-            "material": "Estructura tipo aluminio con pad blanco",
+            "material": "Aluminio fundido, terminado en color natural pulido",
             "description": "Brazos fijos con estructura tipo aluminio y pad en color blanco.",
             "specifications": {
               "tipo": "Brazos fijos",
               "color": "Pad blanco",
-              "nota": "El color puede variar dependiendo de su monitor"
+              "descansabrazos": "Móvil de poliuretano semi-rígido color blanco",
+              "nota": "Se suministra por pieza individual (lado derecho o izquierdo). Algunos brazos son compatibles con otras sillas, consultar con el área comercial."
             },
             "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
           }
