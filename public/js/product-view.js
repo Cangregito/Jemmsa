@@ -188,14 +188,12 @@ function renderProduct(product, family, category) {
     renderColors(colors);
   }
   
-  // Especificaciones
-  renderSpecifications(product.specifications);
+  // Especificaciones (incluye material/color/características/nota)
+  renderSpecifications(product);
   
-  // Descripción completa (material)
-  if (product.material) {
-    const matEl = document.getElementById('material-description');
-    if (matEl) matEl.textContent = product.material;
-  }
+  // Quitar detalle en descripción; se mostrará en Especificaciones
+  const matEl = document.getElementById('material-description');
+  if (matEl) matEl.textContent = '';
   
   // Modelados 3D
   if (product.recursos?.modelados_3d && product.recursos.modelados_3d.length > 0) {
@@ -291,17 +289,76 @@ function renderColors(colors) {
 }
 
 // Renderizar especificaciones
-function renderSpecifications(specs) {
-  if (!specs) return;
-  
+function renderSpecifications(product) {
+  const specs = product?.specifications || {};
+
+  // Utilidades para normalizar texto (ortografía)
+  const fixText = (t) => {
+    if (!t) return '';
+    return t
+      .replace(/semi\-?r[ií]gido/gi, 'semirrígido')
+      .replace(/polipropileno\s+semirr[ií]gido/gi, 'polipropileno semirrígido')
+      .trim()
+      .replace(/\.$/, '');
+  };
+
+  // Mostrar campos especiales existentes
   if (specs.resistencia) {
     document.getElementById('resistance-spec').classList.remove('hidden');
     document.getElementById('resistance-value').textContent = specs.resistencia;
   }
-  
   if (specs.referencia) {
     document.getElementById('reference-spec').classList.remove('hidden');
     document.getElementById('reference-value').textContent = specs.referencia;
+  }
+
+  const container = document.querySelector('#specs-section .space-y-3');
+  if (!container) return;
+
+  // Construir líneas con el formato deseado
+  const lines = [];
+  if (product.material) {
+    lines.push({ label: 'material', value: fixText(product.material) });
+  }
+  if (specs.color) {
+    lines.push({ label: 'color', value: fixText(specs.color) });
+  }
+  if (specs.caracteristicas) {
+    lines.push({ label: 'características', value: fixText(specs.caracteristicas) });
+  }
+  if (specs.descansabrazos) {
+    lines.push({ label: 'descansabrazos', value: fixText(specs.descansabrazos) });
+  }
+
+  // Agregar otros campos técnicos comunes si existen
+  const otherKeys = ['base', 'elevacion', 'mecanismo', 'brazos', 'respaldo', 'tapiz', 'capacidad', 'dimensiones', 'uso', 'terminacion', 'componentes', 'compatibilidad'];
+  otherKeys.forEach(key => {
+    if (specs[key]) {
+      const display = key === 'elevacion' ? 'elevación' : (key === 'terminacion' ? 'terminación' : key);
+      lines.push({ label: display, value: fixText(specs[key]) });
+    }
+  });
+
+  // Render de líneas
+  lines.forEach(({ label, value }) => {
+    const row = document.createElement('div');
+    row.className = 'flex justify-between items-start py-2 border-b border-slate-200 dark:border-slate-700';
+    row.innerHTML = `
+      <span class="text-sm font-medium text-slate-700 dark:text-slate-300">${label.charAt(0) === label.charAt(0).toUpperCase() ? label : label.toLowerCase()}:</span>
+      <span class="text-sm text-slate-600 dark:text-slate-400 text-right">${value}.</span>
+    `;
+    container.appendChild(row);
+  });
+
+  // NOTA al final (en mayúsculas)
+  if (specs.nota) {
+    const row = document.createElement('div');
+    row.className = 'flex justify-between items-start py-2';
+    row.innerHTML = `
+      <span class="text-sm font-semibold uppercase text-slate-700 dark:text-slate-300">NOTA:</span>
+      <span class="text-sm text-slate-600 dark:text-slate-400 text-right">${fixText(specs.nota)}.</span>
+    `;
+    container.appendChild(row);
   }
 }
 
