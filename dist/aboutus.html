@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="JEMMSA: mobiliario corporativo moderno, ergonómico y de alta calidad. Catálogo, instalación y soporte especializado en México." />
+  <meta property="og:title" content="JEMMSA Mobiliario Corporativo" />
+  <meta property="og:description" content="Soluciones de mobiliario ergonómico para espacios corporativos modernos." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jemmsa.com" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="JEMMSA Mobiliario" />
+  <meta name="twitter:description" content="Soluciones de mobiliario corporativo premium" />
+  <title>Jemmsa | Mobiliario Corporativo Moderno</title>
+  <link rel="icon" type="image/png" href="./public/img/Logo.png" />
+  
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RNW2ZEEL4S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RNW2ZEEL4S');
+  </script>
+  
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "JEMMSA",
+      "url": "https://jemmsa.com",
+      "logo": "https://jemmsa.com/public/img/Logo.png",
+      "description": "Mobiliario corporativo moderno, ergonómico y de alta calidad",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "656-687-78-54",
+        "contactType": "Customer Service",
+        "areaServed": "MX"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C. Júpiter 1550",
+        "addressLocality": "Juárez",
+        "addressRegion": "Chih",
+        "postalCode": "32540",
+        "addressCountry": "MX"
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" as="style">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" as="style">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              primary: '#1FA3D6',
+              accent: '#C62828',
+              warning: '#F4E300',
+              base: '#0B0B0B',
+              soft: '#F5F5F5',
+              muted: '#8A8A8A',
+              deep: '#3A3A3A'
+            }
+          },
+          fontFamily: {
+            display: ['"Space Grotesk"', 'system-ui', 'sans-serif'],
+            body: ['Inter', 'system-ui', 'sans-serif']
+          },
+          boxShadow: {
+            card: '0 10px 40px -20px rgba(31, 163, 214, 0.25)',
+            'card-strong': '0 18px 50px -20px rgba(31, 163, 214, 0.35)'
+          },
+          keyframes: {
+            'fade-in': { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
+            'slide-up': { '0%': { opacity: '0', transform: 'translateY(12px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } }
+          },
+          animation: {
+            'fade-in': 'fade-in 0.4s ease-out',
+            'slide-up': 'slide-up 0.6s ease-out'
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    :root {
+      --bg-page: #ffffff;
+      --text-main: #0B0B0B;
+    }
+    .dark {
+      --bg-page: #0B0B0B;
+      --text-main: #F5F5F5;
+    }
+    body {
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      transition: background-color 0.3s, color 0.3s;
+    }
+  </style>
+</head>
+<body class="font-body bg-[var(--bg-page)] text-[var(--text-main)]">
+  <header id="header"></header>
+  <main>
+    <section id="contacto" class="py-20 sm:py-28 bg-white dark:bg-brand-base">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+        <div class="text-center max-w-3xl mx-auto space-y-4">
+          <p class="text-sm uppercase tracking-widest text-brand-primary font-semibold">Contáctanos</p>
+          <h2 class="font-display text-4xl sm:text-5xl font-bold text-brand-base dark:text-white">Hablemos de tu proyecto</h2>
+          <p class="text-lg text-brand-muted dark:text-slate-400">Elige el canal que prefieras. Nuestro equipo responde en horario laboral.</p>
+        </div>
+
+        <div class="text-center max-w-3xl mx-auto space-y-4">
+          <p class="text-sm uppercase tracking-widest text-brand-primary font-semibold">O contáctanos directamente</p>
+        </div>
+
+        <div class="grid lg:grid-cols-3 gap-6">
+          <!-- Llamada Directa -->
+          <div class="rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/60 p-6 shadow-card space-y-3">
+            <div class="flex items-center gap-3">
+              <span class="h-10 w-10 rounded-full bg-brand-primary/10 text-brand-primary flex items-center justify-center font-semibold">Tel</span>
+              <div>
+                <p class="text-sm uppercase tracking-wide text-brand-primary font-semibold">Llamada Directa</p>
+                <p class="text-sm text-brand-muted dark:text-slate-400">Habla directamente con nuestro equipo de especialistas</p>
+              </div>
+            </div>
+            <div class="text-lg font-semibold text-brand-base dark:text-white">656-687-78-54</div>
+            <p class="text-sm text-brand-muted dark:text-slate-400">Lun-Vie: 8:00 AM - 5:00 PM</p>
+            <a href="tel:6566877854" class="inline-flex items-center justify-center px-4 py-2 rounded-full bg-brand-primary text-white text-sm font-semibold hover:shadow-card transition-all">
+              Llamar Ahora
+            </a>
+          </div>
+
+          <!-- WhatsApp -->
+          <div class="rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/60 p-6 shadow-card space-y-3">
+            <div class="flex items-center gap-3">
+              <span class="h-10 w-10 rounded-full bg-brand-warning/10 text-brand-base flex items-center justify-center font-semibold">WA</span>
+              <div>
+                <p class="text-sm uppercase tracking-wide text-brand-primary font-semibold">WhatsApp</p>
+                <p class="text-sm text-brand-muted dark:text-slate-400">Respuesta por mensajería instantánea</p>
+              </div>
+            </div>
+            <div class="text-lg font-semibold text-brand-base dark:text-white">656-437-24-81</div>
+            <p class="text-sm text-brand-muted dark:text-slate-400">Lun-Vie: 8:00 AM - 5:00 PM</p>
+            <a href="https://wa.me/526564372481?text=Hola%20JEMMSA" target="_blank" rel="noopener" class="inline-flex items-center justify-center px-4 py-2 rounded-full bg-brand-warning text-brand-base text-sm font-semibold hover:shadow-card transition-all">
+              Escribir por WhatsApp
+            </a>
+          </div>
+
+          <!-- Correo Electrónico -->
+          <div class="rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/60 p-6 shadow-card space-y-3">
+            <div class="flex items-center gap-3">
+              <span class="h-10 w-10 rounded-full bg-brand-accent/10 text-brand-accent flex items-center justify-center font-semibold">@</span>
+              <div>
+                <p class="text-sm uppercase tracking-wide text-brand-primary font-semibold">Correo Electrónico</p>
+                <p class="text-sm text-brand-muted dark:text-slate-400">Envíanos un correo para consultas detalladas</p>
+              </div>
+            </div>
+            <div class="text-lg font-semibold text-brand-base dark:text-white">jemmsa@jemmsa.com.mx</div>
+            <p class="text-sm text-brand-muted dark:text-slate-400">Lun-Vie: 8:00 AM - 5:00 PM</p>
+            <a href="mailto:jemmsa@jemmsa.com.mx" class="inline-flex items-center justify-center px-4 py-2 rounded-full bg-brand-accent text-white text-sm font-semibold hover:shadow-card transition-all">
+              Enviar Email
+            </a>
+          </div>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-6 items-center">
+          <div class="rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/60 p-6 shadow-card space-y-3">
+            <p class="text-sm uppercase tracking-wide text-brand-primary font-semibold">Nuestra Ubicación</p>
+            <h3 class="font-display text-2xl font-bold text-brand-base dark:text-white">Dirección</h3>
+            <p class="text-brand-muted dark:text-slate-400">C. Júpiter 1550<br>C. Júpiter 1550, Satélite, 32540<br>Juárez Chih.</p>
+          </div>
+          <div class="rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/60 p-6 shadow-card space-y-3">
+            <p class="text-sm uppercase tracking-wide text-brand-primary font-semibold">Horarios de atención</p>
+            <h3 class="font-display text-2xl font-bold text-brand-base dark:text-white">Atención y teléfono</h3>
+            <p class="text-brand-muted dark:text-slate-400">Teléfono de atención: 656-687-78-54</p>
+            <p class="text-brand-muted dark:text-slate-400">Lunes a Viernes: 08:00 am - 05:00 pm</p>
+            <p class="text-brand-muted dark:text-slate-400">Sábados y Domingo: Cerrado</p>
+          </div>
+        </div>
+
+        <div class="rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/60 shadow-card overflow-hidden">
+          <div class="h-96 w-full">
+            <iframe
+              title="Mapa JEMMSA"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.5759226775733!2d-106.44436!3d31.693012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e76406f4a2c3bb%3A0x0000000000000000!2sC.%20J%C3%BApiter%201550%2C%20Sat%C3%A9lite%2C%2032540%20Cd%20Ju%C3%A1rez%2C%20Chih.!5e0!3m2!1ses-419!2smx!4v1700000000000">
+            </iframe>
+          </div>
+          <div class="px-6 py-4 border-t border-brand-soft dark:border-brand-deep flex items-center justify-between text-sm text-brand-muted dark:text-slate-400">
+            <span>Ver en Google Maps</span>
+            <a href="https://maps.app.goo.gl/uL9vQpP5Y7rQGqz26" target="_blank" rel="noopener" class="text-brand-primary font-semibold hover:translate-x-0.5 transition-transform">Abrir mapa →</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+ </body>
+  <script>
+
+    const savedTheme = localStorage.getItem('theme');
+    const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const isDark = savedTheme ? savedTheme === 'dark' : systemDark;
+    const html = document.documentElement;
+
+    if (isDark) {
+      html.classList.add('dark');
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+      if (!localStorage.getItem('theme')) {
+        html.classList.toggle('dark', e.matches);
+      }
+    });
+
+    function initHeader() {
+      const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+      const mobileMenu = document.getElementById('mobileMenu');
+      const toggle = document.getElementById('themeToggle');
+
+      toggle?.addEventListener('click', () => {
+        const isDarkMode = html.classList.toggle('dark');
+        localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+      });
+
+      mobileMenuBtn?.addEventListener('click', () => {
+        mobileMenu?.classList.toggle('hidden');
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && mobileMenu && !mobileMenu.classList.contains('hidden')) {
+          mobileMenu.classList.add('hidden');
+        }
+      });
+    }
+
+    const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+    window.addEventListener('scroll', () => {
+      if (!scrollTopBtn) return;
+      scrollTopBtn.classList.toggle('hidden', window.scrollY <= 300);
+    });
+
+    scrollTopBtn?.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+
+    async function loadComponent(id, url) {
+      const container = document.getElementById(id);
+      if (!container) return;
+
+      try {
+        const res = await fetch(url);
+        container.innerHTML = await res.text();
+
+        if (id === 'header') {
+          initHeader();
+        }
+      } catch (error) {
+        console.error(`Error cargando ${url}`, error);
+      }
+    }
+
+    loadComponent('header', '../src/pages/header.html');
+  </script>

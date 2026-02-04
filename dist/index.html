@@ -95,7 +95,7 @@
       --bg-page: #ffffff;
       --text-main: #0B0B0B;
     }
-    .dark {
+    :root.dark {
       --bg-page: #0B0B0B;
       --text-main: #F5F5F5;
     }
@@ -107,208 +107,75 @@
   </style>
 </head>
 <body class="font-body bg-[var(--bg-page)] text-[var(--text-main)]">
-  <!-- Header Sticky -->
-  <header class="sticky top-0 z-50 backdrop-blur-md bg-[var(--bg-page)]/80 border-b border-brand-soft dark:border-brand-deep">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-      <!-- Logo -->
-      <a href="./index.html" class="flex items-center gap-3">
-        <img src="../public/img/Logo.png" alt="Jemmsa" class="h-10 w-auto">
-        <span class="font-display text-lg font-semibold">Jemmsa</span>
-      </a>
+  
+  <header id="header"></header>
+  <main class="overflow-hidden">
+    <!--  -->
+    <Section id="carrusel" class="flex justify-center items-center bg-[var(--bg-page)] text-[var(--text-main)]">
+      <div class="relative w-full max-w-8xl mx-auto px-4 py-16">
+        <div class="relative h-[250px] sm:h-[300px] md:h-[370px] lg:h-[430px] flex items-center justify-center">
 
-      <!-- Navigation -->
-      <nav class="hidden md:flex items-center gap-8">
-        <a href="https://ley-silla.com/index.html" target="_blank" rel="noopener" class="text-sm font-medium hover:text-brand-primary transition-colors">Ley Silla</a>
-        <a href="#productos" class="text-sm font-medium hover:text-brand-primary transition-colors">Productos</a>
-        <a href="./marcas.html" class="text-sm font-medium hover:text-brand-primary transition-colors">Marcas</a>
-      </nav>
+          <!-- Contenedor del carrusel -->
+          <div id="carousel-viewport" class="relative w-full overflow-hidden bg-gradient-to-br py-[30px] sm:py-[30px] md:py-[40px] lg:py-[50px] from-[#0094DE] to-[#00C8DE] dark:from-purple-800 dark:to-blue-900 rounded-3xl shadow-2xl">
+            <div
+              id="carousel-track"
+              class="flex gap-4 items-center transition-transform duration-500 ease-out"
+            >
+            </div>
+          </div>
 
-      <!-- Mobile Menu Button -->
-      <button id="mobileMenuBtn" class="md:hidden h-9 w-9 rounded-lg border border-brand-muted hover:border-brand-primary flex items-center justify-center transition-colors" aria-label="Abrir menú">
-        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
-        </svg>
+          
+          <!-- Botón Anterior -->
+          <a id="prev-btn" class="absolute left-0 z-10 bg-white/90 hover:bg-white text-gray-800 rounded-full border-2 border-black p-4 shadow-xl transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-purple-500/50">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+          </a>
+          
+          <!-- Botón Siguiente -->
+          <a id="next-btn" class="absolute right-0 z-10 bg-white/90 hover:bg-white text-gray-800 rounded-full border-2 border-black p-4 shadow-xl transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-purple-500/50">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>        
+      </div>
+    </Section>
+
+    <section class="relative w-full px-10 py-6 overflow-hidden">
+      <!-- Botón izquierdo -->
+      <button
+        id="prev"
+        class="absolute left-0 top-1/2 -translate-y-1/2 z-10
+              bg-black/60 hover:bg-black/80 text-white
+              w-10 h-16 text-3xl"
+      >
+        ‹
       </button>
 
-      <!-- Theme Toggle & CTA -->
-      <div class="flex items-center gap-3">
-        <button id="themeToggle" class="h-9 w-9 rounded-full border border-brand-muted hover:border-brand-primary flex items-center justify-center transition-colors" aria-label="Cambiar tema">
-          <svg id="sun" class="w-5 h-5 block dark:hidden" fill="currentColor" viewBox="0 0 20 20">
-            <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"/>
-          </svg>
-          <svg id="moon" class="w-5 h-5 hidden dark:block" fill="currentColor" viewBox="0 0 20 20">
-            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/>
-          </svg>
-        </button>
-        <a href="#contacto" class="hidden sm:inline-flex px-4 py-2 rounded-full bg-brand-primary text-white text-sm font-semibold hover:shadow-card transition-shadow">
-          Contáctanos
-        </a>
+      <!-- Track -->
+      <div
+        id="track"
+        class="flex gap-4 transition-transform duration-500 ease-out"
+      >
+        <div class="card active">Card 1</div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+        <div class="card">Card 4</div>
+        <div class="card">Card 5</div>
       </div>
-    </div>
-  </header>
 
-  <main class="overflow-hidden">
-    <!-- Hero Section -->
-    <section class="relative pt-20 pb-16 sm:pt-32 sm:pb-24 overflow-hidden">
-      <div class="absolute inset-0 bg-gradient-to-br from-brand-primary/5 to-brand-accent/5 dark:from-brand-primary/10 dark:to-brand-accent/10"></div>
-      <div class="absolute top-0 right-0 w-96 h-96 bg-brand-primary/10 rounded-full blur-3xl -mr-48 -mt-48 dark:bg-brand-primary/5"></div>
-
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div class="grid lg:grid-cols-2 gap-12 items-center">
-          <!-- Left Content -->
-          <div class="space-y-8 animate-slide-up">
-            <div class="space-y-4">
-              <p class="text-sm uppercase tracking-widest text-brand-primary font-semibold">Soluciones de Mobiliario</p>
-              <h1 class="font-display text-5xl sm:text-6xl font-bold leading-tight">
-                Espacios que <span class="bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent">impulsan productividad</span>
-              </h1>
-              <p class="text-lg text-brand-muted dark:text-slate-400 max-w-xl leading-relaxed">
-                Diseñamos, fabricamos e instalamos soluciones de mobiliario corporativo que combinan ergonomía, durabilidad y estética contemporánea.
-              </p>
-            </div>
-
-            <div class="flex flex-col sm:flex-row gap-4">
-              <a href="./catalogo.html" class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-brand-primary text-white font-semibold hover:shadow-card-strong hover:-translate-y-0.5 transition-all">
-                Explorar Catálogo
-              </a>
-              <a href="#contacto" class="inline-flex items-center justify-center px-6 py-3 rounded-full border-2 border-brand-primary text-brand-primary hover:bg-brand-primary/5 transition-all font-semibold">
-                Contáctanos
-              </a>
-            </div>
-
-            <!-- Stats -->
-            <div class="flex gap-8 pt-8">
-              <div>
-                <p class="font-display text-3xl font-bold">500+</p>
-                <p class="text-sm text-brand-muted dark:text-slate-400">Clientes activos</p>
-              </div>
-              <div>
-                <p class="font-display text-3xl font-bold">98%</p>
-                <p class="text-sm text-brand-muted dark:text-slate-400">Satisfacción</p>
-              </div>
-              <div>
-                <p class="font-display text-3xl font-bold">15+</p>
-                <p class="text-sm text-brand-muted dark:text-slate-400">Años de exp.</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Right Image -->
-          <div class="relative animate-fade-in">
-            <div class="aspect-square rounded-2xl bg-gradient-to-br from-brand-primary/20 to-brand-accent/20 dark:from-brand-primary/10 dark:to-brand-accent/10 overflow-hidden">
-              <div class="w-full h-full flex items-center justify-center">
-                <div class="text-center">
-                  <div class="text-6xl mb-4">🪑</div>
-                  <p class="text-brand-muted dark:text-slate-400">Mobiliario Premium</p>
-                </div>
-              </div>
-            </div>
-            <!-- Decorative elements -->
-            <div class="absolute -top-4 -right-4 w-24 h-24 bg-brand-warning/20 rounded-full blur-2xl"></div>
-            <div class="absolute -bottom-8 -left-8 w-32 h-32 bg-brand-primary/10 rounded-full blur-3xl"></div>
-          </div>
-        </div>
-      </div>
+      <!-- Botón derecho -->
+      <button
+        id="next"
+        class="absolute right-0 top-1/2 -translate-y-1/2 z-10
+              bg-black/60 hover:bg-black/80 text-white
+              w-10 h-16 text-3xl"
+      >
+        ›
+      </button>
     </section>
 
-    <!-- Contacto Section -->
-    <section id="contacto" class="py-20 sm:py-28 bg-white dark:bg-brand-base">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
-        <div class="text-center max-w-3xl mx-auto space-y-4">
-          <p class="text-sm uppercase tracking-widest text-brand-primary font-semibold">Contáctanos</p>
-          <h2 class="font-display text-4xl sm:text-5xl font-bold text-brand-base dark:text-white">Hablemos de tu proyecto</h2>
-          <p class="text-lg text-brand-muted dark:text-slate-400">Elige el canal que prefieras. Nuestro equipo responde en horario laboral.</p>
-        </div>
-
-        <div class="text-center max-w-3xl mx-auto space-y-4">
-          <p class="text-sm uppercase tracking-widest text-brand-primary font-semibold">O contáctanos directamente</p>
-        </div>
-
-        <div class="grid lg:grid-cols-3 gap-6">
-          <!-- Llamada Directa -->
-          <div class="rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/60 p-6 shadow-card space-y-3">
-            <div class="flex items-center gap-3">
-              <span class="h-10 w-10 rounded-full bg-brand-primary/10 text-brand-primary flex items-center justify-center font-semibold">Tel</span>
-              <div>
-                <p class="text-sm uppercase tracking-wide text-brand-primary font-semibold">Llamada Directa</p>
-                <p class="text-sm text-brand-muted dark:text-slate-400">Habla directamente con nuestro equipo de especialistas</p>
-              </div>
-            </div>
-            <div class="text-lg font-semibold text-brand-base dark:text-white">656-687-78-54</div>
-            <p class="text-sm text-brand-muted dark:text-slate-400">Lun-Vie: 8:00 AM - 5:00 PM</p>
-            <a href="tel:6566877854" class="inline-flex items-center justify-center px-4 py-2 rounded-full bg-brand-primary text-white text-sm font-semibold hover:shadow-card transition-all">
-              Llamar Ahora
-            </a>
-          </div>
-
-          <!-- WhatsApp -->
-          <div class="rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/60 p-6 shadow-card space-y-3">
-            <div class="flex items-center gap-3">
-              <span class="h-10 w-10 rounded-full bg-brand-warning/10 text-brand-base flex items-center justify-center font-semibold">WA</span>
-              <div>
-                <p class="text-sm uppercase tracking-wide text-brand-primary font-semibold">WhatsApp</p>
-                <p class="text-sm text-brand-muted dark:text-slate-400">Respuesta por mensajería instantánea</p>
-              </div>
-            </div>
-            <div class="text-lg font-semibold text-brand-base dark:text-white">656-437-24-81</div>
-            <p class="text-sm text-brand-muted dark:text-slate-400">Lun-Vie: 8:00 AM - 5:00 PM</p>
-            <a href="https://wa.me/526564372481?text=Hola%20JEMMSA" target="_blank" rel="noopener" class="inline-flex items-center justify-center px-4 py-2 rounded-full bg-brand-warning text-brand-base text-sm font-semibold hover:shadow-card transition-all">
-              Escribir por WhatsApp
-            </a>
-          </div>
-
-          <!-- Correo Electrónico -->
-          <div class="rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/60 p-6 shadow-card space-y-3">
-            <div class="flex items-center gap-3">
-              <span class="h-10 w-10 rounded-full bg-brand-accent/10 text-brand-accent flex items-center justify-center font-semibold">@</span>
-              <div>
-                <p class="text-sm uppercase tracking-wide text-brand-primary font-semibold">Correo Electrónico</p>
-                <p class="text-sm text-brand-muted dark:text-slate-400">Envíanos un correo para consultas detalladas</p>
-              </div>
-            </div>
-            <div class="text-lg font-semibold text-brand-base dark:text-white">jemmsa@jemmsa.com.mx</div>
-            <p class="text-sm text-brand-muted dark:text-slate-400">Lun-Vie: 8:00 AM - 5:00 PM</p>
-            <a href="mailto:jemmsa@jemmsa.com.mx" class="inline-flex items-center justify-center px-4 py-2 rounded-full bg-brand-accent text-white text-sm font-semibold hover:shadow-card transition-all">
-              Enviar Email
-            </a>
-          </div>
-        </div>
-
-        <div class="grid lg:grid-cols-2 gap-6 items-center">
-          <div class="rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/60 p-6 shadow-card space-y-3">
-            <p class="text-sm uppercase tracking-wide text-brand-primary font-semibold">Nuestra Ubicación</p>
-            <h3 class="font-display text-2xl font-bold text-brand-base dark:text-white">Dirección</h3>
-            <p class="text-brand-muted dark:text-slate-400">C. Júpiter 1550<br>C. Júpiter 1550, Satélite, 32540<br>Juárez Chih.</p>
-          </div>
-          <div class="rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/60 p-6 shadow-card space-y-3">
-            <p class="text-sm uppercase tracking-wide text-brand-primary font-semibold">Horarios de atención</p>
-            <h3 class="font-display text-2xl font-bold text-brand-base dark:text-white">Atención y teléfono</h3>
-            <p class="text-brand-muted dark:text-slate-400">Teléfono de atención: 656-687-78-54</p>
-            <p class="text-brand-muted dark:text-slate-400">Lunes a Viernes: 08:00 am - 05:00 pm</p>
-            <p class="text-brand-muted dark:text-slate-400">Sábados y Domingo: Cerrado</p>
-          </div>
-        </div>
-
-        <div class="rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/60 shadow-card overflow-hidden">
-          <div class="h-96 w-full">
-            <iframe
-              title="Mapa JEMMSA"
-              width="100%"
-              height="100%"
-              style="border:0;"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.5759226775733!2d-106.44436!3d31.693012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e76406f4a2c3bb%3A0x0000000000000000!2sC.%20J%C3%BApiter%201550%2C%20Sat%C3%A9lite%2C%2032540%20Cd%20Ju%C3%A1rez%2C%20Chih.!5e0!3m2!1ses-419!2smx!4v1700000000000">
-            </iframe>
-          </div>
-          <div class="px-6 py-4 border-t border-brand-soft dark:border-brand-deep flex items-center justify-between text-sm text-brand-muted dark:text-slate-400">
-            <span>Ver en Google Maps</span>
-            <a href="https://maps.app.goo.gl/uL9vQpP5Y7rQGqz26" target="_blank" rel="noopener" class="text-brand-primary font-semibold hover:translate-x-0.5 transition-transform">Abrir mapa →</a>
-          </div>
-        </div>
-
-      </div>
-    </section>
 
     <!-- Servicios Section -->
     <section id="servicios" class="py-20 sm:py-28 bg-brand-soft dark:bg-brand-deep">
@@ -520,40 +387,6 @@
     </div>
   </footer>
 
-  <!-- Theme Toggle Script -->
-  <script>
-    const html = document.documentElement;
-    const toggle = document.getElementById('themeToggle');
-    const sun = document.getElementById('sun');
-    const moon = document.getElementById('moon');
-
-    // Check saved theme or system preference
-    const savedTheme = localStorage.getItem('theme');
-    const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const isDark = savedTheme ? savedTheme === 'dark' : systemDark;
-
-    if (isDark) {
-      html.classList.add('dark');
-    }
-
-    // Toggle theme
-    toggle?.addEventListener('click', () => {
-      const isDarkMode = html.classList.toggle('dark');
-      localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
-    });
-
-    // Listen for system changes
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-      if (!localStorage.getItem('theme')) {
-        if (e.matches) {
-          html.classList.add('dark');
-        } else {
-          html.classList.remove('dark');
-        }
-      }
-    });
-  </script>
-
   <!-- Mobile Menu -->
   <div id="mobileMenu" class="hidden fixed inset-0 top-16 z-40 md:hidden bg-white dark:bg-brand-base border-t border-brand-soft dark:border-brand-deep">
     <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 space-y-2">
@@ -570,40 +403,140 @@
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/>
     </svg>
   </button>
+  <!--  -->
+  <script src="../public/js/carrusel_data.js"></script>
+  <script src="../public/js/carrusel_structure.js"></script>
+  <script src="../public/js/carrusel.js"></script>
+  
+    <!-- Theme Toggle & Mobile Menu Script -->
+  <script defer>
+const html = document.documentElement;
 
-  <!-- Theme Toggle & Mobile Menu Script -->
-  <script>
-    // Mobile Menu Toggle
-    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+  // ===== TEMA INICIAL =====
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const isDark = savedTheme ? savedTheme === 'dark' : systemDark;
+
+  html.classList.toggle('dark', isDark);
+
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+    if (!localStorage.getItem('theme')) {
+      html.classList.toggle('dark', e.matches);
+    }
+  });
+
+  // ===== HEADER INIT =====
+  function initHeader() {
+    const themeToggle = document.getElementById('themeToggle');
+    const menuToggle = document.getElementById('menuToggle');
     const mobileMenu = document.getElementById('mobileMenu');
-    
-    mobileMenuBtn?.addEventListener('click', () => {
-      mobileMenu.classList.toggle('hidden');
+
+    const searchToggle = document.getElementById('searchToggle');
+    const searchInput = document.getElementById('searchInput');
+    const logo = document.getElementById('logo');
+
+    let searchOpen = false;
+
+    // 🌙 Theme toggle
+    themeToggle?.addEventListener('click', () => {
+      const dark = html.classList.toggle('dark');
+      localStorage.setItem('theme', dark ? 'dark' : 'light');
     });
 
-    // Close menu on escape
+    // ☰ Mobile menu
+    menuToggle?.addEventListener('click', () => {
+      mobileMenu?.classList.toggle('hidden');
+    });
+
+    // 🔍 Search mobile
+    searchToggle?.addEventListener('click', () => {
+      searchOpen = !searchOpen;
+
+      searchInput?.classList.toggle('hidden', !searchOpen);
+      logo?.classList.toggle('hidden', searchOpen);
+      menuToggle?.classList.toggle('hidden', searchOpen);
+
+      if (searchOpen) searchInput?.focus();
+    });
+
+    // ESC cierra menú
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && !mobileMenu.classList.contains('hidden')) {
-        mobileMenu.classList.add('hidden');
+      if (e.key === 'Escape') {
+        mobileMenu?.classList.add('hidden');
       }
+    });
+  }
+
+  // ===== LOAD COMPONENT =====
+  async function loadComponent(id, url) {
+    const container = document.getElementById(id);
+    if (!container) return;
+
+    const res = await fetch(url);
+    container.innerHTML = await res.text();
+
+    if (id === 'header') {
+      initHeader(); // 🔥 AQUÍ ES DONDE DEBE IR
+    }
+  }
+
+  loadComponent('header', '../src/pages/header.html');
+    
+
+    // ===== SCROLL TOP =====
+    const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+    window.addEventListener('scroll', () => {
+      scrollTopBtn?.classList.toggle('hidden', window.scrollY <= 300);
     });
 
-    // Scroll to Top Button
-    const scrollTopBtn = document.getElementById('scrollTopBtn');
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 300) {
-        scrollTopBtn.classList.remove('hidden');
-      } else {
-        scrollTopBtn.classList.add('hidden');
-      }
-    });
-    
     scrollTopBtn?.addEventListener('click', () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
-  </script>
 
-  <!-- Load navbar and footer from components -->
+    // ===== LOAD COMPONENT =====
+    async function loadComponent(id, url) {
+      const container = document.getElementById(id);
+      if (!container) return;
+
+      const res = await fetch(url);
+      container.innerHTML = await res.text();
+
+      if (id === 'header') {
+        initHeader();
+      }
+    }
+
+    loadComponent('header', '../src/pages/header.html');
+  </script>
+  <script>
+    const searchToggle = document.getElementById('searchToggle');
+const searchInput = document.getElementById('searchInput');
+const logo = document.getElementById('logo');
+const menuToggle = document.getElementById('menuToggle');
+const mobileMenu = document.getElementById('mobileMenu');
+
+let searchOpen = false;
+
+// 🔍 Buscar (mobile)
+searchToggle?.addEventListener('click', () => {
+  searchOpen = !searchOpen;
+
+  searchInput.classList.toggle('hidden', !searchOpen);
+  logo.classList.toggle('hidden', searchOpen);
+  menuToggle.classList.toggle('hidden', searchOpen);
+
+  if (searchOpen) {
+    searchInput.focus();
+  }
+});
+
+// ☰ Menu
+menuToggle?.addEventListener('click', () => {
+  mobileMenu.classList.toggle('hidden');
+});
+
+  </script>
   <script src="../public/js/site.js"></script>
 </body>
 </html>

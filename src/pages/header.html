@@ -1,16 +1,66 @@
-<header class="lg:ml-64 border-b border-gray-200 bg-gray-50">
-  <div class="max-w-full px-4 sm:px-6 lg:px-8 py-3 sm:py-4 flex items-center justify-between">
-    <div class="flex items-center gap-3">
-      <button id="menu-toggle" aria-label="Abrir menú" class="inline-flex items-center justify-center w-10 h-10 rounded-md border border-gray-300 text-gray-900 hover:bg-white lg:hidden">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M3.75 17.25h16.5" />
-        </svg>
+<header class="sticky top-0 z-50 backdrop-blur-md bg-[var(--bg-page)]/80 border-b border-brand-soft dark:border-brand-deep">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+
+    <!-- LOGO -->
+    <a id="logo" href="./index.html" class="flex items-center gap-3">
+      <img src="../public/img/Logo.png" alt="Jemmsa" class="h-8 w-8 lg:h-12 lg:w-12">
+      <span class="font-display text-lg font-semibold hidden lg:block">Jemmsa</span>
+    </a>
+
+    <!-- SEARCH -->
+    <div id="searchWrapper" class="relative flex items-center gap-2">
+      
+      <!-- Input -->
+      <input
+        id="searchInput"
+        type="text"
+        placeholder="Buscar"
+        class="hidden lg:block w-96 px-4 py-2 border border-brand-muted rounded-xl focus:outline-none"
+      />
+
+      <!-- Search button -->
+      <button
+        id="searchToggle"
+        class="h-9 w-9 rounded-lg bg-brand-primary text-white flex items-center justify-center lg:hidden"
+        aria-label="Buscar"
+      >
+        🔍
       </button>
-      <h1 class="text-xl font-semibold text-gray-900">Jemmsa</h1>
     </div>
-    <nav class="space-x-6 hidden sm:block">
-      <a class="text-gray-900 hover:text-blue-600 font-medium transition-colors" href="./index.html">Inicio</a>
-      <a class="text-gray-900 hover:text-blue-600 font-medium transition-colors" href="./catalogo.html">Catálogo</a>
+
+    <!-- NAV DESKTOP -->
+    <nav class="hidden lg:flex items-center gap-8">
+      <a rel="noopener" href="https://ley-silla.com/index.html" target="_blank" class="text-sm font-medium hover:text-brand-primary">Ley Silla</a>
+      <a href="./aboutus.html" class="text-sm font-medium hover:text-brand-primary">Contáctanos</a>
+      <a href="./marcas.html" class="text-sm font-medium hover:text-brand-primary">Marcas</a>
+
+      <!-- Theme -->
+      <button id="themeToggle" class="h-9 w-9 rounded-full border flex items-center justify-center">
+        <span id="sun">☀️</span>
+        <span id="moon" class="hidden">🌙</span>
+      </button>
+    </nav>
+
+    <!-- MOBILE ACTIONS -->
+    <div class="flex items-center gap-3 lg:hidden">
+
+      <!-- Hamburger -->
+      <button id="menuToggle" class="h-9 w-9 flex items-center justify-center border rounded-lg">
+        ☰
+      </button>
+    </div>
+  </div>
+
+  <!-- MOBILE MENU -->
+  <div id="mobileMenu" class="hidden lg:hidden border-t border-brand-muted bg-[var(--bg-page)]">
+    <nav class="flex flex-col p-4 gap-4">
+      <a href="https://ley-silla.com/index.html">Ley Silla</a>
+      <a href="./aboutus.html">Contáctanos</a>
+      <a href="./marcas.html">Marcas</a>
+
+      <button id="themeToggleMobile" class="mt-2">
+        Cambiar tema
+      </button>
     </nav>
   </div>
 </header>
