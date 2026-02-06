@@ -5,7 +5,7 @@
         'Sillas de alta gama diseñadas para directivos, con materiales premium, ergonomía avanzada y presencia ejecutiva.',
         image:
         '../public/img/categorias/directivos.png',
-        link: '#directivos'
+        link: './catalogo.html?categoria=directivos'
     },
     {
         title: 'Ejecutivos',
@@ -13,7 +13,7 @@
         'Sillas ergonómicas ideales para largas jornadas de trabajo, combinando confort, diseño y funcionalidad.',
         image:
         '../public/img/categorias/ejecutivos.png',
-        link: '#ejecutivos'
+        link: './catalogo.html?categoria=ejecutivos'
     },
     {
         title: 'Operativos',
@@ -21,7 +21,7 @@
         'Soluciones prácticas y resistentes para áreas operativas, pensadas para el uso continuo y eficiente.',
         image:
         '../public/img/categorias/operativos.png',
-        link: '#operativos'
+        link: './catalogo.html?categoria=operativos'
     },
     {
         title: 'Industrial',
@@ -29,7 +29,7 @@
         'Sillas robustas diseñadas para entornos industriales, con alta durabilidad y fácil mantenimiento.',
         image:
         '../public/img/categorias/industrial.png',
-        link: '#industrial'
+        link: './catalogo.html?categoria=industrial'
     },
     {
         title: 'Accesorios',
@@ -37,7 +37,7 @@
         'Complementos y accesorios para sillas que mejoran la ergonomía, el confort y la personalización.',
         image:
         '../public/img/categorias/accesorios.png',
-        link: '#accesorios'
+        link: './catalogo.html?categoria=accesorios'
     },
     {
         title: 'Visitantes Exterior',
@@ -45,7 +45,7 @@
         'Sillas para áreas exteriores, fabricadas con materiales resistentes a la intemperie y de fácil limpieza.',
         image:
         '../public/img/categorias/visitantes-exterior.png',
-        link: '#visitantes-exterior'
+        link: './catalogo.html?categoria=visitantes-exterior'
     },
     {
         title: 'Visitantes Interior',

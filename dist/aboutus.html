@@ -208,56 +208,8 @@
     </section>
   </main>
  </body>
-  <script>
-
-    const savedTheme = localStorage.getItem('theme');
-    const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const isDark = savedTheme ? savedTheme === 'dark' : systemDark;
-    const html = document.documentElement;
-
-    if (isDark) {
-      html.classList.add('dark');
-    }
-
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-      if (!localStorage.getItem('theme')) {
-        html.classList.toggle('dark', e.matches);
-      }
-    });
-
-    function initHeader() {
-      const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-      const mobileMenu = document.getElementById('mobileMenu');
-      const toggle = document.getElementById('themeToggle');
-
-      toggle?.addEventListener('click', () => {
-        const isDarkMode = html.classList.toggle('dark');
-        localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
-      });
-
-      mobileMenuBtn?.addEventListener('click', () => {
-        mobileMenu?.classList.toggle('hidden');
-      });
-
-      document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && mobileMenu && !mobileMenu.classList.contains('hidden')) {
-          mobileMenu.classList.add('hidden');
-        }
-      });
-    }
-
-    const scrollTopBtn = document.getElementById('scrollTopBtn');
-
-    window.addEventListener('scroll', () => {
-      if (!scrollTopBtn) return;
-      scrollTopBtn.classList.toggle('hidden', window.scrollY <= 300);
-    });
-
-    scrollTopBtn?.addEventListener('click', () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-
-
+  <script src="../public/js/header.js"></script>
+</body>
     async function loadComponent(id, url) {
       const container = document.getElementById(id);
       if (!container) return;

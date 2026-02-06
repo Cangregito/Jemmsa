@@ -1,4 +1,34 @@
-// Shared site script: component loader + responsive sidebar toggle
+// ===== SEARCH TOGGLE (Mobile) =====
+const searchToggle = document.getElementById('searchToggle');
+const searchInput = document.getElementById('searchInput');
+const logo = document.getElementById('logo');
+const menuToggle = document.getElementById('menuToggle');
+const mobileMenu = document.getElementById('mobileMenu');
+
+let searchOpen = false;
+
+searchToggle?.addEventListener('click', () => {
+  searchOpen = !searchOpen;
+
+  searchInput.classList.toggle('hidden', !searchOpen);
+  logo.classList.toggle('hidden', searchOpen);
+  menuToggle.classList.toggle('hidden', searchOpen);
+
+  if (searchOpen) {
+    searchInput.focus();
+  }
+});
+
+// ===== SCROLL TOP =====
+const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+window.addEventListener('scroll', () => {
+  scrollTopBtn?.classList.toggle('hidden', window.scrollY <= 300);
+});
+
+scrollTopBtn?.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
 
 async function loadComponent(containerId, componentPath) {
   try {

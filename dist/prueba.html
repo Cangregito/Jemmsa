@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel - Ondas (Prueba)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = { theme: { extend: { colors: { 'brand-primary': '#1FA3D6', 'brand-accent': '#C62828', 'brand-base': '#0B0B0B' } } } };
+    </script>
+</head>
+<body class="bg-brand-base text-white">
+
+    <!-- Solo Carrusel 3: Ondas Dinámicas -->
+    <section id="carousel-3" class="py-20 bg-gradient-to-b from-blue-900 via-brand-base to-cyan-900" style="position: relative;">
+        <div class="absolute inset-0 opacity-30" style="background: radial-gradient(ellipse at 20% 50%, rgba(31,163,214,0.5) 0%, transparent 50%);"></div>
+        <div class="absolute inset-0 opacity-20" style="background: radial-gradient(ellipse at 80% 50%, rgba(198,40,40,0.5) 0%, transparent 50%);"></div>
+        <div class="max-w-7xl mx-auto px-4 relative z-10">
+            <h2 class="text-4xl font-bold text-white text-center mb-12">Ondas Dinámicas (Prueba)</h2>
+            <div class="relative">
+                <div id="carousel-viewport-3" class="overflow-hidden rounded-3xl"><div id="carousel-track-3" class="flex gap-6 py-8 px-4 transition-transform duration-500 ease-out" style="width: max-content;"></div></div>
+                <button id="prev-btn-3" class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-16 bg-cyan-500/80 hover:bg-cyan-500 text-white p-3 rounded-full shadow-lg transition-all hover:scale-110 z-40" aria-label="Anterior"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg></button>
+                <button id="next-btn-3" class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-16 bg-cyan-500/80 hover:bg-cyan-500 text-white p-3 rounded-full shadow-lg transition-all hover:scale-110 z-40" aria-label="Siguiente"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg></button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Datos (usar rutas reales del proyecto)
+        const carouselData = [
+            { title: 'Directivos', description: 'Sillas premium para directivos.', image: '../public/img/categorias/directivos.png' },
+            { title: 'Ejecutivos', description: 'Ergonómicas para trabajo.', image: '../public/img/categorias/ejecutivos.png' },
+            { title: 'Operativos', description: 'Para áreas operativas.', image: '../public/img/categorias/operativos.png' },
+            { title: 'Industrial', description: 'Robustas e industriales.', image: '../public/img/categorias/industrial.png' }
+        ];
+
+        function createCarouselItem({ title, description, image }){
+            return `
+                <div class="carousel-item w-[300px] h-[300px] md:w-[340px] md:h-[340px] flex-shrink-0">
+                    <div class="carousel-inner w-full h-full transition-all duration-500 ease-out">
+                        <div class="relative rounded-xl overflow-hidden w-full h-full group shadow-2xl">
+                            <img src="${image}" alt="${title}" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/60"></div>
+                            <div class="relative h-full flex flex-col justify-end p-4 text-white">
+                                <h4 class="text-lg font-bold">${title}</h4>
+                                <p class="text-sm text-white/80">${description}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Inicializar solo el carrusel 3
+        (function initOnly3(){
+            const track = document.getElementById('carousel-track-3');
+            const viewport = document.getElementById('carousel-viewport-3');
+            const prevBtn = document.getElementById('prev-btn-3');
+            const nextBtn = document.getElementById('next-btn-3');
+
+            track.innerHTML = carouselData.map(item => createCarouselItem(item)).join('');
+            const items = [...track.querySelectorAll('.carousel-item')];
+            const totalItems = items.length;
+            let currentIndex = 1;
+
+            function update(){
+                if(!items.length) return;
+                const itemWidth = items[0].offsetWidth;
+                const gap = parseFloat(getComputedStyle(track).gap) || 0;
+                const offset = -(currentIndex * (itemWidth + gap)) + (viewport.offsetWidth / 2 - itemWidth / 2);
+                track.style.transform = `translateX(${offset}px)`;
+                items.forEach((item,i)=>{
+                    const inner = item.querySelector('.carousel-inner');
+                    inner.classList.remove('scale-75','scale-90','scale-110','opacity-50','opacity-75','z-10','z-20','z-30');
+                    const d = Math.abs(i - currentIndex);
+                    if(d===0) inner.classList.add('scale-110','z-30');
+                    else if(d===1) inner.classList.add('scale-90','opacity-75','z-20');
+                    else inner.classList.add('scale-75','opacity-50','z-10');
+                });
+            }
+
+            prevBtn.onclick = ()=>{ currentIndex = (currentIndex - 1 + totalItems) % totalItems; update(); };
+            nextBtn.onclick = ()=>{ currentIndex = (currentIndex + 1) % totalItems; update(); };
+            document.addEventListener('keydown', e=>{ if(e.key==='ArrowLeft') prevBtn.click(); if(e.key==='ArrowRight') nextBtn.click(); });
+            requestAnimationFrame(update);
+            window.addEventListener('resize', update);
+        })();
+    </script>
+</body>
+</html>

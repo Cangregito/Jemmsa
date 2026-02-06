@@ -64,32 +64,7 @@
   </script>
 </head>
 <body class="font-body bg-[var(--bg-page)] text-[var(--text-main)]">
-  <!-- Header Sticky -->
-  <header class="sticky top-0 z-50 backdrop-blur-md bg-[var(--bg-page)]/80 border-b border-brand-soft dark:border-brand-deep">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-      <a href="./index.html" class="flex items-center gap-3">
-        <img src="./public/img/Logo.png" alt="Jemmsa" class="h-10 w-auto">
-        <span class="font-display text-lg font-semibold">Jemmsa</span>
-      </a>
-
-      <nav class="hidden md:flex items-center gap-8">
-        <a href="./index.html" class="text-sm font-medium hover:text-brand-primary transition-colors">Inicio</a>
-        <a href="./catalogo.html" class="text-sm font-medium hover:text-brand-primary transition-colors">Catálogo</a>
-        <a href="./marcas.html" class="text-sm font-medium hover:text-brand-primary transition-colors">Marcas</a>
-      </nav>
-
-      <div class="flex items-center gap-3">
-        <button id="themeToggle" class="h-9 w-9 rounded-full border border-brand-muted hover:border-brand-primary flex items-center justify-center transition-colors" aria-label="Cambiar tema">
-          <svg id="sun" class="w-5 h-5 block dark:hidden" fill="currentColor" viewBox="0 0 20 20">
-            <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"/>
-          </svg>
-          <svg id="moon" class="w-5 h-5 hidden dark:block" fill="currentColor" viewBox="0 0 20 20">
-            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/>
-          </svg>
-        </button>
-      </div>
-    </div>
-  </header>
+  <header id="header"></header>
 
   <main class="overflow-hidden">
     <!-- 404 Section -->
@@ -163,78 +138,9 @@
   </main>
 
   <!-- Footer -->
-  <footer class="border-t border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base py-12 sm:py-16">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-        <div class="space-y-3">
-          <h3 class="font-display font-semibold">JEMMSA</h3>
-          <p class="text-sm text-brand-muted dark:text-slate-400">Mobiliario corporativo moderno y ergonómico para espacios que producen.</p>
-        </div>
-        <div class="space-y-3">
-          <h4 class="font-semibold text-sm">Sitio</h4>
-          <ul class="space-y-2 text-sm text-brand-muted dark:text-slate-400">
-            <li><a href="./index.html" class="hover:text-brand-primary transition-colors">Inicio</a></li>
-            <li><a href="./catalogo.html" class="hover:text-brand-primary transition-colors">Catálogo</a></li>
-            <li><a href="./marcas.html" class="hover:text-brand-primary transition-colors">Marcas</a></li>
-          </ul>
-        </div>
-        <div class="space-y-3">
-          <h4 class="font-semibold text-sm">Contacto</h4>
-          <ul class="space-y-2 text-sm text-brand-muted dark:text-slate-400">
-            <li><a href="tel:6566877854" class="hover:text-brand-primary transition-colors">656-687-78-54</a></li>
-            <li><a href="https://wa.me/526564372481" target="_blank" rel="noopener" class="hover:text-brand-primary transition-colors">WhatsApp</a></li>
-            <li><a href="mailto:jemmsa@jemmsa.com.mx" class="hover:text-brand-primary transition-colors">Email</a></li>
-          </ul>
-        </div>
-        <div class="space-y-3">
-          <h4 class="font-semibold text-sm">Ubicación</h4>
-          <p class="text-sm text-brand-muted dark:text-slate-400">C. Júpiter 1550<br>Satélite, Juárez, Chih.</p>
-        </div>
-      </div>
+  <footer id="footer"></footer>
 
-      <div class="border-t border-brand-soft dark:border-brand-deep pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-brand-muted dark:text-slate-400">
-        <p>© 2025 JEMMSA. Todos los derechos reservados.</p>
-        <span class="flex items-center gap-2">
-          <span class="h-2 w-2 rounded-full bg-brand-primary"></span>
-          Diseño Moderno & Accesible
-        </span>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Theme Toggle Script -->
-  <script>
-    const html = document.documentElement;
-    const toggle = document.getElementById('themeToggle');
-    const sun = document.getElementById('sun');
-    const moon = document.getElementById('moon');
-
-    // Check saved theme or system preference
-    const savedTheme = localStorage.getItem('theme');
-    const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const isDark = savedTheme ? savedTheme === 'dark' : systemDark;
-
-    if (isDark) {
-      html.classList.add('dark');
-    }
-
-    // Toggle theme
-    toggle?.addEventListener('click', () => {
-      const isDarkMode = html.classList.toggle('dark');
-      localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
-    });
-
-    // Listen for system changes
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-      if (!localStorage.getItem('theme')) {
-        if (e.matches) {
-          html.classList.add('dark');
-        } else {
-          html.classList.remove('dark');
-        }
-      }
-    });
-  </script>
+  <script src="./public/js/header.js"></script>
 </body>
 </html>
 

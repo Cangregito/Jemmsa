@@ -105,49 +105,7 @@
   </style>
 </head>
 <body class="font-body bg-[var(--bg-page)] text-[var(--text-main)]">
-  <!-- Sticky Header -->
-  <header class="sticky top-0 z-40 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 shadow-sm transition-colors">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-      <a href="./index.html" class="flex items-center gap-3">
-        <img src="../public/img/Logo.png" alt="JEMMSA" class="h-10 w-auto">
-        <span class="font-display font-bold text-2xl text-brand-primary hover:text-brand-primary/90 transition-colors">JEMMSA</span>
-      </a>
-      
-      <nav class="hidden md:flex items-center gap-6">
-        <a href="./index.html" class="text-slate-700 dark:text-slate-300 hover:text-brand-primary transition-colors font-medium text-sm">Inicio</a>
-        <a href="https://ley-silla.com/index.html" target="_blank" rel="noopener" class="text-slate-700 dark:text-slate-300 hover:text-brand-primary transition-colors font-medium text-sm">Ley de la Silla</a>
-        <a href="./catalogo.html" class="text-brand-primary font-medium text-sm">Catálogo</a>
-      </nav>
-      
-      <button id="theme-toggle" class="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" title="Cambiar tema" aria-label="Cambiar tema">
-        <svg id="sun" class="w-5 h-5 text-brand-primary block dark:hidden" fill="currentColor" viewBox="0 0 20 20">
-          <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"/>
-        </svg>
-        <svg id="moon" class="w-5 h-5 text-brand-primary hidden dark:block" fill="currentColor" viewBox="0 0 20 20">
-          <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/>
-        </svg>
-      </button>
-    </div>
-  </header>
-
-  <!-- Hero Section del Catálogo -->
-  <section class="relative py-16 sm:py-24 overflow-hidden bg-gradient-to-r from-brand-primary/5 to-brand-primary/10 dark:from-slate-900 dark:to-slate-800">
-    <div class="absolute inset-0 pointer-events-none">
-      <div class="absolute top-20 right-10 w-72 h-72 bg-brand-primary/10 rounded-full blur-3xl"></div>
-      <div class="absolute -bottom-20 left-20 w-96 h-96 bg-brand-primary/5 rounded-full blur-3xl"></div>
-    </div>
-    
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-      <div class="text-center space-y-4 animate-fade-in">
-        <h1 class="font-display font-bold text-4xl sm:text-5xl text-brand-base dark:text-white">
-          Nuestro <span class="text-brand-primary">Catálogo</span>
-        </h1>
-        <p class="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
-          Descubre nuestra amplia selección de mobiliario de oficina diseñado para comodidad y productividad
-        </p>
-      </div>
-    </div>
-  </section>
+  <header id="header"></header>
 
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
     <!-- Breadcrumb -->
@@ -167,7 +125,27 @@
           </div>
           <button id="clear-search" class="self-start sm:self-center px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-sm font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">Limpiar</button>
         </div>
-        <h2 class="font-display font-bold text-2xl text-brand-base dark:text-white">Categorías</h2>
+        
+        <div class="flex flex-col sm:flex-row sm:items-center gap-4">
+          <h2 class="font-display font-bold text-2xl text-brand-base dark:text-white">Categorías</h2>
+          
+          <!-- Dropdown Filtro -->
+          <div class="relative">
+            <button id="filter-dropdown-btn" class="px-4 py-2 rounded-lg bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 font-medium hover:bg-slate-300 dark:hover:bg-slate-600 transition-all flex items-center gap-2">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"/>
+              </svg>
+              Todas las categorías
+            </button>
+            
+            <div id="filter-dropdown-menu" class="hidden absolute left-0 mt-2 w-64 bg-white dark:bg-slate-900 rounded-lg shadow-lg border border-slate-200 dark:border-slate-700 z-50 max-h-96 overflow-y-auto">
+              <div class="p-4 space-y-2" id="filter-dropdown-content">
+                <!-- Content generated by JS -->
+              </div>
+            </div>
+          </div>
+        </div>
+        
         <div class="flex flex-wrap gap-2">
           <button class="category-btn px-4 py-2 rounded-lg bg-brand-primary text-white font-medium hover:bg-brand-primary/90 transition-all hover:shadow-card active" data-category="all">
             Todas
@@ -227,66 +205,9 @@
   </main>
 
   <!-- Footer -->
-  <footer class="bg-brand-base dark:bg-slate-900 text-white mt-16 py-12 border-t border-slate-700">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-        <div class="space-y-3">
-          <h3 class="font-display font-bold text-lg">JEMMSA</h3>
-          <p class="text-slate-400 text-sm">Mobiliario de oficina de calidad premium para tu espacio de trabajo.</p>
-        </div>
-        <div class="space-y-2">
-          <h4 class="font-semibold text-sm uppercase tracking-wide">Enlaces</h4>
-          <ul class="space-y-1 text-slate-400 text-sm">
-            <li><a href="./index.html" class="hover:text-brand-primary transition-colors">Inicio</a></li>
-            <li><a href="./catalogo.html" class="hover:text-brand-primary transition-colors">Catálogo</a></li>
-          </ul>
-        </div>
-        <div class="space-y-2">
-          <h4 class="font-semibold text-sm uppercase tracking-wide">Información</h4>
-          <p class="text-slate-400 text-sm leading-relaxed">
-            Email: jemmsa@jemmsa.com.mx<br>
-            Tel: 656-687-78-54<br>
-            Ubicación: Juárez, Chihuahua
-          </p>
-        </div>
-      </div>
-      <div class="border-t border-slate-700 pt-8 text-center text-slate-400 text-sm">
-        <p>&copy; 2024 JEMMSA. Todos los derechos reservados.</p>
-      </div>
-    </div>
-  </footer>
+  <footer id="footer"></footer>
 
   <script>
-    // Theme toggle with localStorage persistence
-    const themeToggle = document.getElementById('theme-toggle');
-    const html = document.documentElement;
-    
-    // Load saved theme or use system preference
-    const savedTheme = localStorage.getItem('theme');
-    const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const isDark = savedTheme ? savedTheme === 'dark' : systemDark;
-    
-    if (isDark) {
-      html.classList.add('dark');
-    }
-    
-    // Toggle theme on button click
-    themeToggle?.addEventListener('click', () => {
-      const isDarkMode = html.classList.toggle('dark');
-      localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
-    });
-
-    // Listen for system theme changes
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-      if (!localStorage.getItem('theme')) {
-        if (e.matches) {
-          html.classList.add('dark');
-        } else {
-          html.classList.remove('dark');
-        }
-      }
-    });
-
     const catalogData = {
       "categories": [
         { "id": "directivos", "name": "Directivos" },
@@ -2005,6 +1926,81 @@
       });
     }
 
+    // Initialize Filter Dropdown
+    function initFilterDropdown() {
+      const filterBtn = document.getElementById('filter-dropdown-btn');
+      const filterMenu = document.getElementById('filter-dropdown-menu');
+      const filterContent = document.getElementById('filter-dropdown-content');
+
+      // Generate filter items from catalogData
+      catalogData.categories.forEach(category => {
+        const categoryProducts = catalogData.products[category.id];
+        
+        if (!categoryProducts) return;
+
+        // Create category header
+        const categoryDiv = document.createElement('div');
+        categoryDiv.className = 'mb-4';
+        
+        const categoryHeader = document.createElement('div');
+        categoryHeader.className = 'px-2 py-1 font-semibold text-slate-900 dark:text-slate-100 text-sm uppercase tracking-wide border-b border-slate-200 dark:border-slate-700 mb-2 cursor-pointer hover:text-brand-primary transition-colors';
+        categoryHeader.textContent = category.name;
+        categoryHeader.addEventListener('click', () => {
+          // Click on category in main buttons
+          const categoryBtn = document.querySelector(`.category-btn[data-category="${category.id}"]`);
+          if (categoryBtn) categoryBtn.click();
+          filterMenu.classList.add('hidden');
+        });
+        
+        categoryDiv.appendChild(categoryHeader);
+
+        // Add subcategories/families
+        if (typeof categoryProducts === 'object' && !Array.isArray(categoryProducts)) {
+          // Object mapping (categorías con familias)
+          const subfamiliesDiv = document.createElement('div');
+          subfamiliesDiv.className = 'space-y-1 ml-2';
+          
+          Object.entries(categoryProducts).forEach(([familyId, family]) => {
+            const familyItem = document.createElement('div');
+            familyItem.className = 'px-2 py-1.5 text-slate-700 dark:text-slate-300 text-xs rounded hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer transition-colors';
+            
+            // Get family name
+            const familyName = typeof family === 'object' ? (family.name || familyId) : familyId;
+            familyItem.textContent = familyName;
+            
+            familyItem.addEventListener('click', () => {
+              // Simular click en categoría y luego filtrar por familia
+              const categoryBtn = document.querySelector(`.category-btn[data-category="${category.id}"]`);
+              if (categoryBtn) categoryBtn.click();
+              // Aquí se podría agregar lógica adicional para filtrar por familia específica
+              filterMenu.classList.add('hidden');
+            });
+            
+            subfamiliesDiv.appendChild(familyItem);
+          });
+          
+          categoryDiv.appendChild(subfamiliesDiv);
+        }
+        
+        filterContent.appendChild(categoryDiv);
+      });
+
+      // Toggle dropdown on button click
+      if (filterBtn) {
+        filterBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          filterMenu.classList.toggle('hidden');
+        });
+      }
+
+      // Close dropdown when clicking outside
+      document.addEventListener('click', (e) => {
+        if (!filterBtn?.contains(e.target) && !filterMenu?.contains(e.target)) {
+          filterMenu?.classList.add('hidden');
+        }
+      });
+    }
+
     if (searchInput) {
       searchInput.addEventListener('input', () => {
         const q = searchInput.value.trim().toLowerCase();
@@ -2108,8 +2104,26 @@
       window.location.href = url;
     }
 
-    // Initialize catalog display
+    // Detectar parámetro de categoría en la URL y pre-filtrar
+    function initializeFromURL() {
+      const params = new URLSearchParams(window.location.search);
+      const categoryParam = params.get('categoria');
+      
+      if (categoryParam) {
+        // Buscar el botón de categoría correspondiente
+        const categoryBtn = document.querySelector(`.category-btn[data-category="${categoryParam}"]`);
+        if (categoryBtn) {
+          // Simular clic en el botón de categoría
+          categoryBtn.click();
+        }
+      }
+    }
+
+    // Initialize catalog display y chequear URL
     renderAllProducts();
+    initializeFromURL();
+    initFilterDropdown();
   </script>
+  <script src="../public/js/header.js"></script>
 </body>
 </html>
