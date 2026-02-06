@@ -2187,45 +2187,29 @@
       updateBreadcrumb();
 
       Object.entries(catalogData.products).forEach(([catId, catProducts]) => {
-        if (typeof catProducts === 'object' && !Array.isArray(catProducts)) {
-          // Categoría con subcategorías (ej: directivos)
-          const categoryCard = document.createElement('article');
-          categoryCard.className = 'border border-slate-200 rounded-lg bg-white shadow-sm p-4 cursor-pointer hover:shadow-md';
-          const catName = catalogData.categories.find(c => c.id === catId)?.name;
-          
-          // Contar familias, considerando subfamilias anidadas
-          const familyCount = Object.keys(catProducts).length;
-          
-          categoryCard.innerHTML = `
-            <div class="category-image-container aspect-[4/3] bg-slate-50 overflow-hidden rounded-md mb-3 cursor-zoom-in flex items-center justify-center" title="Click para ampliar">
-              <img loading="lazy" class="w-full h-full object-contain" src="${getCategoryImage(catId)}" alt="${catName}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
-            </div>
-            <h3 class="text-xl font-semibold text-blue-600">${catName}</h3>
-            <p class="text-slate-600 text-sm">${familyCount} familias</p>
-          `;
-          categoryCard.dataset.categoryId = catId;
-          categoryCard.dataset.action = 'category';
-          fragment.appendChild(categoryCard);
-        } else {
-          // Categoría simple (array de productos)
-          catProducts.forEach(product => {
-            const prod = getProductDefaults(product);
-            const article = document.createElement('article');
-            article.className = 'border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm cursor-pointer hover:shadow-md transition-shadow';
-            article.dataset.action = 'product';
-            article.innerHTML = `
-              <div class="product-image-container aspect-[4/3] bg-slate-50 cursor-zoom-in flex items-center justify-center" title="Click para ampliar">
-                <img loading="lazy" class="w-full h-full object-contain" src="${prod.image}" alt="${prod.name}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
-              </div>
-              <div class="p-4 space-y-1">
-                <h3 class="product-name text-lg leading-tight">${prod.name}</h3>
-                <p class="text-slate-500 text-sm">${prod.material}</p>
-                <button class="mt-2 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors">Ver detalles →</button>
-              </div>
-            `;
-            fragment.appendChild(article);
-          });
+        // Todas las categorías deben mostrarse como tarjetas, incluso si son arrays
+        const categoryCard = document.createElement('article');
+        categoryCard.className = 'border border-slate-200 rounded-lg bg-white shadow-sm p-4 cursor-pointer hover:shadow-md';
+        const catName = catalogData.categories.find(c => c.id === catId)?.name;
+        
+        // Contar productos/familias según la estructura
+        let itemCount = 0;
+        if (Array.isArray(catProducts)) {
+          itemCount = catProducts.length;
+        } else if (typeof catProducts === 'object') {
+          itemCount = Object.keys(catProducts).length;
         }
+        
+        categoryCard.innerHTML = `
+          <div class="category-image-container aspect-[4/3] bg-slate-50 overflow-hidden rounded-md mb-3 cursor-zoom-in flex items-center justify-center" title="Click para ampliar">
+            <img loading="lazy" class="w-full h-full object-contain" src="${getCategoryImage(catId)}" alt="${catName}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
+          </div>
+          <h3 class="text-xl font-semibold text-blue-600">${catName}</h3>
+          <p class="text-slate-600 text-sm">${itemCount} ${Array.isArray(catProducts) ? 'productos' : 'familias'}</p>
+        `;
+        categoryCard.dataset.categoryId = catId;
+        categoryCard.dataset.action = 'category';
+        fragment.appendChild(categoryCard);
       });
       
       grid.innerHTML = '';
