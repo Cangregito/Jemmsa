@@ -274,16 +274,6 @@ function renderBadges(product) {
     `);
   }
   
-  // Badge de envío rápido (48hrs)
-  badges.push(`
-    <div class="badge-circular" style="background-color: white; border-color: #2563EB; color: #2563EB;">
-      <svg style="width: 32px; height: 32px; margin-bottom: 4px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-      </svg>
-      <div style="font-size: 1.25rem; font-weight: 700; line-height: 1;">48hrs</div>
-    </div>
-  `);
-  
   container.innerHTML = badges.join('');
 }
 
