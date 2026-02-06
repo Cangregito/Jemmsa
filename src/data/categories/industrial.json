@@ -2,7 +2,8 @@
   "category": {
     "id": "industrial",
     "name": "Industrial",
-    "description": "Sillas resistentes para entornos industriales"
+    "description": "Sillas resistentes para entornos industriales",
+    "image":"../public/img/categorias/industrial.png"
   },
   "families": [
     {

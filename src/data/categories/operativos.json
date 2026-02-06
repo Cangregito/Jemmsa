@@ -2,7 +2,8 @@
   "category": {
     "id": "operativos",
     "name": "Operativos",
-    "description": "Sillas de trabajo para áreas operativas"
+    "description": "Sillas de trabajo para áreas operativas",
+    "image":"../public/img/categorias/operativos.png"
   },
   "families": {
     "evolution": {

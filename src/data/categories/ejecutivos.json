@@ -2,7 +2,8 @@
   "category": {
     "id": "ejecutivos",
     "name": "Ejecutivos",
-    "description": "Sillas de oficina profesionales para ejecutivos"
+    "description": "Sillas de oficina profesionales para ejecutivos",
+    "image":"../public/img/categorias/ejecutivos.png"
   },
   "families": {
     "quo": {

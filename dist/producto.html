@@ -148,16 +148,19 @@
       
       <!-- Columna Izquierda: Galería de Imágenes -->
       <div class="space-y-4 animate-slide-up">
-        <!-- Imagen Principal -->
-        <div class="bg-white dark:bg-slate-800 rounded-xl shadow-card overflow-hidden border border-slate-200 dark:border-slate-700 aspect-[4/3]">
-          <img id="main-image" 
-               src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" 
-               alt="Producto" 
-               class="w-full h-full object-cover">
+        <!-- Contenedor de Galería con Miniaturas -->
+        <div class="flex gap-4">
+          <!-- Miniaturas Verticales -->
+          <div id="thumbnails-container" class="flex flex-col gap-2 w-20"></div>
+          
+          <!-- Imagen Principal -->
+          <div class="flex-1 bg-white dark:bg-slate-800 rounded-xl shadow-card overflow-hidden border border-slate-200 dark:border-slate-700 aspect-[4/3]">
+            <img id="main-image" 
+                 src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop" 
+                 alt="Producto" 
+                 class="w-full h-full object-contain">
+          </div>
         </div>
-        
-        <!-- Miniaturas -->
-        <div id="thumbnails-container" class="flex gap-2 justify-center"></div>
 
         <!-- Botones de Descarga -->
         <div id="downloads-section" class="flex flex-wrap justify-center gap-4 pt-4">
@@ -270,7 +273,7 @@
   <footer id="footer"></footer>
 
   <!-- Scripts -->
-  <script src="../public/js/product-view.js"></script>
+  <script src="js/product-view.js"></script>
   <script src="../public/js/header.js"></script>
 </body>
 </html>

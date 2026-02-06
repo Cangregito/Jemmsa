@@ -2,7 +2,8 @@
   "category": {
     "id": "visitantes-exterior",
     "name": "Visitantes Exterior",
-    "description": "Sillas para visitantes en espacios exteriores"
+    "description": "Sillas para visitantes en espacios exteriores",
+    "image":"../public/img/categorias/visitantes-exterior.png"
   },
   "families": {
     "plus": {

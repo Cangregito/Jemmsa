@@ -2,7 +2,8 @@
   "category": {
     "id": "visitantes-interior",
     "name": "Visitantes Interior",
-    "description": "Sillas para visitantes en espacios interiores"
+    "description": "Sillas para visitantes en espacios interiores",
+    "image":"../public/img/categorias/visitantes-interior.png"
   },
   "families": {
     "strike": {

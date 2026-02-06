@@ -3,57 +3,68 @@
     {
       "id": "directivos",
       "name": "Directivos",
-      "description": "Sillas ejecutivas de alto confort para directivos"
+      "description": "Sillas ejecutivas de alto confort para directivos",
+      "image": "../public/img/categorias/directivos.png"
     },
     {
       "id": "ejecutivos",
       "name": "Ejecutivos",
-      "description": "Sillas de oficina profesionales para ejecutivos"
+      "description": "Sillas de oficina profesionales para ejecutivos",
+      "image": "../public/img/categorias/ejecutivos.png"
     },
     {
       "id": "operativos",
       "name": "Operativos",
-      "description": "Sillas de trabajo para áreas operativas"
+      "description": "Sillas de trabajo para áreas operativas",
+      "image": "../public/img/categorias/operativos.png"
     },
     {
       "id": "industrial",
       "name": "Industrial",
-      "description": "Sillas resistentes para entornos industriales"
+      "description": "Sillas resistentes para entornos industriales",
+      "image": "../public/img/categorias/industrial.png"
     },
     {
       "id": "accesorios",
       "name": "Accesorios",
-      "description": "Accesorios y complementos para sillas"
+      "description": "Accesorios y complementos para sillas",
+      "image": "../public/img/categorias/accesorios.png"
     },
     {
       "id": "visitantes-interior",
       "name": "Visitantes Interior",
-      "description": "Sillas para visitantes en espacios interiores"
+      "description": "Sillas para visitantes en espacios interiores",
+      "image": "../public/img/categorias/visitantes-interior.png"
     },
     {
       "id": "visitantes-exterior",
       "name": "Visitantes Exterior",
-      "description": "Sillas para visitantes en espacios exteriores"
+      "description": "Sillas para visitantes en espacios exteriores",
+      "image": "../public/img/categorias/visitantes-exterior.png"
     },
     {
       "id": "mesas",
       "name": "Mesas",
-      "description": "Mesas y superficies de trabajo"
+      "description": "Mesas y superficies de trabajo",
+      "image": "../public/img/categorias/mesas.png"
     },
     {
       "id": "confortables",
       "name": "Confortables",
-      "description": "Sillas de máximo confort y descanso"
+      "description": "Sillas de máximo confort y descanso",
+      "image": "../public/img/categorias/confortables.png"
     },
     {
       "id": "bancas",
       "name": "Bancas",
-      "description": "Bancas modulares y colectivas"
+      "description": "Bancas modulares y colectivas",
+      "image": "../public/img/categorias/bancas.png"
     },
     {
       "id": "escolar",
       "name": "Escolar",
-      "description": "Sillas y pupitres para entornos escolares"
+      "description": "Sillas y pupitres para entornos escolares",
+      "image": "../public/img/categorias/escolar.png"
     }
   ],
   "categoryFiles": [

@@ -2,7 +2,8 @@
   "category": {
     "id": "confortables",
     "name": "Confortables",
-    "description": "Sillas de máximo confort y descanso"
+    "description": "Sillas de máximo confort y descanso",
+    "image":"../public/img/categorias/confortables.png"
   },
   "families": {
     "blair": {

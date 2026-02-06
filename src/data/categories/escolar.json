@@ -2,7 +2,8 @@
   "category": {
     "id": "escolar",
     "name": "Escolar",
-    "description": "Sillas y pupitres para entornos escolares"
+    "description": "Sillas y pupitres para entornos escolares",
+    "image":"../public/img/categorias/escolar.png"
   },
   "families": {
     "blow": {

@@ -2,7 +2,8 @@
   "category": {
     "id": "bancas",
     "name": "Bancas",
-    "description": "Bancas modulares y colectivas"
+    "description": "Bancas modulares y colectivas",
+    "image":"../public/img/categorias/bancas.png"
   },
   "families": {
     "innova": {

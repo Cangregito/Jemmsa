@@ -2,7 +2,8 @@
   "category": {
     "id": "mesas",
     "name": "Mesas",
-    "description": "Mesas y superficies de trabajo"
+    "description": "Mesas y superficies de trabajo",
+    "image":"../public/img/categorias/mesas.png"
   },
   "families": {
     "magnolia": {

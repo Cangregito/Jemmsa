@@ -2,7 +2,8 @@
   "category": {
     "id": "accesorios",
     "name": "Accesorios",
-    "description": "Accesorios y complementos para sillas"
+    "description": "Accesorios y complementos para sillas",
+    "image":"../public/img/categorias/accesorios.png"
   },
   "families": {
     "piston-base": {

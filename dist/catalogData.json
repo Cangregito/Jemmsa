@@ -1,0 +1,16 @@
+{
+  "categories": [
+    { "id": "directivos", "name": "Directivos" },
+    { "id": "ejecutivos", "name": "Ejecutivos" },
+    { "id": "operativos", "name": "Operativos" },
+    { "id": "industrial", "name": "Industrial", "description": "Sillas resistentes para entornos industriales" },
+    { "id": "accesorios", "name": "Accesorios" },
+    { "id": "visitantes-interior", "name": "Visitantes Interior" },
+    { "id": "visitantes-exterior", "name": "Visitantes Exterior" },
+    { "id": "mesas", "name": "Mesas" },
+    { "id": "confortables", "name": "Confortables" },
+    { "id": "bancas", "name": "Bancas" },
+    { "id": "escolar", "name": "Escolar" }
+  ],
+  "products": {}
+}
