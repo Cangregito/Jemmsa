@@ -53,7 +53,7 @@
         'Sillas funcionales y estéticas para salas de espera, recepción y espacios de atención al cliente.',
         image:
         '../public/img/categorias/visitantes-interior.png',
-        link: '#visitantes-interior'
+        link: './catalogo.html?categoria=visitantes-interior'
     },
     {
         title: 'Mesas',
@@ -61,7 +61,7 @@
         'Mesas complementarias para oficinas, salas de juntas y áreas de trabajo colaborativo.',
         image:
         '../public/img/categorias/mesas.png',
-        link: '#mesas'
+        link: './catalogo.html?categoria=mesas'
     },
     {
         title: 'Confortables',
@@ -69,7 +69,7 @@
         'Sillas diseñadas para brindar máximo confort, ideales para descanso, espera prolongada o uso casual.',
         image:
         '../public/img/categorias/confortables.png',
-        link: '#confortables'
+        link: './catalogo.html?categoria=confortables'
     },
     {
         title: 'Bancas',
@@ -77,7 +77,7 @@
         'Bancas resistentes y funcionales para áreas comunes, instituciones y espacios de alto tránsito.',
         image:
         '../public/img/categorias/bancas.png',
-        link: '#bancas'
+        link: './catalogo.html?categoria=bancas'
     },
     {
         title: 'Escolar',
@@ -85,6 +85,6 @@
         'Mobiliario escolar ergonómico y duradero, diseñado para aulas, laboratorios y espacios educativos.',
         image:
         '../public/img/categorias/escolares.png',
-        link: '#escolar'
+        link: './catalogo.html?categoria=escolar'
     }
     ];
