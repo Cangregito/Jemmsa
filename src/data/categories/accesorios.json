@@ -3,7 +3,7 @@
     "id": "accesorios",
     "name": "Accesorios",
     "description": "Accesorios y complementos para sillas",
-    "image":"../public/img/categorias/accesorios.png"
+    "image": "../public/img/categorias/accesorios.png"
   },
   "families": {
     "piston-base": {
@@ -56,7 +56,69 @@
             "terminación": "Cromado",
             "nota": "El color puede variar dependiendo de su monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/AroKitCrArriba.jpg",
+          "images": [
+            {
+              "url": "../public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/AroKitCrArriba.jpg",
+              "label": "Imagen 1"
+            },
+            {
+              "url": "../public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/KitCajCr.jpg",
+              "label": "Imagen 2"
+            },
+            {
+              "url": "../public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/OHE-100kitCr.jpg",
+              "label": "Imagen 3"
+            },
+            {
+              "url": "../public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/OHE-100negrokitCr.jpg",
+              "label": "Imagen 4"
+            },
+            {
+              "url": "../public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/OHE-113kitCr.jpg",
+              "label": "Imagen 5"
+            },
+            {
+              "url": "../public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/OHE-114kitCr.jpg",
+              "label": "Imagen 6"
+            },
+            {
+              "url": "../public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/OHI-46kitCrRod.jpg",
+              "label": "Imagen 7"
+            },
+            {
+              "url": "../public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/OHS-37CrLx.jpg",
+              "label": "Imagen 8"
+            },
+            {
+              "url": "../public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/OHS-42KitCrAzMedio.jpg",
+              "label": "Imagen 9"
+            },
+            {
+              "url": "../public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/OHS-47kitCrLx.jpg",
+              "label": "Imagen 10"
+            },
+            {
+              "url": "../public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/OHS-85alKitCrZafiro.jpg",
+              "label": "Imagen 11"
+            },
+            {
+              "url": "../public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/OHS-86alkitCrArena.jpg",
+              "label": "Imagen 12"
+            },
+            {
+              "url": "../public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/OHS-87alKitCrMar.jpg",
+              "label": "Imagen 13"
+            },
+            {
+              "url": "../public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/OHS-88alkitCrVainilla.jpg",
+              "label": "Imagen 14"
+            },
+            {
+              "url": "../public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/PerillaKitCajCr.jpg",
+              "label": "Imagen 15"
+            }
+          ]
         },
         {
           "id": "piston-neumatico-estandar",
@@ -109,7 +171,21 @@
             "caracteristicas": "Con correderas para ajuste a lo ancho",
             "nota": "Algunos brazos son compatibles con otras sillas, consultar con el área comercial."
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-06/brazo06p.jpg",
+          "images": [
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-06/brazo06p.jpg",
+              "label": "Imagen 1"
+            },
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-06/OHS-42bra06.jpg",
+              "label": "Imagen 2"
+            },
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-06/OHS-43bra06.jpg",
+              "label": "Imagen 3"
+            }
+          ]
         },
         {
           "id": "brazo-53",
@@ -121,7 +197,21 @@
             "uso": "Configuración de apoyo fijo para modelos compatibles",
             "nota": "El color puede variar dependiendo de su monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-53/brazo53p.jpg",
+          "images": [
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-53/brazo53p.jpg",
+              "label": "Imagen 1"
+            },
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-53/OHS-42bra53.jpg",
+              "label": "Imagen 2"
+            },
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-53/OHS-43bra53.jpg",
+              "label": "Imagen 3"
+            }
+          ]
         },
         {
           "id": "brazo-55",
@@ -134,7 +224,21 @@
             "caracteristicas": "Con correderas para ajuste a lo ancho",
             "nota": "Algunos brazos son compatibles con otras sillas, consultar con el área comercial."
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-55/brazo55p.jpg",
+          "images": [
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-55/brazo55p.jpg",
+              "label": "Imagen 1"
+            },
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-55/OHS-42bra55.jpg",
+              "label": "Imagen 2"
+            },
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-55/OHS-43bra55.jpg",
+              "label": "Imagen 3"
+            }
+          ]
         },
         {
           "id": "brazo-90",
@@ -147,7 +251,21 @@
             "caracteristicas": "Con correderas para ajuste a lo ancho",
             "nota": "Algunos brazos son compatibles con otras sillas, consultar con el área comercial."
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-90/brazo90p.jpg",
+          "images": [
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-90/brazo90p.jpg",
+              "label": "Imagen 1"
+            },
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-90/OHS-42bra90.jpg",
+              "label": "Imagen 2"
+            },
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-90/OHS-43bra90.jpg",
+              "label": "Imagen 3"
+            }
+          ]
         },
         {
           "id": "brazo-86",
@@ -160,7 +278,17 @@
             "caracteristicas": "Con correderas para ajuste a lo ancho",
             "nota": "Únicamente para el modelo OHS-86Al."
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86/Brazo86.jpg",
+          "images": [
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86/Brazo86.jpg",
+              "label": "Imagen 1"
+            },
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86/OHS-86alBraNegro.jpg",
+              "label": "Imagen 2"
+            }
+          ]
         },
         {
           "id": "brazo-86al-pad-negro",
@@ -173,7 +301,29 @@
             "descansabrazos": "Móvil de poliuretano semi-rígido color negro",
             "nota": "Se suministra por pieza individual (lado derecho o izquierdo). Algunos brazos son compatibles con otras sillas, consultar con el área comercial."
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Negro/Brazo86Al-pad-Blanco.jpg",
+          "images": [
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Negro/Brazo86Al-pad-Blanco.jpg",
+              "label": "Imagen 1"
+            },
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Negro/OHS-85alBraAlpadBco.jpg",
+              "label": "Imagen 2"
+            },
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Negro/OHS-86alBraAlpadBco.jpg",
+              "label": "Imagen 3"
+            },
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Negro/OHS-87alBraAlpadBco.jpg",
+              "label": "Imagen 4"
+            },
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Negro/OHS-88alBraAlpadBco.jpg",
+              "label": "Imagen 5"
+            }
+          ]
         },
         {
           "id": "brazo-86al-pad-blanco",
@@ -186,7 +336,29 @@
             "descansabrazos": "Móvil de poliuretano semi-rígido color blanco",
             "nota": "Se suministra por pieza individual (lado derecho o izquierdo). Algunos brazos son compatibles con otras sillas, consultar con el área comercial."
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Blanco/Brazo86Al-pad-Negro.jpg",
+          "images": [
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Blanco/Brazo86Al-pad-Negro.jpg",
+              "label": "Imagen 1"
+            },
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Blanco/OHS-85alBraAlpadNegro.jpg",
+              "label": "Imagen 2"
+            },
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Blanco/OHS-86alBraAlpadNegro.jpg",
+              "label": "Imagen 3"
+            },
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Blanco/OHS-87alBraAlpadNegro.jpg",
+              "label": "Imagen 4"
+            },
+            {
+              "url": "../public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Blanco/OHS-88alBraAlpadNegro.jpg",
+              "label": "Imagen 5"
+            }
+          ]
         }
       ]
     }

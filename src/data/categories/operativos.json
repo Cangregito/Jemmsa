@@ -3,7 +3,7 @@
     "id": "operativos",
     "name": "Operativos",
     "description": "Sillas de trabajo para áreas operativas",
-    "image":"../public/img/categorias/operativos.png"
+    "image": "../public/img/categorias/operativos.png"
   },
   "families": {
     "evolution": {
@@ -27,7 +27,25 @@
             "capacidad": "Peso sugerido 100 kg",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/EVOLUTION/OHE-99negro/OHE-99frenteNegro.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/EVOLUTION/OHE-99negro/OHE-99frenteNegro.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/EVOLUTION/OHE-99negro/OHE-99lateralNegra.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/EVOLUTION/OHE-99negro/OHE-99atras90negro.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/EVOLUTION/OHE-99negro/AmbientadaEVOLUTION-1.jpg",
+              "label": "Ambiente"
+            }
+          ]
         },
         {
           "id": "ohe-99gris",
@@ -45,7 +63,25 @@
             "capacidad": "Peso sugerido 100 kg",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/EVOLUTION/OHE-99gris/OHE-99grisFrenteVerde.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/EVOLUTION/OHE-99gris/OHE-99grisFrenteVerde.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/EVOLUTION/OHE-99gris/OHE-99grisLateralVerde.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/EVOLUTION/OHE-99gris/OHE-99grisAtras90Verde.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/EVOLUTION/OHE-99gris/OHE-99grisVerde.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         }
       ]
     },
@@ -70,7 +106,21 @@
             "capacidad": "Peso sugerido 130 kg",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/DOLPHIN/OHE-111gris/OHE-111grisFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/DOLPHIN/OHE-111gris/OHE-111grisFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/DOLPHIN/OHE-111gris/OHE-111grisAtras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/DOLPHIN/OHE-111gris/DOLPHIN-OHE-111gris.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohv-111gris",
@@ -86,7 +136,25 @@
             "capacidad": "Peso sugerido 130 kg",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/DOLPHIN/OHV-111gris/OHV-111grisFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/DOLPHIN/OHV-111gris/OHV-111grisFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/DOLPHIN/OHV-111gris/OHV-111grisLateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/DOLPHIN/OHV-111gris/OHV-111grisAtras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/DOLPHIN/OHV-111gris/AmbientadaDOLPHINgris.jpg",
+              "label": "Ambiente"
+            }
+          ]
         },
         {
           "id": "ohe-111negro",
@@ -104,7 +172,25 @@
             "capacidad": "Peso sugerido 130 kg",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/DOLPHIN/OHE-111negro/OHE-111negroFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/DOLPHIN/OHE-111negro/OHE-111negroFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/DOLPHIN/OHE-111negro/OHE-111negroLateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/DOLPHIN/OHE-111negro/OHE-111negroAtras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/DOLPHIN/OHE-111negro/AmbientadaDOLPHINnegro.jpg",
+              "label": "Ambiente"
+            }
+          ]
         },
         {
           "id": "ohv-111negro",
@@ -120,7 +206,25 @@
             "capacidad": "Peso sugerido 130 kg",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/DOLPHIN/OHV-111negro/OHV-111negroFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/DOLPHIN/OHV-111negro/OHV-111negroFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/DOLPHIN/OHV-111negro/OHV-111negroLateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/DOLPHIN/OHV-111negro/OHV-111negroAtras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/DOLPHIN/OHV-111negro/AmbientadaDOLPHINnegro.jpg",
+              "label": "Ambiente"
+            }
+          ]
         }
       ]
     },
@@ -145,7 +249,25 @@
             "capacidad": "Peso sugerido 120 kg",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/BOSSE/OHE-65negro/OHE-65negrofrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/BOSSE/OHE-65negro/OHE-65negrofrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/BOSSE/OHE-65negro/OHE-65negrolateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/BOSSE/OHE-65negro/OHE-65negroatras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/BOSSE/OHE-65negro/AmbientadaBOSSE-4.jpg",
+              "label": "Ambiente"
+            }
+          ]
         },
         {
           "id": "ohe-63negro",
@@ -163,7 +285,25 @@
             "capacidad": "Peso sugerido 120 kg",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/BOSSE/OHE-63negro/OHE-63negrofrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/BOSSE/OHE-63negro/OHE-63negrofrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/BOSSE/OHE-63negro/OHE-63negrolateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/BOSSE/OHE-63negro/OHE-63negroatras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/BOSSE/OHE-63negro/AmbientadaBOSSE-4.jpg",
+              "label": "Ambiente"
+            }
+          ]
         },
         {
           "id": "ohv-68negro",
@@ -179,7 +319,25 @@
             "capacidad": "Peso sugerido 120 kg",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/BOSSE/OHV-68negro/OHV-68negroFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/BOSSE/OHV-68negro/OHV-68negroFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/BOSSE/OHV-68negro/OHV-68negroLateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/BOSSE/OHV-68negro/AmbientadaBOSSE-4.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Operativos/BOSSE/OHV-68negro/OHV-68negro90.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         }
       ]
     },
@@ -204,7 +362,25 @@
             "capacidad": "Peso sugerido 130 kg",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/MOUSE/OHE-84gris/OHE-84grisfrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/MOUSE/OHE-84gris/OHE-84grisfrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/MOUSE/OHE-84gris/OHE-84grislateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/MOUSE/OHE-84gris/OHE-84grisatras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/MOUSE/OHE-84gris/AmbientadaMOUSEgris.jpg",
+              "label": "Ambiente"
+            }
+          ]
         },
         {
           "id": "ohe-84negro",
@@ -222,7 +398,25 @@
             "capacidad": "Peso sugerido 130 kg",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/MOUSE/OHE-84negro/OHE-84negroFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/MOUSE/OHE-84negro/OHE-84negroFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/MOUSE/OHE-84negro/OHE-84negroLateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/MOUSE/OHE-84negro/OHE-84negroatras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/MOUSE/OHE-84negro/AmbientadaMOUSEnegro.jpg",
+              "label": "Ambiente"
+            }
+          ]
         }
       ]
     },
@@ -247,7 +441,25 @@
             "capacidad": "Peso sugerido 120 kg",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/FLASH/OHE-98gris/OHE-98grisFrenteCerezo.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/FLASH/OHE-98gris/OHE-98grisFrenteCerezo.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/FLASH/OHE-98gris/OHE-98grisLateralCerezo.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/FLASH/OHE-98gris/OHE-98grisAtras90cerezo.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/FLASH/OHE-98gris/AmbientadaFLASHgris.jpg",
+              "label": "Ambiente"
+            }
+          ]
         },
         {
           "id": "ohe-98negro",
@@ -265,7 +477,25 @@
             "capacidad": "Peso sugerido 120 kg",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/FLASH/OHE-98negro/OHE-98negroFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/FLASH/OHE-98negro/OHE-98negroFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/FLASH/OHE-98negro/OHE-98negroLateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/FLASH/OHE-98negro/OHE-98negroAtras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/FLASH/OHE-98negro/AmbientadaFLASHnegra.jpg",
+              "label": "Ambiente"
+            }
+          ]
         }
       ]
     },
@@ -290,7 +520,25 @@
             "capacidad": "Peso sugerido 120 kg",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/COZY/OHE-175/OHE-175negroFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/COZY/OHE-175/OHE-175negroFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/COZY/OHE-175/OHE-175negroLateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/COZY/OHE-175/AmbbientadaCOZY-11.jpg",
+              "label": "Imagen 1"
+            },
+            {
+              "url": "../public/img/Operativos/COZY/OHE-175/OHE-175negro90.jpg",
+              "label": "Imagen 2"
+            }
+          ]
         },
         {
           "id": "ohe-173",
@@ -308,7 +556,21 @@
             "capacidad": "Peso sugerido 120 kg",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/COZY/OHE-173/OHE-173negroFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/COZY/OHE-173/OHE-173negroFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/COZY/OHE-173/AmbbientadaCOZY-11.jpg",
+              "label": "Imagen 1"
+            },
+            {
+              "url": "../public/img/Operativos/COZY/OHE-173/OHE-173negro90.jpg",
+              "label": "Imagen 2"
+            }
+          ]
         }
       ]
     },
@@ -333,7 +595,7 @@
             "capacidad": "Peso sugerido 120 kg",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/WIND/OHE-55negrocr.jpg"
         }
       ]
     },
@@ -491,7 +753,29 @@
             "capacidad": "Peso sugerido 120 kg",
             "nota": "El color puede variar dependiendo del monitor. Las medidas de las alturas aumentan con pistón cajero 240 mm"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/WHALE/OHE-100blanca/OHE-100blancaFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/WHALE/OHE-100blanca/OHE-100blancaFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/WHALE/OHE-100blanca/OHE-100blancalateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/WHALE/OHE-100blanca/OHE-100blancaAtras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/WHALE/OHE-100blanca/AmbientadaWHALE.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Operativos/WHALE/OHE-100blanca/OHE-100blancakitCr.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohe-100negro",
@@ -509,7 +793,29 @@
             "capacidad": "Peso sugerido 120 kg",
             "nota": "El color puede variar dependiendo del monitor. Las medidas de las alturas aumentan con pistón cajero 240 mm"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/WHALE/OHE-100negro/OHE-100negroFrenteNegro.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/WHALE/OHE-100negro/OHE-100negroFrenteNegro.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/WHALE/OHE-100negro/OHE-100negroLateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/WHALE/OHE-100negro/OHE-100negroAtras90negro.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/WHALE/OHE-100negro/AmbientadaWHALE.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Operativos/WHALE/OHE-100negro/OHE-100negrokitCr.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         }
       ]
     },
@@ -534,7 +840,7 @@
             "capacidad": "Peso sugerido 180 kg",
             "nota": "El color puede variar dependiendo del monitor. Disponible instructivo, ficha técnica, modelados 3D (DWG, OBJ, SKP) y videos"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/WIDE/OHS-41negro.jpg"
         }
       ]
     },
@@ -559,7 +865,7 @@
             "capacidad": "Peso sugerido 140 kg",
             "nota": "El color puede variar dependiendo del monitor. Disponible instructivo, ficha técnica y video de funcionalidad"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/MORICO/OHE-2003negro.jpg"
         }
       ]
     },
@@ -584,7 +890,25 @@
             "capacidad": "Peso sugerido 120 kg",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/LUKE/OHE-2006gris/OHE-2006gris-frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/LUKE/OHE-2006gris/OHE-2006gris-frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/LUKE/OHE-2006gris/OHE-2006gris-lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/LUKE/OHE-2006gris/OHE-2006gris-atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/LUKE/OHE-2006gris/AmbienteLUKE.jpg",
+              "label": "Ambiente"
+            }
+          ]
         },
         {
           "id": "ohe-2006negro",
@@ -602,7 +926,25 @@
             "capacidad": "Peso sugerido 120 kg",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/LUKE/OHE-2006negro/OHE-2006negro-frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/LUKE/OHE-2006negro/OHE-2006negro-frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/LUKE/OHE-2006negro/OHE-2006negro-lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/LUKE/OHE-2006negro/OHE-2006negro-atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/LUKE/OHE-2006negro/AmbienteLUKE.jpg",
+              "label": "Ambiente"
+            }
+          ]
         }
       ]
     },
@@ -626,7 +968,7 @@
             "capacidad": "Peso sugerido 120 kg",
             "nota": "El color puede variar dependiendo del monitor. Disponible perillas de ajuste de respaldo, instructivo, ficha técnica, accesorios opcionales, modelados 3D (DWG, OBJ) y video de funcionamiento"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/PROCHAIR/OHS-43.jpg"
         },
         {
           "id": "ohs-42",
@@ -666,7 +1008,17 @@
             "diseno": "Jeremiah Ferrarese & Paolo Scagnellato, para OFFIHO",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/CIAO/OHS-11/CIAO-OHS-11.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/CIAO/OHS-11/CIAO-OHS-11.jpg",
+              "label": "Imagen 1"
+            },
+            {
+              "url": "../public/img/Operativos/CIAO/OHS-11/OHS-11-Negro.jpg",
+              "label": "Imagen 2"
+            }
+          ]
         },
         {
           "id": "ohs-11cb",
@@ -683,7 +1035,17 @@
             "diseno": "Jeremiah Ferrarese & Paolo Scagnellato, para OFFIHO",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/CIAO/OHS-11C_B/CIAO-OHS-11.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/CIAO/OHS-11C_B/CIAO-OHS-11.jpg",
+              "label": "Imagen 1"
+            },
+            {
+              "url": "../public/img/Operativos/CIAO/OHS-11C_B/OHS-11B-Negro.jpg",
+              "label": "Imagen 2"
+            }
+          ]
         },
         {
           "id": "ohs-12",
@@ -700,7 +1062,7 @@
             "diseno": "Jeremiah Ferrarese & Paolo Scagnellato, para OFFIHO",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/CIAO/OHS-12/Ciao-08.jpg"
         },
         {
           "id": "ohs-12cb",
@@ -718,7 +1080,7 @@
             "diseno": "Jeremiah Ferrarese & Paolo Scagnellato, para OFFIHO",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/CIAO/OHS-12C_B/Ciao-08.jpg"
         }
       ]
     },
@@ -767,7 +1129,25 @@
             "capacidad": "Peso sugerido 120 kg",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/RAINBOW/OHE-101/OHE-101GrisFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/RAINBOW/OHE-101/OHE-101GrisFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/RAINBOW/OHE-101/OHE-101GrisLateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/RAINBOW/OHE-101/OHE-101GrisAtras.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/RAINBOW/OHE-101/AmbienteRAINBOW.jpg",
+              "label": "Ambiente"
+            }
+          ]
         },
         {
           "id": "ohe-101negro",
@@ -785,7 +1165,25 @@
             "capacidad": "Peso sugerido 120 kg",
             "nota": "El color puede variar dependiendo del monitor"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/RAINBOW/OHE-101negro/OHE-101NegroFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/RAINBOW/OHE-101negro/OHE-101NegroFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/RAINBOW/OHE-101negro/OHE-101NegroLateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/RAINBOW/OHE-101negro/OHE-101NegroAtras.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/RAINBOW/OHE-101negro/AmbienteRAINBOWnegro.jpg",
+              "label": "Ambiente"
+            }
+          ]
         }
       ]
     },
@@ -804,7 +1202,29 @@
             "tapiz": "Consulta el catálogo de tapices",
             "capacidad": "Peso sugerido 120 kg"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/QUICK/OHS-47/OHS-47frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/QUICK/OHS-47/OHS-47frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/QUICK/OHS-47/OHS-47Lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/QUICK/OHS-47/OHS-47atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/QUICK/OHS-47/AmbientadaQUICK.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Operativos/QUICK/OHS-47/OHS-47kitCrLx.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohs-47panello",
@@ -816,7 +1236,29 @@
             "tapiz": "Consulta el catálogo de tapices",
             "capacidad": "Peso sugerido 120 kg"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/QUICK/OHS-47panello/OHS-47frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/QUICK/OHS-47panello/OHS-47frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/QUICK/OHS-47panello/OHS-47Lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/QUICK/OHS-47panello/OHS-47atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/QUICK/OHS-47panello/OHS-47kitCrLx.jpg",
+              "label": "Imagen 1"
+            },
+            {
+              "url": "../public/img/Operativos/QUICK/OHS-47panello/OHS-47NegroPanelloVerdeJardin.jpg",
+              "label": "Imagen 2"
+            }
+          ]
         }
       ]
     },
@@ -835,7 +1277,29 @@
             "tapiz": "Consulta el catálogo de tapices",
             "capacidad": "Peso sugerido 120 kg"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/REVOLUTION/OHS-85Al/OHS-85alFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/REVOLUTION/OHS-85Al/OHS-85alFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/REVOLUTION/OHS-85Al/OHS-85alLateralZafiro.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/REVOLUTION/OHS-85Al/OHS-85alAtras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/REVOLUTION/OHS-85Al/AmbientadaRevolution.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Operativos/REVOLUTION/OHS-85Al/OHS-85alKitCrZafiro.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohs-86al",
@@ -847,7 +1311,29 @@
             "tapiz": "Consulta el catálogo de tapices",
             "capacidad": "Peso sugerido 120 kg"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/REVOLUTION/OHS-86Al/OHS-86alFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/REVOLUTION/OHS-86Al/OHS-86alFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/REVOLUTION/OHS-86Al/OHS-86alLateralArena.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/REVOLUTION/OHS-86Al/OHS-86alAtras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/REVOLUTION/OHS-86Al/OHS-86alkitCrArena.jpg",
+              "label": "Imagen 1"
+            },
+            {
+              "url": "../public/img/Operativos/REVOLUTION/OHS-86Al/OHS-86alRojo.jpg",
+              "label": "Imagen 2"
+            }
+          ]
         },
         {
           "id": "ohs-87al",
@@ -859,7 +1345,29 @@
             "tapiz": "Consulta el catálogo de tapices",
             "capacidad": "Peso sugerido 120 kg"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/REVOLUTION/OHS-87Al/OHS-87alFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/REVOLUTION/OHS-87Al/OHS-87alFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/REVOLUTION/OHS-87Al/OHS-87alLateralMar.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/REVOLUTION/OHS-87Al/OHS-87alAtras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/REVOLUTION/OHS-87Al/AmbientadaRevolution.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Operativos/REVOLUTION/OHS-87Al/OHS-87alKitCrMar.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohs-88al",
@@ -871,7 +1379,29 @@
             "tapiz": "Consulta el catálogo de tapices",
             "capacidad": "Peso sugerido 120 kg"
           },
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Operativos/REVOLUTION/OHS-88Al/OHS-88alFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Operativos/REVOLUTION/OHS-88Al/OHS-88alFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Operativos/REVOLUTION/OHS-88Al/OHS-88alLateralVainilla.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Operativos/REVOLUTION/OHS-88Al/OHS-88alAtras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Operativos/REVOLUTION/OHS-88Al/AmbientadaRevolution.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Operativos/REVOLUTION/OHS-88Al/OHS-88alkitCrVainilla.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         }
       ]
     }

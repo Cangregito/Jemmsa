@@ -103,8 +103,9 @@
       background-color: var(--bg-page);
       color: var(--text-main);
       transition: background-color 0.3s, color 0.3s;
-    }
-  </style>
+    }    .cursor-zoom-in {
+      cursor: zoom-in;
+    }  </style>
 </head>
 <body class="font-body bg-[var(--bg-page)] text-[var(--text-main)]">
   
@@ -418,8 +419,8 @@
       const productUrl = `./producto.html?categoria=${categoryId}&familia=${familyId}&producto=${product.id}`;
       
       card.innerHTML = `
-        <div class="aspect-[4/3] overflow-hidden bg-brand-primary/5">
-          <img src="${image}" alt="${product.name}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        <div class="product-card-image aspect-[4/3] overflow-hidden bg-brand-primary/5 cursor-zoom-in flex items-center justify-center" title="Click para ampliar">
+          <img src="${image}" alt="${product.name}" loading="lazy" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
         </div>
         <div class="p-3 sm:p-4 lg:p-6 space-y-2 sm:space-y-3 lg:space-y-4">
           <h3 class="font-display font-bold text-sm sm:text-base lg:text-lg leading-snug">
@@ -439,6 +440,56 @@
     
     // Cargar categorías cuando el DOM esté listo
     document.addEventListener('DOMContentLoaded', loadAllCategories);
+    
+    // Funcionalidad de lightbox para imágenes
+    function openLightbox(imageSrc, imageLabel) {
+      const lightbox = document.getElementById('image-lightbox');
+      const lightboxImg = document.getElementById('lightbox-image');
+      const lightboxLabel = document.getElementById('lightbox-label');
+      
+      lightboxImg.src = imageSrc;
+      lightboxImg.alt = imageLabel || 'Imagen del producto';
+      lightboxLabel.textContent = imageLabel || '';
+      
+      lightbox.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+    
+    function closeLightbox(event) {
+      if (event && event.target.id !== 'image-lightbox') return;
+      
+      const lightbox = document.getElementById('image-lightbox');
+      lightbox.classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+    
+    // Cerrar con tecla ESC
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+    });
+    
+    // Event delegation para hacer clic en imágenes de productos
+    document.addEventListener('click', (e) => {
+      const img = e.target.closest('.product-card-image');
+      if (img && e.target.tagName === 'IMG') {
+        e.preventDefault();
+        e.stopPropagation();
+        openLightbox(e.target.src, e.target.alt);
+      }
+    });
   </script>
+  
+  <!-- Modal Lightbox para Imágenes -->
+  <div id="image-lightbox" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4 animate-fade-in" onclick="closeLightbox(event)">
+    <button onclick="closeLightbox()" class="absolute top-4 right-4 text-white hover:text-brand-primary transition-colors p-2 rounded-full hover:bg-white/10" aria-label="Cerrar vista ampliada">
+      <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+      </svg>
+    </button>
+    <div class="max-w-7xl w-full max-h-full flex flex-col items-center" onclick="event.stopPropagation()">
+      <img id="lightbox-image" src="" alt="" class="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl">
+      <p id="lightbox-label" class="mt-4 text-white text-lg font-medium"></p>
+    </div>
+  </div>
 </body>
 </html>

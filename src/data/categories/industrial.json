@@ -3,7 +3,7 @@
     "id": "industrial",
     "name": "Industrial",
     "description": "Sillas resistentes para entornos industriales",
-    "image":"../public/img/categorias/industrial.png"
+    "image": "../public/img/categorias/industrial.png"
   },
   "families": [
     {
@@ -23,7 +23,29 @@
         "capacidad": "Peso máximo soportado: 180 kg",
         "nota": "Diseñada para uso continuo en ambientes industriales, fabril y logístico"
       },
-      "image": "https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop"
+      "image": "../public/img/Industrial/OHI-46/OHI-46frente.jpg",
+      "images": [
+        {
+          "url": "../public/img/Industrial/OHI-46/OHI-46frente.jpg",
+          "label": "Frente"
+        },
+        {
+          "url": "../public/img/Industrial/OHI-46/OHI-46lateral.jpg",
+          "label": "Lateral"
+        },
+        {
+          "url": "../public/img/Industrial/OHI-46/OHI-46atras90.jpg",
+          "label": "Atras"
+        },
+        {
+          "url": "../public/img/Industrial/OHI-46/AmbientadaHEAVYDUTY.jpg",
+          "label": "Ambiente"
+        },
+        {
+          "url": "../public/img/Industrial/OHI-46/OHI-46kitCrRod.jpg",
+          "label": "Imagen 1"
+        }
+      ]
     },
     {
       "id": "ohi-48",
@@ -42,7 +64,25 @@
         "capacidad": "Peso máximo soportado: 200 kg",
         "nota": "Especialmente recomendada para plantas de producción y ambientes húmedos"
       },
-      "image": "https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop"
+      "image": "../public/img/Industrial/OHI-48/OHI-48Frente.jpg",
+      "images": [
+        {
+          "url": "../public/img/Industrial/OHI-48/OHI-48Frente.jpg",
+          "label": "Frente"
+        },
+        {
+          "url": "../public/img/Industrial/OHI-48/OHI-48Lateral.jpg",
+          "label": "Lateral"
+        },
+        {
+          "url": "../public/img/Industrial/OHI-48/AmbientadaHEAVYDUTY48-2.jpg",
+          "label": "Ambiente"
+        },
+        {
+          "url": "../public/img/Industrial/OHI-48/OHI-4890.jpg",
+          "label": "Imagen 1"
+        }
+      ]
     },
     {
       "id": "ohi-49",
@@ -61,7 +101,25 @@
         "capacidad": "Peso máximo soportado: 220 kg",
         "nota": "Certificada para uso continuo 24/7 en entornos industriales exigentes. Mantenimiento mínimo."
       },
-      "image": "https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop"
+      "image": "../public/img/Industrial/OHI-49/OHI-49frente.jpg",
+      "images": [
+        {
+          "url": "../public/img/Industrial/OHI-49/OHI-49frente.jpg",
+          "label": "Frente"
+        },
+        {
+          "url": "../public/img/Industrial/OHI-49/OHI-49Lateral.jpg",
+          "label": "Lateral"
+        },
+        {
+          "url": "../public/img/Industrial/OHI-49/AmbientadaHEAVYDUTY49-2.jpg",
+          "label": "Ambiente"
+        },
+        {
+          "url": "../public/img/Industrial/OHI-49/OHI-4990.jpg",
+          "label": "Imagen 1"
+        }
+      ]
     }
   ]
 }

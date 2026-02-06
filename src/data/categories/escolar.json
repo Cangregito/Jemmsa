@@ -3,7 +3,7 @@
     "id": "escolar",
     "name": "Escolar",
     "description": "Sillas y pupitres para entornos escolares",
-    "image":"../public/img/categorias/escolar.png"
+    "image": "../public/img/categorias/escolar.png"
   },
   "families": {
     "blow": {
@@ -70,7 +70,7 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/BLOW/OHP-2100.jpg"
         }
       ]
     },
@@ -114,7 +114,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/KYOS/OHP-323/OHP-323frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-323/OHP-323frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-323/OHP-323lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-323/OHP-323atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-323/AmbientadaKYOS-2.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-323/OHP-323.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-324",
@@ -151,7 +173,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/KYOS/OHP-324/OHP-324frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-324/OHP-324frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-324/OHP-324lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-324/OHP-324atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-324/AmbientadaKYOS-2.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-324/OHP-324.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-325cr",
@@ -188,7 +232,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/KYOS/OHP-325cr/OHP-325crFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-325cr/OHP-325crFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-325cr/OHP-325crlateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-325cr/OHP-325crAtras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-325cr/AmbientadaKYOS-2.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-325cr/OHP-325cr.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-326cr",
@@ -225,7 +291,25 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/KYOS/OHP-326cr/OHP-326crFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-326cr/OHP-326crFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-326cr/OHP-326crlateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-326cr/AmbientadaKYOS-2.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-326cr/OHP-326cr.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-341",
@@ -262,7 +346,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/KYOS/OHP-341/OHP-341frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-341/OHP-341frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-341/OHP-341lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-341/OHP-341atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-341/AmbientadaKYOS-2.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-341/OHP-341.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-342",
@@ -299,7 +405,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/KYOS/OHP-342/OHP-342frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-342/OHP-342frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-342/OHP-342lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-342/OHP-342atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-342/AmbientadaKYOS-2.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-342/OHP-342.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-343cr",
@@ -336,7 +464,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/KYOS/OHP-343cr/OHP-343crFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-343cr/OHP-343crFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-343cr/OHP-343crlateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-343cr/OHP-343crAtras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-343cr/AmbientadaKYOS-2.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-343cr/OHP-343cr.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-344cr",
@@ -373,7 +523,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/KYOS/OHP-344cr/OHP-344crFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-344cr/OHP-344crFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-344cr/OHP-344crlateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-344cr/OHP-344crAtras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-344cr/AmbientadaKYOS-2.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-344cr/OHP-344cr.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-359",
@@ -410,7 +582,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/KYOS/OHP-359/OHP-359frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-359/OHP-359frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-359/OHP-359lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-359/OHP-359atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-359/AmbientadaKYOS-2.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-359/OHP-359.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-360",
@@ -447,7 +641,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/KYOS/OHP-360/OHP-360frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-360/OHP-360frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-360/OHP-360lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-360/OHP-360atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-360/AmbientadaKYOS-2.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-360/OHP-360.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-361cr",
@@ -484,7 +700,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/KYOS/OHP-361cr/OHP-361crFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-361cr/OHP-361crFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-361cr/OHP-361crlateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-361cr/OHP-361crAtras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-361cr/AmbientadaKYOS-2.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-361cr/OHP-361cr.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-362cr",
@@ -521,7 +759,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/KYOS/OHP-362cr/OHP-362crFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-362cr/OHP-362crFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-362cr/OHP-362crlateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-362cr/OHP-362crAtras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-362cr/AmbientadaKYOS-2.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-362cr/OHP-362cr.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-377",
@@ -558,7 +818,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/KYOS/OHP-377/OHP-377frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-377/OHP-377frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-377/OHP-377lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-377/OHP-377Atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-377/AmbientadaKYOS-2.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-377/OHP-377.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-378",
@@ -595,7 +877,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/KYOS/OHP-378/OHP-378frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-378/OHP-378frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-378/OHP-378lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-378/OHP-378Atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-378/AmbientadaKYOS-2.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-378/OHP-378.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-379cr",
@@ -632,7 +936,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/KYOS/OHP-379cr/OHP-379crfrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-379cr/OHP-379crfrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-379cr/OHP-379crlateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-379cr/OHP-379Atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-379cr/AmbientadaKYOS-2.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-379cr/OHP-379cr.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-380cr",
@@ -669,7 +995,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/KYOS/OHP-380cr/OHP-380crfrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-380cr/OHP-380crfrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-380cr/OHP-380crlateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-380cr/OHP-380crAtras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-380cr/AmbientadaKYOS-2.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/KYOS/OHP-380cr/OHP-380cr.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         }
       ]
     },
@@ -705,7 +1053,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/REVOLUTION/OHP-85/OHP-85Frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-85/OHP-85Frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-85/OHP-85lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-85/OHP-85Atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-85/AmbientadaRevolution.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-85/OHP-85.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-85cr",
@@ -734,7 +1104,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/REVOLUTION/OHP-85cr/OHP-85crFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-85cr/OHP-85crFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-85cr/OHP-85crlateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-85cr/OHP-85crAtras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-85cr/AmbientadaRevolution.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-85cr/OHP-85cr.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-86",
@@ -763,7 +1155,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/REVOLUTION/OHP-86/OHP-86Frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-86/OHP-86Frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-86/OHP-86lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-86/OHP-86Atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-86/AmbientadaRevolution.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-86/OHP-86.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-86cr",
@@ -792,7 +1206,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/REVOLUTION/OHP-86cr/OHP-86crFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-86cr/OHP-86crFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-86cr/OHP-86crlateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-86cr/OHP-86crAtras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-86cr/AmbientadaRevolution.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-86cr/OHP-86cr.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-87",
@@ -821,7 +1257,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/REVOLUTION/OHP-87/OHP-87Frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-87/OHP-87Frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-87/OHP-87lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-87/OHP-87Atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-87/AmbientadaRevolution.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-87/OHP-87.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-87cr",
@@ -850,7 +1308,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/REVOLUTION/OHP-87cr/OHP-87crFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-87cr/OHP-87crFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-87cr/OHP-87crlateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-87cr/OHP-87crAtras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-87cr/AmbientadaRevolution.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-87cr/OHP-87cr.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-88",
@@ -879,7 +1359,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/REVOLUTION/OHP-88/OHP-88Frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-88/OHP-88Frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-88/OHP-88lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-88/OHP-88Atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-88/AmbientadaRevolution.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-88/OHP-88.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-88cr",
@@ -908,7 +1410,29 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/REVOLUTION/OHP-88cr/OHP-88crFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-88cr/OHP-88crFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-88cr/OHP-88crlateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-88cr/OHP-88crAtras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-88cr/AmbientadaRevolution.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/REVOLUTION/OHP-88cr/OHP-88cr.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         }
       ]
     },
@@ -944,7 +1468,25 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/ALPHA/OHP-102/OHP-102frenteGris.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/ALPHA/OHP-102/OHP-102frenteGris.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/ALPHA/OHP-102/OHP-102lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/ALPHA/OHP-102/OHP-102atras90gris.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/ALPHA/OHP-102/AmbientadaAlpha.jpg",
+              "label": "Ambiente"
+            }
+          ]
         },
         {
           "id": "ohp-107",
@@ -973,7 +1515,25 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/ALPHA/OHP-107/OHP-107frenteRojo.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/ALPHA/OHP-107/OHP-107frenteRojo.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Escolar/ALPHA/OHP-107/OHP-107lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Escolar/ALPHA/OHP-107/OHP-107atras90rojo.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Escolar/ALPHA/OHP-107/AmbientadaAlpha.jpg",
+              "label": "Ambiente"
+            }
+          ]
         }
       ]
     },
@@ -1197,7 +1757,17 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/INNOVA/OHP-2700/AmbientadaInnova.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/INNOVA/OHP-2700/AmbientadaInnova.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/INNOVA/OHP-2700/OHP-2700azul.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-2307",
@@ -1226,7 +1796,17 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/INNOVA/OHP-2307/Ambientada-OHP-2307.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/INNOVA/OHP-2307/Ambientada-OHP-2307.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/INNOVA/OHP-2307/OHP-2307negro.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohp-2308",
@@ -1255,7 +1835,17 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1546932342-23b953bb3d34?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Escolar/INNOVA/OHP-2308/AmbientadaInnova.jpg",
+          "images": [
+            {
+              "url": "../public/img/Escolar/INNOVA/OHP-2308/AmbientadaInnova.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Escolar/INNOVA/OHP-2308/OHP-2308negro.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         }
       ]
     }

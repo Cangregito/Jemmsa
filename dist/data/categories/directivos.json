@@ -24,19 +24,19 @@
             "tapiz": "Soft revolving leather color negro",
             "capacidad": "Hasta 160 kg"
           },
-          "image":"../public/img/Directivos/ALUFSEN/OHE-405/OHE-405frente-Negro.jpg",
+          "image": "../public/img/Directivos/ALUFSEN/OHE-405/OHE-405frente-Negro.jpg",
           "images": [
             {
               "url": "../public/img/Directivos/ALUFSEN/OHE-405/OHE-405frente-Negro.jpg",
               "label": "Frente"
             },
             {
-              "url": "../public/img/Directivos/ALUFSEN/OHE-405/OHE-405atras90-Negro.jpg",
-              "label": "Atrás"
-            },
-            {
               "url": "../public/img/Directivos/ALUFSEN/OHE-405/OHE-405lateral-Negro.jpg",
               "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Directivos/ALUFSEN/OHE-405/OHE-405atras90-Negro.jpg",
+              "label": "Atras"
             },
             {
               "url": "../public/img/Directivos/ALUFSEN/OHE-405/ALUFSEN-Ambiente.jpg",
@@ -56,7 +56,25 @@
             "tapiz": "Soft revolving leather color negro",
             "capacidad": "Hasta 120 kg"
           },
-          "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Directivos/ALUFSEN/OHV-408/OHV-408frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Directivos/ALUFSEN/OHV-408/OHV-408frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Directivos/ALUFSEN/OHV-408/OHV-408lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Directivos/ALUFSEN/OHV-408/OHV-408atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Directivos/ALUFSEN/OHV-408/ALUFSENOHV-408.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         }
       ]
     },

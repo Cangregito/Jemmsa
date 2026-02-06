@@ -478,6 +478,7 @@ function renderImageGallery(images) {
       data-image-url="${img.url}"
       data-image-label="${img.label}"
       title="${img.label}"
+      style="cursor: zoom-in;"
     >
       <img 
         src="${img.url}" 
@@ -490,11 +491,17 @@ function renderImageGallery(images) {
   // Agregar event listeners a las miniaturas
   const thumbnails = container.querySelectorAll('.thumbnail-btn');
   thumbnails.forEach(btn => {
-    btn.addEventListener('click', function() {
+    btn.addEventListener('click', function(event) {
       const imageUrl = this.getAttribute('data-image-url');
       const imageLabel = this.getAttribute('data-image-label');
       
-      // Cambiar imagen principal
+      // Si se hace clic con Shift, abrir en lightbox
+      if (event.shiftKey && typeof openLightbox === 'function') {
+        openLightbox(imageUrl, imageLabel);
+        return;
+      }
+      
+      // Click normal: cambiar imagen principal
       mainImg.src = imageUrl;
       mainImg.alt = imageLabel;
       
@@ -506,7 +513,21 @@ function renderImageGallery(images) {
       this.classList.add('border-brand-primary');
       this.classList.remove('border-transparent');
     });
+    
+    // Agregar funcionalidad de doble clic para abrir lightbox
+    btn.addEventListener('dblclick', function() {
+      const imageUrl = this.getAttribute('data-image-url');
+      const imageLabel = this.getAttribute('data-image-label');
+      if (typeof openLightbox === 'function') {
+        openLightbox(imageUrl, imageLabel);
+      }
+    });
   });
+  
+  // Actualizar cursor de la imagen principal cuando cambia
+  if (mainImg) {
+    mainImg.style.cursor = 'zoom-in';
+  }
 }
 
 

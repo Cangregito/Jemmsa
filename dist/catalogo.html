@@ -102,6 +102,9 @@
       color: var(--text-main);
       transition: background-color 0.3s, color 0.3s;
     }
+    .cursor-zoom-in {
+      cursor: zoom-in;
+    }
   </style>
 </head>
 <body class="font-body bg-[var(--bg-page)] text-[var(--text-main)]">
@@ -170,7 +173,7 @@
   <footer id="footer"></footer>
 
   <script>
-    const catalogData = {
+    let catalogData = {
       "categories": [
         { "id": "directivos", "name": "Directivos" },
         { "id": "ejecutivos", "name": "Ejecutivos" },
@@ -1421,6 +1424,16 @@
       }
     };
 
+    async function loadCatalogData() {
+      try {
+        const response = await fetch('../data.json');
+        catalogData = await response.json();
+      } catch (error) {
+        console.error('Error cargando data.json:', error);
+        catalogData = { categories: [], products: {} };
+      }
+    }
+
     const categoryExtras = document.getElementById('category-extras');
     let operativosSearchTerm = '';
 
@@ -1554,8 +1567,8 @@
         const article = document.createElement('article');
         article.className = 'border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm cursor-pointer hover:shadow-md transition-shadow';
         article.innerHTML = `
-          <div class="aspect-[4/3] bg-slate-50">
-            <img class="w-full h-full object-cover" src="${product.image}" alt="${product.name}">
+          <div class="product-image-container aspect-[4/3] bg-slate-50 cursor-zoom-in flex items-center justify-center" title="Click para ampliar">
+            <img class="w-full h-full object-contain" loading="lazy" src="${product.image}" alt="${product.name}">
           </div>
           <div class="p-4 space-y-1">
             <h3 class="product-name text-lg leading-tight">${product.name}</h3>
@@ -1597,8 +1610,8 @@
           article.dataset.action = 'product';
           article._productData = product;
           article.innerHTML = `
-            <div class="aspect-[4/3] bg-slate-50">
-              <img loading="lazy" class="w-full h-full object-cover" src="${product.image}" alt="${product.name}">
+            <div class="product-image-container aspect-[4/3] bg-slate-50 cursor-zoom-in flex items-center justify-center" title="Click para ampliar">
+              <img loading="lazy" class="w-full h-full object-contain" src="${product.image}" alt="${product.name}">
             </div>
             <div class="p-4 space-y-1">
               <h3 class="product-name text-lg leading-tight">${product.name}</h3>
@@ -1648,8 +1661,8 @@
           article.dataset.action = 'product';
           article._productData = product;
           article.innerHTML = `
-            <div class="aspect-[4/3] bg-slate-50">
-              <img loading="lazy" class="w-full h-full object-cover" src="${prod.image}" alt="${prod.name}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
+            <div class="product-image-container aspect-[4/3] bg-slate-50 cursor-zoom-in flex items-center justify-center" title="Click para ampliar">
+              <img loading="lazy" class="w-full h-full object-contain" src="${prod.image}" alt="${prod.name}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
             </div>
             <div class="p-4 space-y-1">
               <h3 class="product-name text-lg leading-tight">${prod.name}</h3>
@@ -1709,8 +1722,8 @@
             article.href = product.link;
             article.className = 'border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow block';
             article.innerHTML = `
-              <div class="aspect-[4/3] bg-slate-50">
-                <img loading="lazy" class="w-full h-full object-cover" src="${prod.image}" alt="${prod.name}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
+              <div class="product-image-container aspect-[4/3] bg-slate-50 cursor-zoom-in flex items-center justify-center" title="Click para ampliar">
+                <img loading="lazy" class="w-full h-full object-contain" src="${prod.image}" alt="${prod.name}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
               </div>
               <div class="p-4 space-y-1">
                 <h3 class="product-name text-lg leading-tight">${prod.name}</h3>
@@ -1725,8 +1738,8 @@
             article.dataset.action = 'product';
             article._productData = product;
             article.innerHTML = `
-              <div class="aspect-[4/3] bg-slate-50">
-                <img loading="lazy" class="w-full h-full object-cover" src="${prod.image}" alt="${prod.name}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
+              <div class="product-image-container aspect-[4/3] bg-slate-50 cursor-zoom-in flex items-center justify-center" title="Click para ampliar">
+                <img loading="lazy" class="w-full h-full object-contain" src="${prod.image}" alt="${prod.name}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
               </div>
               <div class="p-4 space-y-1">
                 <h3 class="product-name text-lg leading-tight">${prod.name}</h3>
@@ -1876,8 +1889,8 @@
         article._categoryId = catId;
         article._familyId = familyId;
         article.innerHTML = `
-          <div class="aspect-[4/3] bg-slate-50">
-            <img loading="lazy" class="w-full h-full object-cover" src="${prod.image}" alt="${prod.name}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
+          <div class="product-image-container aspect-[4/3] bg-slate-50 cursor-zoom-in flex items-center justify-center" title="Click para ampliar">
+            <img loading="lazy" class="w-full h-full object-contain" src="${prod.image}" alt="${prod.name}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
           </div>
           <div class="p-4 space-y-1">
             <p class="text-xs uppercase tracking-wide text-brand-primary font-semibold">${catId} · ${familyId}</p>
@@ -2184,8 +2197,8 @@
           const familyCount = Object.keys(catProducts).length;
           
           categoryCard.innerHTML = `
-            <div class="aspect-[4/3] bg-slate-50 overflow-hidden rounded-md mb-3">
-              <img loading="lazy" class="w-full h-full object-cover" src="${getCategoryImage(catId)}" alt="${catName}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
+            <div class="category-image-container aspect-[4/3] bg-slate-50 overflow-hidden rounded-md mb-3 cursor-zoom-in flex items-center justify-center" title="Click para ampliar">
+              <img loading="lazy" class="w-full h-full object-contain" src="${getCategoryImage(catId)}" alt="${catName}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
             </div>
             <h3 class="text-xl font-semibold text-blue-600">${catName}</h3>
             <p class="text-slate-600 text-sm">${familyCount} familias</p>
@@ -2201,8 +2214,8 @@
             article.className = 'border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm cursor-pointer hover:shadow-md transition-shadow';
             article.dataset.action = 'product';
             article.innerHTML = `
-              <div class="aspect-[4/3] bg-slate-50">
-                <img loading="lazy" class="w-full h-full object-cover" src="${prod.image}" alt="${prod.name}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
+              <div class="product-image-container aspect-[4/3] bg-slate-50 cursor-zoom-in flex items-center justify-center" title="Click para ampliar">
+                <img loading="lazy" class="w-full h-full object-contain" src="${prod.image}" alt="${prod.name}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
               </div>
               <div class="p-4 space-y-1">
                 <h3 class="product-name text-lg leading-tight">${prod.name}</h3>
@@ -2219,8 +2232,6 @@
       grid.appendChild(fragment);
       applyAllProductNameFormats();
     }
-
-    renderAllProducts();
 
     // Event delegation para productos y categorías del grid
     const productsGrid = document.getElementById('products-grid');
@@ -2307,10 +2318,65 @@
     }
 
     // Initialize catalog display y chequear URL
-    renderAllProducts();
-    initializeFromURL();
-    initFilterDropdown();
+    async function initCatalog() {
+      await loadCatalogData();
+      renderAllProducts();
+      initializeFromURL();
+      initFilterDropdown();
+    }
+
+    initCatalog();
+    
+    // Funcionalidad de lightbox para imágenes
+    function openLightbox(imageSrc, imageLabel) {
+      const lightbox = document.getElementById('image-lightbox');
+      const lightboxImg = document.getElementById('lightbox-image');
+      const lightboxLabel = document.getElementById('lightbox-label');
+      
+      lightboxImg.src = imageSrc;
+      lightboxImg.alt = imageLabel || 'Imagen del producto';
+      lightboxLabel.textContent = imageLabel || '';
+      
+      lightbox.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+    
+    function closeLightbox(event) {
+      if (event && event.target.id !== 'image-lightbox') return;
+      
+      const lightbox = document.getElementById('image-lightbox');
+      lightbox.classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+    
+    // Cerrar con tecla ESC
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+    });
+    
+    // Event delegation para hacer clic en imágenes de productos/categorías
+    document.addEventListener('click', (e) => {
+      const imgContainer = e.target.closest('.product-image-container, .category-image-container');
+      if (imgContainer && e.target.tagName === 'IMG') {
+        e.preventDefault();
+        e.stopPropagation();
+        openLightbox(e.target.src, e.target.alt);
+      }
+    });
   </script>
   <script src="../public/js/header.js"></script>
+  
+  <!-- Modal Lightbox para Imágenes -->
+  <div id="image-lightbox" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4 animate-fade-in" onclick="closeLightbox(event)">
+    <button onclick="closeLightbox()" class="absolute top-4 right-4 text-white hover:text-brand-primary transition-colors p-2 rounded-full hover:bg-white/10" aria-label="Cerrar vista ampliada">
+      <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+      </svg>
+    </button>
+    <div class="max-w-7xl w-full max-h-full flex flex-col items-center" onclick="event.stopPropagation()">
+      <img id="lightbox-image" src="" alt="" class="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl">
+      <p id="lightbox-label" class="mt-4 text-white text-lg font-medium"></p>
+    </div>
+  </div>
 </body>
 </html>

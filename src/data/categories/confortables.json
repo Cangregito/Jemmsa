@@ -3,7 +3,7 @@
     "id": "confortables",
     "name": "Confortables",
     "description": "Sillas de máximo confort y descanso",
-    "image":"../public/img/categorias/confortables.png"
+    "image": "../public/img/categorias/confortables.png"
   },
   "families": {
     "blair": {
@@ -55,7 +55,21 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Confortables/BLAIR/OHV-106/OHV-106frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Confortables/BLAIR/OHV-106/OHV-106frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Confortables/BLAIR/OHV-106/OHV-106lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Confortables/BLAIR/OHV-106/AmbientadaBlair.jpg",
+              "label": "Ambiente"
+            }
+          ]
         }
       ]
     },
@@ -108,7 +122,25 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Confortables/BORSANI/OHV-120/OHV-120frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Confortables/BORSANI/OHV-120/OHV-120frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Confortables/BORSANI/OHV-120/OHV-120Lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Confortables/BORSANI/OHV-120/OHV-120atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Confortables/BORSANI/OHV-120/Ambientada-Borsani.jpg",
+              "label": "Ambiente"
+            }
+          ]
         }
       ]
     },
@@ -144,7 +176,25 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Confortables/DIRK/OHM-122/OHM-122Frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Confortables/DIRK/OHM-122/OHM-122Frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Confortables/DIRK/OHM-122/OHM-122Lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Confortables/DIRK/OHM-122/OHM-122atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Confortables/DIRK/OHM-122/Ambientada-DIRK.jpg",
+              "label": "Ambiente"
+            }
+          ]
         },
         {
           "id": "ohm-123",
@@ -173,7 +223,25 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Confortables/DIRK/OHM-123/OHM-123frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Confortables/DIRK/OHM-123/OHM-123frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Confortables/DIRK/OHM-123/OHM-123lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Confortables/DIRK/OHM-123/OHM-123atras.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Confortables/DIRK/OHM-123/Ambientada-DIRK.jpg",
+              "label": "Ambiente"
+            }
+          ]
         }
       ]
     },
@@ -209,7 +277,25 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Confortables/GUBI/OHM-130/OHM-130grisFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Confortables/GUBI/OHM-130/OHM-130grisFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Confortables/GUBI/OHM-130/OHM-130lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Confortables/GUBI/OHM-130/OHM-130grisAtras.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Confortables/GUBI/OHM-130/AmbientadaGUBI.jpg",
+              "label": "Ambiente"
+            }
+          ]
         },
         {
           "id": "ohm-131",
@@ -238,7 +324,25 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Confortables/GUBI/OHM-131/OHM-131amarilloFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Confortables/GUBI/OHM-131/OHM-131amarilloFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Confortables/GUBI/OHM-131/OHM-131lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Confortables/GUBI/OHM-131/OHM-131amarilloAtras.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Confortables/GUBI/OHM-131/AmbientadaGUBI.jpg",
+              "label": "Ambiente"
+            }
+          ]
         }
       ]
     },
@@ -291,7 +395,25 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Confortables/BUDI/OHM-132/OHM-132azulLateral.jpg",
+          "images": [
+            {
+              "url": "../public/img/Confortables/BUDI/OHM-132/OHM-132azulLateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Confortables/BUDI/OHM-132/OHM-132azulAtras.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Confortables/BUDI/OHM-132/AmbientadaBUDI.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Confortables/BUDI/OHM-132/OHM-132azulESTIBADAS.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         }
       ]
     },
@@ -327,7 +449,25 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Confortables/MAGNOLIA/OHM-7023-CC/OHM-7023-CCfrente-capuccino.jpg",
+          "images": [
+            {
+              "url": "../public/img/Confortables/MAGNOLIA/OHM-7023-CC/OHM-7023-CCfrente-capuccino.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Confortables/MAGNOLIA/OHM-7023-CC/OHM-7023-CClateral-capuccino.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Confortables/MAGNOLIA/OHM-7023-CC/OHM-7023-CCatras90-capuccino.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Confortables/MAGNOLIA/OHM-7023-CC/AMBIENTADAMagnolia.jpg",
+              "label": "Ambiente"
+            }
+          ]
         },
         {
           "id": "ohm-7023-lc",
@@ -356,7 +496,25 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Confortables/MAGNOLIA/OHM-7023-LC/OHM-7023-LCfrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Confortables/MAGNOLIA/OHM-7023-LC/OHM-7023-LCfrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Confortables/MAGNOLIA/OHM-7023-LC/OHM-7023-LClateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Confortables/MAGNOLIA/OHM-7023-LC/OHM-7023-LCatras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Confortables/MAGNOLIA/OHM-7023-LC/AMBIENTADAMagnolia.jpg",
+              "label": "Ambiente"
+            }
+          ]
         },
         {
           "id": "ohm-7023-sf",
@@ -385,7 +543,25 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Confortables/MAGNOLIA/OHM-7023-SF/OHM-7023-SFfrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Confortables/MAGNOLIA/OHM-7023-SF/OHM-7023-SFfrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Confortables/MAGNOLIA/OHM-7023-SF/OHM-7023-SFlateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Confortables/MAGNOLIA/OHM-7023-SF/OHM-7023-SFatras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Confortables/MAGNOLIA/OHM-7023-SF/AMBIENTADAMagnolia.jpg",
+              "label": "Ambiente"
+            }
+          ]
         },
         {
           "id": "ohm-7023-ot",
@@ -414,7 +590,25 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Confortables/MAGNOLIA/OHM-7023-OT/OHM-7023-OTfrentew.jpg",
+          "images": [
+            {
+              "url": "../public/img/Confortables/MAGNOLIA/OHM-7023-OT/OHM-7023-OTfrentew.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Confortables/MAGNOLIA/OHM-7023-OT/OHM-7023-OTlateralw.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Confortables/MAGNOLIA/OHM-7023-OT/OHM-7023-OTAtras90w.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Confortables/MAGNOLIA/OHM-7023-OT/AMBIENTADAMagnolia.jpg",
+              "label": "Ambiente"
+            }
+          ]
         }
       ]
     },
@@ -450,7 +644,25 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Confortables/LAUREL/OHM-7215CC/OHM-7215-CCfrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215CC/OHM-7215-CCfrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215CC/OHM-7215-CClateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215CC/AmbientadaLAUREL-1.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215CC/OHM-7215-CC90.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohm-7215s1",
@@ -479,7 +691,25 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Confortables/LAUREL/OHM-7215S1/OHM-7215-S1frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215S1/OHM-7215-S1frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215S1/OHM-7215-S1lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215S1/AmbientadaLAUREL-1.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215S1/OHM-7215-S190.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohm-7215lc",
@@ -508,7 +738,25 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Confortables/LAUREL/OHM-7215LC/OHM-7215-LCfrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215LC/OHM-7215-LCfrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215LC/OHM-7215-LClateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215LC/AmbientadaLAUREL-1.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215LC/OHM-7215-LC90.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohm-7215sf",
@@ -537,7 +785,25 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Confortables/LAUREL/OHM-7215SF/OHM-7215-SFfrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215SF/OHM-7215-SFfrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215SF/OHM-7215-SFlateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215SF/AmbientadaLAUREL-1.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215SF/OHM-7215-SF90.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohm-7215cn",
@@ -566,7 +832,25 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Confortables/LAUREL/OHM-7215CN/OHM-7215-CNfrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215CN/OHM-7215-CNfrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215CN/OHM-7215-CNlateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215CN/AmbientadaLAUREL-1.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215CN/OHM-7215-CN90.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohm-7215ot",
@@ -595,7 +879,17 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Confortables/LAUREL/OHM-7215OT/AmbientadaLAUREL-1.jpg",
+          "images": [
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215OT/AmbientadaLAUREL-1.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215OT/OHM-7215OT.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohm-7215ct",
@@ -624,7 +918,17 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Confortables/LAUREL/OHM-7215CT/AmbientadaLAUREL-1.jpg",
+          "images": [
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215CT/AmbientadaLAUREL-1.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Confortables/LAUREL/OHM-7215CT/OHM-7215CT.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         }
       ]
     }

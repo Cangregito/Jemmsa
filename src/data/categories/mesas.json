@@ -3,7 +3,7 @@
     "id": "mesas",
     "name": "Mesas",
     "description": "Mesas y superficies de trabajo",
-    "image":"../public/img/categorias/mesas.png"
+    "image": "../public/img/categorias/mesas.png"
   },
   "families": {
     "magnolia": {
@@ -54,7 +54,25 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Mesas/MAGNOLIA/OHM-7023-ST/OHM-7023-STfrenteNegro.jpg",
+          "images": [
+            {
+              "url": "../public/img/Mesas/MAGNOLIA/OHM-7023-ST/OHM-7023-STfrenteNegro.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Mesas/MAGNOLIA/OHM-7023-ST/OHM-7023-STnegroLateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Mesas/MAGNOLIA/OHM-7023-ST/OHM-7023-STatrasNegro.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Mesas/MAGNOLIA/OHM-7023-ST/AMBIENTADAMagnolia.jpg",
+              "label": "Ambiente"
+            }
+          ]
         }
       ]
     },
@@ -104,7 +122,17 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Mesas/UNO/OHM-7095/AmbientadaUNO.jpg",
+          "images": [
+            {
+              "url": "../public/img/Mesas/UNO/OHM-7095/AmbientadaUNO.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Mesas/UNO/OHM-7095/OHM-7095.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         }
       ]
     },
@@ -150,7 +178,25 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Mesas/CANCÚN/OHM-7035/OHM-7035frenteabierta.jpg",
+          "images": [
+            {
+              "url": "../public/img/Mesas/CANCÚN/OHM-7035/OHM-7035frenteabierta.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Mesas/CANCÚN/OHM-7035/OHM-7035lateralAbierta.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Mesas/CANCÚN/OHM-7035/AmbientadaCANCUN-8.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Mesas/CANCÚN/OHM-7035/OHM-7035abierta.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         }
       ]
     },
@@ -196,7 +242,45 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Mesas/SEATTLE/OHM-7101/OHM-7101-altaFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Mesas/SEATTLE/OHM-7101/OHM-7101-altaFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Mesas/SEATTLE/OHM-7101/OHM-7101-bajaFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Mesas/SEATTLE/OHM-7101/OHM-7101-altaLateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Mesas/SEATTLE/OHM-7101/OHM-7101-bajaLateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Mesas/SEATTLE/OHM-7101/AmbientadaSeattle-7.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Mesas/SEATTLE/OHM-7101/OHM-7101-alta.jpg",
+              "label": "Imagen 1"
+            },
+            {
+              "url": "../public/img/Mesas/SEATTLE/OHM-7101/OHM-7101-altaArriba.jpg",
+              "label": "Imagen 2"
+            },
+            {
+              "url": "../public/img/Mesas/SEATTLE/OHM-7101/OHM-7101-baja.jpg",
+              "label": "Imagen 3"
+            },
+            {
+              "url": "../public/img/Mesas/SEATTLE/OHM-7101/OHM-7101-bajaArriba.jpg",
+              "label": "Imagen 4"
+            }
+          ]
         }
       ]
     },
@@ -247,7 +331,17 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Mesas/TONNATI/OHM-16/Ambientacion-Tonnati.jpg",
+          "images": [
+            {
+              "url": "../public/img/Mesas/TONNATI/OHM-16/Ambientacion-Tonnati.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Mesas/TONNATI/OHM-16/OHM-16.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         }
       ]
     },
@@ -283,7 +377,17 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Mesas/MARBEL/OHM-70/OHM-70Frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Mesas/MARBEL/OHM-70/OHM-70Frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Mesas/MARBEL/OHM-70/OHM-70Atras.jpg",
+              "label": "Atras"
+            }
+          ]
         },
         {
           "id": "ohm-60",
@@ -312,7 +416,17 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Mesas/MARBEL/OHM-60/OHM-60Frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Mesas/MARBEL/OHM-60/OHM-60Frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Mesas/MARBEL/OHM-60/OHM-60Atras.jpg",
+              "label": "Atras"
+            }
+          ]
         }
       ]
     },
@@ -362,7 +476,17 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Mesas/CHLOE/OHM-7097/AmbientadaCHLOE.jpg",
+          "images": [
+            {
+              "url": "../public/img/Mesas/CHLOE/OHM-7097/AmbientadaCHLOE.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Mesas/CHLOE/OHM-7097/OHM-7097gris.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         }
       ]
     },
@@ -398,7 +522,17 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Mesas/VENICE/OHM-7155/OHM-7155lateralVerde.jpg",
+          "images": [
+            {
+              "url": "../public/img/Mesas/VENICE/OHM-7155/OHM-7155lateralVerde.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Mesas/VENICE/OHM-7155/AmbientadaVENICE-2.jpg",
+              "label": "Ambiente"
+            }
+          ]
         }
       ]
     },
@@ -476,7 +610,37 @@
               "link": "/catalogo?categoria=mesas&familia=pedestal300"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Mesas/PEDESTAL300-BL/pedestal300-bl/PEDESTAL300-BLFrente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Mesas/PEDESTAL300-BL/pedestal300-bl/PEDESTAL300-BLFrente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Mesas/PEDESTAL300-BL/pedestal300-bl/PEDESTAL300-BL-Lateral-Gris.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Mesas/PEDESTAL300-BL/pedestal300-bl/PEDESTAL300-BL-Lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Mesas/PEDESTAL300-BL/pedestal300-bl/PEDESTAL300-BL-Abajo.jpg",
+              "label": "Imagen 1"
+            },
+            {
+              "url": "../public/img/Mesas/PEDESTAL300-BL/pedestal300-bl/PEDESTAL300-BL-CubiertaCircular.jpg",
+              "label": "Imagen 2"
+            },
+            {
+              "url": "../public/img/Mesas/PEDESTAL300-BL/pedestal300-bl/PEDESTAL300-BL-CubiertaCuadrada.jpg",
+              "label": "Imagen 3"
+            },
+            {
+              "url": "../public/img/Mesas/PEDESTAL300-BL/pedestal300-bl/PEDESTAL300-BL.jpg",
+              "label": "Imagen 4"
+            }
+          ]
         }
       ]
     },
@@ -576,7 +740,17 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Mesas/OULU/OHM-7167-DT/AmbientadaOULU-1.jpg",
+          "images": [
+            {
+              "url": "../public/img/Mesas/OULU/OHM-7167-DT/AmbientadaOULU-1.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Mesas/OULU/OHM-7167-DT/OHM-7167DTnegro.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohm-7167-lt",
@@ -605,7 +779,17 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Mesas/OULU/OHM-7167-LT/AmbientadaOULU-2.jpg",
+          "images": [
+            {
+              "url": "../public/img/Mesas/OULU/OHM-7167-LT/AmbientadaOULU-2.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Mesas/OULU/OHM-7167-LT/OHM-7167LTnegro.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohm-7167-bt",
@@ -634,7 +818,17 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Mesas/OULU/OHM-7167-BT/AmbientadaOULU-3.jpg",
+          "images": [
+            {
+              "url": "../public/img/Mesas/OULU/OHM-7167-BT/AmbientadaOULU-3.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Mesas/OULU/OHM-7167-BT/OHM-7167BTnegro.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         }
       ]
     },
@@ -670,7 +864,17 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Mesas/HERON/OHM-7168B-DT/AmbientadaHeron-11.jpg",
+          "images": [
+            {
+              "url": "../public/img/Mesas/HERON/OHM-7168B-DT/AmbientadaHeron-11.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Mesas/HERON/OHM-7168B-DT/OHM-7168B-DTnegroBlanco.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohm-7168b-lt",
@@ -699,7 +903,17 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Mesas/HERON/OHM-7168B-LT/AmbientadaHeron-12.jpg",
+          "images": [
+            {
+              "url": "../public/img/Mesas/HERON/OHM-7168B-LT/AmbientadaHeron-12.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Mesas/HERON/OHM-7168B-LT/OHM-7168B-LTnegroBlanco.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         },
         {
           "id": "ohm-7168b-bt",
@@ -728,7 +942,17 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Mesas/HERON/OHM-7168B-BT/AmbientadaHeron-13.jpg",
+          "images": [
+            {
+              "url": "../public/img/Mesas/HERON/OHM-7168B-BT/AmbientadaHeron-13.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Mesas/HERON/OHM-7168B-BT/OHM-7168B-BTnegroBlanco.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         }
       ]
     }
