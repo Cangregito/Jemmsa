@@ -107,9 +107,9 @@
 <body class="font-body bg-[var(--bg-page)] text-[var(--text-main)]">
   <header id="header"></header>
 
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
     <!-- Breadcrumb -->
-    <nav id="breadcrumb" class="text-sm text-slate-600 dark:text-slate-400 mb-8 flex items-center gap-2">
+    <nav id="breadcrumb" class="text-sm text-slate-600 dark:text-slate-400 mb-6 flex items-center gap-2">
       <a href="./index.html" class="text-brand-primary hover:text-brand-primary/80 transition-colors">Inicio</a>
       <span>/</span>
       <span class="text-slate-700 dark:text-slate-300">Catálogo</span>
@@ -1558,7 +1558,7 @@
             <img class="w-full h-full object-cover" src="${product.image}" alt="${product.name}">
           </div>
           <div class="p-4 space-y-1">
-            <h3 class="text-lg font-medium">${product.name}</h3>
+            <h3 class="product-name text-lg leading-tight">${product.name}</h3>
             <p class="text-slate-500 text-sm">${product.material}</p>
             ${product.description ? `<button class="mt-2 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors">Ver detalles →</button>` : ''}
           </div>
@@ -1572,6 +1572,7 @@
 
         grid.appendChild(article);
       });
+      applyAllProductNameFormats();
     }
 
     function renderSubcategoryProducts(category, subcategory, subsubcategory = null) {
@@ -1600,12 +1601,11 @@
               <img loading="lazy" class="w-full h-full object-cover" src="${product.image}" alt="${product.name}">
             </div>
             <div class="p-4 space-y-1">
-              <h3 class="text-lg font-medium">${product.name}</h3>
+              <h3 class="product-name text-lg leading-tight">${product.name}</h3>
               <p class="text-slate-500 text-sm">${normalizeText(product.material)}</p>
               ${product.description ? `<button class="mt-2 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors">Ver detalles →</button>` : ''}
             </div>
           `;
-          
           fragment.appendChild(article);
         });
       } else if (subcategoryData && !subcategoryData.products) {
@@ -1652,18 +1652,18 @@
               <img loading="lazy" class="w-full h-full object-cover" src="${prod.image}" alt="${prod.name}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
             </div>
             <div class="p-4 space-y-1">
-              <h3 class="text-lg font-medium">${prod.name}</h3>
+              <h3 class="product-name text-lg leading-tight">${prod.name}</h3>
               <p class="text-slate-500 text-sm">${normalizeText(prod.material)}</p>
               <button class="mt-2 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors">Ver detalles →</button>
             </div>
           `;
-          
           fragment.appendChild(article);
         });
       }
       
       grid.innerHTML = '';
       grid.appendChild(fragment);
+      applyAllProductNameFormats();
     }
 
     function renderCategoryProducts(category) {
@@ -1713,7 +1713,7 @@
                 <img loading="lazy" class="w-full h-full object-cover" src="${prod.image}" alt="${prod.name}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
               </div>
               <div class="p-4 space-y-1">
-                <h3 class="text-lg font-medium">${prod.name}</h3>
+                <h3 class="product-name text-lg leading-tight">${prod.name}</h3>
                 <p class="text-slate-500 text-sm">${prod.material}</p>
                 <button class="mt-2 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors">Ver detalles →</button>
               </div>
@@ -1729,7 +1729,7 @@
                 <img loading="lazy" class="w-full h-full object-cover" src="${prod.image}" alt="${prod.name}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
               </div>
               <div class="p-4 space-y-1">
-                <h3 class="text-lg font-medium">${prod.name}</h3>
+                <h3 class="product-name text-lg leading-tight">${prod.name}</h3>
                 <p class="text-slate-500 text-sm">${prod.material}</p>
                 <button class="mt-2 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors">Ver detalles →</button>
               </div>
@@ -1742,6 +1742,7 @@
       grid.innerHTML = '';
       grid.appendChild(fragment);
       updateBreadcrumb();
+      applyAllProductNameFormats();
     }
 
     document.querySelectorAll('.category-btn').forEach(btn => {
@@ -1880,7 +1881,7 @@
           </div>
           <div class="p-4 space-y-1">
             <p class="text-xs uppercase tracking-wide text-brand-primary font-semibold">${catId} · ${familyId}</p>
-            <h3 class="text-lg font-medium">${prod.name}</h3>
+            <h3 class="product-name text-lg leading-tight">${prod.name}</h3>
             <p class="text-slate-500 text-sm line-clamp-2">${prod.material}</p>
             <button class="mt-2 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors">Ver detalles →</button>
           </div>
@@ -1890,6 +1891,7 @@
       
       grid.innerHTML = '';
       grid.appendChild(fragment);
+      applyAllProductNameFormats();
     }
 
     // Initialize Filter Dropdown
@@ -2203,12 +2205,11 @@
                 <img loading="lazy" class="w-full h-full object-cover" src="${prod.image}" alt="${prod.name}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">
               </div>
               <div class="p-4 space-y-1">
-                <h3 class="text-lg font-medium">${prod.name}</h3>
+                <h3 class="product-name text-lg leading-tight">${prod.name}</h3>
                 <p class="text-slate-500 text-sm">${prod.material}</p>
                 <button class="mt-2 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors">Ver detalles →</button>
               </div>
             `;
-            article._productData = product;
             fragment.appendChild(article);
           });
         }
@@ -2216,14 +2217,26 @@
       
       grid.innerHTML = '';
       grid.appendChild(fragment);
+      applyAllProductNameFormats();
     }
 
     renderAllProducts();
 
-    // Event delegation para productos del grid
+    // Event delegation para productos y categorías del grid
     const productsGrid = document.getElementById('products-grid');
     if (productsGrid) {
       productsGrid.addEventListener('click', (e) => {
+        // Manejar clic en categoría
+        const categoryCard = e.target.closest('[data-action="category"]');
+        if (categoryCard) {
+          const categoryId = categoryCard.dataset.categoryId;
+          if (categoryId) {
+            renderCategoryProducts(categoryId);
+            return;
+          }
+        }
+        
+        // Manejar clic en producto
         const article = e.target.closest('[data-action="product"]');
         if (article && article._productData) {
           // Para resultados de búsqueda que almacenan catId y familyId
@@ -2234,6 +2247,23 @@
             navigateToProduct(article._productData);
           }
         }
+      });
+    }
+
+    // Función para formatear el nombre del producto en dos líneas
+    function applyProductNameFormat(element) {
+      if (!element) return;
+      const name = element.textContent.trim();
+      const modeloMatch = name.match(/^(.+?)\s+(modelo\s+.+)$/i);
+      if (modeloMatch) {
+        element.innerHTML = `<span class="block font-semibold">${modeloMatch[1]}</span><span class="block text-sm text-slate-600 dark:text-slate-400">${modeloMatch[2]}</span>`;
+      }
+    }
+    
+    // Aplicar formato después de renderizar
+    function applyAllProductNameFormats() {
+      document.querySelectorAll('.product-name').forEach(el => {
+        applyProductNameFormat(el);
       });
     }
 

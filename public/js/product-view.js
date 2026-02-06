@@ -175,7 +175,16 @@ function renderProduct(product, family, category) {
   const collectionEl = document.getElementById('collection-name');
   if (collectionEl) collectionEl.textContent = family.name || '';
   const codeEl = document.getElementById('product-code');
-  if (codeEl) codeEl.textContent = product.name || '';
+  if (codeEl) {
+    codeEl.textContent = product.name || '';
+    // Aplicar formato de dos líneas si contiene "modelo"
+    const match = codeEl.textContent.match(/^(.+?)\s+(modelo\s+.+)$/i);
+    if (match) {
+      const familyName = match[1];
+      const modelName = match[2];
+      codeEl.innerHTML = `<span class="block font-semibold">${familyName}</span><span class="block text-sm text-gray-600 dark:text-gray-400">${modelName}</span>`;
+    }
+  }
   
   // Insignias
   renderBadges(product);
