@@ -14,7 +14,6 @@
         {
           "id": "piston-rebasador-cromado",
           "name": "Pistón Rebasador Cromado",
-          "material": "Acero con terminado cromado",
           "description": "Pistón rebasador cromado para sillas tipo cajero / mayor altura. Eleva la silla a una altura superior a la estándar.",
           "specifications": {
             "tipo": "Pistón rebasador cromado para sillas tipo cajero / mayor altura",
@@ -27,7 +26,6 @@
         {
           "id": "base-aluminio-lucido",
           "name": "Base Aluminio Lúcido",
-          "material": "Aluminio fundido pulido/brillante",
           "description": "Base para silla de 5 puntas en aluminio con acabado lúcido (pulido/brillante). Reemplazo o actualización de base de silla operativa o ejecutiva.",
           "specifications": {
             "tipo": "Base para silla de 5 puntas",
@@ -48,7 +46,6 @@
         {
           "id": "kit-cajero-cromado",
           "name": "Kit cajero cromado",
-          "material": "Acero con terminado cromado",
           "description": "Kit de elevación tipo cajero con terminación cromada.",
           "specifications": {
             "tipo": "Kit de elevación tipo cajero",
@@ -123,7 +120,6 @@
         {
           "id": "piston-neumatico-estandar",
           "name": "Pistón",
-          "material": "Acero",
           "description": "Pistón neumático estándar para elevación de asiento en sillas operativas o ejecutivas.",
           "specifications": {
             "tipo": "Pistón neumático estándar",
@@ -142,7 +138,6 @@
         {
           "id": "brazo-40",
           "name": "Brazo-40",
-          "material": "Polipropileno semirrígido",
           "description": "Brazo ajustable para sillas operativas.",
           "specifications": {
             "caracteristicas": "Funda de polipropileno con botón para ajuste de altura en 10 posiciones; correderas para ajuste a lo ancho",
@@ -162,7 +157,6 @@
         {
           "id": "brazo-06",
           "name": "Brazo-06",
-          "material": "Polipropileno semirrígido",
           "description": "Brazos fijos para sillas operativas.",
           "specifications": {
             "tipo": "Brazos fijos",
@@ -190,7 +184,6 @@
         {
           "id": "brazo-53",
           "name": "Brazo-53",
-          "material": "Polipropileno semirrígido",
           "description": "Brazos fijos para sillas operativas.",
           "specifications": {
             "tipo": "Brazos fijos",
@@ -216,7 +209,6 @@
         {
           "id": "brazo-55",
           "name": "Brazo-55",
-          "material": "Polipropileno semirrígido",
           "description": "Brazos fijos para sillas operativas.",
           "specifications": {
             "tipo": "Brazos fijos",
@@ -243,7 +235,6 @@
         {
           "id": "brazo-90",
           "name": "Brazo-90",
-          "material": "Polipropileno semirrígido",
           "description": "Brazos fijos para sillas operativas.",
           "specifications": {
             "tipo": "Brazos fijos",
@@ -270,7 +261,6 @@
         {
           "id": "brazo-86",
           "name": "Brazo-86",
-          "material": "Polipropileno semirrígido",
           "description": "Brazos fijos para sillas operativas.",
           "specifications": {
             "tipo": "Brazos fijos",
@@ -293,7 +283,6 @@
         {
           "id": "brazo-86al-pad-negro",
           "name": "Brazo-86Al pad Negro",
-          "material": "Aluminio fundido, terminado en color natural pulido",
           "description": "Brazos fijos con estructura tipo aluminio y pad en color negro.",
           "specifications": {
             "tipo": "Brazos fijos",
@@ -328,7 +317,6 @@
         {
           "id": "brazo-86al-pad-blanco",
           "name": "Brazo-86Al pad Blanco",
-          "material": "Aluminio fundido, terminado en color natural pulido",
           "description": "Brazos fijos con estructura tipo aluminio y pad en color blanco.",
           "specifications": {
             "tipo": "Brazos fijos",

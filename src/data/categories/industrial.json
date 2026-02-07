@@ -5,121 +5,129 @@
     "description": "Sillas resistentes para entornos industriales",
     "image": "../public/img/categorias/industrial.png"
   },
-  "families": [
-    {
+  "families": {
+    "ohi-46": {
       "id": "ohi-46",
       "name": "OHI-46",
-      "material": "Estructura de acero reforzado con base de hierro fundido, asiento y respaldo tapizados en tela industrial resistente",
-      "description": "Silla industrial OHI-46. Modelo resistente diseñado para entornos industriales con alto uso. Base reforzada y construcción robusta para soportar jornadas laborales intensas.",
-      "link": "/fichas/ohi-46",
-      "specifications": {
-        "base": "Base de hierro fundido tipo estrella de 5 puntas, terminado en pintura epoxi negra mate, con rodajas de nylon reforzadas",
-        "elevacion": "Pistón neumático industrial de calibre pesado con sistema anti-caída de seguridad",
-        "mecanismo": "Mecanismo sincrónico tipo articulado con resorte de recuperación automática",
-        "brazos": "Brazos ajustables en altura y profundidad, estructura de acero con material anti-deslizante",
-        "respaldo": "Respaldo reclinable de altura media con soporte lumbar integrado",
-        "asiento": "Asiento ergonómico con espuma de densidad media resistente al desgarre",
-        "tapiz": "Tela industrial de alta resistencia, fácil de limpiar y desinfectar",
-        "capacidad": "Peso máximo soportado: 180 kg",
-        "nota": "Diseñada para uso continuo en ambientes industriales, fabril y logístico"
-      },
-      "image": "../public/img/Industrial/OHI-46/OHI-46frente.jpg",
-      "images": [
+      "description": "Silla industrial con mecanismo de contacto permanente y doble palanca de ajuste.",
+      "products": [
         {
-          "url": "../public/img/Industrial/OHI-46/OHI-46frente.jpg",
-          "label": "Frente"
-        },
-        {
-          "url": "../public/img/Industrial/OHI-46/OHI-46lateral.jpg",
-          "label": "Lateral"
-        },
-        {
-          "url": "../public/img/Industrial/OHI-46/OHI-46atras90.jpg",
-          "label": "Atras"
-        },
-        {
-          "url": "../public/img/Industrial/OHI-46/AmbientadaHEAVYDUTY.jpg",
-          "label": "Ambiente"
-        },
-        {
-          "url": "../public/img/Industrial/OHI-46/OHI-46kitCrRod.jpg",
-          "label": "Imagen 1"
+          "id": "ohi-46",
+          "name": "OHI-46",
+          "description": "Silla industrial con base de poliamida, rodajas tipo dual, pistón neumático tipo cajero y mecanismo de contacto permanente. Respaldo y asiento en poliuretano compacto suave.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en poliamida, rodajas tipo dual",
+            "elevacion": "Por medio de pistón neumático tipo cajero que permite ajustar la altura del asiento",
+            "perillas_de_ajuste": "Para ajustar la altura del respaldo y otra la profundidad del respaldo con el asiento (es sólo el tornillo)",
+            "mecanismo": "Plato de acero reforzado de dos palancas; una para el accionamiento y bloqueo del pistón neumático, otra para ajustar y bloquear el ángulo de inclinación del respaldo (sistema de contacto permanente)",
+            "respaldo_y_asiento": "Poliuretano compacto suave de uso industrial con interior en madera de aglomerado",
+            "resistencia": "Peso sugerido 140 kgs",
+            "nota": "Las medidas de las alturas aumentan con pistón cajero 240 mm"
+          },
+          "image": "../public/img/Industrial/OHI-46/OHI-46frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Industrial/OHI-46/OHI-46frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Industrial/OHI-46/OHI-46lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Industrial/OHI-46/OHI-46atras90.jpg",
+              "label": "Atras"
+            },
+            {
+              "url": "../public/img/Industrial/OHI-46/AmbientadaHEAVYDUTY.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Industrial/OHI-46/OHI-46kitCrRod.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         }
       ]
     },
-    {
+    "ohi-48": {
       "id": "ohi-48",
       "name": "OHI-48",
-      "material": "Estructura de acero tubular reforzado, base de aluminio fundido, tapizado en cuero sintético industrial",
-      "description": "Silla industrial OHI-48. Versión mejorada con mayor estabilidad y durabilidad. Diseñada para ambientes de temperatura variable y alta humedad.",
-      "link": "/fichas/ohi-48",
-      "specifications": {
-        "base": "Base de aluminio fundido tipo estrella de 5 puntas, tratamiento anti-corrosión, rodajas tipo dual de alta resistencia",
-        "elevacion": "Pistón neumático de doble cámara para estabilidad y control de velocidad de descenso",
-        "mecanismo": "Mecanismo de bloqueo múltiple con ángulo de inclinación regulable de 0° a 15°",
-        "brazos": "Brazos de altura y profundidad totalmente ajustables, fabricados en aluminio extruido",
-        "respaldo": "Respaldo alto ergonómico con soporte cervical y lumbar integrado",
-        "asiento": "Asiento con contorno anatómico, espuma de inyección de alta densidad",
-        "tapiz": "Cuero sintético industrial de grado profesional, resistente a manchas y fluidos",
-        "capacidad": "Peso máximo soportado: 200 kg",
-        "nota": "Especialmente recomendada para plantas de producción y ambientes húmedos"
-      },
-      "image": "../public/img/Industrial/OHI-48/OHI-48Frente.jpg",
-      "images": [
+      "description": "Silla industrial con asiento de curvatura antropométrica.",
+      "products": [
         {
-          "url": "../public/img/Industrial/OHI-48/OHI-48Frente.jpg",
-          "label": "Frente"
-        },
-        {
-          "url": "../public/img/Industrial/OHI-48/OHI-48Lateral.jpg",
-          "label": "Lateral"
-        },
-        {
-          "url": "../public/img/Industrial/OHI-48/AmbientadaHEAVYDUTY48-2.jpg",
-          "label": "Ambiente"
-        },
-        {
-          "url": "../public/img/Industrial/OHI-48/OHI-4890.jpg",
-          "label": "Imagen 1"
+          "id": "ohi-48",
+          "name": "OHI-48",
+          "description": "Silla industrial con base de poliamida, rodajas tipo dual, pistón neumático tipo cajero y mecanismo de acero reforzado. Respaldo y asiento en poliuretano con curvatura antropométrica.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en poliamida, rodajas tipo dual",
+            "elevacion": "Por medio de pistón neumático tipo cajero que permite ajustar la altura del asiento",
+            "perillas_de_ajuste": "Para ajustar la profundidad del respaldo con el asiento (es sólo el tornillo)",
+            "mecanismo": "Plato de acero reforzado con palanca de accionamiento y bloqueo del pistón neumático",
+            "respaldo_y_asiento": "Poliuretano compacto suave de uso industrial con interior en madera de aglomerado, asiento con curvatura antropométrica",
+            "resistencia": "Peso sugerido 140 kgs",
+            "nota": "Las medidas de las alturas aumentan con pistón cajero 240 mm"
+          },
+          "image": "../public/img/Industrial/OHI-48/OHI-48Frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Industrial/OHI-48/OHI-48Frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Industrial/OHI-48/OHI-48Lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Industrial/OHI-48/AmbientadaHEAVYDUTY48-2.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Industrial/OHI-48/OHI-4890.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         }
       ]
     },
-    {
+    "ohi-49": {
       "id": "ohi-49",
       "name": "OHI-49",
-      "material": "Estructura de acero tubular de perfil cerrado, base de acero con tratamiento especial, tapizado en tela Cordura®",
-      "description": "Silla industrial OHI-49. Modelo premium de máxima resistencia y confort. Ideal para turnos prolongados en ambiente industrial.",
-      "link": "/fichas/ohi-49",
-      "specifications": {
-        "base": "Base de acero con recubrimiento de poliuretano anti-deslizante, rodajas de nylon con freno de seguridad",
-        "elevacion": "Pistón neumático de accionamiento suave con sistema de válvula anti-caída integrada",
-        "mecanismo": "Mecanismo de bloqueo de altura multi-posición con reclinación suave",
-        "brazos": "Brazos 3D completamente ajustables: altura, profundidad y rotación, refuerzo de acero en puntos de pivote",
-        "respaldo": "Respaldo alto con sistema de soporte dinámico, recubierto en espuma viscoelástica",
-        "asiento": "Asiento con sistema de ventilación por células, espuma viscoelástica de máxima confortabilidad",
-        "tapiz": "Tela Cordura® de grado industrial, con tratamiento antimicrobiano y resistencia extrema al desgarre",
-        "capacidad": "Peso máximo soportado: 220 kg",
-        "nota": "Certificada para uso continuo 24/7 en entornos industriales exigentes. Mantenimiento mínimo."
-      },
-      "image": "../public/img/Industrial/OHI-49/OHI-49frente.jpg",
-      "images": [
+      "description": "Silla tipo banqueta industrial con asiento de curvatura antropométrica.",
+      "products": [
         {
-          "url": "../public/img/Industrial/OHI-49/OHI-49frente.jpg",
-          "label": "Frente"
-        },
-        {
-          "url": "../public/img/Industrial/OHI-49/OHI-49Lateral.jpg",
-          "label": "Lateral"
-        },
-        {
-          "url": "../public/img/Industrial/OHI-49/AmbientadaHEAVYDUTY49-2.jpg",
-          "label": "Ambiente"
-        },
-        {
-          "url": "../public/img/Industrial/OHI-49/OHI-4990.jpg",
-          "label": "Imagen 1"
+          "id": "ohi-49",
+          "name": "OHI-49",
+          "description": "Silla industrial tipo banqueta con base de poliamida, rodajas tipo dual y pistón neumático tipo cajero. Asiento en poliuretano con curvatura antropométrica.",
+          "specifications": {
+            "base": "Estrella de 5 puntas en poliamida, rodajas tipo dual",
+            "elevacion": "Por medio de pistón neumático tipo cajero que permite ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado con palanca de accionamiento y bloqueo del pistón neumático",
+            "asiento": "Poliuretano compacto suave de uso industrial con interior en madera de aglomerado y curvatura antropométrica",
+            "resistencia": "Peso sugerido 120 kgs",
+            "nota": "Las medidas de las alturas aumentan con pistón cajero 240 mm"
+          },
+          "image": "../public/img/Industrial/OHI-49/OHI-49frente.jpg",
+          "images": [
+            {
+              "url": "../public/img/Industrial/OHI-49/OHI-49frente.jpg",
+              "label": "Frente"
+            },
+            {
+              "url": "../public/img/Industrial/OHI-49/OHI-49Lateral.jpg",
+              "label": "Lateral"
+            },
+            {
+              "url": "../public/img/Industrial/OHI-49/AmbientadaHEAVYDUTY49-2.jpg",
+              "label": "Ambiente"
+            },
+            {
+              "url": "../public/img/Industrial/OHI-49/OHI-4990.jpg",
+              "label": "Imagen 1"
+            }
+          ]
         }
       ]
     }
-  ]
+  }
 }

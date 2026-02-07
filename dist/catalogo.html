@@ -1441,60 +1441,6 @@
 
     function setCategoryExtras(category) {
       categoryExtras.innerHTML = '';
-      if (category === 'operativos') {
-        const extrasWrapper = document.createElement('div');
-        extrasWrapper.className = 'flex flex-col gap-3 md:flex-row md:items-center md:justify-between bg-brand-soft dark:bg-brand-deep border border-brand-soft dark:border-brand-deep rounded-lg p-4';
-
-        const tapizLink = document.createElement('a');
-        tapizLink.href = './public/catalogo-tapices.pdf';
-        tapizLink.className = 'inline-flex items-center gap-2 px-3 py-2 rounded-md bg-brand-primary text-white text-sm font-medium hover:bg-brand-primary/90 transition-colors';
-        tapizLink.textContent = 'Catálogo de tapices';
-        tapizLink.target = '_blank';
-        tapizLink.rel = 'noopener noreferrer';
-
-        const searchWrapper = document.createElement('div');
-        searchWrapper.className = 'flex-1 flex flex-col gap-1';
-        const searchLabel = document.createElement('label');
-        searchLabel.className = 'text-sm font-medium text-slate-700';
-        searchLabel.textContent = 'Búsqueda rápida por modelo';
-        const searchInput = document.createElement('input');
-        searchInput.type = 'search';
-        searchInput.placeholder = 'Ej. OHS-43, Evolution';
-        searchInput.value = operativosSearchTerm;
-        searchInput.className = 'w-full rounded-md border border-slate-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500';
-        searchInput.addEventListener('input', (e) => {
-          renderOperativosSearch(e.target.value || '');
-        });
-        searchWrapper.appendChild(searchLabel);
-        searchWrapper.appendChild(searchInput);
-
-        const note = document.createElement('p');
-        note.className = 'text-xs text-slate-600';
-        note.textContent = 'El color puede variar dependiendo del monitor.';
-
-        extrasWrapper.appendChild(tapizLink);
-        extrasWrapper.appendChild(searchWrapper);
-        extrasWrapper.appendChild(note);
-        categoryExtras.appendChild(extrasWrapper);
-      } else if (category === 'industrial') {
-        const extrasWrapper = document.createElement('div');
-        extrasWrapper.className = 'flex flex-col gap-3 md:flex-row md:items-center md:justify-between bg-slate-50 border border-slate-200 rounded-lg p-4';
-
-        const title = document.createElement('h2');
-        title.className = 'text-lg font-semibold text-[var(--text-main)]';
-        title.textContent = 'Industrial';
-
-        const tapizLink = document.createElement('a');
-        tapizLink.href = './public/catalogo-tapices.pdf';
-        tapizLink.className = 'inline-flex items-center gap-2 px-3 py-2 rounded-md bg-brand-primary text-white text-sm font-medium hover:bg-brand-primary/90 transition-colors';
-        tapizLink.textContent = 'Catálogo de tapices (Flippingbook)';
-        tapizLink.target = '_blank';
-        tapizLink.rel = 'noopener noreferrer';
-
-        extrasWrapper.appendChild(title);
-        extrasWrapper.appendChild(tapizLink);
-        categoryExtras.appendChild(extrasWrapper);
-      }
     }
 
     function updateBreadcrumb() {
@@ -1609,6 +1555,8 @@
           article.className = 'border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm cursor-pointer hover:shadow-md transition-shadow';
           article.dataset.action = 'product';
           article._productData = product;
+          article._categoryId = category;
+          article._familyId = subsubcategory;
           article.innerHTML = `
             <div class="product-image-container aspect-[4/3] bg-white cursor-zoom-in flex items-center justify-center" title="Click para ampliar">
               <img loading="lazy" class="w-full h-full object-contain" src="${product.image}" alt="${product.name}">
@@ -1660,6 +1608,8 @@
           article.className = 'border border-slate-200 rounded-lg overflow-hidden bg-white shadow-sm cursor-pointer hover:shadow-md transition-shadow';
           article.dataset.action = 'product';
           article._productData = product;
+          article._categoryId = category;
+          article._familyId = subcategory;
           article.innerHTML = `
             <div class="product-image-container aspect-[4/3] bg-white cursor-zoom-in flex items-center justify-center" title="Click para ampliar">
               <img loading="lazy" class="w-full h-full object-contain" src="${prod.image}" alt="${prod.name}" onerror="this.src='https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=800&auto=format&fit=crop'">

@@ -127,7 +127,7 @@ async function loadProduct() {
     window.history.replaceState(null, '', window.location.pathname + newSearch);
 
     // Renderizar producto
-    renderProduct(productData, familyData, categoryData);
+    renderProduct(productData, familyData, categoryData.category);
 
     // Cargar productos relacionados de la misma familia
     loadRelatedProducts(familyData.products, productData.id);
@@ -168,17 +168,34 @@ function renderProduct(product, family, category) {
   // Título de página
   document.getElementById('product-title').textContent = `${product.name} | Jemmsa`;
   
-  // Breadcrumb
-  renderBreadcrumb(product.breadcrumb || []);
+  // Generar breadcrumb automáticamente
+  const breadcrumb = [
+    { label: 'Home', link: './index.html' },
+    { label: category.name.toUpperCase(), link: `./catalogo.html?categoria=${category.id}` },
+    { label: family.name.toUpperCase(), link: `./catalogo.html?categoria=${category.id}` },
+    { label: product.name, link: '#' }
+  ];
+  renderBreadcrumb(breadcrumb);
   
   // Encabezado
   const collectionEl = document.getElementById('collection-name');
   if (collectionEl) collectionEl.textContent = family.name || '';
   const codeEl = document.getElementById('product-code');
-  if (codeEl) codeEl.textContent = product.name || '';
-  
-  // Insignias
-  renderBadges(product);
+  if (codeEl) {
+    // Extraer solo el código del producto (ej: "ALUFSEN modelo OHE-405" -> "OHE-405")
+    let productCode = product.name || '';
+    const modeloMatch = productCode.match(/modelo\s+([A-Z0-9-]+)/i);
+    if (modeloMatch) {
+      productCode = modeloMatch[1];
+    } else {
+      // Si no tiene "modelo", intentar extraer el código al final
+      const codeMatch = productCode.match(/([A-Z]{2,}[A-Z0-9-]+)$/i);
+      if (codeMatch) {
+        productCode = codeMatch[1];
+      }
+    }
+    codeEl.textContent = productCode;
+  }
   
   // Imagen principal
   const mainImg = document.getElementById('main-image');
@@ -192,44 +209,47 @@ function renderProduct(product, family, category) {
     renderImageGallery(product.images);
   }
 
-  
-  // Información del producto
-  const nameEl = document.getElementById('product-name');
-  if (nameEl) nameEl.textContent = product.comercial_name || product.name || '';
-  const descEl = document.getElementById('product-description');
-  if (descEl) descEl.textContent = normalizeText(product.description || '');
-  
-  // Colores
-  const colors = extractColors(product.material);
-  if (colors.length > 0) {
-    renderColors(colors);
-  }
-  
-  // Especificaciones (incluye material/color/características/nota)
-  renderSpecifications(product);
-  
-  // Quitar detalle en descripción; se mostrará en Especificaciones
-  const matEl = document.getElementById('material-description');
-  if (matEl) matEl.textContent = '';
-  
-  // Modelados 3D
-  if (product.recursos?.modelados_3d && product.recursos.modelados_3d.length > 0) {
-    renderModels3D(product.recursos.modelados_3d);
-  }
-  
-  // Certificaciones
-  if (product.specifications?.referencia) {
-    renderCertifications(product.specifications.referencia);
-  }
-  
-  // Recursos de descarga
-  renderDownloads(product.recursos);
-  
-  // Nota general
-  if (product.specifications?.nota_general) {
-    const noteElement = document.getElementById('general-note');
-    noteElement.textContent = product.specifications.nota_general;
-    noteElement.classList.remove('hidden');
+  // Descripción Principal - Mostrar todas las especificaciones detalladas
+  const descriptionEl = document.getElementById('product-description');
+  if (descriptionEl) {
+    let html = '';
+    let hasContent = false;
+    
+    // Descripción general si existe
+    if (product.description) {
+      html += `<p class="mb-4">${normalizeText(product.description)}</p>`;
+      hasContent = true;
+    }
+    
+    // Especificaciones detalladas
+    if (product.specifications) {
+      const specs = product.specifications;
+      const specOrder = ['base', 'elevacion', 'elevación', 'mecanismo', 'brazos', 'asiento', 'respaldo', 'tapiz', 'capacidad', 'resistencia', 'referencia'];
+      
+      specOrder.forEach(key => {
+        if (specs[key]) {
+          const label = key.charAt(0).toUpperCase() + key.slice(1);
+          html += `<p class="mb-2"><strong class="text-brand-base dark:text-white">${label}:</strong> ${normalizeText(specs[key])}</p>`;
+          hasContent = true;
+        }
+      });
+      
+      // Agregar cualquier otra especificación que no esté en el orden
+      Object.keys(specs).forEach(key => {
+        if (!specOrder.includes(key) && specs[key]) {
+          const label = key.replace(/_/g, ' ').charAt(0).toUpperCase() + key.replace(/_/g, ' ').slice(1);
+          html += `<p class="mb-2"><strong class="text-brand-base dark:text-white">${label}:</strong> ${normalizeText(specs[key])}</p>`;
+          hasContent = true;
+        }
+      });
+    }
+    
+    // Si no hay contenido, mostrar mensaje de pendiente
+    if (!hasContent) {
+      html = '<p class="text-slate-500 italic">Pendiente por cargar información.</p>';
+    }
+    
+    descriptionEl.innerHTML = html;
   }
 }
 
@@ -248,175 +268,6 @@ function renderBreadcrumb(breadcrumb) {
   }).join('');
 }
 
-// Renderizar insignias circulares
-function renderBadges(product) {
-  const container = document.getElementById('badges-container');
-  const badges = [];
-  
-  // Badge de garantía (siempre visible, ejemplo: 5 años)
-  badges.push(`
-    <div class="badge-circular" style="background-color: white; border-color: #2563EB; color: #2563EB;">
-      <div style="font-size: 0.65rem; line-height: 1;">GARANTÍA</div>
-      <div style="font-size: 1.5rem; font-weight: 700; line-height: 1;">5</div>
-      <div style="font-size: 0.65rem; line-height: 1;">AÑOS</div>
-    </div>
-  `);
-  
-  // Protección UV (si está en el material)
-  if (product.material && /UV|ultravioleta/i.test(product.material)) {
-    badges.push(`
-      <div class="badge-circular" style="background-color: #F59E0B; border-color: #F59E0B; color: white;">
-        <svg style="width: 32px; height: 32px; margin-bottom: 4px;" fill="currentColor" viewBox="0 0 20 20">
-          <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"/>
-        </svg>
-        <div style="font-size: 0.65rem;">PROTECCIÓN<br>UV</div>
-      </div>
-    `);
-  }
-  
-  container.innerHTML = badges.join('');
-}
-
-// Renderizar colores
-function renderColors(colors) {
-  const section = document.getElementById('colors-section');
-  const container = document.getElementById('colors-container');
-  
-  container.innerHTML = colors.map(color => `
-    <div class="flex items-center gap-2 px-4 py-2 bg-white rounded-lg border border-gray-200 shadow-sm">
-      <div class="w-8 h-8 rounded-full bg-gradient-to-br from-slate-200 to-slate-300 border border-slate-300"></div>
-      <div>
-        <p class="text-sm font-medium text-slate-900">${color.name}</p>
-        <p class="text-xs text-slate-500">${color.code}</p>
-      </div>
-    </div>
-  `).join('');
-  
-  section.classList.remove('hidden');
-}
-
-// Renderizar especificaciones
-function renderSpecifications(product) {
-  const specs = product?.specifications || {};
-
-  // Utilidades para normalizar texto y limpiar puntuación final
-  const fixText = (t) => normalizeText(t).replace(/\.$/, '');
-
-  // Mostrar campos especiales existentes
-  if (specs.resistencia) {
-    document.getElementById('resistance-spec').classList.remove('hidden');
-    document.getElementById('resistance-value').textContent = specs.resistencia;
-  }
-  if (specs.referencia) {
-    document.getElementById('reference-spec').classList.remove('hidden');
-    document.getElementById('reference-value').textContent = specs.referencia;
-  }
-
-  const container = document.querySelector('#specs-section .space-y-3');
-  if (!container) return;
-
-  // Construir líneas con el formato deseado
-  const lines = [];
-  if (product.material) {
-    lines.push({ label: 'material', value: fixText(product.material) });
-  }
-  if (specs.color) {
-    lines.push({ label: 'color', value: fixText(specs.color) });
-  }
-  if (specs.caracteristicas) {
-    lines.push({ label: 'características', value: fixText(specs.caracteristicas) });
-  }
-  if (specs.descansabrazos) {
-    lines.push({ label: 'descansabrazos', value: fixText(specs.descansabrazos) });
-  }
-
-  // Agregar otros campos técnicos comunes si existen
-  const otherKeys = ['base', 'elevacion', 'mecanismo', 'brazos', 'respaldo', 'tapiz', 'capacidad', 'dimensiones', 'uso', 'terminacion', 'componentes', 'compatibilidad'];
-  otherKeys.forEach(key => {
-    if (specs[key]) {
-      const display = key === 'elevacion' ? 'elevación' : (key === 'terminacion' ? 'terminación' : key);
-      lines.push({ label: display, value: fixText(specs[key]) });
-    }
-  });
-
-  // Render de líneas
-  lines.forEach(({ label, value }) => {
-    const row = document.createElement('div');
-    row.className = 'flex justify-between items-start py-2 border-b border-slate-200 dark:border-slate-700';
-    row.innerHTML = `
-      <span class="text-sm font-medium text-slate-700 dark:text-slate-300">${label.charAt(0) === label.charAt(0).toUpperCase() ? label : label.toLowerCase()}:</span>
-      <span class="text-sm text-slate-600 dark:text-slate-400 text-right">${value}.</span>
-    `;
-    container.appendChild(row);
-  });
-
-  // NOTA al final (en mayúsculas)
-  if (specs.nota) {
-    const row = document.createElement('div');
-    row.className = 'flex justify-between items-start py-2';
-    row.innerHTML = `
-      <span class="text-sm font-semibold uppercase text-slate-700 dark:text-slate-300">NOTA:</span>
-      <span class="text-sm text-slate-600 dark:text-slate-400 text-right">${fixText(specs.nota)}.</span>
-    `;
-    container.appendChild(row);
-  }
-}
-
-// Renderizar modelados 3D
-function renderModels3D(models) {
-  const accordion = document.getElementById('models-3d-accordion');
-  const list = document.getElementById('models-3d-list');
-  
-  list.innerHTML = models.map(file => {
-    const extension = file.split('.').pop().toUpperCase();
-    return `
-      <li class="flex items-center gap-3 p-2 hover:bg-slate-50 rounded">
-        <svg class="w-5 h-5 text-orange-600" fill="currentColor" viewBox="0 0 20 20">
-          <path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z" clip-rule="evenodd"/>
-          <path d="M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z"/>
-        </svg>
-        <span class="text-sm text-slate-700 flex-1">${file}</span>
-        <span class="text-xs font-medium text-orange-600 px-2 py-1 bg-orange-50 rounded">${extension}</span>
-      </li>
-    `;
-  }).join('');
-  
-  accordion.classList.remove('hidden');
-}
-
-// Renderizar certificaciones
-function renderCertifications(certification) {
-  const accordion = document.getElementById('certifications-accordion');
-  const content = document.getElementById('certifications-content');
-  
-  content.textContent = `Este producto cumple con los estándares de ${certification}.`;
-  accordion.classList.remove('hidden');
-}
-
-// Renderizar descargas
-function renderDownloads(recursos) {
-  if (!recursos) return;
-  
-  const downloads = [
-    { id: 'download-instructivo', key: 'instructivo', files: recursos.instructivo },
-    { id: 'download-fotos', key: 'fotos', files: recursos.fotos },
-    { id: 'download-ficha', key: 'ficha_tecnica', files: recursos.ficha_tecnica }
-  ];
-  
-  downloads.forEach(({ id, key, files }) => {
-    if (files && files.length > 0) {
-      const element = document.getElementById(id);
-      element.classList.remove('hidden');
-      // TODO: Configurar enlace real cuando estén disponibles los archivos
-      element.href = '#'; // Placeholder
-      element.onclick = (e) => {
-        e.preventDefault();
-        alert(`Descarga de ${key}: ${files.join(', ')}`);
-      };
-    }
-  });
-}
-
 // Cargar productos relacionados
 function loadRelatedProducts(allProducts, currentProductId) {
   const relatedProducts = allProducts
@@ -431,10 +282,10 @@ function loadRelatedProducts(allProducts, currentProductId) {
   grid.innerHTML = relatedProducts.map(product => `
     <a href="producto.html?categoria=${getURLParams().categoria}&familia=${getURLParams().familia}&producto=${product.id}" 
        class="group bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden hover:shadow-md hover:border-blue-400 transition-all">
-      <div class="aspect-square bg-gray-50">
+      <div class="aspect-square bg-gray-50 overflow-hidden flex items-center justify-center">
         <img src="${product.image || 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=400&auto=format&fit=crop'}" 
              alt="${product.name}" 
-             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+             class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
       </div>
       <div class="p-4">
         <h3 class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">${product.name}</h3>

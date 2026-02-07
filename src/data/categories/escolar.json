@@ -15,7 +15,6 @@
           "id": "ohp-2100",
           "name": "OHP-2100",
           "comercial_name": "Escolar OHP-2100",
-          "material": "Polipropileno de alta densidad",
           "description": "Silla escolar BLOW modelo OHP-2100. Base giratoria de 360° con rodajas tipo dual, monocasco con ventilación y soporte lumbar, paleta giratoria con porta iPad y portavasos.",
           "specifications": {
             "base": "Giratoria de 360° en polipropileno reciclable de alta densidad PP5 inerte, inocuo, resistente a sustancias corrosivas y calor de grado alimenticio, rodajas tipo dual",
@@ -25,36 +24,6 @@
             "resistencia": "Peso sugerido 130 kgs",
             "referencia": "BIFMA",
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "instructivo": {
-              "nombre": "Instructivo BLOW",
-              "archivo": "INSTRUCTIVO-BLOW.pdf"
-            },
-            "fotos": {
-              "nombre": "Fotos OHP-2100",
-              "archivo": "ImagenesOHP-2100.pdf"
-            },
-            "ficha_tecnica": {
-              "nombre": "Ficha Técnica OHP-2100",
-              "archivo": "OHP-2100FT.jpg"
-            },
-            "modelados_3d": [
-              {
-                "tipo": "DWG",
-                "archivo": "OHP-2100DWG.dwg"
-              },
-              {
-                "tipo": "OBJ",
-                "archivo": "OHP-2100OBJ.obj"
-              }
-            ],
-            "videos": [
-              {
-                "nombre": "BLOW funcionalidad",
-                "archivo": "BLOW-funcionalidad.mp4"
-              }
-            ]
           },
           "breadcrumb": [
             {
@@ -83,18 +52,9 @@
           "id": "ohp-323",
           "name": "OHP-323",
           "comercial_name": "Escolar KYOS OHP-323",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar KYOS modelo OHP-323. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "videos": [
-              {
-                "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-              }
-            ]
           },
           "breadcrumb": [
             {
@@ -142,18 +102,9 @@
           "id": "ohp-324",
           "name": "OHP-324",
           "comercial_name": "Escolar KYOS OHP-324",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar KYOS modelo OHP-324. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "videos": [
-              {
-                "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-              }
-            ]
           },
           "breadcrumb": [
             {
@@ -201,18 +152,9 @@
           "id": "ohp-325cr",
           "name": "OHP-325cr",
           "comercial_name": "Escolar KYOS OHP-325cr",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar KYOS modelo OHP-325cr. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "videos": [
-              {
-                "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-              }
-            ]
           },
           "breadcrumb": [
             {
@@ -260,18 +202,9 @@
           "id": "ohp-326cr",
           "name": "OHP-326cr",
           "comercial_name": "Escolar KYOS OHP-326cr",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar KYOS modelo OHP-326cr. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "videos": [
-              {
-                "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-              }
-            ]
           },
           "breadcrumb": [
             {
@@ -315,18 +248,9 @@
           "id": "ohp-341",
           "name": "OHP-341",
           "comercial_name": "Escolar KYOS OHP-341",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar KYOS modelo OHP-341. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "videos": [
-              {
-                "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-              }
-            ]
           },
           "breadcrumb": [
             {
@@ -374,18 +298,9 @@
           "id": "ohp-342",
           "name": "OHP-342",
           "comercial_name": "Escolar KYOS OHP-342",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar KYOS modelo OHP-342. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "videos": [
-              {
-                "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-              }
-            ]
           },
           "breadcrumb": [
             {
@@ -433,18 +348,9 @@
           "id": "ohp-343cr",
           "name": "OHP-343cr",
           "comercial_name": "Escolar KYOS OHP-343cr",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar KYOS modelo OHP-343cr. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "videos": [
-              {
-                "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-              }
-            ]
           },
           "breadcrumb": [
             {
@@ -492,18 +398,9 @@
           "id": "ohp-344cr",
           "name": "OHP-344cr",
           "comercial_name": "Escolar KYOS OHP-344cr",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar KYOS modelo OHP-344cr. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "videos": [
-              {
-                "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-              }
-            ]
           },
           "breadcrumb": [
             {
@@ -551,18 +448,9 @@
           "id": "ohp-359",
           "name": "OHP-359",
           "comercial_name": "Escolar KYOS OHP-359",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar KYOS modelo OHP-359. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "videos": [
-              {
-                "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-              }
-            ]
           },
           "breadcrumb": [
             {
@@ -610,18 +498,9 @@
           "id": "ohp-360",
           "name": "OHP-360",
           "comercial_name": "Escolar KYOS OHP-360",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar KYOS modelo OHP-360. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "videos": [
-              {
-                "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-              }
-            ]
           },
           "breadcrumb": [
             {
@@ -669,18 +548,9 @@
           "id": "ohp-361cr",
           "name": "OHP-361cr",
           "comercial_name": "Escolar KYOS OHP-361cr",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar KYOS modelo OHP-361cr. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "videos": [
-              {
-                "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-              }
-            ]
           },
           "breadcrumb": [
             {
@@ -728,18 +598,9 @@
           "id": "ohp-362cr",
           "name": "OHP-362cr",
           "comercial_name": "Escolar KYOS OHP-362cr",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar KYOS modelo OHP-362cr. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "videos": [
-              {
-                "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-              }
-            ]
           },
           "breadcrumb": [
             {
@@ -787,18 +648,9 @@
           "id": "ohp-377",
           "name": "OHP-377",
           "comercial_name": "Escolar KYOS OHP-377",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar KYOS modelo OHP-377. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "videos": [
-              {
-                "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-              }
-            ]
           },
           "breadcrumb": [
             {
@@ -846,18 +698,9 @@
           "id": "ohp-378",
           "name": "OHP-378",
           "comercial_name": "Escolar KYOS OHP-378",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar KYOS modelo OHP-378. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "videos": [
-              {
-                "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-              }
-            ]
           },
           "breadcrumb": [
             {
@@ -905,18 +748,9 @@
           "id": "ohp-379cr",
           "name": "OHP-379cr",
           "comercial_name": "Escolar KYOS OHP-379cr",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar KYOS modelo OHP-379cr. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "videos": [
-              {
-                "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-              }
-            ]
           },
           "breadcrumb": [
             {
@@ -964,18 +798,9 @@
           "id": "ohp-380cr",
           "name": "OHP-380cr",
           "comercial_name": "Escolar KYOS OHP-380cr",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar KYOS modelo OHP-380cr. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "videos": [
-              {
-                "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-              }
-            ]
           },
           "breadcrumb": [
             {
@@ -1030,7 +855,6 @@
           "id": "ohp-85",
           "name": "OHP-85",
           "comercial_name": "Escolar REVOLUTION OHP-85",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar REVOLUTION modelo OHP-85. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -1081,7 +905,6 @@
           "id": "ohp-85cr",
           "name": "OHP-85cr",
           "comercial_name": "Escolar REVOLUTION OHP-85cr",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar REVOLUTION modelo OHP-85cr. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -1132,7 +955,6 @@
           "id": "ohp-86",
           "name": "OHP-86",
           "comercial_name": "Escolar REVOLUTION OHP-86",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar REVOLUTION modelo OHP-86. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -1183,7 +1005,6 @@
           "id": "ohp-86cr",
           "name": "OHP-86cr",
           "comercial_name": "Escolar REVOLUTION OHP-86cr",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar REVOLUTION modelo OHP-86cr. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -1234,7 +1055,6 @@
           "id": "ohp-87",
           "name": "OHP-87",
           "comercial_name": "Escolar REVOLUTION OHP-87",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar REVOLUTION modelo OHP-87. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -1285,7 +1105,6 @@
           "id": "ohp-87cr",
           "name": "OHP-87cr",
           "comercial_name": "Escolar REVOLUTION OHP-87cr",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar REVOLUTION modelo OHP-87cr. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -1336,7 +1155,6 @@
           "id": "ohp-88",
           "name": "OHP-88",
           "comercial_name": "Escolar REVOLUTION OHP-88",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar REVOLUTION modelo OHP-88. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -1387,7 +1205,6 @@
           "id": "ohp-88cr",
           "name": "OHP-88cr",
           "comercial_name": "Escolar REVOLUTION OHP-88cr",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar REVOLUTION modelo OHP-88cr. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -1445,7 +1262,6 @@
           "id": "ohp-102",
           "name": "OHP-102",
           "comercial_name": "Escolar ALPHA OHP-102",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar ALPHA modelo OHP-102. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -1492,7 +1308,6 @@
           "id": "ohp-107",
           "name": "OHP-107",
           "comercial_name": "Escolar ALPHA OHP-107",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar ALPHA modelo OHP-107. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -1546,7 +1361,6 @@
           "id": "ohp-2200",
           "name": "OHP-2200",
           "comercial_name": "Escolar ELLITICO COLLECTION OHP-2200",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar ELLITICO COLLECTION modelo OHP-2200. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -1575,7 +1389,6 @@
           "id": "ohp-2302",
           "name": "OHP-2302",
           "comercial_name": "Escolar ELLITICO COLLECTION OHP-2302",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar ELLITICO COLLECTION modelo OHP-2302. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -1604,7 +1417,6 @@
           "id": "ohp-2320",
           "name": "OHP-2320",
           "comercial_name": "Escolar ELLITICO COLLECTION OHP-2320",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar ELLITICO COLLECTION modelo OHP-2320. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -1640,7 +1452,6 @@
           "id": "ohp-2600",
           "name": "OHP-2600",
           "comercial_name": "Escolar ELLITICO OHP-2600",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar ELLITICO modelo OHP-2600. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -1669,7 +1480,6 @@
           "id": "ohp-2300",
           "name": "OHP-2300",
           "comercial_name": "Escolar ELLITICO OHP-2300",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar ELLITICO modelo OHP-2300. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -1698,7 +1508,6 @@
           "id": "ohp-2301",
           "name": "OHP-2301",
           "comercial_name": "Escolar ELLITICO OHP-2301",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar ELLITICO modelo OHP-2301. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -1734,7 +1543,6 @@
           "id": "ohp-2700",
           "name": "OHP-2700",
           "comercial_name": "Escolar INNOVA OHP-2700",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar INNOVA modelo OHP-2700. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -1773,7 +1581,6 @@
           "id": "ohp-2307",
           "name": "OHP-2307",
           "comercial_name": "Escolar INNOVA OHP-2307",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar INNOVA modelo OHP-2307. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -1812,7 +1619,6 @@
           "id": "ohp-2308",
           "name": "OHP-2308",
           "comercial_name": "Escolar INNOVA OHP-2308",
-          "material": "Pendiente especificaciones",
           "description": "Silla escolar INNOVA modelo OHP-2308. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"

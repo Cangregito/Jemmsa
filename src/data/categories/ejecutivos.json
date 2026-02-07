@@ -14,7 +14,6 @@
         {
           "id": "ohe-805negro",
           "name": "QUO modelo OHE-805negro",
-          "material": "Malla color negro y tela negra",
           "description": "Silla ejecutiva de respaldo en malla con cabecera y soporte lumbar ajustables, asiento tapizado en tela negra y resistencia sugerida hasta 160 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -50,7 +49,6 @@
         {
           "id": "ohe-805blanco",
           "name": "QUO modelo OHE-805blanco",
-          "material": "Malla color gris y tapiz",
           "description": "Silla ejecutiva con respaldo en malla, cabecera y soporte lumbar ajustables, asiento tapizado y peso sugerido de uso hasta 160 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -86,7 +84,6 @@
         {
           "id": "ohe-803",
           "name": "QUO modelo OHE-803",
-          "material": "Malla negra y tela negra",
           "description": "Silla ejecutiva con respaldo en malla y soporte lumbar ajustable, asiento tapizado en tela negra y peso sugerido de uso hasta 160 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -122,7 +119,6 @@
         {
           "id": "ohe-803blanco",
           "name": "QUO modelo OHE-803blanco",
-          "material": "Malla color gris y tapiz",
           "description": "Silla ejecutiva con respaldo en malla color gris, asiento tapizado al color que se elija y peso sugerido de uso hasta 160 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -165,7 +161,6 @@
         {
           "id": "ohe-35",
           "name": "DILLON modelo OHE-35",
-          "material": "Malla color negro y tela negra",
           "description": "Silla ejecutiva con respaldo en malla ergonómica, asiento tapizado en tela negra y peso sugerido de uso hasta 130 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -204,7 +199,6 @@
         {
           "id": "ohe-605",
           "name": "DRACO modelo OHE-605 negro",
-          "material": "Malla de alta resistencia color negro",
           "description": "Silla ejecutiva en malla, con cabecera y soporte lumbar ajustables, y peso sugerido de uso hasta 130 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -247,7 +241,6 @@
         {
           "id": "ohe-113gris",
           "name": "BIO modelo OHE-113gris",
-          "material": "Malla color gris",
           "description": "Silla ejecutiva con respaldo y asiento en malla color gris, de diseño ergonómico, con peso sugerido de uso hasta 100 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -286,7 +279,6 @@
         {
           "id": "ohe-114negro",
           "name": "BIO modelo OHE-114negro",
-          "material": "Malla color negro",
           "description": "Silla ejecutiva con respaldo y asiento en malla color negro, de diseño ergonómico, con peso sugerido de uso hasta 100 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -332,7 +324,6 @@
         {
           "id": "ohe-195negro",
           "name": "CROMA modelo OHE-195negro",
-          "material": "Malla color negro y soft revolving leather",
           "description": "Silla ejecutiva en malla con cabecera, respaldo ergonómico y asiento tapizado en soft revolving leather, con peso sugerido de uso hasta 150 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en metal, terminada en cromo, con rodajas tipo dual",
@@ -368,7 +359,6 @@
         {
           "id": "ohe-193negro",
           "name": "CROMA modelo OHE-193negro",
-          "material": "Malla color negro y soft revolving leather",
           "description": "Silla ejecutiva en malla con respaldo ergonómico y asiento en soft revolving leather, con peso sugerido de uso hasta 150 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en metal, terminada en cromo, con rodajas tipo dual",
@@ -404,7 +394,6 @@
         {
           "id": "ohv-198negro",
           "name": "CROMA modelo OHV-198negro",
-          "material": "Malla color negro y soft revolving leather",
           "description": "Silla ejecutiva en malla con cabecera, base tipo trineo y asiento tapizado en soft revolving leather, con peso sugerido de uso hasta 120 kg.",
           "specifications": {
             "base": "Trineo de acero tubular de 1 1/8\" de diámetro, calibre 14, con terminado en cromo",
@@ -445,7 +434,6 @@
         {
           "id": "ohe-185gris",
           "name": "EQUA modelo OHE-185gris",
-          "material": "Malla",
           "description": "Silla ejecutiva en malla gris con cabecera y soporte lumbar, base de aluminio y peso sugerido 120 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en aluminio fundido y pulido, con rodajas tipo dual",
@@ -481,7 +469,6 @@
         {
           "id": "ohe-183gris",
           "name": "EQUA modelo OHE-183gris",
-          "material": "Malla",
           "description": "Silla ejecutiva de respaldo bajo en malla gris con base de aluminio; peso sugerido 120 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en aluminio fundido y pulido, con rodajas tipo dual",
@@ -517,7 +504,6 @@
         {
           "id": "ohv-188gris",
           "name": "EQUA modelo OHV-188gris",
-          "material": "Malla",
           "description": "Silla ejecutiva fija tipo trineo en malla gris con base cromada; peso sugerido 120 kg.",
           "specifications": {
             "base": "Trineo de acero tubular redondo de 1\" de diámetro, calibre 14, con terminado en cromo",
@@ -560,7 +546,6 @@
         {
           "id": "ohe-112gris",
           "name": "CREW modelo OHE-112gris",
-          "material": "Malla gris y tela gris",
           "description": "Silla ejecutiva en malla gris con brazos 3D y base de aluminio; peso sugerido 160 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en fundición de aluminio, terminado pulido, con rodajas tipo dual",
@@ -596,7 +581,6 @@
         {
           "id": "ohe-112griscabecera",
           "name": "CREW modelo OHE-112griscabecera",
-          "material": "Malla gris y tela gris",
           "description": "Silla ejecutiva en malla gris con cabecera, brazos 3D y base de aluminio; peso sugerido 160 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en fundición de aluminio, terminado pulido, con rodajas tipo dual",
@@ -632,7 +616,6 @@
         {
           "id": "ohe-112negro",
           "name": "CREW modelo OHE-112negro",
-          "material": "Malla negra y tela negra",
           "description": "Silla ejecutiva en malla negra con brazos 3D y base en poliamida; peso sugerido 160 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -668,7 +651,6 @@
         {
           "id": "ohe-112negrocabecera",
           "name": "CREW modelo OHE-112negrocabecera",
-          "material": "Malla negra y tela negra",
           "description": "Silla ejecutiva en malla negra con cabecera, brazos 3D y base en poliamida; peso sugerido 160 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -711,7 +693,6 @@
         {
           "id": "ohe-705gris",
           "name": "AIKO modelo OHE-705gris",
-          "material": "Malla gris y tela gris",
           "description": "Silla ejecutiva en malla gris con cabecera y soporte lumbar, brazos 2D y base cromada; peso sugerido 170 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en acero cromado, con rodajas tipo dual",
@@ -747,7 +728,6 @@
         {
           "id": "ohe-703gris",
           "name": "AIKO modelo OHE-703gris",
-          "material": "Malla gris y tela gris",
           "description": "Silla ejecutiva en malla gris con soporte lumbar, brazos 2D y base cromada; peso sugerido 170 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en acero cromado, con rodajas tipo dual",
@@ -783,7 +763,6 @@
         {
           "id": "ohe-705",
           "name": "AIKO modelo OHE-705",
-          "material": "Malla negra y tela negra",
           "description": "Silla ejecutiva en malla negra con cabecera, brazos 2D y base cromada; peso sugerido 170 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en acero cromado, con rodajas tipo dual",
@@ -819,7 +798,6 @@
         {
           "id": "ohe-703",
           "name": "AIKO modelo OHE-703",
-          "material": "Malla negra y tela negra",
           "description": "Silla ejecutiva en malla negra con soporte lumbar, brazos 2D y base cromada; peso sugerido 170 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en acero cromado, con rodajas tipo dual",
@@ -862,7 +840,6 @@
         {
           "id": "ohe-905negro",
           "name": "ATHELIER modelo OHE-905negro",
-          "material": "Malla negra y tela negra",
           "description": "Silla ejecutiva en malla negra con cabecera y soporte lumbar, brazos ajustables y base cromada; peso sugerido 130 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en acero cromado con rodajas intercambiables negras de nylon 100%, nervadas con concha protectora y giro de 360°",
@@ -898,7 +875,6 @@
         {
           "id": "ohe-903negro",
           "name": "ATHELIER modelo OHE-903negro",
-          "material": "Malla negra y tela negra",
           "description": "Silla ejecutiva en malla negra con soporte lumbar, brazos ajustables y base cromada; peso sugerido 130 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en acero cromado con rodajas intercambiables negras de nylon 100%, nervadas con concha protectora y giro de 360°",
@@ -937,7 +913,6 @@
         {
           "id": "ohe-95blanco",
           "name": "SOHO modelo OHE-95blanco",
-          "material": "Malla gris y tapiz personalizado",
           "description": "Silla ejecutiva en malla gris con cabecera, slider, brazos 4D y base de aluminio pulido; peso sugerido 180 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en fundición de aluminio, terminada en aluminio pulido, con rodajas tipo dual",
@@ -973,7 +948,6 @@
         {
           "id": "ohe-95negro",
           "name": "SOHO modelo OHE-95negro",
-          "material": "Malla negra y tela negra",
           "description": "Silla ejecutiva en malla negra con cabecera, slider, brazos 4D y base de aluminio pulido; peso sugerido 180 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en fundición de aluminio, terminada en aluminio pulido, con rodajas tipo dual",
@@ -1016,7 +990,6 @@
         {
           "id": "ohe-133plus",
           "name": "NÉBULA modelo OHE-133plus",
-          "material": "Malla negra y tela negra",
           "description": "Silla ejecutiva en malla negra con soporte lumbar ajustable y tapiz en tela negra; peso sugerido 150 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -1059,7 +1032,6 @@
         {
           "id": "ohe-140negro",
           "name": "WICKER modelo OHE-140negro",
-          "material": "Malla negra y tela negra",
           "description": "Silla ejecutiva en malla negra con cabecera fija, soporte lumbar ajustable y base de poliamida; peso sugerido 120 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual de goma para pisos duros o delicados",
@@ -1096,7 +1068,6 @@
         {
           "id": "ohe-139negro",
           "name": "WICKER modelo OHE-139negro",
-          "material": "Malla negra y tela negra",
           "description": "Silla ejecutiva en malla negra con soporte lumbar ajustable y base de poliamida; peso sugerido 120 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual de goma para pisos duros o delicados",
@@ -1139,7 +1110,6 @@
         {
           "id": "ohe-2005gris",
           "name": "TRIPOLI modelo OHE-2005gris",
-          "material": "Poliéster jaspeado gris",
           "description": "Silla ejecutiva tapizada en poliéster jaspeado gris, con base metálica negra y resistencia sugerida hasta 120 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en acero troquelado color negro mate, con rodajas tipo dual",
@@ -1175,7 +1145,6 @@
         {
           "id": "ohv-2005gris",
           "name": "TRIPOLI modelo OHV-2005gris",
-          "material": "Poliéster jaspeado gris",
           "description": "Silla ejecutiva fija (visita) tapizada en poliéster jaspeado gris, con base cuadrilátera de 4 puntas y resistencia sugerida hasta 120 kg.",
           "specifications": {
             "base": "Estrella cuadrilátero de 4 puntas, diámetro 510 mm (20\") nervada",
@@ -1211,7 +1180,6 @@
         {
           "id": "ohe-2005negro",
           "name": "TRIPOLI modelo OHE-2005negro",
-          "material": "Soft revolving leather y poliéster jaspeado negro",
           "description": "Silla ejecutiva en acabado bicolor (soft revolving leather y poliéster jaspeado negro), con base metálica negra y resistencia sugerida hasta 120 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en acero troquelado color negro mate, con rodajas tipo dual",
@@ -1247,7 +1215,6 @@
         {
           "id": "ohv-2005negro",
           "name": "TRIPOLI modelo OHV-2005negro",
-          "material": "Soft revolving leather y poliéster jaspeado negro",
           "description": "Silla ejecutiva fija (visita) con acabado bicolor en soft revolving leather y poliéster jaspeado negro, resistencia sugerida hasta 120 kg.",
           "specifications": {
             "base": "Estrella cuadrilátero de 4 puntas, diámetro 510 mm (20\") nervada",

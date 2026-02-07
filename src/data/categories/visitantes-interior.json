@@ -14,7 +14,6 @@
         {
           "id": "ohv-13",
           "name": "OHV-13",
-          "material": "Acero tubular y polipropileno",
           "description": "Silla visitante con estructura de acero tubular cromado y asiento/respaldo en polipropileno de alta resistencia.",
           "specifications": {
             "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -41,7 +40,6 @@
         {
           "id": "ohv-13alta",
           "name": "OHV-13alta",
-          "material": "Acero tubular y polipropileno",
           "description": "Silla visitante alta con estructura de acero tubular cromado y asiento/respaldo en polipropileno de alta resistencia.",
           "specifications": {
             "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -75,7 +73,6 @@
         {
           "id": "ohv-37",
           "name": "OHV-37",
-          "material": "Acero tubular y polipropileno",
           "description": "Silla visitante con estructura de acero tubular cromado y asiento/respaldo en polipropileno de alta resistencia.",
           "specifications": {
             "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -108,7 +105,6 @@
         {
           "id": "ohv-37alta",
           "name": "OHV-37alta",
-          "material": "Acero tubular y polipropileno",
           "description": "Silla visitante alta con estructura de acero tubular cromado y asiento/respaldo en polipropileno de alta resistencia.",
           "specifications": {
             "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -148,7 +144,6 @@
         {
           "id": "ohv-47",
           "name": "OHV-47",
-          "material": "Acero tubular y polipropileno",
           "description": "Silla visitante con estructura de acero tubular cromado y asiento/respaldo en polipropileno de alta resistencia.",
           "specifications": {
             "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -181,7 +176,6 @@
         {
           "id": "ohv-47alta",
           "name": "OHV-47alta",
-          "material": "Acero tubular y polipropileno",
           "description": "Silla visitante alta con estructura de acero tubular cromado y asiento/respaldo en polipropileno de alta resistencia.",
           "specifications": {
             "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -221,7 +215,6 @@
         {
           "id": "ohv-96negro",
           "name": "OHV-96negro",
-          "material": "Acero tubular, polipropileno y poliuretano",
           "description": "Silla visitante interior con estructura tubular de acero en pintura epóxica negra, asiento y respaldo tapizados.",
           "specifications": {
             "coleccion": "Visitantes Interior – línea DONATELA (modelo OHV-96)",
@@ -247,7 +240,6 @@
         {
           "id": "ohv-20",
           "name": "OHV-20",
-          "material": "Acero tubular y polipropileno",
           "description": "Silla visitante interior con estructura de acero tubular en pintura epóxica y respaldo/asiento en polipropileno de alta resistencia.",
           "specifications": {
             "coleccion": "VISITANTES INTERIOR – línea CORE (modelo OHV-20). COLECCIÓN DE TERMINADOS",
@@ -270,7 +262,6 @@
         {
           "id": "ohv-85",
           "name": "OHV-85",
-          "material": "Acero tubular, polipropileno y poliuretano",
           "description": "Silla visitante con estructura de acero en pintura epóxica, respaldo en polipropileno y asiento tapizado.",
           "specifications": {
             "coleccion": "COLECCIÓN OFFICE CREP",
@@ -305,7 +296,6 @@
         {
           "id": "ohv-85cr",
           "name": "OHV-85cr",
-          "material": "Acero tubular cromado, polipropileno y poliuretano",
           "description": "Silla visitante con estructura de acero cromado, respaldo en polipropileno y asiento tapizado.",
           "specifications": {
             "coleccion": "COLECCIÓN OFFICE CREP",
@@ -340,7 +330,6 @@
         {
           "id": "ohv-86",
           "name": "OHV-86",
-          "material": "Acero tubular y polipropileno",
           "description": "Silla visitante con estructura de acero en pintura epóxica y respaldo/asiento en polipropileno.",
           "specifications": {
             "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -374,7 +363,6 @@
         {
           "id": "ohv-86cr",
           "name": "OHV-86cr",
-          "material": "Acero tubular cromado y polipropileno",
           "description": "Silla visitante con estructura de acero cromado y respaldo/asiento en polipropileno.",
           "specifications": {
             "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -409,7 +397,6 @@
         {
           "id": "ohv-87",
           "name": "OHV-87",
-          "material": "Acero tubular, polipropileno y poliuretano",
           "description": "Silla visitante con estructura de acero en pintura epóxica, respaldo en polipropileno y asiento tapizado.",
           "specifications": {
             "coleccion": "COLECCIÓN OFFICE CREP",
@@ -444,7 +431,6 @@
         {
           "id": "ohv-87cr",
           "name": "OHV-87cr",
-          "material": "Acero tubular cromado, polipropileno y poliuretano",
           "description": "Silla visitante con estructura de acero cromado, respaldo en polipropileno y asiento tapizado.",
           "specifications": {
             "coleccion": "COLECCIÓN OFFICE CREP",
@@ -479,7 +465,6 @@
         {
           "id": "ohv-88",
           "name": "OHV-88",
-          "material": "Pendiente especificaciones",
           "description": "Silla visitante interior REVOLUTION OHV-88. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -507,7 +492,6 @@
         {
           "id": "ohv-88cr",
           "name": "OHV-88cr",
-          "material": "Pendiente especificaciones",
           "description": "Silla visitante interior REVOLUTION OHV-88cr. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -542,7 +526,6 @@
         {
           "id": "ohv-7216",
           "name": "OHV-7216",
-          "material": "Acero y polipropileno",
           "description": "Silla visitante alta con base redonda, pistón neumático extralargo y asiento/respaldo en polipropileno de alta densidad.",
           "specifications": {
             "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -582,7 +565,6 @@
         {
           "id": "ohv-7216p",
           "name": "OHV-7216P",
-          "material": "Acero, polipropileno y tapizado",
           "description": "Silla visitante alta con base redonda, pistón neumático extralargo, asiento/respaldo en polipropileno tapizado.",
           "specifications": {
             "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -630,7 +612,6 @@
         {
           "id": "ohv-138",
           "name": "FLEX modelo OHV-138",
-          "material": "Pendiente especificaciones",
           "description": "Silla visitante interior FLEX OHV-138. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -647,7 +628,6 @@
         {
           "id": "ohv-115negro",
           "name": "OHV-115negro",
-          "material": "Acero tubular, polipropileno y tapizado",
           "description": "Silla visitante con estructura de acero tubular, respaldo en malla y asiento tapizado en color negro.",
           "specifications": {
             "estructura": "De perfil redondo tubular de acero con soportes internos en forma de parrilla",
@@ -682,7 +662,6 @@
         {
           "id": "ohv-115gris",
           "name": "OHV-115gris",
-          "material": "Acero tubular cromado, polipropileno y tapizado",
           "description": "Silla visitante con estructura de acero tubular cromado, respaldo en malla y asiento tapizado en color gris.",
           "specifications": {
             "estructura": "De perfil redondo tubular de acero con soportes internos en forma de parrilla",
@@ -706,7 +685,6 @@
         {
           "id": "ohv-11",
           "name": "OHV-11",
-          "material": "Acero tubular y polipropileno",
           "description": "Silla visitante con estructura de acero tubular y asiento/respaldo en copolímero de polipropileno de alta densidad.",
           "specifications": {
             "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -733,7 +711,6 @@
         {
           "id": "ohv-11cb",
           "name": "OHV-11CB",
-          "material": "Acero tubular y polipropileno",
           "description": "Silla visitante con brazos, estructura de acero tubular y asiento/respaldo en copolímero de polipropileno de alta densidad.",
           "specifications": {
             "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -761,7 +738,6 @@
         {
           "id": "ohv-12",
           "name": "OHV-12",
-          "material": "Acero tubular, polipropileno y tapizado",
           "description": "Silla visitante giratoria con estructura de acero tubular, asiento/respaldo tapizados con acojinado de alta densidad.",
           "specifications": {
             "estructura": "Tubular de acero de 5/8\" de diámetro, calibre 14, con postes de cold rolled de 1/2\" para sujeción del respaldo",
@@ -789,7 +765,6 @@
         {
           "id": "ohv-12cb",
           "name": "OHV-12CB",
-          "material": "Acero tubular, polipropileno y tapizado",
           "description": "Silla visitante giratoria con brazos, estructura de acero tubular, asiento/respaldo tapizados con acojinado de alta densidad.",
           "specifications": {
             "estructura": "Tubular de acero de 5/8\" de diámetro, calibre 14, con postes de cold rolled de 1/2\" para sujeción del respaldo",
@@ -1338,7 +1313,6 @@
         {
           "id": "ohv-102",
           "name": "OHV-102",
-          "material": "Pendiente especificaciones",
           "description": "Silla visitante ALPHA modelo OHV-102. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -1374,7 +1348,6 @@
         {
           "id": "ohv-102alta",
           "name": "OHV-102alta",
-          "material": "Pendiente especificaciones",
           "description": "Silla visitante ALPHA modelo OHV-102alta. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -1414,7 +1387,6 @@
         {
           "id": "ohv-103",
           "name": "OHV-103",
-          "material": "Pendiente especificaciones",
           "description": "Silla visitante ALPHA modelo OHV-103. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -1454,7 +1426,6 @@
         {
           "id": "ohv-104",
           "name": "OHV-104",
-          "material": "Pendiente especificaciones",
           "description": "Silla visitante ALPHA modelo OHV-104. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -1482,7 +1453,6 @@
         {
           "id": "ohv-105",
           "name": "OHV-105",
-          "material": "Pendiente especificaciones",
           "description": "Silla visitante ALPHA modelo OHV-105. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -1510,7 +1480,6 @@
         {
           "id": "ohv-107",
           "name": "OHV-107",
-          "material": "Pendiente especificaciones",
           "description": "Silla visitante ALPHA modelo OHV-107. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -1538,7 +1507,6 @@
         {
           "id": "ohv-108",
           "name": "OHV-108",
-          "material": "Pendiente especificaciones",
           "description": "Silla visitante ALPHA modelo OHV-108. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -1566,7 +1534,6 @@
         {
           "id": "conector-alpha",
           "name": "Conector Alpha",
-          "material": "Pendiente especificaciones",
           "description": "Conector para sillas visitantes ALPHA. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -1601,7 +1568,6 @@
         {
           "id": "ohv-66",
           "name": "OHV-66",
-          "material": "Pendiente especificaciones",
           "description": "Silla visitante MILK modelo OHV-66. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -1630,7 +1596,6 @@
         {
           "id": "ohv-66cr",
           "name": "OHV-66cr",
-          "material": "Pendiente especificaciones",
           "description": "Silla visitante MILK modelo OHV-66cr. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -1658,7 +1623,6 @@
         {
           "id": "ohv-2700",
           "name": "OHV-2700",
-          "material": "Pendiente especificaciones",
           "description": "Silla visitante INNOVA-COLLECTION modelo OHV-2700. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -1669,7 +1633,6 @@
         {
           "id": "ohv-2700cr",
           "name": "OHV-2700cr",
-          "material": "Pendiente especificaciones",
           "description": "Silla visitante INNOVA-COLLECTION modelo OHV-2700cr. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -1687,7 +1650,6 @@
         {
           "id": "ohv-3000",
           "name": "OHV-3000",
-          "material": "Pendiente especificaciones",
           "description": "Silla visitante INNOVA modelo OHV-3000. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -1698,7 +1660,6 @@
         {
           "id": "ohv-3000cr",
           "name": "OHV-3000cr",
-          "material": "Pendiente especificaciones",
           "description": "Silla visitante INNOVA modelo OHV-3000cr. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -1716,7 +1677,6 @@
         {
           "id": "ohv-2200",
           "name": "OHV-2200",
-          "material": "Pendiente especificaciones",
           "description": "Silla visitante ELLITICO-COLLECTION modelo OHV-2200. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -1727,7 +1687,6 @@
         {
           "id": "ohv-2200cr",
           "name": "OHV-2200cr",
-          "material": "Pendiente especificaciones",
           "description": "Silla visitante ELLITICO-COLLECTION modelo OHV-2200cr. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -1745,7 +1704,6 @@
         {
           "id": "ohv-133",
           "name": "OHV-133",
-          "material": "Pendiente especificaciones",
           "description": "Silla visitante AIR modelo OHV-133. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -1770,7 +1728,6 @@
         {
           "id": "ohv-134",
           "name": "OHV-134",
-          "material": "Pendiente especificaciones",
           "description": "Silla visitante AIR modelo OHV-134. Información detallada pendiente.",
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
@@ -1806,7 +1763,6 @@
         {
           "id": "ohv-136",
           "name": "OHV-136",
-          "material": "Polipropileno de alta resistencia",
           "description": "patas, asiento y respaldo: de una sola pieza en polipropileno de alta resistencia y duración.",
           "specifications": {
             "piezas": "Patas, asiento y respaldo de una sola pieza",

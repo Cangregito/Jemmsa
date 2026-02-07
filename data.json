@@ -77,7 +77,6 @@
           {
             "id": "ohe-405",
             "name": "ALUFSEN modelo OHE-405",
-            "material": "Piel sintética suave color negro",
             "description": "Silla directiva de respaldo alto con cabecera, tapizada en piel sintética suave color negro y diseñada para uso exigente hasta 160 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en fundición de aluminio, terminado pulido, con rodajas tipo dual",
@@ -111,7 +110,6 @@
           {
             "id": "ohv-408",
             "name": "ALUFSEN modelo OHV-408",
-            "material": "Piel sintética suave color negro",
             "description": "Silla directiva de respaldo bajo tipo trineo, tapizada en piel sintética suave color negro y diseñada para soportar hasta 120 kg.",
             "specifications": {
               "base": "Tipo trineo de acero tubular rectangular de 1 1/2\" x 3/4\", calibre 14, con terminado en cromo",
@@ -150,7 +148,6 @@
           {
             "id": "ohe-305",
             "name": "CIANI modelo OHE-305 negro",
-            "material": "Piel sintética suave (soft revolving leather) color negro",
             "description": "Silla directiva de respaldo alto, tapizada en piel sintética suave (soft revolving leather) color negro, con resistencia sugerida hasta 160 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en aluminio fundido y pulido, con rodajas tipo dual",
@@ -185,7 +182,6 @@
           {
             "id": "ohe-303",
             "name": "CIANI modelo OHE-303 negro",
-            "material": "Piel sintética suave (soft revolving leather) color negro",
             "description": "Silla directiva de respaldo alto tapizada en piel sintética suave (soft revolving leather) color negro, con resistencia sugerida hasta 160 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en aluminio fundido y pulido, con rodajas tipo dual",
@@ -212,7 +208,6 @@
           {
             "id": "ohv-308",
             "name": "CIANI modelo OHV-308 negro",
-            "material": "Piel sintética suave (soft revolving leather) color negro",
             "description": "Silla directiva de respaldo alto con base tipo trineo, tapizada en piel sintética suave (soft revolving leather) color negro, con resistencia sugerida hasta 120 kg.",
             "specifications": {
               "base": "Tipo trineo de acero tubular rectangular de 1 1/2\" x 3/4\", calibre 14, con terminado en cromo",
@@ -252,7 +247,6 @@
           {
             "id": "ohe-205",
             "name": "GOETZ modelo OHE-205 negro",
-            "material": "Soft revolving leather color negro",
             "description": "Silla directiva de respaldo alto, tapizada en soft revolving leather color negro, con resistencia sugerida de hasta 120 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en aluminio fundido y pulido, con rodajas tipo dual",
@@ -287,7 +281,6 @@
           {
             "id": "ohe-203",
             "name": "GOETZ modelo OHE-203 negro",
-            "material": "Soft revolving leather color negro",
             "description": "Silla directiva de respaldo bajo, tapizada en soft revolving leather color negro, con peso sugerido de uso hasta 120 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en aluminio fundido y pulido, con rodajas tipo dual",
@@ -322,7 +315,6 @@
           {
             "id": "ohv-208",
             "name": "GOETZ modelo OHV-208 negro",
-            "material": "Soft revolving leather color negro",
             "description": "Silla directiva de respaldo bajo con base tipo trineo, tapizada en soft revolving leather color negro, con peso sugerido de uso hasta 120 kg.",
             "specifications": {
               "base": "Trineo de acero tubular redondo de 1\" de diámetro, calibre 14, con terminado en cromo",
@@ -362,7 +354,6 @@
           {
             "id": "ohe-165",
             "name": "FENIX modelo OHE-165 negro",
-            "material": "Soft revolving leather color negro",
             "description": "Silla directiva de respaldo alto, tapizada en soft revolving leather color negro, con resistencia sugerida de 150 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en acero fundido y cromado, con rodajas tipo dual de 60 mm",
@@ -398,7 +389,6 @@
           {
             "id": "ohe-163",
             "name": "FENIX modelo OHE-163 negro",
-            "material": "Soft revolving leather color negro",
             "description": "Silla directiva de respaldo medio, tapizada en soft revolving leather color negro, con peso sugerido de uso hasta 150 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en acero fundido y cromado, con rodajas tipo dual de 60 mm",
@@ -441,7 +431,6 @@
           {
             "id": "vanto-ohv-78",
             "name": "VANTO modelo OHV-78",
-            "material": "Soft revolving leather color negro mate",
             "description": "Silla directiva de respaldo medio con base tipo trineo, tapizada en soft revolving leather color negro mate, con peso sugerido de uso hasta 140 kg.",
             "specifications": {
               "base": "Trineo en acero tubular redondo, de una sola pieza soldado a la estructura, con acabado cromado en la estructura y aluminio pulido en los brazos",
@@ -483,7 +472,6 @@
           {
             "id": "travis-ohe-295",
             "name": "TRAVIS modelo OHE-295 negro",
-            "material": "Malla color negro",
             "description": "Silla directiva de respaldo alto en malla color negro, con peso sugerido de uso hasta 120 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida con cubierta de lámina de acero cromada y rodajas tipo dual",
@@ -527,7 +515,6 @@
           {
             "id": "ohe-805negro",
             "name": "QUO modelo OHE-805negro",
-            "material": "Malla color negro y tela negra",
             "description": "Silla ejecutiva de respaldo en malla con cabecera y soporte lumbar ajustables, asiento tapizado en tela negra y resistencia sugerida hasta 160 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -563,7 +550,6 @@
           {
             "id": "ohe-805blanco",
             "name": "QUO modelo OHE-805blanco",
-            "material": "Malla color gris y tapiz",
             "description": "Silla ejecutiva con respaldo en malla, cabecera y soporte lumbar ajustables, asiento tapizado y peso sugerido de uso hasta 160 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -599,7 +585,6 @@
           {
             "id": "ohe-803",
             "name": "QUO modelo OHE-803",
-            "material": "Malla negra y tela negra",
             "description": "Silla ejecutiva con respaldo en malla y soporte lumbar ajustable, asiento tapizado en tela negra y peso sugerido de uso hasta 160 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -635,7 +620,6 @@
           {
             "id": "ohe-803blanco",
             "name": "QUO modelo OHE-803blanco",
-            "material": "Malla color gris y tapiz",
             "description": "Silla ejecutiva con respaldo en malla color gris, asiento tapizado al color que se elija y peso sugerido de uso hasta 160 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -678,7 +662,6 @@
           {
             "id": "ohe-35",
             "name": "DILLON modelo OHE-35",
-            "material": "Malla color negro y tela negra",
             "description": "Silla ejecutiva con respaldo en malla ergonómica, asiento tapizado en tela negra y peso sugerido de uso hasta 130 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -717,7 +700,6 @@
           {
             "id": "ohe-605",
             "name": "DRACO modelo OHE-605 negro",
-            "material": "Malla de alta resistencia color negro",
             "description": "Silla ejecutiva en malla, con cabecera y soporte lumbar ajustables, y peso sugerido de uso hasta 130 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -760,7 +742,6 @@
           {
             "id": "ohe-113gris",
             "name": "BIO modelo OHE-113gris",
-            "material": "Malla color gris",
             "description": "Silla ejecutiva con respaldo y asiento en malla color gris, de diseño ergonómico, con peso sugerido de uso hasta 100 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -799,7 +780,6 @@
           {
             "id": "ohe-114negro",
             "name": "BIO modelo OHE-114negro",
-            "material": "Malla color negro",
             "description": "Silla ejecutiva con respaldo y asiento en malla color negro, de diseño ergonómico, con peso sugerido de uso hasta 100 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -845,7 +825,6 @@
           {
             "id": "ohe-195negro",
             "name": "CROMA modelo OHE-195negro",
-            "material": "Malla color negro y soft revolving leather",
             "description": "Silla ejecutiva en malla con cabecera, respaldo ergonómico y asiento tapizado en soft revolving leather, con peso sugerido de uso hasta 150 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en metal, terminada en cromo, con rodajas tipo dual",
@@ -881,7 +860,6 @@
           {
             "id": "ohe-193negro",
             "name": "CROMA modelo OHE-193negro",
-            "material": "Malla color negro y soft revolving leather",
             "description": "Silla ejecutiva en malla con respaldo ergonómico y asiento en soft revolving leather, con peso sugerido de uso hasta 150 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en metal, terminada en cromo, con rodajas tipo dual",
@@ -917,7 +895,6 @@
           {
             "id": "ohv-198negro",
             "name": "CROMA modelo OHV-198negro",
-            "material": "Malla color negro y soft revolving leather",
             "description": "Silla ejecutiva en malla con cabecera, base tipo trineo y asiento tapizado en soft revolving leather, con peso sugerido de uso hasta 120 kg.",
             "specifications": {
               "base": "Trineo de acero tubular de 1 1/8\" de diámetro, calibre 14, con terminado en cromo",
@@ -958,7 +935,6 @@
           {
             "id": "ohe-185gris",
             "name": "EQUA modelo OHE-185gris",
-            "material": "Malla",
             "description": "Silla ejecutiva en malla gris con cabecera y soporte lumbar, base de aluminio y peso sugerido 120 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en aluminio fundido y pulido, con rodajas tipo dual",
@@ -994,7 +970,6 @@
           {
             "id": "ohe-183gris",
             "name": "EQUA modelo OHE-183gris",
-            "material": "Malla",
             "description": "Silla ejecutiva de respaldo bajo en malla gris con base de aluminio; peso sugerido 120 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en aluminio fundido y pulido, con rodajas tipo dual",
@@ -1030,7 +1005,6 @@
           {
             "id": "ohv-188gris",
             "name": "EQUA modelo OHV-188gris",
-            "material": "Malla",
             "description": "Silla ejecutiva fija tipo trineo en malla gris con base cromada; peso sugerido 120 kg.",
             "specifications": {
               "base": "Trineo de acero tubular redondo de 1\" de diámetro, calibre 14, con terminado en cromo",
@@ -1073,7 +1047,6 @@
           {
             "id": "ohe-112gris",
             "name": "CREW modelo OHE-112gris",
-            "material": "Malla gris y tela gris",
             "description": "Silla ejecutiva en malla gris con brazos 3D y base de aluminio; peso sugerido 160 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en fundición de aluminio, terminado pulido, con rodajas tipo dual",
@@ -1109,7 +1082,6 @@
           {
             "id": "ohe-112griscabecera",
             "name": "CREW modelo OHE-112griscabecera",
-            "material": "Malla gris y tela gris",
             "description": "Silla ejecutiva en malla gris con cabecera, brazos 3D y base de aluminio; peso sugerido 160 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en fundición de aluminio, terminado pulido, con rodajas tipo dual",
@@ -1145,7 +1117,6 @@
           {
             "id": "ohe-112negro",
             "name": "CREW modelo OHE-112negro",
-            "material": "Malla negra y tela negra",
             "description": "Silla ejecutiva en malla negra con brazos 3D y base en poliamida; peso sugerido 160 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -1181,7 +1152,6 @@
           {
             "id": "ohe-112negrocabecera",
             "name": "CREW modelo OHE-112negrocabecera",
-            "material": "Malla negra y tela negra",
             "description": "Silla ejecutiva en malla negra con cabecera, brazos 3D y base en poliamida; peso sugerido 160 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -1224,7 +1194,6 @@
           {
             "id": "ohe-705gris",
             "name": "AIKO modelo OHE-705gris",
-            "material": "Malla gris y tela gris",
             "description": "Silla ejecutiva en malla gris con cabecera y soporte lumbar, brazos 2D y base cromada; peso sugerido 170 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en acero cromado, con rodajas tipo dual",
@@ -1260,7 +1229,6 @@
           {
             "id": "ohe-703gris",
             "name": "AIKO modelo OHE-703gris",
-            "material": "Malla gris y tela gris",
             "description": "Silla ejecutiva en malla gris con soporte lumbar, brazos 2D y base cromada; peso sugerido 170 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en acero cromado, con rodajas tipo dual",
@@ -1296,7 +1264,6 @@
           {
             "id": "ohe-705",
             "name": "AIKO modelo OHE-705",
-            "material": "Malla negra y tela negra",
             "description": "Silla ejecutiva en malla negra con cabecera, brazos 2D y base cromada; peso sugerido 170 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en acero cromado, con rodajas tipo dual",
@@ -1332,7 +1299,6 @@
           {
             "id": "ohe-703",
             "name": "AIKO modelo OHE-703",
-            "material": "Malla negra y tela negra",
             "description": "Silla ejecutiva en malla negra con soporte lumbar, brazos 2D y base cromada; peso sugerido 170 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en acero cromado, con rodajas tipo dual",
@@ -1375,7 +1341,6 @@
           {
             "id": "ohe-905negro",
             "name": "ATHELIER modelo OHE-905negro",
-            "material": "Malla negra y tela negra",
             "description": "Silla ejecutiva en malla negra con cabecera y soporte lumbar, brazos ajustables y base cromada; peso sugerido 130 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en acero cromado con rodajas intercambiables negras de nylon 100%, nervadas con concha protectora y giro de 360°",
@@ -1411,7 +1376,6 @@
           {
             "id": "ohe-903negro",
             "name": "ATHELIER modelo OHE-903negro",
-            "material": "Malla negra y tela negra",
             "description": "Silla ejecutiva en malla negra con soporte lumbar, brazos ajustables y base cromada; peso sugerido 130 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en acero cromado con rodajas intercambiables negras de nylon 100%, nervadas con concha protectora y giro de 360°",
@@ -1450,7 +1414,6 @@
           {
             "id": "ohe-95blanco",
             "name": "SOHO modelo OHE-95blanco",
-            "material": "Malla gris y tapiz personalizado",
             "description": "Silla ejecutiva en malla gris con cabecera, slider, brazos 4D y base de aluminio pulido; peso sugerido 180 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en fundición de aluminio, terminada en aluminio pulido, con rodajas tipo dual",
@@ -1486,7 +1449,6 @@
           {
             "id": "ohe-95negro",
             "name": "SOHO modelo OHE-95negro",
-            "material": "Malla negra y tela negra",
             "description": "Silla ejecutiva en malla negra con cabecera, slider, brazos 4D y base de aluminio pulido; peso sugerido 180 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en fundición de aluminio, terminada en aluminio pulido, con rodajas tipo dual",
@@ -1529,7 +1491,6 @@
           {
             "id": "ohe-133plus",
             "name": "NÉBULA modelo OHE-133plus",
-            "material": "Malla negra y tela negra",
             "description": "Silla ejecutiva en malla negra con soporte lumbar ajustable y tapiz en tela negra; peso sugerido 150 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -1572,7 +1533,6 @@
           {
             "id": "ohe-140negro",
             "name": "WICKER modelo OHE-140negro",
-            "material": "Malla negra y tela negra",
             "description": "Silla ejecutiva en malla negra con cabecera fija, soporte lumbar ajustable y base de poliamida; peso sugerido 120 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual de goma para pisos duros o delicados",
@@ -1609,7 +1569,6 @@
           {
             "id": "ohe-139negro",
             "name": "WICKER modelo OHE-139negro",
-            "material": "Malla negra y tela negra",
             "description": "Silla ejecutiva en malla negra con soporte lumbar ajustable y base de poliamida; peso sugerido 120 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual de goma para pisos duros o delicados",
@@ -1652,7 +1611,6 @@
           {
             "id": "ohe-2005gris",
             "name": "TRIPOLI modelo OHE-2005gris",
-            "material": "Poliéster jaspeado gris",
             "description": "Silla ejecutiva tapizada en poliéster jaspeado gris, con base metálica negra y resistencia sugerida hasta 120 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en acero troquelado color negro mate, con rodajas tipo dual",
@@ -1688,7 +1646,6 @@
           {
             "id": "ohv-2005gris",
             "name": "TRIPOLI modelo OHV-2005gris",
-            "material": "Poliéster jaspeado gris",
             "description": "Silla ejecutiva fija (visita) tapizada en poliéster jaspeado gris, con base cuadrilátera de 4 puntas y resistencia sugerida hasta 120 kg.",
             "specifications": {
               "base": "Estrella cuadrilátero de 4 puntas, diámetro 510 mm (20\") nervada",
@@ -1724,7 +1681,6 @@
           {
             "id": "ohe-2005negro",
             "name": "TRIPOLI modelo OHE-2005negro",
-            "material": "Soft revolving leather y poliéster jaspeado negro",
             "description": "Silla ejecutiva en acabado bicolor (soft revolving leather y poliéster jaspeado negro), con base metálica negra y resistencia sugerida hasta 120 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en acero troquelado color negro mate, con rodajas tipo dual",
@@ -1760,7 +1716,6 @@
           {
             "id": "ohv-2005negro",
             "name": "TRIPOLI modelo OHV-2005negro",
-            "material": "Soft revolving leather y poliéster jaspeado negro",
             "description": "Silla ejecutiva fija (visita) con acabado bicolor en soft revolving leather y poliéster jaspeado negro, resistencia sugerida hasta 120 kg.",
             "specifications": {
               "base": "Estrella cuadrilátero de 4 puntas, diámetro 510 mm (20\") nervada",
@@ -1805,7 +1760,6 @@
           {
             "id": "ohe-99negro",
             "name": "EVOLUTION modelo OHE-99negro",
-            "material": "Malla negra",
             "description": "Silla operativa con respaldo y asiento en malla negra, mecanismo reclinable y peso sugerido de uso hasta 100 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -1841,7 +1795,6 @@
           {
             "id": "ohe-99gris",
             "name": "EVOLUTION modelo OHE-99gris",
-            "material": "Malla verde",
             "description": "Silla operativa con respaldo y asiento en malla color verde, mecanismo reclinable y peso sugerido de uso hasta 100 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -1884,7 +1837,6 @@
           {
             "id": "ohe-111gris",
             "name": "DOLPHIN modelo OHE-111gris",
-            "material": "Malla gris y tela gris",
             "description": "Silla operativa DOLPHIN modelo OHE-111gris en malla gris, con mecanismo reclinable, brazos abatibles y peso sugerido 130 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "Estrella 5 puntas en poliamida con rodajas tipo dual",
@@ -1916,7 +1868,6 @@
           {
             "id": "ohv-111gris",
             "name": "DOLPHIN modelo OHV-111gris",
-            "material": "Malla gris y tela gris",
             "description": "Silla visita DOLPHIN modelo OHV-111gris tipo trineo, estructura acero tubular, brazos abatibles, peso sugerido 130 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "estructura": "Tipo trineo acero tubular 1\" diámetro, calibre 14, acabado pintura epóxica color gris",
@@ -1950,7 +1901,6 @@
           {
             "id": "ohe-111negro",
             "name": "DOLPHIN modelo OHE-111negro",
-            "material": "Malla negra y tela negra",
             "description": "Silla operativa DOLPHIN modelo OHE-111negro en malla negra, con mecanismo reclinable, brazos abatibles y peso sugerido 130 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "Estrella 5 puntas en poliamida con rodajas tipo dual",
@@ -1986,7 +1936,6 @@
           {
             "id": "ohv-111negro",
             "name": "DOLPHIN modelo OHV-111negro",
-            "material": "Malla negra y tela negra",
             "description": "Silla visita DOLPHIN modelo OHV-111negro tipo trineo, estructura acero tubular, brazos abatibles, peso sugerido 130 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "estructura": "Tipo trineo acero tubular 1\" diámetro, calibre 14, acabado pintura epóxica color negro",
@@ -2027,7 +1976,6 @@
           {
             "id": "ohe-65negro",
             "name": "BOSSE modelo OHE-65negro",
-            "material": "Malla negra y tela negra",
             "description": "Silla operativa BOSSE modelo OHE-65negro con cabecera, mecanismo reclinable con perilla de tensión, brazos ajustables 7 posiciones, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "Estrella 5 puntas en poliamida con rodajas tipo dual",
@@ -2063,7 +2011,6 @@
           {
             "id": "ohe-63negro",
             "name": "BOSSE modelo OHE-63negro",
-            "material": "Malla negra y tela negra",
             "description": "Silla operativa BOSSE modelo OHE-63negro sin cabecera, mecanismo reclinable con perilla de tensión, brazos ajustables 7 posiciones, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "Estrella 5 puntas en poliamida con rodajas tipo dual",
@@ -2099,7 +2046,6 @@
           {
             "id": "ohv-68negro",
             "name": "BOSSE modelo OHV-68negro",
-            "material": "Malla negra y tela negra",
             "description": "Silla visita BOSSE modelo OHV-68negro tipo trineo, estructura acero tubular, brazos semirrígidos con pad, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "estructura": "Tipo trineo acero tubular, acabado al tono del modelo OHE-63/OHE-65",
@@ -2140,7 +2086,6 @@
           {
             "id": "ohe-84gris",
             "name": "MOUSE modelo OHE-84gris",
-            "material": "Malla gris y tela al color",
             "description": "Silla operativa MOUSE modelo OHE-84gris con respaldo en malla gris, mecanismo reclinable con perilla de tensión, brazos de polipropileno semi-rígido, asiento con espuma de 40 kg/m³, peso sugerido 130 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -2176,7 +2121,6 @@
           {
             "id": "ohe-84negro",
             "name": "MOUSE modelo OHE-84negro",
-            "material": "Malla negra y tela negra",
             "description": "Silla operativa MOUSE modelo OHE-84negro con respaldo en malla negra, mecanismo reclinable con perilla de tensión, brazos de polipropileno semi-rígido, asiento con espuma de 40 kg/m³, peso sugerido 130 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -2219,7 +2163,6 @@
           {
             "id": "ohe-98gris",
             "name": "FLASH modelo OHE-98gris",
-            "material": "Malla gris y tela al color",
             "description": "Silla operativa FLASH modelo OHE-98gris con respaldo en malla gris, mecanismo reclinable con perilla de tensión, brazos de polipropileno semi-rígido, asiento de poliuretano inyectado 60 kg/m³ con retardante a la flama, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -2255,7 +2198,6 @@
           {
             "id": "ohe-98negro",
             "name": "FLASH modelo OHE-98negro",
-            "material": "Malla negra y tela negra",
             "description": "Silla operativa FLASH modelo OHE-98negro con respaldo en malla negra, mecanismo reclinable con perilla de tensión, brazos de polipropileno semi-rígido, asiento de poliuretano inyectado 60 kg/m³ con retardante a la flama, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -2298,7 +2240,6 @@
           {
             "id": "ohe-175",
             "name": "COZY modelo OHE-175",
-            "material": "Malla negra y tela negra",
             "description": "Silla operativa COZY modelo OHE-175 con cabecera ajustable, respaldo en malla con soporte lumbar ajustable, mecanismo reclinable con perilla de tensión, brazos ajustables 5 posiciones con pad, asiento de espuma 40 kg/m³ con retardante a la flama, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -2334,7 +2275,6 @@
           {
             "id": "ohe-173",
             "name": "COZY modelo OHE-173",
-            "material": "Malla negra y tela negra",
             "description": "Silla operativa COZY modelo OHE-173 sin cabecera, respaldo en malla con soporte lumbar ajustable, mecanismo reclinable con perilla de tensión, brazos ajustables 5 posiciones con pad, asiento de espuma 40 kg/m³ con retardante a la flama, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -2373,7 +2313,6 @@
           {
             "id": "ohe-55negrocr",
             "name": "WIND modelo OHE-55negrocr",
-            "material": "Malla negra y tela negra",
             "description": "Silla operativa con respaldo en malla, asiento tapizado en tela negra y peso sugerido de uso hasta 120 kg.",
             "specifications": {
               "base": "Estrella de 5 puntas en acero cromado con rodajas tipo dual",
@@ -2398,7 +2337,6 @@
           {
             "id": "ohe-94plusgris",
             "name": "SLINGPLUS modelo OHE-94plusgris",
-            "material": "Malla gris y tela gris",
             "description": "Silla operativa SLINGPLUS modelo OHE-94plusgris de la Colección Office CREP, base estrella metal cromado, mecanismo reclinable con perilla de tensión, brazos polipropileno semi-rígido, respaldo malla ergonómico, asiento poliuretano inyectado 60 kg/m³ con retardante a la flama, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "Estrella de 5 puntas en metal, terminada en cromo y con rodajas tipo dual",
@@ -2416,7 +2354,6 @@
           {
             "id": "ohv-94plusgris",
             "name": "SLINGPLUS modelo OHV-94plusgris",
-            "material": "Malla gris y tela gris",
             "description": "Silla visita SLINGPLUS modelo OHV-94plusgris de la Colección Office CREP, estructura trineo acero tubular cromado, brazos polipropileno semi-rígido, respaldo malla ergonómico, asiento poliuretano inyectado 60 kg/m³ con retardante a la flama, peso sugerido 110 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "estructura": "Trineo de acero tubular de 1\" de diámetro, calibre 14; soporte del asiento en lámina de acero con terminado en cromo",
@@ -2432,7 +2369,6 @@
           {
             "id": "ohe-94plusnegro",
             "name": "SLINGPLUS modelo OHE-94plusnegro",
-            "material": "Malla negra y tela negra",
             "description": "Silla operativa SLINGPLUS modelo OHE-94plusnegro de la Colección de Terminados Malla, base estrella poliamida, mecanismo reclinable con perilla de tensión, brazos polipropileno semi-rígido, respaldo malla ergonómico, asiento poliuretano inyectado 60 kg/m³ con retardante a la flama, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -2450,7 +2386,6 @@
           {
             "id": "ohv-94plusnegrocr",
             "name": "SLINGPLUS modelo OHV-94plusnegrocr",
-            "material": "Malla negra y tela negra",
             "description": "Silla visita SLINGPLUS modelo OHV-94plusnegrocr de Terminado Malla, estructura trineo acero tubular cromado, brazos polipropileno semi-rígido, respaldo malla ergonómico, asiento poliuretano inyectado 60 kg/m³ con retardante a la flama, peso sugerido 110 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "estructura": "Trineo de acero tubular de 1\" de diámetro, calibre 14; soporte del asiento en lámina de acero con terminado en cromo",
@@ -2466,7 +2401,6 @@
           {
             "id": "ohv-94plusnegro",
             "name": "SLINGPLUS modelo OHV-94plusnegro",
-            "material": "Malla negra y tela negra",
             "description": "Silla visita SLINGPLUS modelo OHV-94plusnegro de la Colección de Terminados Malla, estructura trineo acero tubular con pintura epóxica negro mate, brazos polipropileno semi-rígido, respaldo malla ergonómico, asiento poliuretano inyectado 60 kg/m³ con retardante a la flama, peso sugerido 110 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "estructura": "Trineo de acero tubular de 1\" de diámetro, calibre 14; soporte del asiento en lámina de acero (plato) con acabado de pintura epóxica color negro mate",
@@ -2489,7 +2423,6 @@
           {
             "id": "ohs-30",
             "name": "VENTO modelo OHS-30",
-            "material": "Malla de elastano negra",
             "description": "Silla operativa VENTO modelo OHS-30 con respaldo y asiento en malla de elastano negra, brazos fijos, pistón neumático para ajuste de altura. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -2512,7 +2445,6 @@
           {
             "id": "roly-base",
             "name": "ROLY modelo base",
-            "material": "Malla y tela",
             "description": "Silla operativa de la familia ROLY. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
             "specifications": {
               "nota": "El color puede variar dependiendo del monitor",
@@ -2531,7 +2463,6 @@
           {
             "id": "ohe-100blanca",
             "name": "WHALE modelo OHE-100blanca",
-            "material": "Malla gris y tela al color",
             "description": "Silla operativa WHALE modelo OHE-100blanca (Colección Office CREP) con respaldo en bastidor de polipropileno de alta resistencia, mecanismo synchro reclinable con palanca de bloqueo, brazos de polipropileno semi-rígido y asiento en espuma 30 kg/m³. Peso sugerido 120 kg. Alturas aumentan con pistón cajero de 240 mm. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida, rodajas tipo dual",
@@ -2571,7 +2502,6 @@
           {
             "id": "ohe-100negro",
             "name": "WHALE modelo OHE-100negro",
-            "material": "Malla negra y tela negra",
             "description": "Silla operativa WHALE modelo OHE-100negro con respaldo en bastidor de polipropileno de alta resistencia, mecanismo synchro reclinable con palanca de bloqueo, brazos de polipropileno semi-rígido y asiento en espuma 30 kg/m³. Peso sugerido 120 kg. Alturas aumentan con pistón cajero de 240 mm. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida, rodajas tipo dual",
@@ -2618,7 +2548,6 @@
           {
             "id": "ohs-41negro",
             "name": "WIDE modelo OHS-41negro",
-            "material": "Malla negra y tela poliéster",
             "description": "Silla operativa WIDE modelo OHS-41negro de respaldo alto para uso rudo (large size), peso sugerido 180 kg. Respaldo ergonómico con soporte lumbar ajustable, brazos 4D ajustables 7 posiciones, mecanismo reclinable. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "Estrella pentagonal acero troquelado color negro con tapa decorativa cromada",
@@ -2643,7 +2572,6 @@
           {
             "id": "ohe-2003negro",
             "name": "MORICO modelo OHE-2003negro",
-            "material": "Polímero ventilado y tela negra",
             "description": "Silla operativa MORICO modelo OHE-2003negro con respaldo de polímero ventilado, asiento tapizado en tela negra, mecanismo Donati de última generación, peso sugerido 140 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -2668,7 +2596,6 @@
           {
             "id": "ohe-2006gris",
             "name": "LUKE modelo OHE-2006gris",
-            "material": "Tela color gris",
             "description": "Silla operativa LUKE modelo OHE-2006gris con base en poliamida blanca, mecanismo Synchro inteligente Smart Tilt con anti-shock y bloqueo en 4 posiciones, brazos 3D ajustables en 6 posiciones, asiento y respaldo acojinados con espuma de alta densidad 60 kg/m³, tapizados en tela gris (no retapizable), peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida color blanco, rodajas tipo dual (bitono)",
@@ -2704,7 +2631,6 @@
           {
             "id": "ohe-2006negro",
             "name": "LUKE modelo OHE-2006negro",
-            "material": "Tela color negro",
             "description": "Silla operativa LUKE modelo OHE-2006negro con base en poliamida negra, mecanismo Synchro inteligente Smart Tilt con anti-shock y bloqueo en 4 posiciones, brazos 3D ajustables en 6 posiciones, asiento y respaldo acojinados con espuma de alta densidad 60 kg/m³, tapizados en tela negra (no retapizable), peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "Estrella de 5 puntas en poliamida color negro, rodajas tipo dual",
@@ -2747,7 +2673,6 @@
           {
             "id": "ohs-43",
             "name": "PROCHAIR modelo OHS-43",
-            "material": "Tela color a elegir",
             "description": "Silla operativa PROCHAIR modelo OHS-43 con asiento y respaldo tapizados al color a elegir, mecanismo multimodal de tres palancas, perillas de ajuste de respaldo, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "5 puntas en poliamida con rodajas tipo dual y/o regatones",
@@ -2764,7 +2689,6 @@
           {
             "id": "ohs-42",
             "name": "PROCHAIR modelo OHS-42",
-            "material": "Tela color a elegir",
             "description": "Silla operativa PROCHAIR modelo OHS-42 con asiento y respaldo tapizados al color a elegir, mecanismo sencillo de una palanca, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "5 puntas en poliamida con rodajas tipo dual y/o regatones",
@@ -2788,7 +2712,6 @@
           {
             "id": "ohs-11",
             "name": "CIAO modelo OHS-11",
-            "material": "Polipropileno virgen alta densidad",
             "description": "Silla operativa CIAO modelo OHS-11 con base piramidal de 4 puntas en poliamida y asiento/respaldo en copolímero de polipropileno virgen de alta densidad, diseño ergonómico, asiento giratorio 360°. Color negro/negro, peso sugerido 160 kg. Diseño: Jeremiah Ferrarese & Paolo Scagnellato.",
             "specifications": {
               "base": "Estrella en poliamida de alta densidad, 4 puntas, forma piramidal",
@@ -2814,7 +2737,6 @@
           {
             "id": "ohs-11cb",
             "name": "CIAO modelo OHS-11CB",
-            "material": "Polipropileno virgen alta densidad",
             "description": "Silla operativa CIAO modelo OHS-11CB con base piramidal 4 puntas, asiento/respaldo en polipropileno virgen, brazos integrables de polipropileno de alta densidad. Color negro/negro, peso sugerido 160 kg. Diseño: Jeremiah Ferrarese & Paolo Scagnellato.",
             "specifications": {
               "base": "Estrella en poliamida de alta densidad, 4 puntas, forma piramidal",
@@ -2841,7 +2763,6 @@
           {
             "id": "ohs-12",
             "name": "CIAO modelo OHS-12",
-            "material": "Polipropileno virgen alta densidad + tapiz",
             "description": "Silla operativa CIAO modelo OHS-12 con base piramidal 4 puntas, asiento/respaldo en polipropileno virgen, asiento acojinado con espuma 30 mm densidad 60 kg/m³ y tapizado al color de elección. Color negro/negro, peso sugerido 160 kg.",
             "specifications": {
               "base": "Estrella en poliamida de alta densidad, 4 puntas, forma piramidal",
@@ -2858,7 +2779,6 @@
           {
             "id": "ohs-12cb",
             "name": "CIAO modelo OHS-12CB",
-            "material": "Polipropileno virgen alta densidad + tapiz",
             "description": "Silla operativa CIAO modelo OHS-12CB con base piramidal 4 puntas, asiento/respaldo en polipropileno virgen, asiento y respaldo acojinados con espuma 30 mm densidad 60 kg/m³ y tapizados al color de elección; brazos integrables de polipropileno de alta densidad. Color negro/negro, peso sugerido 160 kg.",
             "specifications": {
               "base": "Estrella en poliamida de alta densidad, 4 puntas, forma piramidal",
@@ -2883,7 +2803,6 @@
           {
             "id": "ohs-37",
             "name": "SHELL modelo OHS-37",
-            "material": "Polipropileno monopieza",
             "description": "Silla operativa SHELL modelo OHS-37 de una sola pieza en polipropileno de alta resistencia, disponible en varios colores (negro, azul, verde, naranja, beige, blanco, rojo), peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "base": "Estrella 5 puntas aluminio fundido y pulido con rodajas tipo dual y/o regatones",
@@ -2907,7 +2826,6 @@
           {
             "id": "ohe-101",
             "name": "RAINBOW modelo OHE-101",
-            "material": "Malla",
             "description": "Silla operativa RAINBOW modelo OHE-101 terminada en malla, con base estrella en poliamida de 5 puntas con rodajas dual color negro, elevación por pistón neumático y brazos de polipropileno. Asiento y respaldo en malla de elastano en colores gris, verde, azul o ladrillo. Peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "terminación": "Malla",
@@ -2943,7 +2861,6 @@
           {
             "id": "ohe-101negro",
             "name": "RAINBOW modelo OHE-101negro",
-            "material": "Malla negra",
             "description": "Silla operativa RAINBOW modelo OHE-101negro terminada en malla, con base estrella en poliamida negra, elevación por pistón neumático negro, brazos de polipropileno negro y asiento/respaldo en malla de elastano color negro. Peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
             "specifications": {
               "terminación": "Malla",
@@ -2986,7 +2903,6 @@
           {
             "id": "ohs-47",
             "name": "QUICK modelo OHS-47",
-            "material": "Tapizado",
             "description": "Silla operativa QUICK modelo OHS-47. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
             "specifications": {
               "nota": "El color puede variar dependiendo del monitor",
@@ -3020,7 +2936,6 @@
           {
             "id": "ohs-47panello",
             "name": "QUICK modelo OHS-47panello",
-            "material": "Tapizado",
             "description": "Silla operativa QUICK modelo OHS-47panello. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
             "specifications": {
               "nota": "El color puede variar dependiendo del monitor",
@@ -3061,7 +2976,6 @@
           {
             "id": "ohs-85al",
             "name": "REVOLUTION modelo OHS-85Al",
-            "material": "Tapizado",
             "description": "Silla operativa REVOLUTION modelo OHS-85Al. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
             "specifications": {
               "nota": "El color puede variar dependiendo del monitor",
@@ -3095,7 +3009,6 @@
           {
             "id": "ohs-86al",
             "name": "REVOLUTION modelo OHS-86Al",
-            "material": "Tapizado",
             "description": "Silla operativa REVOLUTION modelo OHS-86Al. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
             "specifications": {
               "nota": "El color puede variar dependiendo del monitor",
@@ -3129,7 +3042,6 @@
           {
             "id": "ohs-87al",
             "name": "REVOLUTION modelo OHS-87Al",
-            "material": "Tapizado",
             "description": "Silla operativa REVOLUTION modelo OHS-87Al. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
             "specifications": {
               "nota": "El color puede variar dependiendo del monitor",
@@ -3163,7 +3075,6 @@
           {
             "id": "ohs-88al",
             "name": "REVOLUTION modelo OHS-88Al",
-            "material": "Tapizado",
             "description": "Silla operativa REVOLUTION modelo OHS-88Al. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
             "specifications": {
               "nota": "El color puede variar dependiendo del monitor",
@@ -3197,123 +3108,131 @@
         ]
       }
     },
-    "industrial": [
-      {
+    "industrial": {
+      "ohi-46": {
         "id": "ohi-46",
         "name": "OHI-46",
-        "material": "Estructura de acero reforzado con base de hierro fundido, asiento y respaldo tapizados en tela industrial resistente",
-        "description": "Silla industrial OHI-46. Modelo resistente diseñado para entornos industriales con alto uso. Base reforzada y construcción robusta para soportar jornadas laborales intensas.",
-        "link": "/fichas/ohi-46",
-        "specifications": {
-          "base": "Base de hierro fundido tipo estrella de 5 puntas, terminado en pintura epoxi negra mate, con rodajas de nylon reforzadas",
-          "elevacion": "Pistón neumático industrial de calibre pesado con sistema anti-caída de seguridad",
-          "mecanismo": "Mecanismo sincrónico tipo articulado con resorte de recuperación automática",
-          "brazos": "Brazos ajustables en altura y profundidad, estructura de acero con material anti-deslizante",
-          "respaldo": "Respaldo reclinable de altura media con soporte lumbar integrado",
-          "asiento": "Asiento ergonómico con espuma de densidad media resistente al desgarre",
-          "tapiz": "Tela industrial de alta resistencia, fácil de limpiar y desinfectar",
-          "capacidad": "Peso máximo soportado: 180 kg",
-          "nota": "Diseñada para uso continuo en ambientes industriales, fabril y logístico"
-        },
-        "image": "../public/img/Industrial/OHI-46/OHI-46frente.jpg",
-        "images": [
+        "description": "Silla industrial con mecanismo de contacto permanente y doble palanca de ajuste.",
+        "products": [
           {
-            "url": "../public/img/Industrial/OHI-46/OHI-46frente.jpg",
-            "label": "Frente"
-          },
-          {
-            "url": "../public/img/Industrial/OHI-46/OHI-46lateral.jpg",
-            "label": "Lateral"
-          },
-          {
-            "url": "../public/img/Industrial/OHI-46/OHI-46atras90.jpg",
-            "label": "Atras"
-          },
-          {
-            "url": "../public/img/Industrial/OHI-46/AmbientadaHEAVYDUTY.jpg",
-            "label": "Ambiente"
-          },
-          {
-            "url": "../public/img/Industrial/OHI-46/OHI-46kitCrRod.jpg",
-            "label": "Imagen 1"
+            "id": "ohi-46",
+            "name": "OHI-46",
+            "description": "Silla industrial con base de poliamida, rodajas tipo dual, pistón neumático tipo cajero y mecanismo de contacto permanente. Respaldo y asiento en poliuretano compacto suave.",
+            "specifications": {
+              "base": "Estrella de 5 puntas en poliamida, rodajas tipo dual",
+              "elevacion": "Por medio de pistón neumático tipo cajero que permite ajustar la altura del asiento",
+              "perillas_de_ajuste": "Para ajustar la altura del respaldo y otra la profundidad del respaldo con el asiento (es sólo el tornillo)",
+              "mecanismo": "Plato de acero reforzado de dos palancas; una para el accionamiento y bloqueo del pistón neumático, otra para ajustar y bloquear el ángulo de inclinación del respaldo (sistema de contacto permanente)",
+              "respaldo_y_asiento": "Poliuretano compacto suave de uso industrial con interior en madera de aglomerado",
+              "resistencia": "Peso sugerido 140 kgs",
+              "nota": "Las medidas de las alturas aumentan con pistón cajero 240 mm"
+            },
+            "image": "../public/img/Industrial/OHI-46/OHI-46frente.jpg",
+            "images": [
+              {
+                "url": "../public/img/Industrial/OHI-46/OHI-46frente.jpg",
+                "label": "Frente"
+              },
+              {
+                "url": "../public/img/Industrial/OHI-46/OHI-46lateral.jpg",
+                "label": "Lateral"
+              },
+              {
+                "url": "../public/img/Industrial/OHI-46/OHI-46atras90.jpg",
+                "label": "Atras"
+              },
+              {
+                "url": "../public/img/Industrial/OHI-46/AmbientadaHEAVYDUTY.jpg",
+                "label": "Ambiente"
+              },
+              {
+                "url": "../public/img/Industrial/OHI-46/OHI-46kitCrRod.jpg",
+                "label": "Imagen 1"
+              }
+            ]
           }
         ]
       },
-      {
+      "ohi-48": {
         "id": "ohi-48",
         "name": "OHI-48",
-        "material": "Estructura de acero tubular reforzado, base de aluminio fundido, tapizado en cuero sintético industrial",
-        "description": "Silla industrial OHI-48. Versión mejorada con mayor estabilidad y durabilidad. Diseñada para ambientes de temperatura variable y alta humedad.",
-        "link": "/fichas/ohi-48",
-        "specifications": {
-          "base": "Base de aluminio fundido tipo estrella de 5 puntas, tratamiento anti-corrosión, rodajas tipo dual de alta resistencia",
-          "elevacion": "Pistón neumático de doble cámara para estabilidad y control de velocidad de descenso",
-          "mecanismo": "Mecanismo de bloqueo múltiple con ángulo de inclinación regulable de 0° a 15°",
-          "brazos": "Brazos de altura y profundidad totalmente ajustables, fabricados en aluminio extruido",
-          "respaldo": "Respaldo alto ergonómico con soporte cervical y lumbar integrado",
-          "asiento": "Asiento con contorno anatómico, espuma de inyección de alta densidad",
-          "tapiz": "Cuero sintético industrial de grado profesional, resistente a manchas y fluidos",
-          "capacidad": "Peso máximo soportado: 200 kg",
-          "nota": "Especialmente recomendada para plantas de producción y ambientes húmedos"
-        },
-        "image": "../public/img/Industrial/OHI-48/OHI-48Frente.jpg",
-        "images": [
+        "description": "Silla industrial con asiento de curvatura antropométrica.",
+        "products": [
           {
-            "url": "../public/img/Industrial/OHI-48/OHI-48Frente.jpg",
-            "label": "Frente"
-          },
-          {
-            "url": "../public/img/Industrial/OHI-48/OHI-48Lateral.jpg",
-            "label": "Lateral"
-          },
-          {
-            "url": "../public/img/Industrial/OHI-48/AmbientadaHEAVYDUTY48-2.jpg",
-            "label": "Ambiente"
-          },
-          {
-            "url": "../public/img/Industrial/OHI-48/OHI-4890.jpg",
-            "label": "Imagen 1"
+            "id": "ohi-48",
+            "name": "OHI-48",
+            "description": "Silla industrial con base de poliamida, rodajas tipo dual, pistón neumático tipo cajero y mecanismo de acero reforzado. Respaldo y asiento en poliuretano con curvatura antropométrica.",
+            "specifications": {
+              "base": "Estrella de 5 puntas en poliamida, rodajas tipo dual",
+              "elevacion": "Por medio de pistón neumático tipo cajero que permite ajustar la altura del asiento",
+              "perillas_de_ajuste": "Para ajustar la profundidad del respaldo con el asiento (es sólo el tornillo)",
+              "mecanismo": "Plato de acero reforzado con palanca de accionamiento y bloqueo del pistón neumático",
+              "respaldo_y_asiento": "Poliuretano compacto suave de uso industrial con interior en madera de aglomerado, asiento con curvatura antropométrica",
+              "resistencia": "Peso sugerido 140 kgs",
+              "nota": "Las medidas de las alturas aumentan con pistón cajero 240 mm"
+            },
+            "image": "../public/img/Industrial/OHI-48/OHI-48Frente.jpg",
+            "images": [
+              {
+                "url": "../public/img/Industrial/OHI-48/OHI-48Frente.jpg",
+                "label": "Frente"
+              },
+              {
+                "url": "../public/img/Industrial/OHI-48/OHI-48Lateral.jpg",
+                "label": "Lateral"
+              },
+              {
+                "url": "../public/img/Industrial/OHI-48/AmbientadaHEAVYDUTY48-2.jpg",
+                "label": "Ambiente"
+              },
+              {
+                "url": "../public/img/Industrial/OHI-48/OHI-4890.jpg",
+                "label": "Imagen 1"
+              }
+            ]
           }
         ]
       },
-      {
+      "ohi-49": {
         "id": "ohi-49",
         "name": "OHI-49",
-        "material": "Estructura de acero tubular de perfil cerrado, base de acero con tratamiento especial, tapizado en tela Cordura®",
-        "description": "Silla industrial OHI-49. Modelo premium de máxima resistencia y confort. Ideal para turnos prolongados en ambiente industrial.",
-        "link": "/fichas/ohi-49",
-        "specifications": {
-          "base": "Base de acero con recubrimiento de poliuretano anti-deslizante, rodajas de nylon con freno de seguridad",
-          "elevacion": "Pistón neumático de accionamiento suave con sistema de válvula anti-caída integrada",
-          "mecanismo": "Mecanismo de bloqueo de altura multi-posición con reclinación suave",
-          "brazos": "Brazos 3D completamente ajustables: altura, profundidad y rotación, refuerzo de acero en puntos de pivote",
-          "respaldo": "Respaldo alto con sistema de soporte dinámico, recubierto en espuma viscoelástica",
-          "asiento": "Asiento con sistema de ventilación por células, espuma viscoelástica de máxima confortabilidad",
-          "tapiz": "Tela Cordura® de grado industrial, con tratamiento antimicrobiano y resistencia extrema al desgarre",
-          "capacidad": "Peso máximo soportado: 220 kg",
-          "nota": "Certificada para uso continuo 24/7 en entornos industriales exigentes. Mantenimiento mínimo."
-        },
-        "image": "../public/img/Industrial/OHI-49/OHI-49frente.jpg",
-        "images": [
+        "description": "Silla tipo banqueta industrial con asiento de curvatura antropométrica.",
+        "products": [
           {
-            "url": "../public/img/Industrial/OHI-49/OHI-49frente.jpg",
-            "label": "Frente"
-          },
-          {
-            "url": "../public/img/Industrial/OHI-49/OHI-49Lateral.jpg",
-            "label": "Lateral"
-          },
-          {
-            "url": "../public/img/Industrial/OHI-49/AmbientadaHEAVYDUTY49-2.jpg",
-            "label": "Ambiente"
-          },
-          {
-            "url": "../public/img/Industrial/OHI-49/OHI-4990.jpg",
-            "label": "Imagen 1"
+            "id": "ohi-49",
+            "name": "OHI-49",
+            "description": "Silla industrial tipo banqueta con base de poliamida, rodajas tipo dual y pistón neumático tipo cajero. Asiento en poliuretano con curvatura antropométrica.",
+            "specifications": {
+              "base": "Estrella de 5 puntas en poliamida, rodajas tipo dual",
+              "elevacion": "Por medio de pistón neumático tipo cajero que permite ajustar la altura del asiento",
+              "mecanismo": "Plato de acero reforzado con palanca de accionamiento y bloqueo del pistón neumático",
+              "asiento": "Poliuretano compacto suave de uso industrial con interior en madera de aglomerado y curvatura antropométrica",
+              "resistencia": "Peso sugerido 120 kgs",
+              "nota": "Las medidas de las alturas aumentan con pistón cajero 240 mm"
+            },
+            "image": "../public/img/Industrial/OHI-49/OHI-49frente.jpg",
+            "images": [
+              {
+                "url": "../public/img/Industrial/OHI-49/OHI-49frente.jpg",
+                "label": "Frente"
+              },
+              {
+                "url": "../public/img/Industrial/OHI-49/OHI-49Lateral.jpg",
+                "label": "Lateral"
+              },
+              {
+                "url": "../public/img/Industrial/OHI-49/AmbientadaHEAVYDUTY49-2.jpg",
+                "label": "Ambiente"
+              },
+              {
+                "url": "../public/img/Industrial/OHI-49/OHI-4990.jpg",
+                "label": "Imagen 1"
+              }
+            ]
           }
         ]
       }
-    ],
+    },
     "accesorios": {
       "piston-base": {
         "id": "piston-base",
@@ -3323,7 +3242,6 @@
           {
             "id": "piston-rebasador-cromado",
             "name": "Pistón Rebasador Cromado",
-            "material": "Acero con terminado cromado",
             "description": "Pistón rebasador cromado para sillas tipo cajero / mayor altura. Eleva la silla a una altura superior a la estándar.",
             "specifications": {
               "tipo": "Pistón rebasador cromado para sillas tipo cajero / mayor altura",
@@ -3336,7 +3254,6 @@
           {
             "id": "base-aluminio-lucido",
             "name": "Base Aluminio Lúcido",
-            "material": "Aluminio fundido pulido/brillante",
             "description": "Base para silla de 5 puntas en aluminio con acabado lúcido (pulido/brillante). Reemplazo o actualización de base de silla operativa o ejecutiva.",
             "specifications": {
               "tipo": "Base para silla de 5 puntas",
@@ -3357,7 +3274,6 @@
           {
             "id": "kit-cajero-cromado",
             "name": "Kit cajero cromado",
-            "material": "Acero con terminado cromado",
             "description": "Kit de elevación tipo cajero con terminación cromada.",
             "specifications": {
               "tipo": "Kit de elevación tipo cajero",
@@ -3432,7 +3348,6 @@
           {
             "id": "piston-neumatico-estandar",
             "name": "Pistón",
-            "material": "Acero",
             "description": "Pistón neumático estándar para elevación de asiento en sillas operativas o ejecutivas.",
             "specifications": {
               "tipo": "Pistón neumático estándar",
@@ -3451,7 +3366,6 @@
           {
             "id": "brazo-40",
             "name": "Brazo-40",
-            "material": "Polipropileno semirrígido",
             "description": "Brazo ajustable para sillas operativas.",
             "specifications": {
               "caracteristicas": "Funda de polipropileno con botón para ajuste de altura en 10 posiciones; correderas para ajuste a lo ancho",
@@ -3471,7 +3385,6 @@
           {
             "id": "brazo-06",
             "name": "Brazo-06",
-            "material": "Polipropileno semirrígido",
             "description": "Brazos fijos para sillas operativas.",
             "specifications": {
               "tipo": "Brazos fijos",
@@ -3499,7 +3412,6 @@
           {
             "id": "brazo-53",
             "name": "Brazo-53",
-            "material": "Polipropileno semirrígido",
             "description": "Brazos fijos para sillas operativas.",
             "specifications": {
               "tipo": "Brazos fijos",
@@ -3525,7 +3437,6 @@
           {
             "id": "brazo-55",
             "name": "Brazo-55",
-            "material": "Polipropileno semirrígido",
             "description": "Brazos fijos para sillas operativas.",
             "specifications": {
               "tipo": "Brazos fijos",
@@ -3552,7 +3463,6 @@
           {
             "id": "brazo-90",
             "name": "Brazo-90",
-            "material": "Polipropileno semirrígido",
             "description": "Brazos fijos para sillas operativas.",
             "specifications": {
               "tipo": "Brazos fijos",
@@ -3579,7 +3489,6 @@
           {
             "id": "brazo-86",
             "name": "Brazo-86",
-            "material": "Polipropileno semirrígido",
             "description": "Brazos fijos para sillas operativas.",
             "specifications": {
               "tipo": "Brazos fijos",
@@ -3602,7 +3511,6 @@
           {
             "id": "brazo-86al-pad-negro",
             "name": "Brazo-86Al pad Negro",
-            "material": "Aluminio fundido, terminado en color natural pulido",
             "description": "Brazos fijos con estructura tipo aluminio y pad en color negro.",
             "specifications": {
               "tipo": "Brazos fijos",
@@ -3637,7 +3545,6 @@
           {
             "id": "brazo-86al-pad-blanco",
             "name": "Brazo-86Al pad Blanco",
-            "material": "Aluminio fundido, terminado en color natural pulido",
             "description": "Brazos fijos con estructura tipo aluminio y pad en color blanco.",
             "specifications": {
               "tipo": "Brazos fijos",
@@ -3681,7 +3588,6 @@
           {
             "id": "ohv-13",
             "name": "OHV-13",
-            "material": "Acero tubular y polipropileno",
             "description": "Silla visitante con estructura de acero tubular cromado y asiento/respaldo en polipropileno de alta resistencia.",
             "specifications": {
               "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -3708,7 +3614,6 @@
           {
             "id": "ohv-13alta",
             "name": "OHV-13alta",
-            "material": "Acero tubular y polipropileno",
             "description": "Silla visitante alta con estructura de acero tubular cromado y asiento/respaldo en polipropileno de alta resistencia.",
             "specifications": {
               "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -3742,7 +3647,6 @@
           {
             "id": "ohv-37",
             "name": "OHV-37",
-            "material": "Acero tubular y polipropileno",
             "description": "Silla visitante con estructura de acero tubular cromado y asiento/respaldo en polipropileno de alta resistencia.",
             "specifications": {
               "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -3775,7 +3679,6 @@
           {
             "id": "ohv-37alta",
             "name": "OHV-37alta",
-            "material": "Acero tubular y polipropileno",
             "description": "Silla visitante alta con estructura de acero tubular cromado y asiento/respaldo en polipropileno de alta resistencia.",
             "specifications": {
               "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -3815,7 +3718,6 @@
           {
             "id": "ohv-47",
             "name": "OHV-47",
-            "material": "Acero tubular y polipropileno",
             "description": "Silla visitante con estructura de acero tubular cromado y asiento/respaldo en polipropileno de alta resistencia.",
             "specifications": {
               "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -3848,7 +3750,6 @@
           {
             "id": "ohv-47alta",
             "name": "OHV-47alta",
-            "material": "Acero tubular y polipropileno",
             "description": "Silla visitante alta con estructura de acero tubular cromado y asiento/respaldo en polipropileno de alta resistencia.",
             "specifications": {
               "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -3888,7 +3789,6 @@
           {
             "id": "ohv-96negro",
             "name": "OHV-96negro",
-            "material": "Acero tubular, polipropileno y poliuretano",
             "description": "Silla visitante interior con estructura tubular de acero en pintura epóxica negra, asiento y respaldo tapizados.",
             "specifications": {
               "coleccion": "Visitantes Interior – línea DONATELA (modelo OHV-96)",
@@ -3914,7 +3814,6 @@
           {
             "id": "ohv-20",
             "name": "OHV-20",
-            "material": "Acero tubular y polipropileno",
             "description": "Silla visitante interior con estructura de acero tubular en pintura epóxica y respaldo/asiento en polipropileno de alta resistencia.",
             "specifications": {
               "coleccion": "VISITANTES INTERIOR – línea CORE (modelo OHV-20). COLECCIÓN DE TERMINADOS",
@@ -3937,7 +3836,6 @@
           {
             "id": "ohv-85",
             "name": "OHV-85",
-            "material": "Acero tubular, polipropileno y poliuretano",
             "description": "Silla visitante con estructura de acero en pintura epóxica, respaldo en polipropileno y asiento tapizado.",
             "specifications": {
               "coleccion": "COLECCIÓN OFFICE CREP",
@@ -3972,7 +3870,6 @@
           {
             "id": "ohv-85cr",
             "name": "OHV-85cr",
-            "material": "Acero tubular cromado, polipropileno y poliuretano",
             "description": "Silla visitante con estructura de acero cromado, respaldo en polipropileno y asiento tapizado.",
             "specifications": {
               "coleccion": "COLECCIÓN OFFICE CREP",
@@ -4007,7 +3904,6 @@
           {
             "id": "ohv-86",
             "name": "OHV-86",
-            "material": "Acero tubular y polipropileno",
             "description": "Silla visitante con estructura de acero en pintura epóxica y respaldo/asiento en polipropileno.",
             "specifications": {
               "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -4041,7 +3937,6 @@
           {
             "id": "ohv-86cr",
             "name": "OHV-86cr",
-            "material": "Acero tubular cromado y polipropileno",
             "description": "Silla visitante con estructura de acero cromado y respaldo/asiento en polipropileno.",
             "specifications": {
               "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -4076,7 +3971,6 @@
           {
             "id": "ohv-87",
             "name": "OHV-87",
-            "material": "Acero tubular, polipropileno y poliuretano",
             "description": "Silla visitante con estructura de acero en pintura epóxica, respaldo en polipropileno y asiento tapizado.",
             "specifications": {
               "coleccion": "COLECCIÓN OFFICE CREP",
@@ -4111,7 +4005,6 @@
           {
             "id": "ohv-87cr",
             "name": "OHV-87cr",
-            "material": "Acero tubular cromado, polipropileno y poliuretano",
             "description": "Silla visitante con estructura de acero cromado, respaldo en polipropileno y asiento tapizado.",
             "specifications": {
               "coleccion": "COLECCIÓN OFFICE CREP",
@@ -4146,7 +4039,6 @@
           {
             "id": "ohv-88",
             "name": "OHV-88",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante interior REVOLUTION OHV-88. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -4174,7 +4066,6 @@
           {
             "id": "ohv-88cr",
             "name": "OHV-88cr",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante interior REVOLUTION OHV-88cr. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -4209,7 +4100,6 @@
           {
             "id": "ohv-7216",
             "name": "OHV-7216",
-            "material": "Acero y polipropileno",
             "description": "Silla visitante alta con base redonda, pistón neumático extralargo y asiento/respaldo en polipropileno de alta densidad.",
             "specifications": {
               "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -4249,7 +4139,6 @@
           {
             "id": "ohv-7216p",
             "name": "OHV-7216P",
-            "material": "Acero, polipropileno y tapizado",
             "description": "Silla visitante alta con base redonda, pistón neumático extralargo, asiento/respaldo en polipropileno tapizado.",
             "specifications": {
               "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -4297,7 +4186,6 @@
           {
             "id": "ohv-138",
             "name": "FLEX modelo OHV-138",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante interior FLEX OHV-138. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -4314,7 +4202,6 @@
           {
             "id": "ohv-115negro",
             "name": "OHV-115negro",
-            "material": "Acero tubular, polipropileno y tapizado",
             "description": "Silla visitante con estructura de acero tubular, respaldo en malla y asiento tapizado en color negro.",
             "specifications": {
               "estructura": "De perfil redondo tubular de acero con soportes internos en forma de parrilla",
@@ -4349,7 +4236,6 @@
           {
             "id": "ohv-115gris",
             "name": "OHV-115gris",
-            "material": "Acero tubular cromado, polipropileno y tapizado",
             "description": "Silla visitante con estructura de acero tubular cromado, respaldo en malla y asiento tapizado en color gris.",
             "specifications": {
               "estructura": "De perfil redondo tubular de acero con soportes internos en forma de parrilla",
@@ -4373,7 +4259,6 @@
           {
             "id": "ohv-11",
             "name": "OHV-11",
-            "material": "Acero tubular y polipropileno",
             "description": "Silla visitante con estructura de acero tubular y asiento/respaldo en copolímero de polipropileno de alta densidad.",
             "specifications": {
               "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -4400,7 +4285,6 @@
           {
             "id": "ohv-11cb",
             "name": "OHV-11CB",
-            "material": "Acero tubular y polipropileno",
             "description": "Silla visitante con brazos, estructura de acero tubular y asiento/respaldo en copolímero de polipropileno de alta densidad.",
             "specifications": {
               "coleccion": "COLECCIÓN DE TERMINADOS",
@@ -4428,7 +4312,6 @@
           {
             "id": "ohv-12",
             "name": "OHV-12",
-            "material": "Acero tubular, polipropileno y tapizado",
             "description": "Silla visitante giratoria con estructura de acero tubular, asiento/respaldo tapizados con acojinado de alta densidad.",
             "specifications": {
               "estructura": "Tubular de acero de 5/8\" de diámetro, calibre 14, con postes de cold rolled de 1/2\" para sujeción del respaldo",
@@ -4456,7 +4339,6 @@
           {
             "id": "ohv-12cb",
             "name": "OHV-12CB",
-            "material": "Acero tubular, polipropileno y tapizado",
             "description": "Silla visitante giratoria con brazos, estructura de acero tubular, asiento/respaldo tapizados con acojinado de alta densidad.",
             "specifications": {
               "estructura": "Tubular de acero de 5/8\" de diámetro, calibre 14, con postes de cold rolled de 1/2\" para sujeción del respaldo",
@@ -5005,7 +4887,6 @@
           {
             "id": "ohv-102",
             "name": "OHV-102",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante ALPHA modelo OHV-102. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5041,7 +4922,6 @@
           {
             "id": "ohv-102alta",
             "name": "OHV-102alta",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante ALPHA modelo OHV-102alta. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5081,7 +4961,6 @@
           {
             "id": "ohv-103",
             "name": "OHV-103",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante ALPHA modelo OHV-103. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5121,7 +5000,6 @@
           {
             "id": "ohv-104",
             "name": "OHV-104",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante ALPHA modelo OHV-104. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5149,7 +5027,6 @@
           {
             "id": "ohv-105",
             "name": "OHV-105",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante ALPHA modelo OHV-105. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5177,7 +5054,6 @@
           {
             "id": "ohv-107",
             "name": "OHV-107",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante ALPHA modelo OHV-107. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5205,7 +5081,6 @@
           {
             "id": "ohv-108",
             "name": "OHV-108",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante ALPHA modelo OHV-108. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5233,7 +5108,6 @@
           {
             "id": "conector-alpha",
             "name": "Conector Alpha",
-            "material": "Pendiente especificaciones",
             "description": "Conector para sillas visitantes ALPHA. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5268,7 +5142,6 @@
           {
             "id": "ohv-66",
             "name": "OHV-66",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante MILK modelo OHV-66. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5297,7 +5170,6 @@
           {
             "id": "ohv-66cr",
             "name": "OHV-66cr",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante MILK modelo OHV-66cr. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5325,7 +5197,6 @@
           {
             "id": "ohv-2700",
             "name": "OHV-2700",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante INNOVA-COLLECTION modelo OHV-2700. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5336,7 +5207,6 @@
           {
             "id": "ohv-2700cr",
             "name": "OHV-2700cr",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante INNOVA-COLLECTION modelo OHV-2700cr. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5354,7 +5224,6 @@
           {
             "id": "ohv-3000",
             "name": "OHV-3000",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante INNOVA modelo OHV-3000. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5365,7 +5234,6 @@
           {
             "id": "ohv-3000cr",
             "name": "OHV-3000cr",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante INNOVA modelo OHV-3000cr. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5383,7 +5251,6 @@
           {
             "id": "ohv-2200",
             "name": "OHV-2200",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante ELLITICO-COLLECTION modelo OHV-2200. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5394,7 +5261,6 @@
           {
             "id": "ohv-2200cr",
             "name": "OHV-2200cr",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante ELLITICO-COLLECTION modelo OHV-2200cr. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5412,7 +5278,6 @@
           {
             "id": "ohv-133",
             "name": "OHV-133",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante AIR modelo OHV-133. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5437,7 +5302,6 @@
           {
             "id": "ohv-134",
             "name": "OHV-134",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante AIR modelo OHV-134. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5473,7 +5337,6 @@
           {
             "id": "ohv-136",
             "name": "OHV-136",
-            "material": "Polipropileno de alta resistencia",
             "description": "patas, asiento y respaldo: de una sola pieza en polipropileno de alta resistencia y duración.",
             "specifications": {
               "piezas": "Patas, asiento y respaldo de una sola pieza",
@@ -5498,7 +5361,6 @@
             "id": "ohv-73",
             "name": "OHV-73",
             "comercial_name": "Visitantes Exterior OHV-73",
-            "material": "Acero tubular y polipropileno",
             "description": "Silla visitante exterior PLUS modelo OHV-73. Estructura de acero tubular con acabado en pintura epóxica, respaldo en polipropileno resistente a UV.",
             "specifications": {
               "estructura": "Acero tubular de 1\" de diámetro, calibre 16, con acabado en pintura epóxica (electrostática) color negro, blanco, rojo ladrillo, azul profundo o gris oscuro",
@@ -5507,36 +5369,6 @@
               "capacidad": "Peso sugerido 160 kg",
               "nota_fabricacion": "CATAS Rojo Made In Italy",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "instructivo": {
-                "nombre": "Instructivo OHV-73",
-                "archivo": "InstructivoOHV-73A.jpg"
-              },
-              "fotos": {
-                "nombre": "Fotos OHV-73",
-                "archivo": "ImagenesOHV-73.pdf"
-              },
-              "ficha_tecnica": {
-                "nombre": "Ficha Técnica OHV-73",
-                "archivo": "OHV-73FT.jpg"
-              },
-              "modelados_3d": [
-                {
-                  "tipo": "DWG",
-                  "archivo": "OHV-73_DWG.dwg"
-                },
-                {
-                  "tipo": "OBJ",
-                  "archivo": "OHV-73_OBJ.obj"
-                }
-              ],
-              "videos": [
-                {
-                  "nombre": "Video PLUS",
-                  "archivo": "PLUS.mp4"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -5583,23 +5415,12 @@
             "id": "ohv-71",
             "name": "OHV-71",
             "comercial_name": "Visitantes Exterior OHV-71",
-            "material": "Polipropileno de alta resistencia",
             "description": "Silla visitante exterior TOTOTO modelo OHV-71. Asiento, respaldo y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
             "specifications": {
               "piezas": "Asiento, respaldo y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
               "capacidad": "Peso sugerido 110 kg",
               "nota_fabricacion": "CATAS Rojo Made In Italy",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "fotos": {
-                "nombre": "Fotos OHV-71",
-                "archivo": "ImagenesOHV-71.pdf"
-              },
-              "ficha_tecnica": {
-                "nombre": "Ficha Técnica OHV-71",
-                "archivo": "OHV-71FT.jpg"
-              }
             },
             "breadcrumb": [
               {
@@ -5646,7 +5467,6 @@
             "id": "ohv-92",
             "name": "OHV-92",
             "comercial_name": "Visitantes Exterior OHV-92",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante exterior RUE modelo OHV-92. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5689,7 +5509,6 @@
             "id": "ohv-7036b",
             "name": "OHV-7036B",
             "comercial_name": "Visitantes Exterior OHV-7036B",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante exterior RUE modelo OHV-7036B. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5724,7 +5543,6 @@
             "id": "ohv-7036c",
             "name": "OHV-7036C",
             "comercial_name": "Visitantes Exterior OHV-7036C",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante exterior RUE modelo OHV-7036C. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5766,7 +5584,6 @@
             "id": "ohv-97",
             "name": "OHV-97",
             "comercial_name": "Visitantes Exterior OHV-97",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante exterior SENSILLA modelo OHV-97. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5809,7 +5626,6 @@
             "id": "ohv-7211b",
             "name": "OHV-7211B",
             "comercial_name": "Visitantes Exterior OHV-7211B",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante exterior SENSILLA modelo OHV-7211B. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5852,7 +5668,6 @@
             "id": "ohv-7211c",
             "name": "OHV-7211C",
             "comercial_name": "Visitantes Exterior OHV-7211C",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante exterior SENSILLA modelo OHV-7211C. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -5902,7 +5717,6 @@
             "id": "ohv-91",
             "name": "OHV-91",
             "comercial_name": "Visitantes Exterior OHV-91",
-            "material": "Polipropileno de alta resistencia",
             "description": "Silla visitante exterior ALISSA modelo OHV-91. Respaldo, brazos, asiento y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
             "specifications": {
               "piezas": "Respaldo, brazos, asiento y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
@@ -5910,30 +5724,6 @@
               "capacidad": "Peso sugerido 130 kg",
               "referencia": "EN581",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "fotos": {
-                "nombre": "Fotos OHV-91",
-                "archivo": "ImagenesOHV-91.pdf"
-              },
-              "ficha_tecnica": {
-                "nombre": "Ficha Técnica OHV-91",
-                "archivo": "OHV-91FT.jpg"
-              },
-              "modelados_3d": [
-                {
-                  "tipo": "DWG",
-                  "archivo": "OHV-91.dwg"
-                },
-                {
-                  "tipo": "OBJ",
-                  "archivo": "OHV-91.obj"
-                },
-                {
-                  "tipo": "3DS",
-                  "archivo": "MAUI-OHV-91.3ds"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -5986,7 +5776,6 @@
             "id": "ohv-93",
             "name": "OHV-93",
             "comercial_name": "Visitantes Exterior OHV-93",
-            "material": "Polipropileno con imitación mimbre",
             "description": "Silla visitante exterior KOPPLA modelo OHV-93. Respaldo, asiento y patas terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
             "specifications": {
               "piezas": "Respaldo, asiento y patas terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
@@ -5994,22 +5783,6 @@
               "capacidad": "Peso sugerido 130 kg",
               "referencia": "EN581",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "fotos": {
-                "nombre": "Fotos OHV-93",
-                "archivo": "ImagenesOHV-93.pdf"
-              },
-              "ficha_tecnica": {
-                "nombre": "Ficha Técnica OHV-93",
-                "archivo": "OHV-93FT.pdf"
-              },
-              "modelados_3d": [
-                {
-                  "tipo": "3DS",
-                  "archivo": "HONOLULU-OHV-93.3ds"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -6056,7 +5829,6 @@
             "id": "ohv-59",
             "name": "OHV-59",
             "comercial_name": "Visitantes Exterior OHV-59",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante exterior SOLEI modelo OHV-59. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -6099,7 +5871,6 @@
             "id": "ohv-60",
             "name": "OHV-60",
             "comercial_name": "Visitantes Exterior OHV-60",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante exterior SOLEI modelo OHV-60. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -6149,7 +5920,6 @@
             "id": "ohv-137",
             "name": "OHV-137",
             "comercial_name": "Visitantes Exterior OHV-137",
-            "material": "Polipropileno inyectado de alto impacto",
             "description": "Silla visitante exterior FOLDING modelo OHV-137. Diseño PLEGABLE de polipropileno inyectado de alto impacto y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
             "specifications": {
               "piezas": "Respaldo, asiento y patas de diseño PLEGABLE en polipropileno inyectado de alto impacto y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
@@ -6157,30 +5927,6 @@
               "capacidad": "Peso sugerido 130 kg",
               "referencia": "BIFMA",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "fotos": {
-                "nombre": "Fotos OHV-137",
-                "archivo": "ImagenesOHV-137.pdf"
-              },
-              "ficha_tecnica": {
-                "nombre": "Ficha Técnica OHV-137",
-                "archivo": "OHV-137FT.pdf"
-              },
-              "modelados_3d": [
-                {
-                  "tipo": "DWG",
-                  "archivo": "FOLDING_DWG.dwg"
-                },
-                {
-                  "tipo": "OBJ",
-                  "archivo": "FOLDING_OBJ.obj"
-                },
-                {
-                  "tipo": "SKP",
-                  "archivo": "FOLDING_SKP.skp"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -6227,7 +5973,6 @@
             "id": "ohv-19",
             "name": "OHV-19",
             "comercial_name": "Visitantes Exterior OHV-19",
-            "material": "Polipropileno de alta resistencia",
             "description": "Silla visitante exterior TEKSI modelo OHV-19. Respaldo, asiento y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
             "specifications": {
               "piezas": "Respaldo, asiento y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
@@ -6235,30 +5980,6 @@
               "capacidad": "Peso sugerido 130 kg",
               "referencia": "BIFMA",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "fotos": {
-                "nombre": "Fotos OHV-19",
-                "archivo": "ImagenesOHV-19.pdf"
-              },
-              "ficha_tecnica": {
-                "nombre": "Ficha Técnica OHV-19",
-                "archivo": "OHV-19FT.pdf"
-              },
-              "modelados_3d": [
-                {
-                  "tipo": "DWG",
-                  "archivo": "TEKSI_DWG.dwg"
-                },
-                {
-                  "tipo": "OBJ",
-                  "archivo": "TEKSI_OBJ.obj"
-                },
-                {
-                  "tipo": "SKP",
-                  "archivo": "TEKSI_SKP.skp"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -6301,7 +6022,6 @@
             "id": "ohv-18",
             "name": "OHV-18",
             "comercial_name": "Visitantes Exterior OHV-18",
-            "material": "Polipropileno de alta resistencia",
             "description": "Silla visitante exterior KIPALI modelo OHV-18. Respaldo, asiento y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
             "specifications": {
               "piezas": "Respaldo, asiento y patas de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
@@ -6309,30 +6029,6 @@
               "capacidad": "Peso sugerido 130 kg",
               "referencia": "BIFMA",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "fotos": {
-                "nombre": "Fotos OHV-18",
-                "archivo": "ImagenesOHV-18.pdf"
-              },
-              "ficha_tecnica": {
-                "nombre": "Ficha Técnica OHV-18",
-                "archivo": "OHV-18FT.pdf"
-              },
-              "modelados_3d": [
-                {
-                  "tipo": "DWG",
-                  "archivo": "KIPALI_DWG.dwg"
-                },
-                {
-                  "tipo": "OBJ",
-                  "archivo": "KIPALI_OBJ.obj"
-                },
-                {
-                  "tipo": "SKP",
-                  "archivo": "KIPALI_SKP.skp"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -6379,7 +6075,6 @@
             "id": "ohv-7220b",
             "name": "OHV-7220B",
             "comercial_name": "Visitantes Exterior OHV-7220B",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante exterior NAPLES modelo OHV-7220B. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -6422,7 +6117,6 @@
             "id": "ohv-7220a",
             "name": "OHV-7220A",
             "comercial_name": "Visitantes Exterior OHV-7220A",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante exterior NAPLES modelo OHV-7220A. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -6454,7 +6148,6 @@
             "id": "ohv-7029-dc",
             "name": "OHV-7029-DC",
             "comercial_name": "Visitantes Exterior OHV-7029-DC",
-            "material": "Polipropileno con imitación mimbre",
             "description": "Silla visitante exterior IRIS modelo OHV-7029-DC. Respaldo, asiento y patas terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
             "specifications": {
               "piezas": "Respaldo, asiento y patas terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
@@ -6462,22 +6155,6 @@
               "capacidad": "Peso sugerido 130 kg",
               "referencia": "BIFMA",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "fotos": {
-                "nombre": "Fotos OHV-7029",
-                "archivo": "ImagenesOHV-7029.pdf"
-              },
-              "ficha_tecnica": {
-                "nombre": "Ficha Técnica OHV-7029-DC",
-                "archivo": "OHV-7029-DCFT.jpg"
-              },
-              "modelados_3d": [
-                {
-                  "tipo": "3DS",
-                  "archivo": "7029DC.3ds"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -6524,7 +6201,6 @@
             "id": "ohv-7028",
             "name": "OHV-7028",
             "comercial_name": "Visitantes Exterior OHV-7028",
-            "material": "Polipropileno con imitación bejuco",
             "description": "Silla visitante exterior GRACE modelo OHV-7028. Respaldo, asiento y patas terminado en imitación bejuco de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
             "specifications": {
               "piezas": "Respaldo, asiento y patas terminado en imitación bejuco de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
@@ -6532,26 +6208,6 @@
               "capacidad": "Peso sugerido 130 kg",
               "referencia": "BIFMA",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "fotos": {
-                "nombre": "Fotos OHV-7028",
-                "archivo": "ImagenesOHV-7028.pdf"
-              },
-              "ficha_tecnica": {
-                "nombre": "Ficha Técnica OHV-7028",
-                "archivo": "OHV-7028FT.jpg"
-              },
-              "modelados_3d": [
-                {
-                  "tipo": "DWG",
-                  "archivo": "OHV-7028.dwg"
-                },
-                {
-                  "tipo": "OBJ",
-                  "archivo": "OHV-7028.obj"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -6598,7 +6254,6 @@
             "id": "ohv-7203a",
             "name": "OHV-7203A",
             "comercial_name": "Visitantes Exterior OHV-7203A",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante exterior MILOS modelo OHV-7203A. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -6641,7 +6296,6 @@
             "id": "ohv-7203b",
             "name": "OHV-7203B",
             "comercial_name": "Visitantes Exterior OHV-7203B",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante exterior MILOS modelo OHV-7203B. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -6684,7 +6338,6 @@
             "id": "ohv-7203bb",
             "name": "OHV-7203BB",
             "comercial_name": "Visitantes Exterior OHV-7203BB",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante exterior MILOS modelo OHV-7203BB. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -6727,7 +6380,6 @@
             "id": "ohv-7203bc",
             "name": "OHV-7203BC",
             "comercial_name": "Visitantes Exterior OHV-7203BC",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante exterior MILOS modelo OHV-7203BC. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -6777,7 +6429,6 @@
             "id": "ohv-74",
             "name": "OHV-74",
             "comercial_name": "Visitantes Exterior OHV-74",
-            "material": "Polipropileno de alta resistencia",
             "description": "Silla visitante exterior MILAN modelo OHV-74. Patas, asiento y respaldo de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
             "specifications": {
               "piezas": "Patas, asiento y respaldo de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
@@ -6785,26 +6436,6 @@
               "capacidad": "Peso sugerido 130 kg",
               "referencia": "BIFMA",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "fotos": {
-                "nombre": "Fotos OHV-74",
-                "archivo": "ImagenesOHV-74.pdf"
-              },
-              "ficha_tecnica": {
-                "nombre": "Ficha Técnica OHV-74",
-                "archivo": "OHV-74FT.jpg"
-              },
-              "modelados_3d": [
-                {
-                  "tipo": "DWG",
-                  "archivo": "OHV-74_DWG.dwg"
-                },
-                {
-                  "tipo": "OBJ",
-                  "archivo": "OHV-74_OBJ.obj"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -6851,7 +6482,6 @@
             "id": "ohv-81",
             "name": "OHV-81",
             "comercial_name": "Visitantes Exterior OHV-81",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante exterior JOYOUS modelo OHV-81. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -6894,7 +6524,6 @@
             "id": "ohv-82",
             "name": "OHV-82",
             "comercial_name": "Visitantes Exterior OHV-82",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante exterior JOYOUS modelo OHV-82. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -6937,7 +6566,6 @@
             "id": "ohv-83",
             "name": "OHV-83",
             "comercial_name": "Visitantes Exterior OHV-83",
-            "material": "Pendiente especificaciones",
             "description": "Silla visitante exterior JOYOUS modelo OHV-83. Información detallada pendiente.",
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
@@ -6987,7 +6615,6 @@
             "id": "ohv-7031",
             "name": "OHV-7031",
             "comercial_name": "Visitantes Exterior OHV-7031",
-            "material": "Polipropileno con imitación mimbre",
             "description": "Silla visitante exterior HAWAII modelo OHV-7031. Patas, asiento y respaldo terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
             "specifications": {
               "piezas": "Patas, asiento y respaldo terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
@@ -6995,16 +6622,6 @@
               "capacidad": "Peso sugerido 130 kg",
               "referencia": "EN581",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "fotos": {
-                "nombre": "Fotos OHV-7031",
-                "archivo": "ImagenesOHV-7031.pdf"
-              },
-              "ficha_tecnica": {
-                "nombre": "Ficha Técnica OHV-7031",
-                "archivo": "OHV-7031FT.jpg"
-              }
             },
             "breadcrumb": [
               {
@@ -7051,7 +6668,6 @@
             "id": "ohv-7030",
             "name": "OHV-7030",
             "comercial_name": "Visitantes Exterior OHV-7030",
-            "material": "Polipropileno con imitación mimbre",
             "description": "Silla visitante exterior TAHITI modelo OHV-7030. Respaldo, asiento y patas terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
             "specifications": {
               "piezas": "Respaldo, asiento y patas terminado en imitación mimbre de una sola pieza en polipropileno de alta resistencia y duración para intemperie, resistente a los rayos ultravioleta (UV) y al ambiente salino",
@@ -7060,26 +6676,6 @@
               "estibadas": "OHV-7030 caja 360",
               "referencia": "EN581",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "instructivo": {
-                "nombre": "Instructivo OHV-7030",
-                "archivo": "InstructivoOHV-7030.jpg"
-              },
-              "fotos": {
-                "nombre": "Fotos OHM-7030",
-                "archivo": "ImagenesOHM-7030.pdf"
-              },
-              "ficha_tecnica": {
-                "nombre": "Ficha Técnica OHV-7030",
-                "archivo": "OHV-7030FT.jpg"
-              },
-              "modelados_3d": [
-                {
-                  "tipo": "OBJ",
-                  "archivo": "THAHITI-OHV-7030.obj"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -7128,26 +6724,11 @@
             "id": "ohm-7023-st",
             "name": "OHM-7023-ST",
             "comercial_name": "Mesas MAGNOLIA OHM-7023-ST",
-            "material": "Banco: en polipropileno de alta resistencia y duración para intemperie e interior, resistente a los rayos ultravioleta (UV) y al ambiente salino con terminado en imitación rattán. Color: blanco (W8), gris (G6), cafe (N3), negro (K3).",
             "description": "Mesa MAGNOLIA modelo OHM-7023-ST. Banco de polipropileno de alta resistencia con terminado en imitación rattán.",
             "specifications": {
               "resistencia": "Peso sugerido 180 kgs",
               "leyenda": "Caja 360, COLECCIÓN DE TERMINADOS",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "instructivo": [
-                "InstructivoOHM-7023-STA.jpg"
-              ],
-              "fotos": [
-                "ImagenesOHM-7023-ST.pdf"
-              ],
-              "ficha_tecnica": [
-                "OHM-7023-STFT.jpg"
-              ],
-              "modelados_3d": [
-                "MAGNOLIA-OHM-7023ST.3ds"
-              ]
             },
             "breadcrumb": [
               {
@@ -7198,24 +6779,11 @@
             "id": "ohm-7095",
             "name": "OHM-7095",
             "comercial_name": "Mesas UNO OHM-7095",
-            "material": "Mesa: en polipropileno de alta resistencia y duración para intemperie e interior, resistente a los rayos ultravioleta (UV) y al ambiente salino. Color: blanco (W9), gris (G6), cafe (N3), negro (K3).",
             "description": "Mesa UNO modelo OHM-7095. Polipropileno de alta resistencia para intemperie e interior.",
             "specifications": {
               "resistencia": "Peso sugerido 80 kgs",
               "referencia": "BIFMA",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "fotos": [
-                "ImagenesOHM-7095.pdf"
-              ],
-              "ficha_tecnica": [
-                "OHM-7095.jpg"
-              ],
-              "modelados_3d": [
-                "OHM-7095.dwg",
-                "OHM-7095.obj"
-              ]
             },
             "breadcrumb": [
               {
@@ -7258,20 +6826,11 @@
             "id": "ohm-7035",
             "name": "OHM-7035",
             "comercial_name": "Mesas CANCÚUN OHM-7035",
-            "material": "Mesa: en polipropileno de alta resistencia y duración para intemperie e interior, resistente a los rayos ultravioleta (UV) y al ambiente salino; ajustable en dos alturas. Color: blanco (W9), gris (G6), negro (K3), cafe (N3), ambar (YF), pistache (V4).",
             "description": "Mesa CANCÚUN modelo OHM-7035. Polipropileno ajustable en dos alturas.",
             "specifications": {
               "resistencia": "Peso sugerido 60 kgs",
               "referencia": "BIFMA",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "fotos": [
-                "ImagenesOHM-7035.pdf"
-              ],
-              "ficha_tecnica": [
-                "OHM-7035FT.jpg"
-              ]
             },
             "breadcrumb": [
               {
@@ -7322,20 +6881,11 @@
             "id": "ohm-7101",
             "name": "OHM-7101",
             "comercial_name": "Mesas SEATTLE OHM-7101",
-            "material": "Mesa: en polipropileno de alta resistencia y duración para intemperie e interior, resistente a los rayos ultravioleta (UV) y al ambiente salino; ajustable en dos alturas. Color: blanco (W8), gris (G6), café (N3), negro (K5), verde agave (VD), ámbar (YF).",
             "description": "Mesa SEATTLE modelo OHM-7101. Polipropileno ajustable en dos alturas.",
             "specifications": {
               "resistencia": "Peso sugerido 5 kgs",
               "referencia": "BIFMA",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "fotos": [
-                "ImagenesOHM-7101.pdf"
-              ],
-              "ficha_tecnica": [
-                "OHM-7101FT.pdf"
-              ]
             },
             "breadcrumb": [
               {
@@ -7406,25 +6956,11 @@
             "id": "ohm-16",
             "name": "OHM-16",
             "comercial_name": "Mesas TONNATI OHM-16",
-            "material": "Mesa: en termoplastico polimerizado de polipropileno para intemperie e interior, resistente a los rayos ultravioleta (UV), al ambiente salino, a los cambios bruscos de temperatura y a corrosión de ácidos alc alinos; es inocuo y no guarda aromas. Color: blanco, negro y capuccino.",
             "description": "Mesa TONNATI modelo OHM-16. Termoplastico polimerizado resistente a intemperie.",
             "specifications": {
               "resistencia": "Peso sugerido 60 kgs",
               "referencia": "BIFMA",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "fotos": [
-                "ImagenesOHM-16.pdf"
-              ],
-              "ficha_tecnica": [
-                "OHM-16FT.pdf"
-              ],
-              "modelados_3d": [
-                "TONNATI_DWG.dwg",
-                "TONNATI_OBJ.obj",
-                "TONNATI_SKP.skp"
-              ]
             },
             "breadcrumb": [
               {
@@ -7467,7 +7003,6 @@
             "id": "ohm-70",
             "name": "OHM-70",
             "comercial_name": "Mesas MARBEL OHM-70",
-            "material": "Pendiente especificaciones",
             "description": "Mesa MARBEL modelo OHM-70. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -7506,7 +7041,6 @@
             "id": "ohm-60",
             "name": "OHM-60",
             "comercial_name": "Mesas MARBEL OHM-60",
-            "material": "Pendiente especificaciones",
             "description": "Mesa MARBEL modelo OHM-60. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -7552,24 +7086,11 @@
             "id": "ohm-7097",
             "name": "OHM-7097",
             "comercial_name": "Mesas CHLOE OHM-7097",
-            "material": "Mesa: en termoplástico polimerizado de polipropileno para intemperie e interior, resistente a los rayos ultravioleta (UV), al ambiente salino, a los cambios bruscos de temperatura y a corrosión de ácidos alcalinos; es inocuo y no guarda aromas. Color: blanco (W9), gris (G6), blanco/verde (W9/VC).",
             "description": "Mesa CHLOE modelo OHM-7097. Termoplástico polimerizado resistente a intemperie.",
             "specifications": {
               "resistencia": "Peso sugerido 100 kgs",
               "referencia": "BIFMA",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "fotos": [
-                "ImagenesOHM-7097.pdf"
-              ],
-              "ficha_tecnica": [
-                "OHM-7097FT.pdf"
-              ],
-              "modelados_3d": [
-                "OHM-7097_DWG.dwg",
-                "OHM-7097_OBJ.obj"
-              ]
             },
             "breadcrumb": [
               {
@@ -7612,7 +7133,6 @@
             "id": "ohm-7155",
             "name": "OHM-7155",
             "comercial_name": "Mesas VENICE OHM-7155",
-            "material": "Pendiente especificaciones",
             "description": "Mesa VENICE modelo OHM-7155. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -7658,20 +7178,11 @@
             "id": "ohm-47",
             "name": "OHM-47",
             "comercial_name": "Mesas QUICK OHM-47",
-            "material": "Estructura: de acero tubular redondo de 1 1/2\" de diámetro, calibre 16; con acabado de pintura epóxica (electrostática) color negro. Cubierta: en copolímero de polipropileno de alta densidad inyectado, en 5/8\" de espesor con embutido para lápiz. Color: negro.",
             "description": "Mesa QUICK modelo OHM-47. Estructura de acero tubular con cubierta de polipropileno de alta densidad.",
             "specifications": {
               "resistencia": "Peso sugerido 90 kgs",
               "referencia": "BIFMA",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "fotos": [
-                "ImagenesOHM-47.pdf"
-              ],
-              "ficha_tecnica": [
-                "OHM-47FT.jpg"
-              ]
             },
             "breadcrumb": [
               {
@@ -7704,7 +7215,6 @@
             "id": "pedestal300-bl",
             "name": "PEDESTAL300-BL",
             "comercial_name": "Mesas PEDESTAL300-BL",
-            "material": "Pendiente especificaciones",
             "description": "Mesa PEDESTAL300-BL. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -7766,7 +7276,6 @@
             "id": "oslo-base",
             "name": "OSLO",
             "comercial_name": "Mesas OSLO",
-            "material": "Pendiente especificaciones",
             "description": "Mesa OSLO. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -7798,7 +7307,6 @@
             "id": "russ-base",
             "name": "RUSS",
             "comercial_name": "Mesas RUSS",
-            "material": "Pendiente especificaciones",
             "description": "Mesa RUSS. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -7830,7 +7338,6 @@
             "id": "ohm-7167-dt",
             "name": "OHM-7167-DT",
             "comercial_name": "Mesas OULU OHM-7167-DT",
-            "material": "Pendiente especificaciones",
             "description": "Mesa OULU modelo OHM-7167-DT. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -7869,7 +7376,6 @@
             "id": "ohm-7167-lt",
             "name": "OHM-7167-LT",
             "comercial_name": "Mesas OULU OHM-7167-LT",
-            "material": "Pendiente especificaciones",
             "description": "Mesa OULU modelo OHM-7167-LT. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -7908,7 +7414,6 @@
             "id": "ohm-7167-bt",
             "name": "OHM-7167-BT",
             "comercial_name": "Mesas OULU OHM-7167-BT",
-            "material": "Pendiente especificaciones",
             "description": "Mesa OULU modelo OHM-7167-BT. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -7954,7 +7459,6 @@
             "id": "ohm-7168b-dt",
             "name": "OHM-7168B-DT",
             "comercial_name": "Mesas HERON-MESAS OHM-7168B-DT",
-            "material": "Pendiente especificaciones",
             "description": "Mesa HERON-MESAS modelo OHM-7168B-DT. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -7993,7 +7497,6 @@
             "id": "ohm-7168b-lt",
             "name": "OHM-7168B-LT",
             "comercial_name": "Mesas HERON-MESAS OHM-7168B-LT",
-            "material": "Pendiente especificaciones",
             "description": "Mesa HERON-MESAS modelo OHM-7168B-LT. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -8032,7 +7535,6 @@
             "id": "ohm-7168b-bt",
             "name": "OHM-7168B-BT",
             "comercial_name": "Mesas HERON-MESAS OHM-7168B-BT",
-            "material": "Pendiente especificaciones",
             "description": "Mesa HERON-MESAS modelo OHM-7168B-BT. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -8080,27 +7582,11 @@
             "id": "ohv-106",
             "name": "OHV-106",
             "comercial_name": "Confortables BLAIR OHV-106",
-            "material": "Estructura: de lámina de acero cortada doblada y troquelada, calibre 18; con acabado de pintura epóxica (electrostática) y terminado en imitación madera. Asiento, respaldo y brazos: base y arma zón en madera de triplay, hule espuma laminado flexible con densidad de 27 kgs/m³ y alta resiliencia.",
             "description": "Silla confortable BLAIR modelo OHV-106. Estructura de acero con acabado epóxico. Asiento y respaldo tapizado con hule espuma de alta calidad.",
             "specifications": {
               "resistencia": "Peso sugerido 160 kgs",
               "referencia": "BIFMA",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "instructivo": [
-                "InstructivoOHV-106A.jpg"
-              ],
-              "fotos": [
-                "ImagenesOHV-106.pdf"
-              ],
-              "ficha_tecnica": [
-                "OHV-106FT.jpg"
-              ],
-              "modelados_3d": [
-                "OHV_106.dwg",
-                "OHV_106.obj"
-              ]
             },
             "breadcrumb": [
               {
@@ -8147,27 +7633,11 @@
             "id": "ohv-120",
             "name": "OHV-120",
             "comercial_name": "Confortables BORSANI OHV-120",
-            "material": "Estructura: de acero tubular de 5/8\" de diámetro; con acabado de pintura epóxica (electrostática) color negro mate. Asiento, respaldo y brazos: base y arma zón en madera de triplay, hule espuma laminado flexible con densidad de 27 kgs/m³ y alta resiliencia.",
             "description": "Silla confortable BORSANI modelo OHV-120. Estructura de acero tubular con acabado epóxico. Asiento y respaldo tapizado con hule espuma de alta calidad.",
             "specifications": {
               "resistencia": "Peso sugerido 120 kgs",
               "referencia": "BIFMA",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "instructivo": [
-                "InstructivoOHV-120A.jpg"
-              ],
-              "fotos": [
-                "ImagenesOHV-120.pdf"
-              ],
-              "ficha_tecnica": [
-                "OHV-120FT.jpg"
-              ],
-              "modelados_3d": [
-                "OHV-120.dwg",
-                "OHV-120.obj"
-              ]
             },
             "breadcrumb": [
               {
@@ -8218,7 +7688,6 @@
             "id": "ohm-122",
             "name": "OHM-122",
             "comercial_name": "Confortables DIRK OHM-122",
-            "material": "Pendiente especificaciones",
             "description": "Silla confortable DIRK modelo OHM-122. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -8265,7 +7734,6 @@
             "id": "ohm-123",
             "name": "OHM-123",
             "comercial_name": "Confortables DIRK OHM-123",
-            "material": "Pendiente especificaciones",
             "description": "Silla confortable DIRK modelo OHM-123. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -8319,7 +7787,6 @@
             "id": "ohm-130",
             "name": "OHM-130",
             "comercial_name": "Confortables GUBI OHM-130",
-            "material": "Pendiente especificaciones",
             "description": "Silla confortable GUBI modelo OHM-130. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -8366,7 +7833,6 @@
             "id": "ohm-131",
             "name": "OHM-131",
             "comercial_name": "Confortables GUBI OHM-131",
-            "material": "Pendiente especificaciones",
             "description": "Silla confortable GUBI modelo OHM-131. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -8420,27 +7886,11 @@
             "id": "ohm-132",
             "name": "OHM-132",
             "comercial_name": "Confortables BUDI OHM-132",
-            "material": "Estructura: de acero tubular de 1/2\" de diámetro; con acabado de pintura epóxica (electrostática) color negro mate. Asiento: base y arma zón en madera de pino de primera calidad, hule espuma laminado flexible con densidad de 20 kgs/m³ y alta resiliencia. Tapiz: poliéster.",
             "description": "Silla confortable BUDI modelo OHM-132. Estructura de acero tubular con acabado epóxico. Asiento de madera de pino con tapiz de poliéster.",
             "specifications": {
               "resistencia": "Peso sugerido 110 kgs",
               "referencia": "BIFMA",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "instructivo": [
-                "InstructivoOHM-132A.jpg"
-              ],
-              "fotos": [
-                "ImagenesOHM-132.pdf"
-              ],
-              "ficha_tecnica": [
-                "OHM-132FT.jpg"
-              ],
-              "modelados_3d": [
-                "OHM-132.dwg",
-                "OHM-132.obj"
-              ]
             },
             "breadcrumb": [
               {
@@ -8491,7 +7941,6 @@
             "id": "ohm-7023-cc",
             "name": "OHM-7023-CC",
             "comercial_name": "Confortables MAGNOLIA OHM-7023-CC",
-            "material": "Pendiente especificaciones",
             "description": "Silla confortable MAGNOLIA modelo OHM-7023-CC. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -8538,7 +7987,6 @@
             "id": "ohm-7023-lc",
             "name": "OHM-7023-LC",
             "comercial_name": "Confortables MAGNOLIA OHM-7023-LC",
-            "material": "Pendiente especificaciones",
             "description": "Silla confortable MAGNOLIA modelo OHM-7023-LC. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -8585,7 +8033,6 @@
             "id": "ohm-7023-sf",
             "name": "OHM-7023-SF",
             "comercial_name": "Confortables MAGNOLIA OHM-7023-SF",
-            "material": "Pendiente especificaciones",
             "description": "Silla confortable MAGNOLIA modelo OHM-7023-SF. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -8632,7 +8079,6 @@
             "id": "ohm-7023-ot",
             "name": "OHM-7023-OT",
             "comercial_name": "Confortables MAGNOLIA OHM-7023-OT",
-            "material": "Pendiente especificaciones",
             "description": "Silla confortable MAGNOLIA modelo OHM-7023-OT. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -8686,7 +8132,6 @@
             "id": "ohm-7215cc",
             "name": "OHM-7215CC",
             "comercial_name": "Confortables LAUREL OHM-7215CC",
-            "material": "Pendiente especificaciones",
             "description": "Silla confortable LAUREL modelo OHM-7215CC. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -8733,7 +8178,6 @@
             "id": "ohm-7215s1",
             "name": "OHM-7215S1",
             "comercial_name": "Confortables LAUREL OHM-7215S1",
-            "material": "Pendiente especificaciones",
             "description": "Silla confortable LAUREL modelo OHM-7215S1. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -8780,7 +8224,6 @@
             "id": "ohm-7215lc",
             "name": "OHM-7215LC",
             "comercial_name": "Confortables LAUREL OHM-7215LC",
-            "material": "Pendiente especificaciones",
             "description": "Silla confortable LAUREL modelo OHM-7215LC. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -8827,7 +8270,6 @@
             "id": "ohm-7215sf",
             "name": "OHM-7215SF",
             "comercial_name": "Confortables LAUREL OHM-7215SF",
-            "material": "Pendiente especificaciones",
             "description": "Silla confortable LAUREL modelo OHM-7215SF. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -8874,7 +8316,6 @@
             "id": "ohm-7215cn",
             "name": "OHM-7215CN",
             "comercial_name": "Confortables LAUREL OHM-7215CN",
-            "material": "Pendiente especificaciones",
             "description": "Silla confortable LAUREL modelo OHM-7215CN. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -8921,7 +8362,6 @@
             "id": "ohm-7215ot",
             "name": "OHM-7215OT",
             "comercial_name": "Confortables LAUREL OHM-7215OT",
-            "material": "Pendiente especificaciones",
             "description": "Silla confortable LAUREL modelo OHM-7215OT. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -8960,7 +8400,6 @@
             "id": "ohm-7215ct",
             "name": "OHM-7215CT",
             "comercial_name": "Confortables LAUREL OHM-7215CT",
-            "material": "Pendiente especificaciones",
             "description": "Silla confortable LAUREL modelo OHM-7215CT. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -9008,7 +8447,6 @@
             "id": "ohr-2700-2p",
             "name": "OHR-2700-2P",
             "comercial_name": "Banca INNOVA OHR-2700-2P",
-            "material": "Pendiente especificaciones",
             "description": "Banca INNOVA modelo OHR-2700-2P. Información detallada pendiente.",
             "specifications": {
               "plazas": "2 plazas",
@@ -9056,7 +8494,6 @@
             "id": "ohr-2700-3p",
             "name": "OHR-2700-3P",
             "comercial_name": "Banca INNOVA OHR-2700-3P",
-            "material": "Pendiente especificaciones",
             "description": "Banca INNOVA modelo OHR-2700-3P. Información detallada pendiente.",
             "specifications": {
               "plazas": "3 plazas",
@@ -9104,7 +8541,6 @@
             "id": "ohr-2700-4p",
             "name": "OHR-2700-4P",
             "comercial_name": "Banca INNOVA OHR-2700-4P",
-            "material": "Pendiente especificaciones",
             "description": "Banca INNOVA modelo OHR-2700-4P. Información detallada pendiente.",
             "specifications": {
               "plazas": "4 plazas",
@@ -9152,7 +8588,6 @@
             "id": "ohr-2700-5p",
             "name": "OHR-2700-5P",
             "comercial_name": "Banca INNOVA OHR-2700-5P",
-            "material": "Pendiente especificaciones",
             "description": "Banca INNOVA modelo OHR-2700-5P. Información detallada pendiente.",
             "specifications": {
               "plazas": "5 plazas",
@@ -9207,7 +8642,6 @@
             "id": "ohr-2200-2p",
             "name": "OHR-2200-2P",
             "comercial_name": "Banca ELLITICO OHR-2200-2P",
-            "material": "Pendiente especificaciones",
             "description": "Banca ELLITICO modelo OHR-2200-2P. Información detallada pendiente.",
             "specifications": {
               "plazas": "2 plazas",
@@ -9255,7 +8689,6 @@
             "id": "ohr-2200-3p",
             "name": "OHR-2200-3P",
             "comercial_name": "Banca ELLITICO OHR-2200-3P",
-            "material": "Pendiente especificaciones",
             "description": "Banca ELLITICO modelo OHR-2200-3P. Información detallada pendiente.",
             "specifications": {
               "plazas": "3 plazas",
@@ -9303,7 +8736,6 @@
             "id": "ohr-2200-4p",
             "name": "OHR-2200-4P",
             "comercial_name": "Banca ELLITICO OHR-2200-4P",
-            "material": "Pendiente especificaciones",
             "description": "Banca ELLITICO modelo OHR-2200-4P. Información detallada pendiente.",
             "specifications": {
               "plazas": "4 plazas",
@@ -9351,7 +8783,6 @@
             "id": "ohr-2200-5p",
             "name": "OHR-2200-5P",
             "comercial_name": "Banca ELLITICO OHR-2200-5P",
-            "material": "Pendiente especificaciones",
             "description": "Banca ELLITICO modelo OHR-2200-5P. Información detallada pendiente.",
             "specifications": {
               "plazas": "5 plazas",
@@ -9406,7 +8837,6 @@
             "id": "ohr-2800-2pcr",
             "name": "OHR-2800-2PCR",
             "comercial_name": "Banca IVY-2800 OHR-2800-2PCR",
-            "material": "Pendiente especificaciones",
             "description": "Banca IVY-2800 modelo OHR-2800-2PCR. Información detallada pendiente.",
             "specifications": {
               "plazas": "2 plazas con cromado",
@@ -9454,7 +8884,6 @@
             "id": "ohr-2800-3pcr",
             "name": "OHR-2800-3PCR",
             "comercial_name": "Banca IVY-2800 OHR-2800-3PCR",
-            "material": "Pendiente especificaciones",
             "description": "Banca IVY-2800 modelo OHR-2800-3PCR. Información detallada pendiente.",
             "specifications": {
               "plazas": "3 plazas con cromado",
@@ -9506,7 +8935,6 @@
             "id": "ohr-2800-4pcr",
             "name": "OHR-2800-4PCR",
             "comercial_name": "Banca IVY-2800 OHR-2800-4PCR",
-            "material": "Pendiente especificaciones",
             "description": "Banca IVY-2800 modelo OHR-2800-4PCR. Información detallada pendiente.",
             "specifications": {
               "plazas": "4 plazas con cromado",
@@ -9563,7 +8991,6 @@
             "id": "ohp-2100",
             "name": "OHP-2100",
             "comercial_name": "Escolar OHP-2100",
-            "material": "Polipropileno de alta densidad",
             "description": "Silla escolar BLOW modelo OHP-2100. Base giratoria de 360° con rodajas tipo dual, monocasco con ventilación y soporte lumbar, paleta giratoria con porta iPad y portavasos.",
             "specifications": {
               "base": "Giratoria de 360° en polipropileno reciclable de alta densidad PP5 inerte, inocuo, resistente a sustancias corrosivas y calor de grado alimenticio, rodajas tipo dual",
@@ -9573,36 +9000,6 @@
               "resistencia": "Peso sugerido 130 kgs",
               "referencia": "BIFMA",
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "instructivo": {
-                "nombre": "Instructivo BLOW",
-                "archivo": "INSTRUCTIVO-BLOW.pdf"
-              },
-              "fotos": {
-                "nombre": "Fotos OHP-2100",
-                "archivo": "ImagenesOHP-2100.pdf"
-              },
-              "ficha_tecnica": {
-                "nombre": "Ficha Técnica OHP-2100",
-                "archivo": "OHP-2100FT.jpg"
-              },
-              "modelados_3d": [
-                {
-                  "tipo": "DWG",
-                  "archivo": "OHP-2100DWG.dwg"
-                },
-                {
-                  "tipo": "OBJ",
-                  "archivo": "OHP-2100OBJ.obj"
-                }
-              ],
-              "videos": [
-                {
-                  "nombre": "BLOW funcionalidad",
-                  "archivo": "BLOW-funcionalidad.mp4"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -9631,18 +9028,9 @@
             "id": "ohp-323",
             "name": "OHP-323",
             "comercial_name": "Escolar KYOS OHP-323",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar KYOS modelo OHP-323. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "videos": [
-                {
-                  "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                  "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -9690,18 +9078,9 @@
             "id": "ohp-324",
             "name": "OHP-324",
             "comercial_name": "Escolar KYOS OHP-324",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar KYOS modelo OHP-324. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "videos": [
-                {
-                  "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                  "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -9749,18 +9128,9 @@
             "id": "ohp-325cr",
             "name": "OHP-325cr",
             "comercial_name": "Escolar KYOS OHP-325cr",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar KYOS modelo OHP-325cr. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "videos": [
-                {
-                  "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                  "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -9808,18 +9178,9 @@
             "id": "ohp-326cr",
             "name": "OHP-326cr",
             "comercial_name": "Escolar KYOS OHP-326cr",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar KYOS modelo OHP-326cr. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "videos": [
-                {
-                  "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                  "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -9863,18 +9224,9 @@
             "id": "ohp-341",
             "name": "OHP-341",
             "comercial_name": "Escolar KYOS OHP-341",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar KYOS modelo OHP-341. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "videos": [
-                {
-                  "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                  "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -9922,18 +9274,9 @@
             "id": "ohp-342",
             "name": "OHP-342",
             "comercial_name": "Escolar KYOS OHP-342",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar KYOS modelo OHP-342. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "videos": [
-                {
-                  "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                  "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -9981,18 +9324,9 @@
             "id": "ohp-343cr",
             "name": "OHP-343cr",
             "comercial_name": "Escolar KYOS OHP-343cr",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar KYOS modelo OHP-343cr. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "videos": [
-                {
-                  "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                  "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -10040,18 +9374,9 @@
             "id": "ohp-344cr",
             "name": "OHP-344cr",
             "comercial_name": "Escolar KYOS OHP-344cr",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar KYOS modelo OHP-344cr. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "videos": [
-                {
-                  "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                  "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -10099,18 +9424,9 @@
             "id": "ohp-359",
             "name": "OHP-359",
             "comercial_name": "Escolar KYOS OHP-359",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar KYOS modelo OHP-359. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "videos": [
-                {
-                  "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                  "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -10158,18 +9474,9 @@
             "id": "ohp-360",
             "name": "OHP-360",
             "comercial_name": "Escolar KYOS OHP-360",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar KYOS modelo OHP-360. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "videos": [
-                {
-                  "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                  "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -10217,18 +9524,9 @@
             "id": "ohp-361cr",
             "name": "OHP-361cr",
             "comercial_name": "Escolar KYOS OHP-361cr",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar KYOS modelo OHP-361cr. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "videos": [
-                {
-                  "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                  "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -10276,18 +9574,9 @@
             "id": "ohp-362cr",
             "name": "OHP-362cr",
             "comercial_name": "Escolar KYOS OHP-362cr",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar KYOS modelo OHP-362cr. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "videos": [
-                {
-                  "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                  "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -10335,18 +9624,9 @@
             "id": "ohp-377",
             "name": "OHP-377",
             "comercial_name": "Escolar KYOS OHP-377",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar KYOS modelo OHP-377. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "videos": [
-                {
-                  "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                  "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -10394,18 +9674,9 @@
             "id": "ohp-378",
             "name": "OHP-378",
             "comercial_name": "Escolar KYOS OHP-378",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar KYOS modelo OHP-378. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "videos": [
-                {
-                  "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                  "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -10453,18 +9724,9 @@
             "id": "ohp-379cr",
             "name": "OHP-379cr",
             "comercial_name": "Escolar KYOS OHP-379cr",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar KYOS modelo OHP-379cr. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "videos": [
-                {
-                  "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                  "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -10512,18 +9774,9 @@
             "id": "ohp-380cr",
             "name": "OHP-380cr",
             "comercial_name": "Escolar KYOS OHP-380cr",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar KYOS modelo OHP-380cr. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
-            },
-            "recursos": {
-              "videos": [
-                {
-                  "nombre": "SILLA-KYOS-by-SCAGNELLATO",
-                  "archivo": "SILLA-KYOS-by-SCAGNELLATO.mp4"
-                }
-              ]
             },
             "breadcrumb": [
               {
@@ -10578,7 +9831,6 @@
             "id": "ohp-85",
             "name": "OHP-85",
             "comercial_name": "Escolar REVOLUTION OHP-85",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar REVOLUTION modelo OHP-85. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -10629,7 +9881,6 @@
             "id": "ohp-85cr",
             "name": "OHP-85cr",
             "comercial_name": "Escolar REVOLUTION OHP-85cr",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar REVOLUTION modelo OHP-85cr. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -10680,7 +9931,6 @@
             "id": "ohp-86",
             "name": "OHP-86",
             "comercial_name": "Escolar REVOLUTION OHP-86",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar REVOLUTION modelo OHP-86. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -10731,7 +9981,6 @@
             "id": "ohp-86cr",
             "name": "OHP-86cr",
             "comercial_name": "Escolar REVOLUTION OHP-86cr",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar REVOLUTION modelo OHP-86cr. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -10782,7 +10031,6 @@
             "id": "ohp-87",
             "name": "OHP-87",
             "comercial_name": "Escolar REVOLUTION OHP-87",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar REVOLUTION modelo OHP-87. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -10833,7 +10081,6 @@
             "id": "ohp-87cr",
             "name": "OHP-87cr",
             "comercial_name": "Escolar REVOLUTION OHP-87cr",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar REVOLUTION modelo OHP-87cr. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -10884,7 +10131,6 @@
             "id": "ohp-88",
             "name": "OHP-88",
             "comercial_name": "Escolar REVOLUTION OHP-88",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar REVOLUTION modelo OHP-88. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -10935,7 +10181,6 @@
             "id": "ohp-88cr",
             "name": "OHP-88cr",
             "comercial_name": "Escolar REVOLUTION OHP-88cr",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar REVOLUTION modelo OHP-88cr. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -10993,7 +10238,6 @@
             "id": "ohp-102",
             "name": "OHP-102",
             "comercial_name": "Escolar ALPHA OHP-102",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar ALPHA modelo OHP-102. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -11040,7 +10284,6 @@
             "id": "ohp-107",
             "name": "OHP-107",
             "comercial_name": "Escolar ALPHA OHP-107",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar ALPHA modelo OHP-107. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -11094,7 +10337,6 @@
             "id": "ohp-2200",
             "name": "OHP-2200",
             "comercial_name": "Escolar ELLITICO COLLECTION OHP-2200",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar ELLITICO COLLECTION modelo OHP-2200. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -11123,7 +10365,6 @@
             "id": "ohp-2302",
             "name": "OHP-2302",
             "comercial_name": "Escolar ELLITICO COLLECTION OHP-2302",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar ELLITICO COLLECTION modelo OHP-2302. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -11152,7 +10393,6 @@
             "id": "ohp-2320",
             "name": "OHP-2320",
             "comercial_name": "Escolar ELLITICO COLLECTION OHP-2320",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar ELLITICO COLLECTION modelo OHP-2320. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -11188,7 +10428,6 @@
             "id": "ohp-2600",
             "name": "OHP-2600",
             "comercial_name": "Escolar ELLITICO OHP-2600",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar ELLITICO modelo OHP-2600. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -11217,7 +10456,6 @@
             "id": "ohp-2300",
             "name": "OHP-2300",
             "comercial_name": "Escolar ELLITICO OHP-2300",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar ELLITICO modelo OHP-2300. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -11246,7 +10484,6 @@
             "id": "ohp-2301",
             "name": "OHP-2301",
             "comercial_name": "Escolar ELLITICO OHP-2301",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar ELLITICO modelo OHP-2301. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -11282,7 +10519,6 @@
             "id": "ohp-2700",
             "name": "OHP-2700",
             "comercial_name": "Escolar INNOVA OHP-2700",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar INNOVA modelo OHP-2700. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -11321,7 +10557,6 @@
             "id": "ohp-2307",
             "name": "OHP-2307",
             "comercial_name": "Escolar INNOVA OHP-2307",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar INNOVA modelo OHP-2307. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"
@@ -11360,7 +10595,6 @@
             "id": "ohp-2308",
             "name": "OHP-2308",
             "comercial_name": "Escolar INNOVA OHP-2308",
-            "material": "Pendiente especificaciones",
             "description": "Silla escolar INNOVA modelo OHP-2308. Información detallada pendiente.",
             "specifications": {
               "nota_general": "El color puede variar dependiendo de su monitor"

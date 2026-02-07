@@ -14,7 +14,6 @@
         {
           "id": "ohe-405",
           "name": "ALUFSEN modelo OHE-405",
-          "material": "Piel sintética suave color negro",
           "description": "Silla directiva de respaldo alto con cabecera, tapizada en piel sintética suave color negro y diseñada para uso exigente hasta 160 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en fundición de aluminio, terminado pulido, con rodajas tipo dual",
@@ -48,7 +47,6 @@
         {
           "id": "ohv-408",
           "name": "ALUFSEN modelo OHV-408",
-          "material": "Piel sintética suave color negro",
           "description": "Silla directiva de respaldo bajo tipo trineo, tapizada en piel sintética suave color negro y diseñada para soportar hasta 120 kg.",
           "specifications": {
             "base": "Tipo trineo de acero tubular rectangular de 1 1/2\" x 3/4\", calibre 14, con terminado en cromo",
@@ -87,7 +85,6 @@
         {
           "id": "ohe-305",
           "name": "CIANI modelo OHE-305 negro",
-          "material": "Piel sintética suave (soft revolving leather) color negro",
           "description": "Silla directiva de respaldo alto, tapizada en piel sintética suave (soft revolving leather) color negro, con resistencia sugerida hasta 160 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en aluminio fundido y pulido, con rodajas tipo dual",
@@ -122,7 +119,6 @@
         {
           "id": "ohe-303",
           "name": "CIANI modelo OHE-303 negro",
-          "material": "Piel sintética suave (soft revolving leather) color negro",
           "description": "Silla directiva de respaldo alto tapizada en piel sintética suave (soft revolving leather) color negro, con resistencia sugerida hasta 160 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en aluminio fundido y pulido, con rodajas tipo dual",
@@ -149,7 +145,6 @@
         {
           "id": "ohv-308",
           "name": "CIANI modelo OHV-308 negro",
-          "material": "Piel sintética suave (soft revolving leather) color negro",
           "description": "Silla directiva de respaldo alto con base tipo trineo, tapizada en piel sintética suave (soft revolving leather) color negro, con resistencia sugerida hasta 120 kg.",
           "specifications": {
             "base": "Tipo trineo de acero tubular rectangular de 1 1/2\" x 3/4\", calibre 14, con terminado en cromo",
@@ -189,7 +184,6 @@
         {
           "id": "ohe-205",
           "name": "GOETZ modelo OHE-205 negro",
-          "material": "Soft revolving leather color negro",
           "description": "Silla directiva de respaldo alto, tapizada en soft revolving leather color negro, con resistencia sugerida de hasta 120 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en aluminio fundido y pulido, con rodajas tipo dual",
@@ -224,7 +218,6 @@
         {
           "id": "ohe-203",
           "name": "GOETZ modelo OHE-203 negro",
-          "material": "Soft revolving leather color negro",
           "description": "Silla directiva de respaldo bajo, tapizada en soft revolving leather color negro, con peso sugerido de uso hasta 120 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en aluminio fundido y pulido, con rodajas tipo dual",
@@ -259,7 +252,6 @@
         {
           "id": "ohv-208",
           "name": "GOETZ modelo OHV-208 negro",
-          "material": "Soft revolving leather color negro",
           "description": "Silla directiva de respaldo bajo con base tipo trineo, tapizada en soft revolving leather color negro, con peso sugerido de uso hasta 120 kg.",
           "specifications": {
             "base": "Trineo de acero tubular redondo de 1\" de diámetro, calibre 14, con terminado en cromo",
@@ -299,7 +291,6 @@
         {
           "id": "ohe-165",
           "name": "FENIX modelo OHE-165 negro",
-          "material": "Soft revolving leather color negro",
           "description": "Silla directiva de respaldo alto, tapizada en soft revolving leather color negro, con resistencia sugerida de 150 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en acero fundido y cromado, con rodajas tipo dual de 60 mm",
@@ -335,7 +326,6 @@
         {
           "id": "ohe-163",
           "name": "FENIX modelo OHE-163 negro",
-          "material": "Soft revolving leather color negro",
           "description": "Silla directiva de respaldo medio, tapizada en soft revolving leather color negro, con peso sugerido de uso hasta 150 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en acero fundido y cromado, con rodajas tipo dual de 60 mm",
@@ -378,7 +368,6 @@
         {
           "id": "vanto-ohv-78",
           "name": "VANTO modelo OHV-78",
-          "material": "Soft revolving leather color negro mate",
           "description": "Silla directiva de respaldo medio con base tipo trineo, tapizada en soft revolving leather color negro mate, con peso sugerido de uso hasta 140 kg.",
           "specifications": {
             "base": "Trineo en acero tubular redondo, de una sola pieza soldado a la estructura, con acabado cromado en la estructura y aluminio pulido en los brazos",
@@ -420,7 +409,6 @@
         {
           "id": "travis-ohe-295",
           "name": "TRAVIS modelo OHE-295 negro",
-          "material": "Malla color negro",
           "description": "Silla directiva de respaldo alto en malla color negro, con peso sugerido de uso hasta 120 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida con cubierta de lámina de acero cromada y rodajas tipo dual",

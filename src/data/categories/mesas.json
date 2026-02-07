@@ -15,26 +15,11 @@
           "id": "ohm-7023-st",
           "name": "OHM-7023-ST",
           "comercial_name": "Mesas MAGNOLIA OHM-7023-ST",
-          "material": "Banco: en polipropileno de alta resistencia y duración para intemperie e interior, resistente a los rayos ultravioleta (UV) y al ambiente salino con terminado en imitación rattán. Color: blanco (W8), gris (G6), cafe (N3), negro (K3).",
           "description": "Mesa MAGNOLIA modelo OHM-7023-ST. Banco de polipropileno de alta resistencia con terminado en imitación rattán.",
           "specifications": {
             "resistencia": "Peso sugerido 180 kgs",
             "leyenda": "Caja 360, COLECCIÓN DE TERMINADOS",
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "instructivo": [
-              "InstructivoOHM-7023-STA.jpg"
-            ],
-            "fotos": [
-              "ImagenesOHM-7023-ST.pdf"
-            ],
-            "ficha_tecnica": [
-              "OHM-7023-STFT.jpg"
-            ],
-            "modelados_3d": [
-              "MAGNOLIA-OHM-7023ST.3ds"
-            ]
           },
           "breadcrumb": [
             {
@@ -85,24 +70,11 @@
           "id": "ohm-7095",
           "name": "OHM-7095",
           "comercial_name": "Mesas UNO OHM-7095",
-          "material": "Mesa: en polipropileno de alta resistencia y duración para intemperie e interior, resistente a los rayos ultravioleta (UV) y al ambiente salino. Color: blanco (W9), gris (G6), cafe (N3), negro (K3).",
           "description": "Mesa UNO modelo OHM-7095. Polipropileno de alta resistencia para intemperie e interior.",
           "specifications": {
             "resistencia": "Peso sugerido 80 kgs",
             "referencia": "BIFMA",
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "fotos": [
-              "ImagenesOHM-7095.pdf"
-            ],
-            "ficha_tecnica": [
-              "OHM-7095.jpg"
-            ],
-            "modelados_3d": [
-              "OHM-7095.dwg",
-              "OHM-7095.obj"
-            ]
           },
           "breadcrumb": [
             {
@@ -145,20 +117,11 @@
           "id": "ohm-7035",
           "name": "OHM-7035",
           "comercial_name": "Mesas CANCÚUN OHM-7035",
-          "material": "Mesa: en polipropileno de alta resistencia y duración para intemperie e interior, resistente a los rayos ultravioleta (UV) y al ambiente salino; ajustable en dos alturas. Color: blanco (W9), gris (G6), negro (K3), cafe (N3), ambar (YF), pistache (V4).",
           "description": "Mesa CANCÚUN modelo OHM-7035. Polipropileno ajustable en dos alturas.",
           "specifications": {
             "resistencia": "Peso sugerido 60 kgs",
             "referencia": "BIFMA",
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "fotos": [
-              "ImagenesOHM-7035.pdf"
-            ],
-            "ficha_tecnica": [
-              "OHM-7035FT.jpg"
-            ]
           },
           "breadcrumb": [
             {
@@ -209,20 +172,11 @@
           "id": "ohm-7101",
           "name": "OHM-7101",
           "comercial_name": "Mesas SEATTLE OHM-7101",
-          "material": "Mesa: en polipropileno de alta resistencia y duración para intemperie e interior, resistente a los rayos ultravioleta (UV) y al ambiente salino; ajustable en dos alturas. Color: blanco (W8), gris (G6), café (N3), negro (K5), verde agave (VD), ámbar (YF).",
           "description": "Mesa SEATTLE modelo OHM-7101. Polipropileno ajustable en dos alturas.",
           "specifications": {
             "resistencia": "Peso sugerido 5 kgs",
             "referencia": "BIFMA",
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "fotos": [
-              "ImagenesOHM-7101.pdf"
-            ],
-            "ficha_tecnica": [
-              "OHM-7101FT.pdf"
-            ]
           },
           "breadcrumb": [
             {
@@ -293,25 +247,11 @@
           "id": "ohm-16",
           "name": "OHM-16",
           "comercial_name": "Mesas TONNATI OHM-16",
-          "material": "Mesa: en termoplastico polimerizado de polipropileno para intemperie e interior, resistente a los rayos ultravioleta (UV), al ambiente salino, a los cambios bruscos de temperatura y a corrosión de ácidos alc alinos; es inocuo y no guarda aromas. Color: blanco, negro y capuccino.",
           "description": "Mesa TONNATI modelo OHM-16. Termoplastico polimerizado resistente a intemperie.",
           "specifications": {
             "resistencia": "Peso sugerido 60 kgs",
             "referencia": "BIFMA",
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "fotos": [
-              "ImagenesOHM-16.pdf"
-            ],
-            "ficha_tecnica": [
-              "OHM-16FT.pdf"
-            ],
-            "modelados_3d": [
-              "TONNATI_DWG.dwg",
-              "TONNATI_OBJ.obj",
-              "TONNATI_SKP.skp"
-            ]
           },
           "breadcrumb": [
             {
@@ -354,7 +294,6 @@
           "id": "ohm-70",
           "name": "OHM-70",
           "comercial_name": "Mesas MARBEL OHM-70",
-          "material": "Pendiente especificaciones",
           "description": "Mesa MARBEL modelo OHM-70. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -393,7 +332,6 @@
           "id": "ohm-60",
           "name": "OHM-60",
           "comercial_name": "Mesas MARBEL OHM-60",
-          "material": "Pendiente especificaciones",
           "description": "Mesa MARBEL modelo OHM-60. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -439,24 +377,11 @@
           "id": "ohm-7097",
           "name": "OHM-7097",
           "comercial_name": "Mesas CHLOE OHM-7097",
-          "material": "Mesa: en termoplástico polimerizado de polipropileno para intemperie e interior, resistente a los rayos ultravioleta (UV), al ambiente salino, a los cambios bruscos de temperatura y a corrosión de ácidos alcalinos; es inocuo y no guarda aromas. Color: blanco (W9), gris (G6), blanco/verde (W9/VC).",
           "description": "Mesa CHLOE modelo OHM-7097. Termoplástico polimerizado resistente a intemperie.",
           "specifications": {
             "resistencia": "Peso sugerido 100 kgs",
             "referencia": "BIFMA",
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "fotos": [
-              "ImagenesOHM-7097.pdf"
-            ],
-            "ficha_tecnica": [
-              "OHM-7097FT.pdf"
-            ],
-            "modelados_3d": [
-              "OHM-7097_DWG.dwg",
-              "OHM-7097_OBJ.obj"
-            ]
           },
           "breadcrumb": [
             {
@@ -499,7 +424,6 @@
           "id": "ohm-7155",
           "name": "OHM-7155",
           "comercial_name": "Mesas VENICE OHM-7155",
-          "material": "Pendiente especificaciones",
           "description": "Mesa VENICE modelo OHM-7155. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -545,20 +469,11 @@
           "id": "ohm-47",
           "name": "OHM-47",
           "comercial_name": "Mesas QUICK OHM-47",
-          "material": "Estructura: de acero tubular redondo de 1 1/2\" de diámetro, calibre 16; con acabado de pintura epóxica (electrostática) color negro. Cubierta: en copolímero de polipropileno de alta densidad inyectado, en 5/8\" de espesor con embutido para lápiz. Color: negro.",
           "description": "Mesa QUICK modelo OHM-47. Estructura de acero tubular con cubierta de polipropileno de alta densidad.",
           "specifications": {
             "resistencia": "Peso sugerido 90 kgs",
             "referencia": "BIFMA",
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "fotos": [
-              "ImagenesOHM-47.pdf"
-            ],
-            "ficha_tecnica": [
-              "OHM-47FT.jpg"
-            ]
           },
           "breadcrumb": [
             {
@@ -591,7 +506,6 @@
           "id": "pedestal300-bl",
           "name": "PEDESTAL300-BL",
           "comercial_name": "Mesas PEDESTAL300-BL",
-          "material": "Pendiente especificaciones",
           "description": "Mesa PEDESTAL300-BL. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -653,7 +567,6 @@
           "id": "oslo-base",
           "name": "OSLO",
           "comercial_name": "Mesas OSLO",
-          "material": "Pendiente especificaciones",
           "description": "Mesa OSLO. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -685,7 +598,6 @@
           "id": "russ-base",
           "name": "RUSS",
           "comercial_name": "Mesas RUSS",
-          "material": "Pendiente especificaciones",
           "description": "Mesa RUSS. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -717,7 +629,6 @@
           "id": "ohm-7167-dt",
           "name": "OHM-7167-DT",
           "comercial_name": "Mesas OULU OHM-7167-DT",
-          "material": "Pendiente especificaciones",
           "description": "Mesa OULU modelo OHM-7167-DT. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -756,7 +667,6 @@
           "id": "ohm-7167-lt",
           "name": "OHM-7167-LT",
           "comercial_name": "Mesas OULU OHM-7167-LT",
-          "material": "Pendiente especificaciones",
           "description": "Mesa OULU modelo OHM-7167-LT. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -795,7 +705,6 @@
           "id": "ohm-7167-bt",
           "name": "OHM-7167-BT",
           "comercial_name": "Mesas OULU OHM-7167-BT",
-          "material": "Pendiente especificaciones",
           "description": "Mesa OULU modelo OHM-7167-BT. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -841,7 +750,6 @@
           "id": "ohm-7168b-dt",
           "name": "OHM-7168B-DT",
           "comercial_name": "Mesas HERON-MESAS OHM-7168B-DT",
-          "material": "Pendiente especificaciones",
           "description": "Mesa HERON-MESAS modelo OHM-7168B-DT. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -880,7 +788,6 @@
           "id": "ohm-7168b-lt",
           "name": "OHM-7168B-LT",
           "comercial_name": "Mesas HERON-MESAS OHM-7168B-LT",
-          "material": "Pendiente especificaciones",
           "description": "Mesa HERON-MESAS modelo OHM-7168B-LT. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -919,7 +826,6 @@
           "id": "ohm-7168b-bt",
           "name": "OHM-7168B-BT",
           "comercial_name": "Mesas HERON-MESAS OHM-7168B-BT",
-          "material": "Pendiente especificaciones",
           "description": "Mesa HERON-MESAS modelo OHM-7168B-BT. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"

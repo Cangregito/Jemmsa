@@ -14,7 +14,6 @@
         {
           "id": "ohe-99negro",
           "name": "EVOLUTION modelo OHE-99negro",
-          "material": "Malla negra",
           "description": "Silla operativa con respaldo y asiento en malla negra, mecanismo reclinable y peso sugerido de uso hasta 100 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -50,7 +49,6 @@
         {
           "id": "ohe-99gris",
           "name": "EVOLUTION modelo OHE-99gris",
-          "material": "Malla verde",
           "description": "Silla operativa con respaldo y asiento en malla color verde, mecanismo reclinable y peso sugerido de uso hasta 100 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -93,7 +91,6 @@
         {
           "id": "ohe-111gris",
           "name": "DOLPHIN modelo OHE-111gris",
-          "material": "Malla gris y tela gris",
           "description": "Silla operativa DOLPHIN modelo OHE-111gris en malla gris, con mecanismo reclinable, brazos abatibles y peso sugerido 130 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "Estrella 5 puntas en poliamida con rodajas tipo dual",
@@ -125,7 +122,6 @@
         {
           "id": "ohv-111gris",
           "name": "DOLPHIN modelo OHV-111gris",
-          "material": "Malla gris y tela gris",
           "description": "Silla visita DOLPHIN modelo OHV-111gris tipo trineo, estructura acero tubular, brazos abatibles, peso sugerido 130 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "estructura": "Tipo trineo acero tubular 1\" diámetro, calibre 14, acabado pintura epóxica color gris",
@@ -159,7 +155,6 @@
         {
           "id": "ohe-111negro",
           "name": "DOLPHIN modelo OHE-111negro",
-          "material": "Malla negra y tela negra",
           "description": "Silla operativa DOLPHIN modelo OHE-111negro en malla negra, con mecanismo reclinable, brazos abatibles y peso sugerido 130 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "Estrella 5 puntas en poliamida con rodajas tipo dual",
@@ -195,7 +190,6 @@
         {
           "id": "ohv-111negro",
           "name": "DOLPHIN modelo OHV-111negro",
-          "material": "Malla negra y tela negra",
           "description": "Silla visita DOLPHIN modelo OHV-111negro tipo trineo, estructura acero tubular, brazos abatibles, peso sugerido 130 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "estructura": "Tipo trineo acero tubular 1\" diámetro, calibre 14, acabado pintura epóxica color negro",
@@ -236,7 +230,6 @@
         {
           "id": "ohe-65negro",
           "name": "BOSSE modelo OHE-65negro",
-          "material": "Malla negra y tela negra",
           "description": "Silla operativa BOSSE modelo OHE-65negro con cabecera, mecanismo reclinable con perilla de tensión, brazos ajustables 7 posiciones, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "Estrella 5 puntas en poliamida con rodajas tipo dual",
@@ -272,7 +265,6 @@
         {
           "id": "ohe-63negro",
           "name": "BOSSE modelo OHE-63negro",
-          "material": "Malla negra y tela negra",
           "description": "Silla operativa BOSSE modelo OHE-63negro sin cabecera, mecanismo reclinable con perilla de tensión, brazos ajustables 7 posiciones, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "Estrella 5 puntas en poliamida con rodajas tipo dual",
@@ -308,7 +300,6 @@
         {
           "id": "ohv-68negro",
           "name": "BOSSE modelo OHV-68negro",
-          "material": "Malla negra y tela negra",
           "description": "Silla visita BOSSE modelo OHV-68negro tipo trineo, estructura acero tubular, brazos semirrígidos con pad, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "estructura": "Tipo trineo acero tubular, acabado al tono del modelo OHE-63/OHE-65",
@@ -349,7 +340,6 @@
         {
           "id": "ohe-84gris",
           "name": "MOUSE modelo OHE-84gris",
-          "material": "Malla gris y tela al color",
           "description": "Silla operativa MOUSE modelo OHE-84gris con respaldo en malla gris, mecanismo reclinable con perilla de tensión, brazos de polipropileno semi-rígido, asiento con espuma de 40 kg/m³, peso sugerido 130 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -385,7 +375,6 @@
         {
           "id": "ohe-84negro",
           "name": "MOUSE modelo OHE-84negro",
-          "material": "Malla negra y tela negra",
           "description": "Silla operativa MOUSE modelo OHE-84negro con respaldo en malla negra, mecanismo reclinable con perilla de tensión, brazos de polipropileno semi-rígido, asiento con espuma de 40 kg/m³, peso sugerido 130 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -428,7 +417,6 @@
         {
           "id": "ohe-98gris",
           "name": "FLASH modelo OHE-98gris",
-          "material": "Malla gris y tela al color",
           "description": "Silla operativa FLASH modelo OHE-98gris con respaldo en malla gris, mecanismo reclinable con perilla de tensión, brazos de polipropileno semi-rígido, asiento de poliuretano inyectado 60 kg/m³ con retardante a la flama, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -464,7 +452,6 @@
         {
           "id": "ohe-98negro",
           "name": "FLASH modelo OHE-98negro",
-          "material": "Malla negra y tela negra",
           "description": "Silla operativa FLASH modelo OHE-98negro con respaldo en malla negra, mecanismo reclinable con perilla de tensión, brazos de polipropileno semi-rígido, asiento de poliuretano inyectado 60 kg/m³ con retardante a la flama, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -507,7 +494,6 @@
         {
           "id": "ohe-175",
           "name": "COZY modelo OHE-175",
-          "material": "Malla negra y tela negra",
           "description": "Silla operativa COZY modelo OHE-175 con cabecera ajustable, respaldo en malla con soporte lumbar ajustable, mecanismo reclinable con perilla de tensión, brazos ajustables 5 posiciones con pad, asiento de espuma 40 kg/m³ con retardante a la flama, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -543,7 +529,6 @@
         {
           "id": "ohe-173",
           "name": "COZY modelo OHE-173",
-          "material": "Malla negra y tela negra",
           "description": "Silla operativa COZY modelo OHE-173 sin cabecera, respaldo en malla con soporte lumbar ajustable, mecanismo reclinable con perilla de tensión, brazos ajustables 5 posiciones con pad, asiento de espuma 40 kg/m³ con retardante a la flama, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -582,7 +567,6 @@
         {
           "id": "ohe-55negrocr",
           "name": "WIND modelo OHE-55negrocr",
-          "material": "Malla negra y tela negra",
           "description": "Silla operativa con respaldo en malla, asiento tapizado en tela negra y peso sugerido de uso hasta 120 kg.",
           "specifications": {
             "base": "Estrella de 5 puntas en acero cromado con rodajas tipo dual",
@@ -607,7 +591,6 @@
         {
           "id": "ohe-94plusgris",
           "name": "SLINGPLUS modelo OHE-94plusgris",
-          "material": "Malla gris y tela gris",
           "description": "Silla operativa SLINGPLUS modelo OHE-94plusgris de la Colección Office CREP, base estrella metal cromado, mecanismo reclinable con perilla de tensión, brazos polipropileno semi-rígido, respaldo malla ergonómico, asiento poliuretano inyectado 60 kg/m³ con retardante a la flama, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "Estrella de 5 puntas en metal, terminada en cromo y con rodajas tipo dual",
@@ -625,7 +608,6 @@
         {
           "id": "ohv-94plusgris",
           "name": "SLINGPLUS modelo OHV-94plusgris",
-          "material": "Malla gris y tela gris",
           "description": "Silla visita SLINGPLUS modelo OHV-94plusgris de la Colección Office CREP, estructura trineo acero tubular cromado, brazos polipropileno semi-rígido, respaldo malla ergonómico, asiento poliuretano inyectado 60 kg/m³ con retardante a la flama, peso sugerido 110 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "estructura": "Trineo de acero tubular de 1\" de diámetro, calibre 14; soporte del asiento en lámina de acero con terminado en cromo",
@@ -641,7 +623,6 @@
         {
           "id": "ohe-94plusnegro",
           "name": "SLINGPLUS modelo OHE-94plusnegro",
-          "material": "Malla negra y tela negra",
           "description": "Silla operativa SLINGPLUS modelo OHE-94plusnegro de la Colección de Terminados Malla, base estrella poliamida, mecanismo reclinable con perilla de tensión, brazos polipropileno semi-rígido, respaldo malla ergonómico, asiento poliuretano inyectado 60 kg/m³ con retardante a la flama, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida, con rodajas tipo dual",
@@ -659,7 +640,6 @@
         {
           "id": "ohv-94plusnegrocr",
           "name": "SLINGPLUS modelo OHV-94plusnegrocr",
-          "material": "Malla negra y tela negra",
           "description": "Silla visita SLINGPLUS modelo OHV-94plusnegrocr de Terminado Malla, estructura trineo acero tubular cromado, brazos polipropileno semi-rígido, respaldo malla ergonómico, asiento poliuretano inyectado 60 kg/m³ con retardante a la flama, peso sugerido 110 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "estructura": "Trineo de acero tubular de 1\" de diámetro, calibre 14; soporte del asiento en lámina de acero con terminado en cromo",
@@ -675,7 +655,6 @@
         {
           "id": "ohv-94plusnegro",
           "name": "SLINGPLUS modelo OHV-94plusnegro",
-          "material": "Malla negra y tela negra",
           "description": "Silla visita SLINGPLUS modelo OHV-94plusnegro de la Colección de Terminados Malla, estructura trineo acero tubular con pintura epóxica negro mate, brazos polipropileno semi-rígido, respaldo malla ergonómico, asiento poliuretano inyectado 60 kg/m³ con retardante a la flama, peso sugerido 110 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "estructura": "Trineo de acero tubular de 1\" de diámetro, calibre 14; soporte del asiento en lámina de acero (plato) con acabado de pintura epóxica color negro mate",
@@ -698,7 +677,6 @@
         {
           "id": "ohs-30",
           "name": "VENTO modelo OHS-30",
-          "material": "Malla de elastano negra",
           "description": "Silla operativa VENTO modelo OHS-30 con respaldo y asiento en malla de elastano negra, brazos fijos, pistón neumático para ajuste de altura. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -721,7 +699,6 @@
         {
           "id": "roly-base",
           "name": "ROLY modelo base",
-          "material": "Malla y tela",
           "description": "Silla operativa de la familia ROLY. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
           "specifications": {
             "nota": "El color puede variar dependiendo del monitor",
@@ -740,7 +717,6 @@
         {
           "id": "ohe-100blanca",
           "name": "WHALE modelo OHE-100blanca",
-          "material": "Malla gris y tela al color",
           "description": "Silla operativa WHALE modelo OHE-100blanca (Colección Office CREP) con respaldo en bastidor de polipropileno de alta resistencia, mecanismo synchro reclinable con palanca de bloqueo, brazos de polipropileno semi-rígido y asiento en espuma 30 kg/m³. Peso sugerido 120 kg. Alturas aumentan con pistón cajero de 240 mm. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida, rodajas tipo dual",
@@ -780,7 +756,6 @@
         {
           "id": "ohe-100negro",
           "name": "WHALE modelo OHE-100negro",
-          "material": "Malla negra y tela negra",
           "description": "Silla operativa WHALE modelo OHE-100negro con respaldo en bastidor de polipropileno de alta resistencia, mecanismo synchro reclinable con palanca de bloqueo, brazos de polipropileno semi-rígido y asiento en espuma 30 kg/m³. Peso sugerido 120 kg. Alturas aumentan con pistón cajero de 240 mm. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida, rodajas tipo dual",
@@ -827,7 +802,6 @@
         {
           "id": "ohs-41negro",
           "name": "WIDE modelo OHS-41negro",
-          "material": "Malla negra y tela poliéster",
           "description": "Silla operativa WIDE modelo OHS-41negro de respaldo alto para uso rudo (large size), peso sugerido 180 kg. Respaldo ergonómico con soporte lumbar ajustable, brazos 4D ajustables 7 posiciones, mecanismo reclinable. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "Estrella pentagonal acero troquelado color negro con tapa decorativa cromada",
@@ -852,7 +826,6 @@
         {
           "id": "ohe-2003negro",
           "name": "MORICO modelo OHE-2003negro",
-          "material": "Polímero ventilado y tela negra",
           "description": "Silla operativa MORICO modelo OHE-2003negro con respaldo de polímero ventilado, asiento tapizado en tela negra, mecanismo Donati de última generación, peso sugerido 140 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida con rodajas tipo dual",
@@ -877,7 +850,6 @@
         {
           "id": "ohe-2006gris",
           "name": "LUKE modelo OHE-2006gris",
-          "material": "Tela color gris",
           "description": "Silla operativa LUKE modelo OHE-2006gris con base en poliamida blanca, mecanismo Synchro inteligente Smart Tilt con anti-shock y bloqueo en 4 posiciones, brazos 3D ajustables en 6 posiciones, asiento y respaldo acojinados con espuma de alta densidad 60 kg/m³, tapizados en tela gris (no retapizable), peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida color blanco, rodajas tipo dual (bitono)",
@@ -913,7 +885,6 @@
         {
           "id": "ohe-2006negro",
           "name": "LUKE modelo OHE-2006negro",
-          "material": "Tela color negro",
           "description": "Silla operativa LUKE modelo OHE-2006negro con base en poliamida negra, mecanismo Synchro inteligente Smart Tilt con anti-shock y bloqueo en 4 posiciones, brazos 3D ajustables en 6 posiciones, asiento y respaldo acojinados con espuma de alta densidad 60 kg/m³, tapizados en tela negra (no retapizable), peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "Estrella de 5 puntas en poliamida color negro, rodajas tipo dual",
@@ -956,7 +927,6 @@
         {
           "id": "ohs-43",
           "name": "PROCHAIR modelo OHS-43",
-          "material": "Tela color a elegir",
           "description": "Silla operativa PROCHAIR modelo OHS-43 con asiento y respaldo tapizados al color a elegir, mecanismo multimodal de tres palancas, perillas de ajuste de respaldo, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "5 puntas en poliamida con rodajas tipo dual y/o regatones",
@@ -973,7 +943,6 @@
         {
           "id": "ohs-42",
           "name": "PROCHAIR modelo OHS-42",
-          "material": "Tela color a elegir",
           "description": "Silla operativa PROCHAIR modelo OHS-42 con asiento y respaldo tapizados al color a elegir, mecanismo sencillo de una palanca, peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "5 puntas en poliamida con rodajas tipo dual y/o regatones",
@@ -997,7 +966,6 @@
         {
           "id": "ohs-11",
           "name": "CIAO modelo OHS-11",
-          "material": "Polipropileno virgen alta densidad",
           "description": "Silla operativa CIAO modelo OHS-11 con base piramidal de 4 puntas en poliamida y asiento/respaldo en copolímero de polipropileno virgen de alta densidad, diseño ergonómico, asiento giratorio 360°. Color negro/negro, peso sugerido 160 kg. Diseño: Jeremiah Ferrarese & Paolo Scagnellato.",
           "specifications": {
             "base": "Estrella en poliamida de alta densidad, 4 puntas, forma piramidal",
@@ -1023,7 +991,6 @@
         {
           "id": "ohs-11cb",
           "name": "CIAO modelo OHS-11CB",
-          "material": "Polipropileno virgen alta densidad",
           "description": "Silla operativa CIAO modelo OHS-11CB con base piramidal 4 puntas, asiento/respaldo en polipropileno virgen, brazos integrables de polipropileno de alta densidad. Color negro/negro, peso sugerido 160 kg. Diseño: Jeremiah Ferrarese & Paolo Scagnellato.",
           "specifications": {
             "base": "Estrella en poliamida de alta densidad, 4 puntas, forma piramidal",
@@ -1050,7 +1017,6 @@
         {
           "id": "ohs-12",
           "name": "CIAO modelo OHS-12",
-          "material": "Polipropileno virgen alta densidad + tapiz",
           "description": "Silla operativa CIAO modelo OHS-12 con base piramidal 4 puntas, asiento/respaldo en polipropileno virgen, asiento acojinado con espuma 30 mm densidad 60 kg/m³ y tapizado al color de elección. Color negro/negro, peso sugerido 160 kg.",
           "specifications": {
             "base": "Estrella en poliamida de alta densidad, 4 puntas, forma piramidal",
@@ -1067,7 +1033,6 @@
         {
           "id": "ohs-12cb",
           "name": "CIAO modelo OHS-12CB",
-          "material": "Polipropileno virgen alta densidad + tapiz",
           "description": "Silla operativa CIAO modelo OHS-12CB con base piramidal 4 puntas, asiento/respaldo en polipropileno virgen, asiento y respaldo acojinados con espuma 30 mm densidad 60 kg/m³ y tapizados al color de elección; brazos integrables de polipropileno de alta densidad. Color negro/negro, peso sugerido 160 kg.",
           "specifications": {
             "base": "Estrella en poliamida de alta densidad, 4 puntas, forma piramidal",
@@ -1092,7 +1057,6 @@
         {
           "id": "ohs-37",
           "name": "SHELL modelo OHS-37",
-          "material": "Polipropileno monopieza",
           "description": "Silla operativa SHELL modelo OHS-37 de una sola pieza en polipropileno de alta resistencia, disponible en varios colores (negro, azul, verde, naranja, beige, blanco, rojo), peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "base": "Estrella 5 puntas aluminio fundido y pulido con rodajas tipo dual y/o regatones",
@@ -1116,7 +1080,6 @@
         {
           "id": "ohe-101",
           "name": "RAINBOW modelo OHE-101",
-          "material": "Malla",
           "description": "Silla operativa RAINBOW modelo OHE-101 terminada en malla, con base estrella en poliamida de 5 puntas con rodajas dual color negro, elevación por pistón neumático y brazos de polipropileno. Asiento y respaldo en malla de elastano en colores gris, verde, azul o ladrillo. Peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "terminación": "Malla",
@@ -1152,7 +1115,6 @@
         {
           "id": "ohe-101negro",
           "name": "RAINBOW modelo OHE-101negro",
-          "material": "Malla negra",
           "description": "Silla operativa RAINBOW modelo OHE-101negro terminada en malla, con base estrella en poliamida negra, elevación por pistón neumático negro, brazos de polipropileno negro y asiento/respaldo en malla de elastano color negro. Peso sugerido 120 kg. El color puede variar dependiendo del monitor.",
           "specifications": {
             "terminación": "Malla",
@@ -1195,7 +1157,6 @@
         {
           "id": "ohs-47",
           "name": "QUICK modelo OHS-47",
-          "material": "Tapizado",
           "description": "Silla operativa QUICK modelo OHS-47. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
           "specifications": {
             "nota": "El color puede variar dependiendo del monitor",
@@ -1229,7 +1190,6 @@
         {
           "id": "ohs-47panello",
           "name": "QUICK modelo OHS-47panello",
-          "material": "Tapizado",
           "description": "Silla operativa QUICK modelo OHS-47panello. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
           "specifications": {
             "nota": "El color puede variar dependiendo del monitor",
@@ -1270,7 +1230,6 @@
         {
           "id": "ohs-85al",
           "name": "REVOLUTION modelo OHS-85Al",
-          "material": "Tapizado",
           "description": "Silla operativa REVOLUTION modelo OHS-85Al. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
           "specifications": {
             "nota": "El color puede variar dependiendo del monitor",
@@ -1304,7 +1263,6 @@
         {
           "id": "ohs-86al",
           "name": "REVOLUTION modelo OHS-86Al",
-          "material": "Tapizado",
           "description": "Silla operativa REVOLUTION modelo OHS-86Al. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
           "specifications": {
             "nota": "El color puede variar dependiendo del monitor",
@@ -1338,7 +1296,6 @@
         {
           "id": "ohs-87al",
           "name": "REVOLUTION modelo OHS-87Al",
-          "material": "Tapizado",
           "description": "Silla operativa REVOLUTION modelo OHS-87Al. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
           "specifications": {
             "nota": "El color puede variar dependiendo del monitor",
@@ -1372,7 +1329,6 @@
         {
           "id": "ohs-88al",
           "name": "REVOLUTION modelo OHS-88Al",
-          "material": "Tapizado",
           "description": "Silla operativa REVOLUTION modelo OHS-88Al. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
           "specifications": {
             "nota": "El color puede variar dependiendo del monitor",

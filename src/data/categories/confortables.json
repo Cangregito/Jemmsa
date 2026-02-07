@@ -15,27 +15,11 @@
           "id": "ohv-106",
           "name": "OHV-106",
           "comercial_name": "Confortables BLAIR OHV-106",
-          "material": "Estructura: de lámina de acero cortada doblada y troquelada, calibre 18; con acabado de pintura epóxica (electrostática) y terminado en imitación madera. Asiento, respaldo y brazos: base y arma zón en madera de triplay, hule espuma laminado flexible con densidad de 27 kgs/m³ y alta resiliencia.",
           "description": "Silla confortable BLAIR modelo OHV-106. Estructura de acero con acabado epóxico. Asiento y respaldo tapizado con hule espuma de alta calidad.",
           "specifications": {
             "resistencia": "Peso sugerido 160 kgs",
             "referencia": "BIFMA",
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "instructivo": [
-              "InstructivoOHV-106A.jpg"
-            ],
-            "fotos": [
-              "ImagenesOHV-106.pdf"
-            ],
-            "ficha_tecnica": [
-              "OHV-106FT.jpg"
-            ],
-            "modelados_3d": [
-              "OHV_106.dwg",
-              "OHV_106.obj"
-            ]
           },
           "breadcrumb": [
             {
@@ -82,27 +66,11 @@
           "id": "ohv-120",
           "name": "OHV-120",
           "comercial_name": "Confortables BORSANI OHV-120",
-          "material": "Estructura: de acero tubular de 5/8\" de diámetro; con acabado de pintura epóxica (electrostática) color negro mate. Asiento, respaldo y brazos: base y arma zón en madera de triplay, hule espuma laminado flexible con densidad de 27 kgs/m³ y alta resiliencia.",
           "description": "Silla confortable BORSANI modelo OHV-120. Estructura de acero tubular con acabado epóxico. Asiento y respaldo tapizado con hule espuma de alta calidad.",
           "specifications": {
             "resistencia": "Peso sugerido 120 kgs",
             "referencia": "BIFMA",
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "instructivo": [
-              "InstructivoOHV-120A.jpg"
-            ],
-            "fotos": [
-              "ImagenesOHV-120.pdf"
-            ],
-            "ficha_tecnica": [
-              "OHV-120FT.jpg"
-            ],
-            "modelados_3d": [
-              "OHV-120.dwg",
-              "OHV-120.obj"
-            ]
           },
           "breadcrumb": [
             {
@@ -153,7 +121,6 @@
           "id": "ohm-122",
           "name": "OHM-122",
           "comercial_name": "Confortables DIRK OHM-122",
-          "material": "Pendiente especificaciones",
           "description": "Silla confortable DIRK modelo OHM-122. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -200,7 +167,6 @@
           "id": "ohm-123",
           "name": "OHM-123",
           "comercial_name": "Confortables DIRK OHM-123",
-          "material": "Pendiente especificaciones",
           "description": "Silla confortable DIRK modelo OHM-123. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -254,7 +220,6 @@
           "id": "ohm-130",
           "name": "OHM-130",
           "comercial_name": "Confortables GUBI OHM-130",
-          "material": "Pendiente especificaciones",
           "description": "Silla confortable GUBI modelo OHM-130. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -301,7 +266,6 @@
           "id": "ohm-131",
           "name": "OHM-131",
           "comercial_name": "Confortables GUBI OHM-131",
-          "material": "Pendiente especificaciones",
           "description": "Silla confortable GUBI modelo OHM-131. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -355,27 +319,11 @@
           "id": "ohm-132",
           "name": "OHM-132",
           "comercial_name": "Confortables BUDI OHM-132",
-          "material": "Estructura: de acero tubular de 1/2\" de diámetro; con acabado de pintura epóxica (electrostática) color negro mate. Asiento: base y arma zón en madera de pino de primera calidad, hule espuma laminado flexible con densidad de 20 kgs/m³ y alta resiliencia. Tapiz: poliéster.",
           "description": "Silla confortable BUDI modelo OHM-132. Estructura de acero tubular con acabado epóxico. Asiento de madera de pino con tapiz de poliéster.",
           "specifications": {
             "resistencia": "Peso sugerido 110 kgs",
             "referencia": "BIFMA",
             "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "recursos": {
-            "instructivo": [
-              "InstructivoOHM-132A.jpg"
-            ],
-            "fotos": [
-              "ImagenesOHM-132.pdf"
-            ],
-            "ficha_tecnica": [
-              "OHM-132FT.jpg"
-            ],
-            "modelados_3d": [
-              "OHM-132.dwg",
-              "OHM-132.obj"
-            ]
           },
           "breadcrumb": [
             {
@@ -426,7 +374,6 @@
           "id": "ohm-7023-cc",
           "name": "OHM-7023-CC",
           "comercial_name": "Confortables MAGNOLIA OHM-7023-CC",
-          "material": "Pendiente especificaciones",
           "description": "Silla confortable MAGNOLIA modelo OHM-7023-CC. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -473,7 +420,6 @@
           "id": "ohm-7023-lc",
           "name": "OHM-7023-LC",
           "comercial_name": "Confortables MAGNOLIA OHM-7023-LC",
-          "material": "Pendiente especificaciones",
           "description": "Silla confortable MAGNOLIA modelo OHM-7023-LC. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -520,7 +466,6 @@
           "id": "ohm-7023-sf",
           "name": "OHM-7023-SF",
           "comercial_name": "Confortables MAGNOLIA OHM-7023-SF",
-          "material": "Pendiente especificaciones",
           "description": "Silla confortable MAGNOLIA modelo OHM-7023-SF. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -567,7 +512,6 @@
           "id": "ohm-7023-ot",
           "name": "OHM-7023-OT",
           "comercial_name": "Confortables MAGNOLIA OHM-7023-OT",
-          "material": "Pendiente especificaciones",
           "description": "Silla confortable MAGNOLIA modelo OHM-7023-OT. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -621,7 +565,6 @@
           "id": "ohm-7215cc",
           "name": "OHM-7215CC",
           "comercial_name": "Confortables LAUREL OHM-7215CC",
-          "material": "Pendiente especificaciones",
           "description": "Silla confortable LAUREL modelo OHM-7215CC. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -668,7 +611,6 @@
           "id": "ohm-7215s1",
           "name": "OHM-7215S1",
           "comercial_name": "Confortables LAUREL OHM-7215S1",
-          "material": "Pendiente especificaciones",
           "description": "Silla confortable LAUREL modelo OHM-7215S1. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -715,7 +657,6 @@
           "id": "ohm-7215lc",
           "name": "OHM-7215LC",
           "comercial_name": "Confortables LAUREL OHM-7215LC",
-          "material": "Pendiente especificaciones",
           "description": "Silla confortable LAUREL modelo OHM-7215LC. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -762,7 +703,6 @@
           "id": "ohm-7215sf",
           "name": "OHM-7215SF",
           "comercial_name": "Confortables LAUREL OHM-7215SF",
-          "material": "Pendiente especificaciones",
           "description": "Silla confortable LAUREL modelo OHM-7215SF. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -809,7 +749,6 @@
           "id": "ohm-7215cn",
           "name": "OHM-7215CN",
           "comercial_name": "Confortables LAUREL OHM-7215CN",
-          "material": "Pendiente especificaciones",
           "description": "Silla confortable LAUREL modelo OHM-7215CN. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -856,7 +795,6 @@
           "id": "ohm-7215ot",
           "name": "OHM-7215OT",
           "comercial_name": "Confortables LAUREL OHM-7215OT",
-          "material": "Pendiente especificaciones",
           "description": "Silla confortable LAUREL modelo OHM-7215OT. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -895,7 +833,6 @@
           "id": "ohm-7215ct",
           "name": "OHM-7215CT",
           "comercial_name": "Confortables LAUREL OHM-7215CT",
-          "material": "Pendiente especificaciones",
           "description": "Silla confortable LAUREL modelo OHM-7215CT. Información detallada pendiente.",
           "specifications": {
             "nota_general": "El color puede variar dependiendo de su monitor"
