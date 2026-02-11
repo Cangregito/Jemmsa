@@ -271,6 +271,29 @@ function renderBreadcrumb(breadcrumb) {
   }).join('');
 }
 
+// Obtener la mejor imagen para mostrar (prioriza ambientadas sin fondo gris)
+function getBestProductImage(product) {
+  // Buscar imagen ambientada en el array de images
+  if (product.images && Array.isArray(product.images)) {
+    const ambientImage = product.images.find(img => 
+      img.label && (
+        img.label.toLowerCase().includes('ambiente') ||
+        img.label.toLowerCase().includes('ambientada')
+      )
+    );
+    if (ambientImage && ambientImage.url) return ambientImage.url;
+    
+    // Si no hay ambientada, buscar la primera imagen que no sea "Frente", "Lateral" o "Atras"
+    const nonStudioImage = product.images.find(img => 
+      img.url && !/(frente|lateral|atras|90)/i.test(img.url)
+    );
+    if (nonStudioImage && nonStudioImage.url) return nonStudioImage.url;
+  }
+  
+  // Si no se encuentra mejor opción, usar la imagen principal
+  return product.image || 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=400&auto=format&fit=crop';
+}
+
 // Cargar productos relacionados
 function loadRelatedProducts(allProducts, currentProductId) {
   const relatedProducts = allProducts
@@ -285,8 +308,8 @@ function loadRelatedProducts(allProducts, currentProductId) {
   grid.innerHTML = relatedProducts.map(product => `
     <a href="producto.html?categoria=${getURLParams().categoria}&familia=${getURLParams().familia}&producto=${product.id}" 
        class="group bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden hover:shadow-md hover:border-blue-400 transition-all">
-      <div class="aspect-square bg-gray-50 overflow-hidden flex items-center justify-center">
-        <img src="${product.image || 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=400&auto=format&fit=crop'}" 
+      <div class="aspect-square bg-white overflow-hidden flex items-center justify-center">
+        <img src="${getBestProductImage(product)}" 
              alt="${product.name}" 
              class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
       </div>

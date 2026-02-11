@@ -493,7 +493,7 @@
               "link": "#"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Mesas/OHM-47/OHM-47/OHM-47frente.jpg"
         }
       ]
     },
@@ -585,7 +585,7 @@
               "link": "/catalogo?categoria=mesas&familia=oslo"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Mesas/OSLO_RUSS/OSLO/OHM-7021-D2/OHM-7021-D2frenteChocolate.jpg"
         }
       ]
     },
@@ -616,7 +616,7 @@
               "link": "/catalogo?categoria=mesas&familia=russ"
             }
           ],
-          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Mesas/OSLO_RUSS/RUSS/OHM-7022-B2/OHM-7022-B2FrenteNegro.jpg"
         }
       ]
     },

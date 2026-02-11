@@ -228,7 +228,7 @@
             "certificacion": "BIFMA",
             "nota": "El color puede variar dependiendo de su monitor"
           },
-          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Visitante Interior/DONATELA/OHV-96NegroFrente.jpg"
         }
       ]
     },
@@ -250,7 +250,7 @@
             "capacidad": "Peso sugerido 160 kgs",
             "nota": "El color puede variar dependiendo de su monitor"
           },
-          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Visitante Interior/CORE/OHV-20negro.jpg"
         }
       ]
     },
@@ -616,7 +616,7 @@
           "specifications": {
             "nota": "El color puede variar dependiendo de su monitor"
           },
-          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Visitante Interior/FLEX/OHV-138negroFrente.jpg"
         }
       ]
     },
@@ -809,7 +809,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Plásticos Expuestos/OHV-310/OHV-310frente.jpg"
           },
           {
             "id": "ohv-311",
@@ -819,7 +819,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Plásticos Expuestos/OHV-311/OHV-311frente.jpg"
           },
           {
             "id": "ohv-312",
@@ -829,7 +829,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Plásticos Expuestos/OHV-312/OHV-312frente.jpg"
           },
           {
             "id": "ohv-313",
@@ -839,7 +839,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Plásticos Expuestos/OHV-313/OHV-313frente.jpg"
           },
           {
             "id": "ohv-315cr",
@@ -849,7 +849,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Plásticos Expuestos/OHV-315cr/OHV-315crfrente.jpg"
           },
           {
             "id": "ohv-316cr",
@@ -859,7 +859,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Plásticos Expuestos/OHV-316cr/OHV-316crfrente.jpg"
           },
           {
             "id": "ohv-317cr",
@@ -869,7 +869,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Plásticos Expuestos/OHV-317cr/OHV-317crfrente.jpg"
           },
           {
             "id": "ohv-318cr",
@@ -879,7 +879,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Plásticos Expuestos/OHV-318cr/OHV-318crfrente.jpg"
           },
           {
             "id": "oht-319",
@@ -889,7 +889,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Plásticos Expuestos/OHT-319/OHT-319frente.jpg"
           },
           {
             "id": "oht-320",
@@ -899,7 +899,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Plásticos Expuestos/OHT-320/OHT-320frente.jpg"
           },
           {
             "id": "oht-321cr",
@@ -909,7 +909,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Plásticos Expuestos/OHT-321cr/OHT-321crfrente.jpg"
           },
           {
             "id": "oht-322cr",
@@ -919,7 +919,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Plásticos Expuestos/OHT-322cr/OHT-322crfrente.jpg"
           }
         ]
       },
@@ -936,7 +936,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Tapizadas/OHV-329/OHV-329frente.jpg"
           },
           {
             "id": "ohv-330",
@@ -946,7 +946,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Tapizadas/OHV-330/OHV-330frente.jpg"
           },
           {
             "id": "ohv-331",
@@ -956,7 +956,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Tapizadas/OHV-331/OHV-331frente.jpg"
           },
           {
             "id": "ohv-332",
@@ -966,7 +966,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Tapizadas/OHV-332/OHV-332frente.jpg"
           },
           {
             "id": "ohv-333cr",
@@ -976,7 +976,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Tapizadas/OHV-333cr/OHV-333crfrente.jpg"
           },
           {
             "id": "ohv-334cr",
@@ -986,7 +986,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Tapizadas/OHV-334cr/OHV-334crfrente.jpg"
           },
           {
             "id": "ohv-335cr",
@@ -996,7 +996,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Tapizadas/OHV-335cr/OHV-335crfrente.jpg"
           },
           {
             "id": "ohv-336cr",
@@ -1006,7 +1006,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Tapizadas/OHV-336cr/OHV-336crfrente.jpg"
           },
           {
             "id": "oht-337",
@@ -1016,7 +1016,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Tapizadas/OHT-337/OHT-337frente.jpg"
           },
           {
             "id": "oht-338",
@@ -1026,7 +1026,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Tapizadas/OHT-338/OHT-338frente.jpg"
           },
           {
             "id": "oht-339cr",
@@ -1036,7 +1036,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Tapizadas/OHT-339cr/OHT-339crfrente.jpg"
           },
           {
             "id": "oht-340cr",
@@ -1046,7 +1046,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Tapizadas/OHT-340cr/OHT-340crfrente.jpg"
           }
         ]
       },
@@ -1063,7 +1063,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Semitapizada/OHV-347/OHV-347frente.jpg"
           },
           {
             "id": "ohv-348",
@@ -1073,7 +1073,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Semitapizada/OHV-348/OHV-348frente.jpg"
           },
           {
             "id": "ohv-349",
@@ -1083,7 +1083,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Semitapizada/OHV-349/OHV-349frente.jpg"
           },
           {
             "id": "ohv-350",
@@ -1093,7 +1093,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Semitapizada/OHV-350/OHV-350frente.jpg"
           },
           {
             "id": "ohv-351cr",
@@ -1103,7 +1103,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Semitapizada/OHV-351cr/OHV-351crfrente.jpg"
           },
           {
             "id": "ohv-352cr",
@@ -1113,7 +1113,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Semitapizada/OHV-352cr/OHV-352crfrente.jpg"
           },
           {
             "id": "ohv-353cr",
@@ -1123,7 +1123,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Semitapizada/OHV-353cr/OHV-353crfrente.jpg"
           },
           {
             "id": "ohv-354cr",
@@ -1133,7 +1133,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Semitapizada/OHV-354cr/OHV-354crfrente.jpg"
           },
           {
             "id": "oht-355",
@@ -1143,7 +1143,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Semitapizada/OHT-355/OHT-355frente.jpg"
           },
           {
             "id": "oht-356",
@@ -1153,7 +1153,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Semitapizada/OHT-356/OHT-356frente.jpg"
           },
           {
             "id": "oht-357cr",
@@ -1163,7 +1163,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Semitapizada/OHT-357cr/OHT-357crFrente.jpg"
           },
           {
             "id": "oht-358cr",
@@ -1173,7 +1173,7 @@
             "specifications": {
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "../public/img/Visitante Interior/KYOS/Semitapizada/OHT-358cr/OHT-358crFrente.jpg"
           }
         ]
       },
@@ -1628,7 +1628,7 @@
             "nota": "El color puede variar dependiendo de su monitor"
           },
           "link": "visitantes-interior-innovacollection-modelo-OHV-2700",
-          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Visitante Interior/INNOVA/OHV-2700/OHV-2700Frente.jpg"
         },
         {
           "id": "ohv-2700cr",
@@ -1638,7 +1638,7 @@
             "nota": "El color puede variar dependiendo de su monitor"
           },
           "link": "visitantes-interior-innovacroma-modelo-OHV-2700cr",
-          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Visitante Interior/INNOVA/OHV-2700cr/OHV-2700crFrente.jpg"
         }
       ]
     },
@@ -1655,7 +1655,7 @@
             "nota": "El color puede variar dependiendo de su monitor"
           },
           "link": "visitantes-interior-innova-modelo-OHV-3000",
-          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Visitante Interior/INNOVA_Amarilla/OHV-3000/OHV-3000Frente.jpg"
         },
         {
           "id": "ohv-3000cr",
@@ -1665,7 +1665,7 @@
             "nota": "El color puede variar dependiendo de su monitor"
           },
           "link": "visitantes-interior-innovacroma-modelo-OHV-3000cr",
-          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Visitante Interior/INNOVA_Amarilla/OHV-3000cr.jpg"
         }
       ]
     },
@@ -1682,7 +1682,7 @@
             "nota": "El color puede variar dependiendo de su monitor"
           },
           "link": "visitantes-interior-elliticocollection-modelo-OHV-2200",
-          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Visitante Interior/ELLITICO/OHV-2200/OHV-2200frente.jpg"
         },
         {
           "id": "ohv-2200cr",
@@ -1692,7 +1692,7 @@
             "nota": "El color puede variar dependiendo de su monitor"
           },
           "link": "visitantes-interior-elliticocollection-modelo-OHV-2200cr",
-          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+          "image": "../public/img/Visitante Interior/ELLITICO/OHV-2200cr/OHV-2200crFrente.jpg"
         }
       ]
     },
