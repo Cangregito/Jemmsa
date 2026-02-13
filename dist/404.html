@@ -4,10 +4,31 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Página no encontrada. Vuelve al inicio o explora nuestro catálogo de mobiliario corporativo." />
+  <meta property="og:title" content="Página no encontrada | Jemmsa" />
+  <meta property="og:description" content="Esta página no existe. Explora nuestro catálogo de mobiliario corporativo." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jemmsa.com/404" />
+  <meta property="og:image" content="https://jemmsa.com/public/img/Logo.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Página no encontrada | Jemmsa" />
+  <meta name="twitter:description" content="Esta página no existe. Explora nuestro catálogo." />
+  <link rel="canonical" href="https://jemmsa.com/404" />
   <title>Página no encontrada | Jemmsa</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "404 - Página no encontrada",
+      "description": "La página que buscas no existe en nuestro sitio.",
+      "url": "https://jemmsa.com/404"
+    }
+  </script>
+  
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -32,6 +53,16 @@
           boxShadow: {
             card: '0 10px 40px -20px rgba(31, 163, 214, 0.25)',
             'card-strong': '0 18px 50px -20px rgba(31, 163, 214, 0.35)'
+          },
+          keyframes: {
+            'fade-in': { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
+            'slide-up': { '0%': { opacity: '0', transform: 'translateY(12px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
+            'bounce-subtle': { '0%, 100%': { transform: 'translateY(0)' }, '50%': { transform: 'translateY(-10px)' } }
+          },
+          animation: {
+            'fade-in': 'fade-in 0.4s ease-out',
+            'slide-up': 'slide-up 0.6s ease-out',
+            'bounce-subtle': 'bounce-subtle 2s ease-in-out infinite'
           }
         }
       }
@@ -51,6 +82,19 @@
       color: var(--text-main);
       transition: background-color 0.3s, color 0.3s;
     }
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: #1FA3D6;
+      color: white;
+      padding: 8px;
+      text-decoration: none;
+      z-index: 100;
+    }
+    .skip-link:focus {
+      top: 0;
+    }
   </style>
   <link rel="icon" type="image/png" href="./public/img/Logo.png" />
   
@@ -61,20 +105,29 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-RNW2ZEEL4S');
+    
+    // Track 404 error
+    gtag('event', 'page_not_found', {
+      page_path: window.location.pathname,
+      page_referrer: document.referrer
+    });
   </script>
 </head>
 <body class="font-body bg-[var(--bg-page)] text-[var(--text-main)]">
+  <!-- Skip to content link -->
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+  
   <header id="header"></header>
 
-  <main class="overflow-hidden">
+  <main id="main-content" class="overflow-hidden" role="main">
     <!-- 404 Section -->
-    <section class="relative pt-32 pb-20 sm:pt-48 sm:pb-32">
+    <section class="relative pt-32 pb-20 sm:pt-48 sm:pb-32" role="alert" aria-live="polite">
       <div class="absolute inset-0 bg-gradient-to-br from-brand-primary/5 to-brand-accent/5 dark:from-brand-primary/10 dark:to-brand-accent/10"></div>
       <div class="absolute top-0 right-0 w-96 h-96 bg-brand-primary/10 rounded-full blur-3xl -mr-48 -mt-48 dark:bg-brand-primary/5"></div>
 
-      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-8">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-8 animate-fade-in">
         <!-- Large 404 -->
-        <div class="space-y-4">
+        <div class="space-y-4 animate-slide-up">
           <div class="font-display text-9xl sm:text-[140px] font-bold bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent leading-tight">
             404
           </div>
@@ -86,50 +139,121 @@
           </p>
         </div>
 
+        <!-- Search Bar -->
+        <div class="max-w-md mx-auto animate-slide-up" style="animation-delay: 0.1s;">
+          <label for="search-404" class="sr-only">Buscar productos</label>
+          <div class="relative">
+            <input 
+              type="search" 
+              id="search-404"
+              placeholder="¿Qué estabas buscando?"
+              class="w-full px-4 py-3 pl-12 rounded-full border-2 border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/50 focus:border-brand-primary focus:outline-none focus:ring-2 focus:ring-brand-primary/20 transition-all"
+              aria-label="Buscar productos en el catálogo"
+            />
+            <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-brand-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+            </svg>
+          </div>
+        </div>
+
         <!-- CTA Buttons -->
-        <div class="flex flex-col sm:flex-row gap-4 justify-center pt-8">
-          <a href="./index.html" class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-brand-primary text-white font-semibold hover:shadow-card-strong hover:-translate-y-0.5 transition-all">
+        <div class="flex flex-col sm:flex-row gap-4 justify-center pt-8 animate-slide-up" style="animation-delay: 0.2s;">
+          <a href="./index.html" class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-brand-primary text-white font-semibold hover:shadow-card-strong hover:-translate-y-0.5 transition-all" aria-label="Volver a la página de inicio">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
+            </svg>
             Ir al inicio
           </a>
-          <a href="./catalogo.html" class="inline-flex items-center justify-center px-6 py-3 rounded-full border-2 border-brand-primary text-brand-primary hover:bg-brand-primary/5 transition-all font-semibold">
+          <a href="./catalogo.html" class="inline-flex items-center justify-center px-6 py-3 rounded-full border-2 border-brand-primary text-brand-primary hover:bg-brand-primary/5 transition-all font-semibold" aria-label="Explorar el catálogo completo">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+            </svg>
             Explorar catálogo
           </a>
         </div>
 
-        <!-- Decorative elements -->
-        <div class="pt-12">
-          <div class="inline-block text-7xl">🪑</div>
+        <!-- SVG Illustration -->
+        <div class="pt-12 animate-bounce-subtle" style="animation-delay: 0.3s;">
+          <svg class="w-24 h-24 mx-auto text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 21h8M12 17v4"/>
+          </svg>
         </div>
       </div>
     </section>
 
-    <!-- Quick Links -->
+    <!-- Popular Products -->
     <section class="py-20 sm:py-28 bg-brand-soft dark:bg-brand-deep">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
-          <p class="text-sm uppercase tracking-widest text-brand-primary font-semibold mb-3">Navegación Rápida</p>
-          <h2 class="font-display text-3xl sm:text-4xl font-bold">¿Por dónde empezamos?</h2>
+        <div class="text-center mb-16 animate-slide-up">
+          <p class="text-sm uppercase tracking-widest text-brand-primary font-semibold mb-3">Productos Populares</p>
+          <h2 class="font-display text-3xl sm:text-4xl font-bold">Tal vez te interese...</h2>
+          <p class="text-brand-muted dark:text-slate-400 mt-2">Nuestros productos más solicitados</p>
         </div>
 
-        <div class="grid sm:grid-cols-3 gap-6">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          <!-- Producto 1 -->
+          <a href="./producto.html?categoria=directivos&familia=alufsen&producto=ohe-405" class="group rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/50 p-6 shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all animate-slide-up" style="animation-delay: 0.1s;" aria-label="Ver silla directiva Alufsen OHE-405">
+            <div class="aspect-square rounded-lg bg-brand-soft dark:bg-brand-deep mb-4 overflow-hidden">
+              <img src="./public/img/Directivos/ALUFSEN/OHE-405/OHE-405frente-Negro.jpg" alt="Silla directiva Alufsen" class="w-full h-full object-cover group-hover:scale-105 transition-transform" loading="lazy" />
+            </div>
+            <h3 class="font-display text-lg font-bold group-hover:text-brand-primary transition-colors">Alufsen</h3>
+            <p class="text-sm text-brand-muted dark:text-slate-400">Silla Directiva</p>
+          </a>
+
+          <!-- Producto 2 -->
+          <a href="./producto.html?categoria=ejecutivos&familia=aiko&producto=ohe-417" class="group rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/50 p-6 shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all animate-slide-up" style="animation-delay: 0.2s;" aria-label="Ver silla ejecutiva Aiko OHE-417">
+            <div class="aspect-square rounded-lg bg-brand-soft dark:bg-brand-deep mb-4 overflow-hidden">
+              <img src="./public/img/Ejecutivos/AIKO/OHE-417/OHE-417-frente-Negro.jpg" alt="Silla ejecutiva Aiko" class="w-full h-full object-cover group-hover:scale-105 transition-transform" loading="lazy" />
+            </div>
+            <h3 class="font-display text-lg font-bold group-hover:text-brand-primary transition-colors">Aiko</h3>
+            <p class="text-sm text-brand-muted dark:text-slate-400">Silla Ejecutiva</p>
+          </a>
+
+          <!-- Producto 3 -->
+          <a href="./producto.html?categoria=operativos&familia=evolution&producto=oho-59" class="group rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/50 p-6 shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all animate-slide-up" style="animation-delay: 0.3s;" aria-label="Ver silla operativa Evolution OHO-59">
+            <div class="aspect-square rounded-lg bg-brand-soft dark:bg-brand-deep mb-4 overflow-hidden">
+              <img src="./public/img/Operativos/EVOLUTION/OHO-59/OHO-59Frente.jpg" alt="Silla operativa Evolution" class="w-full h-full object-cover group-hover:scale-105 transition-transform" loading="lazy" />
+            </div>
+            <h3 class="font-display text-lg font-bold group-hover:text-brand-primary transition-colors">Evolution</h3>
+            <p class="text-sm text-brand-muted dark:text-slate-400">Silla Operativa</p>
+          </a>
+
+          <!-- Producto 4 -->
+          <a href="./producto.html?categoria=mesas&familia=seattle&producto=ohm-41" class="group rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/50 p-6 shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all animate-slide-up" style="animation-delay: 0.4s;" aria-label="Ver mesa Seattle OHM-41">
+            <div class="aspect-square rounded-lg bg-brand-soft dark:bg-brand-deep mb-4 overflow-hidden">
+              <img src="./public/img/Mesas/SEATTLE/OHM-41/OHM-41frente.jpg" alt="Mesa Seattle" class="w-full h-full object-cover group-hover:scale-105 transition-transform" loading="lazy" />
+            </div>
+            <h3 class="font-display text-lg font-bold group-hover:text-brand-primary transition-colors">Seattle</h3>
+            <p class="text-sm text-brand-muted dark:text-slate-400">Mesa de Trabajo</p>
+          </a>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="text-center mb-12 animate-slide-up" style="animation-delay: 0.5s;">
+          <p class="text-sm uppercase tracking-widest text-brand-primary font-semibold mb-3">Navegación Rápida</p>
+          <h3 class="font-display text-2xl sm:text-3xl font-bold">¿Por dónde empezamos?</h3>
+        </div>
+
+        <div class="grid sm:grid-cols-3 gap-6 animate-slide-up" style="animation-delay: 0.6s;">
           <!-- Link 1 -->
-          <a href="./catalogo.html" class="group rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/50 p-8 shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all text-center space-y-3">
-            <div class="text-4xl">📋</div>
-            <h3 class="font-display text-xl font-bold group-hover:text-brand-primary transition-colors">Catálogo Completo</h3>
+          <a href="./catalogo.html" class="group rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/50 p-8 shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all text-center space-y-3" aria-label="Ver el catálogo completo de productos">
+            <div class="text-4xl" aria-hidden="true">📋</div>
+            <h4 class="font-display text-xl font-bold group-hover:text-brand-primary transition-colors">Catálogo Completo</h4>
             <p class="text-sm text-brand-muted dark:text-slate-400">Explora todas nuestras colecciones de mobiliario corporativo.</p>
           </a>
 
           <!-- Link 2 -->
-          <a href="./marcas.html" class="group rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/50 p-8 shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all text-center space-y-3">
-            <div class="text-4xl">🏢</div>
-            <h3 class="font-display text-xl font-bold group-hover:text-brand-primary transition-colors">Nuestras Marcas</h3>
+          <a href="./marcas.html" class="group rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/50 p-8 shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all text-center space-y-3" aria-label="Conocer nuestras marcas aliadas">
+            <div class="text-4xl" aria-hidden="true">🏢</div>
+            <h4 class="font-display text-xl font-bold group-hover:text-brand-primary transition-colors">Nuestras Marcas</h4>
             <p class="text-sm text-brand-muted dark:text-slate-400">Conoce las marcas premium que representamos.</p>
           </a>
 
           <!-- Link 3 -->
-          <a href="./index.html#contacto" class="group rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/50 p-8 shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all text-center space-y-3">
-            <div class="text-4xl">📞</div>
-            <h3 class="font-display text-xl font-bold group-hover:text-brand-primary transition-colors">Contáctanos</h3>
+          <a href="./index.html#contacto" class="group rounded-2xl border border-brand-soft dark:border-brand-deep bg-white dark:bg-brand-base/50 p-8 shadow-card hover:shadow-card-strong hover:-translate-y-1 transition-all text-center space-y-3" aria-label="Ir a la sección de contacto">
+            <div class="text-4xl" aria-hidden="true">📞</div>
+            <h4 class="font-display text-xl font-bold group-hover:text-brand-primary transition-colors">Contáctanos</h4>
             <p class="text-sm text-brand-muted dark:text-slate-400">Hablemos de tu proyecto de mobiliario.</p>
           </a>
         </div>
@@ -138,9 +262,114 @@
   </main>
 
   <!-- Footer -->
-  <footer id="footer"></footer>
+  <footer class="border-t border-brand-soft dark:border-brand-deep bg-brand-soft dark:bg-brand-base/50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid md:grid-cols-4 gap-8 mb-8">
+        <!-- About -->
+        <div class="space-y-3">
+          <div class="flex items-center gap-2 mb-3">
+            <div class="h-8 w-8 rounded-full bg-brand-primary flex items-center justify-center text-white font-bold">J</div>
+            <span class="font-display font-semibold">Jemmsa</span>
+          </div>
+          <p class="text-sm text-brand-muted dark:text-slate-400">Mobiliario corporativo para organizaciones que priorizan bienestar y eficiencia.</p>
+        </div>
+
+        <!-- Company -->
+        <div>
+          <h3 class="font-semibold mb-4 text-sm">Empresa</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="./index.html#servicios" class="text-brand-muted dark:text-slate-400 hover:text-brand-primary transition-colors">Servicios</a></li>
+            <li><a href="./index.html#productos" class="text-brand-muted dark:text-slate-400 hover:text-brand-primary transition-colors">Productos</a></li>
+            <li><a href="./marcas.html" class="text-brand-muted dark:text-slate-400 hover:text-brand-primary transition-colors">Marcas</a></li>
+          </ul>
+        </div>
+
+        <!-- Recursos -->
+        <div>
+          <h3 class="font-semibold mb-4 text-sm">Recursos</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="./catalogo.html" class="text-brand-muted dark:text-slate-400 hover:text-brand-primary transition-colors">Catálogo</a></li>
+            <li><a href="./index.html#contacto" class="text-brand-muted dark:text-slate-400 hover:text-brand-primary transition-colors">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- Info -->
+        <div>
+          <h3 class="font-semibold mb-4 text-sm">Información</h3>
+          <address class="text-sm text-brand-muted dark:text-slate-400 not-italic">
+            <a href="mailto:jemmsa@jemmsa.com.mx" class="hover:text-brand-primary transition-colors">jemmsa@jemmsa.com.mx</a><br />
+            <a href="tel:+526566877854" class="hover:text-brand-primary transition-colors">656-687-78-54</a><br />
+            Juárez, Chihuahua
+          </address>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="border-t border-brand-soft dark:border-brand-deep pt-8 flex items-center justify-between text-xs text-brand-muted dark:text-slate-400">
+        <span>© 2026 Jemmsa. Todos los derechos reservados.</span>
+        <span class="flex items-center gap-2">
+          <span class="h-2 w-2 rounded-full bg-brand-primary" aria-hidden="true"></span>
+          Diseño Moderno & Accesible
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Dark Mode Toggle -->
+  <button id="darkModeToggle" class="fixed top-24 right-4 z-50 h-10 w-10 rounded-full bg-white dark:bg-brand-base border-2 border-brand-soft dark:border-brand-deep shadow-card hover:shadow-card-strong transition-all flex items-center justify-center" aria-label="Cambiar modo de color" title="Cambiar tema">
+    <svg class="w-5 h-5 dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
+    </svg>
+    <svg class="w-5 h-5 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
+    </svg>
+  </button>
 
   <script src="./public/js/header.js"></script>
+  <script>
+    // Dark mode toggle
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    const html = document.documentElement;
+    
+    // Check for saved theme preference or default to light mode
+    const currentTheme = localStorage.getItem('theme') || 'light';
+    if (currentTheme === 'dark') {
+      html.classList.add('dark');
+    }
+    
+    darkModeToggle?.addEventListener('click', () => {
+      html.classList.toggle('dark');
+      const theme = html.classList.contains('dark') ? 'dark' : 'light';
+      localStorage.setItem('theme', theme);
+      
+      // Track theme change
+      gtag('event', 'theme_change', { theme: theme });
+    });
+
+    // Search functionality
+    const searchInput = document.getElementById('search-404');
+    searchInput?.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        const query = searchInput.value.trim();
+        if (query) {
+          // Track search
+          gtag('event', 'search', {
+            search_term: query,
+            page_location: window.location.pathname
+          });
+          // Redirect to catalog with search query
+          window.location.href = `./catalogo.html?buscar=${encodeURIComponent(query)}`;
+        }
+      }
+    });
+
+    // Log 404 details for debugging
+    console.info('404 Error Details:', {
+      requestedPath: window.location.pathname,
+      referrer: document.referrer,
+      timestamp: new Date().toISOString()
+    });
+  </script>
 </body>
 </html>
 
