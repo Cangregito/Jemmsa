@@ -298,7 +298,12 @@
       // Mapeo especial para casos que no siguen la convención estándar
       const specialMappings = {
         'brazos-ajustables-operativas-40': 'brazos ajustables operativas 40',
-        'brazos-fijos-operativas': 'brazos fijos operativas'
+        'brazos-fijos-operativas': 'brazos fijos operativas',
+        'innova-collection': 'innova',
+        'ellitico-collection': 'ellitico',
+
+
+
       };
       
       // Verificar si existe un mapeo especial
@@ -984,7 +989,7 @@
       return {
         name: product.name || 'Producto sin nombre',
         comercial_name: product.comercial_name || product.name || 'Producto sin nombre',
-        material: product.material || 'Material no especificado',
+        material: product.material || '',
         description: product.description || 'Descripción no disponible',
         image: product.image || '/public/img/subcategorias/notfound.png',
         specifications: product.specifications || { nota: 'Especificaciones pendientes' },

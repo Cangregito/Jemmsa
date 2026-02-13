@@ -10270,14 +10270,14 @@
           }
         ]
       },
-      "ohv-136": {
-        "id": "ohv-136",
-        "name": "OHV-136",
-        "description": "Modelo OHV-136 de sillas visitantes interior.",
+      "kin": {
+        "id": "kin",
+        "name": "KIN",
+        "description": "Modelo KIN de sillas visitantes interior.",
         "products": [
           {
-            "id": "ohv-136",
-            "name": "OHV-136",
+            "id": "kin",
+            "name": "KIN",
             "description": "patas, asiento y respaldo: de una sola pieza en polipropileno de alta resistencia y duración.",
             "specifications": {
               "piezas": "Patas, asiento y respaldo de una sola pieza",
@@ -10287,7 +10287,25 @@
               "accesos": "FOTOS, FICHA TÉCNICA, archivos 3D",
               "nota": "El color puede variar dependiendo de su monitor"
             },
-            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
+            "image": "/public/img/Visitante Interior/KIN/OHV-136frente.jpg",
+            "images": [
+              {
+                "url": "/public/img/Visitante Interior/KIN/OHV-136frente.jpg",
+                "label": "Frente"
+              },
+              {
+                "url": "/public/img/Visitante Interior/KIN/OHV-136lateralAzul.jpg",
+                "label": "Lateral"
+              },
+              {
+                "url": "/public/img/Visitante Interior/KIN/OHV-136atras90.jpg",
+                "label": "Atras"
+              },
+              {
+                "url": "/public/img/Visitante Interior/KIN/Ambientadakin.jpg",
+                "label": "Ambiente"
+              }
+            ]
           }
         ]
       }

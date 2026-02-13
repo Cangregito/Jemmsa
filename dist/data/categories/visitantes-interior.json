@@ -1628,7 +1628,7 @@
             "nota": "El color puede variar dependiendo de su monitor"
           },
           "link": "visitantes-interior-innovacollection-modelo-OHV-2700",
-          "image": "/public/img/Visitante Interior/INNOVA/OHV-2700/OHV-2700Frente.jpg"
+          "image": "/img/Visitante Interior/INNOVA/OHV-2700/OHV-2700Frente.jpg"
         },
         {
           "id": "ohv-2700cr",
@@ -1638,7 +1638,7 @@
             "nota": "El color puede variar dependiendo de su monitor"
           },
           "link": "visitantes-interior-innovacroma-modelo-OHV-2700cr",
-          "image": "/public/img/Visitante Interior/INNOVA/OHV-2700cr/OHV-2700crFrente.jpg"
+          "image": "/img/Visitante Interior/INNOVA/OHV-2700cr/OHV-2700crFrente.jpg"
         }
       ]
     },
@@ -1755,26 +1755,44 @@
         }
       ]
     },
-    "ohv-136": {
-      "id": "ohv-136",
-      "name": "OHV-136",
-      "description": "Modelo OHV-136 de sillas visitantes interior.",
-      "products": [
-        {
-          "id": "ohv-136",
-          "name": "OHV-136",
-          "description": "patas, asiento y respaldo: de una sola pieza en polipropileno de alta resistencia y duración.",
-          "specifications": {
-            "piezas": "Patas, asiento y respaldo de una sola pieza",
-            "color": "Azul o aqua",
-            "capacidad": "Peso sugerido 130 kg",
-            "estibadas": "Caja 360",
-            "accesos": "FOTOS, FICHA TÉCNICA, archivos 3D",
-            "nota": "El color puede variar dependiendo de su monitor"
-          },
-          "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop"
-        }
-      ]
-    }
+    "kin": {
+        "id": "kin",
+        "name": "KIN",
+        "description": "Modelo KIN de sillas visitantes interior.",
+        "products": [
+          {
+            "id": "kin",
+            "name": "KIN",
+            "description": "patas, asiento y respaldo: de una sola pieza en polipropileno de alta resistencia y duración.",
+            "specifications": {
+              "piezas": "Patas, asiento y respaldo de una sola pieza",
+              "color": "Azul o aqua",
+              "capacidad": "Peso sugerido 130 kg",
+              "estibadas": "Caja 360",
+              "accesos": "FOTOS, FICHA TÉCNICA, archivos 3D",
+              "nota": "El color puede variar dependiendo de su monitor"
+            },
+            "image": "/public/img/Visitante Interior/KIN/OHV-136frente.jpg",
+            "images": [
+              {
+                "url": "/public/img/Visitante Interior/KIN/OHV-136frente.jpg",
+                "label": "Frente"
+              },
+              {
+                "url": "/public/img/Visitante Interior/KIN/OHV-136lateralAzul.jpg",
+                "label": "Lateral"
+              },
+              {
+                "url": "/public/img/Visitante Interior/KIN/OHV-136atras90.jpg",
+                "label": "Atras"
+              },
+              {
+                "url": "/public/img/Visitante Interior/KIN/Ambientadakin.jpg",
+                "label": "Ambiente"
+              }
+            ]
+          }
+        ]
+      }
   }
 }
