@@ -52,9 +52,14 @@
           "id": "ohp-323",
           "name": "OHP-323",
           "comercial_name": "Escolar KYOS OHP-323",
-          "description": "Silla escolar KYOS modelo OHP-323. Información detallada pendiente.",
+          "description": "Silla escolar KYOS modelo OHP-323. Estructura en acero tubular con asiento y respaldo en polipropileno de alta resistencia.",
           "specifications": {
-            "nota_general": "El color puede variar dependiendo de su monitor"
+            "material": "Acero tubular",
+            "estructura": "Acero tubular de 7/8\" de diámetro, calibre 14; con acabado en pintura epóxica (electrostática) color negro mate o gris, con descansabrazos de polipropileno en color negro y con paleta lateral antipánico en color negro fijada al brazo mediante un dispositivo",
+            "asiento_respaldo": "Polipropileno de alta resistencia y duración",
+            "color": "Negro",
+            "resistencia": "Peso sugerido 180 kgs",
+            "nota_general": "Disponible con paleta lateral lado izquierdo (sobre pedido). El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
             {
@@ -102,9 +107,15 @@
           "id": "ohp-324",
           "name": "OHP-324",
           "comercial_name": "Escolar KYOS OHP-324",
-          "description": "Silla escolar KYOS modelo OHP-324. Información detallada pendiente.",
+          "description": "Silla escolar KYOS modelo OHP-324. COLECCIÓN DE TERMINADOS OHV-310.",
           "specifications": {
-            "nota_general": "El color puede variar dependiendo de su monitor"
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "referencia": "OHV-310",
+            "estructura": "Acero tubular de 7/8\" de diámetro, calibre 14; con acabado en pintura epóxica (electrostática) color negro mate o gris, con rodajas giratorias tipo dual en color negro, con descansabrazos de polipropileno en color negro y con paleta lateral antipánico en color negro fijada al brazo mediante un dispositivo",
+            "asiento_respaldo": "Polipropileno de alta resistencia y duración",
+            "color": "Negro",
+            "resistencia": "Peso sugerido 180 kgs",
+            "nota_general": "Disponible con paleta lateral lado izquierdo (sobre pedido). El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
             {
@@ -152,9 +163,15 @@
           "id": "ohp-325cr",
           "name": "OHP-325cr",
           "comercial_name": "Escolar KYOS OHP-325cr",
-          "description": "Silla escolar KYOS modelo OHP-325cr. Información detallada pendiente.",
+          "description": "Silla escolar KYOS modelo OHP-325cr. COLECCIÓN DE TERMINADOS OHP-325cr.",
           "specifications": {
-            "nota_general": "El color puede variar dependiendo de su monitor"
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "referencia": "OHP-325cr",
+            "estructura": "Acero tubular de 7/8\" de diámetro, calibre 14; terminado en cromo, con descansabrazos de polipropileno en color negro y con paleta lateral antipánico color negro fijada al brazo mediante un dispositivo",
+            "asiento_respaldo": "Polipropileno de alta resistencia y duración",
+            "color": "Blanco o Negro, con tapas en color blanco o negro",
+            "resistencia": "Peso sugerido 180 kgs",
+            "nota_general": "Disponible con paleta lateral lado izquierdo (sobre pedido). El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
             {
@@ -202,9 +219,15 @@
           "id": "ohp-326cr",
           "name": "OHP-326cr",
           "comercial_name": "Escolar KYOS OHP-326cr",
-          "description": "Silla escolar KYOS modelo OHP-326cr. Información detallada pendiente.",
+          "description": "Silla escolar KYOS modelo OHP-326cr. COLECCIÓN DE TERMINADOS OHP-326cr.",
           "specifications": {
-            "nota_general": "El color puede variar dependiendo de su monitor"
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "referencia": "OHP-326cr",
+            "estructura": "Acero tubular de 7/8\" de diámetro, calibre 14; terminado en cromo, con rodajas giratorias tipo dual color negro, con descansabrazos de polipropileno en color negro y con paleta lateral antipánico color negro fijada al brazo mediante un dispositivo",
+            "asiento_respaldo": "Polipropileno de alta resistencia y duración",
+            "color": "Blanco o Negro, con tapas en color blanco o negro",
+            "resistencia": "Peso sugerido 180 kgs",
+            "nota_general": "Disponible con paleta lateral lado izquierdo (sobre pedido). El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
             {
@@ -248,8 +271,16 @@
           "id": "ohp-341",
           "name": "OHP-341",
           "comercial_name": "Escolar KYOS OHP-341",
-          "description": "Silla escolar KYOS modelo OHP-341. Información detallada pendiente.",
+          "description": "Silla escolar KYOS modelo OHP-341. Estructura de acero tubular con asiento y respaldo en hule espuma, tapizada al color de su elección.",
           "specifications": {
+            "estructura": "Acero tubular de 7/8\" de diámetro, calibre 14; con acabado en pintura epóxica (electrostática) color negro mate o gris",
+            "descansabrazos": "Polipropileno color negro",
+            "paleta_lateral": "Antipánico en color negro fijada al brazo mediante un dispositivo",
+            "asiento": "Hule espuma de poliuretano inyectado flexible con densidad de 60 kgs/m³ con retardante a la flama y alta resiliencia",
+            "respaldo": "Hule espuma de poliuretano inyectado flexible con densidad de 60 kgs/m³ con retardante a la flama y alta resiliencia",
+            "tapiz": "Tapizado al color de su elección de toda nuestra colección de tapices con tapas en color negro",
+            "resistencia": "Peso sugerido 180 kgs",
+            "nota": "Disponible con paleta lateral lado izquierdo (sobre pedido)",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -298,8 +329,17 @@
           "id": "ohp-342",
           "name": "OHP-342",
           "comercial_name": "Escolar KYOS OHP-342",
-          "description": "Silla escolar KYOS modelo OHP-342. Información detallada pendiente.",
+          "description": "Silla escolar KYOS modelo OHP-342. Estructura de acero tubular con asiento y respaldo en hule espuma, tapizada al color de su elección.",
           "specifications": {
+            "estructura": "Acero tubular de 7/8\" de diámetro, calibre 14; con acabado en pintura epóxica (electrostática) color negro mate o gris",
+            "rodajas": "Giratorias tipo dual en color negro",
+            "descansabrazos": "Polipropileno color negro",
+            "paleta_lateral": "Antipánico en color negro fijada al brazo mediante un dispositivo",
+            "asiento": "Hule espuma de poliuretano inyectado flexible con densidad de 60 kgs/m³ con retardante a la flama y alta resiliencia",
+            "respaldo": "Hule espuma de poliuretano inyectado flexible con densidad de 60 kgs/m³ con retardante a la flama y alta resiliencia",
+            "tapiz": "Tapizado al color de su elección de toda nuestra colección de tapices con tapas en color negro",
+            "resistencia": "Peso sugerido 180 kgs",
+            "nota": "Disponible con paleta lateral lado izquierdo (sobre pedido)",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -348,8 +388,16 @@
           "id": "ohp-343cr",
           "name": "OHP-343cr",
           "comercial_name": "Escolar KYOS OHP-343cr",
-          "description": "Silla escolar KYOS modelo OHP-343cr. Información detallada pendiente.",
+          "description": "Silla escolar KYOS modelo OHP-343cr. Estructura de acero tubular cromada con asiento y respaldo en hule espuma, tapizada al color de su elección.",
           "specifications": {
+            "estructura": "Acero tubular de 7/8\" de diámetro, calibre 14; terminado en cromo",
+            "descansabrazos": "Polipropileno en color negro",
+            "paleta_lateral": "Antipánico color negro fijada al brazo mediante un dispositivo",
+            "asiento": "Hule espuma de poliuretano inyectado flexible con densidad de 60 kgs/m³ con retardante a la flama y alta resiliencia",
+            "respaldo": "Hule espuma de poliuretano inyectado flexible con densidad de 60 kgs/m³ con retardante a la flama y alta resiliencia",
+            "tapiz": "Tapizado al color de su elección de toda nuestra colección de tapices con tapas en color negro",
+            "resistencia": "Peso sugerido 180 kgs",
+            "nota": "Disponible con paleta lateral lado izquierdo (sobre pedido)",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -398,8 +446,17 @@
           "id": "ohp-344cr",
           "name": "OHP-344cr",
           "comercial_name": "Escolar KYOS OHP-344cr",
-          "description": "Silla escolar KYOS modelo OHP-344cr. Información detallada pendiente.",
+          "description": "Silla escolar KYOS modelo OHP-344cr. Estructura de acero tubular cromada con asiento y respaldo en hule espuma, tapizada al color de su elección.",
           "specifications": {
+            "estructura": "Acero tubular de 7/8\" de diámetro, calibre 14; terminado en cromo",
+            "rodajas": "Giratorias tipo dual color negro",
+            "descansabrazos": "Polipropileno en color negro",
+            "paleta_lateral": "Antipánico color negro fijada al brazo mediante un dispositivo",
+            "asiento": "Hule espuma de poliuretano inyectado flexible con densidad de 60 kgs/m³ con retardante a la flama y alta resiliencia",
+            "respaldo": "Hule espuma de poliuretano inyectado flexible con densidad de 60 kgs/m³ con retardante a la flama y alta resiliencia",
+            "tapiz": "Tapizado al color de su elección de toda nuestra colección de tapices con tapas en color negro",
+            "resistencia": "Peso sugerido 180 kgs",
+            "nota": "Disponible con paleta lateral lado izquierdo (sobre pedido)",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -448,8 +505,16 @@
           "id": "ohp-359",
           "name": "OHP-359",
           "comercial_name": "Escolar KYOS OHP-359",
-          "description": "Silla escolar KYOS modelo OHP-359. Información detallada pendiente.",
+          "description": "Silla escolar KYOS modelo OHP-359. Estructura de acero tubular con respaldo en polipropileno y asiento tapizado.",
           "specifications": {
+            "estructura": "Acero tubular de 7/8\" de diámetro, calibre 14; con acabado en pintura epóxica (electrostática) color negro mate o gris",
+            "descansabrazos": "Polipropileno en color negro",
+            "paleta_lateral": "Antipánico en color negro fijada al brazo mediante un dispositivo",
+            "respaldo": "Polipropileno de alta densidad y alta resiliencia",
+            "asiento": "Hule espuma de poliuretano inyectado flexible con densidad de 60 kgs/m³ con retardante a la flama y alta resiliencia",
+            "tapiz": "Respaldo en color gris y asiento tapizada al color de su elección de toda nuestra colección de tapices con tapas en color negro",
+            "resistencia": "Peso sugerido 180 kgs",
+            "nota": "Disponible con paleta lateral lado izquierdo (sobre pedido)",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -498,8 +563,17 @@
           "id": "ohp-360",
           "name": "OHP-360",
           "comercial_name": "Escolar KYOS OHP-360",
-          "description": "Silla escolar KYOS modelo OHP-360. Información detallada pendiente.",
+          "description": "Silla escolar KYOS modelo OHP-360. Estructura de acero tubular con respaldo en polipropileno y asiento tapizado.",
           "specifications": {
+            "estructura": "Acero tubular de 7/8\" de diámetro, calibre 14; con acabado en pintura epóxica (electrostática) color negro mate o gris",
+            "rodajas": "Giratorias tipo dual en color negro",
+            "descansabrazos": "Polipropileno en color negro",
+            "paleta_lateral": "Antipánico en color negro fijada al brazo mediante un dispositivo",
+            "respaldo": "Polipropileno de alta densidad y alta resiliencia",
+            "asiento": "Hule espuma de poliuretano inyectado flexible con densidad de 60 kgs/m³ con retardante a la flama y alta resiliencia",
+            "tapiz": "Respaldo en color gris y asiento tapizada al color de su elección de toda nuestra colección de tapices con tapas en color negro",
+            "resistencia": "Peso sugerido 180 kgs",
+            "nota": "Disponible con paleta lateral lado izquierdo (sobre pedido)",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -548,8 +622,16 @@
           "id": "ohp-361cr",
           "name": "OHP-361cr",
           "comercial_name": "Escolar KYOS OHP-361cr",
-          "description": "Silla escolar KYOS modelo OHP-361cr. Información detallada pendiente.",
+          "description": "Silla escolar KYOS modelo OHP-361cr. Estructura de acero tubular cromada con respaldo en polipropileno y asiento tapizado.",
           "specifications": {
+            "estructura": "Acero tubular de 7/8\" de diámetro, calibre 14; terminado en cromo",
+            "descansabrazos": "Polipropileno en color negro",
+            "paleta_lateral": "Antipánico color negro fijada al brazo mediante un dispositivo",
+            "respaldo": "Polipropileno de alta densidad y alta resiliencia",
+            "asiento": "Hule espuma de poliuretano inyectado flexible con densidad de 60 kgs/m³ con retardante a la flama y alta resiliencia",
+            "tapiz": "Respaldo en color negro y asiento tapizada al color de su elección de toda nuestra colección de tapices con tapas en color negro",
+            "resistencia": "Peso sugerido 180 kgs",
+            "nota": "Disponible con paleta lateral lado izquierdo (sobre pedido)",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -598,8 +680,17 @@
           "id": "ohp-362cr",
           "name": "OHP-362cr",
           "comercial_name": "Escolar KYOS OHP-362cr",
-          "description": "Silla escolar KYOS modelo OHP-362cr. Información detallada pendiente.",
+          "description": "Silla escolar KYOS modelo OHP-362cr. Estructura de acero tubular cromada con respaldo en polipropileno y asiento tapizado.",
           "specifications": {
+            "estructura": "Acero tubular de 7/8\" de diámetro, calibre 14; terminado en cromo",
+            "rodajas": "Giratorias tipo dual color negro",
+            "descansabrazos": "Polipropileno en color negro",
+            "paleta_lateral": "Antipánico color negro fijada al brazo mediante un dispositivo",
+            "respaldo": "Polipropileno de alta densidad y alta resiliencia",
+            "asiento": "Hule espuma de poliuretano inyectado flexible con densidad de 60 kgs/m³ con retardante a la flama y alta resiliencia",
+            "tapiz": "Respaldo en color negro y asiento tapizada al color de su elección de toda nuestra colección de tapices con tapas en color negro",
+            "resistencia": "Peso sugerido 180 kgs",
+            "nota": "Disponible con paleta lateral lado izquierdo (sobre pedido)",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -648,8 +739,16 @@
           "id": "ohp-377",
           "name": "OHP-377",
           "comercial_name": "Escolar KYOS OHP-377",
-          "description": "Silla escolar KYOS modelo OHP-377. Información detallada pendiente.",
+          "description": "Silla escolar KYOS modelo OHP-377. Estructura de acero tubular con respaldo en malla y asiento tapizado.",
           "specifications": {
+            "estructura": "Acero tubular de 7/8\" de diámetro, calibre 14; con acabado en pintura epóxica (electrostática) color negro mate o gris",
+            "descansabrazos": "Polipropileno en color negro",
+            "paleta_lateral": "Antipánico en color negro fijada al brazo mediante un dispositivo",
+            "respaldo": "Malla diseño ergonómico",
+            "asiento": "Hule espuma de poliuretano inyectado flexible con densidad de 60 kgs/m³ con retardante a la flama y alta resiliencia",
+            "tapiz": "Respaldo en malla color negro y asiento tapizada al color de su elección de toda nuestra colección de tapices con tapas en color negro",
+            "resistencia": "Peso sugerido 180 kgs",
+            "nota": "Disponible con paleta lateral lado izquierdo (sobre pedido)",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -698,8 +797,17 @@
           "id": "ohp-378",
           "name": "OHP-378",
           "comercial_name": "Escolar KYOS OHP-378",
-          "description": "Silla escolar KYOS modelo OHP-378. Información detallada pendiente.",
+          "description": "Silla escolar KYOS modelo OHP-378. Estructura de acero tubular con respaldo en malla y asiento tapizado.",
           "specifications": {
+            "estructura": "Acero tubular de 7/8\" de diámetro, calibre 14; con acabado en pintura epóxica (electrostática) color negro mate o gris",
+            "rodajas": "Giratorias tipo dual en color negro",
+            "descansabrazos": "Polipropileno en color negro",
+            "paleta_lateral": "Antipánico en color negro fijada al brazo mediante un dispositivo",
+            "respaldo": "Malla diseño ergonómico",
+            "asiento": "Hule espuma de poliuretano inyectado flexible con densidad de 60 kgs/m³ con retardante a la flama y alta resiliencia",
+            "tapiz": "Respaldo en malla color negro y asiento tapizada al color de su elección de toda nuestra colección de tapices con tapas en color negro",
+            "resistencia": "Peso sugerido 180 kgs",
+            "nota": "Disponible con paleta lateral lado izquierdo (sobre pedido)",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -748,8 +856,16 @@
           "id": "ohp-379cr",
           "name": "OHP-379cr",
           "comercial_name": "Escolar KYOS OHP-379cr",
-          "description": "Silla escolar KYOS modelo OHP-379cr. Información detallada pendiente.",
+          "description": "Silla escolar KYOS modelo OHP-379cr. Estructura de acero tubular cromada con respaldo en malla y asiento tapizado.",
           "specifications": {
+            "estructura": "Acero tubular de 7/8\" de diámetro, calibre 14; terminado en cromo",
+            "descansabrazos": "Polipropileno en color negro",
+            "paleta_lateral": "Antipánico color negro fijada al brazo mediante un dispositivo",
+            "respaldo": "Malla diseño ergonómico",
+            "asiento": "Hule espuma de poliuretano inyectado flexible con densidad de 60 kgs/m³ con retardante a la flama y alta resiliencia",
+            "tapiz": "Respaldo en malla color negro y asiento tapizada al color de su elección de toda nuestra colección de tapices con tapas en color negro",
+            "resistencia": "Peso sugerido 180 kgs",
+            "nota": "Disponible con paleta lateral lado izquierdo (sobre pedido)",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -798,8 +914,17 @@
           "id": "ohp-380cr",
           "name": "OHP-380cr",
           "comercial_name": "Escolar KYOS OHP-380cr",
-          "description": "Silla escolar KYOS modelo OHP-380cr. Información detallada pendiente.",
+          "description": "Silla escolar KYOS modelo OHP-380cr. Estructura de acero tubular cromada con respaldo en malla y asiento tapizado.",
           "specifications": {
+            "estructura": "Acero tubular de 7/8\" de diámetro, calibre 14; terminado en cromo",
+            "rodajas": "Giratorias tipo dual color negro",
+            "descansabrazos": "Polipropileno en color negro",
+            "paleta_lateral": "Antipánico color negro fijada al brazo mediante un dispositivo",
+            "respaldo": "Malla diseño ergonómico",
+            "asiento": "Hule espuma de poliuretano inyectado flexible con densidad de 60 kgs/m³ con retardante a la flama y alta resiliencia",
+            "tapiz": "Respaldo en malla color negro y asiento tapizada al color de su elección de toda nuestra colección de tapices con tapas en color negro",
+            "resistencia": "Peso sugerido 300 kgs",
+            "nota": "Disponible con paleta lateral lado izquierdo (sobre pedido)",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -845,415 +970,468 @@
           ]
         }
       ]
-    },
-    "revolution": {
-      "id": "revolution",
-      "name": "REVOLUTION",
-      "description": "Familia REVOLUTION de sillas escolares.",
-      "products": [
+    },"revolution": {
+  "id": "revolution",
+  "name": "REVOLUTION",
+  "description": "Familia REVOLUTION de sillas escolares.",
+  "products": [
+    {
+      "id": "ohp-85",
+      "name": "OHP-85",
+      "comercial_name": "Escolar REVOLUTION OHP-85",
+      "description": "Silla escolar REVOLUTION modelo OHP-85. Estructura de acero tubular con respaldo en malla y asiento tapizado.",
+      "specifications": {
+        "estructura": "Acero tubular de 1\" de diámetro, calibre 16, con acabado en pintura epóxica (electrostática) color negro o gris",
+        "paleta_lateral": "86Al negro de aluminio fundido, descansabrazos móvil de polipropileno semi-rígido, paleta antipánico y retráctil de polipropileno de alta densidad en color negro (derecho o izquierdo)",
+        "respaldo": "Bastidor en polipropileno de alta resistencia y duración, color negro",
+        "asiento": "Hule espuma de poliuretano inyectado con 60 kgs/m³ con retardante a la flama y alta resiliencia",
+        "tapiz": "Respaldo en malla color negro y asiento tapizado al color de su elección de toda la colección de tapices",
+        "resistencia": "Peso sugerido 160 kgs",
+        "nota": "Disponible con paleta lateral lado izquierdo (sobre pedido)",
+        "nota_general": "El color puede variar dependiendo de su monitor"
+      },
+      "breadcrumb": [
         {
-          "id": "ohp-85",
-          "name": "OHP-85",
-          "comercial_name": "Escolar REVOLUTION OHP-85",
-          "description": "Silla escolar REVOLUTION modelo OHP-85. Información detallada pendiente.",
-          "specifications": {
-            "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "breadcrumb": [
-            {
-              "label": "Home",
-              "link": "/"
-            },
-            {
-              "label": "ESCOLAR",
-              "link": "/catalogo?categoria=escolar"
-            },
-            {
-              "label": "REVOLUTION",
-              "link": "/catalogo?categoria=escolar&familia=revolution"
-            },
-            {
-              "label": "OHP-85",
-              "link": "#"
-            }
-          ],
-          "image": "/public/img/Escolar/REVOLUTION/OHP-85/OHP-85Frente.jpg",
-          "images": [
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-85/OHP-85Frente.jpg",
-              "label": "Frente"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-85/OHP-85lateral.jpg",
-              "label": "Lateral"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-85/OHP-85Atras90.jpg",
-              "label": "Atras"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-85/AmbientadaRevolution.jpg",
-              "label": "Ambiente"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-85/OHP-85.jpg",
-              "label": "Imagen 1"
-            }
-          ]
+          "label": "Home",
+          "link": "/"
         },
         {
-          "id": "ohp-85cr",
-          "name": "OHP-85cr",
-          "comercial_name": "Escolar REVOLUTION OHP-85cr",
-          "description": "Silla escolar REVOLUTION modelo OHP-85cr. Información detallada pendiente.",
-          "specifications": {
-            "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "breadcrumb": [
-            {
-              "label": "Home",
-              "link": "/"
-            },
-            {
-              "label": "ESCOLAR",
-              "link": "/catalogo?categoria=escolar"
-            },
-            {
-              "label": "REVOLUTION",
-              "link": "/catalogo?categoria=escolar&familia=revolution"
-            },
-            {
-              "label": "OHP-85cr",
-              "link": "#"
-            }
-          ],
-          "image": "/public/img/Escolar/REVOLUTION/OHP-85cr/OHP-85crFrente.jpg",
-          "images": [
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-85cr/OHP-85crFrente.jpg",
-              "label": "Frente"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-85cr/OHP-85crlateral.jpg",
-              "label": "Lateral"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-85cr/OHP-85crAtras90.jpg",
-              "label": "Atras"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-85cr/AmbientadaRevolution.jpg",
-              "label": "Ambiente"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-85cr/OHP-85cr.jpg",
-              "label": "Imagen 1"
-            }
-          ]
+          "label": "ESCOLAR",
+          "link": "/catalogo?categoria=escolar"
         },
         {
-          "id": "ohp-86",
-          "name": "OHP-86",
-          "comercial_name": "Escolar REVOLUTION OHP-86",
-          "description": "Silla escolar REVOLUTION modelo OHP-86. Información detallada pendiente.",
-          "specifications": {
-            "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "breadcrumb": [
-            {
-              "label": "Home",
-              "link": "/"
-            },
-            {
-              "label": "ESCOLAR",
-              "link": "/catalogo?categoria=escolar"
-            },
-            {
-              "label": "REVOLUTION",
-              "link": "/catalogo?categoria=escolar&familia=revolution"
-            },
-            {
-              "label": "OHP-86",
-              "link": "#"
-            }
-          ],
-          "image": "/public/img/Escolar/REVOLUTION/OHP-86/OHP-86Frente.jpg",
-          "images": [
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-86/OHP-86Frente.jpg",
-              "label": "Frente"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-86/OHP-86lateral.jpg",
-              "label": "Lateral"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-86/OHP-86Atras90.jpg",
-              "label": "Atras"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-86/AmbientadaRevolution.jpg",
-              "label": "Ambiente"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-86/OHP-86.jpg",
-              "label": "Imagen 1"
-            }
-          ]
+          "label": "REVOLUTION",
+          "link": "/catalogo?categoria=escolar&familia=revolution"
         },
         {
-          "id": "ohp-86cr",
-          "name": "OHP-86cr",
-          "comercial_name": "Escolar REVOLUTION OHP-86cr",
-          "description": "Silla escolar REVOLUTION modelo OHP-86cr. Información detallada pendiente.",
-          "specifications": {
-            "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "breadcrumb": [
-            {
-              "label": "Home",
-              "link": "/"
-            },
-            {
-              "label": "ESCOLAR",
-              "link": "/catalogo?categoria=escolar"
-            },
-            {
-              "label": "REVOLUTION",
-              "link": "/catalogo?categoria=escolar&familia=revolution"
-            },
-            {
-              "label": "OHP-86cr",
-              "link": "#"
-            }
-          ],
-          "image": "/public/img/Escolar/REVOLUTION/OHP-86cr/OHP-86crFrente.jpg",
-          "images": [
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-86cr/OHP-86crFrente.jpg",
-              "label": "Frente"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-86cr/OHP-86crlateral.jpg",
-              "label": "Lateral"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-86cr/OHP-86crAtras90.jpg",
-              "label": "Atras"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-86cr/AmbientadaRevolution.jpg",
-              "label": "Ambiente"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-86cr/OHP-86cr.jpg",
-              "label": "Imagen 1"
-            }
-          ]
+          "label": "OHP-85",
+          "link": "#"
+        }
+      ],
+      "image": "/public/img/Escolar/REVOLUTION/OHP-85/OHP-85Frente.jpg",
+      "images": [
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-85/OHP-85Frente.jpg",
+          "label": "Frente"
         },
         {
-          "id": "ohp-87",
-          "name": "OHP-87",
-          "comercial_name": "Escolar REVOLUTION OHP-87",
-          "description": "Silla escolar REVOLUTION modelo OHP-87. Información detallada pendiente.",
-          "specifications": {
-            "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "breadcrumb": [
-            {
-              "label": "Home",
-              "link": "/"
-            },
-            {
-              "label": "ESCOLAR",
-              "link": "/catalogo?categoria=escolar"
-            },
-            {
-              "label": "REVOLUTION",
-              "link": "/catalogo?categoria=escolar&familia=revolution"
-            },
-            {
-              "label": "OHP-87",
-              "link": "#"
-            }
-          ],
-          "image": "/public/img/Escolar/REVOLUTION/OHP-87/OHP-87Frente.jpg",
-          "images": [
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-87/OHP-87Frente.jpg",
-              "label": "Frente"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-87/OHP-87lateral.jpg",
-              "label": "Lateral"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-87/OHP-87Atras90.jpg",
-              "label": "Atras"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-87/AmbientadaRevolution.jpg",
-              "label": "Ambiente"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-87/OHP-87.jpg",
-              "label": "Imagen 1"
-            }
-          ]
+          "url": "/public/img/Escolar/REVOLUTION/OHP-85/OHP-85lateral.jpg",
+          "label": "Lateral"
         },
         {
-          "id": "ohp-87cr",
-          "name": "OHP-87cr",
-          "comercial_name": "Escolar REVOLUTION OHP-87cr",
-          "description": "Silla escolar REVOLUTION modelo OHP-87cr. Información detallada pendiente.",
-          "specifications": {
-            "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "breadcrumb": [
-            {
-              "label": "Home",
-              "link": "/"
-            },
-            {
-              "label": "ESCOLAR",
-              "link": "/catalogo?categoria=escolar"
-            },
-            {
-              "label": "REVOLUTION",
-              "link": "/catalogo?categoria=escolar&familia=revolution"
-            },
-            {
-              "label": "OHP-87cr",
-              "link": "#"
-            }
-          ],
-          "image": "/public/img/Escolar/REVOLUTION/OHP-87cr/OHP-87crFrente.jpg",
-          "images": [
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-87cr/OHP-87crFrente.jpg",
-              "label": "Frente"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-87cr/OHP-87crlateral.jpg",
-              "label": "Lateral"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-87cr/OHP-87crAtras90.jpg",
-              "label": "Atras"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-87cr/AmbientadaRevolution.jpg",
-              "label": "Ambiente"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-87cr/OHP-87cr.jpg",
-              "label": "Imagen 1"
-            }
-          ]
+          "url": "/public/img/Escolar/REVOLUTION/OHP-85/OHP-85Atras90.jpg",
+          "label": "Atras"
         },
         {
-          "id": "ohp-88",
-          "name": "OHP-88",
-          "comercial_name": "Escolar REVOLUTION OHP-88",
-          "description": "Silla escolar REVOLUTION modelo OHP-88. Información detallada pendiente.",
-          "specifications": {
-            "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "breadcrumb": [
-            {
-              "label": "Home",
-              "link": "/"
-            },
-            {
-              "label": "ESCOLAR",
-              "link": "/catalogo?categoria=escolar"
-            },
-            {
-              "label": "REVOLUTION",
-              "link": "/catalogo?categoria=escolar&familia=revolution"
-            },
-            {
-              "label": "OHP-88",
-              "link": "#"
-            }
-          ],
-          "image": "/public/img/Escolar/REVOLUTION/OHP-88/OHP-88Frente.jpg",
-          "images": [
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-88/OHP-88Frente.jpg",
-              "label": "Frente"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-88/OHP-88lateral.jpg",
-              "label": "Lateral"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-88/OHP-88Atras90.jpg",
-              "label": "Atras"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-88/AmbientadaRevolution.jpg",
-              "label": "Ambiente"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-88/OHP-88.jpg",
-              "label": "Imagen 1"
-            }
-          ]
+          "url": "/public/img/Escolar/REVOLUTION/OHP-85/AmbientadaRevolution.jpg",
+          "label": "Ambiente"
         },
         {
-          "id": "ohp-88cr",
-          "name": "OHP-88cr",
-          "comercial_name": "Escolar REVOLUTION OHP-88cr",
-          "description": "Silla escolar REVOLUTION modelo OHP-88cr. Información detallada pendiente.",
-          "specifications": {
-            "nota_general": "El color puede variar dependiendo de su monitor"
-          },
-          "breadcrumb": [
-            {
-              "label": "Home",
-              "link": "/"
-            },
-            {
-              "label": "ESCOLAR",
-              "link": "/catalogo?categoria=escolar"
-            },
-            {
-              "label": "REVOLUTION",
-              "link": "/catalogo?categoria=escolar&familia=revolution"
-            },
-            {
-              "label": "OHP-88cr",
-              "link": "#"
-            }
-          ],
-          "image": "/public/img/Escolar/REVOLUTION/OHP-88cr/OHP-88crFrente.jpg",
-          "images": [
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-88cr/OHP-88crFrente.jpg",
-              "label": "Frente"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-88cr/OHP-88crlateral.jpg",
-              "label": "Lateral"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-88cr/OHP-88crAtras90.jpg",
-              "label": "Atras"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-88cr/AmbientadaRevolution.jpg",
-              "label": "Ambiente"
-            },
-            {
-              "url": "/public/img/Escolar/REVOLUTION/OHP-88cr/OHP-88cr.jpg",
-              "label": "Imagen 1"
-            }
-          ]
+          "url": "/public/img/Escolar/REVOLUTION/OHP-85/OHP-85.jpg",
+          "label": "Imagen 1"
         }
       ]
     },
-    "alpha": {
+    {
+      "id": "ohp-85cr",
+      "name": "OHP-85cr",
+      "comercial_name": "Escolar REVOLUTION OHP-85cr",
+      "description": "Silla escolar REVOLUTION modelo OHP-85cr. Estructura de acero tubular cromada con respaldo en malla y asiento tapizado.",
+      "specifications": {
+        "estructura": "Acero tubular de 1\" de diámetro, calibre 16, con terminado en cromo",
+        "paleta_lateral": "86Al negro de aluminio fundido, descansabrazos móvil de polipropileno semi-rígido, paleta antipánico y retráctil de polipropileno de alta densidad en color negro (derecho o izquierdo)",
+        "respaldo": "Bastidor en polipropileno de alta resistencia y duración, color negro",
+        "asiento": "Hule espuma de poliuretano inyectado con 60 kgs/m³ con retardante a la flama y alta resiliencia",
+        "tapiz": "Respaldo en malla color negro y asiento tapizado al color de su elección de toda la colección de tapices",
+        "resistencia": "Peso sugerido 160 kgs",
+        "nota": "Disponible con paleta lateral lado izquierdo (sobre pedido)",
+        "nota_general": "El color puede variar dependiendo de su monitor"
+      },
+      "breadcrumb": [
+        {
+          "label": "Home",
+          "link": "/"
+        },
+        {
+          "label": "ESCOLAR",
+          "link": "/catalogo?categoria=escolar"
+        },
+        {
+          "label": "REVOLUTION",
+          "link": "/catalogo?categoria=escolar&familia=revolution"
+        },
+        {
+          "label": "OHP-85cr",
+          "link": "#"
+        }
+      ],
+      "image": "/public/img/Escolar/REVOLUTION/OHP-85cr/OHP-85crFrente.jpg",
+      "images": [
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-85cr/OHP-85crFrente.jpg",
+          "label": "Frente"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-85cr/OHP-85crlateral.jpg",
+          "label": "Lateral"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-85cr/OHP-85crAtras90.jpg",
+          "label": "Atras"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-85cr/AmbientadaRevolution.jpg",
+          "label": "Ambiente"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-85cr/OHP-85cr.jpg",
+          "label": "Imagen 1"
+        }
+      ]
+    },
+    {
+      "id": "ohp-86",
+      "name": "OHP-86",
+      "comercial_name": "Escolar REVOLUTION OHP-86",
+      "description": "Silla escolar REVOLUTION modelo OHP-86. Estructura de acero tubular con asiento y respaldo en polipropileno.",
+      "specifications": {
+        "estructura": "Acero tubular de 1\" de diámetro, calibre 16, con acabado en pintura epóxica (electrostática) color negro o gris",
+        "paleta_lateral": "86Al negro de aluminio fundido, descansabrazos móvil de polipropileno semi-rígido, paleta antipánico y retráctil de polipropileno de alta densidad en color negro (derecho o izquierdo)",
+        "respaldo_asiento": "Dos piezas en polipropileno de alta resistencia y duración",
+        "colores": "Negro, azul marino, verde, naranja, arena, blanco, rojo o gris",
+        "resistencia": "Peso sugerido 160 kgs",
+        "nota": "Disponible con paleta lateral lado izquierdo (sobre pedido)",
+        "nota_general": "El color puede variar dependiendo de su monitor"
+      },
+      "breadcrumb": [
+        {
+          "label": "Home",
+          "link": "/"
+        },
+        {
+          "label": "ESCOLAR",
+          "link": "/catalogo?categoria=escolar"
+        },
+        {
+          "label": "REVOLUTION",
+          "link": "/catalogo?categoria=escolar&familia=revolution"
+        },
+        {
+          "label": "OHP-86",
+          "link": "#"
+        }
+      ],
+      "image": "/public/img/Escolar/REVOLUTION/OHP-86/OHP-86Frente.jpg",
+      "images": [
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-86/OHP-86Frente.jpg",
+          "label": "Frente"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-86/OHP-86lateral.jpg",
+          "label": "Lateral"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-86/OHP-86Atras90.jpg",
+          "label": "Atras"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-86/AmbientadaRevolution.jpg",
+          "label": "Ambiente"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-86/OHP-86.jpg",
+          "label": "Imagen 1"
+        }
+      ]
+    },
+    {
+      "id": "ohp-86cr",
+      "name": "OHP-86cr",
+      "comercial_name": "Escolar REVOLUTION OHP-86cr",
+      "description": "Silla escolar REVOLUTION modelo OHP-86cr. Estructura de acero tubular cromada con asiento y respaldo en polipropileno.",
+      "specifications": {
+        "estructura": "Acero tubular de 1\" de diámetro, calibre 16, con terminado en cromo",
+        "paleta_lateral": "86Al negro de aluminio fundido, descansabrazos móvil de polipropileno semi-rígido, paleta antipánico y retráctil de polipropileno de alta densidad en color negro (derecho o izquierdo)",
+        "respaldo_asiento": "Dos piezas en polipropileno de alta resistencia y duración",
+        "colores": "Negro, azul marino, verde, naranja, arena, blanco, rojo o gris",
+        "resistencia": "Peso sugerido 160 kgs",
+        "nota": "Disponible con paleta lateral lado izquierdo (sobre pedido)",
+        "nota_general": "El color puede variar dependiendo de su monitor"
+      },
+      "breadcrumb": [
+        {
+          "label": "Home",
+          "link": "/"
+        },
+        {
+          "label": "ESCOLAR",
+          "link": "/catalogo?categoria=escolar"
+        },
+        {
+          "label": "REVOLUTION",
+          "link": "/catalogo?categoria=escolar&familia=revolution"
+        },
+        {
+          "label": "OHP-86cr",
+          "link": "#"
+        }
+      ],
+      "image": "/public/img/Escolar/REVOLUTION/OHP-86cr/OHP-86crFrente.jpg",
+      "images": [
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-86cr/OHP-86crFrente.jpg",
+          "label": "Frente"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-86cr/OHP-86crlateral.jpg",
+          "label": "Lateral"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-86cr/OHP-86crAtras90.jpg",
+          "label": "Atras"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-86cr/AmbientadaRevolution.jpg",
+          "label": "Ambiente"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-86cr/OHP-86cr.jpg",
+          "label": "Imagen 1"
+        }
+      ]
+    },
+    {
+      "id": "ohp-87",
+      "name": "OHP-87",
+      "comercial_name": "Escolar REVOLUTION OHP-87",
+      "description": "Silla escolar REVOLUTION modelo OHP-87. Estructura de acero tubular con respaldo en polipropileno y asiento tapizado.",
+      "specifications": {
+        "estructura": "Acero tubular de 1\" de diámetro, calibre 16, con acabado en pintura epóxica (electrostática) color negro o gris",
+        "paleta_lateral": "86Al negro de aluminio fundido, descansabrazos móvil de polipropileno semi-rígido, paleta antipánico y retráctil de polipropileno de alta densidad en color negro (derecho o izquierdo)",
+        "respaldo": "Una pieza en polipropileno de alta resistencia y duración",
+        "colores_respaldo": "Negro, azul marino, verde, naranja, arena, blanco, rojo o gris",
+        "asiento": "Hule espuma de poliuretano inyectado con 60 kgs/m³ con retardante a la flama y alta resiliencia",
+        "tapiz": "Tapizado al color de su elección de toda la colección de tapices",
+        "resistencia": "Peso sugerido 160 kgs",
+        "nota": "Disponible con paleta lateral lado izquierdo (sobre pedido)",
+        "nota_general": "El color puede variar dependiendo de su monitor"
+      },
+      "breadcrumb": [
+        {
+          "label": "Home",
+          "link": "/"
+        },
+        {
+          "label": "ESCOLAR",
+          "link": "/catalogo?categoria=escolar"
+        },
+        {
+          "label": "REVOLUTION",
+          "link": "/catalogo?categoria=escolar&familia=revolution"
+        },
+        {
+          "label": "OHP-87",
+          "link": "#"
+        }
+      ],
+      "image": "/public/img/Escolar/REVOLUTION/OHP-87/OHP-87Frente.jpg",
+      "images": [
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-87/OHP-87Frente.jpg",
+          "label": "Frente"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-87/OHP-87lateral.jpg",
+          "label": "Lateral"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-87/OHP-87Atras90.jpg",
+          "label": "Atras"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-87/AmbientadaRevolution.jpg",
+          "label": "Ambiente"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-87/OHP-87.jpg",
+          "label": "Imagen 1"
+        }
+      ]
+    },
+    {
+      "id": "ohp-87cr",
+      "name": "OHP-87cr",
+      "comercial_name": "Escolar REVOLUTION OHP-87cr",
+      "description": "Silla escolar REVOLUTION modelo OHP-87cr. Estructura de acero tubular cromada con respaldo en polipropileno y asiento tapizado.",
+      "specifications": {
+        "estructura": "Acero tubular de 1\" de diámetro, calibre 16, con terminado en cromo",
+        "paleta_lateral": "86Al negro de aluminio fundido, descansabrazos móvil de polipropileno semi-rígido, paleta antipánico y retráctil de polipropileno de alta densidad en color negro (derecho o izquierdo)",
+        "respaldo": "Bastidor en polipropileno de alta resistencia y duración",
+        "colores_respaldo": "Negro, azul marino, verde, naranja, arena, blanco, rojo o gris",
+        "asiento": "Hule espuma de poliuretano inyectado con 60 kgs/m³ con retardante a la flama y alta resiliencia",
+        "tapiz": "Tapizado al color de su elección de toda la colección de tapices",
+        "resistencia": "Peso sugerido 160 kgs",
+        "nota": "Disponible con paleta lateral lado izquierdo (sobre pedido)",
+        "nota_general": "El color puede variar dependiendo de su monitor"
+      },
+      "breadcrumb": [
+        {
+          "label": "Home",
+          "link": "/"
+        },
+        {
+          "label": "ESCOLAR",
+          "link": "/catalogo?categoria=escolar"
+        },
+        {
+          "label": "REVOLUTION",
+          "link": "/catalogo?categoria=escolar&familia=revolution"
+        },
+        {
+          "label": "OHP-87cr",
+          "link": "#"
+        }
+      ],
+      "image": "/public/img/Escolar/REVOLUTION/OHP-87cr/OHP-87crFrente.jpg",
+      "images": [
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-87cr/OHP-87crFrente.jpg",
+          "label": "Frente"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-87cr/OHP-87crlateral.jpg",
+          "label": "Lateral"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-87cr/OHP-87crAtras90.jpg",
+          "label": "Atras"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-87cr/AmbientadaRevolution.jpg",
+          "label": "Ambiente"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-87cr/OHP-87cr.jpg",
+          "label": "Imagen 1"
+        }
+      ]
+    },
+    {
+      "id": "ohp-88",
+      "name": "OHP-88",
+      "comercial_name": "Escolar REVOLUTION OHP-88",
+      "description": "Silla escolar REVOLUTION modelo OHP-88. Estructura de acero tubular con asiento y respaldo acolchados.",
+      "specifications": {
+        "estructura": "Acero tubular de 1\" de diámetro, calibre 16, con acabado en pintura epóxica (electrostática) color negro o gris",
+        "paleta_lateral": "86Al negro de aluminio fundido, descansabrazos móvil de polipropileno semi-rígido, paleta antipánico y retráctil de polipropileno de alta densidad en color negro (derecho o izquierdo)",
+        "asiento_respaldo": "Plásticos en color negro o blanco, hule espuma laminado flexible con 24 kgs/m³ de densidad en el asiento y hule espuma de poliuretano inyectado con 60 kgs/m³ con retardante a la flama, de alta resiliencia",
+        "tapiz": "Tapizado al color de su elección de toda la colección de tapices",
+        "resistencia": "Peso sugerido 160 kgs",
+        "nota": "Disponible con paleta lateral lado izquierdo (sobre pedido)",
+        "nota_general": "El color puede variar dependiendo de su monitor"
+      },
+      "breadcrumb": [
+        {
+          "label": "Home",
+          "link": "/"
+        },
+        {
+          "label": "ESCOLAR",
+          "link": "/catalogo?categoria=escolar"
+        },
+        {
+          "label": "REVOLUTION",
+          "link": "/catalogo?categoria=escolar&familia=revolution"
+        },
+        {
+          "label": "OHP-88",
+          "link": "#"
+        }
+      ],
+      "image": "/public/img/Escolar/REVOLUTION/OHP-88/OHP-88Frente.jpg",
+      "images": [
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-88/OHP-88Frente.jpg",
+          "label": "Frente"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-88/OHP-88lateral.jpg",
+          "label": "Lateral"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-88/OHP-88Atras90.jpg",
+          "label": "Atras"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-88/AmbientadaRevolution.jpg",
+          "label": "Ambiente"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-88/OHP-88.jpg",
+          "label": "Imagen 1"
+        }
+      ]
+    },
+    {
+      "id": "ohp-88cr",
+      "name": "OHP-88cr",
+      "comercial_name": "Escolar REVOLUTION OHP-88cr",
+      "description": "Silla escolar REVOLUTION modelo OHP-88cr. Estructura de acero tubular cromada con asiento y respaldo acolchados.",
+      "specifications": {
+        "estructura": "Acero tubular de 1\" de diámetro, calibre 16, con terminado en cromo",
+        "paleta_lateral": "86Al negro de aluminio fundido, descansabrazos móvil de polipropileno semi-rígido, paleta antipánico y retráctil de polipropileno de alta densidad en color negro (derecho o izquierdo)",
+        "asiento_respaldo": "Plásticos en color negro o blanco, hule espuma laminado flexible con 24 kgs/m³ de densidad en el asiento y hule espuma de poliuretano inyectado con 60 kgs/m³ con retardante a la flama, de alta resiliencia",
+        "tapiz": "Tapizado al color de su elección de toda la colección de tapices",
+        "resistencia": "Peso sugerido 160 kgs",
+        "nota": "Disponible con paleta lateral lado izquierdo (sobre pedido)",
+        "nota_general": "El color puede variar dependiendo de su monitor"
+      },
+      "breadcrumb": [
+        {
+          "label": "Home",
+          "link": "/"
+        },
+        {
+          "label": "ESCOLAR",
+          "link": "/catalogo?categoria=escolar"
+        },
+        {
+          "label": "REVOLUTION",
+          "link": "/catalogo?categoria=escolar&familia=revolution"
+        },
+        {
+          "label": "OHP-88cr",
+          "link": "#"
+        }
+      ],
+      "image": "/public/img/Escolar/REVOLUTION/OHP-88cr/OHP-88crFrente.jpg",
+      "images": [
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-88cr/OHP-88crFrente.jpg",
+          "label": "Frente"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-88cr/OHP-88crlateral.jpg",
+          "label": "Lateral"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-88cr/OHP-88crAtras90.jpg",
+          "label": "Atras"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-88cr/AmbientadaRevolution.jpg",
+          "label": "Ambiente"
+        },
+        {
+          "url": "/public/img/Escolar/REVOLUTION/OHP-88cr/OHP-88cr.jpg",
+          "label": "Imagen 1"
+        }
+      ]
+    }
+  ]
+} ,
+   "alpha": {
       "id": "alpha",
       "name": "ALPHA",
       "description": "Familia ALPHA de sillas escolares.",
@@ -1262,8 +1440,14 @@
           "id": "ohp-102",
           "name": "OHP-102",
           "comercial_name": "Escolar ALPHA OHP-102",
-          "description": "Silla escolar ALPHA modelo OHP-102. Información detallada pendiente.",
+          "description": "Silla escolar ALPHA modelo OHP-102. COLECCIÓN DE TERMINADOS. Estructura de barra de acero sólido con asiento y respaldo en polipropileno.",
           "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "Barra de acero sólido de 11 mm de diámetro, con terminado en cromo. Con paleta lateral abatible color negro fijada a la estructura a base de presión por medio de un soporte",
+            "asiento_respaldo": "Dos piezas en polipropileno de alta resistencia y duración",
+            "colores": "Blanco, negro, gris o rojo",
+            "resistencia": "Peso sugerido 140 kgs",
+            "nota": "Disponible solamente con paleta lateral lado derecho",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -1308,8 +1492,15 @@
           "id": "ohp-107",
           "name": "OHP-107",
           "comercial_name": "Escolar ALPHA OHP-107",
-          "description": "Silla escolar ALPHA modelo OHP-107. Información detallada pendiente.",
+          "description": "Silla escolar ALPHA modelo OHP-107. Estructura de barra de acero sólido con respaldo en polipropileno y asiento tapizado.",
           "specifications": {
+            "estructura": "Barra de acero sólido de 11 mm de diámetro, con terminado en cromo. Con paleta lateral abatible color negro fijada a la estructura a base de presión por medio de un soporte",
+            "respaldo": "Polipropileno de alta resistencia y duración",
+            "asiento": "Hule espuma de poliuretano inyectado flexible con densidad de 60 kgs/m³ con retardante a la flama y alta resiliencia",
+            "colores": "Negro, gris, rojo, blanco o arena",
+            "tapiz": "Respaldo en copolímero de polipropileno al color de su elección y asiento tapizado al color de su elección de toda la colección de tapices",
+            "resistencia": "Peso sugerido 140 kgs",
+            "nota": "Disponible solamente con paleta lateral lado derecho",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -1361,8 +1552,15 @@
           "id": "ohp-2200",
           "name": "OHP-2200",
           "comercial_name": "Escolar ELLITICO COLLECTION OHP-2200",
-          "description": "Silla escolar ELLITICO COLLECTION modelo OHP-2200. Información detallada pendiente.",
+          "description": "Silla escolar ELLITICO COLLECTION modelo OHP-2200. Estructura de acero tubular con parrilla y asiento tapizado.",
           "specifications": {
+            "estructura": "Acero tubular 1\" de diámetro, calibre 18; con acabado de pintura epóxica (electrostática) color negro",
+            "parrilla": "Perfíl pulido redondo de acero en 3/8\" y 5/16\" de diámetro",
+            "respaldo_asiento": "Hule espuma laminado flexible con densidad de 22 kgs/m³ en el respaldo y 24 kgs/m³ en el asiento y alta resiliencia",
+            "paleta": "Color negro, azul, rojo, gris en copolímero de polipropileno de alta densidad, en 1/2\" de espesor con embutido para lápiz",
+            "tapiz": "Tapizado al color de su elección de toda la colección de tapices",
+            "resistencia": "Peso sugerido 130 kgs",
+            "nota": "Disponible con paleta lateral lado izquierdo. La paleta en color rojo, azul o gris es sobre pedido y un mínimo de 300 pzs.",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -1389,8 +1587,15 @@
           "id": "ohp-2302",
           "name": "OHP-2302",
           "comercial_name": "Escolar ELLITICO COLLECTION OHP-2302",
-          "description": "Silla escolar ELLITICO COLLECTION modelo OHP-2302. Información detallada pendiente.",
+          "description": "Silla escolar ELLITICO COLLECTION modelo OHP-2302. Estructura de acero tubular con parrilla y asiento tapizado.",
           "specifications": {
+            "estructura": "Acero tubular 1\" de diámetro, calibre 18; con acabado de pintura epóxica (electrostática) color negro",
+            "parrilla": "Perfíl pulido redondo de acero en 3/8\" y 5/16\" de diámetro",
+            "respaldo_asiento": "Hule espuma laminado flexible con densidad de 22 kgs/m³ en el respaldo y 24 kgs/m³ en el asiento y alta resiliencia",
+            "tapiz": "Tapizado al color de su elección de toda la colección de tapices",
+            "paleta": "Color negro, azul, rojo, gris en copolímero de polipropileno de alta densidad, en 1/2\" de espesor con embutido para lápiz",
+            "resistencia": "Peso sugerido 130 kgs",
+            "nota": "Disponible solamente con paleta lateral lado derecho",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -1417,8 +1622,15 @@
           "id": "ohp-2320",
           "name": "OHP-2320",
           "comercial_name": "Escolar ELLITICO COLLECTION OHP-2320",
-          "description": "Silla escolar ELLITICO COLLECTION modelo OHP-2320. Información detallada pendiente.",
+          "description": "Silla escolar ELLITICO COLLECTION modelo OHP-2320. Estructura de acero tubular con parrilla y asiento tapizado.",
           "specifications": {
+            "estructura": "Acero tubular 1\" de diámetro, calibre 18; con acabado de pintura epóxica (electrostática) color negro",
+            "parrilla": "Perfíl pulido redondo de acero en 3/8\" y 5/16\" de diámetro",
+            "respaldo_asiento": "Hule espuma laminado flexible con densidad de 22 kgs/m³ en el respaldo y 24 kgs/m³ en el asiento y alta resiliencia",
+            "tapiz": "Tapizado al color de su elección de toda la colección de tapices",
+            "paleta": "Lámina de acero troquelado calibre 20, con ceja perimetral",
+            "resistencia": "Peso sugerido 150 kgs",
+            "nota": "Disponible con paleta lateral lado izquierdo",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -1452,8 +1664,16 @@
           "id": "ohp-2600",
           "name": "OHP-2600",
           "comercial_name": "Escolar ELLITICO OHP-2600",
-          "description": "Silla escolar ELLITICO modelo OHP-2600. Información detallada pendiente.",
+          "description": "Silla escolar ELLITICO modelo OHP-2600. COLECCIÓN DE TERMINADOS. Estructura de acero tubular con asiento y respaldo en polipropileno.",
           "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "Acero tubular 1\" de diámetro, calibre 18; con acabado de pintura epóxica (electrostática) color negro",
+            "parrilla": "Perfíl pulido redondo de acero en 3/8\" y 5/16\" de diámetro",
+            "asiento_respaldo": "Dos piezas en polipropileno de alta resistencia y duración",
+            "colores": "Negro o azul",
+            "paleta": "Color negro, azul, rojo, gris en copolímero de polipropileno de alta densidad, en 1/2\" de espesor con embutido para lápiz",
+            "resistencia": "Peso sugerido 130 kgs",
+            "nota": "Disponible con paleta lateral lado izquierdo. La paleta en color rojo, azul o gris es sobre pedido y un mínimo de 300 pzs.",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -1480,8 +1700,16 @@
           "id": "ohp-2300",
           "name": "OHP-2300",
           "comercial_name": "Escolar ELLITICO OHP-2300",
-          "description": "Silla escolar ELLITICO modelo OHP-2300. Información detallada pendiente.",
+          "description": "Silla escolar ELLITICO modelo OHP-2300. COLECCIÓN DE TERMINADOS. Estructura de acero tubular con asiento y respaldo en polipropileno.",
           "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "Acero tubular 1\" de diámetro, calibre 18; con acabado de pintura epóxica (electrostática) color negro",
+            "parrilla": "Perfíl pulido redondo de acero en 3/8\" y 5/16\" de diámetro",
+            "asiento_respaldo": "Dos piezas en polipropileno de alta resistencia y duración",
+            "colores": "Negro o azul",
+            "paleta": "Lámina de acero troquelado calibre 20, con ceja perimetral",
+            "resistencia": "Peso sugerido 160 kgs",
+            "nota": "Disponible con paleta lateral lado izquierdo",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -1508,8 +1736,16 @@
           "id": "ohp-2301",
           "name": "OHP-2301",
           "comercial_name": "Escolar ELLITICO OHP-2301",
-          "description": "Silla escolar ELLITICO modelo OHP-2301. Información detallada pendiente.",
+          "description": "Silla escolar ELLITICO modelo OHP-2301. COLECCIÓN DE TERMINADOS. Estructura de acero tubular con asiento y respaldo en polipropileno.",
           "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "Acero tubular 1\" de diámetro, calibre 18; con acabado de pintura epóxica (electrostática) color negro",
+            "parrilla": "Perfíl pulido redondo de acero en 3/8\" y 5/16\" de diámetro",
+            "asiento_respaldo": "Dos piezas en polipropileno de alta resistencia y duración",
+            "colores": "Negro o azul",
+            "paleta": "Color negro en copolímero de polipropileno de alta densidad, en 3/4\" de espesor con embutido para lápiz",
+            "resistencia": "Peso sugerido 130 kgs",
+            "nota": "Disponible solamente con paleta lateral lado derecho",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -1543,8 +1779,15 @@
           "id": "ohp-2700",
           "name": "OHP-2700",
           "comercial_name": "Escolar INNOVA OHP-2700",
-          "description": "Silla escolar INNOVA modelo OHP-2700. Información detallada pendiente.",
+          "description": "Silla escolar INNOVA modelo OHP-2700. Estructura de acero tubular con asiento y respaldo en polipropileno perforado.",
           "specifications": {
+            "estructura": "Acero tubular 1\" de diámetro, calibre 18; con acabado de pintura epóxica (electrostática) color negro",
+            "parrilla": "Perfíl pulido redondo de acero en 3/8\" y 5/16\" de diámetro",
+            "asiento_respaldo": "Dos piezas en polipropileno de alta resistencia y duración, con diversas perforaciones en forma de óvalo",
+            "colores": "Negro, gris, verde, rojo, azul, blanco, berenjena, gris cálido, naranja",
+            "paleta": "Color negro, azul, rojo, gris en copolímero de polipropileno de alta densidad, en 1/2\" de espesor con embutido para lápiz",
+            "resistencia": "Peso sugerido 150 kgs",
+            "nota": "Disponible con paleta lateral lado izquierdo. La paleta en color rojo, azul o gris es sobre pedido y un mínimo de 300 pzs.",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -1581,8 +1824,15 @@
           "id": "ohp-2307",
           "name": "OHP-2307",
           "comercial_name": "Escolar INNOVA OHP-2307",
-          "description": "Silla escolar INNOVA modelo OHP-2307. Información detallada pendiente.",
+          "description": "Silla escolar INNOVA modelo OHP-2307. Estructura de acero tubular con asiento y respaldo en polipropileno perforado.",
           "specifications": {
+            "estructura": "Acero tubular 1\" de diámetro, calibre 18; con acabado de pintura epóxica (electrostática) color negro",
+            "parrilla": "Perfíl pulido redondo de acero en 3/8\" y 5/16\" de diámetro",
+            "asiento_respaldo": "Dos piezas en polipropileno de alta resistencia y duración, con diversas perforaciones en forma de óvalo",
+            "colores": "Negro, gris, verde, rojo, azul, blanco, berenjena, gris cálido, naranja",
+            "paleta": "Lámina de acero troquelado calibre 20, con ceja perimetral",
+            "resistencia": "Peso sugerido 150 kgs",
+            "nota": "Disponible con paleta lateral lado izquierdo",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -1619,8 +1869,15 @@
           "id": "ohp-2308",
           "name": "OHP-2308",
           "comercial_name": "Escolar INNOVA OHP-2308",
-          "description": "Silla escolar INNOVA modelo OHP-2308. Información detallada pendiente.",
+          "description": "Silla escolar INNOVA modelo OHP-2308. Estructura de acero tubular con asiento y respaldo en polipropileno perforado.",
           "specifications": {
+            "estructura": "Acero tubular 1\" de diámetro, calibre 18; con acabado de pintura epóxica (electrostática) color negro",
+            "parrilla": "Perfíl pulido redondo de acero en 3/8\" y 5/16\" de diámetro",
+            "asiento_respaldo": "Dos piezas en polipropileno de alta resistencia y duración, con diversas perforaciones en forma de óvalo",
+            "colores": "Negro, gris, verde, rojo, azul, blanco, berenjena, gris cálido, naranja",
+            "paleta": "Color negro en copolímero de polipropileno de alta densidad, en 3/4\" de espesor con embutido para lápiz",
+            "resistencia": "Peso sugerido 150 kgs",
+            "nota": "Disponible solamente con paleta lateral lado derecho",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
