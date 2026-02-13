@@ -21,7 +21,13 @@
             "terminación": "Cromado",
             "nota": "El color puede variar dependiendo de su monitor"
           },
-          "image": "/public/img/Accesorios/PISTÓN REBASADOR CROMADO/Pistón Rebasador Cromado/PisSecretCRP.jpg"
+          "image": "/public/img/Accesorios/PISTÓN REBASADOR CROMADO/Pistón Rebasador Cromado/PisSecretCRP.jpg",
+          "images": [
+            {"url": "/public/img/Accesorios/PISTÓN REBASADOR CROMADO/Pistón Rebasador Cromado/PisSecretCRP.jpg", "label": "Pistón Secretarial Cromado"},
+            {"url": "/public/img/Accesorios/PISTÓN REBASADOR CROMADO/Pistón Rebasador Cromado/OHE-100blancaAlucido.jpg", "label": "OHE-100 Blanca"},
+            {"url": "/public/img/Accesorios/PISTÓN REBASADOR CROMADO/Pistón Rebasador Cromado/OHE-100negroAlucido.jpg", "label": "OHE-100 Negro"},
+            {"url": "/public/img/Accesorios/PISTÓN REBASADOR CROMADO/Pistón Rebasador Cromado/OHS-43Alucido.jpg", "label": "OHS-43"}
+          ]
         },
         {
           "id": "base-aluminio-lucido",
@@ -34,7 +40,13 @@
             "terminación": "Lúcido (pulido/brillante)",
             "nota": "El color puede variar dependiendo de su monitor"
           },
-          "image": "/public/img/Accesorios/PISTÓN REBASADOR CROMADO/Base Aluminio Lúcido/BaseALlucidoConRod.jpg"
+          "image": "/public/img/Accesorios/PISTÓN REBASADOR CROMADO/Base Aluminio Lúcido/BaseALlucidoConRod.jpg",
+          "images": [
+            {"url": "/public/img/Accesorios/PISTÓN REBASADOR CROMADO/Base Aluminio Lúcido/BaseALlucidoConRod.jpg", "label": "Base Aluminio Lúcido"},
+            {"url": "/public/img/Accesorios/PISTÓN REBASADOR CROMADO/Base Aluminio Lúcido/OHE-100blancaAlucido.jpg", "label": "OHE-100 Blanca"},
+            {"url": "/public/img/Accesorios/PISTÓN REBASADOR CROMADO/Base Aluminio Lúcido/OHE-100negroAlucido.jpg", "label": "OHE-100 Negro"},
+            {"url": "/public/img/Accesorios/PISTÓN REBASADOR CROMADO/Base Aluminio Lúcido/OHS-43Alucido.jpg", "label": "OHS-43"}
+          ]
         }
       ]
     },
@@ -55,18 +67,10 @@
           },
           "image": "/public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/AroKitCrArriba.jpg",
           "images": [
-            {
-              "url": "/public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/AroKitCrArriba.jpg",
-              "label": "Vista Superior del Aro"
-            },
-            {
-              "url": "/public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/KitCajCr.jpg",
-              "label": "Kit Completo"
-            },
-            {
-              "url": "/public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/PerillaKitCajCr.jpg",
-              "label": "Detalle de Perilla"
-            }
+            {"url": "/public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/AroKitCrArriba.jpg", "label": "Vista Superior del Aro"},
+            {"url": "/public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/KitCajCr.jpg", "label": "Kit Completo"},
+            {"url": "/public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/PerillaKitCajCr.jpg", "label": "Detalle de Perilla"},
+            {"url": "/public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/OHS-88alkitCrVainilla.jpg", "label": "OHS-88 Vainilla"}
           ]
         },
         {
@@ -78,7 +82,13 @@
             "uso": "Repuesto de pistón para sillas operativas / ejecutivas",
             "nota": "El color puede variar dependiendo de su monitor"
           },
-          "image": "/public/img/Accesorios/KITS_PISTÓN/Piston/PistonCajero.jpg"
+          "image": "/public/img/Accesorios/KITS_PISTÓN/Piston/PistonCajero.jpg",
+          "images": [
+            {"url": "/public/img/Accesorios/KITS_PISTÓN/Piston/PistonCajero.jpg", "label": "Pistón Cajero"},
+            {"url": "/public/img/Accesorios/KITS_PISTÓN/Piston/OHE-100kitCr.jpg", "label": "OHE-100"},
+            {"url": "/public/img/Accesorios/KITS_PISTÓN/Piston/OHE-100negrokitCr.jpg", "label": "OHE-100 Negro"},
+            {"url": "/public/img/Accesorios/KITS_PISTÓN/Piston/OHS-88alkitCrVainilla.jpg", "label": "OHS-88 Vainilla"}
+          ]
         }
       ]
     },
@@ -97,7 +107,12 @@
             "compatibilidad": "Algunos brazos son compatibles con otras sillas; validar con el área comercial",
             "nota": "El color puede variar dependiendo de su monitor"
           },
-          "image": "/public/img/Accesorios/BRAZO AJUSTABLE 40/BrazoMovil40.jpg"
+          "image": "/public/img/Accesorios/BRAZO AJUSTABLE 40/BrazoMovil40.jpg",
+          "images": [
+            {"url": "/public/img/Accesorios/BRAZO AJUSTABLE 40/BrazoMovil40.jpg", "label": "Brazo Móvil 40"},
+            {"url": "/public/img/Accesorios/BRAZO AJUSTABLE 40/OHS-42bra40.jpg", "label": "OHS-42 Brazo 40"},
+            {"url": "/public/img/Accesorios/BRAZO AJUSTABLE 40/OHS-43bra40.jpg", "label": "OHS-43 Brazo 40"}
+          ]
         }
       ]
     },
@@ -176,7 +191,14 @@
             "descansabrazos": "Móvil de poliuretano semi-rígido color negro",
             "nota": "Se suministra por pieza individual (lado derecho o izquierdo). Algunos brazos son compatibles con otras sillas, consultar con el área comercial."
           },
-          "image": "/public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Blanco/Brazo86Al-pad-Negro.jpg"
+          "image": "/public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Negro/Brazo86Al-pad-Negro.jpg",
+          "images": [
+            {"url": "/public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Negro/Brazo86Al-pad-Negro.jpg", "label": "Brazo 86Al Pad Negro"},
+            {"url": "/public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Negro/OHS-85alBraAlpadNegro.jpg", "label": "OHS-85 Pad Negro"},
+            {"url": "/public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Negro/OHS-86alBraAlpadNegro.jpg", "label": "OHS-86 Pad Negro"},
+            {"url": "/public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Negro/OHS-87alBraAlpadNegro.jpg", "label": "OHS-87 Pad Negro"},
+            {"url": "/public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Negro/OHS-88alBraAlpadNegro.jpg", "label": "OHS-88 Pad Negro"}
+          ]
         },
         {
           "id": "brazo-86al-pad-blanco",
@@ -188,7 +210,14 @@
             "descansabrazos": "Móvil de poliuretano semi-rígido color blanco",
             "nota": "Se suministra por pieza individual (lado derecho o izquierdo). Algunos brazos son compatibles con otras sillas, consultar con el área comercial."
           },
-          "image": "/public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Negro/Brazo86Al-pad-Blanco.jpg"
+          "image": "/public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Negro/Brazo86Al-pad-Blanco.jpg",
+          "images": [
+            {"url": "/public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Negro/Brazo86Al-pad-Blanco.jpg", "label": "Brazo 86Al Pad Blanco"},
+            {"url": "/public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Negro/OHS-85alBraAlpadBco.jpg", "label": "OHS-85 Pad Blanco"},
+            {"url": "/public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Negro/OHS-86alBraAlpadBco.jpg", "label": "OHS-86 Pad Blanco"},
+            {"url": "/public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Negro/OHS-87alBraAlpadBco.jpg", "label": "OHS-87 Pad Blanco"},
+            {"url": "/public/img/Accesorios/BRAZOS FIJOS OPERATIVAS/Brazo-86Al pad Negro/OHS-88alBraAlpadBco.jpg", "label": "OHS-88 Pad Blanco"}
+          ]
         }
       ]
     }
