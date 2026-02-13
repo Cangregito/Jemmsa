@@ -3,7 +3,7 @@
     "id": "directivos",
     "name": "Directivos",
     "description": "Sillas ejecutivas de alto confort para directivos",
-    "image": "../public/img/categorias/directivos.png"
+    "image": "/public/img/categorias/directivos.png"
   },
   "families": {
     "alufsen": {
@@ -24,22 +24,22 @@
             "tapiz": "Soft revolving leather color negro",
             "capacidad": "Hasta 160 kg"
           },
-          "image": "../public/img/Directivos/ALUFSEN/OHE-405/OHE-405frente-Negro.jpg",
+          "image": "/public/img/Directivos/ALUFSEN/OHE-405/OHE-405frente-Negro.jpg",
           "images": [
             {
-              "url": "../public/img/Directivos/ALUFSEN/OHE-405/OHE-405frente-Negro.jpg",
+              "url": "/public/img/Directivos/ALUFSEN/OHE-405/OHE-405frente-Negro.jpg",
               "label": "Frente"
             },
             {
-              "url": "../public/img/Directivos/ALUFSEN/OHE-405/OHE-405lateral-Negro.jpg",
+              "url": "/public/img/Directivos/ALUFSEN/OHE-405/OHE-405lateral-Negro.jpg",
               "label": "Lateral"
             },
             {
-              "url": "../public/img/Directivos/ALUFSEN/OHE-405/OHE-405atras90-Negro.jpg",
+              "url": "/public/img/Directivos/ALUFSEN/OHE-405/OHE-405atras90-Negro.jpg",
               "label": "Atras"
             },
             {
-              "url": "../public/img/Directivos/ALUFSEN/OHE-405/ALUFSEN-Ambiente.jpg",
+              "url": "/public/img/Directivos/ALUFSEN/OHE-405/ALUFSEN-Ambiente.jpg",
               "label": "Ambiente"
             }
           ]
@@ -55,22 +55,22 @@
             "tapiz": "Soft revolving leather color negro",
             "capacidad": "Hasta 120 kg"
           },
-          "image": "../public/img/Directivos/ALUFSEN/OHV-408/OHV-408frente.jpg",
+          "image": "/public/img/Directivos/ALUFSEN/OHV-408/OHV-408frente.jpg",
           "images": [
             {
-              "url": "../public/img/Directivos/ALUFSEN/OHV-408/OHV-408frente.jpg",
+              "url": "/public/img/Directivos/ALUFSEN/OHV-408/OHV-408frente.jpg",
               "label": "Frente"
             },
             {
-              "url": "../public/img/Directivos/ALUFSEN/OHV-408/OHV-408lateral.jpg",
+              "url": "/public/img/Directivos/ALUFSEN/OHV-408/OHV-408lateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "../public/img/Directivos/ALUFSEN/OHV-408/OHV-408atras90.jpg",
+              "url": "/public/img/Directivos/ALUFSEN/OHV-408/OHV-408atras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "../public/img/Directivos/ALUFSEN/OHV-408/ALUFSENOHV-408.jpg",
+              "url": "/public/img/Directivos/ALUFSEN/OHV-408/ALUFSENOHV-408.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -96,22 +96,22 @@
             "capacidad": "Peso sugerido 160 kg",
             "nota": "El color puede variar según el monitor"
           },
-          "image": "../public/img/Directivos/CIANI/OHE-305negro.jpg",
+          "image": "/public/img/Directivos/CIANI/OHE-305negro.jpg",
           "images": [
             {
-              "url": "../public/img/Directivos/CIANI/OHE-305negro/OHE-305negrofrente.jpg",
+              "url": "/public/img/Directivos/CIANI/OHE-305negro/OHE-305negrofrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "../public/img/Directivos/CIANI/OHE-305negro/OHE-305negroatras90.jpg",
+              "url": "/public/img/Directivos/CIANI/OHE-305negro/OHE-305negroatras90.jpg",
               "label": "Atrás"
             },
             {
-              "url": "../public/img/Directivos/CIANI/OHE-305negro/OHE-305negrolateral.jpg",
+              "url": "/public/img/Directivos/CIANI/OHE-305negro/OHE-305negrolateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "../public/img/Directivos/CIANI/OHE-305negro/AmbientadaCIANInegro-1.jpg",
+              "url": "/public/img/Directivos/CIANI/OHE-305negro/AmbientadaCIANInegro-1.jpg",
               "label": "Ambiente"
             }
           ]
@@ -130,14 +130,14 @@
             "capacidad": "Peso sugerido 160 kg",
             "nota": "El color puede variar según el monitor"
           },
-          "image": "../public/img/Directivos/CIANI/OHE-303negro.jpg",
+          "image": "/public/img/Directivos/CIANI/OHE-303negro.jpg",
           "images": [
             {
-              "url": "../public/img/Directivos/CIANI/OHE-303negro/OHE-303Negro.jpg",
+              "url": "/public/img/Directivos/CIANI/OHE-303negro/OHE-303Negro.jpg",
               "label": "Frente"
             },
             {
-              "url": "../public/img/Directivos/CIANI/OHE-303negro/AmbientadaCIANInegro-303.jpg",
+              "url": "/public/img/Directivos/CIANI/OHE-303negro/AmbientadaCIANInegro-303.jpg",
               "label": "Ambiente"
             }
           ]
@@ -154,22 +154,22 @@
             "capacidad": "Peso sugerido 120 kg",
             "nota": "El color puede variar según el monitor"
           },
-          "image": "../public/img/Directivos/CIANI/OHV-308negro.jpg",
+          "image": "/public/img/Directivos/CIANI/OHV-308negro.jpg",
           "images": [
             {
-              "url": "../public/img/Directivos/CIANI/OHV-308negro/OHV-308negrofrente.jpg",
+              "url": "/public/img/Directivos/CIANI/OHV-308negro/OHV-308negrofrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "../public/img/Directivos/CIANI/OHV-308negro/OHV-308negroatras90.jpg",
+              "url": "/public/img/Directivos/CIANI/OHV-308negro/OHV-308negroatras90.jpg",
               "label": "Atrás"
             },
             {
-              "url": "../public/img/Directivos/CIANI/OHV-308negro/OHV-308negrolateral.jpg",
+              "url": "/public/img/Directivos/CIANI/OHV-308negro/OHV-308negrolateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "../public/img/Directivos/CIANI/OHV-308negro/AmbientadaCIANInegro-1.jpg",
+              "url": "/public/img/Directivos/CIANI/OHV-308negro/AmbientadaCIANInegro-1.jpg",
               "label": "Ambiente"
             }
           ]
@@ -195,22 +195,22 @@
             "capacidad": "Peso sugerido 120 kg",
             "nota": "El color puede variar según el monitor"
           },
-          "image": "../public/img/Directivos/GOETZ/OHE-205negro.jpg",
+          "image": "/public/img/Directivos/GOETZ/OHE-205negro.jpg",
           "images": [
             {
-              "url": "../public/img/Directivos/GOETZ/OHE-205negro/OHE-205negrofrente.jpg",
+              "url": "/public/img/Directivos/GOETZ/OHE-205negro/OHE-205negrofrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "../public/img/Directivos/GOETZ/OHE-205negro/OHE-205negroatras90.jpg",
+              "url": "/public/img/Directivos/GOETZ/OHE-205negro/OHE-205negroatras90.jpg",
               "label": "Atrás"
             },
             {
-              "url": "../public/img/Directivos/GOETZ/OHE-205negro/OHE-205negrolateral.jpg",
+              "url": "/public/img/Directivos/GOETZ/OHE-205negro/OHE-205negrolateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "../public/img/Directivos/GOETZ/OHE-205negro/AmbientadaGOETZnegro-1.jpg",
+              "url": "/public/img/Directivos/GOETZ/OHE-205negro/AmbientadaGOETZnegro-1.jpg",
               "label": "Ambiente"
             }
           ]
@@ -229,22 +229,22 @@
             "capacidad": "Peso sugerido 120 kg",
             "nota": "El color puede variar según el monitor"
           },
-          "image": "../public/img/Directivos/GOETZ/OHE-203negro.jpg",
+          "image": "/public/img/Directivos/GOETZ/OHE-203negro.jpg",
           "images": [
             {
-              "url": "../public/img/Directivos/GOETZ/OHE-203negro/OHE-203negrofrente.jpg",
+              "url": "/public/img/Directivos/GOETZ/OHE-203negro/OHE-203negrofrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "../public/img/Directivos/GOETZ/OHE-203negro/OHE-203negroatras90.jpg",
+              "url": "/public/img/Directivos/GOETZ/OHE-203negro/OHE-203negroatras90.jpg",
               "label": "Atrás"
             },
             {
-              "url": "../public/img/Directivos/GOETZ/OHE-203negro/OHE-203negrolateral.jpg",
+              "url": "/public/img/Directivos/GOETZ/OHE-203negro/OHE-203negrolateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "../public/img/Directivos/GOETZ/OHE-203negro/AmbientadaGOETZnegro-1.jpg",
+              "url": "/public/img/Directivos/GOETZ/OHE-203negro/AmbientadaGOETZnegro-1.jpg",
               "label": "Ambiente"
             }
           ]
@@ -261,22 +261,22 @@
             "capacidad": "Peso sugerido 120 kg",
             "nota": "El color puede variar según el monitor"
           },
-          "image": "../public/img/Directivos/GOETZ/OHV-208negro.jpg",
+          "image": "/public/img/Directivos/GOETZ/OHV-208negro.jpg",
           "images": [
             {
-              "url": "../public/img/Directivos/GOETZ/OHV-208negro/OHV-208negrofrente.jpg",
+              "url": "/public/img/Directivos/GOETZ/OHV-208negro/OHV-208negrofrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "../public/img/Directivos/GOETZ/OHV-208negro/OHV-208negroatras90.jpg",
+              "url": "/public/img/Directivos/GOETZ/OHV-208negro/OHV-208negroatras90.jpg",
               "label": "Atrás"
             },
             {
-              "url": "../public/img/Directivos/GOETZ/OHV-208negro/OHV-208negrolateral.jpg",
+              "url": "/public/img/Directivos/GOETZ/OHV-208negro/OHV-208negrolateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "../public/img/Directivos/GOETZ/OHV-208negro/AmbientadaGOETZnegro-1.jpg",
+              "url": "/public/img/Directivos/GOETZ/OHV-208negro/AmbientadaGOETZnegro-1.jpg",
               "label": "Ambiente"
             }
           ]
@@ -303,22 +303,22 @@
             "capacidad": "Peso sugerido 150 kg",
             "nota": "El color puede variar según el monitor"
           },
-          "image": "../public/img/Directivos/FENIX/OHE-165negro.jpg",
+          "image": "/public/img/Directivos/FENIX/OHE-165negro.jpg",
           "images": [
             {
-              "url": "../public/img/Directivos/FENIX/OHE-165negro/OHE-165negroFrente.jpg",
+              "url": "/public/img/Directivos/FENIX/OHE-165negro/OHE-165negroFrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "../public/img/Directivos/FENIX/OHE-165negro/OHE-165negroAtras90.jpg",
+              "url": "/public/img/Directivos/FENIX/OHE-165negro/OHE-165negroAtras90.jpg",
               "label": "Atrás"
             },
             {
-              "url": "../public/img/Directivos/FENIX/OHE-165negro/OHE-165negroLateral.jpg",
+              "url": "/public/img/Directivos/FENIX/OHE-165negro/OHE-165negroLateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "../public/img/Directivos/FENIX/OHE-165negro/AmbientadaFENIXnegro-4.jpg",
+              "url": "/public/img/Directivos/FENIX/OHE-165negro/AmbientadaFENIXnegro-4.jpg",
               "label": "Ambiente"
             }
           ]
@@ -338,22 +338,22 @@
             "capacidad": "Peso sugerido 150 kg",
             "nota": "El color puede variar según el monitor"
           },
-          "image": "../public/img/Directivos/FENIX/OHE-163negro.jpg",
+          "image": "/public/img/Directivos/FENIX/OHE-163negro.jpg",
           "images": [
             {
-              "url": "../public/img/Directivos/FENIX/OHE-163negro/OHE-163negroFrente.jpg",
+              "url": "/public/img/Directivos/FENIX/OHE-163negro/OHE-163negroFrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "../public/img/Directivos/FENIX/OHE-163negro/OHE-163negroAtras90.jpg",
+              "url": "/public/img/Directivos/FENIX/OHE-163negro/OHE-163negroAtras90.jpg",
               "label": "Atrás"
             },
             {
-              "url": "../public/img/Directivos/FENIX/OHE-163negro/OHE-163negroLateral.jpg",
+              "url": "/public/img/Directivos/FENIX/OHE-163negro/OHE-163negroLateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "../public/img/Directivos/FENIX/OHE-163negro/AmbientadaFENIXnegro-4.jpg",
+              "url": "/public/img/Directivos/FENIX/OHE-163negro/AmbientadaFENIXnegro-4.jpg",
               "label": "Ambiente"
             }
           ]
@@ -379,22 +379,22 @@
             "capacidad": "Peso sugerido 140 kg",
             "nota": "El color puede variar según el monitor"
           },
-          "image": "../public/img/Directivos/VANTO/OHV-78frente.jpg",
+          "image": "/public/img/Directivos/VANTO/OHV-78frente.jpg",
           "images": [
             {
-              "url": "../public/img/Directivos/VANTO/OHV-78frente.jpg",
+              "url": "/public/img/Directivos/VANTO/OHV-78frente.jpg",
               "label": "Frente"
             },
             {
-              "url": "../public/img/Directivos/VANTO/OHV-78atras.jpg",
+              "url": "/public/img/Directivos/VANTO/OHV-78atras.jpg",
               "label": "Atrás"
             },
             {
-              "url": "../public/img/Directivos/VANTO/OHV-78lateral.jpg",
+              "url": "/public/img/Directivos/VANTO/OHV-78lateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "../public/img/Directivos/VANTO/Ambientada-VANTO.jpg",
+              "url": "/public/img/Directivos/VANTO/Ambientada-VANTO.jpg",
               "label": "Ambiente"
             }
           ]
@@ -420,22 +420,22 @@
             "capacidad": "Peso sugerido 120 kg",
             "nota": "El color puede variar según el monitor"
           },
-          "image": "../public/img/Directivos/TRAVIS/OHE-295negrofrente.jpg",
+          "image": "/public/img/Directivos/TRAVIS/OHE-295negrofrente.jpg",
           "images": [
             {
-              "url": "../public/img/Directivos/TRAVIS/OHE-295negrofrente.jpg",
+              "url": "/public/img/Directivos/TRAVIS/OHE-295negrofrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "../public/img/Directivos/TRAVIS/OHE-295negroAtras90.jpg",
+              "url": "/public/img/Directivos/TRAVIS/OHE-295negroAtras90.jpg",
               "label": "Atrás"
             },
             {
-              "url": "../public/img/Directivos/TRAVIS/OHE-295negrolateral.jpg",
+              "url": "/public/img/Directivos/TRAVIS/OHE-295negrolateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "../public/img/Directivos/TRAVIS/AmbientadaTRAVISnegro-2.jpg",
+              "url": "/public/img/Directivos/TRAVIS/AmbientadaTRAVISnegro-2.jpg",
               "label": "Ambiente"
             }
           ]

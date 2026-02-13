@@ -24,22 +24,22 @@
             "tapiz": "Soft revolving leather color negro",
             "capacidad": "Hasta 160 kg"
           },
-          "image": "../public/img/Directivos/ALUFSEN/OHE-405/OHE-405frente-Negro.jpg",
+          "image": "/public/img/Directivos/ALUFSEN/OHE-405/OHE-405frente-Negro.jpg",
           "images": [
             {
-              "url": "../public/img/Directivos/ALUFSEN/OHE-405/OHE-405frente-Negro.jpg",
+              "url": "./public/img/Directivos/ALUFSEN/OHE-405/OHE-405frente-Negro.jpg",
               "label": "Frente"
             },
             {
-              "url": "../public/img/Directivos/ALUFSEN/OHE-405/OHE-405lateral-Negro.jpg",
+              "url": "./public/img/Directivos/ALUFSEN/OHE-405/OHE-405lateral-Negro.jpg",
               "label": "Lateral"
             },
             {
-              "url": "../public/img/Directivos/ALUFSEN/OHE-405/OHE-405atras90-Negro.jpg",
+              "url": "./public/img/Directivos/ALUFSEN/OHE-405/OHE-405atras90-Negro.jpg",
               "label": "Atras"
             },
             {
-              "url": "../public/img/Directivos/ALUFSEN/OHE-405/ALUFSEN-Ambiente.jpg",
+              "url": "./public/img/Directivos/ALUFSEN/OHE-405/ALUFSEN-Ambiente.jpg",
               "label": "Ambiente"
             }
           ]
@@ -56,22 +56,22 @@
             "tapiz": "Soft revolving leather color negro",
             "capacidad": "Hasta 120 kg"
           },
-          "image": "../public/img/Directivos/ALUFSEN/OHV-408/OHV-408frente.jpg",
+          "image": "/public/img/Directivos/ALUFSEN/OHV-408/OHV-408frente.jpg",
           "images": [
             {
-              "url": "../public/img/Directivos/ALUFSEN/OHV-408/OHV-408frente.jpg",
+              "url": "./public/img/Directivos/ALUFSEN/OHV-408/OHV-408frente.jpg",
               "label": "Frente"
             },
             {
-              "url": "../public/img/Directivos/ALUFSEN/OHV-408/OHV-408lateral.jpg",
+              "url": "./public/img/Directivos/ALUFSEN/OHV-408/OHV-408lateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "../public/img/Directivos/ALUFSEN/OHV-408/OHV-408atras90.jpg",
+              "url": "./public/img/Directivos/ALUFSEN/OHV-408/OHV-408atras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "../public/img/Directivos/ALUFSEN/OHV-408/ALUFSENOHV-408.jpg",
+              "url": "./public/img/Directivos/ALUFSEN/OHV-408/ALUFSENOHV-408.jpg",
               "label": "Imagen 1"
             }
           ]

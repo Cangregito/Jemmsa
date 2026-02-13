@@ -29,19 +29,19 @@
           "image": "/public/img/Ejecutivos/QUO/OHE-805negro/OHE-805negroFrente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/QUO/OHE-805negro/OHE-805negroFrente.jpg",
+              "url": "./public/img/Ejecutivos/QUO/OHE-805negro/OHE-805negroFrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/QUO/OHE-805negro/OHE-805negrolateral.jpg",
+              "url": "./public/img/Ejecutivos/QUO/OHE-805negro/OHE-805negrolateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/QUO/OHE-805negro/OHE-805negroAtras90.jpg",
+              "url": "./public/img/Ejecutivos/QUO/OHE-805negro/OHE-805negroAtras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/QUO/OHE-805negro/AmbientadaQUO-1.jpg",
+              "url": "./public/img/Ejecutivos/QUO/OHE-805negro/AmbientadaQUO-1.jpg",
               "label": "Ambiente"
             }
           ]
@@ -64,19 +64,19 @@
           "image": "/public/img/Ejecutivos/QUO/OHE-805blanco/OHE-805blancoFrenteTurquesa.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/QUO/OHE-805blanco/OHE-805blancoFrenteTurquesa.jpg",
+              "url": "./public/img/Ejecutivos/QUO/OHE-805blanco/OHE-805blancoFrenteTurquesa.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/QUO/OHE-805blanco/OHE-805blancaLateralTurquesa.jpg",
+              "url": "./public/img/Ejecutivos/QUO/OHE-805blanco/OHE-805blancaLateralTurquesa.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/QUO/OHE-805blanco/OHE-805blancoAtras90turquesa.jpg",
+              "url": "./public/img/Ejecutivos/QUO/OHE-805blanco/OHE-805blancoAtras90turquesa.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/QUO/OHE-805blanco/AmbientadaQUO-2.jpg",
+              "url": "./public/img/Ejecutivos/QUO/OHE-805blanco/AmbientadaQUO-2.jpg",
               "label": "Ambiente"
             }
           ]
@@ -99,19 +99,19 @@
           "image": "/public/img/Ejecutivos/QUO/OHE-803/OHE-803negroFrente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/QUO/OHE-803/OHE-803negroFrente.jpg",
+              "url": "./public/img/Ejecutivos/QUO/OHE-803/OHE-803negroFrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/QUO/OHE-803/OHE-803negrolateral.jpg",
+              "url": "./public/img/Ejecutivos/QUO/OHE-803/OHE-803negrolateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/QUO/OHE-803/OHE-803negroAtras90.jpg",
+              "url": "./public/img/Ejecutivos/QUO/OHE-803/OHE-803negroAtras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/QUO/OHE-803/AmbientadaQUO-1.jpg",
+              "url": "./public/img/Ejecutivos/QUO/OHE-803/AmbientadaQUO-1.jpg",
               "label": "Ambiente"
             }
           ]
@@ -134,19 +134,19 @@
           "image": "/public/img/Ejecutivos/QUO/OHE-803blanco/OHE-803blancoFrenteTurquesa.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/QUO/OHE-803blanco/OHE-803blancoFrenteTurquesa.jpg",
+              "url": "./public/img/Ejecutivos/QUO/OHE-803blanco/OHE-803blancoFrenteTurquesa.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/QUO/OHE-803blanco/OHE-803blancaLateralTurquesa.jpg",
+              "url": "./public/img/Ejecutivos/QUO/OHE-803blanco/OHE-803blancaLateralTurquesa.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/QUO/OHE-803blanco/OHE-803blancoAtras90turquesa.jpg",
+              "url": "./public/img/Ejecutivos/QUO/OHE-803blanco/OHE-803blancoAtras90turquesa.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/QUO/OHE-803blanco/AmbientadaQUO-2.jpg",
+              "url": "./public/img/Ejecutivos/QUO/OHE-803blanco/AmbientadaQUO-2.jpg",
               "label": "Ambiente"
             }
           ]
@@ -176,15 +176,15 @@
           "image": "/public/img/Ejecutivos/DILLON/OHE-35/OHE-35negroLateral.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/DILLON/OHE-35/OHE-35negroLateral.jpg",
+              "url": "./public/img/Ejecutivos/DILLON/OHE-35/OHE-35negroLateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/DILLON/OHE-35/OHE-35negroAtras90.jpg",
+              "url": "./public/img/Ejecutivos/DILLON/OHE-35/OHE-35negroAtras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/DILLON/OHE-35/AmbientadaDILLONnegro-8.jpg",
+              "url": "./public/img/Ejecutivos/DILLON/OHE-35/AmbientadaDILLONnegro-8.jpg",
               "label": "Ambiente"
             }
           ]
@@ -214,19 +214,19 @@
           "image": "/public/img/Ejecutivos/DRACO/OHE-605/OHE-605negroFrente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/DRACO/OHE-605/OHE-605negroFrente.jpg",
+              "url": "./public/img/Ejecutivos/DRACO/OHE-605/OHE-605negroFrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/DRACO/OHE-605/OHE-605negroLateral.jpg",
+              "url": "./public/img/Ejecutivos/DRACO/OHE-605/OHE-605negroLateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/DRACO/OHE-605/AmbientadaDRACO-6.jpg",
+              "url": "./public/img/Ejecutivos/DRACO/OHE-605/AmbientadaDRACO-6.jpg",
               "label": "Ambiente"
             },
             {
-              "url": "/public/img/Ejecutivos/DRACO/OHE-605/OHE-605negro90.jpg",
+              "url": "./public/img/Ejecutivos/DRACO/OHE-605/OHE-605negro90.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -255,23 +255,23 @@
           "image": "/public/img/Ejecutivos/BIO/OHE-113gris/OHE-113grisfrente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/BIO/OHE-113gris/OHE-113grisfrente.jpg",
+              "url": "./public/img/Ejecutivos/BIO/OHE-113gris/OHE-113grisfrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/BIO/OHE-113gris/OHE-113grislateral.jpg",
+              "url": "./public/img/Ejecutivos/BIO/OHE-113gris/OHE-113grislateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/BIO/OHE-113gris/OHE-113grisatras90.jpg",
+              "url": "./public/img/Ejecutivos/BIO/OHE-113gris/OHE-113grisatras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/BIO/OHE-113gris/AmbientadaBIOgris.jpg",
+              "url": "./public/img/Ejecutivos/BIO/OHE-113gris/AmbientadaBIOgris.jpg",
               "label": "Ambiente"
             },
             {
-              "url": "/public/img/Ejecutivos/BIO/OHE-113gris/OHE-113griskitCr.jpg",
+              "url": "./public/img/Ejecutivos/BIO/OHE-113gris/OHE-113griskitCr.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -293,23 +293,23 @@
           "image": "/public/img/Ejecutivos/BIO/OHE-114negro/OHE-114negroFrente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/BIO/OHE-114negro/OHE-114negroFrente.jpg",
+              "url": "./public/img/Ejecutivos/BIO/OHE-114negro/OHE-114negroFrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/BIO/OHE-114negro/OHE-114negroLateral.jpg",
+              "url": "./public/img/Ejecutivos/BIO/OHE-114negro/OHE-114negroLateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/BIO/OHE-114negro/OHE-114negroAtras90.jpg",
+              "url": "./public/img/Ejecutivos/BIO/OHE-114negro/OHE-114negroAtras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/BIO/OHE-114negro/AmbientadaBIOnegro.jpg",
+              "url": "./public/img/Ejecutivos/BIO/OHE-114negro/AmbientadaBIOnegro.jpg",
               "label": "Ambiente"
             },
             {
-              "url": "/public/img/Ejecutivos/BIO/OHE-114negro/OHE-114negrokitCr.jpg",
+              "url": "./public/img/Ejecutivos/BIO/OHE-114negro/OHE-114negrokitCr.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -339,19 +339,19 @@
           "image": "/public/img/Ejecutivos/CROMA/OHE-195negro/OHE-195negrofrente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/CROMA/OHE-195negro/OHE-195negrofrente.jpg",
+              "url": "./public/img/Ejecutivos/CROMA/OHE-195negro/OHE-195negrofrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/CROMA/OHE-195negro/OHE-195negrolateral.jpg",
+              "url": "./public/img/Ejecutivos/CROMA/OHE-195negro/OHE-195negrolateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/CROMA/OHE-195negro/OHE-195negroatras90.jpg",
+              "url": "./public/img/Ejecutivos/CROMA/OHE-195negro/OHE-195negroatras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/CROMA/OHE-195negro/AmbientadaCROMAnegro-2.jpg",
+              "url": "./public/img/Ejecutivos/CROMA/OHE-195negro/AmbientadaCROMAnegro-2.jpg",
               "label": "Ambiente"
             }
           ]
@@ -374,19 +374,19 @@
           "image": "/public/img/Ejecutivos/CROMA/OHE-193negro/OHE-193negrofrente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/CROMA/OHE-193negro/OHE-193negrofrente.jpg",
+              "url": "./public/img/Ejecutivos/CROMA/OHE-193negro/OHE-193negrofrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/CROMA/OHE-193negro/OHE-193negrolateral.jpg",
+              "url": "./public/img/Ejecutivos/CROMA/OHE-193negro/OHE-193negrolateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/CROMA/OHE-193negro/OHE-193negroatras90.jpg",
+              "url": "./public/img/Ejecutivos/CROMA/OHE-193negro/OHE-193negroatras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/CROMA/OHE-193negro/AmbientadaCROMAnegro-2.jpg",
+              "url": "./public/img/Ejecutivos/CROMA/OHE-193negro/AmbientadaCROMAnegro-2.jpg",
               "label": "Ambiente"
             }
           ]
@@ -407,19 +407,19 @@
           "image": "/public/img/Ejecutivos/CROMA/OHV-198negro/OHV-198negrofrente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/CROMA/OHV-198negro/OHV-198negrofrente.jpg",
+              "url": "./public/img/Ejecutivos/CROMA/OHV-198negro/OHV-198negrofrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/CROMA/OHV-198negro/OHV-198negrolateral.jpg",
+              "url": "./public/img/Ejecutivos/CROMA/OHV-198negro/OHV-198negrolateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/CROMA/OHV-198negro/OHV-198negroatras90.jpg",
+              "url": "./public/img/Ejecutivos/CROMA/OHV-198negro/OHV-198negroatras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/CROMA/OHV-198negro/AmbientadaCROMAnegro-2.jpg",
+              "url": "./public/img/Ejecutivos/CROMA/OHV-198negro/AmbientadaCROMAnegro-2.jpg",
               "label": "Ambiente"
             }
           ]
@@ -449,19 +449,19 @@
           "image": "/public/img/Ejecutivos/EQUA/OHE-185gris/OHE-185frenteaquaMari.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/EQUA/OHE-185gris/OHE-185frenteaquaMari.jpg",
+              "url": "./public/img/Ejecutivos/EQUA/OHE-185gris/OHE-185frenteaquaMari.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/EQUA/OHE-185gris/OHE-185lateralaquaMari.jpg",
+              "url": "./public/img/Ejecutivos/EQUA/OHE-185gris/OHE-185lateralaquaMari.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/EQUA/OHE-185gris/OHE-185atras90aquaMari.jpg",
+              "url": "./public/img/Ejecutivos/EQUA/OHE-185gris/OHE-185atras90aquaMari.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/EQUA/OHE-185gris/Ambientada-EQUA.jpg",
+              "url": "./public/img/Ejecutivos/EQUA/OHE-185gris/Ambientada-EQUA.jpg",
               "label": "Ambiente"
             }
           ]
@@ -484,19 +484,19 @@
           "image": "/public/img/Ejecutivos/EQUA/OHE-183gris/OHE-183frenteaquaMari.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/EQUA/OHE-183gris/OHE-183frenteaquaMari.jpg",
+              "url": "./public/img/Ejecutivos/EQUA/OHE-183gris/OHE-183frenteaquaMari.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/EQUA/OHE-183gris/OHE-183lateralaquaMari.jpg",
+              "url": "./public/img/Ejecutivos/EQUA/OHE-183gris/OHE-183lateralaquaMari.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/EQUA/OHE-183gris/OHE-183atras90aquaMari.jpg",
+              "url": "./public/img/Ejecutivos/EQUA/OHE-183gris/OHE-183atras90aquaMari.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/EQUA/OHE-183gris/Ambientada-EQUA.jpg",
+              "url": "./public/img/Ejecutivos/EQUA/OHE-183gris/Ambientada-EQUA.jpg",
               "label": "Ambiente"
             }
           ]
@@ -519,19 +519,19 @@
           "image": "/public/img/Ejecutivos/EQUA/OHV-188gris/OHV-188frenteaquaMari.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/EQUA/OHV-188gris/OHV-188frenteaquaMari.jpg",
+              "url": "./public/img/Ejecutivos/EQUA/OHV-188gris/OHV-188frenteaquaMari.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/EQUA/OHV-188gris/OHV-188lateralaquaMari.jpg",
+              "url": "./public/img/Ejecutivos/EQUA/OHV-188gris/OHV-188lateralaquaMari.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/EQUA/OHV-188gris/OHV-188atras90aquaMari.jpg",
+              "url": "./public/img/Ejecutivos/EQUA/OHV-188gris/OHV-188atras90aquaMari.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/EQUA/OHV-188gris/Ambientada-EQUA.jpg",
+              "url": "./public/img/Ejecutivos/EQUA/OHV-188gris/Ambientada-EQUA.jpg",
               "label": "Ambiente"
             }
           ]
@@ -561,19 +561,19 @@
           "image": "/public/img/Ejecutivos/CREW/OHE-112gris/OHE-112grisfrente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/CREW/OHE-112gris/OHE-112grisfrente.jpg",
+              "url": "./public/img/Ejecutivos/CREW/OHE-112gris/OHE-112grisfrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/CREW/OHE-112gris/OHE-112grislateral.jpg",
+              "url": "./public/img/Ejecutivos/CREW/OHE-112gris/OHE-112grislateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/CREW/OHE-112gris/OHE-112grisatras90.jpg",
+              "url": "./public/img/Ejecutivos/CREW/OHE-112gris/OHE-112grisatras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/CREW/OHE-112gris/AmbientadaCREWgris.jpg",
+              "url": "./public/img/Ejecutivos/CREW/OHE-112gris/AmbientadaCREWgris.jpg",
               "label": "Ambiente"
             }
           ]
@@ -596,19 +596,19 @@
           "image": "/public/img/Ejecutivos/CREW/OHE-112griscabecera/OHE-112Gris-Frente-cabecera.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/CREW/OHE-112griscabecera/OHE-112Gris-Frente-cabecera.jpg",
+              "url": "./public/img/Ejecutivos/CREW/OHE-112griscabecera/OHE-112Gris-Frente-cabecera.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/CREW/OHE-112griscabecera/OHE-112Gris-Lateral-cabecera.jpg",
+              "url": "./public/img/Ejecutivos/CREW/OHE-112griscabecera/OHE-112Gris-Lateral-cabecera.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/CREW/OHE-112griscabecera/OHE-112Gris-Atras-cabecera.jpg",
+              "url": "./public/img/Ejecutivos/CREW/OHE-112griscabecera/OHE-112Gris-Atras-cabecera.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/CREW/OHE-112griscabecera/AmbientadaCREWgris.jpg",
+              "url": "./public/img/Ejecutivos/CREW/OHE-112griscabecera/AmbientadaCREWgris.jpg",
               "label": "Ambiente"
             }
           ]
@@ -631,19 +631,19 @@
           "image": "/public/img/Ejecutivos/CREW/OHE-112negro/OHE-112negroFrente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/CREW/OHE-112negro/OHE-112negroFrente.jpg",
+              "url": "./public/img/Ejecutivos/CREW/OHE-112negro/OHE-112negroFrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/CREW/OHE-112negro/OHE-112negroLateral.jpg",
+              "url": "./public/img/Ejecutivos/CREW/OHE-112negro/OHE-112negroLateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/CREW/OHE-112negro/OHE-112negroAtras90.jpg",
+              "url": "./public/img/Ejecutivos/CREW/OHE-112negro/OHE-112negroAtras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/CREW/OHE-112negro/AmbientadaCREWnegro.jpg",
+              "url": "./public/img/Ejecutivos/CREW/OHE-112negro/AmbientadaCREWnegro.jpg",
               "label": "Ambiente"
             }
           ]
@@ -666,19 +666,19 @@
           "image": "/public/img/Ejecutivos/CREW/OHE-112negrocabecera/OHE-112Negro-Frente-cabecera.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/CREW/OHE-112negrocabecera/OHE-112Negro-Frente-cabecera.jpg",
+              "url": "./public/img/Ejecutivos/CREW/OHE-112negrocabecera/OHE-112Negro-Frente-cabecera.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/CREW/OHE-112negrocabecera/OHE-112Negro-Lateral-cabecera.jpg",
+              "url": "./public/img/Ejecutivos/CREW/OHE-112negrocabecera/OHE-112Negro-Lateral-cabecera.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/CREW/OHE-112negrocabecera/OHE-112Negro-N-Atras-cabecera.jpg",
+              "url": "./public/img/Ejecutivos/CREW/OHE-112negrocabecera/OHE-112Negro-N-Atras-cabecera.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/CREW/OHE-112negrocabecera/AmbientadaCREWnegro.jpg",
+              "url": "./public/img/Ejecutivos/CREW/OHE-112negrocabecera/AmbientadaCREWnegro.jpg",
               "label": "Ambiente"
             }
           ]
@@ -708,19 +708,19 @@
           "image": "/public/img/Ejecutivos/AIKO/OHE-705gris/OHE-705grisFrente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/AIKO/OHE-705gris/OHE-705grisFrente.jpg",
+              "url": "./public/img/Ejecutivos/AIKO/OHE-705gris/OHE-705grisFrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/AIKO/OHE-705gris/OHE-705grisLateral.jpg",
+              "url": "./public/img/Ejecutivos/AIKO/OHE-705gris/OHE-705grisLateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/AIKO/OHE-705gris/AmbientadaAIKOgris.jpg",
+              "url": "./public/img/Ejecutivos/AIKO/OHE-705gris/AmbientadaAIKOgris.jpg",
               "label": "Ambiente"
             },
             {
-              "url": "/public/img/Ejecutivos/AIKO/OHE-705gris/OHE-705gris90.jpg",
+              "url": "./public/img/Ejecutivos/AIKO/OHE-705gris/OHE-705gris90.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -743,19 +743,19 @@
           "image": "/public/img/Ejecutivos/AIKO/OHE-703gris/OHE-703grisFrente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/AIKO/OHE-703gris/OHE-703grisFrente.jpg",
+              "url": "./public/img/Ejecutivos/AIKO/OHE-703gris/OHE-703grisFrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/AIKO/OHE-703gris/OHE-703grisLateral.jpg",
+              "url": "./public/img/Ejecutivos/AIKO/OHE-703gris/OHE-703grisLateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/AIKO/OHE-703gris/AmbientadaAIKOgris.jpg",
+              "url": "./public/img/Ejecutivos/AIKO/OHE-703gris/AmbientadaAIKOgris.jpg",
               "label": "Ambiente"
             },
             {
-              "url": "/public/img/Ejecutivos/AIKO/OHE-703gris/OHE-703gris90.jpg",
+              "url": "./public/img/Ejecutivos/AIKO/OHE-703gris/OHE-703gris90.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -778,19 +778,19 @@
           "image": "/public/img/Ejecutivos/AIKO/OHE-705/OHE-705negroFrente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/AIKO/OHE-705/OHE-705negroFrente.jpg",
+              "url": "./public/img/Ejecutivos/AIKO/OHE-705/OHE-705negroFrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/AIKO/OHE-705/OHE-705negroLateral.jpg",
+              "url": "./public/img/Ejecutivos/AIKO/OHE-705/OHE-705negroLateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/AIKO/OHE-705/AmbientadaAIKO-OHE-705.jpg",
+              "url": "./public/img/Ejecutivos/AIKO/OHE-705/AmbientadaAIKO-OHE-705.jpg",
               "label": "Ambiente"
             },
             {
-              "url": "/public/img/Ejecutivos/AIKO/OHE-705/OHE-705negro90.jpg",
+              "url": "./public/img/Ejecutivos/AIKO/OHE-705/OHE-705negro90.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -813,19 +813,19 @@
           "image": "/public/img/Ejecutivos/AIKO/OHE-703/OHE-703negroFrente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/AIKO/OHE-703/OHE-703negroFrente.jpg",
+              "url": "./public/img/Ejecutivos/AIKO/OHE-703/OHE-703negroFrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/AIKO/OHE-703/OHE-703negroLateral.jpg",
+              "url": "./public/img/Ejecutivos/AIKO/OHE-703/OHE-703negroLateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/AIKO/OHE-703/AmbientadaAIKO-OHE-703.jpg",
+              "url": "./public/img/Ejecutivos/AIKO/OHE-703/AmbientadaAIKO-OHE-703.jpg",
               "label": "Ambiente"
             },
             {
-              "url": "/public/img/Ejecutivos/AIKO/OHE-703/OHE-703negro90.jpg",
+              "url": "./public/img/Ejecutivos/AIKO/OHE-703/OHE-703negro90.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -855,19 +855,19 @@
           "image": "/public/img/Ejecutivos/ATHELIER/OHE-905negro/OHE-905-frente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/ATHELIER/OHE-905negro/OHE-905-frente.jpg",
+              "url": "./public/img/Ejecutivos/ATHELIER/OHE-905negro/OHE-905-frente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/ATHELIER/OHE-905negro/OHE-905-lateral.jpg",
+              "url": "./public/img/Ejecutivos/ATHELIER/OHE-905negro/OHE-905-lateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/ATHELIER/OHE-905negro/OHE-905-atras.jpg",
+              "url": "./public/img/Ejecutivos/ATHELIER/OHE-905negro/OHE-905-atras.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/ATHELIER/OHE-905negro/Ambientada-OHE-905.jpg",
+              "url": "./public/img/Ejecutivos/ATHELIER/OHE-905negro/Ambientada-OHE-905.jpg",
               "label": "Ambiente"
             }
           ]
@@ -890,15 +890,15 @@
           "image": "/public/img/Ejecutivos/ATHELIER/OHE-903negro/OHE-903-frente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/ATHELIER/OHE-903negro/OHE-903-frente.jpg",
+              "url": "./public/img/Ejecutivos/ATHELIER/OHE-903negro/OHE-903-frente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/ATHELIER/OHE-903negro/OHE-903-lateral.jpg",
+              "url": "./public/img/Ejecutivos/ATHELIER/OHE-903negro/OHE-903-lateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/ATHELIER/OHE-903negro/OHE-903-atras.jpg",
+              "url": "./public/img/Ejecutivos/ATHELIER/OHE-903negro/OHE-903-atras.jpg",
               "label": "Atras"
             }
           ]
@@ -928,19 +928,19 @@
           "image": "/public/img/Ejecutivos/SOHO/OHE-95blanco/OHE-95blancoFrente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/SOHO/OHE-95blanco/OHE-95blancoFrente.jpg",
+              "url": "./public/img/Ejecutivos/SOHO/OHE-95blanco/OHE-95blancoFrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/SOHO/OHE-95blanco/OHE-95blancoLateral.jpg",
+              "url": "./public/img/Ejecutivos/SOHO/OHE-95blanco/OHE-95blancoLateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/SOHO/OHE-95blanco/OHE-95blancoAtras90.jpg",
+              "url": "./public/img/Ejecutivos/SOHO/OHE-95blanco/OHE-95blancoAtras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/SOHO/OHE-95blanco/AmbientadaSOHOblanco.jpg",
+              "url": "./public/img/Ejecutivos/SOHO/OHE-95blanco/AmbientadaSOHOblanco.jpg",
               "label": "Ambiente"
             }
           ]
@@ -963,19 +963,19 @@
           "image": "/public/img/Ejecutivos/SOHO/OHE-95negro/OHE-95negroFrenteNegro.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/SOHO/OHE-95negro/OHE-95negroFrenteNegro.jpg",
+              "url": "./public/img/Ejecutivos/SOHO/OHE-95negro/OHE-95negroFrenteNegro.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/SOHO/OHE-95negro/OHE-95negroLateralnegro.jpg",
+              "url": "./public/img/Ejecutivos/SOHO/OHE-95negro/OHE-95negroLateralnegro.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/SOHO/OHE-95negro/OHE-95negroAtras90negro.jpg",
+              "url": "./public/img/Ejecutivos/SOHO/OHE-95negro/OHE-95negroAtras90negro.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/SOHO/OHE-95negro/AmbientadaSOHOnegro.jpg",
+              "url": "./public/img/Ejecutivos/SOHO/OHE-95negro/AmbientadaSOHOnegro.jpg",
               "label": "Ambiente"
             }
           ]
@@ -1005,19 +1005,19 @@
           "image": "/public/img/Ejecutivos/NEBULA/OHE-133plus/OHE-133plusFrente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/NEBULA/OHE-133plus/OHE-133plusFrente.jpg",
+              "url": "./public/img/Ejecutivos/NEBULA/OHE-133plus/OHE-133plusFrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/NEBULA/OHE-133plus/OHE-133plusLateral.jpg",
+              "url": "./public/img/Ejecutivos/NEBULA/OHE-133plus/OHE-133plusLateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/NEBULA/OHE-133plus/AmbientadaNEBULA-2.jpg",
+              "url": "./public/img/Ejecutivos/NEBULA/OHE-133plus/AmbientadaNEBULA-2.jpg",
               "label": "Ambiente"
             },
             {
-              "url": "/public/img/Ejecutivos/NEBULA/OHE-133plus/OHE-133plus90.jpg",
+              "url": "./public/img/Ejecutivos/NEBULA/OHE-133plus/OHE-133plus90.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -1048,19 +1048,19 @@
           "image": "/public/img/Ejecutivos/WICKER/OHE-140negro/OHE-140-Frente-negro.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/WICKER/OHE-140negro/OHE-140-Frente-negro.jpg",
+              "url": "./public/img/Ejecutivos/WICKER/OHE-140negro/OHE-140-Frente-negro.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/WICKER/OHE-140negro/OHE-140-Lateral-negro.jpg",
+              "url": "./public/img/Ejecutivos/WICKER/OHE-140negro/OHE-140-Lateral-negro.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/WICKER/OHE-140negro/OHE-140-Atras-negro.jpg",
+              "url": "./public/img/Ejecutivos/WICKER/OHE-140negro/OHE-140-Atras-negro.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/WICKER/OHE-140negro/Ambiente-WICKER-OHE-139.jpg",
+              "url": "./public/img/Ejecutivos/WICKER/OHE-140negro/Ambiente-WICKER-OHE-139.jpg",
               "label": "Ambiente"
             }
           ]
@@ -1083,19 +1083,19 @@
           "image": "/public/img/Ejecutivos/WICKER/OHE-139negro/OHE-139-frente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/WICKER/OHE-139negro/OHE-139-frente.jpg",
+              "url": "./public/img/Ejecutivos/WICKER/OHE-139negro/OHE-139-frente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/WICKER/OHE-139negro/OHE-139-lateral.jpg",
+              "url": "./public/img/Ejecutivos/WICKER/OHE-139negro/OHE-139-lateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/WICKER/OHE-139negro/OHE-139-atras.jpg",
+              "url": "./public/img/Ejecutivos/WICKER/OHE-139negro/OHE-139-atras.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/WICKER/OHE-139negro/Ambiente-WICKER-OHE-139.jpg",
+              "url": "./public/img/Ejecutivos/WICKER/OHE-139negro/Ambiente-WICKER-OHE-139.jpg",
               "label": "Ambiente"
             }
           ]
@@ -1125,19 +1125,19 @@
           "image": "/public/img/Ejecutivos/TRIPOLI/OHE-2005gris/OHE-2005grisFrente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/TRIPOLI/OHE-2005gris/OHE-2005grisFrente.jpg",
+              "url": "./public/img/Ejecutivos/TRIPOLI/OHE-2005gris/OHE-2005grisFrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/TRIPOLI/OHE-2005gris/OHE-2005grisLateral.jpg",
+              "url": "./public/img/Ejecutivos/TRIPOLI/OHE-2005gris/OHE-2005grisLateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/TRIPOLI/OHE-2005gris/AmbientadaTRIPOLI-2.jpg",
+              "url": "./public/img/Ejecutivos/TRIPOLI/OHE-2005gris/AmbientadaTRIPOLI-2.jpg",
               "label": "Ambiente"
             },
             {
-              "url": "/public/img/Ejecutivos/TRIPOLI/OHE-2005gris/OHE-2005gris90.jpg",
+              "url": "./public/img/Ejecutivos/TRIPOLI/OHE-2005gris/OHE-2005gris90.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -1160,19 +1160,19 @@
           "image": "/public/img/Ejecutivos/TRIPOLI/OHV-2005gris/OHV-2005grisFrente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/TRIPOLI/OHV-2005gris/OHV-2005grisFrente.jpg",
+              "url": "./public/img/Ejecutivos/TRIPOLI/OHV-2005gris/OHV-2005grisFrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/TRIPOLI/OHV-2005gris/OHV-2005grisLateral.jpg",
+              "url": "./public/img/Ejecutivos/TRIPOLI/OHV-2005gris/OHV-2005grisLateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/TRIPOLI/OHV-2005gris/AmbientadaTRIPOLI-3.jpg",
+              "url": "./public/img/Ejecutivos/TRIPOLI/OHV-2005gris/AmbientadaTRIPOLI-3.jpg",
               "label": "Ambiente"
             },
             {
-              "url": "/public/img/Ejecutivos/TRIPOLI/OHV-2005gris/OHV-2005gris90.jpg",
+              "url": "./public/img/Ejecutivos/TRIPOLI/OHV-2005gris/OHV-2005gris90.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -1195,19 +1195,19 @@
           "image": "/public/img/Ejecutivos/TRIPOLI/OHE-2005negro/OHE-2005negroFrente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/TRIPOLI/OHE-2005negro/OHE-2005negroFrente.jpg",
+              "url": "./public/img/Ejecutivos/TRIPOLI/OHE-2005negro/OHE-2005negroFrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/TRIPOLI/OHE-2005negro/OHE-2005negroLateral.jpg",
+              "url": "./public/img/Ejecutivos/TRIPOLI/OHE-2005negro/OHE-2005negroLateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/TRIPOLI/OHE-2005negro/OHE-2005negroAtras.jpg",
+              "url": "./public/img/Ejecutivos/TRIPOLI/OHE-2005negro/OHE-2005negroAtras.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/TRIPOLI/OHE-2005negro/AmbienteOHE-2005negro.jpg",
+              "url": "./public/img/Ejecutivos/TRIPOLI/OHE-2005negro/AmbienteOHE-2005negro.jpg",
               "label": "Ambiente"
             }
           ]
@@ -1230,19 +1230,19 @@
           "image": "/public/img/Ejecutivos/TRIPOLI/OHV-2005negro/OHV-2005negroFrente.jpg",
           "images": [
             {
-              "url": "/public/img/Ejecutivos/TRIPOLI/OHV-2005negro/OHV-2005negroFrente.jpg",
+              "url": "./public/img/Ejecutivos/TRIPOLI/OHV-2005negro/OHV-2005negroFrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Ejecutivos/TRIPOLI/OHV-2005negro/OHV-2005negroLateral.jpg",
+              "url": "./public/img/Ejecutivos/TRIPOLI/OHV-2005negro/OHV-2005negroLateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Ejecutivos/TRIPOLI/OHV-2005negro/OHV-2005negroAtras.jpg",
+              "url": "./public/img/Ejecutivos/TRIPOLI/OHV-2005negro/OHV-2005negroAtras.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Ejecutivos/TRIPOLI/OHV-2005negro/AmbienteOHV-2005negro.jpg",
+              "url": "./public/img/Ejecutivos/TRIPOLI/OHV-2005negro/AmbienteOHV-2005negro.jpg",
               "label": "Ambiente"
             }
           ]

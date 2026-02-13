@@ -56,15 +56,15 @@
           "image": "/public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/AroKitCrArriba.jpg",
           "images": [
             {
-              "url": "/public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/AroKitCrArriba.jpg",
+              "url": "./public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/AroKitCrArriba.jpg",
               "label": "Vista Superior del Aro"
             },
             {
-              "url": "/public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/KitCajCr.jpg",
+              "url": "./public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/KitCajCr.jpg",
               "label": "Kit Completo"
             },
             {
-              "url": "/public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/PerillaKitCajCr.jpg",
+              "url": "./public/img/Accesorios/KITS_PISTÓN/Kit cajero cromado/PerillaKitCajCr.jpg",
               "label": "Detalle de Perilla"
             }
           ]

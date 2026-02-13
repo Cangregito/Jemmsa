@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test de Imágenes</title>
+  <style>
+    body { font-family: Arial; margin: 20px; }
+    img { max-width: 300px; border: 1px solid #ccc; margin: 10px; }
+    .test { border: 1px solid blue; padding: 20px; margin: 10px 0; }
+    .error { color: red; }
+    .success { color: green; }
+  </style>
+</head>
+<body>
+  <h1>Test de Imágenes del Catálogo</h1>
+  
+  <div class="test">
+    <h2>Test 1: Imagen directa</h2>
+    <img src="/public/img/Directivos/ALUFSEN/OHE-405/OHE-405frente-Negro.jpg" alt="Test" onerror="this.parentElement.innerHTML += '<p class=error>❌ Error cargando imagen</p>'">
+    <p>Si ves la imagen arriba, las imágenes funcionan correctamente.</p>
+  </div>
+  
+  <div class="test">
+    <h2>Test 2: Cargar datos desde data.json</h2>
+    <div id="status">Cargando...</div>
+    <div id="test-image"></div>
+  </div>
+  
+  <script>
+    fetch('/data.json')
+      .then(r => r.json())
+      .then(data => {
+        const status = document.getElementById('status');
+        const testImage = document.getElementById('test-image');
+        
+        if (!data.products || !data.products.directivos) {
+          status.innerHTML = '<p class="error">❌ No hay productos en data.json</p>';
+          return;
+        }
+        
+        const product = data.products.directivos.alufsen.products[0];
+        status.innerHTML = `<p class="success">✓ Datos cargados: ${product.name}</p>`;
+        
+        const img = document.createElement('img');
+        img.src = product.image;
+        img.alt = product.name;
+        img.onerror = function() {
+          testImage.innerHTML = `<p class="error">❌ No se puede cargar imagen: ${product.image}</p>`;
+        };
+        img.onload = function() {
+          testImage.innerHTML += `<p class="success">✓ Imagen cargada correctamente</p>`;
+        };
+        testImage.appendChild(img);
+        testImage.innerHTML += `<p>Ruta: ${product.image}</p>`;
+      })
+      .catch(e => {
+        document.getElementById('status').innerHTML = '<p class="error">❌ Error: ' + e.message + '</p>';
+      });
+  </script>
+</body>
+</html>

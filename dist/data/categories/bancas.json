@@ -41,19 +41,19 @@
           "image": "/public/img/Bancas/INNOVA/OHR-2700-2P/OHR-2700-2Pfrente.jpg",
           "images": [
             {
-              "url": "/public/img/Bancas/INNOVA/OHR-2700-2P/OHR-2700-2Pfrente.jpg",
+              "url": "./public/img/Bancas/INNOVA/OHR-2700-2P/OHR-2700-2Pfrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Bancas/INNOVA/OHR-2700-2P/OHR-2700-2Plateral.jpg",
+              "url": "./public/img/Bancas/INNOVA/OHR-2700-2P/OHR-2700-2Plateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Bancas/INNOVA/OHR-2700-2P/OHR-2700-2Patras90.jpg",
+              "url": "./public/img/Bancas/INNOVA/OHR-2700-2P/OHR-2700-2Patras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Bancas/INNOVA/OHR-2700-2P/OHR-2700-2Pverde.jpg",
+              "url": "./public/img/Bancas/INNOVA/OHR-2700-2P/OHR-2700-2Pverde.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -88,19 +88,19 @@
           "image": "/public/img/Bancas/INNOVA/OHR-2700-3P/OHR-2700-3Pfrente.jpg",
           "images": [
             {
-              "url": "/public/img/Bancas/INNOVA/OHR-2700-3P/OHR-2700-3Pfrente.jpg",
+              "url": "./public/img/Bancas/INNOVA/OHR-2700-3P/OHR-2700-3Pfrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Bancas/INNOVA/OHR-2700-3P/OHR-2700-3Plateral.jpg",
+              "url": "./public/img/Bancas/INNOVA/OHR-2700-3P/OHR-2700-3Plateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Bancas/INNOVA/OHR-2700-3P/OHR-2700-3Patras90.jpg",
+              "url": "./public/img/Bancas/INNOVA/OHR-2700-3P/OHR-2700-3Patras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Bancas/INNOVA/OHR-2700-3P/OHR-2700-3PBlanco.jpg",
+              "url": "./public/img/Bancas/INNOVA/OHR-2700-3P/OHR-2700-3PBlanco.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -135,19 +135,19 @@
           "image": "/public/img/Bancas/INNOVA/OHR-2700-4P/OHR-2700-4Pfrente.jpg",
           "images": [
             {
-              "url": "/public/img/Bancas/INNOVA/OHR-2700-4P/OHR-2700-4Pfrente.jpg",
+              "url": "./public/img/Bancas/INNOVA/OHR-2700-4P/OHR-2700-4Pfrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Bancas/INNOVA/OHR-2700-4P/OHR-2700-4Plateral.jpg",
+              "url": "./public/img/Bancas/INNOVA/OHR-2700-4P/OHR-2700-4Plateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Bancas/INNOVA/OHR-2700-4P/OHR-2700-4Patras90.jpg",
+              "url": "./public/img/Bancas/INNOVA/OHR-2700-4P/OHR-2700-4Patras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Bancas/INNOVA/OHR-2700-4P/OHR-2700-4Pgris.jpg",
+              "url": "./public/img/Bancas/INNOVA/OHR-2700-4P/OHR-2700-4Pgris.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -182,19 +182,19 @@
           "image": "/public/img/Bancas/INNOVA/OHR-2700-5P/OHR-2700-5PfrenteRoja.jpg",
           "images": [
             {
-              "url": "/public/img/Bancas/INNOVA/OHR-2700-5P/OHR-2700-5PfrenteRoja.jpg",
+              "url": "./public/img/Bancas/INNOVA/OHR-2700-5P/OHR-2700-5PfrenteRoja.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Bancas/INNOVA/OHR-2700-5P/OHR-2700-5Plateral.jpg",
+              "url": "./public/img/Bancas/INNOVA/OHR-2700-5P/OHR-2700-5Plateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Bancas/INNOVA/OHR-2700-5P/OHR-2700-5PAtras90Roja.jpg",
+              "url": "./public/img/Bancas/INNOVA/OHR-2700-5P/OHR-2700-5PAtras90Roja.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Bancas/INNOVA/OHR-2700-5P/OHR-2700-5Projo.jpg",
+              "url": "./public/img/Bancas/INNOVA/OHR-2700-5P/OHR-2700-5Projo.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -236,19 +236,19 @@
           "image": "/public/img/Bancas/ELLITICO/OHR-2200-2P/OHR-2200-2Pfrente.jpg",
           "images": [
             {
-              "url": "/public/img/Bancas/ELLITICO/OHR-2200-2P/OHR-2200-2Pfrente.jpg",
+              "url": "./public/img/Bancas/ELLITICO/OHR-2200-2P/OHR-2200-2Pfrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Bancas/ELLITICO/OHR-2200-2P/OHR-2200-2Plateral.jpg",
+              "url": "./public/img/Bancas/ELLITICO/OHR-2200-2P/OHR-2200-2Plateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Bancas/ELLITICO/OHR-2200-2P/OHR-2200-2Patras90.jpg",
+              "url": "./public/img/Bancas/ELLITICO/OHR-2200-2P/OHR-2200-2Patras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Bancas/ELLITICO/OHR-2200-2P/OHR-2200-2PPerla.jpg",
+              "url": "./public/img/Bancas/ELLITICO/OHR-2200-2P/OHR-2200-2PPerla.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -283,19 +283,19 @@
           "image": "/public/img/Bancas/ELLITICO/OHR-2200-3P/OHR-2200-3Pfrente.jpg",
           "images": [
             {
-              "url": "/public/img/Bancas/ELLITICO/OHR-2200-3P/OHR-2200-3Pfrente.jpg",
+              "url": "./public/img/Bancas/ELLITICO/OHR-2200-3P/OHR-2200-3Pfrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Bancas/ELLITICO/OHR-2200-3P/OHR-2200-3Plateral.jpg",
+              "url": "./public/img/Bancas/ELLITICO/OHR-2200-3P/OHR-2200-3Plateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Bancas/ELLITICO/OHR-2200-3P/OHR-2200-3Patras90.jpg",
+              "url": "./public/img/Bancas/ELLITICO/OHR-2200-3P/OHR-2200-3Patras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Bancas/ELLITICO/OHR-2200-3P/OHR-2200-3Pperla.jpg",
+              "url": "./public/img/Bancas/ELLITICO/OHR-2200-3P/OHR-2200-3Pperla.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -330,19 +330,19 @@
           "image": "/public/img/Bancas/ELLITICO/OHR-2200-4P/OHR-2200-4Pfrente.jpg",
           "images": [
             {
-              "url": "/public/img/Bancas/ELLITICO/OHR-2200-4P/OHR-2200-4Pfrente.jpg",
+              "url": "./public/img/Bancas/ELLITICO/OHR-2200-4P/OHR-2200-4Pfrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Bancas/ELLITICO/OHR-2200-4P/OHR-2200-4Plateral.jpg",
+              "url": "./public/img/Bancas/ELLITICO/OHR-2200-4P/OHR-2200-4Plateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Bancas/ELLITICO/OHR-2200-4P/OHR-2200-4Patras90.jpg",
+              "url": "./public/img/Bancas/ELLITICO/OHR-2200-4P/OHR-2200-4Patras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Bancas/ELLITICO/OHR-2200-4P/OHR-2200-4Pperla.jpg",
+              "url": "./public/img/Bancas/ELLITICO/OHR-2200-4P/OHR-2200-4Pperla.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -377,19 +377,19 @@
           "image": "/public/img/Bancas/ELLITICO/OHR-2200-5P/OHR-2200-5Pfrente.jpg",
           "images": [
             {
-              "url": "/public/img/Bancas/ELLITICO/OHR-2200-5P/OHR-2200-5Pfrente.jpg",
+              "url": "./public/img/Bancas/ELLITICO/OHR-2200-5P/OHR-2200-5Pfrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Bancas/ELLITICO/OHR-2200-5P/OHR-2200-5Plateral.jpg",
+              "url": "./public/img/Bancas/ELLITICO/OHR-2200-5P/OHR-2200-5Plateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Bancas/ELLITICO/OHR-2200-5P/OHR-2200-5Patras90.jpg",
+              "url": "./public/img/Bancas/ELLITICO/OHR-2200-5P/OHR-2200-5Patras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Bancas/ELLITICO/OHR-2200-5P/OHR-2200-5Pperla.jpg",
+              "url": "./public/img/Bancas/ELLITICO/OHR-2200-5P/OHR-2200-5Pperla.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -431,19 +431,19 @@
           "image": "/public/img/Bancas/IVY/OHR-2800-2PCR/OHR-2800-2PcrFrente.jpg",
           "images": [
             {
-              "url": "/public/img/Bancas/IVY/OHR-2800-2PCR/OHR-2800-2PcrFrente.jpg",
+              "url": "./public/img/Bancas/IVY/OHR-2800-2PCR/OHR-2800-2PcrFrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Bancas/IVY/OHR-2800-2PCR/OHR-2800-2PcrLateral.jpg",
+              "url": "./public/img/Bancas/IVY/OHR-2800-2PCR/OHR-2800-2PcrLateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Bancas/IVY/OHR-2800-2PCR/OHR-2800-2PcrAtras.jpg",
+              "url": "./public/img/Bancas/IVY/OHR-2800-2PCR/OHR-2800-2PcrAtras.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Bancas/IVY/OHR-2800-2PCR/OHR-2800-2Pcr.jpg",
+              "url": "./public/img/Bancas/IVY/OHR-2800-2PCR/OHR-2800-2Pcr.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -478,23 +478,23 @@
           "image": "/public/img/Bancas/IVY/OHR-2800-3PCR/OHR-2800-3PcrFrente.jpg",
           "images": [
             {
-              "url": "/public/img/Bancas/IVY/OHR-2800-3PCR/OHR-2800-3PcrFrente.jpg",
+              "url": "./public/img/Bancas/IVY/OHR-2800-3PCR/OHR-2800-3PcrFrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Bancas/IVY/OHR-2800-3PCR/OHR-2800-3PcrLateral.jpg",
+              "url": "./public/img/Bancas/IVY/OHR-2800-3PCR/OHR-2800-3PcrLateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Bancas/IVY/OHR-2800-3PCR/OHR-2800-3PcrAtras.jpg",
+              "url": "./public/img/Bancas/IVY/OHR-2800-3PCR/OHR-2800-3PcrAtras.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Bancas/IVY/OHR-2800-3PCR/AmbientadaIVY-2.jpg",
+              "url": "./public/img/Bancas/IVY/OHR-2800-3PCR/AmbientadaIVY-2.jpg",
               "label": "Ambiente"
             },
             {
-              "url": "/public/img/Bancas/IVY/OHR-2800-3PCR/OHR-2800-3Pcr.jpg",
+              "url": "./public/img/Bancas/IVY/OHR-2800-3PCR/OHR-2800-3Pcr.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -529,19 +529,19 @@
           "image": "/public/img/Bancas/IVY/OHR-2800-4PCR/OHR-2800-4PcrFrente.jpg",
           "images": [
             {
-              "url": "/public/img/Bancas/IVY/OHR-2800-4PCR/OHR-2800-4PcrFrente.jpg",
+              "url": "./public/img/Bancas/IVY/OHR-2800-4PCR/OHR-2800-4PcrFrente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Bancas/IVY/OHR-2800-4PCR/OHR-2800-4PcrLateral.jpg",
+              "url": "./public/img/Bancas/IVY/OHR-2800-4PCR/OHR-2800-4PcrLateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Bancas/IVY/OHR-2800-4PCR/OHR-2800-4PcrAtras.jpg",
+              "url": "./public/img/Bancas/IVY/OHR-2800-4PCR/OHR-2800-4PcrAtras.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Bancas/IVY/OHR-2800-4PCR/OHR-2800-4Pcr.jpg",
+              "url": "./public/img/Bancas/IVY/OHR-2800-4PCR/OHR-2800-4Pcr.jpg",
               "label": "Imagen 1"
             }
           ]

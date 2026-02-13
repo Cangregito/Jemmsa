@@ -27,23 +27,23 @@
           "image": "/public/img/Industrial/OHI-46/OHI-46frente.jpg",
           "images": [
             {
-              "url": "/public/img/Industrial/OHI-46/OHI-46frente.jpg",
+              "url": "./public/img/Industrial/OHI-46/OHI-46frente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Industrial/OHI-46/OHI-46lateral.jpg",
+              "url": "./public/img/Industrial/OHI-46/OHI-46lateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Industrial/OHI-46/OHI-46atras90.jpg",
+              "url": "./public/img/Industrial/OHI-46/OHI-46atras90.jpg",
               "label": "Atras"
             },
             {
-              "url": "/public/img/Industrial/OHI-46/AmbientadaHEAVYDUTY.jpg",
+              "url": "./public/img/Industrial/OHI-46/AmbientadaHEAVYDUTY.jpg",
               "label": "Ambiente"
             },
             {
-              "url": "/public/img/Industrial/OHI-46/OHI-46kitCrRod.jpg",
+              "url": "./public/img/Industrial/OHI-46/OHI-46kitCrRod.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -71,19 +71,19 @@
           "image": "/public/img/Industrial/OHI-48/OHI-48Frente.jpg",
           "images": [
             {
-              "url": "/public/img/Industrial/OHI-48/OHI-48Frente.jpg",
+              "url": "./public/img/Industrial/OHI-48/OHI-48Frente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Industrial/OHI-48/OHI-48Lateral.jpg",
+              "url": "./public/img/Industrial/OHI-48/OHI-48Lateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Industrial/OHI-48/AmbientadaHEAVYDUTY48-2.jpg",
+              "url": "./public/img/Industrial/OHI-48/AmbientadaHEAVYDUTY48-2.jpg",
               "label": "Ambiente"
             },
             {
-              "url": "/public/img/Industrial/OHI-48/OHI-4890.jpg",
+              "url": "./public/img/Industrial/OHI-48/OHI-4890.jpg",
               "label": "Imagen 1"
             }
           ]
@@ -110,19 +110,19 @@
           "image": "/public/img/Industrial/OHI-49/OHI-49frente.jpg",
           "images": [
             {
-              "url": "/public/img/Industrial/OHI-49/OHI-49frente.jpg",
+              "url": "./public/img/Industrial/OHI-49/OHI-49frente.jpg",
               "label": "Frente"
             },
             {
-              "url": "/public/img/Industrial/OHI-49/OHI-49Lateral.jpg",
+              "url": "./public/img/Industrial/OHI-49/OHI-49Lateral.jpg",
               "label": "Lateral"
             },
             {
-              "url": "/public/img/Industrial/OHI-49/AmbientadaHEAVYDUTY49-2.jpg",
+              "url": "./public/img/Industrial/OHI-49/AmbientadaHEAVYDUTY49-2.jpg",
               "label": "Ambiente"
             },
             {
-              "url": "/public/img/Industrial/OHI-49/OHI-4990.jpg",
+              "url": "./public/img/Industrial/OHI-49/OHI-4990.jpg",
               "label": "Imagen 1"
             }
           ]
