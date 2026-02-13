@@ -111,8 +111,57 @@
   
   <header id="header"></header>
   <main class="overflow-hidden">
-    <!--  -->
-    <Section id="carrusel" class="flex justify-center items-center text-[var(--text-main)] bg-gradient-to-b from-blue-900 via-brand-base to-cyan-900">
+
+<section id="banner-catalogo" class="relative overflow-hidden bg-gradient-to-b from-cyan-900 via-brand-base to-blue-900">
+  <!-- Elementos decorativos de fondo -->
+  <div class="absolute inset-0 opacity-10">
+    <div class="absolute top-0 left-0 w-96 h-96 bg-[#1FA3D6] rounded-full filter blur-3xl"></div>
+    <div class="absolute bottom-0 right-0 w-80 h-80 bg-[#0B4B5C] rounded-full filter blur-3xl"></div>
+  </div>
+
+  <div class="relative max-w-7xl mx-auto px-4 py-16 sm:py-20 md:py-24">
+    <div class="text-center max-w-4xl mx-auto">
+
+      <!-- Título principal con efecto de gradiente -->
+      <h1 class="font-display text-5xl sm:text-6xl md:text-7xl font-bold mb-6">
+        <span class="block bg-gradient-to-r from-[#1FA3D6] via-white to-[#1FA3D6] bg-clip-text text-transparent">Mobiliario Corporativo</span>
+      </h1>
+      
+      <!-- Descripción con diseño mejorado -->
+      <p class="text-lg sm:text-xl text-white/80 mb-10 max-w-2xl mx-auto leading-relaxed">
+        Explora nuestras colecciones y encuentra la solución ideal para tu espacio. Diseño, confort y funcionalidad en cada pieza.
+      </p>
+      
+      <!-- Indicadores visuales -->
+      <div class="flex justify-center items-center gap-6 mt-12 text-white/60 text-sm">
+        <div class="flex items-center gap-2">
+          <svg class="w-5 h-5 text-[#1FA3D6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+          </svg>
+          <span>+300 productos</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <svg class="w-5 h-5 text-[#1FA3D6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+          <span>Cotizaciones rápidas</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <svg class="w-5 h-5 text-[#1FA3D6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+          </svg>
+          <span>Calidad garantizada</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Ola decorativa inferior -->
+  
+</section>
+
+
+<Section id="carrusel" class="flex justify-center items-center text-[var(--text-main)] bg-gradient-to-b from-blue-900 via-brand-base to-cyan-900">
       <div class="relative w-full max-w-8xl mx-auto px-4 py-16">
         <div class="relative h-[200px] sm:h-[300px] md:h-[370px] lg:h-[430px] flex items-center justify-center ">
 
@@ -143,8 +192,7 @@
       </div>
     </Section>
 
-    <!-- Productos Sections (Dinámicas por categoría) -->
-    <div id="productsWrapper"></div>
+    
 
 
     <!-- Servicios Section -->
@@ -276,6 +324,9 @@
   </div>
 </section>
 
+<!-- Productos Sections (Dinámicas por categoría) -->
+<div id="productsWrapper"></div>
+
   </main>
 
   <!-- Footer -->
@@ -366,7 +417,7 @@
 
         // Seleccionar aleatoriamente 3 categorías para mostrar
         const categories = shuffleArray(data.categories || []);
-        const selected = categories.slice(0, 3);
+        const selected = categories.slice(1, 2);
 
         selected.forEach(category => {
           const categoryProducts = data.products[category.id];
