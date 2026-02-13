@@ -4880,14 +4880,14 @@
               "resistencia": "Peso sugerido 140 kgs",
               "nota": "Las medidas de las alturas aumentan con pistón cajero 240 mm"
             },
-            "image": "/public/img/Industrial/OHI-48/OHI-48Frente.jpg",
+            "image": "/public/img/Industrial/OHI-48/OHI-48frente.jpg",
             "images": [
               {
-                "url": "/public/img/Industrial/OHI-48/OHI-48Frente.jpg",
+                "url": "/public/img/Industrial/OHI-48/OHI-48frente.jpg",
                 "label": "Frente"
               },
               {
-                "url": "/public/img/Industrial/OHI-48/OHI-48Lateral.jpg",
+                "url": "/public/img/Industrial/OHI-48/OHI-48lateral.jpg",
                 "label": "Lateral"
               },
               {
@@ -4926,7 +4926,7 @@
                 "label": "Frente"
               },
               {
-                "url": "/public/img/Industrial/OHI-49/OHI-49Lateral.jpg",
+                "url": "/public/img/Industrial/OHI-49/OHI-49lateral.jpg",
                 "label": "Lateral"
               },
               {
