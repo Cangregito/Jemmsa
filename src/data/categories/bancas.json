@@ -15,9 +15,13 @@
           "id": "ohr-2700-2p",
           "name": "OHR-2700-2P",
           "comercial_name": "Banca INNOVA OHR-2700-2P",
-          "description": "Banca INNOVA modelo OHR-2700-2P. Información detallada pendiente.",
+          "description": "Banca INNOVA modelo OHR-2700-2P. COLECCIÓN DE TERMINADOS. Estructura de acero tubular rectangular con asiento y respaldo en polipropileno para 2 plazas.",
           "specifications": {
-            "plazas": "2 plazas",
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "Acero tubular rectangular de 1 1/2\" X 3\", calibre 16, asientos y respaldos de perfil redondo tubular ponchado de acero con travesaños separadores tubulares redondos de acero con acabado de pintura epóxica (electrostática) color negro",
+            "respaldo_asiento": "Dos piezas en polipropileno de alta resistencia y duración",
+            "colores": "Blanco, gris, gris cálido, negro, verde, azul, berenjena, rojo y naranja",
+            "resistencia": "Peso sugerido 200 kgs",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -62,9 +66,13 @@
           "id": "ohr-2700-3p",
           "name": "OHR-2700-3P",
           "comercial_name": "Banca INNOVA OHR-2700-3P",
-          "description": "Banca INNOVA modelo OHR-2700-3P. Información detallada pendiente.",
+          "description": "Banca INNOVA modelo OHR-2700-3P. COLECCIÓN DE TERMINADOS. Estructura de acero tubular rectangular con asiento y respaldo en polipropileno para 3 plazas.",
           "specifications": {
-            "plazas": "3 plazas",
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "Acero tubular rectangular de 1 1/2\" X 3\", calibre 16, asientos y respaldos de perfil redondo tubular ponchado de acero con travesaños separadores tubulares redondos de acero con acabado de pintura epóxica (electrostática) color negro",
+            "respaldo_asiento": "Dos piezas en polipropileno de alta resistencia y duración",
+            "colores": "Blanco, gris, gris cálido, negro, verde, azul, berenjena, rojo y naranja",
+            "resistencia": "Peso sugerido 300 kgs",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -109,9 +117,13 @@
           "id": "ohr-2700-4p",
           "name": "OHR-2700-4P",
           "comercial_name": "Banca INNOVA OHR-2700-4P",
-          "description": "Banca INNOVA modelo OHR-2700-4P. Información detallada pendiente.",
+          "description": "Banca INNOVA modelo OHR-2700-4P. COLECCIÓN DE TERMINADOS. Estructura de acero tubular rectangular con asiento y respaldo en polipropileno para 4 plazas.",
           "specifications": {
-            "plazas": "4 plazas",
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "Acero tubular rectangular de 1 1/2\" X 3\", calibre 16, asientos y respaldos de perfil redondo tubular ponchado de acero con travesaños separadores tubulares redondos de acero con acabado de pintura epóxica (electrostática) color negro",
+            "respaldo_asiento": "Dos piezas en polipropileno de alta resistencia y duración",
+            "colores": "Blanco, gris, gris cálido, negro, verde, azul, berenjena, rojo y naranja",
+            "resistencia": "Peso sugerido 360 kgs",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -156,9 +168,13 @@
           "id": "ohr-2700-5p",
           "name": "OHR-2700-5P",
           "comercial_name": "Banca INNOVA OHR-2700-5P",
-          "description": "Banca INNOVA modelo OHR-2700-5P. Información detallada pendiente.",
+          "description": "Banca INNOVA modelo OHR-2700-5P. COLECCIÓN DE TERMINADOS. Estructura de acero tubular rectangular con asiento y respaldo en polipropileno para 5 plazas.",
           "specifications": {
-            "plazas": "5 plazas",
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "Acero tubular rectangular de 1 1/2\" X 3\", calibre 16, asientos y respaldos de perfil redondo tubular ponchado de acero con travesaños separadores tubulares redondos de acero con acabado de pintura epóxica (electrostática) color negro",
+            "respaldo_asiento": "Dos piezas en polipropileno de alta resistencia y duración",
+            "colores": "Blanco, gris, gris cálido, negro, verde, azul, berenjena, rojo y naranja",
+            "resistencia": "Peso sugerido 450 kgs",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -210,9 +226,12 @@
           "id": "ohr-2200-2p",
           "name": "OHR-2200-2P",
           "comercial_name": "Banca ELLITICO OHR-2200-2P",
-          "description": "Banca ELLITICO modelo OHR-2200-2P. Información detallada pendiente.",
+          "description": "Banca ELLITICO modelo OHR-2200-2P. Estructura de acero tubular rectangular con asiento y respaldo tapizados para 2 plazas.",
           "specifications": {
-            "plazas": "2 plazas",
+            "estructura": "Acero tubular rectangular de 1 1/2\" X 3\", calibre 16, asientos y respaldos de perfil redondo tubular de acero ponchado con travesaños separadores tubulares redondos de acero con acabado de pintura epóxica (electrostática) color negro mate",
+            "respaldo_asiento": "Hule espuma laminado flexible con densidad en el respaldo de 22 kgs/m³ y de 24 kgs/m³ en el asiento y alta resiliencia",
+            "tapiz": "Tapizada al color de su elección de toda la colección de tapices",
+            "resistencia": "Peso sugerido 200 kgs",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -257,9 +276,12 @@
           "id": "ohr-2200-3p",
           "name": "OHR-2200-3P",
           "comercial_name": "Banca ELLITICO OHR-2200-3P",
-          "description": "Banca ELLITICO modelo OHR-2200-3P. Información detallada pendiente.",
+          "description": "Banca ELLITICO modelo OHR-2200-3P. Estructura de acero tubular rectangular con asiento y respaldo tapizados para 3 plazas.",
           "specifications": {
-            "plazas": "3 plazas",
+            "estructura": "Acero tubular rectangular de 1 1/2\" X 3\", calibre 16, asientos y respaldos de perfil redondo tubular de acero ponchado con travesaños separadores tubulares redondos de acero con acabado de pintura epóxica (electrostática) color negro mate",
+            "respaldo_asiento": "Hule espuma laminado flexible con densidad en el respaldo de 22 kgs/m³ y de 24 kgs/m³ en el asiento y alta resiliencia",
+            "tapiz": "Tapizada al color de su elección de toda la colección de tapices",
+            "resistencia": "Peso sugerido 300 kgs",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -304,9 +326,12 @@
           "id": "ohr-2200-4p",
           "name": "OHR-2200-4P",
           "comercial_name": "Banca ELLITICO OHR-2200-4P",
-          "description": "Banca ELLITICO modelo OHR-2200-4P. Información detallada pendiente.",
+          "description": "Banca ELLITICO modelo OHR-2200-4P. Estructura de acero tubular rectangular con asiento y respaldo tapizados para 4 plazas.",
           "specifications": {
-            "plazas": "4 plazas",
+            "estructura": "Acero tubular rectangular de 1 1/2\" X 3\", calibre 16, asientos y respaldos de perfil redondo tubular de acero ponchado con travesaños separadores tubulares redondos de acero con acabado de pintura epóxica (electrostática) color negro mate",
+            "respaldo_asiento": "Hule espuma laminado flexible con densidad en el respaldo de 22 kgs/m³ y de 24 kgs/m³ en el asiento y alta resiliencia",
+            "tapiz": "Tapizada al color de su elección de toda la colección de tapices",
+            "resistencia": "Peso sugerido 360 kgs",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -351,9 +376,12 @@
           "id": "ohr-2200-5p",
           "name": "OHR-2200-5P",
           "comercial_name": "Banca ELLITICO OHR-2200-5P",
-          "description": "Banca ELLITICO modelo OHR-2200-5P. Información detallada pendiente.",
+          "description": "Banca ELLITICO modelo OHR-2200-5P. Estructura de acero tubular rectangular con asiento y respaldo tapizados para 5 plazas.",
           "specifications": {
-            "plazas": "5 plazas",
+            "estructura": "Acero tubular rectangular de 1 1/2\" X 3\", calibre 16, asientos y respaldos de perfil redondo tubular de acero ponchado con travesaños separadores tubulares redondos de acero con acabado de pintura epóxica (electrostática) color negro mate",
+            "respaldo_asiento": "Hule espuma laminado flexible con densidad en el respaldo de 22 kgs/m³ y de 24 kgs/m³ en el asiento y alta resiliencia",
+            "tapiz": "Tapizada al color de su elección de toda la colección de tapices",
+            "resistencia": "Peso sugerido 450 kgs",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -405,9 +433,12 @@
           "id": "ohr-2800-2pcr",
           "name": "OHR-2800-2PCR",
           "comercial_name": "Banca IVY-2800 OHR-2800-2PCR",
-          "description": "Banca IVY-2800 modelo OHR-2800-2PCR. Información detallada pendiente.",
+          "description": "Banca IVY-2800 modelo OHR-2800-2PCR. Estructura de acero con travesaño rectangular, patas cromadas y asiento/respaldo de lámina perforada para 2 plazas.",
           "specifications": {
-            "plazas": "2 plazas con cromado",
+            "estructura": "Travesaño de acero tubular rectangular de 1 1/2\" X 3 1/8\", calibre 14, con acabado de pintura epóxica (electrostática) color negro mate. Patas y base de las patas de lámina de acero troquelada, calibre 16; contiene niveladores. Terminado en cromo",
+            "asiento_respaldo": "Lámina de acero troquelada perforada, calibre 16; con acabado de pintura epóxica (electrostática) color gris olivo. Ensamblado en bastidor de acero tubular rectangular",
+            "color": "Gris olivo",
+            "resistencia": "Peso sugerido 306 kgs (153 kgs por plaza)",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -452,9 +483,12 @@
           "id": "ohr-2800-3pcr",
           "name": "OHR-2800-3PCR",
           "comercial_name": "Banca IVY-2800 OHR-2800-3PCR",
-          "description": "Banca IVY-2800 modelo OHR-2800-3PCR. Información detallada pendiente.",
+          "description": "Banca IVY-2800 modelo OHR-2800-3PCR. Estructura de acero con travesaño rectangular, patas cromadas y asiento/respaldo de lámina perforada para 3 plazas.",
           "specifications": {
-            "plazas": "3 plazas con cromado",
+            "estructura": "Travesaño de acero tubular rectangular de 1 1/2\" X 3 1/8\", calibre 14, con acabado de pintura epóxica (electrostática) color negro mate. Patas y base de las patas de lámina de acero troquelada, calibre 16; contiene niveladores. Terminado en cromo",
+            "asiento_respaldo": "Lámina de acero troquelada perforada, calibre 16; con acabado de pintura epóxica (electrostática) color gris olivo. Ensamblado en bastidor de acero tubular rectangular",
+            "color": "Gris olivo",
+            "resistencia": "Peso sugerido 459 kgs (153 kgs por plaza)",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -503,9 +537,12 @@
           "id": "ohr-2800-4pcr",
           "name": "OHR-2800-4PCR",
           "comercial_name": "Banca IVY-2800 OHR-2800-4PCR",
-          "description": "Banca IVY-2800 modelo OHR-2800-4PCR. Información detallada pendiente.",
+          "description": "Banca IVY-2800 modelo OHR-2800-4PCR. Estructura de acero con travesaño rectangular, patas cromadas y asiento/respaldo de lámina perforada para 4 plazas.",
           "specifications": {
-            "plazas": "4 plazas con cromado",
+            "estructura": "Travesaño de acero tubular rectangular de 1 1/2\" X 3 1/8\", calibre 14, con acabado de pintura epóxica (electrostática) color negro mate. Patas y base de las patas de lámina de acero troquelada, calibre 16; contiene niveladores. Terminado en cromo",
+            "asiento_respaldo": "Lámina de acero troquelada perforada, calibre 16; con acabado de pintura epóxica (electrostática) color gris olivo. Ensamblado en bastidor de acero tubular rectangular",
+            "color": "Gris olivo",
+            "resistencia": "Peso sugerido 612 kgs (153 kgs por plaza)",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [

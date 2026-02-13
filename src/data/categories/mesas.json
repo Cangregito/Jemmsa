@@ -15,10 +15,13 @@
           "id": "ohm-7023-st",
           "name": "OHM-7023-ST",
           "comercial_name": "Mesas MAGNOLIA OHM-7023-ST",
-          "description": "Mesa MAGNOLIA modelo OHM-7023-ST. Banco de polipropileno de alta resistencia con terminado en imitación rattán.",
+          "description": "Banco en polipropileno de alta resistencia y duración para intemperie e interior, resistente a los rayos ultravioleta (UV) y al ambiente salino con terminado en imitación rattán.",
           "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "tipo": "Banco",
+            "material": "Polipropileno de alta resistencia y duración para intemperie e interior, resistente a rayos UV y ambiente salino con terminado en imitación rattán",
+            "colores": "Blanco (W8), gris (G6), café (N3), negro (K3)",
             "resistencia": "Peso sugerido 180 kgs",
-            "leyenda": "Caja 360, COLECCIÓN DE TERMINADOS",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -70,8 +73,11 @@
           "id": "ohm-7095",
           "name": "OHM-7095",
           "comercial_name": "Mesas UNO OHM-7095",
-          "description": "Mesa UNO modelo OHM-7095. Polipropileno de alta resistencia para intemperie e interior.",
+          "description": "Mesa en polipropileno de alta resistencia y duración para intemperie e interior, resistente a los rayos ultravioleta (UV) y al ambiente salino.",
           "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "material": "Polipropileno de alta resistencia y duración para intemperie e interior, resistente a rayos UV y ambiente salino",
+            "colores": "Blanco (W9), gris (G6), café (N3), negro (K3)",
             "resistencia": "Peso sugerido 80 kgs",
             "referencia": "BIFMA",
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -110,15 +116,19 @@
     },
     "cancun": {
       "id": "cancun",
-      "name": "CANCÚ N",
-      "description": "Familia CANCÚUN de mesas.",
+      "name": "CANCÚN",
+      "description": "Familia CANCÚN de mesas.",
       "products": [
         {
           "id": "ohm-7035",
           "name": "OHM-7035",
-          "comercial_name": "Mesas CANCÚUN OHM-7035",
-          "description": "Mesa CANCÚUN modelo OHM-7035. Polipropileno ajustable en dos alturas.",
+          "comercial_name": "Mesas CANCÚN OHM-7035",
+          "description": "Mesa en polipropileno de alta resistencia y duración para intemperie e interior, resistente a los rayos ultravioleta (UV) y al ambiente salino; ajustable en dos alturas.",
           "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "material": "Polipropileno de alta resistencia y duración para intemperie e interior, resistente a rayos UV y ambiente salino",
+            "caracteristicas": "Ajustable en dos alturas",
+            "colores": "Blanco (W9), gris (G6), negro (K3), café (N3), ámbar (YF), pistache (V4)",
             "resistencia": "Peso sugerido 60 kgs",
             "referencia": "BIFMA",
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -133,7 +143,7 @@
               "link": "/catalogo?categoria=mesas"
             },
             {
-              "label": "CANCÚUN",
+              "label": "CANCÚN",
               "link": "/catalogo?categoria=mesas&familia=cancun"
             },
             {
@@ -172,8 +182,12 @@
           "id": "ohm-7101",
           "name": "OHM-7101",
           "comercial_name": "Mesas SEATTLE OHM-7101",
-          "description": "Mesa SEATTLE modelo OHM-7101. Polipropileno ajustable en dos alturas.",
+          "description": "Mesa en polipropileno de alta resistencia y duración para intemperie e interior, resistente a los rayos ultravioleta (UV) y al ambiente salino; ajustable en dos alturas.",
           "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "material": "Polipropileno de alta resistencia y duración para intemperie e interior, resistente a rayos UV y ambiente salino",
+            "caracteristicas": "Ajustable en dos alturas",
+            "colores": "Blanco (W8), gris (G6), café (N3), negro (K5), verde agave (VD), ámbar (YF)",
             "resistencia": "Peso sugerido 5 kgs",
             "referencia": "BIFMA",
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -247,8 +261,11 @@
           "id": "ohm-16",
           "name": "OHM-16",
           "comercial_name": "Mesas TONNATI OHM-16",
-          "description": "Mesa TONNATI modelo OHM-16. Termoplastico polimerizado resistente a intemperie.",
+          "description": "Mesa en termoplástico polimerizado de polipropileno para intemperie e interior, resistente a los rayos ultravioleta (UV), al ambiente salino, a los cambios bruscos de temperatura y a corrosión de ácidos alcalinos; es inocuo y no guarda aromas.",
           "specifications": {
+            "material": "Termoplástico polimerizado de polipropileno para intemperie e interior",
+            "caracteristicas": "Resistente a rayos UV, ambiente salino, cambios bruscos de temperatura y corrosión de ácidos alcalinos; inocuo, no guarda aromas",
+            "colores": "Blanco, negro y capuccino",
             "resistencia": "Peso sugerido 60 kgs",
             "referencia": "BIFMA",
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -294,8 +311,12 @@
           "id": "ohm-70",
           "name": "OHM-70",
           "comercial_name": "Mesas MARBEL OHM-70",
-          "description": "Mesa MARBEL modelo OHM-70. Información detallada pendiente.",
+          "description": "Mesa con estructura de perfil redondo sólido de acero y cubierta de 700 mm en laminado plástico de alta presión.",
           "specifications": {
+            "estructura": "Perfil redondo sólido de acero (cold rolled) en 1/2\" de diámetro. Color negro",
+            "cubierta": "700 mm LPAP laminado plástico de alta presión de 0.6mm. Canto termofundido. Color travertino",
+            "regatones": "Polipropileno homopolímero de alta densidad. Antiderrapantes. Color negro",
+            "resistencia": "Peso sugerido 60 kgs",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -332,8 +353,12 @@
           "id": "ohm-60",
           "name": "OHM-60",
           "comercial_name": "Mesas MARBEL OHM-60",
-          "description": "Mesa MARBEL modelo OHM-60. Información detallada pendiente.",
+          "description": "Mesa con estructura de perfil redondo sólido de acero y cubierta de 600 mm en laminado plástico de alta presión.",
           "specifications": {
+            "estructura": "Perfil redondo sólido de acero (cold rolled) en 1/2\" de diámetro. Color negro",
+            "cubierta": "600 mm LPAP laminado plástico de alta presión de 0.6mm. Canto termofundido. Color travertino",
+            "regatones": "Polipropileno homopolímero de alta densidad. Antiderrapantes. Color negro",
+            "resistencia": "Peso sugerido 60 kgs",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -377,8 +402,12 @@
           "id": "ohm-7097",
           "name": "OHM-7097",
           "comercial_name": "Mesas CHLOE OHM-7097",
-          "description": "Mesa CHLOE modelo OHM-7097. Termoplástico polimerizado resistente a intemperie.",
+          "description": "Mesa en termoplástico polimerizado de polipropileno para intemperie e interior, resistente a los rayos ultravioleta (UV), al ambiente salino, a los cambios bruscos de temperatura y a corrosión de ácidos alcalinos; es inocuo y no guarda aromas.",
           "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "material": "Termoplástico polimerizado de polipropileno para intemperie e interior",
+            "caracteristicas": "Resistente a rayos UV, ambiente salino, cambios bruscos de temperatura y corrosión de ácidos alcalinos; inocuo, no guarda aromas",
+            "colores": "Blanco (W9), gris (G6), blanco/verde (W9/VC)",
             "resistencia": "Peso sugerido 100 kgs",
             "referencia": "BIFMA",
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -424,8 +453,13 @@
           "id": "ohm-7155",
           "name": "OHM-7155",
           "comercial_name": "Mesas VENICE OHM-7155",
-          "description": "Mesa VENICE modelo OHM-7155. Información detallada pendiente.",
+          "description": "Mesa en termoplástico polimerizado de polipropileno de baja densidad para intemperie e interior, resistente a los rayos ultravioleta (UV), al ambiente salino, a los cambios bruscos de temperatura y a corrosión de ácidos alcalinos; es inocuo y no guarda aromas.",
           "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "material": "Termoplástico polimerizado de polipropileno de baja densidad para intemperie e interior",
+            "caracteristicas": "Resistente a rayos UV, ambiente salino, cambios bruscos de temperatura y corrosión de ácidos alcalinos; inocuo, no guarda aromas",
+            "colores": "Blanco (W9), gris (G6), gris oscuro (G7), verde agave (VD)",
+            "resistencia": "Peso sugerido 100 kgs",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -469,8 +503,12 @@
           "id": "ohm-47",
           "name": "OHM-47",
           "comercial_name": "Mesas QUICK OHM-47",
-          "description": "Mesa QUICK modelo OHM-47. Estructura de acero tubular con cubierta de polipropileno de alta densidad.",
+          "description": "Mesa con estructura de acero tubular redondo y cubierta en copolímero de polipropileno de alta densidad inyectado.",
           "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "Acero tubular redondo de 1 1/2\" de diámetro, calibre 16; con acabado de pintura epóxica (electrostática) color negro",
+            "cubierta": "Copolímero de polipropileno de alta densidad inyectado, en 5/8\" de espesor con embutido para lápiz",
+            "color": "Negro",
             "resistencia": "Peso sugerido 90 kgs",
             "referencia": "BIFMA",
             "nota_general": "El color puede variar dependiendo de su monitor"
@@ -506,8 +544,12 @@
           "id": "pedestal300-bl",
           "name": "PEDESTAL300-BL",
           "comercial_name": "Mesas PEDESTAL300-BL",
-          "description": "Mesa PEDESTAL300-BL. Información detallada pendiente.",
+          "description": "Pedestal de 3\" tubular de acero de 1\" para base de cubierta, con patas diseñadas en lámina de acero troquelada en forma piramidal.",
           "specifications": {
+            "estructura": "Pedestal de 3\" tubular de acero de 1\" para la base de la cubierta, patas diseñadas en lámina de acero calibre 18 troquelada en forma piramidal. Incluye nivelador para ajuste de altura",
+            "caracteristicas": "Soporta cubiertas de hasta 120 cm de diámetro",
+            "colores": "Negro, gris",
+            "resistencia": "Peso sugerido 120 kgs",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -564,11 +606,16 @@
       "description": "Familia OSLO de mesas.",
       "products": [
         {
-          "id": "oslo-base",
-          "name": "OSLO",
-          "comercial_name": "Mesas OSLO",
-          "description": "Mesa OSLO. Información detallada pendiente.",
+          "id": "ohm-7020-d2",
+          "name": "OHM-7020-D2",
+          "comercial_name": "Mesas OSLO OHM-7020-D2",
+          "description": "Mesa con estructura de perfiles tubulares de aluminio anodizado y cubierta en copolímero de polipropileno con diseño ergonómico, resistente a intemperie.",
           "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "Perfil cuadrado tubular de aluminio, travesaños de perfil rectangular tubular de aluminio y separador de perfil redondo tubular de aluminio. Tratamiento anodizado y terminado natural",
+            "cubierta": "Copolímero de polipropileno, diseño ergonómico; para uso a la intemperie e interior. Resistente a rayos UV y ambiente salino. Terminado en imitación rattán",
+            "colores": "Blanco, gris, negro, café",
+            "resistencia": "Peso sugerido 60 kgs",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -583,6 +630,76 @@
             {
               "label": "OSLO",
               "link": "/catalogo?categoria=mesas&familia=oslo"
+            },
+            {
+              "label": "OHM-7020-D2",
+              "link": "#"
+            }
+          ],
+          "image": "/public/img/Mesas/OSLO_RUSS/OSLO/OHM-7021-D2/OHM-7021-D2frenteChocolate.jpg"
+        },
+        {
+          "id": "ohm-7021-d2",
+          "name": "OHM-7021-D2",
+          "comercial_name": "Mesas OSLO OHM-7021-D2",
+          "description": "Mesa con estructura de perfiles tubulares de aluminio anodizado y cubierta en copolímero de polipropileno con diseño ergonómico, resistente a intemperie.",
+          "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "Perfil cuadrado tubular de aluminio, travesaños de perfil rectangular tubular de aluminio y separador de perfil redondo tubular de aluminio. Tratamiento anodizado y terminado natural",
+            "cubierta": "Copolímero de polipropileno, diseño ergonómico; para uso a la intemperie e interior. Resistente a rayos UV y ambiente salino. Terminado en imitación rattán",
+            "colores": "Blanco, gris, negro, café",
+            "resistencia": "Peso sugerido 60 kgs",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "MESAS",
+              "link": "/catalogo?categoria=mesas"
+            },
+            {
+              "label": "OSLO",
+              "link": "/catalogo?categoria=mesas&familia=oslo"
+            },
+            {
+              "label": "OHM-7021-D2",
+              "link": "#"
+            }
+          ],
+          "image": "/public/img/Mesas/OSLO_RUSS/OSLO/OHM-7021-D2/OHM-7021-D2frenteChocolate.jpg"
+        },
+        {
+          "id": "ohm-7022-d2",
+          "name": "OHM-7022-D2",
+          "comercial_name": "Mesas OSLO OHM-7022-D2",
+          "description": "Mesa con estructura de perfiles tubulares de aluminio anodizado y cubierta en copolímero de polipropileno con diseño ergonómico, resistente a intemperie.",
+          "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "Perfil cuadrado tubular de aluminio, travesaños de perfil rectangular tubular de aluminio y separador de perfil redondo tubular de aluminio. Tratamiento anodizado y terminado natural",
+            "cubierta": "Copolímero de polipropileno, diseño ergonómico; para uso a la intemperie e interior. Resistente a rayos UV y ambiente salino. Terminado en imitación rattán",
+            "colores": "Blanco, gris, negro, café",
+            "resistencia": "Peso sugerido 60 kgs",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "MESAS",
+              "link": "/catalogo?categoria=mesas"
+            },
+            {
+              "label": "OSLO",
+              "link": "/catalogo?categoria=mesas&familia=oslo"
+            },
+            {
+              "label": "OHM-7022-D2",
+              "link": "#"
             }
           ],
           "image": "/public/img/Mesas/OSLO_RUSS/OSLO/OHM-7021-D2/OHM-7021-D2frenteChocolate.jpg"
@@ -595,11 +712,16 @@
       "description": "Familia RUSS de mesas.",
       "products": [
         {
-          "id": "russ-base",
-          "name": "RUSS",
-          "comercial_name": "Mesas RUSS",
-          "description": "Mesa RUSS. Información detallada pendiente.",
+          "id": "ohm-7022-b2",
+          "name": "OHM-7022-B2",
+          "comercial_name": "Mesas RUSS OHM-7022-B2",
+          "description": "Mesa con estructura de perfiles tubulares de aluminio anodizado y cubierta en copolímero de polipropileno con diseño ergonómico, resistente a intemperie.",
           "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "Perfil cuadrado tubular de aluminio, travesaños de perfil rectangular tubular de aluminio y separador de perfil redondo tubular de aluminio. Tratamiento anodizado y terminado natural",
+            "cubierta": "Copolímero de polipropileno, diseño ergonómico; para uso a la intemperie e interior. Resistente a rayos UV y ambiente salino. Terminado en imitación rattán",
+            "colores": "Blanco, gris, negro, café",
+            "resistencia": "Peso sugerido 60 kgs",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -614,6 +736,43 @@
             {
               "label": "RUSS",
               "link": "/catalogo?categoria=mesas&familia=russ"
+            },
+            {
+              "label": "OHM-7022-B2",
+              "link": "#"
+            }
+          ],
+          "image": "/public/img/Mesas/OSLO_RUSS/RUSS/OHM-7022-B2/OHM-7022-B2FrenteNegro.jpg"
+        },
+        {
+          "id": "ohm-7022-c2",
+          "name": "OHM-7022-C2",
+          "comercial_name": "Mesas RUSS OHM-7022-C2",
+          "description": "Mesa con estructura de perfiles tubulares de aluminio anodizado y cubierta en copolímero de polipropileno con diseño ergonómico, resistente a intemperie.",
+          "specifications": {
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "estructura": "Perfil cuadrado tubular de aluminio, travesaños de perfil rectangular tubular de aluminio y separador de perfil redondo tubular de aluminio. Tratamiento anodizado y terminado natural",
+            "cubierta": "Copolímero de polipropileno, diseño ergonómico; para uso a la intemperie e interior. Resistente a rayos UV y ambiente salino. Terminado en imitación rattán",
+            "colores": "Blanco, gris, negro, café",
+            "resistencia": "Peso sugerido 60 kgs",
+            "nota_general": "El color puede variar dependiendo de su monitor"
+          },
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "link": "/"
+            },
+            {
+              "label": "MESAS",
+              "link": "/catalogo?categoria=mesas"
+            },
+            {
+              "label": "RUSS",
+              "link": "/catalogo?categoria=mesas&familia=russ"
+            },
+            {
+              "label": "OHM-7022-C2",
+              "link": "#"
             }
           ],
           "image": "/public/img/Mesas/OSLO_RUSS/RUSS/OHM-7022-B2/OHM-7022-B2FrenteNegro.jpg"
@@ -629,8 +788,12 @@
           "id": "ohm-7167-dt",
           "name": "OHM-7167-DT",
           "comercial_name": "Mesas OULU OHM-7167-DT",
-          "description": "Mesa OULU modelo OHM-7167-DT. Información detallada pendiente.",
+          "description": "Mesa con base redonda con pedestal de acero y cubierta en polipropileno de alta resistencia y duración.",
           "specifications": {
+            "base": "Forma redonda con pedestal de acero. Pintura electrostática en polvo (epóxica)",
+            "cubierta": "Polipropileno de alta resistencia y duración",
+            "colores": "Blanco (W9), blanco con negro (W9/K5), negro (K5)",
+            "resistencia": "Peso sugerido 50 kgs",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -667,8 +830,12 @@
           "id": "ohm-7167-lt",
           "name": "OHM-7167-LT",
           "comercial_name": "Mesas OULU OHM-7167-LT",
-          "description": "Mesa OULU modelo OHM-7167-LT. Información detallada pendiente.",
+          "description": "Mesa con base redonda con pedestal de acero y cubierta en polipropileno de alta resistencia y duración.",
           "specifications": {
+            "base": "Forma redonda con pedestal de acero. Pintura electrostática en polvo (epóxica)",
+            "cubierta": "Polipropileno de alta resistencia y duración",
+            "colores": "Blanco (W9), blanco con negro (W9/K5), negro (K5)",
+            "resistencia": "Peso sugerido 50 kgs",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -705,8 +872,12 @@
           "id": "ohm-7167-bt",
           "name": "OHM-7167-BT",
           "comercial_name": "Mesas OULU OHM-7167-BT",
-          "description": "Mesa OULU modelo OHM-7167-BT. Información detallada pendiente.",
+          "description": "Mesa con base redonda con pedestal de acero y cubierta en polipropileno de alta resistencia y duración.",
           "specifications": {
+            "base": "Forma redonda con pedestal de acero. Pintura electrostática en polvo (epóxica)",
+            "cubierta": "Polipropileno de alta resistencia y duración",
+            "colores": "Blanco (W9), blanco con negro (W9/K5), negro (K5)",
+            "resistencia": "Peso sugerido 50 kgs",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -750,8 +921,12 @@
           "id": "ohm-7168b-dt",
           "name": "OHM-7168B-DT",
           "comercial_name": "Mesas HERON-MESAS OHM-7168B-DT",
-          "description": "Mesa HERON-MESAS modelo OHM-7168B-DT. Información detallada pendiente.",
+          "description": "Mesa con base redonda con pedestal de acero y cubierta en polipropileno de alta resistencia y duración.",
           "specifications": {
+            "base": "Forma redonda con pedestal de acero. Pintura electrostática en polvo (epóxica)",
+            "cubierta": "Polipropileno de alta resistencia y duración",
+            "colores": "Blanco (W9), blanco con negro (W9/K5)",
+            "resistencia": "Peso sugerido 40 kgs",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -788,8 +963,12 @@
           "id": "ohm-7168b-lt",
           "name": "OHM-7168B-LT",
           "comercial_name": "Mesas HERON-MESAS OHM-7168B-LT",
-          "description": "Mesa HERON-MESAS modelo OHM-7168B-LT. Información detallada pendiente.",
+          "description": "Mesa con base redonda con pedestal de acero y cubierta en polipropileno de alta resistencia y duración.",
           "specifications": {
+            "base": "Forma redonda con pedestal de acero. Pintura electrostática en polvo (epóxica)",
+            "cubierta": "Polipropileno de alta resistencia y duración",
+            "colores": "Blanco (W9), blanco con negro (W9/K5)",
+            "resistencia": "Peso sugerido 40 kgs",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [
@@ -826,8 +1005,12 @@
           "id": "ohm-7168b-bt",
           "name": "OHM-7168B-BT",
           "comercial_name": "Mesas HERON-MESAS OHM-7168B-BT",
-          "description": "Mesa HERON-MESAS modelo OHM-7168B-BT. Información detallada pendiente.",
+          "description": "Mesa con base redonda con pedestal de acero y cubierta en polipropileno de alta resistencia y duración.",
           "specifications": {
+            "base": "Forma redonda con pedestal de acero. Pintura electrostática en polvo (epóxica)",
+            "cubierta": "Polipropileno de alta resistencia y duración",
+            "colores": "Blanco (W9), blanco con negro (W9/K5)",
+            "resistencia": "Peso sugerido 40 kgs",
             "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "breadcrumb": [

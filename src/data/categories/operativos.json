@@ -691,19 +691,27 @@
         }
       ]
     },
-    "roly": {
+        "roly": {
       "id": "roly",
       "name": "ROLY",
       "description": "Familia ROLY de sillas operativas.",
       "products": [
         {
-          "id": "roly-base",
-          "name": "ROLY modelo base",
-          "description": "Silla operativa de la familia ROLY. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
+          "id": "ohe-403negro",
+          "name": "ROLY modelo OHE-403negro",
+          "description": "Silla operativa ROLY modelo OHE-403negro con base en poliamida negra y estrella de acero cromado, respaldo en malla negra con soporte lumbar fijo, brazos abatibles con pad tapizado, asiento tapizado en tela negra, peso sugerido 130 kg.",
           "specifications": {
-            "nota": "El color puede variar dependiendo del monitor",
-            "tapiz": "Consulta el catálogo de tapices",
-            "capacidad": "Peso sugerido 120 kg"
+            "base": "Color negro en poliamida, estrella de 5 puntas en acero cromado, rodajas intercambiables",
+            "rodajas": "Color negro, nylon 100%, nervada y concha protectora con giro de 360°",
+            "sistema_elevacion": "Pistón neumático de gas nitrógeno con cubierta cilíndrica de acero, bloqueo en diferentes alturas y ensamble cónico a presión en la base del asiento y en la base de la silla",
+            "mecanismo": "Reclinable con regulador de tensión de inclinación, placa de acero reforzado tipo articulado basculante, con palanca de accionamiento y bloqueo del pistón neumático",
+            "caracteristicas": "Diseño ergonómico, respaldo medio y soporte lumbar fijo color gris",
+            "brazos": "Abatibles de polipropileno semi rígido con pad suave y tapizado en Soft revolving leather color negro",
+            "respaldo": "Color negro, bastidor de polipropileno de alta densidad y soportes en forma de L ensamblado al asiento por medio de tornillos",
+            "asiento": "Asiento interior en madera de triplay preformado, acojinado con espuma inyectada de 55kg/m³ y con tapa protectora de polipropileno de alta densidad",
+            "tapiz": "Respaldo de malla y asiento tapizado en funda de tela 100% poliéster color negro con pespunte",
+            "resistencia": "Peso sugerido 130 kgs",
+            "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "image": "/public/img/Operativos/ROLY/OHE-403-frente.jpg"
         }
@@ -1149,7 +1157,7 @@
         }
       ]
     },
-    "quick": {
+        "quick": {
       "id": "quick",
       "name": "QUICK",
       "description": "Familia QUICK de sillas operativas.",
@@ -1157,11 +1165,17 @@
         {
           "id": "ohs-47",
           "name": "QUICK modelo OHS-47",
-          "description": "Silla operativa QUICK modelo OHS-47. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
+          "description": "Silla operativa QUICK modelo OHS-47 de la Colección de Terminados. Asiento y respaldo de una sola pieza en polipropileno de alta resistencia, disponible en varios colores.",
           "specifications": {
-            "nota": "El color puede variar dependiendo del monitor",
-            "tapiz": "Consulta el catálogo de tapices",
-            "capacidad": "Peso sugerido 120 kg"
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "base": "Estrella de 5 puntas en aluminio fundido y pulido, rodajas tipo dual y/o regatones",
+            "elevación": "Pistón neumático con terminado en cromo que permite ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado con palanca de accionamiento y bloqueo del pistón neumático",
+            "asiento_respaldo": "Una sola pieza en polipropileno de alta resistencia y duración",
+            "colores": "Negro, azul, abocado, blanco, rojo o gris cálido",
+            "resistencia": "Peso sugerido 120 kgs",
+            "nota": "Las medidas de las alturas aumentan con pistón cajero 240 mm",
+            "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "image": "/public/img/Operativos/QUICK/OHS-47/OHS-47frente.jpg",
           "images": [
@@ -1190,11 +1204,17 @@
         {
           "id": "ohs-47panello",
           "name": "QUICK modelo OHS-47panello",
-          "description": "Silla operativa QUICK modelo OHS-47panello. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
+          "description": "Silla operativa QUICK modelo OHS-47panello con respaldo en polipropileno y asiento tapizado al color de elección.",
           "specifications": {
-            "nota": "El color puede variar dependiendo del monitor",
-            "tapiz": "Consulta el catálogo de tapices",
-            "capacidad": "Peso sugerido 120 kg"
+            "base": "Estrella de 5 puntas en aluminio fundido y pulido, rodajas tipo dual y/o regatones",
+            "elevación": "Pistón neumático con terminado en cromo que permite ajustar la altura del asiento",
+            "mecanismo": "Plato de acero reforzado con palanca de accionamiento y bloqueo del pistón neumático",
+            "respaldo": "Una sola pieza en polipropileno de alta resistencia y duración",
+            "colores": "Negro, azul, abocado, blanco, rojo o gris cálido",
+            "tapiz": "Asiento tapizado al color de su elección de toda la colección de tapices",
+            "resistencia": "Peso sugerido 120 kgs",
+            "nota": "Las medidas de las alturas aumentan con pistón cajero 240 mm",
+            "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "image": "/public/img/Operativos/QUICK/OHS-47panello/OHS-47frente.jpg",
           "images": [
@@ -1221,8 +1241,7 @@
           ]
         }
       ]
-    },
-    "revolution": {
+    },    "revolution": {
       "id": "revolution",
       "name": "REVOLUTION",
       "description": "Familia REVOLUTION de sillas operativas.",
@@ -1230,11 +1249,17 @@
         {
           "id": "ohs-85al",
           "name": "REVOLUTION modelo OHS-85Al",
-          "description": "Silla operativa REVOLUTION modelo OHS-85Al. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
+          "description": "Silla operativa REVOLUTION modelo OHS-85Al con respaldo en bastidor de polipropileno y asiento tapizado.",
           "specifications": {
-            "nota": "El color puede variar dependiendo del monitor",
-            "tapiz": "Consulta el catálogo de tapices",
-            "capacidad": "Peso sugerido 120 kg"
+            "base": "Estrella de 5 puntas en aluminio fundido y pulido, rodajas tipo dual y/o regatones",
+            "elevación": "Pistón neumático con terminado en cromo que permite ajustar la altura del asiento",
+            "mecanismo": "Aluminio fundido con palanca de accionamiento y bloqueo del pistón neumático",
+            "respaldo": "Bastidor en polipropileno de alta resistencia y duración, color negro",
+            "asiento": "Hule espuma de poliuretano inyectado con 60 kgs/m³ con retardante a la flama y alta resiliencia",
+            "tapiz": "Respaldo en malla color negro y asiento tapizado al color de su elección de toda la colección de tapices",
+            "resistencia": "Peso sugerido 160 kgs",
+            "nota": "Las medidas de las alturas aumentan con pistón cajero 240 mm",
+            "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "image": "/public/img/Operativos/REVOLUTION/OHS-85Al/OHS-85alFrente.jpg",
           "images": [
@@ -1263,11 +1288,17 @@
         {
           "id": "ohs-86al",
           "name": "REVOLUTION modelo OHS-86Al",
-          "description": "Silla operativa REVOLUTION modelo OHS-86Al. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
+          "description": "Silla operativa REVOLUTION modelo OHS-86Al de la Colección de Terminados, con asiento y respaldo en dos piezas de polipropileno.",
           "specifications": {
-            "nota": "El color puede variar dependiendo del monitor",
-            "tapiz": "Consulta el catálogo de tapices",
-            "capacidad": "Peso sugerido 120 kg"
+            "coleccion": "COLECCIÓN DE TERMINADOS",
+            "base": "Estrella de 5 puntas en aluminio fundido y pulido, rodajas tipo dual y/o regatones",
+            "elevación": "Pistón neumático con terminado en cromo que permite ajustar la altura del asiento",
+            "mecanismo": "Aluminio fundido con palanca de accionamiento y bloqueo del pistón neumático",
+            "respaldo_asiento": "Dos piezas en polipropileno de alta resistencia y duración",
+            "colores": "Negro, azul marino, verde, naranja, arena, blanco, rojo o gris",
+            "resistencia": "Peso sugerido 160 kgs",
+            "nota": "Las medidas de las alturas aumentan con pistón cajero 240 mm",
+            "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "image": "/public/img/Operativos/REVOLUTION/OHS-86Al/OHS-86alFrente.jpg",
           "images": [
@@ -1296,11 +1327,18 @@
         {
           "id": "ohs-87al",
           "name": "REVOLUTION modelo OHS-87Al",
-          "description": "Silla operativa REVOLUTION modelo OHS-87Al. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
+          "description": "Silla operativa REVOLUTION modelo OHS-87Al con respaldo en polipropileno y asiento tapizado.",
           "specifications": {
-            "nota": "El color puede variar dependiendo del monitor",
-            "tapiz": "Consulta el catálogo de tapices",
-            "capacidad": "Peso sugerido 120 kg"
+            "base": "Estrella de 5 puntas en aluminio fundido y pulido, rodajas tipo dual y/o regatones",
+            "elevación": "Pistón neumático con terminado en cromo que permite ajustar la altura del asiento",
+            "mecanismo": "Aluminio fundido con palanca de accionamiento y bloqueo del pistón neumático",
+            "respaldo": "Una pieza en polipropileno de alta resistencia y duración",
+            "asiento": "Hule espuma de poliuretano inyectado con 60 kgs/m³ con retardante a la flama y alta resiliencia",
+            "colores_respaldo": "Negro, azul marino, verde, naranja, arena, blanco, rojo o gris",
+            "tapiz": "Tapizada al color de su elección de toda la colección de tapices",
+            "resistencia": "Peso sugerido 160 kgs",
+            "nota": "Las medidas de las alturas aumentan con pistón cajero 240 mm",
+            "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "image": "/public/img/Operativos/REVOLUTION/OHS-87Al/OHS-87alFrente.jpg",
           "images": [
@@ -1329,11 +1367,16 @@
         {
           "id": "ohs-88al",
           "name": "REVOLUTION modelo OHS-88Al",
-          "description": "Silla operativa REVOLUTION modelo OHS-88Al. Consulta catálogo de tapices; el color puede variar dependiendo del monitor.",
+          "description": "Silla operativa REVOLUTION modelo OHS-88Al con asiento y respaldo acolchados.",
           "specifications": {
-            "nota": "El color puede variar dependiendo del monitor",
-            "tapiz": "Consulta el catálogo de tapices",
-            "capacidad": "Peso sugerido 120 kg"
+            "base": "Estrella de 5 puntas en aluminio fundido y pulido, rodajas tipo dual y/o regatones",
+            "elevación": "Pistón neumático con terminado en cromo que permite ajustar la altura del asiento",
+            "mecanismo": "Aluminio fundido con palanca de accionamiento y bloqueo del pistón neumático",
+            "asiento_respaldo": "Plásticos en color negro o blanco, hule espuma laminado flexible con 24 kgs/m³ de densidad en el respaldo y hule espuma de poliuretano inyectado con 60 kgs/m³ con retardante a la flama en el asiento; de alta resiliencia",
+            "tapiz": "Tapizada al color de su elección de toda la colección de tapices",
+            "resistencia": "Peso sugerido 160 kgs",
+            "nota": "Las medidas de las alturas aumentan con pistón cajero 240 mm",
+            "nota_general": "El color puede variar dependiendo de su monitor"
           },
           "image": "/public/img/Operativos/REVOLUTION/OHS-88Al/OHS-88alFrente.jpg",
           "images": [
